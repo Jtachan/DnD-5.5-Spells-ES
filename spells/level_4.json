@@ -1,1 +1,14 @@
-{}
+{
+    "adivinacion": {
+        "classes": ["Clérigo"],
+        "escuela": "adivinacion",
+        "componentes": ["V", "S", "M (incienso y una ofrenda ritual apropiada a tu religión, en conjunto con valor de 25 po y que son consumidos por el conjuro)"],
+        "tiempo_de_lanzamiento": "1 acción, ritual",
+        "alcance": "Lanzador",
+        "duracion": "Instantáneo",
+        "tirada_de_salvacion": null,
+        "requiere_ataque": false,
+        "danyo": null,
+        "descripcion": "Tu magia y la ofrenda te ponen en contacto con un dios o sus sirvientes. Puedes hacer una sola pregunta sobre una meta, evento o actividad específica que ocurrirá en los próximos 7 días. El DM te dará una respuesta verdadera, que puede ser una frase corta, una rima críptica o un augurio.\nEste conjuro no tiene en cuenta ninguna circunstancia que pueda alterar los resultados, como por ejemplo el lanzamiento de otros conjuros o la pérdida de o encuentro con un compañero.\nSi se lanya dos veces o más antes del próximo descanso largo, hay una posibilidad acumulativa del 25% por cada lanzamiento después del primero de recibir un presagio aleatorio. El Dm realiza esta tirada en secreto."
+    }
+}

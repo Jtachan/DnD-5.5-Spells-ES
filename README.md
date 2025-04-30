@@ -33,8 +33,9 @@ Cada conjuro contiene las siguientes entradas:
 
 ### Ejemplos
 
-```json
+```python
 {
+    # Conjuro de nivel 2:
     "abrir": {
         "classes": ["Bardo", "Hechizero", "Mago"],
         "escuela": "Transmutación",
