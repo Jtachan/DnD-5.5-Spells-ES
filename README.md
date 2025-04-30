@@ -20,7 +20,7 @@ Cada conjuro contiene las siguientes entradas:
 - **duracion** `str`:<br>El tiempo que el efecto del conjuro se mantiene activo.
 - **tirada_de_salvacion** `str | None`:<br>Atributo requerido para la tirada de salvación contra el conjuro. Toma el valor de `null` si no requiere ninguna tirada.
 - **requiere_ataque** `bool`:<br>Flag indicando si el personaje que lanza el conjuro requiere una tirada de ataque.
-- **danyo** `dict`:<br>Información sobre el daño producido.
+- **danyo** `dict | None`:<br>Información sobre el daño producido. Toma el valor de `null` si el conjuro no realiza ningún daño.
     - **tipo** `str`:<br>Tipo de daño producido. Ej.: "Fuego", "Radiante", etc.
     - **base** `str`:<br>Daño producido a nivel base del conjuro. El daño está definido con notación de dado. Por ejemplo, "1d8" corresponde a una tirada de un dado de ocho caras.
     - **tipo** `dict[str, str]`:<br>Información sobre el daño producido en niveles superiores (solo si es aplicable).
