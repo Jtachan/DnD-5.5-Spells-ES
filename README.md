@@ -19,7 +19,7 @@ Cada conjuro contiene las siguientes entradas:
 
 - **classes** `list[str]`:<br>Todas las clases (organizadas alfa) que pueden aprender el conjuro. Ej.: ["Clérigo", "Bardo", "Brujo"]
 - **escuela** `str`:<br>Escuela del conjuro. Ej.: "Transmutación", "Evocación", "Conjuración".
-- **componentes** `list[str]`:<br>Los componentes necesarios para lanzar el conjuro. "V" = verbal, "C" = componente, "S" = somático.
+- **componentes** `list[str]`:<br>Los componentes necesarios para lanzar el conjuro. "V" = verbal, "M" = material, "S" = somático.
 - **tiempo_de_lanzamiento** `str`:<br>El tiempo requerido para lanzar el conjuro.
 - **alcance** `str`:<br>Información sobre a qué objetivos puede afectar el conjuro.
 - **duracion** `str`:<br>El tiempo que el efecto del conjuro se mantiene activo.
@@ -30,6 +30,25 @@ Cada conjuro contiene las siguientes entradas:
     - **base** `str`:<br>Daño producido a nivel base del conjuro. El daño está definido con notación de dado. Por ejemplo, "1d8" corresponde a una tirada de un dado de ocho caras.
     - **tipo** `dict[str, str]`:<br>Información sobre el daño producido en niveles superiores (solo si es aplicable).
 - **descripcion** `str`:<br> Descripción completa del conjuro.
+
+### Ejemplos
+
+```json
+{
+    "abrir": {
+        "classes": ["Bardo", "Hechizero", "Mago"],
+        "escuela": "Transmutación",
+        "componentes": ["V"],
+        "tiempo_de_lanzamiento": "1 acción",
+        "alcance": "60 pies, visible",
+        "duracion": "Instantáneo",
+        "tirada_de_salvacion": null,
+        "requiere_ataque": false,
+        "danyo": null,
+        "descripcion": "Elige un objeto que puedas ver dentro del alcance. Este puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera, mágica o mundana, de impedir el acceso.\nUn objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tenía varios cerrojos, solo se desbloquea uno de ellos.\nSi eliges un objetivo que está cerrado mediante _cerradura arcana_, este conjuro queda anulado durante 10 minutos, y durante este tiempo el objeto se puede abrir y cerrar con normalidad.\nCuando lanzas este conjuro, un fuerte golpe suena desde el objeto, audible desde 300 pies de distancia."
+    }
+}
+```
 
 ## Contribución
 
