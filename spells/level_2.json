@@ -1,0 +1,13 @@
+{
+    "abrir": {
+        "classes": ["Bardo", "Hechizero", "Mago"],
+        "componentes": ["V"],
+        "tiempo_de_lanzamiento": "1 acción",
+        "alcance": "60 pies, visible",
+        "duracion": "Instantáneo",
+        "tirada_de_salvacion": null,
+        "requiere_ataque": false,
+        "danyo": null,
+        "descripcion": "Elige un objeto que puedas ver dentro del alcance. Este puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera, mágica o mundana, de impedir el acceso.\nUn objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tenía varios cerrojos, solo se desbloquea uno de ellos.\nSi eliges un objetivo que está cerrado mediante _cerradura arcana_, este conjuro queda anulado durante 10 minutos, y durante este tiempo el objeto se puede abrir y cerrar con normalidad.\nCuando lanzas este conjuro, un fuerte golpe suena desde el objeto, audible desde 300 pies de distancia."
+    }
+}
