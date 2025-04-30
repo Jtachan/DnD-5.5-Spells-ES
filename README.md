@@ -28,14 +28,14 @@ Cada conjuro contiene las siguientes entradas:
 - **danyo** `dict | None`:<br>Información sobre el daño producido. Toma el valor de `null` si el conjuro no realiza ningún daño.
     - **tipo** `str`:<br>Tipo de daño producido. Ej.: "Fuego", "Radiante", etc.
     - **base** `str`:<br>Daño producido a nivel base del conjuro. El daño está definido con notación de dado. Por ejemplo, "1d8" corresponde a una tirada de un dado de ocho caras.
-    - **tipo** `dict[str, str]`:<br>Información sobre el daño producido en niveles superiores (solo si es aplicable).
+    - **escala** `dict[str, str]`:<br>Información sobre el daño producido en niveles superiores (solo si es aplicable).
 - **descripcion** `str`:<br> Descripción completa del conjuro.
 
 ### Ejemplos
 
 ```python
 {
-    # Conjuro de nivel 2:
+    # Conjuro de nivel 2 sin daño:
     "abrir": {
         "classes": ["Bardo", "Hechizero", "Mago"],
         "escuela": "Transmutación",
@@ -47,6 +47,27 @@ Cada conjuro contiene las siguientes entradas:
         "requiere_ataque": false,
         "danyo": null,
         "descripcion": "Elige un objeto que puedas ver dentro del alcance. Este puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera, mágica o mundana, de impedir el acceso.\nUn objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tenía varios cerrojos, solo se desbloquea uno de ellos.\nSi eliges un objetivo que está cerrado mediante _cerradura arcana_, este conjuro queda anulado durante 10 minutos, y durante este tiempo el objeto se puede abrir y cerrar con normalidad.\nCuando lanzas este conjuro, un fuerte golpe suena desde el objeto, audible desde 300 pies de distancia."
+    }
+    # Conjuro de nivel 0 con daño escalable:
+    "agarre_electrizante": {
+        "classes": ["Hechizero", "Mago"],
+        "escuela": "Evocación",
+        "componentes": ["V", "S"],
+        "tiempo_de_lanzamiento": "1 acción",
+        "alcance": "Toque",
+        "duracion": "Instantáneo",
+        "tirada_de_salvacion": null,
+        "requiere_ataque": true,
+        "danyo": {
+            "tipo": "Relámpago",
+            "base": "1d8",
+            "escala": {
+                "nivel_5": "2d8",
+                "nivel_11": "3d8",
+                "nivel_17": "4d8"
+            }
+        },
+        "descripcion": "Un relámpago salta de tu mano para dar una descarga eléctrica a la criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Tienes ventaja en la tirada de ataque si la criatura lleva armadura de metal. Si impactas, el objetivo sufre 1d8 de daño de relámpago y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno."
     }
 }
 ```

@@ -6,3 +6,4 @@ En esta lista aparecen todos los conjuros (organizados alfabéticamente) que ha 
 - **Abrir**: Nivel 2
 - **Acelerar**: Nivel 3
 - **Adivinación**: Nivel 4
+- **Agarre electrizante**: Truco
