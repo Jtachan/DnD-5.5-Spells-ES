@@ -1,6 +1,7 @@
 {
     "abrir": {
         "classes": ["Bardo", "Hechizero", "Mago"],
+        "escuela": "Transmutación",
         "componentes": ["V"],
         "tiempo_de_lanzamiento": "1 acción",
         "alcance": "60 pies, visible",

@@ -18,6 +18,7 @@ Dentro del archivo, los conjuros están organizados en un diccionario organizado
 Cada conjuro contiene las siguientes entradas:
 
 - **classes** `list[str]`:<br>Todas las clases (organizadas alfa) que pueden aprender el conjuro. Ej.: ["Clérigo", "Bardo", "Brujo"]
+- **escuela** `str`:<br>Escuela del conjuro. Ej.: "Transmutación", "Evocación", "Conjuración".
 - **componentes** `list[str]`:<br>Los componentes necesarios para lanzar el conjuro. "V" = verbal, "C" = componente, "S" = somático.
 - **tiempo_de_lanzamiento** `str`:<br>El tiempo requerido para lanzar el conjuro.
 - **alcance** `str`:<br>Información sobre a qué objetivos puede afectar el conjuro.
