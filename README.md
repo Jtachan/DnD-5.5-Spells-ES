@@ -29,7 +29,7 @@ Cada conjuro contiene las siguientes entradas:
     - **tipo** `str`:<br>Tipo de daño producido. Ej.: "Fuego", "Radiante", etc.
     - **base** `str`:<br>Daño producido a nivel base del conjuro. El daño está definido con notación de dado. Por ejemplo, "1d8" corresponde a una tirada de un dado de ocho caras.
     - **escala** `dict[str, str]`:<br>Información sobre el daño producido en niveles superiores (solo si es aplicable).
-- **descripcion** `str`:<br> Descripción completa del conjuro.
+- **descripcion** `str`:<br> Descripción completa del conjuro en texto con formato.
 
 ### Ejemplos
 

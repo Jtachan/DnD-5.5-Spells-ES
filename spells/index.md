@@ -7,3 +7,4 @@ En esta lista aparecen todos los conjuros (organizados alfabéticamente) que ha 
 - **Acelerar**: Nivel 3
 - **Adivinación**: Nivel 4
 - **Agarre electrizante**: Truco
+- **Agrandar/Reducir**: Nivel 2
