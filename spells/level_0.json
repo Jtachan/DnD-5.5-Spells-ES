@@ -26,5 +26,27 @@
       }
     },
     "descripcion": "Un relámpago salta de tu mano para dar una descarga eléctrica a la criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Tienes ventaja en la tirada de ataque si la criatura lleva armadura de metal. Si impactas, el objetivo sufre 1d8 de daño de relámpago y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno."
+  },
+  "amistad": {
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechizero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "S",
+      "M (una pequeña cantidad de maquillaje aplicada sobre la cara al lanzar el conjuro)"
+    ],
+    "duracion": "Concentración, hasta 1 minuto.",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "danyo": null,
+    "descripcion": "Hasta el final de la duración del conjuro tienes ventaja en todas las pruebas de Carisma relacionadas con una criatura de tu elección que no sea hostil hacia ti. Cuando el conjuro termina, el objetivo se da cuenta de que has usado magia para manipular su actitud y se vuelve hostil hacia ti. Una criatura con tendencias violentas podría atacarte, mientras que otra podría intentar vengarse de otra manera (bajo el criterio del DM), dependiendo de la índole de tu interacción con ella."
   }
 }
