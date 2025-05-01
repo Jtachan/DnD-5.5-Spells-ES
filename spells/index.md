@@ -8,3 +8,4 @@ En esta lista aparecen todos los conjuros (organizados alfabéticamente) que ha 
 - **Adivinación**: Nivel 4
 - **Agarre electrizante**: Truco
 - **Agrandar/Reducir**: Nivel 2
+- **Alarma**: Nivel 1
