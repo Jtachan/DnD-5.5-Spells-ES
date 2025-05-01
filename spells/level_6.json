@@ -1,1 +1,14 @@
-{}
+{
+  "aliado_planar": {
+    "classes": ["Bardo", "Hechizero", "Mago"],
+    "escuela": "Conjuración",
+    "componentes": ["V", "S"],
+    "tiempo_de_lanzamiento": "10 minutos",
+    "alcance": "60 pies",
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "danyo": null,
+    "descripcion": ""
+  }
+}
