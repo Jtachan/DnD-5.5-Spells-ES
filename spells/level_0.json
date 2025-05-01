@@ -1,23 +1,30 @@
 {
-    "agarre_electrizante": {
-        "clases": ["Hechizero", "Mago"],
-        "escuela": "Evocación",
-        "componentes": ["V", "S"],
-        "tiempo_de_lanzamiento": "1 acción",
-        "alcance": "Toque",
-        "duracion": "Instantáneo",
-        "tirada_de_salvacion": null,
-        "requiere_ataque": true,
-        "ritual": false,
-        "danyo": {
-            "tipo": "Relámpago",
-            "base": "1d8",
-            "escala": {
-                "nivel_5": "2d8",
-                "nivel_11": "3d8",
-                "nivel_17": "4d8"
-            }
-        },
-        "descripcion": "Un relámpago salta de tu mano para dar una descarga eléctrica a la criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Tienes ventaja en la tirada de ataque si la criatura lleva armadura de metal. Si impactas, el objetivo sufre 1d8 de daño de relámpago y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno."
-    }
+  "agarre_electrizante": {
+    "clases": [
+      "Hechizero",
+      "Mago"
+    ],
+    "escuela": "Evocación",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "danyo": {
+      "tipo": "Relámpago",
+      "base": "1d8",
+      "escala": {
+        "nivel_5": "2d8",
+        "nivel_11": "3d8",
+        "nivel_17": "4d8"
+      }
+    },
+    "descripcion": "Un relámpago salta de tu mano para dar una descarga eléctrica a la criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Tienes ventaja en la tirada de ataque si la criatura lleva armadura de metal. Si impactas, el objetivo sufre 1d8 de daño de relámpago y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno."
+  }
 }

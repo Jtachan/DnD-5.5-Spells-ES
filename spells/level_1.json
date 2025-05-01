@@ -1,14 +1,22 @@
 {
   "alarma": {
-    "clases": ["Explorador", "Mago"],
+    "clases": [
+      "Explorador",
+      "Mago"
+    ],
     "escuela": "Abjuración",
-    "componentes": ["V", "S", "M (una pequeña campana y un hilo de plata fina)"],
     "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
     "alcance": "30 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M (una pequeña campana y un hilo de plata fina)"
+    ],
     "duracion": "8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "ritual": true,
     "danyo": null,
     "descripcion": "Preparas una alarma contra intrusos. Elige una puerta, ventana o cualquier otra área dentro del alcance cuyo volumen sea menor o igual que un cubo de 20 pies de lado. Una alarma te avisará siempre que una criatura, Diminuta o de tamaño superior, toque o entre en la zona vigilada antes del final del conjuro. Al lanzarlo puedes elegir que ciertas criaturas no activarán la alarma, que puede ser mental o sonora.<br>Una alarma mental te alerta con un sonido dentro de tu mente si estás a 1 milla de la zona vigilada. Si estás dormido, te despertará.<br>Una alarma sonora produce un sonido de campanilla durante 10 segundos audible a 60 pies de distancia."
   }

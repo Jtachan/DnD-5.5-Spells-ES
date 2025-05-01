@@ -19,13 +19,14 @@ Cada conjuro contiene las siguientes entradas:
 
 - **clases** `list[str]`:<br>Todas las clases (organizadas alfa) que pueden aprender el conjuro. Ej.: ["Clérigo", "Bardo", "Brujo"]
 - **escuela** `str`:<br>Escuela del conjuro. Ej.: "Transmutación", "Evocación", "Conjuración".
-- **componentes** `list[str]`:<br>Los componentes necesarios para lanzar el conjuro. "V" = verbal, "M" = material, "S" = somático.
 - **tiempo_de_lanzamiento** `str`:<br>El tiempo requerido para lanzar el conjuro.
+- **ritual** `bool`:<br>Flag indicando si el conjuro puede ser lanzado como un ritual.
 - **alcance** `str`:<br>Información sobre a qué objetivos puede afectar el conjuro.
+- **visible** `bool`:<br>Flag indicando si el objetivo ha de estar a la vista del lanzador.
+- **componentes** `list[str]`:<br>Los componentes necesarios para lanzar el conjuro. "V" = verbal, "S" = somático, "M" = material. Los componentes materiales viene explicados entre paréntesis.
 - **duracion** `str`:<br>El tiempo que el efecto del conjuro se mantiene activo.
 - **tirada_de_salvacion** `str | None`:<br>Atributo requerido para la tirada de salvación contra el conjuro. Toma el valor de `null` si no requiere ninguna tirada.
 - **requiere_ataque** `bool`:<br>Flag indicando si el personaje que lanza el conjuro requiere una tirada de ataque.
-- **ritual** `bool`:<br>Flag indicando si el conjuro puede ser lanzado como un ritual.
 - **danyo** `dict | None`:<br>Información sobre el daño producido. Toma el valor de `null` si el conjuro no realiza ningún daño.
     - **tipo** `str`:<br>Tipo de daño producido. Ej.: "Fuego", "Radiante", etc.
     - **base** `str`:<br>Daño producido a nivel base del conjuro. El daño está definido con notación de dado. Por ejemplo, "1d8" corresponde a una tirada de un dado de ocho caras.
@@ -34,44 +35,80 @@ Cada conjuro contiene las siguientes entradas:
 
 ### Ejemplos
 
-```python
+```json
 {
-    # Conjuro de nivel 2 sin daño:
-    "abrir": {
-        "clases": ["Bardo", "Hechizero", "Mago"],
-        "escuela": "Transmutación",
-        "componentes": ["V"],
-        "tiempo_de_lanzamiento": "1 acción",
-        "alcance": "60 pies",
-        "duracion": "Instantáneo",
-        "tirada_de_salvacion": null,
-        "requiere_ataque": false,
-        "ritual": false,
-        "danyo": null,
-        "descripcion": "Elige un objeto que puedas ver dentro del alcance. Este puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera, mágica o mundana, de impedir el acceso.<br>Un objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tenía varios cerrojos, solo se desbloquea uno de ellos.<br>Si eliges un objetivo que está cerrado mediante <i>cerradura arcana</i>, este conjuro queda anulado durante 10 minutos, y durante este tiempo el objeto se puede abrir y cerrar con normalidad.<br>Cuando lanzas este conjuro, un fuerte golpe suena desde el objeto, audible desde 300 pies de distancia."
+  // Conjuro de nivel 2 sin daño ni materiales:
+  "abrir": {
+    "clases": [
+      "Bardo",
+      "Hechizero",
+      "Mago"
+    ],
+    "escuela": "Transmutación",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "60 pies",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "danyo": null,
+    "descripcion": "Elige un objeto que puedas ver dentro del alcance. Este puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera, mágica o mundana, de impedir el acceso.<br>Un objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tenía varios cerrojos, solo se desbloquea uno de ellos.<br>Si eliges un objetivo que está cerrado mediante <i>cerradura arcana</i>, este conjuro queda anulado durante 10 minutos, y durante este tiempo el objeto se puede abrir y cerrar con normalidad.<br>Cuando lanzas este conjuro, un fuerte golpe suena desde el objeto, audible desde 300 pies de distancia."
+  },
+  // Conjuro de nivel 0 con daño escalable:
+  "agarre_electrizante": {
+    "clases": [
+      "Hechizero",
+      "Mago"
+    ],
+    "escuela": "Evocación",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "danyo": {
+      "tipo": "Relámpago",
+      "base": "1d8",
+      "escala": {
+        "nivel_5": "2d8",
+        "nivel_11": "3d8",
+        "nivel_17": "4d8"
+      }
     },
-    # Conjuro de nivel 0 con daño escalable:
-    "agarre_electrizante": {
-        "clases": ["Hechizero", "Mago"],
-        "escuela": "Evocación",
-        "componentes": ["V", "S"],
-        "tiempo_de_lanzamiento": "1 acción",
-        "alcance": "Toque",
-        "duracion": "Instantáneo",
-        "tirada_de_salvacion": null,
-        "requiere_ataque": true,
-        "ritual": false,
-        "danyo": {
-            "tipo": "Relámpago",
-            "base": "1d8",
-            "escala": {
-                "nivel_5": "2d8",
-                "nivel_11": "3d8",
-                "nivel_17": "4d8"
-            }
-        },
-        "descripcion": "Un relámpago salta de tu mano para dar una descarga eléctrica a la criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Tienes ventaja en la tirada de ataque si la criatura lleva armadura de metal. Si impactas, el objetivo sufre 1d8 de daño de relámpago y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno."
-    }
+    "descripcion": "Un relámpago salta de tu mano para dar una descarga eléctrica a la criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Tienes ventaja en la tirada de ataque si la criatura lleva armadura de metal. Si impactas, el objetivo sufre 1d8 de daño de relámpago y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno."
+  },
+  // Conjuro de nivel 1 con componentes:
+  "alarma": {
+    "clases": [
+      "Explorador",
+      "Mago"
+    ],
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "30 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M (una pequeña campana y un hilo de plata fina)"
+    ],
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "danyo": null,
+    "descripcion": "Preparas una alarma contra intrusos. Elige una puerta, ventana o cualquier otra área dentro del alcance cuyo volumen sea menor o igual que un cubo de 20 pies de lado. Una alarma te avisará siempre que una criatura, Diminuta o de tamaño superior, toque o entre en la zona vigilada antes del final del conjuro. Al lanzarlo puedes elegir que ciertas criaturas no activarán la alarma, que puede ser mental o sonora.<br>Una alarma mental te alerta con un sonido dentro de tu mente si estás a 1 milla de la zona vigilada. Si estás dormido, te despertará.<br>Una alarma sonora produce un sonido de campanilla durante 10 segundos audible a 60 pies de distancia."
+  }
 }
 ```
 
