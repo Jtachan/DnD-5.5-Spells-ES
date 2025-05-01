@@ -17,3 +17,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Alzar a los muertos       | 5         |
 | Amistad                   | 0 (Truco) |
 | Animar a los muertos      | 3         |
+| Animar objetos            | 5         |
