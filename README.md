@@ -17,7 +17,7 @@ Los conjuros está registrados en archivos `spells/level_N.json`, donde N es el 
 Dentro del archivo, los conjuros están organizados en un diccionario organizados por el nombre (en minúsculas).
 Cada conjuro contiene las siguientes entradas:
 
-- **classes** `list[str]`:<br>Todas las clases (organizadas alfa) que pueden aprender el conjuro. Ej.: ["Clérigo", "Bardo", "Brujo"]
+- **clases** `list[str]`:<br>Todas las clases (organizadas alfa) que pueden aprender el conjuro. Ej.: ["Clérigo", "Bardo", "Brujo"]
 - **escuela** `str`:<br>Escuela del conjuro. Ej.: "Transmutación", "Evocación", "Conjuración".
 - **componentes** `list[str]`:<br>Los componentes necesarios para lanzar el conjuro. "V" = verbal, "M" = material, "S" = somático.
 - **tiempo_de_lanzamiento** `str`:<br>El tiempo requerido para lanzar el conjuro.
@@ -38,7 +38,7 @@ Cada conjuro contiene las siguientes entradas:
 {
     # Conjuro de nivel 2 sin daño:
     "abrir": {
-        "classes": ["Bardo", "Hechizero", "Mago"],
+        "clases": ["Bardo", "Hechizero", "Mago"],
         "escuela": "Transmutación",
         "componentes": ["V"],
         "tiempo_de_lanzamiento": "1 acción",
@@ -52,7 +52,7 @@ Cada conjuro contiene las siguientes entradas:
     },
     # Conjuro de nivel 0 con daño escalable:
     "agarre_electrizante": {
-        "classes": ["Hechizero", "Mago"],
+        "clases": ["Hechizero", "Mago"],
         "escuela": "Evocación",
         "componentes": ["V", "S"],
         "tiempo_de_lanzamiento": "1 acción",

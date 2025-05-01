@@ -1,6 +1,6 @@
 {
     "abrir": {
-        "classes": ["Bardo", "Hechizero", "Mago"],
+        "clases": ["Bardo", "Hechizero", "Mago"],
         "escuela": "Transmutación",
         "componentes": ["V"],
         "tiempo_de_lanzamiento": "1 acción",
@@ -13,7 +13,7 @@
         "descripcion": "Elige un objeto que puedas ver dentro del alcance. Este puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera, mágica o mundana, de impedir el acceso.<br>Un objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tenía varios cerrojos, solo se desbloquea uno de ellos.<br>Si eliges un objetivo que está cerrado mediante <i>cerradura arcana<i>, este conjuro queda anulado durante 10 minutos, y durante este tiempo el objeto se puede abrir y cerrar con normalidad.<br>Cuando lanzas este conjuro, un fuerte golpe suena desde el objeto, audible desde 300 pies de distancia."
     },
     "agrandar/reducir": {
-        "classes": ["Hechizero", "Mago"],
+        "clases": ["Hechizero", "Mago"],
         "escuela": "Transmutación",
         "componentes": ["V", "S", "M (una pizca de polvo de hierro)"],
         "tiempo_de_lanzamiento": "1 acción",

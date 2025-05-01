@@ -1,6 +1,6 @@
 {
     "agarre_electrizante": {
-        "classes": ["Hechizero", "Mago"],
+        "clases": ["Hechizero", "Mago"],
         "escuela": "Evocación",
         "componentes": ["V", "S"],
         "tiempo_de_lanzamiento": "1 acción",

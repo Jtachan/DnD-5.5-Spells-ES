@@ -1,6 +1,6 @@
 {
     "acelerar": {
-        "classes": ["Hechizero", "Mago"],
+        "clases": ["Hechizero", "Mago"],
         "escuela": "Transmutación",
         "componentes": ["V", "S", "M (una ralladura de raíz de regaliz)"], 
         "tiempo_de_lanzamiento": "1 acción",
