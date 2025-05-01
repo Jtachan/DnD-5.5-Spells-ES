@@ -14,7 +14,8 @@
       "S",
       "M (una ralladura de raíz de regaliz)"
     ],
-    "duracion": "Concentración, hasta 1 minuto",
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
     "danyo": null,

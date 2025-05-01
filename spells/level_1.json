@@ -14,6 +14,7 @@
       "S",
       "M (una pequeña campana y un hilo de plata fina)"
     ],
+    "concentracion": false,
     "duracion": "8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,

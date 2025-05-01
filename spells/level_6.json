@@ -12,6 +12,7 @@
       "V",
       "S"
     ],
+    "concentracion": false,
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,

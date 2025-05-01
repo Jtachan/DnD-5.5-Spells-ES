@@ -13,6 +13,7 @@
       "S",
       "M (incienso y una ofrenda ritual apropiada a tu religión, en conjunto con valor de 25 po y que son consumidos por el conjuro)"
     ],
+    "concentracion": false,
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,

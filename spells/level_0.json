@@ -13,6 +13,7 @@
       "V",
       "S"
     ],
+    "concentracion": false,
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
@@ -43,7 +44,8 @@
       "S",
       "M (una pequeña cantidad de maquillaje aplicada sobre la cara al lanzar el conjuro)"
     ],
-    "duracion": "Concentración, hasta 1 minuto.",
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto.",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
     "danyo": null,

@@ -24,6 +24,7 @@ Cada conjuro contiene las siguientes entradas:
 - **alcance** `str`:<br>Información sobre a qué objetivos puede afectar el conjuro.
 - **visible** `bool`:<br>Flag indicando si el objetivo ha de estar a la vista del lanzador.
 - **componentes** `list[str]`:<br>Los componentes necesarios para lanzar el conjuro. "V" = verbal, "S" = somático, "M" = material. Los componentes materiales viene explicados entre paréntesis.
+- **concentracion** `bool`:<br>Flag indicando si el conjuro requiere que el lanzador mantenga su concentración durante la duración del mismo.
 - **duracion** `str`:<br>El tiempo que el efecto del conjuro se mantiene activo.
 - **tirada_de_salvacion** `str | None`:<br>Atributo requerido para la tirada de salvación contra el conjuro. Toma el valor de `null` si no requiere ninguna tirada.
 - **requiere_ataque** `bool`:<br>Flag indicando si el personaje que lanza el conjuro requiere una tirada de ataque.
@@ -52,6 +53,7 @@ Cada conjuro contiene las siguientes entradas:
     "componentes": [
       "V"
     ],
+    "concentracion": false,
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
@@ -73,6 +75,7 @@ Cada conjuro contiene las siguientes entradas:
       "V",
       "S"
     ],
+    "concentracion": false,
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
@@ -103,6 +106,7 @@ Cada conjuro contiene las siguientes entradas:
       "S",
       "M (una pequeña campana y un hilo de plata fina)"
     ],
+    "concentracion": false,
     "duracion": "8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,

@@ -13,7 +13,8 @@
       "V",
       "S"
     ],
-    "duracion": "Concentración, hasta 1 minuto",
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
     "danyo": null,
@@ -35,6 +36,7 @@
       "S",
       "M (un diamante con un valor de, al menos, 500 po, que es consumido como parte del conjuro)"
     ],
+    "concentracion": false,
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
