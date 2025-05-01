@@ -16,3 +16,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Alterar los recuerdos     | 5         |
 | Alzar a los muertos       | 5         |
 | Amistad                   | 0 (Truco) |
+| Animar a los muertos      | 3         |
