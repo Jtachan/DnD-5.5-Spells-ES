@@ -11,3 +11,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Agarre electrizante | 0 (Truco) |
 | Agrandar/Reducir | 2 |
 | Alarma | 1 |
+| Aliado planar | 6 |
