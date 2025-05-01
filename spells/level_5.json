@@ -1,1 +1,15 @@
-{}
+{
+  "alterar_los_recuerdos": {
+    "clases": ["Hechizero", "Mago"],
+    "escuela": "Encantamiento",
+    "componentes": ["V", "S"],
+    "tiempo_de_lanzamiento": "1 acción",
+    "alcance": "30 pies",
+    "duracion": "Concentración, hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "danyo": null,
+    "ritual": false,
+    "descripcion": "Intentas reformar las memorias de otra criatura. Una criatura de tu elección que puedas ver dentro del alcance debe realizar una tirada de salvación de Sabiduría. Si tú o alguna criatura amistosa hacia ti estáis luchando contra ella, tiene ventaja en esta tirada de salvación. Si falla, queda hechizada hasta el final de la duración del conjuro. El objetivo hechizado queda incapacitado y no es consciente de su entorno, aunque todavía puede oírte. Si recibe cualquier daño o es objetivo de otro conjuro, alterar los recuerdos termina y no se cambia ninguno de sus recuerdos.<br>Mientras dure el conjuro, puedes afectar la memoria del objetivo en lo que respecta a un evento que haya experimentado en las últimas 24 horas y que no haya durado más de 10 minutos. También eres capaz de eliminar permanentemente todos los recuerdos de ese evento, permitir al objetivo recordarlo con total claridad y hasta el último detalle, cambiar su memoria de los detalles o crear un recuerdo de otro evento distinto.<br>Debes hablar al objetivo para describirle cómo su memoria queda afectada y debe ser capaz de entender tu idioma para que los recuerdos modificados se asienten. Su mente llenará cualquier hueco que deje tu descripción. Si el conjuro termina antes de que hayas acabado de describir los recuerdos modificados, la memoria de la criatura no se ve alterada. En caso contrario, los recuerdos se asentarán cuando acabe el conjuro.<br>Un recuerdo modificado no afectará necesariamente al comportamiento de una criatura, especialmente si el recuerdo contradice sus inclinaciones naturales, su alineamiento o sus creencias. Un recuerdo modificado ilógico, como el de cuánto disfrutó el objetivo al bañarse en ácido, es rechazado por su mente como si fuera un mal sueño. El DM puede considerar que un recuerdo modificado es demasiado absurdo como para afectar a una criatura de manera significativa.<br>Un conjuro de levantar maldición o restablecimiento mayor lanzado sobre el objetivo recupera los verdaderos recuerdos de la criatura.<br><b><i>A niveles superiores.</i></b> Si lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o más, puedes alterar recuerdos del objetivo de un evento que ocurrió hace 7 días (nivel 6), 30 días (nivel 7), 1 año (nivel 8) o en cualquier momento del pasado de la criatura (nivel 9)."
+  }
+}

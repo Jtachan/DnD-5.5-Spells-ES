@@ -13,3 +13,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Alarma                    | 1         |
 | Aliado planar             | 6         |
 | Alterar el propio aspecto | 2         |
+| Alterar los recuerdos     | 5         | 
