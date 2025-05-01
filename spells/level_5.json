@@ -35,10 +35,10 @@
       "S",
       "M (un diamante con un valor de, al menos, 500 po, que es consumido como parte del conjuro)"
     ],
-    "duracion": "",
-    "tirada_de_salvacion": "",
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "danyo": null,
-    "descripcion": ""
+    "descripcion": "Devuelves a una criatura fallecida a la vida, siempre y cuando no haya estado muerta más de 10 días. Si el alma de la criatura tiene la libertad y la voluntad de reunirse con su cuerpo, vuelve a la vida con 1 punto de golpe.<br>Este conjuro también neutraliza cualquier veneno y cura cualquier enfermedad no mágica que afligiera a la criatura en el momento de su muerte. Sin embargo, este conjuro no elimina enfermedades mágicas, maldiciones o efectos similares; si no se eliminan antes del lanzamiento de este conjuro, entrarán en acción cuando la criatura vuelva a la vida. El conjuro no puede devolver a la vida a un muerto viviente.<br>Todas las heridas letales quedarán cerradas, pero no se restablecen miembros o partes del cuerpo que falten. Si la criatura no dispone de partes del cuerpo u órganos necesarios para su supervivencia (como su cabeza, por ejemplo) el conjuro fallará automáticamente.<br>Volver de entre los muertos es una dura experiencia. El objetivo tendrá un penalizador de -4 a todas las tiradas de ataque, tiradas de salvación y pruebas de característica. Cada vez que complete un descanso largo, ese penalizador se reducirá en 1, hasta que desaparezca al llegar a O."
   }
 }
