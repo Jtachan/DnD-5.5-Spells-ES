@@ -1,6 +1,6 @@
 {
     "adivinacion": {
-        "classes": ["Clérigo"],
+        "clases": ["Clérigo"],
         "escuela": "adivinacion",
         "componentes": ["V", "S", "M (incienso y una ofrenda ritual apropiada a tu religión, en conjunto con valor de 25 po y que son consumidos por el conjuro)"],
         "tiempo_de_lanzamiento": "1 acción",

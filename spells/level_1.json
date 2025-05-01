@@ -1,6 +1,6 @@
 {
   "alarma": {
-    "classes": ["Explorador", "Mago"],
+    "clases": ["Explorador", "Mago"],
     "escuela": "Abjuración",
     "componentes": ["V", "S", "M (una pequeña campana y un hilo de plata fina)"],
     "tiempo_de_lanzamiento": "1 minuto",
