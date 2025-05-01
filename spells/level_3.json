@@ -4,10 +4,11 @@
         "escuela": "Transmutación",
         "componentes": ["V", "S", "M (una ralladura de raíz de regaliz)"], 
         "tiempo_de_lanzamiento": "1 acción",
-        "alcance": "30 pies, visible",
+        "alcance": "30 pies",
         "duracion": "Concentración, hasta 1 minuto",
         "tirada_de_salvacion": null,
         "requiere_ataque": true,
+        "ritual": false,
         "danyo": null,
         "descripcion": "Elige a una criatura voluntaria que puedas ver dentro del alcance. Hasta que el conjuro termine, la velocidad del objetivo se duplica, gana un bonificador de +2 a su CA, tiene ventaja en tiradas de salvación de Destreza y gana una segunda acción en cada uno de sus turnos. Solo puede utilizar esta acción para Atacar (solo un ataque con arma en caso de tener múltiples por acción), Correr, Destrabarse, Esconderse o Usar un Objeto.<br>Cuando el conjuro termina, el objetivo no podrá moverse o realizar acciones hasta después de su siguiente turno, debudo a una ola de somnolencia que lo afecta."
     }

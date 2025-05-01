@@ -4,10 +4,11 @@
         "escuela": "Transmutación",
         "componentes": ["V"],
         "tiempo_de_lanzamiento": "1 acción",
-        "alcance": "60 pies, visible",
+        "alcance": "60 pies",
         "duracion": "Instantáneo",
         "tirada_de_salvacion": null,
         "requiere_ataque": false,
+        "ritual": false,
         "danyo": null,
         "descripcion": "Elige un objeto que puedas ver dentro del alcance. Este puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera, mágica o mundana, de impedir el acceso.<br>Un objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tenía varios cerrojos, solo se desbloquea uno de ellos.<br>Si eliges un objetivo que está cerrado mediante <i>cerradura arcana<i>, este conjuro queda anulado durante 10 minutos, y durante este tiempo el objeto se puede abrir y cerrar con normalidad.<br>Cuando lanzas este conjuro, un fuerte golpe suena desde el objeto, audible desde 300 pies de distancia."
     },
@@ -16,11 +17,12 @@
         "escuela": "Transmutación",
         "componentes": ["V", "S", "M (una pizca de polvo de hierro)"],
         "tiempo_de_lanzamiento": "1 acción",
-        "alcance": "30 pies, visible",
+        "alcance": "30 pies",
         "duracion": "Concentración, hasta 1 minuto",
         "tirada_de_salvacion": "CON",
         "requiere_ataque": false,
         "danyo": null,
+        "ritual": false,
         "descripcion": "Haces que una criatura u objetivo que puedas ver dentro del alcance crezca o se reduzca hasta el final de la duración del conjuro. Elige una criatura o un objeto que nadie lleve o vista. Si el objetivo no es voluntario, puede hacer una tirada de salvación de Constitución. Si la supera, el conjuro no tiene efecto.<br>Si el objetivo es una criatura, todo lo que vista y lleve cambia de tamaño con ella. Cualquier objeto que una criatura afectada deje caer vuelve a su tamaño normal inmediatamente.<br><i><b>Agrandar.</b></i> El tamaño del objetivo se duplica en todas las dimensiones y su peso se multiplica por ocho. El objetivo incrementa su tamaño en una categoría (de Mediano a Grande, por ejemplo). Si no haz sitio suficiente para que el objetivo duplique su tamaño, la criatura u objeto crece hasta el tamaño máximo posible en el espacio disponible. Hasta que el conjuro termine, el objetivo tiene ventaja en pruebas y tiradas de salvación de Fuerza. Las armas del objetivo también crecen para ajustarse a su nuevo tamaño. Mientras permanezcan así, los ataques del objetivo con ellas hacen 1d4 de daño adicionales.<br><i><b>Reducir.</b></i> El tamaño del objetivo se reduce a la mitad en todas las dimensiones y su peso se divide entre ocho. El objetivo disminuye su tamaño en una categoría (de Mediano a Pequeño, por ejemplo). Hasta que el conjuro termine, el objetivo tiene desventaja en pruebas y tiradas de salvación de Fuerza. Las armas del objetivo también decrecen para ajustarse a su nuevo tamaño. Mientras permanezcan así, los ataques del objetivo con ellas hacen 1d4 de daño menos (esto no puede reducir el daño por debajo de 1)."
     }
 }

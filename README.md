@@ -25,6 +25,7 @@ Cada conjuro contiene las siguientes entradas:
 - **duracion** `str`:<br>El tiempo que el efecto del conjuro se mantiene activo.
 - **tirada_de_salvacion** `str | None`:<br>Atributo requerido para la tirada de salvación contra el conjuro. Toma el valor de `null` si no requiere ninguna tirada.
 - **requiere_ataque** `bool`:<br>Flag indicando si el personaje que lanza el conjuro requiere una tirada de ataque.
+- **ritual** `bool`:<br>Flag indicando si el conjuro puede ser lanzado como un ritual.
 - **danyo** `dict | None`:<br>Información sobre el daño producido. Toma el valor de `null` si el conjuro no realiza ningún daño.
     - **tipo** `str`:<br>Tipo de daño producido. Ej.: "Fuego", "Radiante", etc.
     - **base** `str`:<br>Daño producido a nivel base del conjuro. El daño está definido con notación de dado. Por ejemplo, "1d8" corresponde a una tirada de un dado de ocho caras.
@@ -41,13 +42,14 @@ Cada conjuro contiene las siguientes entradas:
         "escuela": "Transmutación",
         "componentes": ["V"],
         "tiempo_de_lanzamiento": "1 acción",
-        "alcance": "60 pies, visible",
+        "alcance": "60 pies",
         "duracion": "Instantáneo",
         "tirada_de_salvacion": null,
         "requiere_ataque": false,
+        "ritual": false,
         "danyo": null,
         "descripcion": "Elige un objeto que puedas ver dentro del alcance. Este puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera, mágica o mundana, de impedir el acceso.<br>Un objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tenía varios cerrojos, solo se desbloquea uno de ellos.<br>Si eliges un objetivo que está cerrado mediante <i>cerradura arcana</i>, este conjuro queda anulado durante 10 minutos, y durante este tiempo el objeto se puede abrir y cerrar con normalidad.<br>Cuando lanzas este conjuro, un fuerte golpe suena desde el objeto, audible desde 300 pies de distancia."
-    }
+    },
     # Conjuro de nivel 0 con daño escalable:
     "agarre_electrizante": {
         "classes": ["Hechizero", "Mago"],
@@ -58,6 +60,7 @@ Cada conjuro contiene las siguientes entradas:
         "duracion": "Instantáneo",
         "tirada_de_salvacion": null,
         "requiere_ataque": true,
+        "ritual": false,
         "danyo": {
             "tipo": "Relámpago",
             "base": "1d8",

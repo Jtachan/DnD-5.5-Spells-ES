@@ -8,6 +8,7 @@
         "duracion": "Instantáneo",
         "tirada_de_salvacion": null,
         "requiere_ataque": true,
+        "ritual": false,
         "danyo": {
             "tipo": "Relámpago",
             "base": "1d8",
