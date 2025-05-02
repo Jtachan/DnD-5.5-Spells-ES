@@ -19,5 +19,35 @@
     "requiere_ataque": false,
     "danyo": null,
     "descripcion": "Tu magia y la ofrenda te ponen en contacto con un dios o sus sirvientes. Puedes hacer una sola pregunta sobre una meta, evento o actividad específica que ocurrirá en los próximos 7 días. El DM te dará una respuesta verdadera, que puede ser una frase corta, una rima críptica o un augurio.<br>Este conjuro no tiene en cuenta ninguna circunstancia que pueda alterar los resultados, como por ejemplo el lanzamiento de otros conjuros o la pérdida de o encuentro con un compañero.<br>Si se lanya dos veces o más antes del próximo descanso largo, hay una posibilidad acumulativa del 25% por cada lanzamiento después del primero de recibir un presagio aleatorio. El Dm realiza esta tirada en secreto."
+  },
+  "asesino_fantasmal": {
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Ilusión",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "120 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "Sabiduría",
+    "requiere_ataque": false,
+    "danyo": {
+      "tipo": "Psíquico",
+      "base": "4d10",
+      "escala": {
+        "nivel_5": "5d10",
+        "nivel_6": "6d10",
+        "nivel_7": "7d10",
+        "nivel_8": "8d10",
+        "nivel_9": "9d10"
+      }
+    },
+    "descripcion": "Accedes a las pesadillas de una criatura que puedas ver dentro del alcance para crear una manifestación ilusoria de sus más profundos miedos, que solo será visible para esa criatura. El objetivo debe hacer una tirada de salvación de Sabiduría. Si falla, queda asustado hasta el final de la duración del conjuro. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura debe tener éxito en una tirada de salvación de Sabiduría o sufrir 4d10 de daño psíquico. Si supera la tirada, el conjuro termina inmediatamente.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o más, el daño aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio que hayas empleado."
   }
 }

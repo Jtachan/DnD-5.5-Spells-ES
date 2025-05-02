@@ -25,3 +25,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Arma mágica               | 2         |
 | Armadura de Agathys       | 1         |
 | Armadura de mago          | 1         |
+| Asesino fantasmal         | 4         |
