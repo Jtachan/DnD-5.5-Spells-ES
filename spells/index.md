@@ -22,3 +22,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Apariencia                | 5         |
 | Arma elemental            | 3         |
 | Arma espiritual           | 2         |
+| Arma mágica               | 2         |
