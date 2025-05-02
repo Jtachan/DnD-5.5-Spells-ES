@@ -1,1 +1,24 @@
-{}
+{
+  "antipatia/simpatia": {
+    "clases": [
+      "Druída",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "60 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M (un pedazo de alumbre empapado en vinagre para el efecto de antipatía o una gota de miel para el efecto de simpatía)"
+    ],
+    "concentracion": false,
+    "duracion": "10 días",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": true,
+    "danyo": null,
+    "descripcion": "Este conjuro atrae o repele a criaturas de tu elección. Elige a un objetivo dentro del a lcance: un objeto, una criatura de tamaño Enorme o más pequeña, o un área igual o menor que un cubo de 200 pies. Una vez hecho esto, deberás especificar también un tipo de criatura inteligente, como dragones rojos, goblins o vampiros. Imbuyes en el objetivo un aura que o bien atrae o repele a las criaturas elegidas hasta el final de la duración del conjuro. El aura podrá causar antipatía o simpatía a tu elección.<br><b><i>Antipatía.</i></b> El encantamiento hace que las criaturas del tipo elegido sientan una fuerte necesidad de abandonar el área y evitar al objetivo. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 60 pies del mismo, deberá tener éxito en una tirada de salvación de Sabiduría o quedará asustada. La criatura permanecerá asustada mientras pueda ver al objetivo o se mantenga a 60 pies de él. Mientras esté asustada, la criatura debe usar su movimiento para dirigirse al lugar más cercano desde el que no pueda ver al objetivo. Si la criatura se aleja más de 60 pies del objetivo y no puede verlo, ya no estará asustada, pero volverá a estarlo de nuevo si vuelve a ver al objetivo o se acerca 60 pies o menos de él.<br><b><i>Simpatía.</i></b> El encantamiento hace que las criaturas del tipo elegido a 60 pies o menos del objetivo sientan una fuerte necesidad de acercarse a él. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 60 pies del mismo, deberá tener éxito en una tirada de salvación de Sabiduría o utilizará su movimiento en cada turno para acercarse a él hasta que entre en el área o quede adyacente al objetivo. Una vez hecho esto, no podrá alejarse voluntariamente.<br>Si el objetivo daña o lastima de alguna manera a una criatura afectada, esta podrá realizar una tirada de salvación de Sabiduría para que termine el efecto, como se describe más abajo.<br><b><i>Terminar el efecto.</i></b> Si una criatura afectada por el conjuro termina su turno a más de 60 pies del objetivo o no es capaz de verlo, debe hacer una tirada de salvación de Sabiduría. Si tiene éxito, la criatura ya no estará afectada por el objetivo e identificará la naturaleza mágica del sentimiento de atracción o repulsión. Además, una criatura a fectada por el conjuro podrá realizar otra tirada de salvación de Sabiduría cada 24 horas mientras su efecto persista.<br>Una criatura que tiene éxito en la tirada de salvación contra este efecto es inmune al conjuro durante 1 minuto, tiempo tras el cual podrá verse afectada de nuevo."
+  }
+}

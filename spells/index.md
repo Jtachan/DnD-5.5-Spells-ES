@@ -18,3 +18,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Amistad                   | 0 (Truco) |
 | Animar a los muertos      | 3         |
 | Animar objetos            | 5         |
+| Antipatía/Simpatía        | 8         |
