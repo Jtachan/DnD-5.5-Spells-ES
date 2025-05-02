@@ -21,3 +21,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Antipatía/Simpatía        | 8         |
 | Apariencia                | 5         |
 | Arma elemental            | 3         |
+| Arma espiritual           | 2         |

@@ -63,5 +63,33 @@
     "requiere_ataque": false,
     "danyo": null,
     "descripcion": "Asumes un aspecto distinto. Cuando lanzas el conjuro, elige una de las opciones siguientes. Los efectos duran hasta el final de la duración del conjuro. Hasta ese momento, puedes dejar de usar una de las opciones para ganar los beneficios de otra.<br><i><b>Adaptación acuática.</b></i> Adaptas tu cuerpo a un medio acuático. Te crecen branquias y membranas entre los dedos. Puedes respirar bajo el agua y ganas una velocidad nadando igual a tu velocidad caminando.<br><i><b>Cambiar de aspecto.</b></i> Transformas tu apariencia. Decide tu aspecto, especificando una altura, peso, rasgos faciales, timbre de voz, longitud del cabello, tono de piel y cualquier rasgo distintivo que quieras añadir.<br>Eres capaz de adoptar la apariencia de un miembro de otra raza, pero tu perfil no cambia. Tampoco puedes tomar el aspecto de una criatura de un tamaño que no sea el tuyo, ya que tu forma básica debe mantenerse; si eres bípedo, no puedes usar este conjuro para hacerte cuadrúpedo, por ejemplo. En cualquier momento, hasta el final de la duración del conjuro, puedes usar una acción para cambiar tu aspecto de nuevo mediante esta opción.<br><b><i>Armas naturales.</i></b> Te crecen garras, colmillos, pinchos, cuernos u otra arma natural de tu elección. Tus ataques sin armas hacen 1d6 de daño contundente, perforante o cortante, de acuerdo al arma natural que escojas. Eres competente con esta arma, que es mágica y te proporciona un bonificador de +1 a las tiradas de ataque y de daño que hagas con ella."
+  },
+  "arma_espiritual": {
+    "clases": [
+      "Clérigo"
+    ],
+    "escuela": "Evocación",
+    "tiempo_de_lanzamiento": "1 acción adicional",
+    "ritual": false,
+    "alcance": "60 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "danyo": {
+      "tipo": "Fuerza",
+      "base": "1d8",
+      "escala": {
+        "nivel_4": "2d8",
+        "nivel_6": "3d8",
+        "nivel_8": "4d8"
+      }
+    },
+    "descripcion": "Creas un arma espectral flotante dentro del alcance, que permanece hasta el final de la duración del conjuro o hasta que lo utilices de nuevo. Cuando lanzas este conjuro, puedes hacer un ataque de conjuro cuerpo a cuerpo contra una criatura que se encuentre a 5 pies o menos del arma. Si impactas, la criatura recibe tanto daño de fuerza como 1d8 + tu modificador de aptitud mágica.<br>Como acción adicional puedes mover el arma hasta 20 pies y repetir el ataque contra una criatura que se encuentre a 5 pies o menos de ella.<br>El arma puede tener la forma que desees. Los clérigos cuyas deidades estén asociadas con un arma en particular (como San Cuthbert, conocido por su maza, o Thor, famoso por su martillo) utilizan esa arma como aspecto visual del conjuro.<br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o más, el daño aumenta en 1d8 por cada dos niveles por encima de 2 que tenga el espacio que hayas empleado."
   }
 }
