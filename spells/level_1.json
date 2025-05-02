@@ -20,5 +20,39 @@
     "requiere_ataque": false,
     "danyo": null,
     "descripcion": "Preparas una alarma contra intrusos. Elige una puerta, ventana o cualquier otra área dentro del alcance cuyo volumen sea menor o igual que un cubo de 20 pies de lado. Una alarma te avisará siempre que una criatura, Diminuta o de tamaño superior, toque o entre en la zona vigilada antes del final del conjuro. Al lanzarlo puedes elegir que ciertas criaturas no activarán la alarma, que puede ser mental o sonora.<br>Una alarma mental te alerta con un sonido dentro de tu mente si estás a 1 milla de la zona vigilada. Si estás dormido, te despertará.<br>Una alarma sonora produce un sonido de campanilla durante 10 segundos audible a 60 pies de distancia."
+  },
+  "armadura_de_agathys": {
+    "clases": [
+      "Brujo"
+    ],
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M (una taza de agua)"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "danyo": {
+      "tipo": "Frío",
+      "base": "5",
+      "escala": {
+        "nivel_2": "10",
+        "nivel_3": "15",
+        "nivel_4": "20",
+        "nivel_5": "25",
+        "nivel_6": "30",
+        "nivel_7": "35",
+        "nivel_8": "40",
+        "nivel_9": "45"
+      }
+    },
+    "descripcion": "Una fuerza mágica protectora te rodea, manifestándose como una escarcha espectral que te cubre por completo, incluido a tu equipo. Ganas 5 puntos de golpe temporales hasta el final de la duración del conjuro. Si una criatura te impacta con un ataque cuerpo a cuerpo mientras conservas estos puntos, esta sufre 5 de daño de frío.<br><b><i>A niveles superiores.<b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, tanto los puntos de golpe temporales como el daño de frío aumentan en 5 por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
   }
 }
