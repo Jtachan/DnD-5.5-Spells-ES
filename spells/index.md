@@ -24,3 +24,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Arma espiritual           | 2         |
 | Arma mágica               | 2         |
 | Armadura de Agathys       | 1         |
+| Armadura de mago          | 1         |
