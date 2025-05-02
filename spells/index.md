@@ -20,3 +20,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Animar objetos            | 5         |
 | Antipatía/Simpatía        | 8         |
 | Apariencia                | 5         |
+| Arma elemental            | 3         |
