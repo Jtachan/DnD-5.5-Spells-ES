@@ -64,5 +64,27 @@
     "requiere_ataque": false,
     "danyo": null,
     "descripcion": "Tus órdenes hacen que los objetos cobren vida. Elige hasta diez objetos no mágicos dentro del alcance que no lleve o vista nadie. Los objetivos Medianos cuentan como dos objetos, los Grandes como cuatro objetos y los Enormes como ocho objetos. No puedes animar ningún objeto mayor que Enorme. Cada objetivo cobra vida y se convierte en una criatura bajo tu control hasta el final de la duración del conjuro o hasta que sea reducido a O puntos de golpe.<br>En cada turno, puedes usar una acción adicional para dar una orden mental a cualquier criatura creada mediante este conjuro que esté a 500 pies o menos de ti (si controlas varias criaturas, puedes dirigir a una o más de ellas utilizando la misma orden). Decides qué acción va a tomar la criatura y dónde se moverá durante su próximo turno. También puedes dar una orden general, como vigilar una cámara o pasillo en concreto. Si no das ninguna orden, la criatura se limita a defenderse de otras criaturas hostiles. Una vez recibida una orden, la sigue hasta cumplirla.<br><b><i>Perfil de un objeto animado.</b></i><ul><li>Diminuto - PG: 20, CA: 18, Ataque: +8 a impactar, 1d4 + 4 daño, Fue: 6, Des: 18.</li><li>Pequeño - PG: 25, CA: 16, Ataque: +6 a impactar, 1d8 + 2 daño, Fue: 6, Des: 14.</li><li>Mediano - PG: 40, CA: 13, Ataque: +5 a impactar, 2d6 + 1 daño, Fue: 10, Des: 12.</li><li>Grande - PG: 50, CA: 10, Ataque: +6 a impactar, 2d10 + 2 daño, Fue: 14, Des: 10.</li><li>Enorme - PG: 80, CA: 10, Ataque: +8 a impactar, 2d12 + 4 daño, Fue: 18, Des: 6.</li></ul>Un objeto animado es un autómata con CA, puntos de golpe, ataques, Fuerza y Destreza fijados por su tamaño. Su Constitución es 10, su Inteligencia y Sabiduría son 3 y su Carisma es 1. Su velocidad es de 30 pies; si el objeto no tiene piernas o algún otro tipo de apéndice que pueda usar para desplazarse, gana una velocidad volando de 30 pies y puede levitar. Su velocidad es O si el objeto está sujeto firmemente a una superficie o a un objeto de mayor tamaño, como atado a un muro mediante una cadena. Tiene visión ciega en un radio de 30 pies, pero está ciego a más distancia. Cuando los puntos de golpe del objeto animado se reducen a O, vuelve a su forma original y cualquier daño sobrante se aplica a esta forma.<br>Si ordenas a un objeto que ataque, puede hacer un solo ataque cuerpo a cuerpo contra una criatura situada a 5 pies o menos. El bonificador y la cantidad de daño contundente del ataque que realiza están determinados por su tamaño. El DM puede decidir que un objeto en particular inflige daño cortante o perforante, según la forma que tenga.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o más, puedes animar dos objetos adicionales por cada nivel por encima de 5 que tenga el espacio que hayas empleado."
+  },
+  "apariencia": {
+    "clases": [
+      "Bardo",
+      "Hechizero",
+      "Mago"
+    ],
+    "escuela": "Ilusión",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "30 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": "Carisma",
+    "requiere_ataque": false,
+    "danyo": null,
+    "descripcion": "Este conjuro te permite cambiar la apariencia de cualquier número de criaturas que puedas ver dentro del alcance. Le das a cada una de ellas una apariencia ilusoria nueva. Un objetivo no voluntario puede realizar una tirada de salvación de Carisma, y si tiene éxito no se verá afectado por el conjuro.<br>El conjuro disfraza la apariencia física, así como la vestimenta, armas, armadura y equipo. Puedes hacer que cada criatura parezca 1 pie más alta o más baja y de complexión delgada, gorda o intermedia. No puedes cambiar el tipo de su cuerpo, así que debes elegir una forma que tenga la misma configuración de miembros. En el resto de aspectos, la ilusión queda a tu elección. Esta permanece hasta el final de la duración del conjuro o hasta que utilices una acción para finalizarla.<br>Los cambios realizados por este conjuro no aguantan una inspección física. Por ejemplo, si usas este conjuro para añadir un sombrero a la vestimenta de una criatura, los objetos atravesarán el sombrero y cualquiera que lo toque no sentirá nada, o sencillamente notará el pelo y cabeza. Si utilizas este conjuro para parecer más delgado, la mano de una criatura que intente tocarte se chocará contigo en lo que parece ser espacio libre.<br>Si una criatura usa su acción para examinar a un objetivo con una prueba enfrentada de Inteligencia (Investigación) contra tu CD de salvación de conjuros, si tiene éxito, se da cuenta de que el objetivo está disfrazado."
   }
 }
