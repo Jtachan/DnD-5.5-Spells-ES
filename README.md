@@ -36,9 +36,12 @@ Cada conjuro contiene las siguientes entradas:
 
 ### Ejemplos
 
+- **Abrir**: Conjuro de nivel 2 sin daño ni materiales.
+- **Agarre electrizante**: Conjuro de nivel 0 con daño escalable.
+- **Alarma**: Conjuro de nivel 1 que requiere componentes.
+
 ```json
 {
-  // Conjuro de nivel 2 sin daño ni materiales:
   "abrir": {
     "clases": [
       "Bardo",
@@ -60,7 +63,6 @@ Cada conjuro contiene las siguientes entradas:
     "danyo": null,
     "descripcion": "Elige un objeto que puedas ver dentro del alcance. Este puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera, mágica o mundana, de impedir el acceso.<br>Un objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tenía varios cerrojos, solo se desbloquea uno de ellos.<br>Si eliges un objetivo que está cerrado mediante <i>cerradura arcana</i>, este conjuro queda anulado durante 10 minutos, y durante este tiempo el objeto se puede abrir y cerrar con normalidad.<br>Cuando lanzas este conjuro, un fuerte golpe suena desde el objeto, audible desde 300 pies de distancia."
   },
-  // Conjuro de nivel 0 con daño escalable:
   "agarre_electrizante": {
     "clases": [
       "Hechizero",
@@ -90,7 +92,6 @@ Cada conjuro contiene las siguientes entradas:
     },
     "descripcion": "Un relámpago salta de tu mano para dar una descarga eléctrica a la criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Tienes ventaja en la tirada de ataque si la criatura lleva armadura de metal. Si impactas, el objetivo sufre 1d8 de daño de relámpago y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno."
   },
-  // Conjuro de nivel 1 con componentes:
   "alarma": {
     "clases": [
       "Explorador",
