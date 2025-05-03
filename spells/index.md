@@ -37,3 +37,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Auxilio                    | 2         |
 | Baile irresistible de Otto | 6         |
 | Barrera de cuchillas       | 6         |
+| Bendición                  | 1         |
