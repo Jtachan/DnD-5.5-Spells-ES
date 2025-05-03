@@ -34,3 +34,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Aura de vitalidad         | 3         |
 | Armadura mágica de Nystul | 2         |
 | Aura sagrada              | 8         |
+| Auxilio                   | 2        |

@@ -155,5 +155,27 @@
     "requiere_ataque": false,
     "danyo": null,
     "descripcion": "Implantas una ilusión en una criatura u objeto que toques, de tal manera que los conjuros de adivinación proporcionan información falsa sobre este. El objetivo puede ser una criatura voluntaria o un objeto que puedas ver y que no lleva o vista otra criatura.<br>Cuando lanzas este conjuro, elige uno o los dos efectos siguientes. Permanecerán hasta el final de la duración del conjuro. Si lanzas este conjuro sobre la misma criatura u objeto cada día durante 30 días, eligiendo el mismo efecto cada vez, la ilusión durará hasta que sea disipada.<br><b><i>Aura falsa.</i></b> Cambias el modo en que el objetivo se muestra a conjuros y efectos mágicos, como detectar magia, que perciben auras mágicas. Puedes hacer que un objeto no mágico parezca mágico, que un objeto mágico parezca no mágico o cambiar el aura del objeto para que aparente pertenecer a una escuela de magia específica de tu elección. Cuando utilizas este efecto en un objeto, puedes hacer que resulte obvio para cualquier criatura que coja y manipule el objeto que su esencia mágica es falsa.<br><b><i>Enmascarar.</i></b> Cambias cómo el objetivo se muestra a conjuros y efectos mágicos que detectan tipos de criatura o alineamiento, como los Sentidos Divinos del paladín o el conjuro símbolo. Elige un tipo de criatura o un alineamiento. El resto de conjuros y efectos mágicos tratarán al objetivo como si fuera una criatura de ese tipo o a lineamiento."
+  },
+  "auxilio": {
+    "clases": [
+      "Clérigo",
+      "Paladín"
+    ],
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "30 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M (una pequeña tira de tela blanca)"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "danyo": null,
+    "descripcion": "Este conjuro refuerza la resistencia y decisión de tus aliados. Elige hasta tres criaturas dentro del alcance: sus puntos de golpe máximos y actuales aumentan en 5 hasta el final de la duración del conjuro.<br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o más, los puntos de golpe del objetivo aumentan en 5 más por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
   }
 }
