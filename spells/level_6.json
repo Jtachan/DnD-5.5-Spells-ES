@@ -39,5 +39,29 @@
     "requiere_ataque": false,
     "danyo": null,
     "descripcion": "Elige a una criatura que puedas ver dentro del alcance. Comenzará a ejecutar una danza cómica en el lugar en el que se encuentre: arrastrando los pies, taconeando y haciendo cabriolas hasta el final de la duración del conjuro. Las criaturas inmunes a ser hechizadas no se ven afectadas por este conjuro.<br>El objetivo debe utilizar todo su movimiento en bailar y no puede moverse de donde esté. Tendrá desventaja en tiradas de salvación de Destreza y en tiradas de ataque. Mientras siga afectado por el conjuro, las tiradas de ataque de otras criaturas contra él tendrán ventaja. Como acción, la criatura bailarina puede hacer una tirada de salvación de Sabiduría para intentar recuperar el control. Si tiene éxito en la tirada, el conjuro termina inmediatamente."
+  },
+  "barrera_de_cuchillas": {
+    "clases": [
+      "Clérigo"
+    ],
+    "escuela": "Evocación",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "90 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "Destreza",
+    "requiere_ataque": false,
+    "danyo": {
+      "tipo": "Cortante",
+      "base": "6d10",
+      "escala": null
+    },
+    "descripcion": "Creas un muro vertical de cuchillas giratorias, afiladas y hechas de energía mágica. Este aparece dentro del alcance y permanece hasta el final de la duración del conjuro. Puedes crear un muro recto de hasta 100 pies de largo, 20 de alto y 5 de ancho o un muro en forma de anillo de 60 pies de diámetro, 20 de alto y 5 de ancho. En cualquiera caso, proporciona cobertura tres cuartos a las criaturas detrás de él y su espacio se considera terreno difícil.<br>Cuando una criatura entre en el área del muro por primera vez en un turno, o cuando empiece su turno en ella, deberá realizar una tirada de salvación de Destreza. Si falla, sufrirá 6d10 de daño cortante. Si tiene éxito, recibirá la mitad de daño."
   }
 }

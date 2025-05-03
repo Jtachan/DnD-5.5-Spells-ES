@@ -36,3 +36,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Aura sagrada               | 8         |
 | Auxilio                    | 2         |
 | Baile irresistible de Otto | 6         |
+| Barrera de cuchillas       | 6         |
