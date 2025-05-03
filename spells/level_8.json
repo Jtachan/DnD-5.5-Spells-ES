@@ -38,5 +38,26 @@
     "duracion": "Hasta 24 horas",
     "requiere_ataque": false,
     "descripcion": "Tu magia convierte a otros en bestias. Elige a cualquier número de criaturas voluntarias que puedas ver dentro del alcance. Transformas a cada objetivo en una bestia Grande o más pequeña con un valor de desafío igual o inferior a 4. En los siguientes turnos puedes usar una acción para transformar a las criaturas afectadas en bestias distintas.<br>La transformación dura hasta el final de la duración del conjuro o hasta que el objetivo muera o sea reducido a 0 puntos de golpe. Puedes elegir una forma distinta para cada objetivo. Reemplaza el perfil del objetivo por el perfil de la bestia elegida, aunque el objetivo mantiene su alineamiento y sus puntuaciones de Inteligencia, Sabiduría y Carisma. El objetivo pasa a tener los puntos de golpe de su nueva forma y, cuando revierta a su forma normal, vuelve a poseer los puntos de golpe que tuviera antes de la transformación. La transformación se rompe si la forma de bestia es reducida a 0 puntos de golpe, y cualquier daño sobrante se aplica a la forma normal. Si este daño sobrante no reduce la forma normal de la criatura a 0 puntos de vida, esta no cae inconsciente. Las acciones de la criatura quedan limitadas por la naturaleza de su nueva forma, y tampoco puede hablar ni lanzar conjuros.<br>El equipamiento del objetivo se funde con la nueva forma, de modo que no puede utilizar, blandir o beneficiarse de su equipamiento de ninguna manera."
+  },
+  "aura_sagrada": {
+    "clases": [
+      "Clérigo"
+    ],
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Lanzador (radio de 30 pies)",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M (un pequeño relicario que valga, al menos, 1.000 po y que contenga una reliquia sagrada, como un jirón de ropa de la túnica de un santo o un pedazo de pergamino de un texto religioso)"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "Constitución",
+    "requiere_ataque": false,
+    "danyo": null,
+    "descripcion": "Una luz divina baña suavemente tus alrededores, en un radio de 30 pies. Las criaturas de tu elección que se encuentren en el área cuando lanzas este conjuro emiten luz tenue en un radio de 5 pies y tienen ventaja en todas las tiradas de salvación. El resto de criaturas tienen desventaja en las tiradas de ataque contra las criaturas que elegiste hasta el final de la duración del conjuro. Además, cuando un infernal o un muerto viviente impacte a una criatura afectada con un ataque cuerpo a cuerpo, el aura brillará con un fogonazo. Debido a ello, el atacante debe tener éxito en una tirada de salvación de Constitución o quedará cegado hasta el final de la duración del conjuro."
   }
 }
