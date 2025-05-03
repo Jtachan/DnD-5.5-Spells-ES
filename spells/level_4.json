@@ -49,5 +49,25 @@
       }
     },
     "descripcion": "Accedes a las pesadillas de una criatura que puedas ver dentro del alcance para crear una manifestación ilusoria de sus más profundos miedos, que solo será visible para esa criatura. El objetivo debe hacer una tirada de salvación de Sabiduría. Si falla, queda asustado hasta el final de la duración del conjuro. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura debe tener éxito en una tirada de salvación de Sabiduría o sufrir 4d10 de daño psíquico. Si supera la tirada, el conjuro termina inmediatamente.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o más, el daño aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio que hayas empleado."
+  },
+  "aura_de_pureza": {
+    "clases": [
+      "Clérigo",
+      "Paladín"
+    ],
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Lanzador (radio de 30 pies)",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "danyo": null,
+    "descripcion": "Radias una energía purificante en forma de aura de 30 pies de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Todas las criaturas no hostiles en el aura (incluido tú) son resistentes al daño de veneno, no pueden enfermar y tienen ventaja en las tiradas de salvación contra cualquier efecto que cause uno de los siguientes estados: asustado, aturdido, cegado, ensordecido, envenenado, hechizado o paralizado."
   }
 }

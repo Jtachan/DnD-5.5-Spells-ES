@@ -29,3 +29,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Aspectos animales         | 8         |
 | Atadura planar            | 5         |
 | Augurio                   | 2         |
+| Aura de pureza            | 4         |
