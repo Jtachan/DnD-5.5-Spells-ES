@@ -38,3 +38,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Baile irresistible de Otto | 6         |
 | Barrera de cuchillas       | 6         |
 | Bendición                  | 1         |
+| Boca mágica                | 2         |
