@@ -31,3 +31,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Augurio                   | 2         |
 | Aura de pureza            | 4         |
 | Aura de vida              | 4         |
+| Aura de vitalidad         | 3         |
