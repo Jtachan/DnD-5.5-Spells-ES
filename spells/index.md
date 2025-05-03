@@ -39,3 +39,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Barrera de cuchillas       | 6         |
 | Bendición                  | 1         |
 | Boca mágica                | 2         |
+| Bola de fuego              | 3         |
