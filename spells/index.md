@@ -30,3 +30,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Atadura planar            | 5         |
 | Augurio                   | 2         |
 | Aura de pureza            | 4         |
+| Aura de vida              | 4         |
