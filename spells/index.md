@@ -27,3 +27,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Armadura de mago          | 1         |
 | Asesino fantasmal         | 4         |
 | Aspectos animales         | 8         |
+| Atadura planar            | 5         |
