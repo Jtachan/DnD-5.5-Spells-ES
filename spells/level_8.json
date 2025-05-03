@@ -20,5 +20,23 @@
     "requiere_ataque": true,
     "danyo": null,
     "descripcion": "Este conjuro atrae o repele a criaturas de tu elección. Elige a un objetivo dentro del a lcance: un objeto, una criatura de tamaño Enorme o más pequeña, o un área igual o menor que un cubo de 200 pies. Una vez hecho esto, deberás especificar también un tipo de criatura inteligente, como dragones rojos, goblins o vampiros. Imbuyes en el objetivo un aura que o bien atrae o repele a las criaturas elegidas hasta el final de la duración del conjuro. El aura podrá causar antipatía o simpatía a tu elección.<br><b><i>Antipatía.</i></b> El encantamiento hace que las criaturas del tipo elegido sientan una fuerte necesidad de abandonar el área y evitar al objetivo. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 60 pies del mismo, deberá tener éxito en una tirada de salvación de Sabiduría o quedará asustada. La criatura permanecerá asustada mientras pueda ver al objetivo o se mantenga a 60 pies de él. Mientras esté asustada, la criatura debe usar su movimiento para dirigirse al lugar más cercano desde el que no pueda ver al objetivo. Si la criatura se aleja más de 60 pies del objetivo y no puede verlo, ya no estará asustada, pero volverá a estarlo de nuevo si vuelve a ver al objetivo o se acerca 60 pies o menos de él.<br><b><i>Simpatía.</i></b> El encantamiento hace que las criaturas del tipo elegido a 60 pies o menos del objetivo sientan una fuerte necesidad de acercarse a él. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 60 pies del mismo, deberá tener éxito en una tirada de salvación de Sabiduría o utilizará su movimiento en cada turno para acercarse a él hasta que entre en el área o quede adyacente al objetivo. Una vez hecho esto, no podrá alejarse voluntariamente.<br>Si el objetivo daña o lastima de alguna manera a una criatura afectada, esta podrá realizar una tirada de salvación de Sabiduría para que termine el efecto, como se describe más abajo.<br><b><i>Terminar el efecto.</i></b> Si una criatura afectada por el conjuro termina su turno a más de 60 pies del objetivo o no es capaz de verlo, debe hacer una tirada de salvación de Sabiduría. Si tiene éxito, la criatura ya no estará afectada por el objetivo e identificará la naturaleza mágica del sentimiento de atracción o repulsión. Además, una criatura a fectada por el conjuro podrá realizar otra tirada de salvación de Sabiduría cada 24 horas mientras su efecto persista.<br>Una criatura que tiene éxito en la tirada de salvación contra este efecto es inmune al conjuro durante 1 minuto, tiempo tras el cual podrá verse afectada de nuevo."
+  },
+  "aspectos_animales": {
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Transmutación",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "30 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 24 horas",
+    "requiere_ataque": false,
+    "descripcion": "Tu magia convierte a otros en bestias. Elige a cualquier número de criaturas voluntarias que puedas ver dentro del alcance. Transformas a cada objetivo en una bestia Grande o más pequeña con un valor de desafío igual o inferior a 4. En los siguientes turnos puedes usar una acción para transformar a las criaturas afectadas en bestias distintas.<br>La transformación dura hasta el final de la duración del conjuro o hasta que el objetivo muera o sea reducido a 0 puntos de golpe. Puedes elegir una forma distinta para cada objetivo. Reemplaza el perfil del objetivo por el perfil de la bestia elegida, aunque el objetivo mantiene su alineamiento y sus puntuaciones de Inteligencia, Sabiduría y Carisma. El objetivo pasa a tener los puntos de golpe de su nueva forma y, cuando revierta a su forma normal, vuelve a poseer los puntos de golpe que tuviera antes de la transformación. La transformación se rompe si la forma de bestia es reducida a 0 puntos de golpe, y cualquier daño sobrante se aplica a la forma normal. Si este daño sobrante no reduce la forma normal de la criatura a 0 puntos de vida, esta no cae inconsciente. Las acciones de la criatura quedan limitadas por la naturaleza de su nueva forma, y tampoco puede hablar ni lanzar conjuros.<br>El equipamiento del objetivo se funde con la nueva forma, de modo que no puede utilizar, blandir o beneficiarse de su equipamiento de ninguna manera."
   }
 }
