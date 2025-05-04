@@ -50,5 +50,32 @@
     "requiere_ataque": true,
     "danyo": null,
     "descripcion": "Hasta el final de la duración del conjuro tienes ventaja en todas las pruebas de Carisma relacionadas con una criatura de tu elección que no sea hostil hacia ti. Cuando el conjuro termina, el objetivo se da cuenta de que has usado magia para manipular su actitud y se vuelve hostil hacia ti. Una criatura con tendencias violentas podría atacarte, mientras que otra podría intentar vengarse de otra manera (bajo el criterio del DM), dependiendo de la índole de tu interacción con ella."
+  },
+  "burla_dañina": {
+    "clases": [
+      "Bardo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "60 pies",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": "Sabiduría",
+    "requiere_ataque": false,
+    "danyo": {
+      "tipo": "Psíquico",
+      "base": "1d4",
+      "escala": {
+        "nivel_5": "2d4",
+        "nivel_11": "3d4",
+        "nivel_17": "4d4"
+      }
+    },
+    "descripcion": "Profieres una sarta de improperios entremezclados con sutiles encantamientos hacia una criatura que puedas ver dentro del alcance. Si el objetivo puede oírte (aunque no necesita entenderte), debe tener éxito en una tirada de salvación de Sabiduría o recibirá 1d4 de daño psíquico y sufrirá desventaja en la siguiente tirada de ataque que realice antes del final de su próximo turno.<br><b><i>A niveles superiores.</i></b> El daño del conjuro aumenta en 1d4 cuando alcanzas nivel 5 (2d4), nivel 11 (3d4) y nivel 17 (4d4)."
   }
 }
