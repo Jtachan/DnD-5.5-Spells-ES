@@ -98,5 +98,38 @@
     "requiere_ataque": false,
     "danyo": null,
     "descripcion": "Bendices hasta tres criaturas de tu elección dentro del alcance. Hasta el final de la duración del conjuro, cuando uno de los objetivos haga una tirada de ataque o una tirada de salvación, puede tirar 1d4 y añadir el resultado a esa tirada.<br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
+  },
+  "brazos_de_hadar": {
+    "clases": [
+      "Brujo"
+    ],
+    "escuela": "Conjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Lanzador (radio de 10 pies)",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": "Fuerza",
+    "requiere_ataque": false,
+    "danyo": {
+      "tipo": "Necrótico",
+      "base": "2d6",
+      "escala": {
+        "nivel_2": "3d6",
+        "nivel_3": "4d6",
+        "nivel_4": "5d6",
+        "nivel_5": "6d6",
+        "nivel_6": "7d6",
+        "nivel_7": "8d6",
+        "nivel_8": "9d6",
+        "nivel_9": "10d6"
+      }
+    },
+    "descripcion": "Invocas el poder de Hadar, el Hambre Tenebrosa. Zarcillos de energía oscura surgen de ti y golpean a todas las criaturas a 10 pies o menos de tu posición. Cada criatura en el área debe hacer una tirada de salvación de Fuerza. Si falla, sufrirá 2d6 de daño necrótico y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno. Si supera la tirada, recibirá la mitad de daño, pero no sufrirá ningún otro efecto.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, el daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
   }
 }
