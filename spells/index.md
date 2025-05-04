@@ -46,3 +46,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Burla dañina                         | 0 (Truco) |
 | Caída de pluma                       | 1         |
 | Calentar metal                       | 2         |
+| Calmar emociones                     | 2         |
