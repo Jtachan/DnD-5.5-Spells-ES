@@ -45,3 +45,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Buenas bayas                         | 1         |
 | Burla dañina                         | 0 (Truco) |
 | Caída de pluma                       | 1         |
+| Calentar metal                       | 2         |
