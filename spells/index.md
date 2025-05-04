@@ -47,3 +47,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Caída de pluma                       | 1         |
 | Calentar metal                       | 2         |
 | Calmar emociones                     | 2         |
+| Cambiar de forma                     | 9         |
