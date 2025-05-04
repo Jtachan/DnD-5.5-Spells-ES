@@ -42,3 +42,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Bola de fuego                        | 3         |
 | Bola de fuego de explosión retardada | 7         |
 | Brazos de Hadar                      | 1         |
+| Buenas bayas                         | 1         |
