@@ -44,3 +44,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Brazos de Hadar                      | 1         |
 | Buenas bayas                         | 1         |
 | Burla dañina                         | 0 (Truco) |
+| Caída de pluma                       | 1         |

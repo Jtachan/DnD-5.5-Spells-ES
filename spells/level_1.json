@@ -152,5 +152,27 @@
     "requiere_ataque": false,
     "danyo": null,
     "descripcion": "Aparecen en tu mano un máximo de diez bayas infundidas con magia hasta el final de la duración del conjuro. Una criatura puede utilizar su acción para comerse una baya. Si hace esto recuperará 1 punto de golpe y tendrá sustento para todo el día.<br>Las bayas pierden su poder si no son consumidas dentro de las 24 horas siguientes al lanzamiento del conjuro."
+  },
+  "caída_de_pluma": {
+    "clases": [
+      "Bardo",
+      "Hechizero",
+      "Mago"
+    ],
+    "escuela": "Transmutación",
+    "tiempo_de_lanzamiento": "1 reacción, que llevas a cabo cuando tú o una criatura a 60 pies o menos caiga",
+    "ritual": false,
+    "alcance": "60 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "M (una pluma pequeña o un poco de plumón)"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "danyo": null,
+    "descripcion": "Elige un máximo de cinco criaturas dentro del alcance que estén cayendo. La velocidad de caída de cada objetivo se reduce a 60 pies por asalto hasta que el conjuro termine. Si alguna criatura llega al suelo antes de que esto suceda, no recibe daño por caída, sino que puede caer de pie y el conjuro acaba para ese objetivo."
   }
 }
