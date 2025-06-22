@@ -49,3 +49,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Calmar emociones                     | 2         |
 | Cambiar de forma                     | 9         |
 | Caminar sobre el agua                | 3         |
+| Campo antimagia                      | 8         |
