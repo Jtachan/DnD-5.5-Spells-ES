@@ -3,16 +3,38 @@ on:
   push:
     branches:
       - "**"
+  workflow_dispatch:  # This will also run when called manually.
+
 permissions:
   contents: write
 jobs:
   unify:
     runs-on: ubuntu-latest
+
     steps:
-      -   uses: actions/checkout@v3
-      -   name: Set up Python 3.12
-          uses: actions/setup-python@v4
-          with:
-            python-version: 3.12
-      -   name: Spells files unification
-          run: python spells/unify_spell_files.py
+      # 1: Cloning repo with credentials to allow a 'push commit'
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      # 2: Configure python.
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.13
+
+      # 3: Execute script.
+      - name: Unify spell files
+        run: |
+          python spells/unify_spell_files.py
+
+      # 4: Add commit and push.
+      - name: Commit and push spells.json
+        uses: EndBug/add-and-commit@v9
+        with:
+          # Usa el GitHub Token disponible en ${{ secrets.GITHUB_TOKEN }}
+          author_name: GitHub Actions
+          author_email: actions@github.com
+          message: 'Chore: Update spells.json with new spells'
+          add: 'spells.json'
