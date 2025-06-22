@@ -109,5 +109,25 @@
     "requiere_ataque": false,
     "danyo": null,
     "descripcion": "Con este conjuro, intentas obligar a un celestial, elemental, feérico o infernal a servirte. La criatura debe estar dentro del alcance durante toda la duración del lanzamiento del conjuro (típicamente se invoca a la criatura en el centro de un círculo mágico invertido para evitar que escape mientras se lanza el conjuro). Al finalizar el lanzamiento, el objetivo debe hacer una tirada de salvación de Carisma. Si falla, queda atado, obligado a servirte hasta el final de la duración del conjuro. Si la criatura fue invocada o creada por otro conjuro, la duración de ese último se extiende hasta igualar la de este conjuro.<br>El objetivo atado debe obedecer tus órdenes lo mejor que pueda. Puedes pedirle que te acompañe en una aventura, que vigile un sitio o que entregue un mensaje. La criatura seguirá las instrucciones al pie de la letra, pero si es hostil hacia ti, intentará retorcer tus palabras para conseguir sus propios objetivos. Si cumple totalmente tus órdenes antes de que acabe el conjuro, viajará hasta donde estés para informarte, siempre y cuando estéis en el mismo plano de existencia. Si estás en otro plano, volverá al sitio donde la ataste y se quedará ahí hasta que el conjuro termine.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de un nivel superior, la duración pasa a ser de 10 días con un espacio de conjuro de nivel 6, de 30 días con uno de nivel 7, de 180 días con uno de nivel 8 y de 1 año y 1 día con un espacio de conjuro de nivel 9."
+  },
+  "caparazon_antivida": {
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Lanzador (radio de 10 pies)",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "danyo": null,
+    "descripcion": "Una barrera refulgente se extiende alrededor de ti en un radio de 10 pies. Permanece centrada en ti y se mueve contigo, manteniendo a raya a todas las criaturas que no sean muertos vivientes o autómatas. La barrera persiste hasta el final de la duración del conjuro.<br>Las criaturas afectadas no pueden penetrar en el interior de la barrera, ni parcialmente ni por completo. No obstante, son capaces de lanzar conjuros o realizar ataques con armas de gran alcance o a distancia a través de la barrera.<br>Si tu movimiento obliga a una criatura afectada a atravesar la barrera, el conjuro termina."
   }
 }

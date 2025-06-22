@@ -50,3 +50,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Cambiar de forma                     | 9         |
 | Caminar sobre el agua                | 3         |
 | Campo antimagia                      | 8         |
+| Caparazón antivida                   | 5         |
