@@ -48,3 +48,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Calentar metal                       | 2         |
 | Calmar emociones                     | 2         |
 | Cambiar de forma                     | 9         |
+| Caminar sobre el agua                | 3         |

@@ -125,5 +125,27 @@
       }
     },
     "descripcion": "Una ráfaga brillante surge de tu dedo hacia un punto de tu elección dentro del alcance y después crece con un rugido sordo hasta convertirse en una explosión ardiente. Todas las criaturas en una esfera de 20 pies centrada en el punto deben hacer una tirada de salvación de Destreza. Sufrirán 8d6 de daño de fuego si fallan la tirada o la mitad del daño si la superan.<br>El fuego se extiende más allá de las esquinas. Los objetos inflamables que se encuentren en el área que no lleve o vista alguien arderán.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, el daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio que hayas empleado."
+  },
+  "caminar_sobre_el_agua": {
+    "clases": [
+      "Clérigo",
+      "Druida"
+    ],
+    "escuela": "Transmutación",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": true,
+    "alcance": "30 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M (un trozo de corcho)"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "danyo": null,
+    "descripcion": "Este conjuro proporciona la capacidad de moverse a través de cualquier superficie líquida, como agua, ácido, barro, nieve, arenas movedizas o lava, como si fuera un terreno sólido inofensivo (aunque las criaturas que crucen lava fundida podrían recibir daño del intenso calor). Un máximo de diez criaturas que puedas ver dentro del alcance recibirán esta capacidad hasta que el conjuro termine.<br>Si eliges como objetivo a una criatura sumergida en un líquido, el conjuro la elevará a la superficie del mismo a una velocidad de 60 pies por asalto."
   }
 }
