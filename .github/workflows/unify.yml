@@ -2,7 +2,7 @@ name: Creation of 'spells.json'
 on:
   push:
     branches:
-      - "**"
+      - "main"
   workflow_dispatch:  # This will also run when called manually.
 
 permissions:
@@ -36,5 +36,5 @@ jobs:
           # Usa el GitHub Token disponible en ${{ secrets.GITHUB_TOKEN }}
           author_name: GitHub Actions
           author_email: actions@github.com
-          message: 'Chore: Update spells.json with new spells'
+          message: 'GH commit: Update spells.json with new spells'
           add: 'spells.json'
