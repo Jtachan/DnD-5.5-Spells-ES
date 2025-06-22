@@ -1,7 +1,8 @@
 {
   "cambiar_de_forma": {
     "clases": [
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "1 acción",
