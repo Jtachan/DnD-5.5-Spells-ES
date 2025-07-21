@@ -1,6 +1,6 @@
 [
   {
-    "name": "alterar_los_recuerdos",
+    "nombre": "Alterar los recuerdos",
     "clases": [
       "Hechizero",
       "Mago"
@@ -22,7 +22,7 @@
     "materiales": null
   },
   {
-    "name": "alzar_a_los_muertos",
+    "nombre": "Alzar a los muertos",
     "clases": [
       "Bardo",
       "Clérigo",
@@ -46,7 +46,7 @@
     "materiales": "Un diamante con un valor de, al menos, 500 po, que es consumido como parte del conjuro."
   },
   {
-    "name": "animar_objetos",
+    "nombre": "Animar objetos",
     "clases": [
       "Bardo",
       "Hechicero",
@@ -69,7 +69,7 @@
     "materiales": null
   },
   {
-    "name": "apariencia",
+    "nombre": "Apariencia",
     "clases": [
       "Bardo",
       "Hechizero",
@@ -92,7 +92,7 @@
     "materiales": null
   },
   {
-    "name": "atadura_planar",
+    "nombre": "Atadura planar",
     "clases": [
       "Brujo",
       "Hechizero",
@@ -116,7 +116,7 @@
     "materiales": "Una joya con un valor de, al menos, 1.000 po, que es consumida como parte del conjuro."
   },
   {
-    "name": "caparazon_antivida",
+    "nombre": "Caparazon antivida",
     "clases": [
       "Druida"
     ],

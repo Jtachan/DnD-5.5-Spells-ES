@@ -1,6 +1,6 @@
 [
   {
-    "name": "aliado_planar",
+    "nombre": "Aliado planar",
     "clases": [
       "Clérigo"
     ],
@@ -21,7 +21,7 @@
     "materiales": null
   },
   {
-    "name": "baile_irresistible_de_otto",
+    "nombre": "Baile irresistible de Otto",
     "clases": [
       "Bardo",
       "Hechicero",
@@ -43,7 +43,7 @@
     "materiales": null
   },
   {
-    "name": "barrera_de_cuchillas",
+    "nombre": "Barrera de cuchillas",
     "clases": [
       "Clérigo"
     ],

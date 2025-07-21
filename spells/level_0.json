@@ -1,6 +1,6 @@
 [
   {
-    "name": "agarre_electrizante",
+    "nombre": "Agarre electrizante",
     "clases": [
       "Hechizero",
       "Mago"
@@ -22,7 +22,7 @@
     "materiales": null
   },
   {
-    "name": "amistad",
+    "nombre": "Amistad",
     "clases": [
       "Bardo",
       "Brujo",
@@ -46,7 +46,7 @@
     "materiales": "Una pequeña cantidad de maquillaje aplicada sobre la cara al lanzar el conjuro."
   },
   {
-    "name": "burla_dañina",
+    "nombre": "Burla dañina",
     "clases": [
       "Bardo"
     ],

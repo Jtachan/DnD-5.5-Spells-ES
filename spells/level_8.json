@@ -1,6 +1,6 @@
 [
   {
-    "name": "antipatia/simpatia",
+    "nombre": "Antipatía/Simpatía",
         "clases": [
       "Druída",
       "Mago"
@@ -23,7 +23,7 @@
     "materiales": "Un pedazo de alumbre empapado en vinagre para el efecto de antipatía o una gota de miel para el efecto de simpatía."
   },
   {
-    "name": "aspectos_animales",
+    "nombre": "Aspectos animales",
         "clases": [
       "Druida"
     ],
@@ -43,7 +43,7 @@
     "materiales": null
   },
   {
-    "name": "aura_sagrada",
+    "nombre": "Aura sagrada",
         "clases": [
       "Clérigo"
     ],
@@ -65,7 +65,7 @@
     "materiales": "Un pequeño relicario que valga, al menos, 1.000 po y que contenga una reliquia sagrada, como un jirón de ropa de la túnica de un santo o un pedazo de pergamino de un texto religioso."
   },
   {
-    "name": "campo_antimagia",
+    "nombre": "Campo antimagia",
         "clases": [
       "Clérigo",
       "Mago"

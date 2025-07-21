@@ -1,6 +1,6 @@
 [
   {
-    "name": "abrir",
+    "nombre": "Abrir",
     "clases": [
       "Bardo",
       "Hechizero",
@@ -22,7 +22,7 @@
     "materiales": null
   },
   {
-    "name": "agrandar/reducir",
+    "nombre": "Agrandar/Reducir",
     "clases": [
       "Hechizero",
       "Mago"
@@ -45,7 +45,7 @@
     "materiales": "Una pizca de polvo de hierro."
   },
   {
-    "name": "alterar_el_propio_aspecto",
+    "nombre": "Alterar el propio aspecto",
     "clases": [
       "Hechizero",
       "Mago"
@@ -68,7 +68,7 @@
     "materiales": "Una pizca de polvo de hierro."
   },
   {
-    "name": "arma_espiritual",
+    "nombre": "Arma espiritual",
     "clases": [
       "Clérigo"
     ],
@@ -89,7 +89,7 @@
     "materiales": null
   },
   {
-    "name": "arma_magica",
+    "nombre": "Arma mágica",
     "clases": [
       "Paladín",
       "Mago"
@@ -111,7 +111,7 @@
     "materiales": null
   },
   {
-    "name": "augurio",
+    "nombre": "Augurio",
     "clases": [
       "Clérigo"
     ],
@@ -133,7 +133,7 @@
     "materiales": "Palitos, huesos o abalorios marcados de forma especial y valorados en, al menos, 25 po."
   },
   {
-    "name": "aura_magica_de_nystul",
+    "nombre": "Aura mágica de Nystul",
     "clases": [
       "Hechicero",
       "Mago"
@@ -156,7 +156,7 @@
     "materiales": "Un pequeño cuadrado de seda."
   },
   {
-    "name": "auxilio",
+    "nombre": "Auxilio",
     "clases": [
       "Clérigo",
       "Paladín"
@@ -179,7 +179,7 @@
     "materiales": "Una pequeña tira de tela blanca."
   },
   {
-    "name": "boca_magica",
+    "nombre": "Boca mágica",
     "clases": [
       "Bardo",
       "Hechicero",
@@ -203,7 +203,7 @@
     "materiales": "Un trocito de panal de abeja y polvo de jade con un valor de, al menos, 10 po, que es consumido como parte del conjuro."
   },
   {
-    "name": "calentar_metal",
+    "nombre": "Calentar metal",
     "clases": [
       "Bardo",
       "Druida"
@@ -226,7 +226,7 @@
     "materiales": "Un trozo de hierro y una llama."
   },
   {
-    "name": "calmar_emociones",
+    "nombre": "Calmar emociones",
     "clases": [
       "Bardo",
       "Clérigo"

@@ -1,6 +1,6 @@
 [
   {
-    "name": "bola_de_fuego_de_explosion_retardada",
+    "nombre": "Bola de fuego de explosion retardada",
     "clases": [
       "Hechicero",
       "Mago"

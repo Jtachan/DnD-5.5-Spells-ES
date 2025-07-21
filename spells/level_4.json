@@ -1,6 +1,6 @@
 [
   {
-    "name": "adivinacion",
+    "nombre": "Adivinación",
     "clases": [
       "Clérigo"
     ],
@@ -22,7 +22,7 @@
     "materiales": "Incienso y una ofrenda ritual apropiada a tu religión, en conjunto con valor de 25 po y que son consumidos por el conjuro."
   },
   {
-    "name": "asesino_fantasmal",
+    "nombre": "Asesino fantasmal",
     "clases": [
       "Mago"
     ],
@@ -43,7 +43,7 @@
     "materiales": null
   },
   {
-    "name": "aura_de_pureza",
+    "nombre": "Aura de pureza",
     "clases": [
       "Clérigo",
       "Paladín"
@@ -64,7 +64,7 @@
     "materiales": null
   },
   {
-    "name": "aura_de_vida",
+    "nombre": "Aura de vida",
     "clases": [
       "Clérigo",
       "Paladín"

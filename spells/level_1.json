@@ -1,6 +1,6 @@
 [
   {
-    "name": "alarma",
+    "nombre": "Alarma",
     "clases": [
       "Explorador",
       "Mago"
@@ -23,7 +23,7 @@
     "materiales": "Una pequeña campana y un hilo de plata fina."
   },
   {
-    "name": "armadura_de_agathys",
+    "nombre": "Armadura de Agathys",
     "clases": [
       "Brujo"
     ],
@@ -45,7 +45,7 @@
     "materiales": "Una taza de agua."
   },
   {
-    "name": "armadura_de_mago",
+    "nombre": "Armadura de mago",
     "clases": [
       "Hechicero",
       "Mago"
@@ -68,7 +68,7 @@
     "materiales": "Un trozo de piel curtida."
   },
   {
-    "name": "bendicion",
+    "nombre": "Bendición",
     "clases": [
       "Clérigo",
       "Paladín"
@@ -91,7 +91,7 @@
     "materiales": "Unas gotas de agua bendita."
   },
   {
-    "name": "brazos_de_hadar",
+    "nombre": "Brazos de Hadar",
     "clases": [
       "Brujo"
     ],
@@ -112,7 +112,7 @@
     "materiales": null
   },
   {
-    "name": "buenas_bayas",
+    "nombre": "Buenas Bayas",
     "clases": [
       "Druida"
     ],
@@ -134,7 +134,7 @@
     "materiales": "Un ramito de muérdago."
   },
   {
-    "name": "caída_de_pluma",
+    "nombre": "Caída de pluma",
     "clases": [
       "Bardo",
       "Hechizero",

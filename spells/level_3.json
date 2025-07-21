@@ -1,6 +1,6 @@
 [
   {
-    "name": "acelerar",
+    "nombre": "Acelerar",
     "clases": [
       "Hechizero",
       "Mago"
@@ -23,7 +23,7 @@
     "materiales": "Una ralladura de raíz de regaliz."
   },
   {
-    "name": "animar_a_los_muertos",
+    "nombre": "Animar a los muertos",
     "clases": [
       "Clérigo",
       "Mago"
@@ -46,7 +46,7 @@
     "materiales": "Una gota de sangre, un pedazo de carne y una pizca de polvo de hueso."
   },
   {
-    "name": "arma_elemental",
+    "nombre": "Arma elemental",
     "clases": [
       "Druida",
       "Paladín",
@@ -69,7 +69,7 @@
     "materiales": null
   },
   {
-    "name": "aura_de_vitalidad",
+    "nombre": "Aura de vitalidad",
     "clases": [
       "Clérigo",
       "Druida",
@@ -92,7 +92,7 @@
     "materiales": null
   },
   {
-    "name": "bola_de_fuego",
+    "nombre": "Bola de fuego",
     "clases": [
       "Hechicero",
       "Mago"
@@ -115,7 +115,7 @@
     "materiales": "Una pelotita de guano de murciélago y azufre."
   },
   {
-    "name": "caminar_sobre_el_agua",
+    "nombre": "Caminar sobre el agua",
     "clases": [
       "Clérigo",
       "Druida"
