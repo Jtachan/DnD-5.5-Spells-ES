@@ -8,14 +8,12 @@ import os
 
 
 def unify_spells():
-    all_spells = {}
+    all_spells = []
     for idx in range(10):
         with open(f"level_{idx}.json", "r", encoding="utf-8") as fh:
-            spells = json.load(fh)
-
-        for spell_data in spells.values():
-            spell_data.update(nivel=idx)
-        all_spells |= spells
+            spells = [sp | {"nivel": idx} for sp in json.load(fh)]
+        all_spells.extend(spells)
+    all_spells.sort(key=lambda sp: sp["nombre"])
 
     out_path = os.path.join(os.path.dirname(__file__), "..", "spells.json")
     with open(out_path, "w", encoding="utf-8") as fh:
