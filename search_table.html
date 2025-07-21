@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Conjuros</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    .controls { margin-bottom: 10px; }
+    .controls label, .controls input, .controls select { margin-right: 10px; }
+    .pagination { margin-top: 10px; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+  </style>
+</head>
+<body>
+  <h1>Conjuros</h1>
+  <div class="controls">
+    <label for="search">Buscar:</label>
+    <input type="text" id="search" placeholder="Buscar por nombre">
+    <label for="pageSize">Mostrar:</label>
+    <select id="pageSize">
+      <option value="10">10</option>
+      <option value="25">25</option>
+      <option value="50">50</option>
+    </select>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Clases</th>
+        <th>Escuela</th>
+        <th>Nivel</th>
+        <th>Tiempo de lanzamiento</th>
+        <th>Ritual</th>
+        <th>Alcance</th>
+        <th>Visible</th>
+        <th>Componentes</th>
+        <th>Concentración</th>
+        <th>Duración</th>
+        <th>Tirada de salvación</th>
+        <th>Requiere ataque</th>
+      </tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+  </table>
+  <div class="pagination">
+    <button id="prev">‹ Anterior</button>
+    <span id="page-info"></span>
+    <button id="next">Siguiente ›</button>
+  </div>
+  <script>
+    let spells = [];
+    let filtered = [];
+    let currentPage = 1;
+
+    const searchInput = document.getElementById('search');
+    const pageSizeSelect = document.getElementById('pageSize');
+    const tableBody = document.getElementById('table-body');
+    const prevBtn = document.getElementById('prev');
+    const nextBtn = document.getElementById('next');
+    const pageInfo = document.getElementById('page-info');
+
+    // Normaliza texto (quita tildes y pasa a minúsculas)
+    function normalize(str) {
+      return str.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    }
+
+    function renderTable() {
+      const pageSize = parseInt(pageSizeSelect.value, 10);
+      const start = (currentPage - 1) * pageSize;
+      const end = start + pageSize;
+      const pageItems = filtered.slice(start, end);
+
+      tableBody.innerHTML = '';
+      for (const spell of pageItems) {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${spell.nombre}</td>
+          <td>${spell.clases.join(', ')}</td>
+          <td>${spell.escuela}</td>
+          <td>${spell.nivel}</td>
+          <td>${spell.tiempo_de_lanzamiento}</td>
+          <td>${spell.ritual ? 'Sí' : 'No'}</td>
+          <td>${spell.alcance}</td>
+          <td>${spell.visible ? 'Sí' : 'No'}</td>
+          <td>${spell.componentes.join(', ')}</td>
+          <td>${spell.concentracion ? 'Sí' : 'No'}</td>
+          <td>${spell.duracion}</td>
+          <td>${spell.tirada_de_salvacion || ''}</td>
+          <td>${spell.requiere_ataque ? 'Sí' : 'No'}</td>
+        `;
+        tableBody.appendChild(tr);
+      }
+
+      const totalPages = Math.ceil(filtered.length / pageSize) || 1;
+      pageInfo.textContent = `Página ${currentPage} de ${totalPages}`;
+      prevBtn.disabled = currentPage === 1;
+      nextBtn.disabled = currentPage === totalPages;
+    }
+
+    function updateFilter() {
+      const query = normalize(searchInput.value);
+      filtered = spells.filter(spell => normalize(spell.nombre).includes(query));
+      currentPage = 1;
+      renderTable();
+    }
+
+    searchInput.addEventListener('input', updateFilter);
+    pageSizeSelect.addEventListener('change', () => {
+      currentPage = 1;
+      renderTable();
+    });
+    prevBtn.addEventListener('click', () => {
+      if (currentPage > 1) {
+        currentPage--;
+        renderTable();
+      }
+    });
+    nextBtn.addEventListener('click', () => {
+      const pageSize = parseInt(pageSizeSelect.value, 10);
+      const totalPages = Math.ceil(filtered.length / pageSize) || 1;
+      if (currentPage < totalPages) {
+        currentPage++;
+        renderTable();
+      }
+    });
+
+    // Carga de datos
+    fetch('spells.json')
+      .then(response => response.json())
+      .then(data => {
+        spells = data;
+        spells.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es', { sensitivity: 'base' }));
+        filtered = spells;
+        renderTable();
+      })
+      .catch(error => {
+        console.error('Error al cargar spells.json', error);
+        tableBody.innerHTML = '<tr><td colspan="13">No se pudieron cargar los datos.</td></tr>';
+      });
+  </script>
+</body>
+</html>
