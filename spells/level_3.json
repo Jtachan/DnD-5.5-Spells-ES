@@ -1,5 +1,6 @@
-{
-  "acelerar": {
+[
+  {
+    "nombre": "Acelerar",
     "clases": [
       "Hechizero",
       "Mago"
@@ -12,16 +13,17 @@
     "componentes": [
       "V",
       "S",
-      "M (una ralladura de raíz de regaliz)"
+      "M"
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "danyo": null,
-    "descripcion": "Elige a una criatura voluntaria que puedas ver dentro del alcance. Hasta que el conjuro termine, la velocidad del objetivo se duplica, gana un bonificador de +2 a su CA, tiene ventaja en tiradas de salvación de Destreza y gana una segunda acción en cada uno de sus turnos. Solo puede utilizar esta acción para Atacar (solo un ataque con arma en caso de tener múltiples por acción), Correr, Destrabarse, Esconderse o Usar un Objeto.<br>Cuando el conjuro termina, el objetivo no podrá moverse o realizar acciones hasta después de su siguiente turno, debudo a una ola de somnolencia que lo afecta."
+    "descripcion": "Elige a una criatura voluntaria que puedas ver dentro del alcance. Hasta que el conjuro termine, la velocidad del objetivo se duplica, gana un bonificador de +2 a su CA, tiene ventaja en tiradas de salvación de Destreza y gana una segunda acción en cada uno de sus turnos. Solo puede utilizar esta acción para Atacar (solo un ataque con arma en caso de tener múltiples por acción), Correr, Destrabarse, Esconderse o Usar un Objeto.<br>Cuando el conjuro termina, el objetivo no podrá moverse o realizar acciones hasta después de su siguiente turno, debudo a una ola de somnolencia que lo afecta.",
+    "materiales": "Una ralladura de raíz de regaliz."
   },
-  "animar_a_los_muertos": {
+  {
+    "nombre": "Animar a los muertos",
     "clases": [
       "Clérigo",
       "Mago"
@@ -34,16 +36,17 @@
     "componentes": [
       "V",
       "S",
-      "M (una gota de sangre, un pedazo de carne y una pizca de polvo de hueso)"
+      "M"
     ],
     "concentracion": false,
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "danyo": null,
-    "descripcion": "Este conjuro crea un siervo muerto viviente. Elige un montón de huesos o un cadáver de un humanoide de tamaño Mediano o Pequeño. Debe estar dentro del alcance. El conjuro insufla en el objetivo una burda semblanza de vida, alzándolo como una criatura muerta viviente. El objetivo se convierte en un esqueleto, si elegiste un montón de huesos, o en un zombi, si elegiste un cadáver. El DM tiene el perfil de la criatura.<br>En cada turno, puedes usar una acción adicional para dar una orden mental a cualquier criatura creada mediante este conjuro que esté a 60 pies o menos de ti (si controlas varias criaturas, puedes dirigir a una o más de ellas utilizando la misma orden). Decides qué acción va a tomar la criatura y dónde se moverá durante su próximo turno. También puedes dar una orden general, como vigilar una cámara o pasillo en concreto. Si no das ninguna orden, la criatura se limita a defenderse de otras criaturas hostiles. Una vez recibida una orden, la sigue hasta cumplirla.<br>La criatura permanece bajo tu control durante 24 horas, después de las cuales abandonará cualquier orden que hayas dado. Para mantener el control de la criatura durante otras 24 horas, debes lanzar este conjuro de nuevo sobre ella antes de que el periodo actual de 24 horas termine. Puedes usar este conjuro para reafirmar tu control sobre hasta cuatro criaturas que hayas animado previamente con este conjuro o para reanimar a una nueva.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, reanimas o reafirmas tu control sobre dos criaturas muertas vivientes adicionales por cada nivel por encima de 3 que tenga el espacio que hayas empleado. Cada criatura debe proceder de un cadáver o montón de huesos diferente."
+    "descripcion": "Este conjuro crea un siervo muerto viviente. Elige un montón de huesos o un cadáver de un humanoide de tamaño Mediano o Pequeño. Debe estar dentro del alcance. El conjuro insufla en el objetivo una burda semblanza de vida, alzándolo como una criatura muerta viviente. El objetivo se convierte en un esqueleto, si elegiste un montón de huesos, o en un zombi, si elegiste un cadáver. El DM tiene el perfil de la criatura.<br>En cada turno, puedes usar una acción adicional para dar una orden mental a cualquier criatura creada mediante este conjuro que esté a 60 pies o menos de ti (si controlas varias criaturas, puedes dirigir a una o más de ellas utilizando la misma orden). Decides qué acción va a tomar la criatura y dónde se moverá durante su próximo turno. También puedes dar una orden general, como vigilar una cámara o pasillo en concreto. Si no das ninguna orden, la criatura se limita a defenderse de otras criaturas hostiles. Una vez recibida una orden, la sigue hasta cumplirla.<br>La criatura permanece bajo tu control durante 24 horas, después de las cuales abandonará cualquier orden que hayas dado. Para mantener el control de la criatura durante otras 24 horas, debes lanzar este conjuro de nuevo sobre ella antes de que el periodo actual de 24 horas termine. Puedes usar este conjuro para reafirmar tu control sobre hasta cuatro criaturas que hayas animado previamente con este conjuro o para reanimar a una nueva.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, reanimas o reafirmas tu control sobre dos criaturas muertas vivientes adicionales por cada nivel por encima de 3 que tenga el espacio que hayas empleado. Cada criatura debe proceder de un cadáver o montón de huesos diferente.",
+    "materiales": "Una gota de sangre, un pedazo de carne y una pizca de polvo de hueso."
   },
-  "arma_elemental": {
+  {
+    "nombre": "Arma elemental",
     "clases": [
       "Druida",
       "Paladín",
@@ -62,20 +65,11 @@
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": {
-      "tipo": "Variable",
-      "base": "1d4",
-      "escala": {
-        "nivel_5": "2d4",
-        "nivel_6": "2d4",
-        "nivel_7": "3d4",
-        "nivel_8": "3d4",
-        "nivel_9": "3d4"
-      }
-    },
-    "descripcion": "Un arma no mágica que toques se convierte en mágica. Elige uno de los siguientes tipos de daño: ácido, frío, fuego, relámpago o trueno. Hasta el final de la duración del conjuro, el arma tiene un bonificador de +1 a las tiradas de ataque y hace 1d4 de daño adicionales del tipo elegido cuando impacta.<br><b><i>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o 6, el bonificador a tiradas de ataque aumenta a +2 y el daño adicional a 2d4. Cuando utilizas un espacio de conjuro de nivel 7 o mayor, el modificador aumenta a +3 y el daño adicional a 3d4."
+    "descripcion": "Un arma no mágica que toques se convierte en mágica. Elige uno de los siguientes tipos de daño: ácido, frío, fuego, relámpago o trueno. Hasta el final de la duración del conjuro, el arma tiene un bonificador de +1 a las tiradas de ataque y hace 1d4 de daño adicionales del tipo elegido cuando impacta.<br><b><i>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o 6, el bonificador a tiradas de ataque aumenta a +2 y el daño adicional a 2d4. Cuando utilizas un espacio de conjuro de nivel 7 o mayor, el modificador aumenta a +3 y el daño adicional a 3d4.",
+    "materiales": null
   },
-  "aura_de_vitalidad": {
+  {
+    "nombre": "Aura de vitalidad",
     "clases": [
       "Clérigo",
       "Druida",
@@ -94,10 +88,11 @@
     "duracion": "hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Radias una energía sanadora en forma de aura de 30 pies de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Puedes usar una acción adicional para hacer que una criatura en el aura (incluido tú) recupere 2d6 puntos de golpe."
+    "descripcion": "Radias una energía sanadora en forma de aura de 30 pies de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Puedes usar una acción adicional para hacer que una criatura en el aura (incluido tú) recupere 2d6 puntos de golpe.",
+    "materiales": null
   },
-  "bola_de_fuego": {
+  {
+    "nombre": "Bola de fuego",
     "clases": [
       "Hechicero",
       "Mago"
@@ -110,23 +105,17 @@
     "componentes": [
       "V",
       "S",
-      "M (una pelotita de guano de murciélago y azufre)"
+      "M"
     ],
     "concentracion": false,
     "duracion": "Instantáneo",
     "tirada_de_salvacion": "Destreza",
     "requiere_ataque": false,
-    "danyo": {
-      "tipo": "fuego",
-      "cantidad": "8d6",
-      "escala": {
-        "nivel": 4,
-        "incremento": "1d6"
-      }
-    },
-    "descripcion": "Una ráfaga brillante surge de tu dedo hacia un punto de tu elección dentro del alcance y después crece con un rugido sordo hasta convertirse en una explosión ardiente. Todas las criaturas en una esfera de 20 pies centrada en el punto deben hacer una tirada de salvación de Destreza. Sufrirán 8d6 de daño de fuego si fallan la tirada o la mitad del daño si la superan.<br>El fuego se extiende más allá de las esquinas. Los objetos inflamables que se encuentren en el área que no lleve o vista alguien arderán.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, el daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio que hayas empleado."
+    "descripcion": "Una ráfaga brillante surge de tu dedo hacia un punto de tu elección dentro del alcance y después crece con un rugido sordo hasta convertirse en una explosión ardiente. Todas las criaturas en una esfera de 20 pies centrada en el punto deben hacer una tirada de salvación de Destreza. Sufrirán 8d6 de daño de fuego si fallan la tirada o la mitad del daño si la superan.<br>El fuego se extiende más allá de las esquinas. Los objetos inflamables que se encuentren en el área que no lleve o vista alguien arderán.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, el daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
+    "materiales": "Una pelotita de guano de murciélago y azufre."
   },
-  "caminar_sobre_el_agua": {
+  {
+    "nombre": "Caminar sobre el agua",
     "clases": [
       "Clérigo",
       "Druida"
@@ -139,13 +128,13 @@
     "componentes": [
       "V",
       "S",
-      "M (un trozo de corcho)"
+      "M"
     ],
     "concentracion": false,
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Este conjuro proporciona la capacidad de moverse a través de cualquier superficie líquida, como agua, ácido, barro, nieve, arenas movedizas o lava, como si fuera un terreno sólido inofensivo (aunque las criaturas que crucen lava fundida podrían recibir daño del intenso calor). Un máximo de diez criaturas que puedas ver dentro del alcance recibirán esta capacidad hasta que el conjuro termine.<br>Si eliges como objetivo a una criatura sumergida en un líquido, el conjuro la elevará a la superficie del mismo a una velocidad de 60 pies por asalto."
+    "descripcion": "Este conjuro proporciona la capacidad de moverse a través de cualquier superficie líquida, como agua, ácido, barro, nieve, arenas movedizas o lava, como si fuera un terreno sólido inofensivo (aunque las criaturas que crucen lava fundida podrían recibir daño del intenso calor). Un máximo de diez criaturas que puedas ver dentro del alcance recibirán esta capacidad hasta que el conjuro termine.<br>Si eliges como objetivo a una criatura sumergida en un líquido, el conjuro la elevará a la superficie del mismo a una velocidad de 60 pies por asalto.",
+    "materiales": "Un trozo de corcho."
   }
-}
+]

@@ -1,6 +1,7 @@
-{
-  "antipatia/simpatia": {
-    "clases": [
+[
+  {
+    "nombre": "Antipatía/Simpatía",
+        "clases": [
       "Druída",
       "Mago"
     ],
@@ -12,17 +13,18 @@
     "componentes": [
       "V",
       "S",
-      "M (un pedazo de alumbre empapado en vinagre para el efecto de antipatía o una gota de miel para el efecto de simpatía)"
+      "M"
     ],
     "concentracion": false,
     "duracion": "10 días",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": true,
-    "danyo": null,
-    "descripcion": "Este conjuro atrae o repele a criaturas de tu elección. Elige a un objetivo dentro del a lcance: un objeto, una criatura de tamaño Enorme o más pequeña, o un área igual o menor que un cubo de 200 pies. Una vez hecho esto, deberás especificar también un tipo de criatura inteligente, como dragones rojos, goblins o vampiros. Imbuyes en el objetivo un aura que o bien atrae o repele a las criaturas elegidas hasta el final de la duración del conjuro. El aura podrá causar antipatía o simpatía a tu elección.<br><b><i>Antipatía.</i></b> El encantamiento hace que las criaturas del tipo elegido sientan una fuerte necesidad de abandonar el área y evitar al objetivo. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 60 pies del mismo, deberá tener éxito en una tirada de salvación de Sabiduría o quedará asustada. La criatura permanecerá asustada mientras pueda ver al objetivo o se mantenga a 60 pies de él. Mientras esté asustada, la criatura debe usar su movimiento para dirigirse al lugar más cercano desde el que no pueda ver al objetivo. Si la criatura se aleja más de 60 pies del objetivo y no puede verlo, ya no estará asustada, pero volverá a estarlo de nuevo si vuelve a ver al objetivo o se acerca 60 pies o menos de él.<br><b><i>Simpatía.</i></b> El encantamiento hace que las criaturas del tipo elegido a 60 pies o menos del objetivo sientan una fuerte necesidad de acercarse a él. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 60 pies del mismo, deberá tener éxito en una tirada de salvación de Sabiduría o utilizará su movimiento en cada turno para acercarse a él hasta que entre en el área o quede adyacente al objetivo. Una vez hecho esto, no podrá alejarse voluntariamente.<br>Si el objetivo daña o lastima de alguna manera a una criatura afectada, esta podrá realizar una tirada de salvación de Sabiduría para que termine el efecto, como se describe más abajo.<br><b><i>Terminar el efecto.</i></b> Si una criatura afectada por el conjuro termina su turno a más de 60 pies del objetivo o no es capaz de verlo, debe hacer una tirada de salvación de Sabiduría. Si tiene éxito, la criatura ya no estará afectada por el objetivo e identificará la naturaleza mágica del sentimiento de atracción o repulsión. Además, una criatura a fectada por el conjuro podrá realizar otra tirada de salvación de Sabiduría cada 24 horas mientras su efecto persista.<br>Una criatura que tiene éxito en la tirada de salvación contra este efecto es inmune al conjuro durante 1 minuto, tiempo tras el cual podrá verse afectada de nuevo."
+    "descripcion": "Este conjuro atrae o repele a criaturas de tu elección. Elige a un objetivo dentro del a lcance: un objeto, una criatura de tamaño Enorme o más pequeña, o un área igual o menor que un cubo de 200 pies. Una vez hecho esto, deberás especificar también un tipo de criatura inteligente, como dragones rojos, goblins o vampiros. Imbuyes en el objetivo un aura que o bien atrae o repele a las criaturas elegidas hasta el final de la duración del conjuro. El aura podrá causar antipatía o simpatía a tu elección.<br><b><i>Antipatía.</i></b> El encantamiento hace que las criaturas del tipo elegido sientan una fuerte necesidad de abandonar el área y evitar al objetivo. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 60 pies del mismo, deberá tener éxito en una tirada de salvación de Sabiduría o quedará asustada. La criatura permanecerá asustada mientras pueda ver al objetivo o se mantenga a 60 pies de él. Mientras esté asustada, la criatura debe usar su movimiento para dirigirse al lugar más cercano desde el que no pueda ver al objetivo. Si la criatura se aleja más de 60 pies del objetivo y no puede verlo, ya no estará asustada, pero volverá a estarlo de nuevo si vuelve a ver al objetivo o se acerca 60 pies o menos de él.<br><b><i>Simpatía.</i></b> El encantamiento hace que las criaturas del tipo elegido a 60 pies o menos del objetivo sientan una fuerte necesidad de acercarse a él. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 60 pies del mismo, deberá tener éxito en una tirada de salvación de Sabiduría o utilizará su movimiento en cada turno para acercarse a él hasta que entre en el área o quede adyacente al objetivo. Una vez hecho esto, no podrá alejarse voluntariamente.<br>Si el objetivo daña o lastima de alguna manera a una criatura afectada, esta podrá realizar una tirada de salvación de Sabiduría para que termine el efecto, como se describe más abajo.<br><b><i>Terminar el efecto.</i></b> Si una criatura afectada por el conjuro termina su turno a más de 60 pies del objetivo o no es capaz de verlo, debe hacer una tirada de salvación de Sabiduría. Si tiene éxito, la criatura ya no estará afectada por el objetivo e identificará la naturaleza mágica del sentimiento de atracción o repulsión. Además, una criatura a fectada por el conjuro podrá realizar otra tirada de salvación de Sabiduría cada 24 horas mientras su efecto persista.<br>Una criatura que tiene éxito en la tirada de salvación contra este efecto es inmune al conjuro durante 1 minuto, tiempo tras el cual podrá verse afectada de nuevo.",
+    "materiales": "Un pedazo de alumbre empapado en vinagre para el efecto de antipatía o una gota de miel para el efecto de simpatía."
   },
-  "aspectos_animales": {
-    "clases": [
+  {
+    "nombre": "Aspectos animales",
+        "clases": [
       "Druida"
     ],
     "escuela": "Transmutación",
@@ -37,10 +39,12 @@
     "concentracion": true,
     "duracion": "Hasta 24 horas",
     "requiere_ataque": false,
-    "descripcion": "Tu magia convierte a otros en bestias. Elige a cualquier número de criaturas voluntarias que puedas ver dentro del alcance. Transformas a cada objetivo en una bestia Grande o más pequeña con un valor de desafío igual o inferior a 4. En los siguientes turnos puedes usar una acción para transformar a las criaturas afectadas en bestias distintas.<br>La transformación dura hasta el final de la duración del conjuro o hasta que el objetivo muera o sea reducido a 0 puntos de golpe. Puedes elegir una forma distinta para cada objetivo. Reemplaza el perfil del objetivo por el perfil de la bestia elegida, aunque el objetivo mantiene su alineamiento y sus puntuaciones de Inteligencia, Sabiduría y Carisma. El objetivo pasa a tener los puntos de golpe de su nueva forma y, cuando revierta a su forma normal, vuelve a poseer los puntos de golpe que tuviera antes de la transformación. La transformación se rompe si la forma de bestia es reducida a 0 puntos de golpe, y cualquier daño sobrante se aplica a la forma normal. Si este daño sobrante no reduce la forma normal de la criatura a 0 puntos de vida, esta no cae inconsciente. Las acciones de la criatura quedan limitadas por la naturaleza de su nueva forma, y tampoco puede hablar ni lanzar conjuros.<br>El equipamiento del objetivo se funde con la nueva forma, de modo que no puede utilizar, blandir o beneficiarse de su equipamiento de ninguna manera."
+    "descripcion": "Tu magia convierte a otros en bestias. Elige a cualquier número de criaturas voluntarias que puedas ver dentro del alcance. Transformas a cada objetivo en una bestia Grande o más pequeña con un valor de desafío igual o inferior a 4. En los siguientes turnos puedes usar una acción para transformar a las criaturas afectadas en bestias distintas.<br>La transformación dura hasta el final de la duración del conjuro o hasta que el objetivo muera o sea reducido a 0 puntos de golpe. Puedes elegir una forma distinta para cada objetivo. Reemplaza el perfil del objetivo por el perfil de la bestia elegida, aunque el objetivo mantiene su alineamiento y sus puntuaciones de Inteligencia, Sabiduría y Carisma. El objetivo pasa a tener los puntos de golpe de su nueva forma y, cuando revierta a su forma normal, vuelve a poseer los puntos de golpe que tuviera antes de la transformación. La transformación se rompe si la forma de bestia es reducida a 0 puntos de golpe, y cualquier daño sobrante se aplica a la forma normal. Si este daño sobrante no reduce la forma normal de la criatura a 0 puntos de vida, esta no cae inconsciente. Las acciones de la criatura quedan limitadas por la naturaleza de su nueva forma, y tampoco puede hablar ni lanzar conjuros.<br>El equipamiento del objetivo se funde con la nueva forma, de modo que no puede utilizar, blandir o beneficiarse de su equipamiento de ninguna manera.",
+    "materiales": null
   },
-  "aura_sagrada": {
-    "clases": [
+  {
+    "nombre": "Aura sagrada",
+        "clases": [
       "Clérigo"
     ],
     "escuela": "Abjuración",
@@ -51,17 +55,18 @@
     "componentes": [
       "V",
       "S",
-      "M (un pequeño relicario que valga, al menos, 1.000 po y que contenga una reliquia sagrada, como un jirón de ropa de la túnica de un santo o un pedazo de pergamino de un texto religioso)"
+      "M"
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "Constitución",
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Una luz divina baña suavemente tus alrededores, en un radio de 30 pies. Las criaturas de tu elección que se encuentren en el área cuando lanzas este conjuro emiten luz tenue en un radio de 5 pies y tienen ventaja en todas las tiradas de salvación. El resto de criaturas tienen desventaja en las tiradas de ataque contra las criaturas que elegiste hasta el final de la duración del conjuro. Además, cuando un infernal o un muerto viviente impacte a una criatura afectada con un ataque cuerpo a cuerpo, el aura brillará con un fogonazo. Debido a ello, el atacante debe tener éxito en una tirada de salvación de Constitución o quedará cegado hasta el final de la duración del conjuro."
+    "descripcion": "Una luz divina baña suavemente tus alrededores, en un radio de 30 pies. Las criaturas de tu elección que se encuentren en el área cuando lanzas este conjuro emiten luz tenue en un radio de 5 pies y tienen ventaja en todas las tiradas de salvación. El resto de criaturas tienen desventaja en las tiradas de ataque contra las criaturas que elegiste hasta el final de la duración del conjuro. Además, cuando un infernal o un muerto viviente impacte a una criatura afectada con un ataque cuerpo a cuerpo, el aura brillará con un fogonazo. Debido a ello, el atacante debe tener éxito en una tirada de salvación de Constitución o quedará cegado hasta el final de la duración del conjuro.",
+    "materiales": "Un pequeño relicario que valga, al menos, 1.000 po y que contenga una reliquia sagrada, como un jirón de ropa de la túnica de un santo o un pedazo de pergamino de un texto religioso."
   },
-  "campo_antimagia": {
-    "clases": [
+  {
+    "nombre": "Campo antimagia",
+        "clases": [
       "Clérigo",
       "Mago"
     ],
@@ -73,13 +78,13 @@
     "componentes": [
       "V",
       "S",
-      "M (una pizca de polvo de hierro o limaduras de hierro)"
+      "M"
     ],
     "concentracion": true,
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Te rodea una esfera antimagia invisible de 10 pies de radio. El área cubierta queda aislada de la energía mágica que permea el universo. Dentro de la esfera no se pueden lanzar conjuros, las criaturas invocadas desaparecen y los objetos mágicos quedan suprimidos mientras estén en ella. Mientras un conjuro o efecto mágico esté suprimido, no tiene efecto, pero el tiempo que pasa en este estado se resta de su duración normal.<br><b>Efectos que eligen un objetivo:</b> Los conjuros y efectos mágicos que eligen como objetivo a una criatura u objeto, como proyectil mágico o hechizar persona, no tienen efecto si su objetivo está dentro de la esfera.<br><b>Áreas de efecto mágico:</b> El área de otro conjuro o efecto mágico, como una bola de fuego, no se extiende al interior de la esfera. Si la esfera se superpone con el área de un efecto mágico, este queda anulado en la parte cubierta por la esfera. Por ejemplo, las llamas creadas por muro de fuego quedan suprimidas dentro de la esfera; si el área superpuesta es lo suficientemente grande, esto crea un hueco en el efecto.<br><b>Conjuros:<b/> Cualquier conjuro u efecto mágico activo en una criatura u objeto dentro de la esfera queda suprimido mientras permanezca en ella.<br><b>Objetos mágicos:</b> Los poderes y propiedades de los objetos mágicos quedan suprimidos si se usan contra un objetivo dentro de la esfera o si los empuña un atacante dentro de la esfera. Si un arma mágica o una unidad de munición mágica abandona completamente la esfera (por ejemplo, una flecha mágica disparada contra un objetivo fuera de la esfera), su magia deja de estar suprimida en el momento en que sale de ella.<br><b>Viajes mágicos:</b> La teleportación y el viaje interplanar no funcionan si el origen o el destino están dentro de la esfera de campo antimagia. Un portal o arco localizado, mundo o plano de existencia, así como cualquier tipo de apertura a un espacio extradimensional, como el creado por el conjuro truco de la cuerda, se cierra temporalmente mientras permanezca dentro de la esfera.<br><b>Criaturas y objetos:</b> Una criatura u objeto invocado o creado mediante magia deja de existir en el momento en que entra en la esfera. Reaparecerá instantáneamente en cuanto el espacio que ocupaba no se superponga con el de la esfera.<br><b>Disparo mágico:</b> Los conjuros y efectos mágicos similares a disparar magia no tienen efecto sobre la esfera. Del mismo modo, los efectos creados por otros campos antimagia no se anulan entre sí."
+    "descripcion": "Te rodea una esfera antimagia invisible de 10 pies de radio. El área cubierta queda aislada de la energía mágica que permea el universo. Dentro de la esfera no se pueden lanzar conjuros, las criaturas invocadas desaparecen y los objetos mágicos quedan suprimidos mientras estén en ella. Mientras un conjuro o efecto mágico esté suprimido, no tiene efecto, pero el tiempo que pasa en este estado se resta de su duración normal.<br><b>Efectos que eligen un objetivo:</b> Los conjuros y efectos mágicos que eligen como objetivo a una criatura u objeto, como proyectil mágico o hechizar persona, no tienen efecto si su objetivo está dentro de la esfera.<br><b>Áreas de efecto mágico:</b> El área de otro conjuro o efecto mágico, como una bola de fuego, no se extiende al interior de la esfera. Si la esfera se superpone con el área de un efecto mágico, este queda anulado en la parte cubierta por la esfera. Por ejemplo, las llamas creadas por muro de fuego quedan suprimidas dentro de la esfera; si el área superpuesta es lo suficientemente grande, esto crea un hueco en el efecto.<br><b>Conjuros:<b/> Cualquier conjuro u efecto mágico activo en una criatura u objeto dentro de la esfera queda suprimido mientras permanezca en ella.<br><b>Objetos mágicos:</b> Los poderes y propiedades de los objetos mágicos quedan suprimidos si se usan contra un objetivo dentro de la esfera o si los empuña un atacante dentro de la esfera. Si un arma mágica o una unidad de munición mágica abandona completamente la esfera (por ejemplo, una flecha mágica disparada contra un objetivo fuera de la esfera), su magia deja de estar suprimida en el momento en que sale de ella.<br><b>Viajes mágicos:</b> La teleportación y el viaje interplanar no funcionan si el origen o el destino están dentro de la esfera de campo antimagia. Un portal o arco localizado, mundo o plano de existencia, así como cualquier tipo de apertura a un espacio extradimensional, como el creado por el conjuro truco de la cuerda, se cierra temporalmente mientras permanezca dentro de la esfera.<br><b>Criaturas y objetos:</b> Una criatura u objeto invocado o creado mediante magia deja de existir en el momento en que entra en la esfera. Reaparecerá instantáneamente en cuanto el espacio que ocupaba no se superponga con el de la esfera.<br><b>Disparo mágico:</b> Los conjuros y efectos mágicos similares a disparar magia no tienen efecto sobre la esfera. Del mismo modo, los efectos creados por otros campos antimagia no se anulan entre sí.",
+    "materiales": "Una pizca de polvo de hierro o limaduras de hierro."
   }
-}
+]

@@ -5,18 +5,23 @@ Base de datos NoSQL de los conjuros de _Dungeons and Dragons_ (reglas básicas).
 > ℹ️ Nota:
 > En todas las entradas se han utilizado las siguientes reglas evitando caracteres españoles especiales:
 > - Las tildes se han omitido. Ej.: duración -> duracion.
-> - El caracter 'ñ' se ha subtituido por 'ny'. Ej.: daño -> danyo.
+> - Los espacios han sido reemplazados por `_`.
 
 ## Index
 
-Para la búsqueda rápida de un conjuro, el archivo [`spells/index.md`](spells/index.md) contiene todos los conjuros registrados indicando su nivel correspondiente.
+Para la búsqueda rápida de un conjuro, el archivo [spells/index.md](spells/index.md) contiene todos los conjuros registrados indicando su nivel correspondiente.
+
+El archivo [spells.json](spells.json) es una recopilación de todos los conjuros con el campo extra `nivel` y organizados alfabéticamente por nombre de conjuro.
+No se recomienda utilizar este archivo para la búsqueda de conjuros de forma manual, ya que es generado automáticamente y algunos caracteres especiales se encuentran representados con su código en unicode.<br>
+Por ejemplo, el conjuro `"Adivinación"` está representado como `"Adivinaci\u00f3n"`.
 
 ## Estructura
 
-Los conjuros está registrados en archivos `spells/level_N.json`, donde N es el nivel del propio conjuro.
-Dentro del archivo, los conjuros están organizados en un diccionario organizados por el nombre (en minúsculas).
+Los conjuros están registrados en archivos `spells/level_N.json`, donde N es el nivel del propio conjuro.
+Dentro del archivo, los conjuros están organizados en un diccionario organizado por el nombre.
 Cada conjuro contiene las siguientes entradas:
 
+- **nombre** `str`:<br>Nombre del conjuro.
 - **clases** `list[str]`:<br>Todas las clases (organizadas alfa) que pueden aprender el conjuro. Ej.: ["Clérigo", "Bardo", "Brujo"]
 - **escuela** `str`:<br>Escuela del conjuro. Ej.: "Transmutación", "Evocación", "Conjuración".
 - **tiempo_de_lanzamiento** `str`:<br>El tiempo requerido para lanzar el conjuro.
@@ -28,11 +33,8 @@ Cada conjuro contiene las siguientes entradas:
 - **duracion** `str`:<br>El tiempo que el efecto del conjuro se mantiene activo.
 - **tirada_de_salvacion** `str | None`:<br>Atributo requerido para la tirada de salvación contra el conjuro. Toma el valor de `null` si no requiere ninguna tirada.
 - **requiere_ataque** `bool`:<br>Flag indicando si el personaje que lanza el conjuro requiere una tirada de ataque.
-- **danyo** `dict | None`:<br>Información sobre el daño producido. Toma el valor de `null` si el conjuro no realiza ningún daño.
-    - **tipo** `str`:<br>Tipo de daño producido. Ej.: "Fuego", "Radiante", etc.
-    - **base** `str`:<br>Daño producido a nivel base del conjuro. El daño está definido con notación de dado. Por ejemplo, "1d8" corresponde a una tirada de un dado de ocho caras.
-    - **escala** `dict[str, str]`:<br>Información sobre el daño producido en niveles superiores (solo si es aplicable).
 - **descripcion** `str`:<br> Descripción completa del conjuro en texto enriquecido.
+- **materiales** `str | None`:<br>Descripción de los materiales necesarios, en caso de que el conjuro requiera de componentes materiales.
 
 ### Ejemplos
 
@@ -41,8 +43,9 @@ Cada conjuro contiene las siguientes entradas:
 - **Alarma**: Conjuro de nivel 1 que requiere componentes.
 
 ```json
-{
-  "abrir": {
+[
+  {
+    "nombre": "Abrir",
     "clases": [
       "Bardo",
       "Hechizero",
@@ -60,10 +63,11 @@ Cada conjuro contiene las siguientes entradas:
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Elige un objeto que puedas ver dentro del alcance. Este puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera, mágica o mundana, de impedir el acceso.<br>Un objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tenía varios cerrojos, solo se desbloquea uno de ellos.<br>Si eliges un objetivo que está cerrado mediante <i>cerradura arcana</i>, este conjuro queda anulado durante 10 minutos, y durante este tiempo el objeto se puede abrir y cerrar con normalidad.<br>Cuando lanzas este conjuro, un fuerte golpe suena desde el objeto, audible desde 300 pies de distancia."
+    "descripcion": "Elige un objeto que puedas ver dentro del alcance. Este puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera, mágica o mundana, de impedir el acceso.<br>Un objetivo que esté cerrado mediante una cerradura normal o que esté atascado o atrancado se abre, desatasca o desatranca. Si el objeto tenía varios cerrojos, solo se desbloquea uno de ellos.<br>Si eliges un objetivo que está cerrado mediante <i>cerradura arcana<i>, este conjuro queda anulado durante 10 minutos, y durante este tiempo el objeto se puede abrir y cerrar con normalidad.<br>Cuando lanzas este conjuro, un fuerte golpe suena desde el objeto, audible desde 300 pies de distancia.",
+    "materiales": null
   },
-  "agarre_electrizante": {
+  {
+    "nombre": "Agarre electrizante",
     "clases": [
       "Hechizero",
       "Mago"
@@ -81,18 +85,11 @@ Cada conjuro contiene las siguientes entradas:
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "danyo": {
-      "tipo": "Relámpago",
-      "base": "1d8",
-      "escala": {
-        "nivel_5": "2d8",
-        "nivel_11": "3d8",
-        "nivel_17": "4d8"
-      }
-    },
-    "descripcion": "Un relámpago salta de tu mano para dar una descarga eléctrica a la criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Tienes ventaja en la tirada de ataque si la criatura lleva armadura de metal. Si impactas, el objetivo sufre 1d8 de daño de relámpago y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno."
+    "descripcion": "Un relámpago salta de tu mano para dar una descarga eléctrica a la criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Tienes ventaja en la tirada de ataque si la criatura lleva armadura de metal. Si impactas, el objetivo sufre 1d8 de daño de relámpago y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno.",
+    "materiales": null
   },
-  "alarma": {
+  {
+    "nombre": "Alarma",
     "clases": [
       "Explorador",
       "Mago"
@@ -105,16 +102,16 @@ Cada conjuro contiene las siguientes entradas:
     "componentes": [
       "V",
       "S",
-      "M (una pequeña campana y un hilo de plata fina)"
+      "M"
     ],
     "concentracion": false,
     "duracion": "8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Preparas una alarma contra intrusos. Elige una puerta, ventana o cualquier otra área dentro del alcance cuyo volumen sea menor o igual que un cubo de 20 pies de lado. Una alarma te avisará siempre que una criatura, Diminuta o de tamaño superior, toque o entre en la zona vigilada antes del final del conjuro. Al lanzarlo puedes elegir que ciertas criaturas no activarán la alarma, que puede ser mental o sonora.<br>Una alarma mental te alerta con un sonido dentro de tu mente si estás a 1 milla de la zona vigilada. Si estás dormido, te despertará.<br>Una alarma sonora produce un sonido de campanilla durante 10 segundos audible a 60 pies de distancia."
+    "descripcion": "Preparas una alarma contra intrusos. Elige una puerta, ventana o cualquier otra área dentro del alcance cuyo volumen sea menor o igual que un cubo de 20 pies de lado. Una alarma te avisará siempre que una criatura, Diminuta o de tamaño superior, toque o entre en la zona vigilada antes del final del conjuro. Al lanzarlo puedes elegir que ciertas criaturas no activarán la alarma, que puede ser mental o sonora.<br>Una alarma mental te alerta con un sonido dentro de tu mente si estás a 1 milla de la zona vigilada. Si estás dormido, te despertará.<br>Una alarma sonora produce un sonido de campanilla durante 10 segundos audible a 60 pies de distancia.",
+    "materiales": "Una pequeña campana y un hilo de plata fina."
   }
-}
+]
 ```
 
 ## Contribución
