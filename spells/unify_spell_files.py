@@ -6,11 +6,10 @@ All unified spells have a new keyword 'nivel' showing the level of itself.
 import json
 import os
 
-if __name__ == "__main__":
-    os.chdir(os.path.dirname(__file__))
 
+def unify_spells():
     all_spells = {}
-    for idx in range(3):
+    for idx in range(10):
         with open(f"level_{idx}.json", "r", encoding="utf-8") as fh:
             spells = json.load(fh)
 
@@ -21,3 +20,8 @@ if __name__ == "__main__":
     out_path = os.path.join(os.path.dirname(__file__), "..", "spells.json")
     with open(out_path, "w", encoding="utf-8") as fh:
         json.dump(all_spells, fh, indent=2)
+
+
+if __name__ == '__main__':
+    os.chdir(os.path.dirname(__file__))
+    unify_spells()
