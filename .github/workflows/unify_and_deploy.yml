@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+
 jobs:
   unify:
     runs-on: ubuntu-latest
