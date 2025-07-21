@@ -1,5 +1,6 @@
-{
-  "aliado_planar": {
+[
+  {
+    "name": "aliado_planar",
     "clases": [
       "Clérigo"
     ],
@@ -16,10 +17,11 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Suplicas la ayuda de una entidad de otro mundo. Debe ser una entidad que conozcas: un dios, un primordial, un príncipe demonio u otro ser de poderes cósmicos. Para ayudarte, enviará un celestial, elemental o infernal leal a ti, haciendo que aparezca en un espacio desocupado dentro del alcance. Si conoces el nombre específico de una criatura, puedes pronunciar su nombre al lanzar el conjuro para solicitar a esa criatura en concreto, aunque aun así podrías recibir otra criatura diferente (a elección del DM).<br>Cuando la criatura se presenta no está bajo los efectos de ninguna obligación que le haga comportarse de una manera determinada. Puedes pedirle que lleve a cabo un servicio a cambio de un pago, pero no está obligada a hacerlo. La tarea solicitada puede ser simple (como \"llévanos volando a través del abismo\" o \"ayúdanos en una batalla\") o compleja (como \"espía a nuestros enemigos\" o \"protégenos durante nuestra incursión en la mazmorra\"). Debes ser capaz de comunicarte con la criatura para contratar sus servicios.<br>El pago puede tomar formas muy variadas. Un celestial podría requerir una cuantiosa donación de oro u objetos mágicos a un templo aliado, mientras que un infernal podría requerir un sacrificio de un ser vivo o cierto tipo de regalo. Algunas criaturas podrían pedirte que lleves a cabo una misión a cambio de sus servicios.<br>Como regla general, una tarea que pueda ser medida en minutos cuesta 100 po por minuto. Una tarea medida en horas cuesta 1.000 po por hora. Finalmente, una tarea medida en días (hasta 10) cuesta 10.000 po por día. El DM puede ajustar estos precios en función de las circunstancias en las que se lance el conjuro. Si la tarea se ajusta a los valores de la criatura, el pago podría ser reducido a la mitad o incluso condonado. Las tareas sin peligro cuestan normalmente la mitad, mientras que las que sean especialmente peligrosas pueden requerir una donación mayor. Sería raro que alguna criatura aceptara una tarea que le pareciera suicida.<br>Después de completar su misión, o cuando se acabe el tiempo de servicio contratado, la criatura volverá a su plano nativo tras informarte, si esto es posible y apropiado a la tarea. Si sois incapaces de alcanzar un acuerdo por el servicio, la criatura vuelve inmediatamente a su plano natal.<br>Una criatura reclutada para unirse a tu grupo cuenta como un miembro más, recibiendo su parte completa de los puntos de experiencia."
+    "descripcion": "Suplicas la ayuda de una entidad de otro mundo. Debe ser una entidad que conozcas: un dios, un primordial, un príncipe demonio u otro ser de poderes cósmicos. Para ayudarte, enviará un celestial, elemental o infernal leal a ti, haciendo que aparezca en un espacio desocupado dentro del alcance. Si conoces el nombre específico de una criatura, puedes pronunciar su nombre al lanzar el conjuro para solicitar a esa criatura en concreto, aunque aun así podrías recibir otra criatura diferente (a elección del DM).<br>Cuando la criatura se presenta no está bajo los efectos de ninguna obligación que le haga comportarse de una manera determinada. Puedes pedirle que lleve a cabo un servicio a cambio de un pago, pero no está obligada a hacerlo. La tarea solicitada puede ser simple (como \"llévanos volando a través del abismo\" o \"ayúdanos en una batalla\") o compleja (como \"espía a nuestros enemigos\" o \"protégenos durante nuestra incursión en la mazmorra\"). Debes ser capaz de comunicarte con la criatura para contratar sus servicios.<br>El pago puede tomar formas muy variadas. Un celestial podría requerir una cuantiosa donación de oro u objetos mágicos a un templo aliado, mientras que un infernal podría requerir un sacrificio de un ser vivo o cierto tipo de regalo. Algunas criaturas podrían pedirte que lleves a cabo una misión a cambio de sus servicios.<br>Como regla general, una tarea que pueda ser medida en minutos cuesta 100 po por minuto. Una tarea medida en horas cuesta 1.000 po por hora. Finalmente, una tarea medida en días (hasta 10) cuesta 10.000 po por día. El DM puede ajustar estos precios en función de las circunstancias en las que se lance el conjuro. Si la tarea se ajusta a los valores de la criatura, el pago podría ser reducido a la mitad o incluso condonado. Las tareas sin peligro cuestan normalmente la mitad, mientras que las que sean especialmente peligrosas pueden requerir una donación mayor. Sería raro que alguna criatura aceptara una tarea que le pareciera suicida.<br>Después de completar su misión, o cuando se acabe el tiempo de servicio contratado, la criatura volverá a su plano nativo tras informarte, si esto es posible y apropiado a la tarea. Si sois incapaces de alcanzar un acuerdo por el servicio, la criatura vuelve inmediatamente a su plano natal.<br>Una criatura reclutada para unirse a tu grupo cuenta como un miembro más, recibiendo su parte completa de los puntos de experiencia.",
+    "materiales": null
   },
-  "baile_irresistible_de_otto": {
+  {
+    "name": "baile_irresistible_de_otto",
     "clases": [
       "Bardo",
       "Hechicero",
@@ -37,10 +39,11 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "Sabiduría",
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Elige a una criatura que puedas ver dentro del alcance. Comenzará a ejecutar una danza cómica en el lugar en el que se encuentre: arrastrando los pies, taconeando y haciendo cabriolas hasta el final de la duración del conjuro. Las criaturas inmunes a ser hechizadas no se ven afectadas por este conjuro.<br>El objetivo debe utilizar todo su movimiento en bailar y no puede moverse de donde esté. Tendrá desventaja en tiradas de salvación de Destreza y en tiradas de ataque. Mientras siga afectado por el conjuro, las tiradas de ataque de otras criaturas contra él tendrán ventaja. Como acción, la criatura bailarina puede hacer una tirada de salvación de Sabiduría para intentar recuperar el control. Si tiene éxito en la tirada, el conjuro termina inmediatamente."
+    "descripcion": "Elige a una criatura que puedas ver dentro del alcance. Comenzará a ejecutar una danza cómica en el lugar en el que se encuentre: arrastrando los pies, taconeando y haciendo cabriolas hasta el final de la duración del conjuro. Las criaturas inmunes a ser hechizadas no se ven afectadas por este conjuro.<br>El objetivo debe utilizar todo su movimiento en bailar y no puede moverse de donde esté. Tendrá desventaja en tiradas de salvación de Destreza y en tiradas de ataque. Mientras siga afectado por el conjuro, las tiradas de ataque de otras criaturas contra él tendrán ventaja. Como acción, la criatura bailarina puede hacer una tirada de salvación de Sabiduría para intentar recuperar el control. Si tiene éxito en la tirada, el conjuro termina inmediatamente.",
+    "materiales": null
   },
-  "barrera_de_cuchillas": {
+  {
+    "name": "barrera_de_cuchillas",
     "clases": [
       "Clérigo"
     ],
@@ -57,11 +60,7 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": "Destreza",
     "requiere_ataque": false,
-    "danyo": {
-      "tipo": "Cortante",
-      "base": "6d10",
-      "escala": null
-    },
-    "descripcion": "Creas un muro vertical de cuchillas giratorias, afiladas y hechas de energía mágica. Este aparece dentro del alcance y permanece hasta el final de la duración del conjuro. Puedes crear un muro recto de hasta 100 pies de largo, 20 de alto y 5 de ancho o un muro en forma de anillo de 60 pies de diámetro, 20 de alto y 5 de ancho. En cualquiera caso, proporciona cobertura tres cuartos a las criaturas detrás de él y su espacio se considera terreno difícil.<br>Cuando una criatura entre en el área del muro por primera vez en un turno, o cuando empiece su turno en ella, deberá realizar una tirada de salvación de Destreza. Si falla, sufrirá 6d10 de daño cortante. Si tiene éxito, recibirá la mitad de daño."
+    "descripcion": "Creas un muro vertical de cuchillas giratorias, afiladas y hechas de energía mágica. Este aparece dentro del alcance y permanece hasta el final de la duración del conjuro. Puedes crear un muro recto de hasta 100 pies de largo, 20 de alto y 5 de ancho o un muro en forma de anillo de 60 pies de diámetro, 20 de alto y 5 de ancho. En cualquiera caso, proporciona cobertura tres cuartos a las criaturas detrás de él y su espacio se considera terreno difícil.<br>Cuando una criatura entre en el área del muro por primera vez en un turno, o cuando empiece su turno en ella, deberá realizar una tirada de salvación de Destreza. Si falla, sufrirá 6d10 de daño cortante. Si tiene éxito, recibirá la mitad de daño.",
+    "materiales": null
   }
-}
+]

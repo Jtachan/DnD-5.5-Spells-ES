@@ -1,5 +1,6 @@
-{
-  "alarma": {
+[
+  {
+    "name": "alarma",
     "clases": [
       "Explorador",
       "Mago"
@@ -12,16 +13,17 @@
     "componentes": [
       "V",
       "S",
-      "M (una pequeña campana y un hilo de plata fina)"
+      "M"
     ],
     "concentracion": false,
     "duracion": "8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Preparas una alarma contra intrusos. Elige una puerta, ventana o cualquier otra área dentro del alcance cuyo volumen sea menor o igual que un cubo de 20 pies de lado. Una alarma te avisará siempre que una criatura, Diminuta o de tamaño superior, toque o entre en la zona vigilada antes del final del conjuro. Al lanzarlo puedes elegir que ciertas criaturas no activarán la alarma, que puede ser mental o sonora.<br>Una alarma mental te alerta con un sonido dentro de tu mente si estás a 1 milla de la zona vigilada. Si estás dormido, te despertará.<br>Una alarma sonora produce un sonido de campanilla durante 10 segundos audible a 60 pies de distancia."
+    "descripcion": "Preparas una alarma contra intrusos. Elige una puerta, ventana o cualquier otra área dentro del alcance cuyo volumen sea menor o igual que un cubo de 20 pies de lado. Una alarma te avisará siempre que una criatura, Diminuta o de tamaño superior, toque o entre en la zona vigilada antes del final del conjuro. Al lanzarlo puedes elegir que ciertas criaturas no activarán la alarma, que puede ser mental o sonora.<br>Una alarma mental te alerta con un sonido dentro de tu mente si estás a 1 milla de la zona vigilada. Si estás dormido, te despertará.<br>Una alarma sonora produce un sonido de campanilla durante 10 segundos audible a 60 pies de distancia.",
+    "materiales": "Una pequeña campana y un hilo de plata fina."
   },
-  "armadura_de_agathys": {
+  {
+    "name": "armadura_de_agathys",
     "clases": [
       "Brujo"
     ],
@@ -33,29 +35,17 @@
     "componentes": [
       "V",
       "S",
-      "M (una taza de agua)"
+      "M"
     ],
     "concentracion": false,
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": {
-      "tipo": "Frío",
-      "base": "5",
-      "escala": {
-        "nivel_2": "10",
-        "nivel_3": "15",
-        "nivel_4": "20",
-        "nivel_5": "25",
-        "nivel_6": "30",
-        "nivel_7": "35",
-        "nivel_8": "40",
-        "nivel_9": "45"
-      }
-    },
-    "descripcion": "Una fuerza mágica protectora te rodea, manifestándose como una escarcha espectral que te cubre por completo, incluido a tu equipo. Ganas 5 puntos de golpe temporales hasta el final de la duración del conjuro. Si una criatura te impacta con un ataque cuerpo a cuerpo mientras conservas estos puntos, esta sufre 5 de daño de frío.<br><b><i>A niveles superiores.<b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, tanto los puntos de golpe temporales como el daño de frío aumentan en 5 por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
+    "descripcion": "Una fuerza mágica protectora te rodea, manifestándose como una escarcha espectral que te cubre por completo, incluido a tu equipo. Ganas 5 puntos de golpe temporales hasta el final de la duración del conjuro. Si una criatura te impacta con un ataque cuerpo a cuerpo mientras conservas estos puntos, esta sufre 5 de daño de frío.<br><b><i>A niveles superiores.<b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, tanto los puntos de golpe temporales como el daño de frío aumentan en 5 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "materiales": "Una taza de agua."
   },
-  "armadura_de_mago": {
+  {
+    "name": "armadura_de_mago",
     "clases": [
       "Hechicero",
       "Mago"
@@ -68,16 +58,17 @@
     "componentes": [
       "V",
       "S",
-      "M (un trozo de piel curtida)"
+      "M"
     ],
     "concentracion": false,
     "duracion": "8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Tocas a una criatura voluntaria que no lleve armadura y una fuerza mágica protectora la rodea hasta que el conjuro termine. La CA del objetivo pasa a ser 13 + su modificador de Destreza. El conjuro termina si el objetivo se pone una armadura o si utilizas una acción para finalizarlo."
+    "descripcion": "Tocas a una criatura voluntaria que no lleve armadura y una fuerza mágica protectora la rodea hasta que el conjuro termine. La CA del objetivo pasa a ser 13 + su modificador de Destreza. El conjuro termina si el objetivo se pone una armadura o si utilizas una acción para finalizarlo.",
+    "materiales": "Un trozo de piel curtida."
   },
-  "bendicion": {
+  {
+    "name": "bendicion",
     "clases": [
       "Clérigo",
       "Paladín"
@@ -90,16 +81,17 @@
     "componentes": [
       "V",
       "S",
-      "M (unas gotas de agua bendita)"
+      "M"
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Bendices hasta tres criaturas de tu elección dentro del alcance. Hasta el final de la duración del conjuro, cuando uno de los objetivos haga una tirada de ataque o una tirada de salvación, puede tirar 1d4 y añadir el resultado a esa tirada.<br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
+    "descripcion": "Bendices hasta tres criaturas de tu elección dentro del alcance. Hasta el final de la duración del conjuro, cuando uno de los objetivos haga una tirada de ataque o una tirada de salvación, puede tirar 1d4 y añadir el resultado a esa tirada.<br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "materiales": "Unas gotas de agua bendita."
   },
-  "brazos_de_hadar": {
+  {
+    "name": "brazos_de_hadar",
     "clases": [
       "Brujo"
     ],
@@ -116,23 +108,11 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": "Fuerza",
     "requiere_ataque": false,
-    "danyo": {
-      "tipo": "Necrótico",
-      "base": "2d6",
-      "escala": {
-        "nivel_2": "3d6",
-        "nivel_3": "4d6",
-        "nivel_4": "5d6",
-        "nivel_5": "6d6",
-        "nivel_6": "7d6",
-        "nivel_7": "8d6",
-        "nivel_8": "9d6",
-        "nivel_9": "10d6"
-      }
-    },
-    "descripcion": "Invocas el poder de Hadar, el Hambre Tenebrosa. Zarcillos de energía oscura surgen de ti y golpean a todas las criaturas a 10 pies o menos de tu posición. Cada criatura en el área debe hacer una tirada de salvación de Fuerza. Si falla, sufrirá 2d6 de daño necrótico y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno. Si supera la tirada, recibirá la mitad de daño, pero no sufrirá ningún otro efecto.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, el daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
+    "descripcion": "Invocas el poder de Hadar, el Hambre Tenebrosa. Zarcillos de energía oscura surgen de ti y golpean a todas las criaturas a 10 pies o menos de tu posición. Cada criatura en el área debe hacer una tirada de salvación de Fuerza. Si falla, sufrirá 2d6 de daño necrótico y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno. Si supera la tirada, recibirá la mitad de daño, pero no sufrirá ningún otro efecto.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, el daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "materiales": null
   },
-  "buenas_bayas": {
+  {
+    "name": "buenas_bayas",
     "clases": [
       "Druida"
     ],
@@ -144,16 +124,17 @@
     "componentes": [
       "V",
       "S",
-      "M (un ramito de muérdago)"
+      "M"
     ],
     "concentracion": false,
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Aparecen en tu mano un máximo de diez bayas infundidas con magia hasta el final de la duración del conjuro. Una criatura puede utilizar su acción para comerse una baya. Si hace esto recuperará 1 punto de golpe y tendrá sustento para todo el día.<br>Las bayas pierden su poder si no son consumidas dentro de las 24 horas siguientes al lanzamiento del conjuro."
+    "descripcion": "Aparecen en tu mano un máximo de diez bayas infundidas con magia hasta el final de la duración del conjuro. Una criatura puede utilizar su acción para comerse una baya. Si hace esto recuperará 1 punto de golpe y tendrá sustento para todo el día.<br>Las bayas pierden su poder si no son consumidas dentro de las 24 horas siguientes al lanzamiento del conjuro.",
+    "materiales": "Un ramito de muérdago."
   },
-  "caída_de_pluma": {
+  {
+    "name": "caída_de_pluma",
     "clases": [
       "Bardo",
       "Hechizero",
@@ -166,13 +147,13 @@
     "visible": true,
     "componentes": [
       "V",
-      "M (una pluma pequeña o un poco de plumón)"
+      "M"
     ],
     "concentracion": false,
     "duracion": "1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Elige un máximo de cinco criaturas dentro del alcance que estén cayendo. La velocidad de caída de cada objetivo se reduce a 60 pies por asalto hasta que el conjuro termine. Si alguna criatura llega al suelo antes de que esto suceda, no recibe daño por caída, sino que puede caer de pie y el conjuro acaba para ese objetivo."
+    "descripcion": "Elige un máximo de cinco criaturas dentro del alcance que estén cayendo. La velocidad de caída de cada objetivo se reduce a 60 pies por asalto hasta que el conjuro termine. Si alguna criatura llega al suelo antes de que esto suceda, no recibe daño por caída, sino que puede caer de pie y el conjuro acaba para ese objetivo.",
+    "materiales": "Una pluma pequeña o un poco de plumón."
   }
-}
+]

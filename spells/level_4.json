@@ -1,5 +1,6 @@
-{
-  "adivinacion": {
+[
+  {
+    "name": "adivinacion",
     "clases": [
       "Clérigo"
     ],
@@ -11,16 +12,17 @@
     "componentes": [
       "V",
       "S",
-      "M (incienso y una ofrenda ritual apropiada a tu religión, en conjunto con valor de 25 po y que son consumidos por el conjuro)"
+      "M"
     ],
     "concentracion": false,
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Tu magia y la ofrenda te ponen en contacto con un dios o sus sirvientes. Puedes hacer una sola pregunta sobre una meta, evento o actividad específica que ocurrirá en los próximos 7 días. El DM te dará una respuesta verdadera, que puede ser una frase corta, una rima críptica o un augurio.<br>Este conjuro no tiene en cuenta ninguna circunstancia que pueda alterar los resultados, como por ejemplo el lanzamiento de otros conjuros o la pérdida de o encuentro con un compañero.<br>Si se lanya dos veces o más antes del próximo descanso largo, hay una posibilidad acumulativa del 25% por cada lanzamiento después del primero de recibir un presagio aleatorio. El Dm realiza esta tirada en secreto."
+    "descripcion": "Tu magia y la ofrenda te ponen en contacto con un dios o sus sirvientes. Puedes hacer una sola pregunta sobre una meta, evento o actividad específica que ocurrirá en los próximos 7 días. El DM te dará una respuesta verdadera, que puede ser una frase corta, una rima críptica o un augurio.<br>Este conjuro no tiene en cuenta ninguna circunstancia que pueda alterar los resultados, como por ejemplo el lanzamiento de otros conjuros o la pérdida de o encuentro con un compañero.<br>Si se lanya dos veces o más antes del próximo descanso largo, hay una posibilidad acumulativa del 25% por cada lanzamiento después del primero de recibir un presagio aleatorio. El Dm realiza esta tirada en secreto.",
+    "materiales": "Incienso y una ofrenda ritual apropiada a tu religión, en conjunto con valor de 25 po y que son consumidos por el conjuro."
   },
-  "asesino_fantasmal": {
+  {
+    "name": "asesino_fantasmal",
     "clases": [
       "Mago"
     ],
@@ -37,20 +39,11 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "Sabiduría",
     "requiere_ataque": false,
-    "danyo": {
-      "tipo": "Psíquico",
-      "base": "4d10",
-      "escala": {
-        "nivel_5": "5d10",
-        "nivel_6": "6d10",
-        "nivel_7": "7d10",
-        "nivel_8": "8d10",
-        "nivel_9": "9d10"
-      }
-    },
-    "descripcion": "Accedes a las pesadillas de una criatura que puedas ver dentro del alcance para crear una manifestación ilusoria de sus más profundos miedos, que solo será visible para esa criatura. El objetivo debe hacer una tirada de salvación de Sabiduría. Si falla, queda asustado hasta el final de la duración del conjuro. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura debe tener éxito en una tirada de salvación de Sabiduría o sufrir 4d10 de daño psíquico. Si supera la tirada, el conjuro termina inmediatamente.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o más, el daño aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio que hayas empleado."
+    "descripcion": "Accedes a las pesadillas de una criatura que puedas ver dentro del alcance para crear una manifestación ilusoria de sus más profundos miedos, que solo será visible para esa criatura. El objetivo debe hacer una tirada de salvación de Sabiduría. Si falla, queda asustado hasta el final de la duración del conjuro. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura debe tener éxito en una tirada de salvación de Sabiduría o sufrir 4d10 de daño psíquico. Si supera la tirada, el conjuro termina inmediatamente.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o más, el daño aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
+    "materiales": null
   },
-  "aura_de_pureza": {
+  {
+    "name": "aura_de_pureza",
     "clases": [
       "Clérigo",
       "Paladín"
@@ -67,10 +60,11 @@
     "duracion": "hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Radias una energía purificante en forma de aura de 30 pies de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Todas las criaturas no hostiles en el aura (incluido tú) son resistentes al daño de veneno, no pueden enfermar y tienen ventaja en las tiradas de salvación contra cualquier efecto que cause uno de los siguientes estados: asustado, aturdido, cegado, ensordecido, envenenado, hechizado o paralizado."
+    "descripcion": "Radias una energía purificante en forma de aura de 30 pies de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Todas las criaturas no hostiles en el aura (incluido tú) son resistentes al daño de veneno, no pueden enfermar y tienen ventaja en las tiradas de salvación contra cualquier efecto que cause uno de los siguientes estados: asustado, aturdido, cegado, ensordecido, envenenado, hechizado o paralizado.",
+    "materiales": null
   },
-  "aura_de_vida": {
+  {
+    "name": "aura_de_vida",
     "clases": [
       "Clérigo",
       "Paladín"
@@ -87,7 +81,7 @@
     "duracion": "hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "danyo": null,
-    "descripcion": "Radias una energía preservadora de vida en forma de aura de 30 pies de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Todas las criaturas no hostiles en el aura (incluido tú) tienen resistencia al daño necrótico y sus puntos de golpe máximos no pueden ser reducidos. Además, todas las criaturas vivas y no hostiles recuperan 1 punto de golpe al principio de su turno si están en el aura y tienen 0 puntos de golpe."
+    "descripcion": "Radias una energía preservadora de vida en forma de aura de 30 pies de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Todas las criaturas no hostiles en el aura (incluido tú) tienen resistencia al daño necrótico y sus puntos de golpe máximos no pueden ser reducidos. Además, todas las criaturas vivas y no hostiles recuperan 1 punto de golpe al principio de su turno si están en el aura y tienen 0 puntos de golpe.",
+    "materiales": null
   }
-}
+]
