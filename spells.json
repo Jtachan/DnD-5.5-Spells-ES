@@ -1762,6 +1762,312 @@
     "nivel": 5
   },
   {
+    "nombre": "Contingencia",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "10 d\u00edas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Elige un conjuro de nivel 5 o menor que puedas lanzar, que tenga un tiempo de lanzamiento de 1 acci\u00f3n y que pueda hacerte objetivo. Lanzas ese conjuro (llamado el conjuro contingente) como parte de lanzar <i>contingencia</i>, empleando espacios de conjuro para ambos, pero el conjuro contingente no tiene efecto en ese momento. En vez de eso, tendr\u00e1 efecto cuando ocurra una determinada situaci\u00f3n, que describes y estableces al lanzar los dos conjuros. Por ejemplo, una <i>contingencia</i> lanzada con <i>respirar bajo el agua</i> podr\u00eda estipular que <i>respirar bajo el agua</i> comenzar\u00e1 cuando quedes sumergido en agua o un l\u00edquido similar.<br>El conjuro contingente tiene efecto inmediatamente despu\u00e9s de que ocurra la situaci\u00f3n establecida por primera vez, lo quieras o no, y despu\u00e9s <i>contingencia</i> termina.<br>El conjuro contingente solo puede tener efecto en ti, incluso si normalmente puede elegir como objetivo a otros. Solo eres capaz de tener un conjuro de <i>contingencia</i> activo al mismo tiempo. Si lanzas este conjuro de nuevo, el efecto de una <i>contingencia</i> anterior termina. Adem\u00e1s, <i>contingencia</i> finaliza si en cualquier momento dejas de llevar encima su componente material.",
+    "materiales": "Una estatuilla de ti mismo tallada en marfil y decorada con gemas y con un valor de, al menos, 1.500 po",
+    "nivel": 6
+  },
+  {
+    "nombre": "Contorno borroso",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Concentraci\u00f3n, hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "El contorno de tu cuerpo se vuelve borroso, cambiando y oscilando a la vista de todos. Hasta el final de la duraci\u00f3n del conjuro, las criaturas que hagan tiradas de ataque contra ti tienen desventaja. El atacante es inmune a este efecto si no depende de la vista (por ejemplo, tiene visi\u00f3n ciega) o ve a trav\u00e9s de las ilusiones (como con visi\u00f3n verdadera).",
+    "materiales": null,
+    "nivel": 2
+  },
+  {
+    "nombre": "Contrahechizo",
+    "clases": [
+      "Hechicero",
+      "Mago",
+      "Brujo"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 reacci\u00f3n, que llevas a cabo cuando una criatura que puedas ver a 60 pies o menos lance un conjuro",
+    "ritual": false,
+    "alcance": "60 pies",
+    "visible": true,
+    "componentes": [
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Intentas interrumpir a una criatura mientras lanza un conjuro. Si este \u00faltimo es de nivel 3 o menor, lo logras autom\u00e1ticamente y el conjuro no tiene efecto alguno. Sin embargo, para cada conjuro de nivel 4 o m\u00e1s, realiza una prueba de caracter\u00edstica usando tu aptitud m\u00e1gica. La CD es 10 + el nivel del conjuro. Si tienes \u00e9xito, el conjuro de la criatura falla y no tiene efecto.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, cancelas autom\u00e1ticamente aquellos conjuros cuyo nivel sea menor o igual al nivel del espacio de conjuro utilizado.",
+    "materiales": null,
+    "nivel": 3
+  },
+  {
+    "nombre": "Controlar agua",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n",
+    "ritual": false,
+    "alcance": "300 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Concentraci\u00f3n, hasta 10 minutos",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "Hasta el final de la duraci\u00f3n del conjuro, controlas cualquier masa de agua que no est\u00e9 en movimiento dentro de un \u00e1rea de tu elecci\u00f3n con forma de cubo de hasta 100 pies de lado. Cuando lanzas este conjuro, elige uno de los siguientes efectos. Como una acci\u00f3n, en tu turno, puedes repetir el mismo efecto o elegir uno nuevo.<br><br><b>Inundaci\u00f3n.</b> Haces que el nivel de toda el agua estancada en el \u00e1rea suba hasta 20 pies. Si esta \u00e1rea incluye una orilla, el agua inunda la tierra seca circundante.<br>Si eliges un \u00e1rea en una masa de agua, en vez de eso creas una ola de 20 pies de altura que viaja en un lado de la masa de agua al otro y despu\u00e9s rompe. Cualquier veh\u00edculo de tama\u00f1o Enorme o menor en el camino de la ola es transportado al otro lado. Adem\u00e1s, tiene un 25% de posibilidades de volcar.<br>El nivel del agua se mantiene elevado hasta que termine el conjuro o elijas un efecto diferente. Si este efecto se repite en un turno, la nueva ola se genera de nuevo, y la anterior vuelve a su nivel.<br><br><b>Abrir las aguas.</b> Haces que el agua se divida y cree una zanja. Se extiende a lo largo del \u00e1rea del conjuro, con agua separada formando un muro de agua en cada lado. La zanja permanece hasta que el conjuro termine o elijas un nuevo efecto. Si el conjuro es interrumpido, las aguas se re\u00fanen lentamente en una marea normal que aguasa s\u00fabitamente hasta el nivel original.<br><br><b>Redirigir caudal.</b> Obligas a un flujo de agua corriente en el \u00e1rea a moverse en la direcci\u00f3n de tu elecci\u00f3n, incluso si tiene que fluir a trav\u00e9s de obst\u00e1culos, escalar muros o tomar otras direcciones improbables. El \u00e1rea se mueve seg\u00fan indiques, pero una vez que salga del \u00e1rea del conjuro vuelve a fluir de forma natural, de acuerdo a las condiciones del terreno. El agua contin\u00faa movi\u00e9ndose en la direcci\u00f3n de tu elecci\u00f3n hasta que el conjuro termine o elijas un efecto diferente.<br><br><b>Remolino.</b> Este efecto necesita que la masa de agua sea de, al menos, 50 pies cuadrados y tenga 25 pies de profundidad. Creas un remolino en el centro del \u00e1rea. Este produce un v\u00f3rtice de 5 pies de ancho en la base, hasta 50 pies de ancho en la parte m\u00e1s alta y hasta 25 pies de profundidad. Cualquier objeto o criatura en el agua y a 25 pies o menos del remolino se ve atra\u00eddo 10 pies hacia \u00e9l. Una criatura puede alejarse nadando del v\u00f3rtice mediante una prueba de Fuerza (Atletismo) con CD igual a tu salvaci\u00f3n de conjuros.<br>Cuando una criatura entra en el \u00e1rea del remolino por primera vez en un turno, o cuando empieza su turno en ella, debe realizar una tirada de salvaci\u00f3n de Fuerza. Si fracasa, la criatura recibe 2d8 de da\u00f1o contundente y queda atrapada en el v\u00f3rtice hasta que el conjuro termine. Si la supera, recibe la mitad del da\u00f1o y no queda atrapada. Una criatura atrapada en el remolino puede usar su acci\u00f3n para intentar alejarse de \u00e9l de la manera descrita m\u00e1s arriba, tirando con desventaja en la prueba de Fuerza (Atletismo) necesaria.<br><br>La primera vez que un objeto entre en el v\u00f3rtice cada turno recibe 2d8 de da\u00f1o contundente. Este da\u00f1o ocurre cada asalto que permanezca dentro.",
+    "materiales": "Una gota de agua y una pizca de polvo",
+    "nivel": 4
+  },
+  {
+    "nombre": "Controlar el clima",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": "Lanzador (radio de 5 millas)",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Concentraci\u00f3n, hasta 8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tomas el control del tiempo atmosf\u00e9rico en un radio de 5 millas alrededor de ti hasta el final de la duraci\u00f3n del conjuro. Debes estar al aire libre para poder lanzar este conjuro. Si te mueves a un sitio donde no puedas ver el cielo, el conjuro termina antes de tiempo.<br><br>Cuando lanzas el conjuro, cambias las condiciones atmosf\u00e9ricas actuales determinadas por el DM de acuerdo al clima y la estaci\u00f3n. Puedes modificar las precipitaciones, temperatura y viento. Tardas 1d4 \u00d7 10 minutos en llevar este cambio a t\u00e9rmino. Cuando termines, puedes cambiar las condiciones de nuevo si as\u00ed lo quieres. Al terminar el conjuro, el tiempo vuelve a la normalidad gradualmente.<br><br>Cuando manipules las condiciones atmosf\u00e9ricas, encuentra el estado actual en las siguientes tablas y c\u00e1mbialo un nivel, hacia arriba o hacia abajo. Cuando act\u00faas sobre el viento, puedes modificar su direcci\u00f3n.<br><br><b>Precipitaciones</b><br>1. Despejado<br>2. Nubes escasas<br>3. Cielo cubierto o niebla de superficie<br>4. Lluvia, granizo o nieve<br>5. Lluvia torrencial, tormenta de granizo o ventisca<br><br><b>Temperatura</b><br>1. Calor insoportable<br>2. Caliente<br>3. Templado<br>4. Fresco<br>5. Fr\u00edo polar<br><br><b>Viento</b><br>1. Calmo<br>2. Viento moderado<br>3. Viento fuerte<br>4. Galerna<br>5. Tempestad",
+    "materiales": "Incienso y pedacitos de tierra y madera mezclados en agua",
+    "nivel": 8
+  },
+  {
+    "nombre": "Corcel fantasma",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "30 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura de tama\u00f1o Grande, con aspecto equino, aparece en el suelo en un espacio libre de tu elecci\u00f3n que puedas ver dentro del alcance. T\u00fa decides la apariencia de la criatura, pero estar\u00e1 equipada con silla de montar, bocado y bridas. Cualquier equipo creado por el conjuro se desvanecer\u00e1 si se aleja m\u00e1s de 10 pies de ella.<br><br>Hasta el final de la duraci\u00f3n del conjuro, t\u00fa o una criatura de tu elecci\u00f3n pod\u00e9is montar el corcel. Este tiene el perfil de un caballo de monta, excepto que su velocidad es de 100 pies y puede viajar 10 millas en una hora, 13 a ritmo r\u00e1pido. Cuando el conjuro acaba, el corcel se desvanece gradualmente, dando al jinete 1 minuto para desmontar. El conjuro acaba si la criatura recibe cualquier tipo de da\u00f1o o si utilizas una acci\u00f3n para terminar el conjuro.",
+    "materiales": null,
+    "nivel": 3
+  },
+  {
+    "nombre": "Cord\u00f3n de flechas",
+    "clases": [
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n",
+    "ritual": false,
+    "alcance": "5 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Clavas cuatro unidades de munici\u00f3n no m\u00e1gica (flechas o virotes de ballesta) en el suelo, dentro del alcance, y las encantas para proteger el \u00e1rea. Hasta que el conjuro finalice, cuando una criatura que no seas t\u00fa entre en su turno o se acerque por primera vez a 30 pies o menos de las saetas, una de ellas saldr\u00e1 volando para atacarla. Deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1 1d6 de da\u00f1o perforante. La saeta resulta destruida. El conjuro termina cuando no quedan m\u00e1s proyectiles.<br><br>Las criaturas elegidas (por ti) pueden ignorar este conjuro.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, la cantidad de saetas que puedes encantar se incrementa en dos por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+    "materiales": "Cuatro o m\u00e1s flechas o virotes",
+    "nivel": 2
+  },
+  {
+    "nombre": "Corona de la locura",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n",
+    "ritual": false,
+    "alcance": "120 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Concentraci\u00f3n, hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Un humanoide de tu elecci\u00f3n que puedas ver dentro del alcance debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizado por ti. Mientras permanezca hechizado de esta manera, aparece en su cabeza una corona retorcida de hierro dentado y la locura brilla en sus ojos.<br><br>El objetivo hechizado debe utilizar su acci\u00f3n antes de moverse cada turno para realizar un ataque cuerpo a cuerpo contra una criatura elegida mentalmente por ti y que no sea ella misma.<br><br>Puede actuar con normalidad en su turno si no eliges ninguna criatura o no tiene ninguna a su alcance.<br><br>En turnos siguientes debes usar tu acci\u00f3n para mantener el control del objetivo o el conjuro termina. Al final de cada uno de sus turnos, el objetivo puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito, el efecto del conjuro termina.",
+    "materiales": null,
+    "nivel": 2
+  },
+  {
+    "nombre": "Creaci\u00f3n",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "30 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Especial",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Utilizando hebras de sombras sacadas del Shadowfell, creas un objeto inerte de material vegetal dentro del alcance: tela, cuerda, madera o similar. Tambi\u00e9n puedes usar este conjuro para crear objetos hechos de materia inorg\u00e1nica como piedra, cristal o metal. El objeto creado no puede ser mayor que un cubo de 5 pies de lado y tienes que haber visto antes tanto la forma como el material que lo compone.<br><br>La duraci\u00f3n depende del material del objeto. Si est\u00e1 compuesto de varios materiales, usa la duraci\u00f3n m\u00e1s breve.<br><br><b>Material \u2014 Duraci\u00f3n:</b><br>Material vegetal: 1 d\u00eda<br>Cristal o piedra: 12 horas<br>Metales preciosos: 1 hora<br>Gemas: 10 minutos<br>Adamantina o mithral: 1 minuto<br><br>Utilizar un material creado por este conjuro como componente material de otro conjuro har\u00e1 que este \u00faltimo falle.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el lado del cubo aumenta en 5 pies por cada nivel por encima de 5 que tenga el espacio que hayas empleado.",
+    "materiales": "Un trocito del mismo material que forma el objeto que planeas crear",
+    "nivel": 5
+  },
+  {
+    "nombre": "Crear comida y agua",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n",
+    "ritual": false,
+    "alcance": "30 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas 45 libras de comida y 30 galones de agua en el suelo o en recipientes dentro del alcance, lo suficiente para mantener a quince humanoides o cinco corceles durante 24 horas. La comida es sosa, aunque nutritiva, y se estropear\u00e1 si no se ha consumido en 24 horas. En cambio, el agua est\u00e1 limpia y no se estropea.",
+    "materiales": null,
+    "nivel": 3
+  },
+  {
+    "nombre": "Crear llama",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Aparece en tu mano una llama parpadeante. Esta permanece hasta el final de la duraci\u00f3n del conjuro y no te da\u00f1a ni a ti ni a tu equipo. La llama emite luz brillante en un radio de 10 pies y luz tenue 10 pies m\u00e1s all\u00e1. El conjuro termina si lo lanzas de nuevo o utilizas una acci\u00f3n para finalizarlo.<br><br>Tambi\u00e9n puedes atacar con la llama, pero esto termina el conjuro. Cuando lances este conjuro, o como acci\u00f3n en un turno posterior, puedes arrojar la llama a una criatura hasta a 30 pies de ti. Haz un ataque de conjuro a distancia. Si impactas, el objetivo recibe 1d8 de da\u00f1o de fuego.<br><br>El da\u00f1o del conjuro aumenta en 1d8 cuando alcanzas nivel 5 (2d8), nivel 11 (3d8) y nivel 17 (4d8).",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "Crear muerto viviente",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "10 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro solo puede lanzarse de noche. Elige hasta tres cad\u00e1veres de humanoide de tama\u00f1o Mediano o Peque\u00f1o. Deben estar dentro del alcance. Cada uno de ellos se convierte en un gul bajo tu control (el DM tiene los perfiles de estas criaturas).<br><br>En cada turno, puedes usar una acci\u00f3n adicional para dar una orden mental a cualquier criatura creada mediante este conjuro si est\u00e1 a 120 pies o menos de ti (si controlas varias criaturas, puedes dirigir a una o m\u00e1s de ellas utilizando la misma orden). Decides qu\u00e9 acci\u00f3n va a tomar la criatura y d\u00f3nde se mover\u00e1 durante su pr\u00f3ximo turno. Tambi\u00e9n puedes dar una orden general, como vigilar una c\u00e1mara o un pasillo en concreto. Si no indicas ninguna orden, la criatura se limita a defenderse de otras criaturas hostiles. Una vez que recibe una orden, la sigue hasta cumplirla.<br><br>La criatura se mantiene bajo tu control durante 24 horas, despu\u00e9s de las cuales abandonar\u00e1 cualquier orden que le hayas dado. Para mantener el control sobre ella durante otras 24 horas, debes lanzar este conjuro de nuevo sobre ella antes de que el periodo actual de 24 horas termine. No puedes usar este conjuro para reafirmar tu control sobre hasta tres criaturas que hayas animado previamente con este mismo conjuro en vez de reanimar nuevas criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7, reanimas o reafirmas tu control sobre cuatro gules. Cuando lanzas el conjuro usando un espacio de conjuro de nivel 8, reanimas o reafirmas tu control sobre cinco gules, o dos tumularios. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 9, reanimas o reafirmas tu control sobre seis gules, tres ghasts o tumularios, o dos momias.",
+    "materiales": "Una maceta de arcilla llena de tierra de una tumba, una maceta de arcilla llena de agua salobre y un \u00f3nice negro de 150 po por cada cad\u00e1ver",
+    "nivel": 6
+  },
+  {
+    "nombre": "Crear o destruir agua",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n",
+    "ritual": false,
+    "alcance": "30 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas o destruyes agua.<br><br><b>Crear agua.</b> Creas hasta 10 galones de agua limpia en un recipiente dentro del alcance. Alternativamente, el agua llueve en un cubo de 30 pies de lado dentro del alcance, apagando cualquier llama expuesta dentro del \u00e1rea.<br><br><b>Destruir agua.</b> Destruyes hasta 10 galones de agua limpia de un recipiente dentro del alcance. Alternativamente, deshaces la niebla en un cubo de 30 pies de lado dentro del alcance.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, por cada nivel por encima de 1 del espacio creas o destruyes 10 galones adicionales de agua o el lado del cubo aumenta en 5 pies.",
+    "materiales": "Una gota de agua si est\u00e1s cre\u00e1ndola o unos granos de arena si la est\u00e1s destruyendo",
+    "nivel": 1
+  },
+  {
     "nombre": "C\u00edrculo de muerte",
     "clases": [
       "Hechicero",
