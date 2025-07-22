@@ -175,5 +175,25 @@
     "requiere_ataque": true,
     "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma se calienta hasta el rojo vivo y el ataque inflige 1d6 de daño de fuego adicional al objetivo, haciendo que comience a arder.<br><br>Al inicio de cada uno de sus turnos, el objetivo debe realizar una tirada de salvación de Constitución. Si falla, recibe 1d6 de daño de fuego. Si tiene éxito en la tirada, el conjuro termina inmediatamente. Si el objetivo o una criatura a 5 pies de este utiliza una acción para apagar las llamas, o si otro efecto las sofoca (como sumergir al objetivo en agua), el conjuro termina.<br><br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, el daño adicional del ataque aumenta en 1d6 por cada nivel por encima de 1 del espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Castigo atronador",
+    "clases": [
+      "Paladín"
+    ],
+    "escuela": "Evocación",
+    "tiempo_de_lanzamiento": "1 acción adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "Fuerza",
+    "requiere_ataque": true,
+    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma suena como un trueno audible a 300 pies de distancia y el ataque inflige 2d6 de daño de trueno adicionales al objetivo. Si el objetivo es una criatura, deberá superar una tirada de salvación de Fuerza o será empujada 10 pies en dirección opuesta a ti y será derribada.",
+    "materiales": null
   }
 ]
