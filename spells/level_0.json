@@ -64,5 +64,26 @@
     "requiere_ataque": false,
     "descripcion": "Profieres una sarta de improperios entremezclados con sutiles encantamientos hacia una criatura que puedas ver dentro del alcance. Si el objetivo puede oírte (aunque no necesita entenderte), debe tener éxito en una tirada de salvación de Sabiduría o recibirá 1d4 de daño psíquico y sufrirá desventaja en la siguiente tirada de ataque que realice antes del final de su próximo turno.<br><b><i>A niveles superiores.</i></b> El daño del conjuro aumenta en 1d4 cuando alcanzas nivel 5 (2d4), nivel 11 (3d4) y nivel 17 (4d4).",
     "materiales": null
+  },
+  {
+    "nombre": "Crear llama",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Aparece en tu mano una llama parpadeante. Esta permanece hasta el final de la duración del conjuro y no te daña ni a ti ni a tu equipo. La llama emite luz brillante en un radio de 10 pies y luz tenue 10 pies más allá. El conjuro termina si lo lanzas de nuevo o utilizas una acción para finalizarlo.<br><br>También puedes atacar con la llama, pero esto termina el conjuro. Cuando lances este conjuro, o como acción en un turno posterior, puedes arrojar la llama a una criatura hasta a 30 pies de ti. Haz un ataque de conjuro a distancia. Si impactas, el objetivo recibe 1d8 de daño de fuego.<br><br>El daño del conjuro aumenta en 1d8 cuando alcanzas nivel 5 (2d8), nivel 11 (3d8) y nivel 17 (4d8).",
+    "materiales": null
   }
 ]

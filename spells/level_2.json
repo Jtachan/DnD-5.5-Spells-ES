@@ -310,5 +310,50 @@
     "requiere_ataque": false,
     "descripcion": "El contorno de tu cuerpo se vuelve borroso, cambiando y oscilando a la vista de todos. Hasta el final de la duración del conjuro, las criaturas que hagan tiradas de ataque contra ti tienen desventaja. El atacante es inmune a este efecto si no depende de la vista (por ejemplo, tiene visión ciega) o ve a través de las ilusiones (como con visión verdadera).",
     "materiales": null
+  },
+  {
+    "nombre": "Cordón de flechas",
+    "clases": [
+      "Explorador"
+    ],
+    "escuela": "Transmutación",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "5 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Clavas cuatro unidades de munición no mágica (flechas o virotes de ballesta) en el suelo, dentro del alcance, y las encantas para proteger el área. Hasta que el conjuro finalice, cuando una criatura que no seas tú entre en su turno o se acerque por primera vez a 30 pies o menos de las saetas, una de ellas saldrá volando para atacarla. Deberá tener éxito en una tirada de salvación de Destreza o sufrirá 1d6 de daño perforante. La saeta resulta destruida. El conjuro termina cuando no quedan más proyectiles.<br><br>Las criaturas elegidas (por ti) pueden ignorar este conjuro.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o más, la cantidad de saetas que puedes encantar se incrementa en dos por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+    "materiales": "Cuatro o más flechas o virotes"
+  },
+  {
+    "nombre": "Corona de la locura",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "120 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Concentración, hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Un humanoide de tu elección que puedas ver dentro del alcance debe realizar una tirada de salvación de Sabiduría o quedará hechizado por ti. Mientras permanezca hechizado de esta manera, aparece en su cabeza una corona retorcida de hierro dentado y la locura brilla en sus ojos.<br><br>El objetivo hechizado debe utilizar su acción antes de moverse cada turno para realizar un ataque cuerpo a cuerpo contra una criatura elegida mentalmente por ti y que no sea ella misma.<br><br>Puede actuar con normalidad en su turno si no eliges ninguna criatura o no tiene ninguna a su alcance.<br><br>En turnos siguientes debes usar tu acción para mantener el control del objetivo o el conjuro termina. Al final de cada uno de sus turnos, el objetivo puede realizar otra tirada de salvación de Sabiduría. Si tiene éxito, el efecto del conjuro termina.",
+    "materiales": null
   }
 ]

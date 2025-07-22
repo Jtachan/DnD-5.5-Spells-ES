@@ -89,3 +89,12 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Contorno borroso                     | 2         |
 | Contrahechizo                        | 3         |
 | Controlar el agua                    | 4         |
+| Controlar el clima                   | 8         |
+| Corcel fantasmal                     | 3         |
+| Cordón de flechas                    | 2         |
+| Corona de la locura                  | 2         |
+| Creación                             | 5         |
+| Crear comida y agua                  | 3         |
+| Crear llama                          | 0 (Truco) |
+| Crear muerto viviente                | 6         |
+| Crear o destruir agua                | 1         |

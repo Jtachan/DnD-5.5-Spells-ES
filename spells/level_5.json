@@ -423,5 +423,28 @@
     "requiere_ataque": true,
     "descripcion": "Tu toque causa enfermedades. Haz una tirada de ataque de conjuro cuerpo a cuerpo contra una criatura dentro del alcance. Si impactas, infliges el objetivo una dolencia entre las descritas abajo.<br><br>Al final de cada uno de sus turnos, el objetivo debe realizar una tirada de salvación de Constitución. Si falla tres tiradas, la enfermedad permanecerá hasta el final de la duración del conjuro y la criatura dejará de hacer estas tiradas. Si supera tres tiradas, el objetivo se recuperará de la enfermedad y el conjuro termina.<br><br>La enfermedad inducida por este conjuro es natural, por lo que cualquier efecto que elimine o reduzca los efectos de una dolencia se aplica a este caso.<br><br><b>Enfermedades posibles:</b><br>• <b>Enfermedad cegadora:</b> Desventaja en tiradas de SAB y el objetivo queda ciego.<br>• <b>Fiebre inmunda:</b> Desventaja en pruebas y TS de FUE.<br>• <b>Putrefacción de la carne:</b> Desventaja en pruebas de CAR.<br>• <b>Mente en llamas:</b> Desventaja en pruebas y TS de INT, afectado como por confusión si sufre daño.<br>• <b>Convulsiones:</b> Desventaja en pruebas y TS de DES.<br>• <b>Maldición legamosa:</b> Desventaja en pruebas y TS de CON. Si recibe daño, queda aturdida hasta el final de su siguiente turno.",
     "materiales": null
+  },
+  {
+    "nombre": "Creación",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusión",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "30 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Especial",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Utilizando hebras de sombras sacadas del Shadowfell, creas un objeto inerte de material vegetal dentro del alcance: tela, cuerda, madera o similar. También puedes usar este conjuro para crear objetos hechos de materia inorgánica como piedra, cristal o metal. El objeto creado no puede ser mayor que un cubo de 5 pies de lado y tienes que haber visto antes tanto la forma como el material que lo compone.<br><br>La duración depende del material del objeto. Si está compuesto de varios materiales, usa la duración más breve.<br><br><b>Material — Duración:</b><br>Material vegetal: 1 día<br>Cristal o piedra: 12 horas<br>Metales preciosos: 1 hora<br>Gemas: 10 minutos<br>Adamantina o mithral: 1 minuto<br><br>Utilizar un material creado por este conjuro como componente material de otro conjuro hará que este último falle.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o más, el lado del cubo aumenta en 5 pies por cada nivel por encima de 5 que tenga el espacio que hayas empleado.",
+    "materiales": "Un trocito del mismo material que forma el objeto que planeas crear"
   }
 ]

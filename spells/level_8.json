@@ -109,5 +109,29 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro crea un duplicado inerte de una criatura viva como salvaguarda contra la muerte. El clon se forma dentro del recipiente cerrado y crece hasta la madurez en 120 días; también puedes elegir que el clon sea una versión más joven de la misma criatura. Se mantiene inerte y aguanta indefinidamente mientras el recipiente se mantenga intacto.<br><br>Si, en cualquier momento después de que el clon haya madurado, la criatura original muere, su alma se transferirá al clon. Suponiendo que el alma sea libre y quiera volver, claro está. El clon es físicamente idéntico al original y tiene su misma personalidad, memoria y habilidades, pero no conserva su equipo. Los restos mortales de la criatura original, si existen, se volverán inertes y no podrán ser devueltos a la vida, ya que el alma de la criatura ha pasado a otro cuerpo.",
     "materiales": "Un diamante con valor de al menos 1.000 po, 1 pulgada cúbica de carne de la criatura a clonar, no consumida en el lanzamiento, y un recipiente con valor de al menos 2.000 po que tenga una tapa sellable y sea apropiado para alojar a una criatura Mediana (urna grande, féretro, zanja llena de barro o un contenedor de cristal lleno de agua salada)"
+  },
+  {
+    "nombre": "Controlar el clima",
+    "clases": [
+      "Bardo",
+      "Clérigo",
+      "Druida"
+    ],
+    "escuela": "Transmutación",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": "Lanzador (radio de 5 millas)",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Concentración, hasta 8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tomas el control del tiempo atmosférico en un radio de 5 millas alrededor de ti hasta el final de la duración del conjuro. Debes estar al aire libre para poder lanzar este conjuro. Si te mueves a un sitio donde no puedas ver el cielo, el conjuro termina antes de tiempo.<br><br>Cuando lanzas el conjuro, cambias las condiciones atmosféricas actuales determinadas por el DM de acuerdo al clima y la estación. Puedes modificar las precipitaciones, temperatura y viento. Tardas 1d4 × 10 minutos en llevar este cambio a término. Cuando termines, puedes cambiar las condiciones de nuevo si así lo quieres. Al terminar el conjuro, el tiempo vuelve a la normalidad gradualmente.<br><br>Cuando manipules las condiciones atmosféricas, encuentra el estado actual en las siguientes tablas y cámbialo un nivel, hacia arriba o hacia abajo. Cuando actúas sobre el viento, puedes modificar su dirección.<br><br><b>Precipitaciones</b><br>1. Despejado<br>2. Nubes escasas<br>3. Cielo cubierto o niebla de superficie<br>4. Lluvia, granizo o nieve<br>5. Lluvia torrencial, tormenta de granizo o ventisca<br><br><b>Temperatura</b><br>1. Calor insoportable<br>2. Caliente<br>3. Templado<br>4. Fresco<br>5. Frío polar<br><br><b>Viento</b><br>1. Calmo<br>2. Viento moderado<br>3. Viento fuerte<br>4. Galerna<br>5. Tempestad",
+    "materiales": "Incienso y pedacitos de tierra y madera mezclados en agua"
   }
 ]

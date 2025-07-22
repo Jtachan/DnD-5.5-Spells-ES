@@ -129,5 +129,27 @@
     "requiere_ataque": false,
     "descripcion": "Elige un conjuro de nivel 5 o menor que puedas lanzar, que tenga un tiempo de lanzamiento de 1 acción y que pueda hacerte objetivo. Lanzas ese conjuro (llamado el conjuro contingente) como parte de lanzar <i>contingencia</i>, empleando espacios de conjuro para ambos, pero el conjuro contingente no tiene efecto en ese momento. En vez de eso, tendrá efecto cuando ocurra una determinada situación, que describes y estableces al lanzar los dos conjuros. Por ejemplo, una <i>contingencia</i> lanzada con <i>respirar bajo el agua</i> podría estipular que <i>respirar bajo el agua</i> comenzará cuando quedes sumergido en agua o un líquido similar.<br>El conjuro contingente tiene efecto inmediatamente después de que ocurra la situación establecida por primera vez, lo quieras o no, y después <i>contingencia</i> termina.<br>El conjuro contingente solo puede tener efecto en ti, incluso si normalmente puede elegir como objetivo a otros. Solo eres capaz de tener un conjuro de <i>contingencia</i> activo al mismo tiempo. Si lanzas este conjuro de nuevo, el efecto de una <i>contingencia</i> anterior termina. Además, <i>contingencia</i> finaliza si en cualquier momento dejas de llevar encima su componente material.",
     "materiales": "Una estatuilla de ti mismo tallada en marfil y decorada con gemas y con un valor de, al menos, 1.500 po"
+  },
+  {
+    "nombre": "Crear muerto viviente",
+    "clases": [
+      "Clérigo"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "10 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro solo puede lanzarse de noche. Elige hasta tres cadáveres de humanoide de tamaño Mediano o Pequeño. Deben estar dentro del alcance. Cada uno de ellos se convierte en un gul bajo tu control (el DM tiene los perfiles de estas criaturas).<br><br>En cada turno, puedes usar una acción adicional para dar una orden mental a cualquier criatura creada mediante este conjuro si está a 120 pies o menos de ti (si controlas varias criaturas, puedes dirigir a una o más de ellas utilizando la misma orden). Decides qué acción va a tomar la criatura y dónde se moverá durante su próximo turno. También puedes dar una orden general, como vigilar una cámara o un pasillo en concreto. Si no indicas ninguna orden, la criatura se limita a defenderse de otras criaturas hostiles. Una vez que recibe una orden, la sigue hasta cumplirla.<br><br>La criatura se mantiene bajo tu control durante 24 horas, después de las cuales abandonará cualquier orden que le hayas dado. Para mantener el control sobre ella durante otras 24 horas, debes lanzar este conjuro de nuevo sobre ella antes de que el periodo actual de 24 horas termine. No puedes usar este conjuro para reafirmar tu control sobre hasta tres criaturas que hayas animado previamente con este mismo conjuro en vez de reanimar nuevas criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7, reanimas o reafirmas tu control sobre cuatro gules. Cuando lanzas el conjuro usando un espacio de conjuro de nivel 8, reanimas o reafirmas tu control sobre cinco gules, o dos tumularios. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 9, reanimas o reafirmas tu control sobre seis gules, tres ghasts o tumularios, o dos momias.",
+    "materiales": "Una maceta de arcilla llena de tierra de una tumba, una maceta de arcilla llena de agua salobre y un ónice negro de 150 po por cada cadáver"
   }
 ]

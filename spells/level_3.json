@@ -271,5 +271,49 @@
     "requiere_ataque": false,
     "descripcion": "Intentas interrumpir a una criatura mientras lanza un conjuro. Si este último es de nivel 3 o menor, lo logras automáticamente y el conjuro no tiene efecto alguno. Sin embargo, para cada conjuro de nivel 4 o más, realiza una prueba de característica usando tu aptitud mágica. La CD es 10 + el nivel del conjuro. Si tienes éxito, el conjuro de la criatura falla y no tiene efecto.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, cancelas automáticamente aquellos conjuros cuyo nivel sea menor o igual al nivel del espacio de conjuro utilizado.",
     "materiales": null
+  },
+  {
+    "nombre": "Corcel fantasma",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusión",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "30 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura de tamaño Grande, con aspecto equino, aparece en el suelo en un espacio libre de tu elección que puedas ver dentro del alcance. Tú decides la apariencia de la criatura, pero estará equipada con silla de montar, bocado y bridas. Cualquier equipo creado por el conjuro se desvanecerá si se aleja más de 10 pies de ella.<br><br>Hasta el final de la duración del conjuro, tú o una criatura de tu elección podéis montar el corcel. Este tiene el perfil de un caballo de monta, excepto que su velocidad es de 100 pies y puede viajar 10 millas en una hora, 13 a ritmo rápido. Cuando el conjuro acaba, el corcel se desvanece gradualmente, dando al jinete 1 minuto para desmontar. El conjuro acaba si la criatura recibe cualquier tipo de daño o si utilizas una acción para terminar el conjuro.",
+    "materiales": null
+  },
+  {
+    "nombre": "Crear comida y agua",
+    "clases": [
+      "Clérigo",
+      "Paladín"
+    ],
+    "escuela": "Conjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "30 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas 45 libras de comida y 30 galones de agua en el suelo o en recipientes dentro del alcance, lo suficiente para mantener a quince humanoides o cinco corceles durante 24 horas. La comida es sosa, aunque nutritiva, y se estropeará si no se ha consumido en 24 horas. En cambio, el agua está limpia y no se estropea.",
+    "materiales": null
   }
 ]
