@@ -55,3 +55,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Castigo abrasador                    | 1         |
 | Castigo abrumador                    | 4         |
 | Castigo atronador                    | 1         |
+| Castigo cegador                      | 3         |
