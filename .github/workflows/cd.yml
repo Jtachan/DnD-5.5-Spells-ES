@@ -43,13 +43,6 @@ jobs:
           message: 'GH commit: Update spells.json with new spells'
           add: 'spells.json'
 
-      # Publish spells as artifact.
-      - name: Upload spells.json artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: spells-json
-          path: spells.json
-
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -66,15 +59,10 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Prepare pages artifact
-        run: |
-          mkdir site
-          cd index.html site/
-
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: ./
 
       - name: Deploy to GitHub Pages
         id: deploy
