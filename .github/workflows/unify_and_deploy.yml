@@ -8,7 +8,7 @@ on:
 
 permissions:
   contents: write
-  pages: write
+  
 
 jobs:
   unify:
@@ -42,16 +42,18 @@ jobs:
           message: 'GH commit: Update spells.json with new spells'
           add: 'spells.json'
 
-      # 5: Configure & deploy GH Pages
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v3
-
-      - name: Upload artifact for Pages
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: |
-            spells.html
-            spells.json
-
+  deploy:
+    needs: unify
+    permissions:
+      pages: write
+      id-token: write
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      runs-on: ubuntu-latest
+      
+    steps:
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
