@@ -205,5 +205,49 @@
     "requiere_ataque": false,
     "descripcion": "Creas un sensor invisible dentro del alcance, en una localización familiar (que hayas visitado o visto antes) o en una ubicación obvia que no te resulte familiar (por ejemplo, detrás de una puerta, a la vuelta de una esquina o en un salón abierto). El sensor se mantiene en el sitio hasta el final de la duración del conjuro, y no puede ser atacado ni interactuar con él.<br><br>Cuando lanzas el conjuro, elige vista u oído. Puedes usar el sentido escogido a través del sensor como si estuvieras en su posición. Utilizando una acción puedes cambiar entre vista y oído.<br><br>Una criatura que pueda ver el sensor (porque se beneficie de un conjuro de <i>ver invisibilidad</i> o posea visión verdadera, por ejemplo) contempla un orbe luminoso e intangible del tamaño de tu puño.",
     "materiales": "Una trompetilla enjoyada o un ojo de cristal con un valor de 100 o más po, como foco"
+  },
+  {
+    "nombre": "Conjurar animales",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Conjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "60 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Convocas espíritus feéricos que toman la forma de bestias en espacios desocupados que puedas ver dentro del alcance. Elige una de las siguientes opciones para lo que convocas:<br><br>• Una bestia con valor de desafío 2 o menos.<br>• Dos bestias con valor de desafío 1 o menos.<br>• Cuatro bestias con valor de desafío 1/2 o menos.<br>• Ocho bestias con valor de desafío 1/4 o menos.<br><br>Cada bestia se considera feérica y desaparece cuando sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Las bestias convocadas son amistosas hacia ti y tus compañeros. Las criaturas actúan como un grupo con sus propios turnos, con una sola de tirada de iniciativa común. Obedecen cualquier mandato verbal tuyo (no requiere acción). Si no les das ninguna orden, se defenderán de criaturas hostiles, pero no realizarán ninguna otra acción.<br><br>El DM tiene el perfil de las criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de determinados niveles superiores, el número de criaturas de la opción elegida aumenta: el doble si usas un espacio de conjuro de nivel 5, el triple si es de nivel 7 y cuatro veces más si es de nivel 9.",
+    "materiales": null
+  },
+  {
+    "nombre": "Conjurar descarga de proyectiles",
+    "clases": [
+      "Explorador"
+    ],
+    "escuela": "Conjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Lanzador (cono de 60 pies)",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Arrojas un arma no mágica o unidad de munición al aire para crear un cono de armas idénticas que salen disparadas y luego desaparecen. Todas las criaturas en un cono de 60 pies deben hacer una tirada de salvación de Destreza. Sufrirán 3d8 de daño si fallan la tirada o la mitad del daño si la superan. El tipo de daño es el mismo que el del arma o munición utilizada como componente.",
+    "materiales": "Una unidad de munición o un arma arrojadiza"
   }
 ]

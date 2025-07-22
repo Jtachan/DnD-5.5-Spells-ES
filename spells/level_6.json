@@ -85,5 +85,26 @@
     "requiere_ataque": false,
     "descripcion": "Una esfera de energía negativa se expande hasta cubrir una esfera de 60 pies de radio alrededor de un punto dentro del alcance. Cada criatura en el área debe hacer una tirada de salvación de Constitución. Sufrirá 8d6 de daño necrótico si falla la tirada o la mitad del daño si la supera.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o más, el daño aumenta en 2d6 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
     "materiales": "Una perla negra pulverizada que valga, al menos, 500 po"
+  },
+  {
+    "nombre": "Conjurar feérico",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuración",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "90 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas a una criatura feérica con valor de desafío 6 o menos, o un espíritu feérico que tome la forma de una bestia con valor de desafío 6 o menos. Aparece en un espacio desocupado que puedas ver dentro del alcance. El feérico desaparece si sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Es amistoso hacia ti y tus compañeros hasta el final de la duración del conjuro. Haz una tirada de iniciativa para el feérico, que tiene sus propios turnos. Obedecerá cualquier mandato verbal tuyo (no requiere acción) que no viole su alineamiento. Si no le das ninguna orden, se defenderá de criaturas hostiles, pero no realizará ninguna otra acción.<br><br>Si tu concentración se rompe, el feérico no desaparece. En vez de eso, pierdes el control del feérico, que se vuelve hostil hacia ti y tus compañeros y podría atacaros. No puedes desconvocar al feérico descontrolado, que desaparecerá 1 hora después de que lo invoques.<br><br>El DM tiene el perfil de las criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o más, el valor de desafío del feérico aumenta en 1 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
+    "materiales": null
   }
 ]

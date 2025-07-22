@@ -72,3 +72,16 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Comunión                             | 5         |
 | Comunión con la naturaleza           | 5         |
 | Confusión                            | 4         |
+| Conjurar animales                    | 3         |
+| Conjurar celestial                   | 3         |
+| Conjurar descarga de proyectiles     | 3         |
+| Conjurar elemental                   | 5         |
+| Conjurar elementales menores         | 4         |
+| Conjurar feérico                     | 6         |
+| Conjurar lluvia de flechas           | 5         |
+| Conjurar seres del bosque            | 4         |
+| Cono de frío                         | 5         |
+| Conocer las leyendas                 | 5         |
+| Consagrar                            | 5         |
+| Contactar con otro plano             | 5         |
+| Contagio                             | 5         |

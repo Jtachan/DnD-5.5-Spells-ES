@@ -264,5 +264,164 @@
     "requiere_ataque": false,
     "descripcion": "Realizas una breve comunión con la naturaleza que te otorga cierto conocimiento sobre el terreno circundante. En exteriores, el conjuro te proporciona información sobre el terreno en 3 millas a tu alrededor. En una cueva u otra localización subterránea natural, el alcance se limita a 300 pies. Este conjuro no es efectivo si la naturaleza ha sido sustituida por una construcción, como en una mazmorra o pueblo.<br><br>Conoces de forma inmediata tres hechos de tu elección sobre cualquiera de los siguientes elementos relacionados con el terreno:<br><br>• Terreno y masas de agua.<br>• Plantas, minerales, animales y gentes comunes.<br>• Seres poderosos de origen celestial, feérico, demoníaco, elemental o muertos vivientes.<br>• Influencia de otros planos de existencia.<br>• Edificios.<br><br>Por ejemplo, podrías determinar la localización de muertos vivientes poderosos en el área, de masas de agua potable cercanas y de cualquier pueblo en los alrededores.",
     "materiales": null
+  },
+  {
+    "nombre": "Conjurar elemental",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuración",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "90 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas a un sirviente elemental. Elige un área de agua, aire, fuego o tierra, dentro del alcance que llene un cubo de 10 pies de lado. Un elemental con valor de desafío 5 o menos y apropiado al área elegida aparece en un espacio desocupado a 10 pies de este. Por ejemplo, un elemental de fuego emergerá de una fogata y un elemental de tierra de un suelo de tierra. El elemental desaparece si sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Es amistoso hacia ti y tus compañeros hasta el final de la duración del conjuro. Haz una tirada de iniciativa para el elemental, que tiene sus propios turnos. Obedece cualquier mandato verbal tuyo (no requiere acción). Si no le das ninguna orden, se defenderá de criaturas hostiles, pero no realizará ninguna otra acción.<br><br>Si tu concentración se rompe, el elemental no desaparece. En vez de eso, pierdes el control del elemental, que ve hostil hacia ti y tus compañeros y podría atacaros. No puedes desconvocar a un elemental descontrolado, que desaparecerá 1 hora después de que lo invoques.<br><br>El DM tiene el perfil del elemental.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o más, el valor de desafío del elemental aumenta en 1 por cada nivel por encima de 5 que tenga el espacio que hayas usado.",
+    "materiales": "Incienso para aire, arcilla blanda para tierra, azufre y fósforo para fuego o arena y agua para agua"
+  },
+  {
+    "nombre": "Conjurar lluvia de flechas",
+    "clases": [
+      "Explorador"
+    ],
+    "escuela": "Conjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "150 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Arrojas un arma no mágica o unidad de munición al aire y eliges un punto dentro del alcance. Cientos de duplicados del arma o saeta caen en una lluvia desde arriba y después desaparecen. Todas las criaturas en un cilindro de 40 pies de radio y 20 pies de altura centrado en el punto escogido deben hacer una tirada de salvación de Destreza. Sufrirán 8d8 de daño si fallan la tirada o la mitad del daño si la superan. El tipo de daño es el mismo que el del arma o munición utilizada como componente.",
+    "materiales": "Una unidad de munición o un arma arrojadiza"
+  },
+  {
+    "nombre": "Cono de frío",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocación",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Lanzador (cono de 60 pies)",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una ráfaga de aire helado surge de tus manos. Cada criatura en un cono de 60 pies debe hacer una tirada de salvación de Constitución. Sufrirá 8d8 de daño de frío si falla la tirada o la mitad del daño si la supera.<br><br>Una criatura que muera a causa de este conjuro se convertirá en una estatua helada hasta que se deshiele.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o más, el daño aumenta en 1d8 por cada nivel por encima de 5 que tenga el espacio que hayas empleado.",
+    "materiales": "Un cristal pequeño o un cono de cristal"
+  },
+  {
+    "nombre": "Conocer las leyendas",
+    "clases": [
+      "Bardo",
+      "Clérigo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinación",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Nombras o describes a una persona, lugar u objeto. El conjuro te proporciona un breve resumen del conocimiento más significativo sobre lo nombrado. Puede ser en forma de cuentos actuales, historias olvidadas o incluso información secreta que nunca ha sido de dominio público. Si lo nombrado no es digno de haber formado parte de una leyenda, no consigues ninguna información. Cuanta más información tuvieras antes, más precisa y detallada será la nueva información que recibas.<br><br>La información obtenida será cierta, pero puede estar disimulada bajo un lenguaje metafórico. Por ejemplo, si tienes una misteriosa hacha mágica en la mano, el conjuro podría proporcionar la siguiente información: “Así el mal cayó sobre el malvado cuya mano tocase esa hacha, pues hasta su empuñadura rajará la mano del maligno”. Únicamente un verdadero Hijo de la Piedra, devoto y amado por Moradin, podrá despertar los verdaderos poderes del arma, y solo si la palabra sagrada <i>Rudnogg</i> brota de sus labios”.",
+    "materiales": "Incienso con un valor de al menos 250 po, que es consumido como parte del conjuro, y cuatro tiras de marfil con un valor de al menos 50 po cada una"
+  },
+  {
+    "nombre": "Consagrar",
+    "clases": [
+      "Clérigo"
+    ],
+    "escuela": "Evocación",
+    "tiempo_de_lanzamiento": "24 horas",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Tocas un punto e infundes la zona que lo rodea con poder sagrado (o impío). El área afectada puede tener un radio de hasta 60 pies y el conjuro falla si el radio incluye una zona que ya está bajo el efecto del conjuro <i>consagrar</i>. La zona afectada queda sujeta a los siguientes efectos:<br><br>1. Los celestiales, elementales, feéricos, infernales y muertos vivientes no pueden entrar en la zona ni hechizar, asustar o poseer a criaturas que estén dentro de ella. Cualquier criatura hechizada, asustada o poseída por tales criaturas deja de estarlo al entrar en la zona. Puedes excluir a uno o más de estos tipos de criaturas de este efecto.<br><br>2. Segundo, puedes asociar un efecto adicional a la zona. Elige uno de la lista y si aplica una salvación, es de Carisma:<br>• Coraje<br>• Oscuridad<br>• Luz del día<br>• Protección contra energía<br>• Vulnerabilidad a la energía<br>• Descanso eterno<br>• Intromisión extradimensional<br>• Terror<br>• Silencio<br>• Lenguas",
+    "materiales": "Incienso, hierbas y aceites con un valor de al menos 1.000 po, que son consumidos como parte del conjuro"
+  },
+  {
+    "nombre": "Contactar con otro plano",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinación",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": "Contactas mentalmente con un semidiós, el espíritu de un sabio muerto hace tiempo u otra entidad misteriosa de otro plano. Establecer comunicación con estas inteligencias extraplanares puede causar estragos en tu mente.<br><br>Cuando lances este conjuro, haz una tirada de salvación de Inteligencia CD 15. Si fallas, recibes 6d6 de daño psíquico y quedas enloquecido hasta que termines un descanso largo. Mientras estás enloquecido no puedes realizar acciones, no entiendes lo que otras criaturas dicen, no puedes leer y solo dices jerigonzas. Un conjuro <i>restablecimiento mayor</i> lanzado sobre ti termina este efecto.<br><br>Si pasas la tirada de salvación puedes hacer cinco preguntas a la entidad. Debes realizarlas todas antes de que el conjuro termine. El DM responde a tus preguntas con una palabra, como “sí”, “no”, “quizá”, “nunca”, “irrelevante” o “incierto” (si la entidad no conoce la respuesta a la pregunta). En el caso de que una respuesta de una sola palabra pueda inducir a error, el DM puede ofrecer una frase corta en su lugar.",
+    "materiales": null
+  },
+  {
+    "nombre": "Contagio",
+    "clases": [
+      "Clérigo",
+      "Druida"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "7 días",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": true,
+    "descripcion": "Tu toque causa enfermedades. Haz una tirada de ataque de conjuro cuerpo a cuerpo contra una criatura dentro del alcance. Si impactas, infliges el objetivo una dolencia entre las descritas abajo.<br><br>Al final de cada uno de sus turnos, el objetivo debe realizar una tirada de salvación de Constitución. Si falla tres tiradas, la enfermedad permanecerá hasta el final de la duración del conjuro y la criatura dejará de hacer estas tiradas. Si supera tres tiradas, el objetivo se recuperará de la enfermedad y el conjuro termina.<br><br>La enfermedad inducida por este conjuro es natural, por lo que cualquier efecto que elimine o reduzca los efectos de una dolencia se aplica a este caso.<br><br><b>Enfermedades posibles:</b><br>• <b>Enfermedad cegadora:</b> Desventaja en tiradas de SAB y el objetivo queda ciego.<br>• <b>Fiebre inmunda:</b> Desventaja en pruebas y TS de FUE.<br>• <b>Putrefacción de la carne:</b> Desventaja en pruebas de CAR.<br>• <b>Mente en llamas:</b> Desventaja en pruebas y TS de INT, afectado como por confusión si sufre daño.<br>• <b>Convulsiones:</b> Desventaja en pruebas y TS de DES.<br>• <b>Maldición legamosa:</b> Desventaja en pruebas y TS de CON. Si recibe daño, queda aturdida hasta el final de su siguiente turno.",
+    "materiales": null
   }
 ]
