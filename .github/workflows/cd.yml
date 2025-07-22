@@ -1,17 +1,20 @@
-name: Creation of 'spells.json'
+name: Unify spells and deploy site
 on:
   push:
+    paths:
+      - "spells/**"
+      - "index.html"
     branches:
       - "main"
-      - "html_table"
-  workflow_dispatch:  # This will also run when called manually.
+  workflow_dispatch:
 
 permissions:
   contents: write
-  
+  pages: write
+  id-token: write
 
 jobs:
-  unify:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -43,17 +46,27 @@ jobs:
           add: 'spells.json'
 
   deploy:
-    needs: unify
+    needs: build
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
     
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
       
     steps:
+      # Cloning repo to hace access to the HTML file
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: |
+            index.html
+
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        id: deploy
+        uses: actions/deploy-pages@v5
