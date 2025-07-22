@@ -1,7 +1,7 @@
 [
   {
     "nombre": "Antipatía/Simpatía",
-        "clases": [
+    "clases": [
       "Druída",
       "Mago"
     ],
@@ -24,8 +24,8 @@
   },
   {
     "nombre": "Aspectos animales",
-        "clases": [
-      "Druida"
+    "clases": [
+      "Druída"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "1 acción",
@@ -44,7 +44,7 @@
   },
   {
     "nombre": "Aura sagrada",
-        "clases": [
+    "clases": [
       "Clérigo"
     ],
     "escuela": "Abjuración",
@@ -59,14 +59,14 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Constitución",
+    "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
     "descripcion": "Una luz divina baña suavemente tus alrededores, en un radio de 30 pies. Las criaturas de tu elección que se encuentren en el área cuando lanzas este conjuro emiten luz tenue en un radio de 5 pies y tienen ventaja en todas las tiradas de salvación. El resto de criaturas tienen desventaja en las tiradas de ataque contra las criaturas que elegiste hasta el final de la duración del conjuro. Además, cuando un infernal o un muerto viviente impacte a una criatura afectada con un ataque cuerpo a cuerpo, el aura brillará con un fogonazo. Debido a ello, el atacante debe tener éxito en una tirada de salvación de Constitución o quedará cegado hasta el final de la duración del conjuro.",
     "materiales": "Un pequeño relicario que valga, al menos, 1.000 po y que contenga una reliquia sagrada, como un jirón de ropa de la túnica de un santo o un pedazo de pergamino de un texto religioso."
   },
   {
     "nombre": "Campo antimagia",
-        "clases": [
+    "clases": [
       "Clérigo",
       "Mago"
     ],

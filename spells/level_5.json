@@ -2,7 +2,7 @@
   {
     "nombre": "Alterar los recuerdos",
     "clases": [
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Encantamiento",
@@ -72,7 +72,7 @@
     "nombre": "Apariencia",
     "clases": [
       "Bardo",
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Ilusión",
@@ -86,7 +86,7 @@
     ],
     "concentracion": false,
     "duracion": "8 horas",
-    "tirada_de_salvacion": "Carisma",
+    "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
     "descripcion": "Este conjuro te permite cambiar la apariencia de cualquier número de criaturas que puedas ver dentro del alcance. Le das a cada una de ellas una apariencia ilusoria nueva. Un objetivo no voluntario puede realizar una tirada de salvación de Carisma, y si tiene éxito no se verá afectado por el conjuro.<br>El conjuro disfraza la apariencia física, así como la vestimenta, armas, armadura y equipo. Puedes hacer que cada criatura parezca 1 pie más alta o más baja y de complexión delgada, gorda o intermedia. No puedes cambiar el tipo de su cuerpo, así que debes elegir una forma que tenga la misma configuración de miembros. En el resto de aspectos, la ilusión queda a tu elección. Esta permanece hasta el final de la duración del conjuro o hasta que utilices una acción para finalizarla.<br>Los cambios realizados por este conjuro no aguantan una inspección física. Por ejemplo, si usas este conjuro para añadir un sombrero a la vestimenta de una criatura, los objetos atravesarán el sombrero y cualquiera que lo toque no sentirá nada, o sencillamente notará el pelo y cabeza. Si utilizas este conjuro para parecer más delgado, la mano de una criatura que intente tocarte se chocará contigo en lo que parece ser espacio libre.<br>Si una criatura usa su acción para examinar a un objetivo con una prueba enfrentada de Inteligencia (Investigación) contra tu CD de salvación de conjuros, si tiene éxito, se da cuenta de que el objetivo está disfrazado.",
     "materiales": null
@@ -95,7 +95,7 @@
     "nombre": "Atadura planar",
     "clases": [
       "Brujo",
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Abjuración",
@@ -110,7 +110,7 @@
     ],
     "concentracion": false,
     "duracion": "24 horas",
-    "tirada_de_salvacion": "Carisma",
+    "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
     "descripcion": "Con este conjuro, intentas obligar a un celestial, elemental, feérico o infernal a servirte. La criatura debe estar dentro del alcance durante toda la duración del lanzamiento del conjuro (típicamente se invoca a la criatura en el centro de un círculo mágico invertido para evitar que escape mientras se lanza el conjuro). Al finalizar el lanzamiento, el objetivo debe hacer una tirada de salvación de Carisma. Si falla, queda atado, obligado a servirte hasta el final de la duración del conjuro. Si la criatura fue invocada o creada por otro conjuro, la duración de ese último se extiende hasta igualar la de este conjuro.<br>El objetivo atado debe obedecer tus órdenes lo mejor que pueda. Puedes pedirle que te acompañe en una aventura, que vigile un sitio o que entregue un mensaje. La criatura seguirá las instrucciones al pie de la letra, pero si es hostil hacia ti, intentará retorcer tus palabras para conseguir sus propios objetivos. Si cumple totalmente tus órdenes antes de que acabe el conjuro, viajará hasta donde estés para informarte, siempre y cuando estéis en el mismo plano de existencia. Si estás en otro plano, volverá al sitio donde la ataste y se quedará ahí hasta que el conjuro termine.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de un nivel superior, la duración pasa a ser de 10 días con un espacio de conjuro de nivel 6, de 30 días con uno de nivel 7, de 180 días con uno de nivel 8 y de 1 año y 1 día con un espacio de conjuro de nivel 9.",
     "materiales": "Una joya con un valor de, al menos, 1.000 po, que es consumida como parte del conjuro."
@@ -118,7 +118,7 @@
   {
     "nombre": "Caparazon antivida",
     "clases": [
-      "Druida"
+      "Druída"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "1 acción",

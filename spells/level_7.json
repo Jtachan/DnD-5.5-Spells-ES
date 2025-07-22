@@ -1,6 +1,6 @@
 [
   {
-    "nombre": "Bola de fuego de explosion retardada",
+    "nombre": "Bola de fuego de explosión retardada",
     "clases": [
       "Hechicero",
       "Mago"
@@ -17,7 +17,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Destreza",
+    "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
     "descripcion": "Un rayo de luz amarilla se proyecta desde tu índice y se condensa, quedando latente con la forma de una cuenta brillante en un punto dentro del alcance. Cuando el conjuro termina, ya sea porque se rompe tu concentración o porque decides terminarlo, la cuenta se transforma con un rugido sordo en una explosión ardiente que se extiende más allá de las esquinas. Todas las criaturas en una esfera de 20 pies centrada en el punto deben hacer una tirada de salvación de Destreza. Sufrirán daño de fuego igual al daño acumulado si fallan la tirada o la mitad del daño si la superan.<br>El daño base del conjuro es 12d6. Si al final de tu turno la cuenta aún no ha explotado, este daño se incrementa en 1d6.<br>Si se toca la cuenta antes de que termine el tiempo, la criatura que lo haga debe realizar una tirada de salvación de Destreza. Si falla, el conjuro termina inmediatamente, haciendo que la cuenta explote. Si tiene éxito, la criatura puede lanzar la cuenta hasta a 40 pies de distancia. Cuando esta golpee a una criatura u objeto sólido, el conjuro termina y la cuenta explota.<br>El fuego daña los objetos que se encuentren en el área, haciendo arder los que sean inflamables y no lleve o vista alguien.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 8 o más, el daño aumenta en 1d6 por cada nivel por encima de 7 que tenga el espacio que hayas empleado.",
     "materiales": "Una pelotita de guano de murciélago y azufre."

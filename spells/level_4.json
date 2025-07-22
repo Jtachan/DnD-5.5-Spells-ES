@@ -4,7 +4,7 @@
     "clases": [
       "Clérigo"
     ],
-    "escuela": "adivinacion",
+    "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": true,
     "alcance": "Lanzador",
@@ -37,7 +37,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Sabiduría",
+    "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
     "descripcion": "Accedes a las pesadillas de una criatura que puedas ver dentro del alcance para crear una manifestación ilusoria de sus más profundos miedos, que solo será visible para esa criatura. El objetivo debe hacer una tirada de salvación de Sabiduría. Si falla, queda asustado hasta el final de la duración del conjuro. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura debe tener éxito en una tirada de salvación de Sabiduría o sufrir 4d10 de daño psíquico. Si supera la tirada, el conjuro termina inmediatamente.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o más, el daño aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
     "materiales": null

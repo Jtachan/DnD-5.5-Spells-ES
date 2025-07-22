@@ -106,15 +106,15 @@
     ],
     "concentracion": false,
     "duracion": "Instantáneo",
-    "tirada_de_salvacion": "Fuerza",
+    "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
     "descripcion": "Invocas el poder de Hadar, el Hambre Tenebrosa. Zarcillos de energía oscura surgen de ti y golpean a todas las criaturas a 10 pies o menos de tu posición. Cada criatura en el área debe hacer una tirada de salvación de Fuerza. Si falla, sufrirá 2d6 de daño necrótico y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno. Si supera la tirada, recibirá la mitad de daño, pero no sufrirá ningún otro efecto.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, el daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
     "materiales": null
   },
   {
-    "nombre": "Buenas Bayas",
+    "nombre": "Buenas bayas",
     "clases": [
-      "Druida"
+      "Druída"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "1 acción",
@@ -137,7 +137,7 @@
     "nombre": "Caída de pluma",
     "clases": [
       "Bardo",
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutación",

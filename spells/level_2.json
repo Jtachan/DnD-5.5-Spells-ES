@@ -3,7 +3,7 @@
     "nombre": "Abrir",
     "clases": [
       "Bardo",
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutación",
@@ -24,7 +24,7 @@
   {
     "nombre": "Agrandar/Reducir",
     "clases": [
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutación",
@@ -47,7 +47,7 @@
   {
     "nombre": "Alterar el propio aspecto",
     "clases": [
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutación",
@@ -206,7 +206,7 @@
     "nombre": "Calentar metal",
     "clases": [
       "Bardo",
-      "Druida"
+      "Druída"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "1 acción",
@@ -220,7 +220,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Constitución",
+    "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
     "descripcion": "Elige un objeto manufacturado de metal, como un arma de metal o una armadura media o pesada de metal que puedas ver dentro del alcance. Haces que dicho objeto se ponga al rojo vivo. Cualquier criatura en contacto físico con el objeto recibe 2d8 de daño de fuego cuando lanzas el conjuro.<br>Hasta el final del conjuro, puedes usar una acción adicional en cada uno de tus turnos para causar este daño de nuevo.<br>Si una criatura está vistiendo o portando el objeto y sufre el daño, deberá tener éxito en una tirada de salvación de Constitución o soltarlo, si es que puede. Si no lo suelta, tiene desventaja en tiradas de ataque y pruebas de característica hasta el comienzo de tu próximo turno.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o más, el daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
     "materiales": "Un trozo de hierro y una llama."
@@ -242,7 +242,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Carisma",
+    "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
     "descripcion": "Intentas suprimir emociones fuertes en un grupo de gente. Cada humanoide en una esfera de 20 pies de radio centrada en un punto de tu elección dentro del alcance debe realizar una tirada de salvación de Carisma. Cualquiera de ellos puede elegir fallar la tirada voluntariamente si así lo desea.<br>Si una criatura falla la tirada, elige uno de los dos efectos siguientes:<br>Puedes suprimir cualquier efecto que mantenga al objetivo hechizado o asustado. Sin embargo, cuando este conjuro acabe, los efectos suprimidos vuelven a funcionar, siempre que su duración no haya acabado.<br>De modo alternativo, puedes hacer que un objetivo se vuelva indiferente hacia criaturas de tu elección con las que previamente era hostil. Esta indiferencia termina si el objetivo es atacado o dañado por un conjuro o si ve a alguno de sus amigos ser dañado. Cuando el conjuro acaba, la criatura se vuelve hostil de nuevo, a menos que el DM decida otra cosa.",
     "materiales": null
