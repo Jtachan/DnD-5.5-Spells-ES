@@ -1051,6 +1051,30 @@
     "nivel": 5
   },
   {
+    "nombre": "Carcaj veloz",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Transmutas tu aljaba para que produzca una reserva infinita de munici\u00f3n no m\u00e1gica, que parece saltar a tu mano cuando vas a cogerla.<br><br>En cada uno de tus turnos hasta el final del conjuro puedes utilizar una acci\u00f3n adicional para realizar dos ataques con un arma que use munici\u00f3n de la aljaba. Cada vez que llevas a cabo uno de estos ataques a distancia, la aljaba repone m\u00e1gicamente la unidad de munici\u00f3n empleada con otra unidad de munici\u00f3n no m\u00e1gica similar. Cualquier unidad de munici\u00f3n creada por este conjuro se desvanece cuando este acaba. Si la aljaba deja de estar en tu posesi\u00f3n, el conjuro termina.",
+    "materiales": "Una aljaba con al menos una unidad de munici\u00f3n.",
+    "nivel": 5
+  },
+  {
     "nombre": "Ca\u00edda de pluma",
     "clases": [
       "Bardo",
