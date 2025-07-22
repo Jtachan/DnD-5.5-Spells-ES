@@ -119,9 +119,9 @@ Cada conjuro contiene las siguientes entradas:
 Cualquiera puede contribuir añadiendo nuevos conjuros, siempre que sean conjuros de las reglas básicas.
 Para cotribuir, sigue las siguientes reglas:
 
-1. Asegurate de que el conjuro que quieres añadir no se encuentra ya en [`spells/index.md`](spells/index.md) ni en ningún _pull request_ abierto.
+1. Asegúrate de que el conjuro que quieres añadir no se encuentra ya en [`spells/index.md`](spells/index.md) ni en ningún _pull request_ abierto.
 2. Crea un nuevo _pull request_ con el nombre `{Conjuro} - N{nivel}`. Por ejemplo: `Abrir N2`. Aquí debería encontrarse únicamente el conjuro a añadir.
-3. Asegurate de rellenar los campos correctamente, manteniendo la descripción con el texto exacto del manual.
-4. Añade el nombre del conjuto en [`spells/index.md`](spells/index.md) en su posición alfabética correcta.
+3. Asegúrate de rellenar los campos correctamente, manteniendo la descripción con el texto exacto del manual.
+4. Añade el nombre del conjuro en [`spells/index.md`](spells/index.md) en su posición alfabética correcta.
 
 > Se cambiarán los permisos del repositorio únicamente a modo lectura cuando todos los conjuros se hayan añadido.
