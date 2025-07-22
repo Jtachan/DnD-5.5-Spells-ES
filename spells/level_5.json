@@ -198,5 +198,27 @@
     "requiere_ataque": false,
     "descripcion": "Radias una energía divina, distorsionando y diseminando la energía mágica en una esfera de 30 pies a tu alrededor. La esfera se mueve contigo, centrada en ti, hasta el final del conjuro. Hasta ese momento, cada criatura amistosa en el área (incluido tú) tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos. Además, si una criatura tiene éxito en una tirada de salvación contra un conjuro que normalmente infligiría daño o si este le permite hacer una tirada de salvación con éxito para recibir solo la mitad del daño, no sufrirá ningún daño en su lugar.",
     "materiales": null
+  },
+  {
+    "nombre": "Círculo de teletransportación",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuración",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "10 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Al lanzar el conjuro, dibujas un círculo de 10 pies de diámetro en el suelo, inscrito con sellos que enlazan tu localización a un círculo de teletransportación permanente de tu elección cuya secuencia de sellos conozcas y que esté en tu mismo plano de existencia. Un portal reluciente se abre dentro del círculo dibujado y permanece abierto hasta el final de tu próximo turno. Cualquier criatura que atraviese el portal aparecerá a 5 pies del círculo destino o en el espacio desocupado más cercano.<br><br>Muchos grandes templos, gremios y otros sitios importantes tienen círculos de teletransportación permanentes inscritos en alguna parte de sus dominios. Cada círculo incluye una secuencia de sellos única, una ristra de runas mágicas colocadas siguiendo un patrón específico. Cuando aprendes a lanzar este conjuro, también conoces las secuencias de sellos de dos destinos del plano material, a determinar por el DM. Puedes aprender nuevas secuencias de símbolos durante tus aventuras. Memorizarás de forma permanente una de estas secuencias si la estudias durante 1 minuto.<br><br>Puedes crear un círculo de teletransportación permanente si lanzas este conjuro en el mismo sitio todos los días durante un año. No necesitas teletransportarte usando el círculo cuando lo lances de este modo.",
+    "materiales": "Tizas y tintas raras, infundidas con gemas preciosas con un valor de al menos 50 po, que son consumidas por el conjuro"
   }
 ]

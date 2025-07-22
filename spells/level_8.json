@@ -86,5 +86,28 @@
     "requiere_ataque": false,
     "descripcion": "Te rodea una esfera antimagia invisible de 10 pies de radio. El área cubierta queda aislada de la energía mágica que permea el universo. Dentro de la esfera no se pueden lanzar conjuros, las criaturas invocadas desaparecen y los objetos mágicos quedan suprimidos mientras estén en ella. Mientras un conjuro o efecto mágico esté suprimido, no tiene efecto, pero el tiempo que pasa en este estado se resta de su duración normal.<br><b>Efectos que eligen un objetivo:</b> Los conjuros y efectos mágicos que eligen como objetivo a una criatura u objeto, como proyectil mágico o hechizar persona, no tienen efecto si su objetivo está dentro de la esfera.<br><b>Áreas de efecto mágico:</b> El área de otro conjuro o efecto mágico, como una bola de fuego, no se extiende al interior de la esfera. Si la esfera se superpone con el área de un efecto mágico, este queda anulado en la parte cubierta por la esfera. Por ejemplo, las llamas creadas por muro de fuego quedan suprimidas dentro de la esfera; si el área superpuesta es lo suficientemente grande, esto crea un hueco en el efecto.<br><b>Conjuros:<b/> Cualquier conjuro u efecto mágico activo en una criatura u objeto dentro de la esfera queda suprimido mientras permanezca en ella.<br><b>Objetos mágicos:</b> Los poderes y propiedades de los objetos mágicos quedan suprimidos si se usan contra un objetivo dentro de la esfera o si los empuña un atacante dentro de la esfera. Si un arma mágica o una unidad de munición mágica abandona completamente la esfera (por ejemplo, una flecha mágica disparada contra un objetivo fuera de la esfera), su magia deja de estar suprimida en el momento en que sale de ella.<br><b>Viajes mágicos:</b> La teleportación y el viaje interplanar no funcionan si el origen o el destino están dentro de la esfera de campo antimagia. Un portal o arco localizado, mundo o plano de existencia, así como cualquier tipo de apertura a un espacio extradimensional, como el creado por el conjuro truco de la cuerda, se cierra temporalmente mientras permanezca dentro de la esfera.<br><b>Criaturas y objetos:</b> Una criatura u objeto invocado o creado mediante magia deja de existir en el momento en que entra en la esfera. Reaparecerá instantáneamente en cuanto el espacio que ocupaba no se superponga con el de la esfera.<br><b>Disparo mágico:</b> Los conjuros y efectos mágicos similares a disparar magia no tienen efecto sobre la esfera. Del mismo modo, los efectos creados por otros campos antimagia no se anulan entre sí.",
     "materiales": "Una pizca de polvo de hierro o limaduras de hierro."
+  },
+  {
+    "nombre": "Clon",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro crea un duplicado inerte de una criatura viva como salvaguarda contra la muerte. El clon se forma dentro del recipiente cerrado y crece hasta la madurez en 120 días; también puedes elegir que el clon sea una versión más joven de la misma criatura. Se mantiene inerte y aguanta indefinidamente mientras el recipiente se mantenga intacto.<br><br>Si, en cualquier momento después de que el clon haya madurado, la criatura original muere, su alma se transferirá al clon. Suponiendo que el alma sea libre y quiera volver, claro está. El clon es físicamente idéntico al original y tiene su misma personalidad, memoria y habilidades, pero no conserva su equipo. Los restos mortales de la criatura original, si existen, se volverán inertes y no podrán ser devueltos a la vida, ya que el alma de la criatura ha pasado a otro cuerpo.",
+    "materiales": "Un diamante con valor de al menos 1.000 po, 1 pulgada cúbica de carne de la criatura a clonar, no consumida en el lanzamiento, y un recipiente con valor de al menos 2.000 po que tenga una tapa sellable y sea apropiado para alojar a una criatura Mediana (urna grande, féretro, zanja llena de barro o un contenedor de cristal lleno de agua salada)"
   }
 ]

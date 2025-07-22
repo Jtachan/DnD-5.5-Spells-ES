@@ -63,3 +63,8 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Cerradura arcana                     | 2         |
 | Círculo de muerte                    | 6         |
 | Círculo de poder                     | 5         |
+| Círculo de teletransportación        | 5         |
+| Círculo mágico                       | 3         |
+| Clarividencia                        | 3         |
+| Clon                                 | 8         |
+| Cofre oculto de Leomund              | 4         |

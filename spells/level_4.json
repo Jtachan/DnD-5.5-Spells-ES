@@ -103,5 +103,27 @@
     "requiere_ataque": true,
     "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, perforas su cuerpo y su mente, y el ataque le inflige 4d6 de daño psíquico adicionales. El objetivo debe hacer una tirada de salvación de Sabiduría. Si fracasa, hasta el comienzo de su próximo turno tendrá desventaja en tiradas de ataque y pruebas de característica y no podrá llevar a cabo reacciones.",
     "materiales": null
+  },
+  {
+    "nombre": "Cofre oculto de Leomund",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Ocultas un cofre y todos sus contenidos en el Plano Etéreo. Debes tocar el cofre y la réplica en miniatura que sirven de componentes materiales para el conjuro. El cofre puede alojar hasta 12 pies cúbicos de materiales inertes (3 pies por 2 pies por 2 pies).<br><br>Mientras permanezca en el Plano Etéreo, puedes utilizar una acción y tocar la réplica para convocarlo. Aparecerá en un espacio desocupado del suelo a 5 pies de ti. Puedes volver a mandarlo al Plano Etéreo empleando una acción y tocando tanto la réplica como el propio cofre.<br><br>Después de 60 días, hay una posibilidad acumulativa del 5% por día de que los efectos del conjuro terminen. También lo harán si lanzas el conjuro de nuevo, si la réplica del cofre es destruida o si decides finalizar el conjuro con una acción. Si el conjuro termina y el cofre grande está en el Plano Etéreo, se pierde irremediablemente.",
+    "materiales": "Un cofre de manufactura exquisita, cuyas dimensiones sean de 3 pies por 2 pies por 2 pies, construido de materiales exóticos con un valor de al menos 5.000 po, así como una réplica diminuta hecha de los mismos materiales y con un valor de al menos 50 po"
   }
 ]

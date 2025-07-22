@@ -156,5 +156,54 @@
     "requiere_ataque": true,
     "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma se vuelve fulgurante y el ataque inflige 3d8 de daño radiante adicionales al objetivo. Además, el objetivo debe tener éxito en una tirada de salvación de Constitución o quedará cegado hasta el final de la duración del conjuro.<br><br>Una criatura cegada por este conjuro debe realizar otra tirada de salvación de Constitución al final de cada uno de sus turnos. Si tiene éxito, deja de estar cegada.",
     "materiales": null
+  },
+  {
+    "nombre": "Círculo mágico",
+    "clases": [
+      "Clérigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "10 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Creas un cilindro de energía mágica de 10 pies de radio y 20 pies de alto, centrado en un punto del suelo que puedas ver dentro del alcance. Las intersecciones del cilindro con suelos o paredes quedan marcadas por una línea de runas brillantes.<br><br>Elige uno o más de los siguientes tipos de criatura: celestiales, elementales, feéricos, infernales o muertos vivientes. El círculo afecta a las criaturas del tipo o tipos escogidos de las siguientes maneras:<br><br>• Las criaturas de los tipos elegidos no pueden entrar en el cilindro mediante medios no mágicos. Si intentan usar teletransportación o viaje interplanar para entrar, primero deben realizar una tirada de salvación de Carisma.<br>• Las criaturas de los tipos elegidos tienen desventaja en las tiradas de ataque contra objetivos dentro del cilindro.<br>• Las criaturas dentro del cilindro no pueden ser hechizadas, asustadas o poseídas por las criaturas de los tipos elegidos.<br><br>Cuando lanzas este conjuro puedes elegir que la magia funcione de forma inversa. Es decir, evitando que las criaturas de los tipos escogidos salgan del cilindro y protegiendo a las que estén fuera del mismo.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, la duración aumenta en 1 hora por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
+    "materiales": "Agua bendita o plata y hierro pulverizados con un valor de al menos 100 po, que son consumidos como parte del conjuro"
+  },
+  {
+    "nombre": "Clarividencia",
+    "clases": [
+      "Bardo",
+      "Clérigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinación",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": "1 milla",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas un sensor invisible dentro del alcance, en una localización familiar (que hayas visitado o visto antes) o en una ubicación obvia que no te resulte familiar (por ejemplo, detrás de una puerta, a la vuelta de una esquina o en un salón abierto). El sensor se mantiene en el sitio hasta el final de la duración del conjuro, y no puede ser atacado ni interactuar con él.<br><br>Cuando lanzas el conjuro, elige vista u oído. Puedes usar el sentido escogido a través del sensor como si estuvieras en su posición. Utilizando una acción puedes cambiar entre vista y oído.<br><br>Una criatura que pueda ver el sensor (porque se beneficie de un conjuro de <i>ver invisibilidad</i> o posea visión verdadera, por ejemplo) contempla un orbe luminoso e intangible del tamaño de tu puño.",
+    "materiales": "Una trompetilla enjoyada o un ojo de cristal con un valor de 100 o más po, como foco"
   }
 ]
