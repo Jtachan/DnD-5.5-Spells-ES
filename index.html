@@ -6,8 +6,9 @@
   <style>
     body { font-family: sans-serif; margin: 20px; }
     table { width: 100%; border-collapse: collapse; table-layout: fixed; }
-    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; white-space: normal; word-wrap: break-word; }
     th { background-color: #f2f2f2; }
+    th.sortable { cursor: pointer; }
     tr:hover { background-color: #f5f5f5; cursor: pointer; }
     .controls { margin-bottom: 10px; }
     .controls label, .controls input, .controls select { margin-right: 10px; }
@@ -51,12 +52,27 @@
     </select>
   </div>
   <table>
+    <colgroup id="colgroup">
+      <col id="col-nombre">
+      <col id="col-clases">
+      <col id="col-escuela">
+      <col id="col-nivel">
+      <col id="col-tiempo_de_lanzamiento">
+      <col id="col-ritual">
+      <col id="col-alcance">
+      <col id="col-visible">
+      <col id="col-componentes">
+      <col id="col-concentracion">
+      <col id="col-duracion">
+      <col id="col-tirada_de_salvacion">
+      <col id="col-requiere_ataque">
+    </colgroup>
     <thead>
       <tr>
-        <th>Nombre</th>
+        <th data-key="nombre" class="sortable">Nombre</th>
         <th>Clases</th>
-        <th>Escuela</th>
-        <th>Nivel</th>
+        <th data-key="escuela" class="sortable">Escuela</th>
+        <th data-key="nivel" class="sortable">Nivel</th>
         <th>Tiempo de lanzamiento</th>
         <th>Ritual</th>
         <th>Alcance</th>
@@ -89,7 +105,11 @@
   </div>
 
   <script>
-    let spells = [], filtered = [], currentPage = 1;
+    let spells = [];
+    let filtered = [];
+    let currentPage = 1;
+    let currentSortKey = null;
+    let currentSortDir = 0; // 0 = none, 1 = asc, -1 = desc
 
     const searchInput = document.getElementById('search');
     const levelFilter = document.getElementById('levelFilter');
@@ -109,11 +129,59 @@
       return str.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
     }
 
+    function applySort(arr) {
+      if (!currentSortKey || currentSortDir === 0) return arr;
+      return arr.slice().sort((a, b) => {
+        let valA = a[currentSortKey];
+        let valB = b[currentSortKey];
+        if (currentSortKey === 'nivel') {
+          return (valA - valB) * currentSortDir;
+        }
+        // String compare
+        if (Array.isArray(valA)) valA = valA.join(', ');
+        if (Array.isArray(valB)) valB = valB.join(', ');
+        return valA.localeCompare(valB, 'es', { sensitivity: 'base' }) * currentSortDir;
+      });
+    }
+
+    function measureColumnWidths() {
+      const canvas = document.createElement('canvas');
+      const ctx = canvas.getContext('2d');
+      // Obtener fuente de la tabla
+      const td = document.createElement('td');
+      document.body.appendChild(td);
+      const font = getComputedStyle(td).font;
+      ctx.font = font;
+      document.body.removeChild(td);
+
+      const keys = ['nombre','clases','escuela','nivel','tiempo_de_lanzamiento','ritual','alcance','visible','componentes','concentracion','duracion','tirada_de_salvacion','requiere_ataque'];
+      keys.forEach(key => {
+        // Medir header
+        const headerText = document.querySelector(`th[data-key="${key}"]`)?.textContent || key;
+        let maxWidth = ctx.measureText(headerText).width;
+        // Medir cada valor en spells
+        spells.forEach(s => {
+          let text = '';
+          const val = s[key];
+          if (val === null || val === undefined) text = '';
+          else if (Array.isArray(val)) text = val.join(', ');
+          else text = val.toString();
+          const w = ctx.measureText(text).width;
+          if (w > maxWidth) maxWidth = w;
+        });
+        // Añadir padding (8px a cada lado)
+        const total = maxWidth + 16;
+        document.getElementById(`col-${key}`).style.width = total + 'px';
+      });
+    }
+
     function renderTable() {
+      let data = filtered;
+      data = applySort(data);
       const pageSize = parseInt(pageSizeSelect.value, 10);
       const start = (currentPage - 1) * pageSize;
       const end = start + pageSize;
-      const pageItems = filtered.slice(start, end);
+      const pageItems = data.slice(start, end);
 
       tableBody.innerHTML = '';
       pageItems.forEach(spell => {
@@ -130,7 +198,7 @@
           <td>${spell.componentes.join(', ')}</td>
           <td>${spell.concentracion ? 'Sí' : 'No'}</td>
           <td>${spell.duracion}</td>
-          <td>${spell.tirada_de_salvacion || ''}</td>
+          <td>${spell.tirada_de_salvacion || '--'}</td>
           <td>${spell.requiere_ataque ? 'Sí' : 'No'}</td>
         `;
         tr.addEventListener('click', () => {
@@ -142,7 +210,7 @@
         tableBody.appendChild(tr);
       });
 
-      const totalPages = Math.ceil(filtered.length / pageSize) || 1;
+      const totalPages = Math.ceil(data.length / pageSize) || 1;
       pageInfo.textContent = `Página ${currentPage} de ${totalPages}`;
       prevBtn.disabled = currentPage === 1;
       nextBtn.disabled = currentPage === totalPages;
@@ -162,6 +230,7 @@
       renderTable();
     }
 
+    // Eventos
     searchInput.addEventListener('input', updateFilter);
     levelFilter.addEventListener('change', updateFilter);
     classFilter.addEventListener('change', updateFilter);
@@ -172,10 +241,28 @@
     modalClose.addEventListener('click', () => { modal.style.display = 'none'; });
     window.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
 
+    // Sorting headers
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('th.sortable').forEach(th => {
+        th.addEventListener('click', () => {
+          const key = th.getAttribute('data-key');
+          if (currentSortKey !== key) {
+            currentSortKey = key;
+            currentSortDir = 1;
+          } else {
+            currentSortDir = currentSortDir === 1 ? -1 : currentSortDir === -1 ? 0 : 1;
+          }
+          updateFilter();
+        });
+      });
+    });
+
+    // Carga de datos
     fetch('spells.json')
       .then(response => response.json())
       .then(data => {
         spells = data;
+        // Orden por defecto alfabético por nombre
         spells.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es', { sensitivity: 'base' }));
         // Rellenar filtro de clases dinámicamente
         const classesSet = new Set();
@@ -186,6 +273,8 @@
           opt.textContent = c;
           classFilter.appendChild(opt);
         });
+        // Medir y fijar anchos de columnas
+        measureColumnWidths();
         filtered = spells;
         renderTable();
       })
