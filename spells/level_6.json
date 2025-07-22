@@ -62,5 +62,28 @@
     "requiere_ataque": false,
     "descripcion": "Creas un muro vertical de cuchillas giratorias, afiladas y hechas de energía mágica. Este aparece dentro del alcance y permanece hasta el final de la duración del conjuro. Puedes crear un muro recto de hasta 100 pies de largo, 20 de alto y 5 de ancho o un muro en forma de anillo de 60 pies de diámetro, 20 de alto y 5 de ancho. En cualquiera caso, proporciona cobertura tres cuartos a las criaturas detrás de él y su espacio se considera terreno difícil.<br>Cuando una criatura entre en el área del muro por primera vez en un turno, o cuando empiece su turno en ella, deberá realizar una tirada de salvación de Destreza. Si falla, sufrirá 6d10 de daño cortante. Si tiene éxito, recibirá la mitad de daño.",
     "materiales": null
+  },
+  {
+    "nombre": "Círculo de muerte",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "150 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una esfera de energía negativa se expande hasta cubrir una esfera de 60 pies de radio alrededor de un punto dentro del alcance. Cada criatura en el área debe hacer una tirada de salvación de Constitución. Sufrirá 8d6 de daño necrótico si falla la tirada o la mitad del daño si la supera.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o más, el daño aumenta en 2d6 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
+    "materiales": "Una perla negra pulverizada que valga, al menos, 500 po"
   }
 ]

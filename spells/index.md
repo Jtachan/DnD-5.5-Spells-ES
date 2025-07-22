@@ -61,3 +61,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Castigo marcador                     | 2         |
 | Cautiverio                           | 9         |
 | Cerradura arcana                     | 2         |
+| Círculo de muerte                    | 6         |
