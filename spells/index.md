@@ -53,3 +53,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Caparazón antivida                   | 5         |
 | Carcaj veloz                         | 5         |
 | Castigo abrasador                    | 1         |
+| Castigo abrumador                    | 4         |
