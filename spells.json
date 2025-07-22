@@ -3,7 +3,7 @@
     "nombre": "Abrir",
     "clases": [
       "Bardo",
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutaci\u00f3n",
@@ -25,7 +25,7 @@
   {
     "nombre": "Acelerar",
     "clases": [
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutaci\u00f3n",
@@ -72,7 +72,7 @@
   {
     "nombre": "Agarre electrizante",
     "clases": [
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Evocaci\u00f3n",
@@ -95,7 +95,7 @@
   {
     "nombre": "Agrandar/Reducir",
     "clases": [
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutaci\u00f3n",
@@ -165,7 +165,7 @@
   {
     "nombre": "Alterar el propio aspecto",
     "clases": [
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutaci\u00f3n",
@@ -189,7 +189,7 @@
   {
     "nombre": "Alterar los recuerdos",
     "clases": [
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Encantamiento",
@@ -239,7 +239,7 @@
     "clases": [
       "Bardo",
       "Brujo",
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Encantamiento",
@@ -335,7 +335,7 @@
     "nombre": "Apariencia",
     "clases": [
       "Bardo",
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Ilusi\u00f3n",
@@ -349,7 +349,7 @@
     ],
     "concentracion": false,
     "duracion": "8 horas",
-    "tirada_de_salvacion": "Carisma",
+    "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
     "descripcion": "Este conjuro te permite cambiar la apariencia de cualquier n\u00famero de criaturas que puedas ver dentro del alcance. Le das a cada una de ellas una apariencia ilusoria nueva. Un objetivo no voluntario puede realizar una tirada de salvaci\u00f3n de Carisma, y si tiene \u00e9xito no se ver\u00e1 afectado por el conjuro.<br>El conjuro disfraza la apariencia f\u00edsica, as\u00ed como la vestimenta, armas, armadura y equipo. Puedes hacer que cada criatura parezca 1 pie m\u00e1s alta o m\u00e1s baja y de complexi\u00f3n delgada, gorda o intermedia. No puedes cambiar el tipo de su cuerpo, as\u00ed que debes elegir una forma que tenga la misma configuraci\u00f3n de miembros. En el resto de aspectos, la ilusi\u00f3n queda a tu elecci\u00f3n. Esta permanece hasta el final de la duraci\u00f3n del conjuro o hasta que utilices una acci\u00f3n para finalizarla.<br>Los cambios realizados por este conjuro no aguantan una inspecci\u00f3n f\u00edsica. Por ejemplo, si usas este conjuro para a\u00f1adir un sombrero a la vestimenta de una criatura, los objetos atravesar\u00e1n el sombrero y cualquiera que lo toque no sentir\u00e1 nada, o sencillamente notar\u00e1 el pelo y cabeza. Si utilizas este conjuro para parecer m\u00e1s delgado, la mano de una criatura que intente tocarte se chocar\u00e1 contigo en lo que parece ser espacio libre.<br>Si una criatura usa su acci\u00f3n para examinar a un objetivo con una prueba enfrentada de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros, si tiene \u00e9xito, se da cuenta de que el objetivo est\u00e1 disfrazado.",
     "materiales": null,
@@ -487,7 +487,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Sabidur\u00eda",
+    "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
     "descripcion": "Accedes a las pesadillas de una criatura que puedas ver dentro del alcance para crear una manifestaci\u00f3n ilusoria de sus m\u00e1s profundos miedos, que solo ser\u00e1 visible para esa criatura. El objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, queda asustado hasta el final de la duraci\u00f3n del conjuro. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir 4d10 de da\u00f1o ps\u00edquico. Si supera la tirada, el conjuro termina inmediatamente.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el da\u00f1o aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
     "materiales": null,
@@ -518,7 +518,7 @@
     "nombre": "Atadura planar",
     "clases": [
       "Brujo",
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Abjuraci\u00f3n",
@@ -533,7 +533,7 @@
     ],
     "concentracion": false,
     "duracion": "24 horas",
-    "tirada_de_salvacion": "Carisma",
+    "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
     "descripcion": "Con este conjuro, intentas obligar a un celestial, elemental, fe\u00e9rico o infernal a servirte. La criatura debe estar dentro del alcance durante toda la duraci\u00f3n del lanzamiento del conjuro (t\u00edpicamente se invoca a la criatura en el centro de un c\u00edrculo m\u00e1gico invertido para evitar que escape mientras se lanza el conjuro). Al finalizar el lanzamiento, el objetivo debe hacer una tirada de salvaci\u00f3n de Carisma. Si falla, queda atado, obligado a servirte hasta el final de la duraci\u00f3n del conjuro. Si la criatura fue invocada o creada por otro conjuro, la duraci\u00f3n de ese \u00faltimo se extiende hasta igualar la de este conjuro.<br>El objetivo atado debe obedecer tus \u00f3rdenes lo mejor que pueda. Puedes pedirle que te acompa\u00f1e en una aventura, que vigile un sitio o que entregue un mensaje. La criatura seguir\u00e1 las instrucciones al pie de la letra, pero si es hostil hacia ti, intentar\u00e1 retorcer tus palabras para conseguir sus propios objetivos. Si cumple totalmente tus \u00f3rdenes antes de que acabe el conjuro, viajar\u00e1 hasta donde est\u00e9s para informarte, siempre y cuando est\u00e9is en el mismo plano de existencia. Si est\u00e1s en otro plano, volver\u00e1 al sitio donde la ataste y se quedar\u00e1 ah\u00ed hasta que el conjuro termine.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de un nivel superior, la duraci\u00f3n pasa a ser de 10 d\u00edas con un espacio de conjuro de nivel 6, de 30 d\u00edas con uno de nivel 7, de 180 d\u00edas con uno de nivel 8 y de 1 a\u00f1o y 1 d\u00eda con un espacio de conjuro de nivel 9.",
     "materiales": "Una joya con un valor de, al menos, 1.000 po, que es consumida como parte del conjuro.",
@@ -671,7 +671,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Constituci\u00f3n",
+    "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
     "descripcion": "Una luz divina ba\u00f1a suavemente tus alrededores, en un radio de 30 pies. Las criaturas de tu elecci\u00f3n que se encuentren en el \u00e1rea cuando lanzas este conjuro emiten luz tenue en un radio de 5 pies y tienen ventaja en todas las tiradas de salvaci\u00f3n. El resto de criaturas tienen desventaja en las tiradas de ataque contra las criaturas que elegiste hasta el final de la duraci\u00f3n del conjuro. Adem\u00e1s, cuando un infernal o un muerto viviente impacte a una criatura afectada con un ataque cuerpo a cuerpo, el aura brillar\u00e1 con un fogonazo. Debido a ello, el atacante debe tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o quedar\u00e1 cegado hasta el final de la duraci\u00f3n del conjuro.",
     "materiales": "Un peque\u00f1o relicario que valga, al menos, 1.000 po y que contenga una reliquia sagrada, como un jir\u00f3n de ropa de la t\u00fanica de un santo o un pedazo de pergamino de un texto religioso.",
@@ -718,7 +718,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Sabidur\u00eda",
+    "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
     "descripcion": "Elige a una criatura que puedas ver dentro del alcance. Comenzar\u00e1 a ejecutar una danza c\u00f3mica en el lugar en el que se encuentre: arrastrando los pies, taconeando y haciendo cabriolas hasta el final de la duraci\u00f3n del conjuro. Las criaturas inmunes a ser hechizadas no se ven afectadas por este conjuro.<br>El objetivo debe utilizar todo su movimiento en bailar y no puede moverse de donde est\u00e9. Tendr\u00e1 desventaja en tiradas de salvaci\u00f3n de Destreza y en tiradas de ataque. Mientras siga afectado por el conjuro, las tiradas de ataque de otras criaturas contra \u00e9l tendr\u00e1n ventaja. Como acci\u00f3n, la criatura bailarina puede hacer una tirada de salvaci\u00f3n de Sabidur\u00eda para intentar recuperar el control. Si tiene \u00e9xito en la tirada, el conjuro termina inmediatamente.",
     "materiales": null,
@@ -740,7 +740,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 10 minutos",
-    "tirada_de_salvacion": "Destreza",
+    "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
     "descripcion": "Creas un muro vertical de cuchillas giratorias, afiladas y hechas de energ\u00eda m\u00e1gica. Este aparece dentro del alcance y permanece hasta el final de la duraci\u00f3n del conjuro. Puedes crear un muro recto de hasta 100 pies de largo, 20 de alto y 5 de ancho o un muro en forma de anillo de 60 pies de di\u00e1metro, 20 de alto y 5 de ancho. En cualquiera caso, proporciona cobertura tres cuartos a las criaturas detr\u00e1s de \u00e9l y su espacio se considera terreno dif\u00edcil.<br>Cuando una criatura entre en el \u00e1rea del muro por primera vez en un turno, o cuando empiece su turno en ella, deber\u00e1 realizar una tirada de salvaci\u00f3n de Destreza. Si falla, sufrir\u00e1 6d10 de da\u00f1o cortante. Si tiene \u00e9xito, recibir\u00e1 la mitad de da\u00f1o.",
     "materiales": null,
@@ -813,7 +813,7 @@
     ],
     "concentracion": false,
     "duracion": "Instant\u00e1neo",
-    "tirada_de_salvacion": "Destreza",
+    "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
     "descripcion": "Una r\u00e1faga brillante surge de tu dedo hacia un punto de tu elecci\u00f3n dentro del alcance y despu\u00e9s crece con un rugido sordo hasta convertirse en una explosi\u00f3n ardiente. Todas las criaturas en una esfera de 20 pies centrada en el punto deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 8d6 de da\u00f1o de fuego si fallan la tirada o la mitad del da\u00f1o si la superan.<br>El fuego se extiende m\u00e1s all\u00e1 de las esquinas. Los objetos inflamables que se encuentren en el \u00e1rea que no lleve o vista alguien arder\u00e1n.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
     "materiales": "Una pelotita de guano de murci\u00e9lago y azufre.",
@@ -837,7 +837,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Destreza",
+    "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
     "descripcion": "Un rayo de luz amarilla se proyecta desde tu \u00edndice y se condensa, quedando latente con la forma de una cuenta brillante en un punto dentro del alcance. Cuando el conjuro termina, ya sea porque se rompe tu concentraci\u00f3n o porque decides terminarlo, la cuenta se transforma con un rugido sordo en una explosi\u00f3n ardiente que se extiende m\u00e1s all\u00e1 de las esquinas. Todas las criaturas en una esfera de 20 pies centrada en el punto deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n da\u00f1o de fuego igual al da\u00f1o acumulado si fallan la tirada o la mitad del da\u00f1o si la superan.<br>El da\u00f1o base del conjuro es 12d6. Si al final de tu turno la cuenta a\u00fan no ha explotado, este da\u00f1o se incrementa en 1d6.<br>Si se toca la cuenta antes de que termine el tiempo, la criatura que lo haga debe realizar una tirada de salvaci\u00f3n de Destreza. Si falla, el conjuro termina inmediatamente, haciendo que la cuenta explote. Si tiene \u00e9xito, la criatura puede lanzar la cuenta hasta a 40 pies de distancia. Cuando esta golpee a una criatura u objeto s\u00f3lido, el conjuro termina y la cuenta explota.<br>El fuego da\u00f1a los objetos que se encuentren en el \u00e1rea, haciendo arder los que sean inflamables y no lleve o vista alguien.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 8 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 7 que tenga el espacio que hayas empleado.",
     "materiales": "Una pelotita de guano de murci\u00e9lago y azufre.",
@@ -859,7 +859,7 @@
     ],
     "concentracion": false,
     "duracion": "Instant\u00e1neo",
-    "tirada_de_salvacion": "Fuerza",
+    "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
     "descripcion": "Invocas el poder de Hadar, el Hambre Tenebrosa. Zarcillos de energ\u00eda oscura surgen de ti y golpean a todas las criaturas a 10 pies o menos de tu posici\u00f3n. Cada criatura en el \u00e1rea debe hacer una tirada de salvaci\u00f3n de Fuerza. Si falla, sufrir\u00e1 2d6 de da\u00f1o necr\u00f3tico y no podr\u00e1 llevar a cabo reacciones hasta el comienzo de su pr\u00f3ximo turno. Si supera la tirada, recibir\u00e1 la mitad de da\u00f1o, pero no sufrir\u00e1 ning\u00fan otro efecto.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
     "materiales": null,
@@ -903,7 +903,7 @@
     ],
     "concentracion": false,
     "duracion": "Instant\u00e1neo",
-    "tirada_de_salvacion": "Sabidur\u00eda",
+    "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
     "descripcion": "Profieres una sarta de improperios entremezclados con sutiles encantamientos hacia una criatura que puedas ver dentro del alcance. Si el objetivo puede o\u00edrte (aunque no necesita entenderte), debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o recibir\u00e1 1d4 de da\u00f1o ps\u00edquico y sufrir\u00e1 desventaja en la siguiente tirada de ataque que realice antes del final de su pr\u00f3ximo turno.<br><b><i>A niveles superiores.</i></b> El da\u00f1o del conjuro aumenta en 1d4 cuando alcanzas nivel 5 (2d4), nivel 11 (3d4) y nivel 17 (4d4).",
     "materiales": null,
@@ -927,7 +927,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Constituci\u00f3n",
+    "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
     "descripcion": "Elige un objeto manufacturado de metal, como un arma de metal o una armadura media o pesada de metal que puedas ver dentro del alcance. Haces que dicho objeto se ponga al rojo vivo. Cualquier criatura en contacto f\u00edsico con el objeto recibe 2d8 de da\u00f1o de fuego cuando lanzas el conjuro.<br>Hasta el final del conjuro, puedes usar una acci\u00f3n adicional en cada uno de tus turnos para causar este da\u00f1o de nuevo.<br>Si una criatura est\u00e1 vistiendo o portando el objeto y sufre el da\u00f1o, deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o soltarlo, si es que puede. Si no lo suelta, tiene desventaja en tiradas de ataque y pruebas de caracter\u00edstica hasta el comienzo de tu pr\u00f3ximo turno.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
     "materiales": "Un trozo de hierro y una llama.",
@@ -950,7 +950,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Carisma",
+    "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
     "descripcion": "Intentas suprimir emociones fuertes en un grupo de gente. Cada humanoide en una esfera de 20 pies de radio centrada en un punto de tu elecci\u00f3n dentro del alcance debe realizar una tirada de salvaci\u00f3n de Carisma. Cualquiera de ellos puede elegir fallar la tirada voluntariamente si as\u00ed lo desea.<br>Si una criatura falla la tirada, elige uno de los dos efectos siguientes:<br>Puedes suprimir cualquier efecto que mantenga al objetivo hechizado o asustado. Sin embargo, cuando este conjuro acabe, los efectos suprimidos vuelven a funcionar, siempre que su duraci\u00f3n no haya acabado.<br>De modo alternativo, puedes hacer que un objetivo se vuelva indiferente hacia criaturas de tu elecci\u00f3n con las que previamente era hostil. Esta indiferencia termina si el objetivo es atacado o da\u00f1ado por un conjuro o si ve a alguno de sus amigos ser da\u00f1ado. Cuando el conjuro acaba, la criatura se vuelve hostil de nuevo, a menos que el DM decida otra cosa.",
     "materiales": null,
@@ -1054,7 +1054,7 @@
     "nombre": "Ca\u00edda de pluma",
     "clases": [
       "Bardo",
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutaci\u00f3n",
