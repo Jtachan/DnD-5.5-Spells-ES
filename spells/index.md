@@ -62,3 +62,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Cautiverio                           | 9         |
 | Cerradura arcana                     | 2         |
 | Círculo de muerte                    | 6         |
+| Círculo de poder                     | 5         |

@@ -178,5 +178,25 @@
     "requiere_ataque": true,
     "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma resplandece con violencia y el ataque inflige 5d10 de daño de fuerza adicionales al objetivo. Además, si el ataque reduce a la criatura a 50 puntos de golpe o menos, la destierras. Si el objetivo es nativo de un plano diferente al que estás, este desaparece y vuelve a su plano natal. Si el objetivo es nativo del plano en que estás, la criatura se desvanece a un semiplano inofensivo. Estará incapacitada mientras permanezca allí, y seguirá en dicho semiplano hasta el final del conjuro, momento en el cual reaparecerá en el espacio que ocupaba antes o en el más cercano disponible si ese ya está ocupado.",
     "materiales": null
+  },
+  {
+    "nombre": "Círculo de poder",
+    "clases": [
+      "Paladín"
+    ],
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Lanzador (radio de 30 pies)",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Radias una energía divina, distorsionando y diseminando la energía mágica en una esfera de 30 pies a tu alrededor. La esfera se mueve contigo, centrada en ti, hasta el final del conjuro. Hasta ese momento, cada criatura amistosa en el área (incluido tú) tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos. Además, si una criatura tiene éxito en una tirada de salvación contra un conjuro que normalmente infligiría daño o si este le permite hacer una tirada de salvación con éxito para recibir solo la mitad del daño, no sufrirá ningún daño en su lugar.",
+    "materiales": null
   }
 ]
