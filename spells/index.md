@@ -60,3 +60,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Castigo furioso                      | 1         |
 | Castigo marcador                     | 2         |
 | Cautiverio                           | 9         |
+| Cerradura arcana                     | 2         |

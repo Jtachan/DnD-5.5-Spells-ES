@@ -266,5 +266,28 @@
     "requiere_ataque": true,
     "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma brilla con un resplandor astral. El ataque inflige 2d6 de daño adicionales al objetivo, que además se torna visible si era invisible. El objetivo emite luz tenue en un radio de 5 pies y no puede volverse invisible hasta el final de la duración del conjuro.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o más, el daño aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
     "materiales": null
+  },
+  {
+    "nombre": "Cerradura arcana",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas una puerta, ventana, portón, cofre o entrada que esté cerrado con llave o pestillo. Queda cerrado completamente, como con llave, hasta el final de la duración del conjuro. Al lanzarlo puedes decidir qué criaturas podrán abrir el objeto con normalidad. También puedes elegir una contraseña, que dicha en voz alta a 5 pies o menos del objeto suprime el conjuro durante 1 minuto. En cualquier otro caso, el objeto no se puede abrir a menos que sea destruido o se suprima o disipe el conjuro. Lanzar <i>abrir</i> en el objeto suprime <i>cerradura arcana</i> durante 10 minutos.<br><br>Mientras permanezca afectado por este conjuro, el objeto es más difícil de romper o forzar; la CD para romperlo o forzar la cerradura aumenta en 10.",
+    "materiales": "Polvo de oro con un valor de 25 po, que es consumido como parte del conjuro"
   }
 ]
