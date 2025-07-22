@@ -48,7 +48,7 @@
   {
     "nombre": "Arma elemental",
     "clases": [
-      "Druida",
+      "Druída",
       "Paladín",
       "Ranger"
     ],
@@ -72,7 +72,7 @@
     "nombre": "Aura de vitalidad",
     "clases": [
       "Clérigo",
-      "Druida",
+      "Druída",
       "Paladín",
       "Explorador"
     ],
@@ -118,7 +118,7 @@
     "nombre": "Caminar sobre el agua",
     "clases": [
       "Clérigo",
-      "Druida"
+      "Druída"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "1 acción",
