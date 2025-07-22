@@ -52,3 +52,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Campo antimagia                      | 8         |
 | Caparazón antivida                   | 5         |
 | Carcaj veloz                         | 5         |
+| Castigo abrasador                    | 1         |
