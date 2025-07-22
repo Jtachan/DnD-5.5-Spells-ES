@@ -195,5 +195,25 @@
     "requiere_ataque": true,
     "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma suena como un trueno audible a 300 pies de distancia y el ataque inflige 2d6 de daño de trueno adicionales al objetivo. Si el objetivo es una criatura, deberá superar una tirada de salvación de Fuerza o será empujada 10 pies en dirección opuesta a ti y será derribada.",
     "materiales": null
+  },
+  {
+    "nombre": "Castigo furioso",
+    "clases": [
+      "Paladín"
+    ],
+    "escuela": "Evocación",
+    "tiempo_de_lanzamiento": "1 acción adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "Sabiduría",
+    "requiere_ataque": true,
+    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, el ataque le infligirá 1d6 de daño psíquico adicional. Además, el objetivo debe tener éxito en una tirada de salvación de Sabiduría o quedará asustado por ti hasta el final de tu siguiente turno. Podrá intentar superar de nuevo dicha prueba de Sabiduría con CD igual a tu salvación de conjuros para recuperar su bravura y terminar con el conjuro.",
+    "materiales": null
   }
 ]
