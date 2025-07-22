@@ -358,7 +358,7 @@
   {
     "nombre": "Arma elemental",
     "clases": [
-      "Druida",
+      "Dru\u00edda",
       "Palad\u00edn",
       "Ranger"
     ],
@@ -496,7 +496,7 @@
   {
     "nombre": "Aspectos animales",
     "clases": [
-      "Druida"
+      "Dru\u00edda"
     ],
     "escuela": "Transmutaci\u00f3n",
     "tiempo_de_lanzamiento": "1 acci\u00f3n",
@@ -610,7 +610,7 @@
     "nombre": "Aura de vitalidad",
     "clases": [
       "Cl\u00e9rigo",
-      "Druida",
+      "Dru\u00edda",
       "Palad\u00edn",
       "Explorador"
     ],
@@ -868,7 +868,7 @@
   {
     "nombre": "Buenas Bayas",
     "clases": [
-      "Druida"
+      "Dru\u00edda"
     ],
     "escuela": "Transmutaci\u00f3n",
     "tiempo_de_lanzamiento": "1 acci\u00f3n",
@@ -913,7 +913,7 @@
     "nombre": "Calentar metal",
     "clases": [
       "Bardo",
-      "Druida"
+      "Dru\u00edda"
     ],
     "escuela": "Transmutaci\u00f3n",
     "tiempo_de_lanzamiento": "1 acci\u00f3n",
@@ -959,7 +959,7 @@
   {
     "nombre": "Cambiar de forma",
     "clases": [
-      "Druida",
+      "Dru\u00edda",
       "Mago"
     ],
     "escuela": "Transmutaci\u00f3n",
@@ -984,7 +984,7 @@
     "nombre": "Caminar sobre el agua",
     "clases": [
       "Cl\u00e9rigo",
-      "Druida"
+      "Dru\u00edda"
     ],
     "escuela": "Transmutaci\u00f3n",
     "tiempo_de_lanzamiento": "1 acci\u00f3n",
@@ -1031,7 +1031,7 @@
   {
     "nombre": "Caparazon antivida",
     "clases": [
-      "Druida"
+      "Dru\u00edda"
     ],
     "escuela": "Abjuraci\u00f3n",
     "tiempo_de_lanzamiento": "1 acci\u00f3n",
