@@ -158,5 +158,25 @@
     "requiere_ataque": false,
     "descripcion": "Transmutas tu aljaba para que produzca una reserva infinita de munición no mágica, que parece saltar a tu mano cuando vas a cogerla.<br><br>En cada uno de tus turnos hasta el final del conjuro puedes utilizar una acción adicional para realizar dos ataques con un arma que use munición de la aljaba. Cada vez que llevas a cabo uno de estos ataques a distancia, la aljaba repone mágicamente la unidad de munición empleada con otra unidad de munición no mágica similar. Cualquier unidad de munición creada por este conjuro se desvanece cuando este acaba. Si la aljaba deja de estar en tu posesión, el conjuro termina.",
     "materiales": "Una aljaba con al menos una unidad de munición."
+  },
+  {
+    "nombre": "Castigo desterrador",
+    "clases": [
+      "Paladín"
+    ],
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "1 acción adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma resplandece con violencia y el ataque inflige 5d10 de daño de fuerza adicionales al objetivo. Además, si el ataque reduce a la criatura a 50 puntos de golpe o menos, la destierras. Si el objetivo es nativo de un plano diferente al que estás, este desaparece y vuelve a su plano natal. Si el objetivo es nativo del plano en que estás, la criatura se desvanece a un semiplano inofensivo. Estará incapacitada mientras permanezca allí, y seguirá en dicho semiplano hasta el final del conjuro, momento en el cual reaparecerá en el espacio que ocupaba antes o en el más cercano disponible si ese ya está ocupado.",
+    "materiales": null
   }
 ]
