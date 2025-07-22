@@ -49,6 +49,10 @@
     <select id="classFilter">
       <option value="">Todas</option>
     </select>
+    <label for="schoolFilter">Escuela:</label>
+    <select id="schoolFilter">
+      <option value="">Todas</option>
+    </select>
     <label for="pageSize">Mostrar:</label>
     <select id="pageSize">
       <option value="10">10</option>
@@ -106,6 +110,7 @@
     const searchInput = document.getElementById('search');
     const levelFilter = document.getElementById('levelFilter');
     const classFilter = document.getElementById('classFilter');
+    const schoolFilter = document.getElementById('schoolFilter');
     const pageSizeSelect = document.getElementById('pageSize');
     const tableBody = document.getElementById('table-body');
     const prevBtn = document.getElementById('prev');
@@ -192,21 +197,19 @@
     function updateFilter() {
       const nameQuery = normalize(searchInput.value);
       let result = spells.filter(spell => normalize(spell.nombre).includes(nameQuery));
-      if (levelFilter.value) {
-        result = result.filter(spell => spell.nivel.toString() === levelFilter.value);
-      }
-      if (classFilter.value) {
-        result = result.filter(spell => spell.clases.includes(classFilter.value));
-      }
+      if (levelFilter.value) result = result.filter(spell => spell.nivel.toString() === levelFilter.value);
+      if (classFilter.value) result = result.filter(spell => spell.clases.includes(classFilter.value));
+      if (schoolFilter.value) result = result.filter(spell => spell.escuela === schoolFilter.value);
       filtered = result;
       currentPage = 1;
       renderTable();
     }
 
-    // Eventos de filtros y paginación
+    // Event listeners
     searchInput.addEventListener('input', updateFilter);
     levelFilter.addEventListener('change', updateFilter);
     classFilter.addEventListener('change', updateFilter);
+    schoolFilter.addEventListener('change', updateFilter);
     pageSizeSelect.addEventListener('change', () => { currentPage = 1; renderTable(); });
     prevBtn.addEventListener('click', () => { if (currentPage > 1) { currentPage--; renderTable(); } });
     nextBtn.addEventListener('click', () => { const totalPages = Math.ceil(filtered.length / parseInt(pageSizeSelect.value, 10)) || 1; if (currentPage < totalPages) { currentPage++; renderTable(); } });
@@ -227,20 +230,21 @@
       });
     });
 
-    // Carga de datos
+    // Data load
     fetch('spells.json')
       .then(response => response.json())
       .then(data => {
         spells = data;
         spells.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es', { sensitivity: 'base' }));
-        // Rellenar filtro de clases
+        // Populate class and school filters
         const classesSet = new Set();
-        spells.forEach(s => s.clases.forEach(c => classesSet.add(c)));
+        const schoolsSet = new Set();
+        spells.forEach(s => { s.clases.forEach(c => classesSet.add(c)); schoolsSet.add(s.escuela); });
         Array.from(classesSet).sort().forEach(c => {
-          const opt = document.createElement('option');
-          opt.value = c;
-          opt.textContent = c;
-          classFilter.appendChild(opt);
+          const opt = document.createElement('option'); opt.value = c; opt.textContent = c; classFilter.appendChild(opt);
+        });
+        Array.from(schoolsSet).sort().forEach(sch => {
+          const opt = document.createElement('option'); opt.value = sch; opt.textContent = sch; schoolFilter.appendChild(opt);
         });
         filtered = spells;
         renderTable();
