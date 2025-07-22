@@ -66,8 +66,15 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
+      - name: Prepare pages artifact
+        run: |
+          mkdir site
+          cd index.html site/
+
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
 
       - name: Deploy to GitHub Pages
         id: deploy
