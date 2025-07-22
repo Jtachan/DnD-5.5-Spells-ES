@@ -51,3 +51,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Caminar sobre el agua                | 3         |
 | Campo antimagia                      | 8         |
 | Caparazón antivida                   | 5         |
+| Carcaj veloz                         | 5         |

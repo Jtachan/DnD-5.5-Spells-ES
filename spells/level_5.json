@@ -135,5 +135,28 @@
     "requiere_ataque": false,
     "descripcion": "Una barrera refulgente se extiende alrededor de ti en un radio de 10 pies. Permanece centrada en ti y se mueve contigo, manteniendo a raya a todas las criaturas que no sean muertos vivientes o autómatas. La barrera persiste hasta el final de la duración del conjuro.<br>Las criaturas afectadas no pueden penetrar en el interior de la barrera, ni parcialmente ni por completo. No obstante, son capaces de lanzar conjuros o realizar ataques con armas de gran alcance o a distancia a través de la barrera.<br>Si tu movimiento obliga a una criatura afectada a atravesar la barrera, el conjuro termina.",
     "materiales": null
+  },
+  {
+    "nombre": "Carcaj veloz",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutación",
+    "tiempo_de_lanzamiento": "1 acción adicional",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Transmutas tu aljaba para que produzca una reserva infinita de munición no mágica, que parece saltar a tu mano cuando vas a cogerla.<br><br>En cada uno de tus turnos hasta el final del conjuro puedes utilizar una acción adicional para realizar dos ataques con un arma que use munición de la aljaba. Cada vez que llevas a cabo uno de estos ataques a distancia, la aljaba repone mágicamente la unidad de munición empleada con otra unidad de munición no mágica similar. Cualquier unidad de munición creada por este conjuro se desvanece cuando este acaba. Si la aljaba deja de estar en tu posesión, el conjuro termina.",
+    "materiales": "Una aljaba con al menos una unidad de munición."
   }
 ]
