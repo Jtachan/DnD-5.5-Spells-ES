@@ -214,5 +214,30 @@
     "requiere_ataque": false,
     "descripcion": "Convocas criaturas feéricas en espacios desocupados que puedas ver dentro del alcance. Elige una de las siguientes opciones para lo que invocas:<br><br>• Un feérico con valor de desafío 2 o menos.<br>• Dos feéricos con valor de desafío 1 o menos.<br>• Cuatro feéricos con valor de desafío 1/2 o menos.<br>• Ocho feéricos con valor de desafío 1/4 o menos.<br><br>Una criatura invocada desaparece si sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Las criaturas invocadas son amistosas hacia ti y tus compañeros. Las criaturas actúan como un grupo con sus propios turnos, con una sola de tirada de iniciativa común. Obedecen cualquier mandato verbal tuyo (no requiere acción). Si no les das ninguna orden, se defenderán de criaturas hostiles, pero no realizarán ninguna otra acción.<br><br>El DM tiene el perfil de las criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de determinados niveles superiores, el número de criaturas de la opción elegida aumenta: el doble si usas un espacio de conjuro de nivel 6 y el triple si es de nivel 8.",
     "materiales": "Una baya de acebo por cada criatura convocada"
+  },
+  {
+    "nombre": "Controlar agua",
+    "clases": [
+      "Clérigo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutación",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "300 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Concentración, hasta 10 minutos",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "Hasta el final de la duración del conjuro, controlas cualquier masa de agua que no esté en movimiento dentro de un área de tu elección con forma de cubo de hasta 100 pies de lado. Cuando lanzas este conjuro, elige uno de los siguientes efectos. Como una acción, en tu turno, puedes repetir el mismo efecto o elegir uno nuevo.<br><br><b>Inundación.</b> Haces que el nivel de toda el agua estancada en el área suba hasta 20 pies. Si esta área incluye una orilla, el agua inunda la tierra seca circundante.<br>Si eliges un área en una masa de agua, en vez de eso creas una ola de 20 pies de altura que viaja en un lado de la masa de agua al otro y después rompe. Cualquier vehículo de tamaño Enorme o menor en el camino de la ola es transportado al otro lado. Además, tiene un 25% de posibilidades de volcar.<br>El nivel del agua se mantiene elevado hasta que termine el conjuro o elijas un efecto diferente. Si este efecto se repite en un turno, la nueva ola se genera de nuevo, y la anterior vuelve a su nivel.<br><br><b>Abrir las aguas.</b> Haces que el agua se divida y cree una zanja. Se extiende a lo largo del área del conjuro, con agua separada formando un muro de agua en cada lado. La zanja permanece hasta que el conjuro termine o elijas un nuevo efecto. Si el conjuro es interrumpido, las aguas se reúnen lentamente en una marea normal que aguasa súbitamente hasta el nivel original.<br><br><b>Redirigir caudal.</b> Obligas a un flujo de agua corriente en el área a moverse en la dirección de tu elección, incluso si tiene que fluir a través de obstáculos, escalar muros o tomar otras direcciones improbables. El área se mueve según indiques, pero una vez que salga del área del conjuro vuelve a fluir de forma natural, de acuerdo a las condiciones del terreno. El agua continúa moviéndose en la dirección de tu elección hasta que el conjuro termine o elijas un efecto diferente.<br><br><b>Remolino.</b> Este efecto necesita que la masa de agua sea de, al menos, 50 pies cuadrados y tenga 25 pies de profundidad. Creas un remolino en el centro del área. Este produce un vórtice de 5 pies de ancho en la base, hasta 50 pies de ancho en la parte más alta y hasta 25 pies de profundidad. Cualquier objeto o criatura en el agua y a 25 pies o menos del remolino se ve atraído 10 pies hacia él. Una criatura puede alejarse nadando del vórtice mediante una prueba de Fuerza (Atletismo) con CD igual a tu salvación de conjuros.<br>Cuando una criatura entra en el área del remolino por primera vez en un turno, o cuando empieza su turno en ella, debe realizar una tirada de salvación de Fuerza. Si fracasa, la criatura recibe 2d8 de daño contundente y queda atrapada en el vórtice hasta que el conjuro termine. Si la supera, recibe la mitad del daño y no queda atrapada. Una criatura atrapada en el remolino puede usar su acción para intentar alejarse de él de la manera descrita más arriba, tirando con desventaja en la prueba de Fuerza (Atletismo) necesaria.<br><br>La primera vez que un objeto entre en el vórtice cada turno recibe 2d8 de daño contundente. Este daño ocurre cada asalto que permanezca dentro.",
+    "materiales": "Una gota de agua y una pizca de polvo"
   }
 ]

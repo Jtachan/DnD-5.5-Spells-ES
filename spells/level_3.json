@@ -249,5 +249,27 @@
     "requiere_ataque": false,
     "descripcion": "Arrojas un arma no mágica o unidad de munición al aire para crear un cono de armas idénticas que salen disparadas y luego desaparecen. Todas las criaturas en un cono de 60 pies deben hacer una tirada de salvación de Destreza. Sufrirán 3d8 de daño si fallan la tirada o la mitad del daño si la superan. El tipo de daño es el mismo que el del arma o munición utilizada como componente.",
     "materiales": "Una unidad de munición o un arma arrojadiza"
+  },
+  {
+    "nombre": "Contrahechizo",
+    "clases": [
+      "Hechicero",
+      "Mago",
+      "Brujo"
+    ],
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "1 reacción, que llevas a cabo cuando una criatura que puedas ver a 60 pies o menos lance un conjuro",
+    "ritual": false,
+    "alcance": "60 pies",
+    "visible": true,
+    "componentes": [
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Intentas interrumpir a una criatura mientras lanza un conjuro. Si este último es de nivel 3 o menor, lo logras automáticamente y el conjuro no tiene efecto alguno. Sin embargo, para cada conjuro de nivel 4 o más, realiza una prueba de característica usando tu aptitud mágica. La CD es 10 + el nivel del conjuro. Si tienes éxito, el conjuro de la criatura falla y no tiene efecto.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, cancelas automáticamente aquellos conjuros cuyo nivel sea menor o igual al nivel del espacio de conjuro utilizado.",
+    "materiales": null
   }
 ]

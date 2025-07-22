@@ -87,3 +87,5 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Contagio                             | 5         |
 | Contingencia                         | 6         |
 | Contorno borroso                     | 2         |
+| Contrahechizo                        | 3         |
+| Controlar el agua                    | 4         |
