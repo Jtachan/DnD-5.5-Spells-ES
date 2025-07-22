@@ -9,11 +9,11 @@ Base de datos NoSQL de los conjuros de _Dungeons and Dragons_ (reglas básicas).
 
 ## Index
 
-Para la búsqueda rápida de un conjuro, el archivo [spells/index.md](spells/index.md) contiene todos los conjuros registrados indicando su nivel correspondiente.
+Hay tres maneras de buscar conjuros:
 
-El archivo [spells.json](spells.json) es una recopilación de todos los conjuros con el campo extra `nivel` y organizados alfabéticamente por nombre de conjuro.
-No se recomienda utilizar este archivo para la búsqueda de conjuros de forma manual, ya que es generado automáticamente y algunos caracteres especiales se encuentran representados con su código en unicode.<br>
-Por ejemplo, el conjuro `"Adivinación"` está representado como `"Adivinaci\u00f3n"`.
+- **Tabla HTML**: Ve a https://jtachan.github.io/DnD-5e-Conjuros/ para visualizar la tabla con todos los conjuros. Esta tabla permite buscar conjuros por su nombre.
+- **Índice de conjuros**: El archivo [spells/index.md](spells/index.md) contiene todos los conjuros registrados indicando su nivel correspondiente. Buscando un conjuro aquí, se puede saber fácilmente dentro de qué archivo JSON se encuentra.
+- **Compendio de conjuros**: El archivo [spells.json](spells.json) es una recopilación de todos los conjuros con el campo extra `nivel` y organizados alfabéticamente por nombre de conjuro. No se recomienda utilizar este archivo para la búsqueda de conjuros de forma manual, ya que es generado automáticamente y algunos caracteres especiales se encuentran representados con su código en unicode. Por ejemplo, el conjuro `"Adivinación"` está representado como `"Adivinaci\u00f3n"`.
 
 ## Estructura
 
