@@ -106,5 +106,28 @@
     "requiere_ataque": false,
     "descripcion": "Invocas a una criatura feérica con valor de desafío 6 o menos, o un espíritu feérico que tome la forma de una bestia con valor de desafío 6 o menos. Aparece en un espacio desocupado que puedas ver dentro del alcance. El feérico desaparece si sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Es amistoso hacia ti y tus compañeros hasta el final de la duración del conjuro. Haz una tirada de iniciativa para el feérico, que tiene sus propios turnos. Obedecerá cualquier mandato verbal tuyo (no requiere acción) que no viole su alineamiento. Si no le das ninguna orden, se defenderá de criaturas hostiles, pero no realizará ninguna otra acción.<br><br>Si tu concentración se rompe, el feérico no desaparece. En vez de eso, pierdes el control del feérico, que se vuelve hostil hacia ti y tus compañeros y podría atacaros. No puedes desconvocar al feérico descontrolado, que desaparecerá 1 hora después de que lo invoques.<br><br>El DM tiene el perfil de las criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o más, el valor de desafío del feérico aumenta en 1 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
     "materiales": null
+  },
+  {
+    "nombre": "Contingencia",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocación",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "10 días",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Elige un conjuro de nivel 5 o menor que puedas lanzar, que tenga un tiempo de lanzamiento de 1 acción y que pueda hacerte objetivo. Lanzas ese conjuro (llamado el conjuro contingente) como parte de lanzar <i>contingencia</i>, empleando espacios de conjuro para ambos, pero el conjuro contingente no tiene efecto en ese momento. En vez de eso, tendrá efecto cuando ocurra una determinada situación, que describes y estableces al lanzar los dos conjuros. Por ejemplo, una <i>contingencia</i> lanzada con <i>respirar bajo el agua</i> podría estipular que <i>respirar bajo el agua</i> comenzará cuando quedes sumergido en agua o un líquido similar.<br>El conjuro contingente tiene efecto inmediatamente después de que ocurra la situación establecida por primera vez, lo quieras o no, y después <i>contingencia</i> termina.<br>El conjuro contingente solo puede tener efecto en ti, incluso si normalmente puede elegir como objetivo a otros. Solo eres capaz de tener un conjuro de <i>contingencia</i> activo al mismo tiempo. Si lanzas este conjuro de nuevo, el efecto de una <i>contingencia</i> anterior termina. Además, <i>contingencia</i> finaliza si en cualquier momento dejas de llevar encima su componente material.",
+    "materiales": "Una estatuilla de ti mismo tallada en marfil y decorada con gemas y con un valor de, al menos, 1.500 po"
   }
 ]

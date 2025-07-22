@@ -85,3 +85,5 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Consagrar                            | 5         |
 | Contactar con otro plano             | 5         |
 | Contagio                             | 5         |
+| Contingencia                         | 6         |
+| Contorno borroso                     | 2         |

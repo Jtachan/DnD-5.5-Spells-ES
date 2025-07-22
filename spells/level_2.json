@@ -289,5 +289,26 @@
     "requiere_ataque": false,
     "descripcion": "Tocas una puerta, ventana, portón, cofre o entrada que esté cerrado con llave o pestillo. Queda cerrado completamente, como con llave, hasta el final de la duración del conjuro. Al lanzarlo puedes decidir qué criaturas podrán abrir el objeto con normalidad. También puedes elegir una contraseña, que dicha en voz alta a 5 pies o menos del objeto suprime el conjuro durante 1 minuto. En cualquier otro caso, el objeto no se puede abrir a menos que sea destruido o se suprima o disipe el conjuro. Lanzar <i>abrir</i> en el objeto suprime <i>cerradura arcana</i> durante 10 minutos.<br><br>Mientras permanezca afectado por este conjuro, el objeto es más difícil de romper o forzar; la CD para romperlo o forzar la cerradura aumenta en 10.",
     "materiales": "Polvo de oro con un valor de 25 po, que es consumido como parte del conjuro"
+  },
+  {
+    "nombre": "Contorno borroso",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusión",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Concentración, hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "El contorno de tu cuerpo se vuelve borroso, cambiando y oscilando a la vista de todos. Hasta el final de la duración del conjuro, las criaturas que hagan tiradas de ataque contra ti tienen desventaja. El atacante es inmune a este efecto si no depende de la vista (por ejemplo, tiene visión ciega) o ve a través de las ilusiones (como con visión verdadera).",
+    "materiales": null
   }
 ]
