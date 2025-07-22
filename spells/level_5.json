@@ -220,5 +220,49 @@
     "requiere_ataque": false,
     "descripcion": "Al lanzar el conjuro, dibujas un círculo de 10 pies de diámetro en el suelo, inscrito con sellos que enlazan tu localización a un círculo de teletransportación permanente de tu elección cuya secuencia de sellos conozcas y que esté en tu mismo plano de existencia. Un portal reluciente se abre dentro del círculo dibujado y permanece abierto hasta el final de tu próximo turno. Cualquier criatura que atraviese el portal aparecerá a 5 pies del círculo destino o en el espacio desocupado más cercano.<br><br>Muchos grandes templos, gremios y otros sitios importantes tienen círculos de teletransportación permanentes inscritos en alguna parte de sus dominios. Cada círculo incluye una secuencia de sellos única, una ristra de runas mágicas colocadas siguiendo un patrón específico. Cuando aprendes a lanzar este conjuro, también conoces las secuencias de sellos de dos destinos del plano material, a determinar por el DM. Puedes aprender nuevas secuencias de símbolos durante tus aventuras. Memorizarás de forma permanente una de estas secuencias si la estudias durante 1 minuto.<br><br>Puedes crear un círculo de teletransportación permanente si lanzas este conjuro en el mismo sitio todos los días durante un año. No necesitas teletransportarte usando el círculo cuando lo lances de este modo.",
     "materiales": "Tizas y tintas raras, infundidas con gemas preciosas con un valor de al menos 50 po, que son consumidas por el conjuro"
+  },
+  {
+    "nombre": "Comunión",
+    "clases": [
+      "Clérigo"
+    ],
+    "escuela": "Adivinación",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Entras en contacto con tu deidad o representante divino y haces tres preguntas que puedan ser respondidas con sí o no. Debes realizar las preguntas antes de que el conjuro termine y recibes una respuesta correcta para cada pregunta.<br><br>Un ser divino no es necesariamente omnisciente, así que puedes recibir \"incierto\" como respuesta si la pregunta se refiere a información más allá del conocimiento de la deidad. En el caso de que una respuesta con una sola palabra pueda inducir a error o se contraríe a los intereses de la deidad, el DM puede ofrecer una frase corta en su lugar.<br><br>Si se lanza dos veces o más antes del próximo descanso largo, hay una posibilidad acumulativa del 25% por cada lanzamiento después del primero de no recibir respuesta. El DM realiza esta tirada en secreto.",
+    "materiales": "Incienso y un vial de agua sagrada o impía"
+  },
+  {
+    "nombre": "Comunión con la naturaleza",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Adivinación",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Realizas una breve comunión con la naturaleza que te otorga cierto conocimiento sobre el terreno circundante. En exteriores, el conjuro te proporciona información sobre el terreno en 3 millas a tu alrededor. En una cueva u otra localización subterránea natural, el alcance se limita a 300 pies. Este conjuro no es efectivo si la naturaleza ha sido sustituida por una construcción, como en una mazmorra o pueblo.<br><br>Conoces de forma inmediata tres hechos de tu elección sobre cualquiera de los siguientes elementos relacionados con el terreno:<br><br>• Terreno y masas de agua.<br>• Plantas, minerales, animales y gentes comunes.<br>• Seres poderosos de origen celestial, feérico, demoníaco, elemental o muertos vivientes.<br>• Influencia de otros planos de existencia.<br>• Edificios.<br><br>Por ejemplo, podrías determinar la localización de muertos vivientes poderosos en el área, de masas de agua potable cercanas y de cualquier pueblo en los alrededores.",
+    "materiales": null
   }
 ]

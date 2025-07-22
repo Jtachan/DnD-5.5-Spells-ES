@@ -68,3 +68,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Clarividencia                        | 3         |
 | Clon                                 | 8         |
 | Cofre oculto de Leomund              | 4         |
+| Compulsión                           | 4         |
+| Comunión                             | 5         |
+| Comunión con la naturaleza           | 5         |
+| Confusión                            | 4         |

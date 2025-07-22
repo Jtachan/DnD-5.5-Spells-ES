@@ -125,5 +125,51 @@
     "requiere_ataque": false,
     "descripcion": "Ocultas un cofre y todos sus contenidos en el Plano Etéreo. Debes tocar el cofre y la réplica en miniatura que sirven de componentes materiales para el conjuro. El cofre puede alojar hasta 12 pies cúbicos de materiales inertes (3 pies por 2 pies por 2 pies).<br><br>Mientras permanezca en el Plano Etéreo, puedes utilizar una acción y tocar la réplica para convocarlo. Aparecerá en un espacio desocupado del suelo a 5 pies de ti. Puedes volver a mandarlo al Plano Etéreo empleando una acción y tocando tanto la réplica como el propio cofre.<br><br>Después de 60 días, hay una posibilidad acumulativa del 5% por día de que los efectos del conjuro terminen. También lo harán si lanzas el conjuro de nuevo, si la réplica del cofre es destruida o si decides finalizar el conjuro con una acción. Si el conjuro termina y el cofre grande está en el Plano Etéreo, se pierde irremediablemente.",
     "materiales": "Un cofre de manufactura exquisita, cuyas dimensiones sean de 3 pies por 2 pies por 2 pies, construido de materiales exóticos con un valor de al menos 5.000 po, así como una réplica diminuta hecha de los mismos materiales y con un valor de al menos 50 po"
+  },
+  {
+    "nombre": "Compulsión",
+    "clases": [
+      "Bardo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "30 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Una o más criaturas de tu elección que puedas ver, dentro del alcance y que puedan oírte deben realizar una tirada de salvación de Sabiduría. Las criaturas inmunes a ser hechizadas tienen éxito automáticamente. Aquellas que fallen la tirada quedan afectadas por el conjuro.<br><br>Hasta el final del conjuro puedes usar una acción adicional en cada uno de tus turnos para designar una dirección horizontal respecto a ti. Cada criatura afectada debe usar todo el movimiento del que disponga para avanzar en esa dirección durante su próximo turno. Puede realizar una acción antes de mover. Además, después de avanzar puede hacer otra tirada de salvación para intentar terminar el efecto.<br><br>Una criatura afectada no está obligada a moverse dentro de un peligro mortal y obvio, como una hoguera o un pozo, pero provocará ataques de oportunidad al moverse en la dirección señalada.",
+    "materiales": null
+  },
+  {
+    "nombre": "Confusión",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "90 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro ataca y retuerce la mente, creando ilusiones y provocando acciones incontroladas. Cada criatura en una esfera de 10 pies de radio centrada en un punto de tu elección dentro del alcance debe tener éxito en una tirada de salvación de Sabiduría o será afectada por el conjuro.<br><br>Una criatura afectada no puede llevar a cabo reacciones y debe tirar 1d10 al principio de cada uno de sus turnos para determinar cómo se comporta ese turno:<br><br><b>d10 - Comportamiento</b><br>1: La criatura emplea todo su movimiento en avanzar en una dirección aleatoria. Para determinar la dirección, lanza 1d8 asignando una dirección a cada cara del dado. No realiza acciones ese turno.<br>2–6: La criatura no se mueve ni realiza acciones ese turno.<br>7–8: La criatura usa su acción para hacer un ataque cuerpo a cuerpo contra una criatura determinada aleatoriamente dentro de su alcance. Si no hay ninguna criatura en su alcance, no hace nada ese turno.<br>9–10: La criatura puede actuar y moverse con normalidad.<br><br>Al final de cada uno de sus turnos, el objetivo puede realizar otra tirada de salvación de Sabiduría; si tiene éxito, el conjuro termina para él.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o más, el radio de la esfera aumenta en 5 pies por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
+    "materiales": "Tres cáscaras de nuez"
   }
 ]
