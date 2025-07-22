@@ -2,7 +2,7 @@
   {
     "nombre": "Acelerar",
     "clases": [
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutación",
@@ -109,7 +109,7 @@
     ],
     "concentracion": false,
     "duracion": "Instantáneo",
-    "tirada_de_salvacion": "Destreza",
+    "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
     "descripcion": "Una ráfaga brillante surge de tu dedo hacia un punto de tu elección dentro del alcance y después crece con un rugido sordo hasta convertirse en una explosión ardiente. Todas las criaturas en una esfera de 20 pies centrada en el punto deben hacer una tirada de salvación de Destreza. Sufrirán 8d6 de daño de fuego si fallan la tirada o la mitad del daño si la superan.<br>El fuego se extiende más allá de las esquinas. Los objetos inflamables que se encuentren en el área que no lleve o vista alguien arderán.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, el daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
     "materiales": "Una pelotita de guano de murciélago y azufre."
