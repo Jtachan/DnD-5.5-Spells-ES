@@ -1,9 +1,6 @@
 name: Unify spells and deploy site
 on:
   push:
-    paths:
-      - "spells/**"
-      - "index.html"
     branches:
       - "main"
       - "html_table"
