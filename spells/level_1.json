@@ -171,7 +171,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Constitución",
+    "tirada_de_salvacion": "CON",
     "requiere_ataque": true,
     "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma se calienta hasta el rojo vivo y el ataque inflige 1d6 de daño de fuego adicional al objetivo, haciendo que comience a arder.<br><br>Al inicio de cada uno de sus turnos, el objetivo debe realizar una tirada de salvación de Constitución. Si falla, recibe 1d6 de daño de fuego. Si tiene éxito en la tirada, el conjuro termina inmediatamente. Si el objetivo o una criatura a 5 pies de este utiliza una acción para apagar las llamas, o si otro efecto las sofoca (como sumergir al objetivo en agua), el conjuro termina.<br><br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, el daño adicional del ataque aumenta en 1d6 por cada nivel por encima de 1 del espacio.",
     "materiales": null
@@ -191,7 +191,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Fuerza",
+    "tirada_de_salvacion": "FUE",
     "requiere_ataque": true,
     "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma suena como un trueno audible a 300 pies de distancia y el ataque inflige 2d6 de daño de trueno adicionales al objetivo. Si el objetivo es una criatura, deberá superar una tirada de salvación de Fuerza o será empujada 10 pies en dirección opuesta a ti y será derribada.",
     "materiales": null
@@ -211,7 +211,7 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Sabiduría",
+    "tirada_de_salvacion": "SAB",
     "requiere_ataque": true,
     "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, el ataque le infligirá 1d6 de daño psíquico adicional. Además, el objetivo debe tener éxito en una tirada de salvación de Sabiduría o quedará asustado por ti hasta el final de tu siguiente turno. Podrá intentar superar de nuevo dicha prueba de Sabiduría con CD igual a tu salvación de conjuros para recuperar su bravura y terminar con el conjuro.",
     "materiales": null
