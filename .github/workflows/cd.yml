@@ -26,7 +26,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.13
+          python-version: "3.x"
 
       # 3: Execute script.
       - name: Unify spell files
@@ -42,6 +42,13 @@ jobs:
           author_email: actions@github.com
           message: 'GH commit: Update spells.json with new spells'
           add: 'spells.json'
+
+      # Publish spells as artifact.
+      - name: Upload spells.json artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: spells-json
+          path: spells.json
 
   deploy:
     needs: build
