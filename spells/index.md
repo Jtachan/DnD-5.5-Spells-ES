@@ -12,6 +12,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Agrandar/Reducir                     | 2         |
 | Alarma                               | 1         |
 | Aliado planar                        | 6         |
+| Aliento de dragón                    | 2         |
 | Alterar el propio aspecto            | 2         |
 | Alterar los recuerdos                | 5         |
 | Alzar a los muertos                  | 5         |

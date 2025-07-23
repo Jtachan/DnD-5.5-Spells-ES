@@ -26,7 +26,7 @@ Cada conjuro contiene las siguientes entradas:
 - **escuela** `str`:<br>Escuela del conjuro. Ej.: "Transmutación", "Evocación", "Conjuración".
 - **tiempo_de_lanzamiento** `str`:<br>El tiempo requerido para lanzar el conjuro.
 - **ritual** `bool`:<br>Flag indicando si el conjuro puede ser lanzado como un ritual.
-- **alcance** `str`:<br>Información sobre a qué objetivos puede afectar el conjuro.
+- **alcance** `str | list[str]`:<br>Información sobre a qué objetivos puede afectar el conjuro. Las distancias se almacenan en pies y metros. Ej.: ["60 pies", "18 m"]
 - **visible** `bool`:<br>Flag indicando si el objetivo ha de estar a la vista del lanzador.
 - **componentes** `list[str]`:<br>Los componentes necesarios para lanzar el conjuro. "V" = verbal, "S" = somático, "M" = material. Los componentes materiales viene explicados entre paréntesis.
 - **concentracion** `bool`:<br>Flag indicando si el conjuro requiere que el lanzador mantenga su concentración durante la duración del mismo.
@@ -48,13 +48,16 @@ Cada conjuro contiene las siguientes entradas:
     "nombre": "Abrir",
     "clases": [
       "Bardo",
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "V"
@@ -69,7 +72,7 @@ Cada conjuro contiene las siguientes entradas:
   {
     "nombre": "Agarre electrizante",
     "clases": [
-      "Hechizero",
+      "Hechicero",
       "Mago"
     ],
     "escuela": "Evocación",
@@ -97,7 +100,10 @@ Cada conjuro contiene las siguientes entradas:
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "1 minuto",
     "ritual": true,
-    "alcance": "30 pies",
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
     "visible": false,
     "componentes": [
       "V",
@@ -108,8 +114,8 @@ Cada conjuro contiene las siguientes entradas:
     "duracion": "8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Preparas una alarma contra intrusos. Elige una puerta, ventana o cualquier otra área dentro del alcance cuyo volumen sea menor o igual que un cubo de 20 pies de lado. Una alarma te avisará siempre que una criatura, Diminuta o de tamaño superior, toque o entre en la zona vigilada antes del final del conjuro. Al lanzarlo puedes elegir que ciertas criaturas no activarán la alarma, que puede ser mental o sonora.<br>Una alarma mental te alerta con un sonido dentro de tu mente si estás a 1 milla de la zona vigilada. Si estás dormido, te despertará.<br>Una alarma sonora produce un sonido de campanilla durante 10 segundos audible a 60 pies de distancia.",
-    "materiales": "Una pequeña campana y un hilo de plata fina."
+    "descripcion": "Preparas una alarma contra los intrusos. Elige una puerta, una ventana o una zona dentro del alcance que no sea mayor que un cubo de 6 m (20 pies) de lado. Hasta que el conjuro termine, una alarma te alertará siempre que una criatura toque la zona vigilada o entre en ella. Al lanzar el conjuro, puedes designar qué criaturas no activarán la alarma, que puede ser mental o sonora.<br><b>Alarma mental.</b> La alarma te avisará con un sonido dentro de tu mente si estás a 1.5 km (1 milla) o menos de la zona vigilada. Si estás dormido, te despertará.<br><b>Alarma sonora.</b> La alarma producirá el sonido de una campanilla durante 10 segundos, que será audible a 18 m (60 pies) o menos de la zona vigilada.",
+    "materiales": "Una campana de hilo de plata."
   }
 ]
 ```
