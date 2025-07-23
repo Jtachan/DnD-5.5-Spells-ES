@@ -8,8 +8,11 @@
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "150 pies",
-    "visible": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
     "componentes": [
       "V",
       "S",
@@ -19,8 +22,8 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Un rayo de luz amarilla se proyecta desde tu índice y se condensa, quedando latente con la forma de una cuenta brillante en un punto dentro del alcance. Cuando el conjuro termina, ya sea porque se rompe tu concentración o porque decides terminarlo, la cuenta se transforma con un rugido sordo en una explosión ardiente que se extiende más allá de las esquinas. Todas las criaturas en una esfera de 20 pies centrada en el punto deben hacer una tirada de salvación de Destreza. Sufrirán daño de fuego igual al daño acumulado si fallan la tirada o la mitad del daño si la superan.<br>El daño base del conjuro es 12d6. Si al final de tu turno la cuenta aún no ha explotado, este daño se incrementa en 1d6.<br>Si se toca la cuenta antes de que termine el tiempo, la criatura que lo haga debe realizar una tirada de salvación de Destreza. Si falla, el conjuro termina inmediatamente, haciendo que la cuenta explote. Si tiene éxito, la criatura puede lanzar la cuenta hasta a 40 pies de distancia. Cuando esta golpee a una criatura u objeto sólido, el conjuro termina y la cuenta explota.<br>El fuego daña los objetos que se encuentren en el área, haciendo arder los que sean inflamables y no lleve o vista alguien.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 8 o más, el daño aumenta en 1d6 por cada nivel por encima de 7 que tenga el espacio que hayas empleado.",
-    "materiales": "Una pelotita de guano de murciélago y azufre."
+    "descripcion": "Un rayo de luz amarilla surge de ti y se condensa en un punto elegido dentro del alcance en forma de una cuenta brillante hasta que termine el conjuro. Cuando el conjuro termina, la cuenta explota y todas las criaturas en una esfera de 6 m de radio centrada en ese punto hacen una tirada de salvación de Destreza. Sufrirán una cantidad de daño de fuego igual al daño total acumulado si fallan la tirada o la mitad del daño si la superan.<br>El daño base del conjuro es 12d6 y aumenta en 1d6 siempre que termine tu turno si el conjuro aún no ha terminado.<br>Si una criatura toca la cuenta brillante antes de que el conjuro termine, esa criatura hará una tirada de salvación de Destreza. Si la falla, el conjuro terminará y la cuenta explotará. Si la supera, podrá lanzar la cuenta a una distancia de 12 m o menos. Si la cuenta lanzada entra en el espacio de una criatura o choca con un objeto sólido, el conjuro termina y la cuenta explota.<br>Cuando estalle, todos los objetos inflamables dentro de la explosión que no lleve o vista nadie empezarán a arder.<br><i>Con un espacio de conjuro de nivel superior.</i> El daño base aumenta en 1d6 por cada nivel por encima de 7 que tenga el espacio.",
+    "materiales": "Una pelota de guano de murciélago y azufre."
   },
   {
     "nombre": "Conjurar celestial",
@@ -28,19 +31,20 @@
       "Clérigo"
     ],
     "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 minuto",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "90 pies",
-    "visible": true,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": true,
-    "duracion": "Hasta 1 hora",
-    "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Invocas un celestial con valor de desafío 4 o menos en un espacio desocupado que puedas ver dentro del alcance. El celestial desaparece si sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Es amistoso hacia ti y tus compañeros hasta el final de la duración del conjuro. Haz una tirada de iniciativa para el celestial, que tiene sus propios turnos. Obedecerá cualquier mandato verbal tuyo (no requiere acción) que no viole su alineamiento. Si no le das ninguna orden, se defenderá de criaturas hostiles, pero no realizará ninguna otra acción.<br><br>El DM tiene el perfil del celestial.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 9, invocas a un celestial con valor de desafío 5 o menos.",
-    "materiales": null
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "DES",
+    "descripcion": "Conjuras un espíritu de los Planos Superiores, que se manifiesta como un pilar de luz de 3 m de radio y 12 m de alto centrado en un punto dentro del alcance. Por cada criatura que puedas ver en el cilindro, elige qué tipo de luz brilla sobre ella.<br><br><b>Luz abrasadora.</b> El objetivo hace una tirada de salvación de Destreza; sufrirá 6d12 de daño radiante si la falla o la mitad del daño si la supera.<br><b>Luz sanadora.</b> El objetivo recupera una cantidad de puntos de golpe igual a 4d12 más tu modificador por aptitud mágica.<br><br>Hasta que el conjuro termine, una luz brillante llena el cilindro y, cuando te muevas en tu turno, también puedes mover el cilindro hasta 9 m.<br><br>Siempre que el cilindro entre en el espacio de una criatura que puedas ver y siempre que una criatura que puedas ver entre en el cilindro o termine su turno en él, puedes bañar a la criatura con una de las luces. Una criatura puede verse afectada por este conjuro solo una vez por turno.<br><b>Con un espacio de conjuro de nivel superior.</b> El daño y la curación aumentan en 1d12 por cada nivel por encima de 7 que tenga el espacio.",
+    "requiere_ataque": false
   }
 ]

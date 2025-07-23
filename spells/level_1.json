@@ -79,8 +79,11 @@
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "30 pies",
-    "visible": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
     "componentes": [
       "V",
       "S",
@@ -90,8 +93,8 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Bendices hasta tres criaturas de tu elección dentro del alcance. Hasta el final de la duración del conjuro, cuando uno de los objetivos haga una tirada de ataque o una tirada de salvación, puede tirar 1d4 y añadir el resultado a esa tirada.<br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
-    "materiales": "Unas gotas de agua bendita."
+    "descripcion": "Bendices hasta tres criaturas dentro del alcance. Siempre que un objetivo haga una tirada de ataque o de salvación antes de que termine el conjuro, sumará 1d4 al resultado de dicha tirada.<br><b>Con un espacio de conjuro de nivel superior.</b> Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "Un símbolo sagrado que valga al menos 5 po."
   },
   {
     "nombre": "Brazos de Hadar",
@@ -101,7 +104,7 @@
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "Lanzador (radio de 10 pies)",
+    "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V",
@@ -111,18 +114,19 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "Invocas el poder de Hadar, el Hambre Tenebrosa. Zarcillos de energía oscura surgen de ti y golpean a todas las criaturas a 10 pies o menos de tu posición. Cada criatura en el área debe hacer una tirada de salvación de Fuerza. Si falla, sufrirá 2d6 de daño necrótico y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno. Si supera la tirada, recibirá la mitad de daño, pero no sufrirá ningún otro efecto.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, el daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "descripcion": "Hadar extiende brazos tenebrosos desde ti. Todas las criaturas en un radio de 3 m (10 pies) deben hacer una tirada de salvación de Fuerza. Si fallan, sufren 2d6 de daño necrótico y no podrán realizar reacciones hasta el siguiente turno. Si la superan, reciben la mitad de daño.<br><b>Con un espacio de conjuro de nivel superior.</b> El daño aumenta en 1d6 por cada nivel por encima de 1.",
     "materiales": null
   },
   {
     "nombre": "Buenas bayas",
     "clases": [
-      "Druída"
+      "Druída",
+      "Explorador"
     ],
-    "escuela": "Transmutación",
+    "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "Toque",
+    "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V",
@@ -130,11 +134,11 @@
       "M"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "24 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Aparecen en tu mano un máximo de diez bayas infundidas con magia hasta el final de la duración del conjuro. Una criatura puede utilizar su acción para comerse una baya. Si hace esto recuperará 1 punto de golpe y tendrá sustento para todo el día.<br>Las bayas pierden su poder si no son consumidas dentro de las 24 horas siguientes al lanzamiento del conjuro.",
-    "materiales": "Un ramito de muérdago."
+    "descripcion": "En tu mano aparecen diez bayas mágicas. Una criatura puede usar una acción adicional para comerse una, lo que le permite recuperar 1 punto de golpe. Además, proporciona alimento suficiente para mantener a una criatura durante un día.<br>Las bayas que no se consuman desaparecen cuando el conjuro termine.",
+    "materiales": "Una rama de muérdago."
   },
   {
     "nombre": "Caída de pluma",
@@ -144,9 +148,12 @@
       "Mago"
     ],
     "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 reacción, que llevas a cabo cuando tú o una criatura a 60 pies o menos caiga",
+    "tiempo_de_lanzamiento": "Reacción, que llevas a cabo cuando tú o una criatura que puedes ver a 18 m o menos de ti caigáis",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -156,7 +163,7 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Elige un máximo de cinco criaturas dentro del alcance que estén cayendo. La velocidad de caída de cada objetivo se reduce a 60 pies por asalto hasta que el conjuro termine. Si alguna criatura llega al suelo antes de que esto suceda, no recibe daño por caída, sino que puede caer de pie y el conjuro acaba para ese objetivo.",
+    "descripcion": "Elige hasta cinco criaturas dentro del alcance que estén cayendo. La velocidad de descenso de cada objetivo se reduce a 18 m por asalto hasta que el conjuro termine. Si una criatura aterriza antes de que el conjuro termine, no sufrirá daño de la caída y el conjuro terminará para esa criatura.",
     "materiales": "Una pluma pequeña o un poco de plumón."
   },
   {
@@ -165,18 +172,18 @@
       "Paladín"
     ],
     "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción adicional",
+    "tiempo_de_lanzamiento": "Acción adicional, que realizas de inmediato tras acertar a un objetivo con un arma cuerpo a cuerpo o un ataque sin armas",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V"
     ],
-    "concentracion": true,
-    "duracion": "Hasta 1 minuto",
+    "concentracion": false,
+    "duracion": "1 minuto",
     "tirada_de_salvacion": "CON",
-    "requiere_ataque": true,
-    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma se calienta hasta el rojo vivo y el ataque inflige 1d6 de daño de fuego adicional al objetivo, haciendo que comience a arder.<br><br>Al inicio de cada uno de sus turnos, el objetivo debe realizar una tirada de salvación de Constitución. Si falla, recibe 1d6 de daño de fuego. Si tiene éxito en la tirada, el conjuro termina inmediatamente. Si el objetivo o una criatura a 5 pies de este utiliza una acción para apagar las llamas, o si otro efecto las sofoca (como sumergir al objetivo en agua), el conjuro termina.<br><br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, el daño adicional del ataque aumenta en 1d6 por cada nivel por encima de 1 del espacio.",
+    "requiere_ataque": false,
+    "descripcion": "Al golpear al objetivo, sufre 1d6 de daño de fuego adicional del ataque. Al principio de cada uno de sus turnos hasta que el conjuro termine, el objetivo sufrirá 1d6 de daño de fuego y luego hará una tirada de salvación de Constitución. Si la falla, el conjuro seguirá activo. Si la supera, el conjuro terminará.<br><i>Con un espacio de conjuro de nivel superior.</i> Todo el daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -185,18 +192,18 @@
       "Paladín"
     ],
     "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción adicional",
+    "tiempo_de_lanzamiento": "Acción adicional, que realizas de inmediato tras acertar a un objetivo con un arma cuerpo a cuerpo o un ataque sin armas",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V"
     ],
-    "concentracion": true,
-    "duracion": "Hasta 1 minuto",
+    "concentracion": false,
+    "duracion": "Instantáneo",
     "tirada_de_salvacion": "FUE",
-    "requiere_ataque": true,
-    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma suena como un trueno audible a 300 pies de distancia y el ataque inflige 2d6 de daño de trueno adicionales al objetivo. Si el objetivo es una criatura, deberá superar una tirada de salvación de Fuerza o será empujada 10 pies en dirección opuesta a ti y será derribada.",
+    "requiere_ataque": false,
+    "descripcion": "Tu golpe resuena con un trueno audible a 90 m de ti y el objetivo sufre 2d6 de daño de trueno adicional del ataque. Además, si el objetivo es una criatura, deberá superar una tirada de salvación de Fuerza o la empujarás 3 m respecto a ti y tendrá el estado de derribada.<br><i>Con un espacio de conjuro de nivel superior.</i> El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -204,19 +211,39 @@
     "clases": [
       "Paladín"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción adicional",
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acción adicional, que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V"
     ],
-    "concentracion": true,
-    "duracion": "Hasta 1 minuto",
+    "concentracion": false,
+    "duracion": "1 minuto",
     "tirada_de_salvacion": "SAB",
-    "requiere_ataque": true,
-    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, el ataque le infligirá 1d6 de daño psíquico adicional. Además, el objetivo debe tener éxito en una tirada de salvación de Sabiduría o quedará asustado por ti hasta el final de tu siguiente turno. Podrá intentar superar de nuevo dicha prueba de Sabiduría con CD igual a tu salvación de conjuros para recuperar su bravura y terminar con el conjuro.",
+    "requiere_ataque": false,
+    "descripcion": "El objetivo sufrirá 1d6 de daño necrótico adicional del ataque y deberá superar una tirada de salvación de Sabiduría o tendrá el estado de asustado hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo asustado repite la tirada de salvación y, si tiene éxito, se librará del conjuro.<br><i>Con un espacio de conjuro de nivel superior.</i> El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null
+  },
+  {
+    "nombre": "Castigo divino",
+    "clases": [
+      "Paladín"
+    ],
+    "escuela": "Evocación",
+    "tiempo_de_lanzamiento": "Acción adicional, que realizas de inmediato tras acertar a un objetivo con un arma cuerpo a cuerpo o un ataque sin armas",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "El objetivo sufre 2d8 de daño radiante adicional del ataque. Este daño aumenta en 1d8 si el objetivo es un infernal o un muerto viviente.<br><i>Con un espacio de conjuro de nivel superior.</i> El daño aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {

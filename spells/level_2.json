@@ -225,13 +225,15 @@
     "nombre": "Boca mágica",
     "clases": [
       "Bardo",
-      "Hechicero",
       "Mago"
     ],
-    "escuela": "Ilusión",
-    "tiempo_de_lanzamiento": "1 minuto",
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "1 minuto o 1 ritual",
     "ritual": true,
-    "alcance": "30 pies",
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -242,8 +244,8 @@
     "duracion": "Hasta que sea disipado",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Implantas un mensaje en un objeto dentro del alcance, que será pronunciado en voz alta cuando se cumpla la condición de activación. Eliges un objeto que puedas ver y que no lleva o vista otra criatura. Después dices el mensaje, que debe estar formado por 25 palabras o menos, aunque puede ser retransmitido durante, como mucho, 10 minutos. Por último, determinas las circunstancias que activarán el conjuro para entregar tu mensaje.<br>Cuando se den estas circunstancias, una boca mágica aparecerá en el objeto y recitará el mensaje, con tu voz y con el mismo volumen que utilizaste. Si el objeto que eliges tiene una boca o algo que parezca una boca (como la de una estatua, por ejemplo), la boca mágica aparecerá ahí, con lo que parecerá que las palabras son pronunciadas por la boca del objeto. Cuando lanzas este conjuro, puedes hacer que termine después de entregar el mensaje o que permanezca y el mensaje sea repetido cada vez que ocurran las circunstancias que lo activan.<br>Estas circunstancias pueden ser tan generales o detalladas como quieras, pero deben estar basadas en condiciones visuales o auditivas que ocurran a 30 pies o menos del objeto. Por ejemplo, puedes hacer que la boca hable cuando una criatura se acerque a menos de 30 pies o cuando suene una campana plateada dentro de esa distancia.",
-    "materiales": "Un trocito de panal de abeja y polvo de jade con un valor de, al menos, 10 po, que es consumido como parte del conjuro."
+    "descripcion": "Implantas un mensaje en un objeto dentro del alcance que se pronunciará en voz alta cuando se cumpla la condición de activación. Elige un objeto que puedas ver y que no lleve ni vista nadie. Liego, di el mensaje, que debe tener 25 palabras o menos, aunque puede transmitirse en un intervalo de hasta 10 minutos. Por último, determina la circunstancia que activará el conjuro para que transmita tu mensaje.<br>Cuando se produzca esa circunstancia, en el objeto aparecerá una boca mágica que recitará el mensaje con tu voz y al mismo volumen en el que lo dijiste tú. Si el objeto elegido tiene boca o algo que se le parezca (por ejemplo, la boca de una estatua), la boca mágica se formará allí, de modo que las palabras parecen salir de ella. Cuando lanzas este conjuro, puedes hacer que el efecto termine después de que transmita el mensaje o permanezca y repita dicho mensaje siempre que se produzca la condición de activación.<br>La condición puede ser tan genérica o detallada como quieras, aunque debe basarse en fenómenos visuales o audibles que se produzcan a 9 m (30 pies) o menos del objeto. Por ejemplo, podrías indicar que la boca hable cuando cualquier criatura se acerque a 9 m (30 pies) o menos del objeto o cuando una campana de plata suene a 9 m (30 pies) o menos de él.",
+    "materiales": "Polvo de jade que valga al menos 10 po, que se consume como parte del conjuro."
   },
   {
     "nombre": "Calentar metal",
@@ -254,7 +256,10 @@
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -265,7 +270,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Elige un objeto manufacturado de metal, como un arma de metal o una armadura media o pesada de metal que puedas ver dentro del alcance. Haces que dicho objeto se ponga al rojo vivo. Cualquier criatura en contacto físico con el objeto recibe 2d8 de daño de fuego cuando lanzas el conjuro.<br>Hasta el final del conjuro, puedes usar una acción adicional en cada uno de tus turnos para causar este daño de nuevo.<br>Si una criatura está vistiendo o portando el objeto y sufre el daño, deberá tener éxito en una tirada de salvación de Constitución o soltarlo, si es que puede. Si no lo suelta, tiene desventaja en tiradas de ataque y pruebas de característica hasta el comienzo de tu próximo turno.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o más, el daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+    "descripcion": "Elige un objeto metálico fabricado que puedas ver dentro del alcance, como un arma de metal o una armadura metálica media o pesada. Haces que el objeto se ponga al rojo vivo. Cualquier criatura que esté en contacto físico con el objeto recibirá 2d8 de daño de fuego cuando lances el conjuro. Hasta que el conjuro termine, puedes usar una acción adicional en cada uno de tus turnos posteriores para volver a causar este daño si el objeto está dentro del alcance.<br>Si una criatura sostiene o lleva puesto el objeto y recibe el daño de este, deberá superar una tirada de salvación de Constitución o dejará caer el objeto si puede. Si no lo puede dejar caer, tendrá desventaja en las tiradas de ataque y en las pruebas de característica hasta el principio de su siguiente turno.<br><i>Con un espacio de conjuro de nivel superior.</i> El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": "Un trozo de hierro y una llama."
   },
   {
@@ -277,8 +282,11 @@
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "60 pies",
-    "visible": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
     "componentes": [
       "V",
       "S"
@@ -287,16 +295,16 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
-    "descripcion": "Intentas suprimir emociones fuertes en un grupo de gente. Cada humanoide en una esfera de 20 pies de radio centrada en un punto de tu elección dentro del alcance debe realizar una tirada de salvación de Carisma. Cualquiera de ellos puede elegir fallar la tirada voluntariamente si así lo desea.<br>Si una criatura falla la tirada, elige uno de los dos efectos siguientes:<br>Puedes suprimir cualquier efecto que mantenga al objetivo hechizado o asustado. Sin embargo, cuando este conjuro acabe, los efectos suprimidos vuelven a funcionar, siempre que su duración no haya acabado.<br>De modo alternativo, puedes hacer que un objetivo se vuelva indiferente hacia criaturas de tu elección con las que previamente era hostil. Esta indiferencia termina si el objetivo es atacado o dañado por un conjuro o si ve a alguno de sus amigos ser dañado. Cuando el conjuro acaba, la criatura se vuelve hostil de nuevo, a menos que el DM decida otra cosa.",
+    "descripcion": "Cada humanoide en una esfera de 6 m de radio centrada en un punto que elijas dentro del alcance deberá superar una tirada de salvación de Carisma o se verá afectado por uno de los siguientes efectos (elige uno por cada criatura):<br>- La criatura tiene inmunidad a los estados de asustada y hechizada hasta que el conjuro termine. Si la criatura ya estaba asustada o hechizada, se suprimen esos estados hasta que el conjuro termine.<br>- La criatura se vuelve indiferente hacia las criaturas de tu elección hacia las que sea hostil. Esta indiferencia termina si el objetivo recibe daño o si observa cómo alguno de sus aliados resulta dañado. Cuando el conjuro termine, la actitud de la criatura volverá a la normalidad.",
     "materiales": null
   },
   {
-    "nombre": "Castigo marcador",
+    "nombre": "Castigo brillante",
     "clases": [
       "Paladín"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción adicional",
+    "escuela": "Transmutación",
+    "tiempo_de_lanzamiento": "Acción adicional, que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -306,21 +314,20 @@
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
-    "requiere_ataque": true,
-    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma brilla con un resplandor astral. El ataque inflige 2d6 de daño adicionales al objetivo, que además se torna visible si era invisible. El objetivo emite luz tenue en un radio de 5 pies y no puede volverse invisible hasta el final de la duración del conjuro.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o más, el daño aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+    "requiere_ataque": false,
+    "descripcion": "El objetivo del golpe recibe 2d6 de daño radiante adicional del ataque. Hasta que el conjuro termine, el objetivo emitirá luz brillante en un radio de 1,5 m, las tiradas de ataque contra él tendrán ventaja y no podrá beneficiarse del estado de invisible.<br><i>Con un espacio de conjuro de nivel superior.</i> El daño aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": null
   },
   {
     "nombre": "Cerradura arcana",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
     "alcance": "Toque",
-    "visible": true,
+    "visible": false,
     "componentes": [
       "V",
       "S",
@@ -330,8 +337,33 @@
     "duracion": "Hasta que sea disipado",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tocas una puerta, ventana, portón, cofre o entrada que esté cerrado con llave o pestillo. Queda cerrado completamente, como con llave, hasta el final de la duración del conjuro. Al lanzarlo puedes decidir qué criaturas podrán abrir el objeto con normalidad. También puedes elegir una contraseña, que dicha en voz alta a 5 pies o menos del objeto suprime el conjuro durante 1 minuto. En cualquier otro caso, el objeto no se puede abrir a menos que sea destruido o se suprima o disipe el conjuro. Lanzar <i>abrir</i> en el objeto suprime <i>cerradura arcana</i> durante 10 minutos.<br><br>Mientras permanezca afectado por este conjuro, el objeto es más difícil de romper o forzar; la CD para romperlo o forzar la cerradura aumenta en 10.",
-    "materiales": "Polvo de oro con un valor de 25 po, que es consumido como parte del conjuro"
+    "descripcion": "Tocas una puerta, ventana, portón, recipiente o trampilla cerrados y se cierra mágicamente como con llave hasta que el conjuro termine. Esta cerradura no puede abrirse por medios no mágicos, pero tú y las criaturas que designes cuando lanzas el conjuro podéis abrir y cerrar el objeto a pesar de esta cerradura. También puedes elegir una contraseña que, dicha en voz alta a 1,5 m o menos del objeto, lo desbloquea durante 1 minuto.",
+    "materiales": "Polvo de oro que valga al menos 25 po, que se consume como parte del conjuro"
+  },
+  {
+    "nombre": "Clavo mental",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinación",
+    "tiempo_de_lanzamiento": "Acción",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Introduces una púa de energía psiónica en la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Sabiduría; sufrirá 3d8 de daño psíquico si la falla o la mitad del daño si la supera. Además, si falla la tirada, conocerás en todo momento la ubicación del objetivo hasta que el conjuro termine, pero solo mientras los dos estéis en el mismo plano de existencia. Mientras tengas este conocimiento, la criatura no te podrá ocultarse de ti, y si tiene el estado de invisible, no se beneficiará de dicho estado contra ti.<br><i>Con un espacio de conjuro de nivel superior.</i> El daño aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": null
   },
   {
     "nombre": "Contorno borroso",

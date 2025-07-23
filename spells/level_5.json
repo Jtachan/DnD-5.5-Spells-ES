@@ -131,14 +131,14 @@
     "materiales": "Una joya que valga al menos 1000 po y que se consume como parte del conjuro."
   },
   {
-    "nombre": "Caparazon antivida",
+    "nombre": "Caparazón antivida",
     "clases": [
       "Druída"
     ],
     "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "Lanzador (radio de 10 pies)",
+    "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V",
@@ -148,19 +148,18 @@
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una barrera refulgente se extiende alrededor de ti en un radio de 10 pies. Permanece centrada en ti y se mueve contigo, manteniendo a raya a todas las criaturas que no sean muertos vivientes o autómatas. La barrera persiste hasta el final de la duración del conjuro.<br>Las criaturas afectadas no pueden penetrar en el interior de la barrera, ni parcialmente ni por completo. No obstante, son capaces de lanzar conjuros o realizar ataques con armas de gran alcance o a distancia a través de la barrera.<br>Si tu movimiento obliga a una criatura afectada a atravesar la barrera, el conjuro termina.",
+    "descripcion": "Un aura se extiende alrededor de ti en una emanación de 3 m hasta que el conjuro termine. El aura impide que las criaturas que no sean autómatas o muertos vivientes penetren total o parcialmente en ella, por sí que pueden lanzar conjuros o realizar ataques con armas a distancia o de gran alcance a través de la barrera.<br>Si tu movimiento obliga a que una criatura afectada atraviese la barrera, el conjuro termina.",
     "materiales": null
   },
   {
     "nombre": "Carcaj veloz",
     "clases": [
-      "Hechicero",
-      "Mago"
+      "Explorador"
     ],
     "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción adicional",
+    "tiempo_de_lanzamiento": "Acción adicional",
     "ritual": false,
-    "alcance": "Toque",
+    "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V",
@@ -171,16 +170,16 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Transmutas tu aljaba para que produzca una reserva infinita de munición no mágica, que parece saltar a tu mano cuando vas a cogerla.<br><br>En cada uno de tus turnos hasta el final del conjuro puedes utilizar una acción adicional para realizar dos ataques con un arma que use munición de la aljaba. Cada vez que llevas a cabo uno de estos ataques a distancia, la aljaba repone mágicamente la unidad de munición empleada con otra unidad de munición no mágica similar. Cualquier unidad de munición creada por este conjuro se desvanece cuando este acaba. Si la aljaba deja de estar en tu posesión, el conjuro termina.",
-    "materiales": "Una aljaba con al menos una unidad de munición."
+    "descripcion": "Cuando lances el conjuro y como acción adicional hasta que termine, puedes realizar dos ataques con un arma que use flechas o virotes, como un arco largo o una ballesta ligera. El conjuro crea mágicamente la munición necesaria para cada ataque. Cada flecha o virote que cree el conjuro inflige daño como si fuera munición no mágica de su tipo y se desintegra inmediatamente después de acertar o fallar.",
+    "materiales": "Una aljaba que valga al menos 1 po"
   },
   {
     "nombre": "Castigo desterrador",
     "clases": [
       "Paladín"
     ],
-    "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "1 acción adicional",
+    "escuela": "Conjuración",
+    "tiempo_de_lanzamiento": "Acción adicional, que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -189,21 +188,25 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": null,
-    "requiere_ataque": true,
-    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma resplandece con violencia y el ataque inflige 5d10 de daño de fuerza adicionales al objetivo. Además, si el ataque reduce a la criatura a 50 puntos de golpe o menos, la destierras. Si el objetivo es nativo de un plano diferente al que estás, este desaparece y vuelve a su plano natal. Si el objetivo es nativo del plano en que estás, la criatura se desvanece a un semiplano inofensivo. Estará incapacitada mientras permanezca allí, y seguirá en dicho semiplano hasta el final del conjuro, momento en el cual reaparecerá en el espacio que ocupaba antes o en el más cercano disponible si ese ya está ocupado.",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "El objetivo de la tirada de ataque recibe 5d10 de daño de fuerza adicional del ataque. Si el ataque reduce los puntos de golpe del objetivo a 50 o menos, deberá superar una tirada de salvación de Carisma o se teletransportará a un semiplano inofensivo hasta que termine el conjuro. Mientras permanezca allí, tendrá el estado de incapacitado. Cuando el conjuro termine, el objetivo reaparecerá en el espacio que abandonó o en el espacio sin ocupar más cercano si dicho espacio está ocupado.",
     "materiales": null
   },
   {
     "nombre": "Círculo de poder",
     "clases": [
+      "Clérigo",
+      "Mago",
       "Paladín"
     ],
     "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "Lanzador (radio de 30 pies)",
-    "visible": true,
+    "alcance": [
+      "Lanzador"
+    ],
+    "visible": false,
     "componentes": [
       "V"
     ],
@@ -211,20 +214,25 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Radias una energía divina, distorsionando y diseminando la energía mágica en una esfera de 30 pies a tu alrededor. La esfera se mueve contigo, centrada en ti, hasta el final del conjuro. Hasta ese momento, cada criatura amistosa en el área (incluido tú) tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos. Además, si una criatura tiene éxito en una tirada de salvación contra un conjuro que normalmente infligiría daño o si este le permite hacer una tirada de salvación con éxito para recibir solo la mitad del daño, no sufrirá ningún daño en su lugar.",
+    "descripcion": "Un aura surge de ti en una emanación de 9 m (30 pies) hasta que el conjuro termine. Mientras permanezcáis dentro, tus aliados y tú tendréis ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos. Cuando una criatura afectada realice una tirada de salvación contra un conjuro o un efecto mágico que le permita hacer una tirada de salvación para recibir solo la mitad del daño, no sufrirá daño si la supera.",
     "materiales": null
   },
   {
     "nombre": "Círculo de teletransportación",
     "clases": [
+      "Bardo",
+      "Brujo",
       "Hechicero",
       "Mago"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "1 minuto",
     "ritual": false,
-    "alcance": "10 pies",
-    "visible": true,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": false,
     "componentes": [
       "V",
       "M"
@@ -233,8 +241,8 @@
     "duracion": "1 asalto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Al lanzar el conjuro, dibujas un círculo de 10 pies de diámetro en el suelo, inscrito con sellos que enlazan tu localización a un círculo de teletransportación permanente de tu elección cuya secuencia de sellos conozcas y que esté en tu mismo plano de existencia. Un portal reluciente se abre dentro del círculo dibujado y permanece abierto hasta el final de tu próximo turno. Cualquier criatura que atraviese el portal aparecerá a 5 pies del círculo destino o en el espacio desocupado más cercano.<br><br>Muchos grandes templos, gremios y otros sitios importantes tienen círculos de teletransportación permanentes inscritos en alguna parte de sus dominios. Cada círculo incluye una secuencia de sellos única, una ristra de runas mágicas colocadas siguiendo un patrón específico. Cuando aprendes a lanzar este conjuro, también conoces las secuencias de sellos de dos destinos del plano material, a determinar por el DM. Puedes aprender nuevas secuencias de símbolos durante tus aventuras. Memorizarás de forma permanente una de estas secuencias si la estudias durante 1 minuto.<br><br>Puedes crear un círculo de teletransportación permanente si lanzas este conjuro en el mismo sitio todos los días durante un año. No necesitas teletransportarte usando el círculo cuando lo lances de este modo.",
-    "materiales": "Tizas y tintas raras, infundidas con gemas preciosas con un valor de al menos 50 po, que son consumidas por el conjuro"
+    "descripcion": "Mientras lanzas el conjuro, trazas en el suelo un círculo de 1,5 m de radio en el cual inscribes sellos que vinculan tu ubicación con un círculo de teletransportación permanente de tu elección cuya secuencia de sellos conozcas y que esté en el mismo plano de existencia que tú. En el círculo dibujado aparecerá un portal brillante que permanecerá abierto hasta el final de tu siguiente turno. Cualquier criatura que entre en el portal aparecerá instantáneamente a 1,5 m o menos del círculo de destino o en el espacio sin ocupar más cercano si ese está ocupado.<br>Muchos grandes templos y casas gremiales, así como otros lugares importantes, cuentan con círculos de teletransportación permanentes. Cada uno incluye una secuencia de sellos única, una serie de runas dispuestas con un patrón concreto.<br>La primera vez que obtienes la capacidad de lanzar este conjuro, aprendes las secuencias de sellos de dos destinos en el Plano Material a elección de tu DM. Durante tus aventuras, es posible que aprendas más secuencias de sellos. Puedes memorizar una nueva secuencia de sellos si la estudias durante 1 minuto.<br>Si lanzas este conjuro a diario en el mismo lugar durante 365 días, puedes crear un círculo de teletransportación permanente.",
+    "materiales": "Tintas inusuales que valgan al menos 50 po, que se consumen como parte del conjuro"
   },
   {
     "nombre": "Comunión",
@@ -242,7 +250,7 @@
       "Clérigo"
     ],
     "escuela": "Adivinación",
-    "tiempo_de_lanzamiento": "1 minuto",
+    "tiempo_de_lanzamiento": "1 minuto o un ritual",
     "ritual": true,
     "alcance": "Lanzador",
     "visible": false,
@@ -255,8 +263,8 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Entras en contacto con tu deidad o representante divino y haces tres preguntas que puedan ser respondidas con sí o no. Debes realizar las preguntas antes de que el conjuro termine y recibes una respuesta correcta para cada pregunta.<br><br>Un ser divino no es necesariamente omnisciente, así que puedes recibir \"incierto\" como respuesta si la pregunta se refiere a información más allá del conocimiento de la deidad. En el caso de que una respuesta con una sola palabra pueda inducir a error o se contraríe a los intereses de la deidad, el DM puede ofrecer una frase corta en su lugar.<br><br>Si se lanza dos veces o más antes del próximo descanso largo, hay una posibilidad acumulativa del 25% por cada lanzamiento después del primero de no recibir respuesta. El DM realiza esta tirada en secreto.",
-    "materiales": "Incienso y un vial de agua sagrada o impía"
+    "descripcion": "Te pones en contacto con una deidad o con un representante divino y le haces hasta tres preguntas que se puedan responder con sí o no. Tienes que realizar las preguntas antes de que el conjuro termine y recibirás una respuesta correcta a cada una de ellas.<br>Los seres divinos no tienen por qué ser omniscientes, por lo que si la deidad no tiene información sobre lo que le preguntas, puede responderte “ambiguo”. En caso de que una respuesta de una sola palabra pudiera inducir a error o ser contraria a los intereses de la deidad, tu DM podría ofrecer en su lugar una frase corta.<br>Si lanzas el conjuro más de una vez antes de finalizar un descanso largo, hay una posibilidad acumulativa del 25 % por cada lanzamiento después del primero de que no recibas ninguna respuesta.",
+    "materiales": "Incienso"
   },
   {
     "nombre": "Comunión con la naturaleza",
@@ -265,10 +273,9 @@
       "Explorador"
     ],
     "escuela": "Adivinación",
-    "tiempo_de_lanzamiento": "1 minuto",
+    "tiempo_de_lanzamiento": "1 minuto o un ritual",
     "ritual": true,
     "alcance": "Lanzador",
-    "visible": false,
     "componentes": [
       "V",
       "S"
@@ -276,31 +283,31 @@
     "concentracion": false,
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Realizas una breve comunión con la naturaleza que te otorga cierto conocimiento sobre el terreno circundante. En exteriores, el conjuro te proporciona información sobre el terreno en 3 millas a tu alrededor. En una cueva u otra localización subterránea natural, el alcance se limita a 300 pies. Este conjuro no es efectivo si la naturaleza ha sido sustituida por una construcción, como en una mazmorra o pueblo.<br><br>Conoces de forma inmediata tres hechos de tu elección sobre cualquiera de los siguientes elementos relacionados con el terreno:<br><br>• Terreno y masas de agua.<br>• Plantas, minerales, animales y gentes comunes.<br>• Seres poderosos de origen celestial, feérico, demoníaco, elemental o muertos vivientes.<br>• Influencia de otros planos de existencia.<br>• Edificios.<br><br>Por ejemplo, podrías determinar la localización de muertos vivientes poderosos en el área, de masas de agua potable cercanas y de cualquier pueblo en los alrededores.",
-    "materiales": null
+    "descripcion": "Comulgas con espíritus de la naturaleza y obtienes información sobre la zona circundante. En exteriores, el conjuro te proporciona información de la zona a 4,5 km a tu alrededor. En cavernas u otros entornos naturales subterráneos, el radio se ve limitado a 90 m. El conjuro no funciona en lugares en los que la naturaleza ha sido sustituida por construcciones, como castillos y asentamientos.<br><br>Elige tres de los siguientes hechos, que aprenderás según corresponda a la zona del conjuro:<br>• Ubicaciones de asentamientos.<br>• Ubicaciones de portales a otros planos de existencia.<br>• La ubicación de una criatura con un valor de desafío de 10 o más (a elección de tu DM) que sea celestial, elemental, feérico, infernal o muerto viviente.<br>• El tipo de planta, mineral o bestia más frecuente (tú decides cuál).<br>• Ubicaciones de masas de agua.<br><br>Por ejemplo, podrías determinar el paradero de un monstruo poderoso en la zona y la ubicación de masas de agua y de cualquier pueblo cercano.",
+    "requiere_ataque": false
   },
   {
     "nombre": "Conjurar elemental",
     "clases": [
-      "Druída"
+      "Druída",
+      "Mago"
     ],
     "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 minuto",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "90 pies",
-    "visible": true,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "componentes": [
       "V",
-      "S",
-      "M"
+      "S"
     ],
     "concentracion": true,
-    "duracion": "Hasta 1 hora",
-    "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Invocas a un sirviente elemental. Elige un área de agua, aire, fuego o tierra, dentro del alcance que llene un cubo de 10 pies de lado. Un elemental con valor de desafío 5 o menos y apropiado al área elegida aparece en un espacio desocupado a 10 pies de este. Por ejemplo, un elemental de fuego emergerá de una fogata y un elemental de tierra de un suelo de tierra. El elemental desaparece si sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Es amistoso hacia ti y tus compañeros hasta el final de la duración del conjuro. Haz una tirada de iniciativa para el elemental, que tiene sus propios turnos. Obedece cualquier mandato verbal tuyo (no requiere acción). Si no le das ninguna orden, se defenderá de criaturas hostiles, pero no realizará ninguna otra acción.<br><br>Si tu concentración se rompe, el elemental no desaparece. En vez de eso, pierdes el control del elemental, que ve hostil hacia ti y tus compañeros y podría atacaros. No puedes desconvocar a un elemental descontrolado, que desaparecerá 1 hora después de que lo invoques.<br><br>El DM tiene el perfil del elemental.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o más, el valor de desafío del elemental aumenta en 1 por cada nivel por encima de 5 que tenga el espacio que hayas usado.",
-    "materiales": "Incienso para aire, arcilla blanda para tierra, azufre y fósforo para fuego o arena y agua para agua"
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "DES",
+    "descripcion": "Invocas un espíritu Grande e intangible de los Planos Elementales, que aparece en un espacio sin ocupar dentro del alcance. Elige el elemento del espíritu, que determina su tipo de daño: agua (frío), aire (relámpago), fuego (fuego) o tierra (trueno). El espíritu permanece hasta que el conjuro termine.<br><br>Siempre que una criatura que puedas ver entre en el espacio del espíritu o empiece su turno a 1,5 m o menos de él, puedes obligarla a hacer una tirada de salvación de Destreza si el espíritu no tiene ninguna criatura apresada. Si la falla, el objetivo sufrirá 8d8 de daño del tipo del espíritu y tendrá el estado de apresado hasta que el conjuro termine. Al principio de cada uno de sus turnos, el objetivo apresado repite la tirada de salvación. Si la falla, sufrirá 4d8 de daño del tipo del espíritu. Si la supera, dejará de estar apresado por él.<br><br><b>Con un espacio de conjuro de nivel superior.</b> El daño aumenta en 2d8 por cada nivel por encima de 5 que tenga el espacio.",
+    "requiere_ataque": false
   },
   {
     "nombre": "Conjurar lluvia de flechas",

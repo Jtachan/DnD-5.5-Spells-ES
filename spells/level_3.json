@@ -105,7 +105,10 @@
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "150 pies",
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
     "visible": false,
     "componentes": [
       "V",
@@ -116,19 +119,24 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Una ráfaga brillante surge de tu dedo hacia un punto de tu elección dentro del alcance y después crece con un rugido sordo hasta convertirse en una explosión ardiente. Todas las criaturas en una esfera de 20 pies centrada en el punto deben hacer una tirada de salvación de Destreza. Sufrirán 8d6 de daño de fuego si fallan la tirada o la mitad del daño si la superan.<br>El fuego se extiende más allá de las esquinas. Los objetos inflamables que se encuentren en el área que no lleve o vista alguien arderán.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, el daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
-    "materiales": "Una pelotita de guano de murciélago y azufre."
+    "descripcion": "Una ráfaga brillante surge de ti hacia un punto dentro del alcance y estalla con un rugido. Todas las criaturas en una esfera de 6 m de radio centrada en ese punto hacen una tirada de salvación de Destreza; sufren 8d6 de daño de fuego si la fallan o la mitad si la superan. Los objetos inflamables no llevados o equipados comienzan a arder.<br><b>Con un espacio de conjuro de nivel superior.</b> El daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": "Una pelota de guano de murciélago y azufre"
   },
   {
     "nombre": "Caminar sobre el agua",
     "clases": [
       "Clérigo",
-      "Druída"
+      "Druída",
+      "Explorador",
+      "Hechicero"
     ],
     "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción o ritual",
     "ritual": true,
-    "alcance": "30 pies",
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -139,7 +147,7 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Este conjuro proporciona la capacidad de moverse a través de cualquier superficie líquida, como agua, ácido, barro, nieve, arenas movedizas o lava, como si fuera un terreno sólido inofensivo (aunque las criaturas que crucen lava fundida podrían recibir daño del intenso calor). Un máximo de diez criaturas que puedas ver dentro del alcance recibirán esta capacidad hasta que el conjuro termine.<br>Si eliges como objetivo a una criatura sumergida en un líquido, el conjuro la elevará a la superficie del mismo a una velocidad de 60 pies por asalto.",
+    "descripcion": "Este conjuro concede la capacidad de moverse por encima de cualquier superficie líquida, como agua, ácido, barro, nieve, arenas movedizas o lava, como si se tratara de un suelo sólido inofensivo (aunque las criaturas que crucen lava derretida pueden seguir sufriendo daño por el calor). Hasta diez criaturas voluntarias que elijas dentro del alcance obtienen esta capacidad hasta que termine el conjuro.<br>Los objetivos afectados deben emplear una acción adicional para pasar de la superficie del líquido al propio líquido y viceversa, pero si caen en él, pasarán a través de la superficie al líquido que hay debajo.",
     "materiales": "Un trozo de corcho."
   },
   {
@@ -148,43 +156,47 @@
       "Paladín"
     ],
     "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción adicional",
+    "tiempo_de_lanzamiento": "Acción adicional, que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V"
     ],
-    "concentracion": true,
-    "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Constitución",
-    "requiere_ataque": true,
-    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma se vuelve fulgurante y el ataque inflige 3d8 de daño radiante adicionales al objetivo. Además, el objetivo debe tener éxito en una tirada de salvación de Constitución o quedará cegado hasta el final de la duración del conjuro.<br><br>Una criatura cegada por este conjuro debe realizar otra tirada de salvación de Constitución al final de cada uno de sus turnos. Si tiene éxito, deja de estar cegada.",
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "El objetivo del golpe sufrirá 3d8 de daño radiante adicional del ataque y tendrá el estado de cegado hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo cegado hará una tirada de salvación de Constitución y, si tiene éxito, se librará del conjuro.<br><i>Con un espacio de conjuro de nivel superior.</i> El daño adicional aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
     "materiales": null
   },
   {
     "nombre": "Círculo mágico",
     "clases": [
+      "Brujo",
       "Clérigo",
-      "Hechicero",
-      "Mago"
+      "Mago",
+      "Paladín"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "1 minuto",
     "ritual": false,
-    "alcance": "10 pies",
-    "visible": true,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": false,
     "componentes": [
       "V",
       "S",
       "M"
     ],
-    "concentracion": true,
+    "concentracion": false,
     "duracion": "1 hora",
     "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
-    "descripcion": "Creas un cilindro de energía mágica de 10 pies de radio y 20 pies de alto, centrado en un punto del suelo que puedas ver dentro del alcance. Las intersecciones del cilindro con suelos o paredes quedan marcadas por una línea de runas brillantes.<br><br>Elige uno o más de los siguientes tipos de criatura: celestiales, elementales, feéricos, infernales o muertos vivientes. El círculo afecta a las criaturas del tipo o tipos escogidos de las siguientes maneras:<br><br>• Las criaturas de los tipos elegidos no pueden entrar en el cilindro mediante medios no mágicos. Si intentan usar teletransportación o viaje interplanar para entrar, primero deben realizar una tirada de salvación de Carisma.<br>• Las criaturas de los tipos elegidos tienen desventaja en las tiradas de ataque contra objetivos dentro del cilindro.<br>• Las criaturas dentro del cilindro no pueden ser hechizadas, asustadas o poseídas por las criaturas de los tipos elegidos.<br><br>Cuando lanzas este conjuro puedes elegir que la magia funcione de forma inversa. Es decir, evitando que las criaturas de los tipos escogidos salgan del cilindro y protegiendo a las que estén fuera del mismo.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, la duración aumenta en 1 hora por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
-    "materiales": "Agua bendita o plata y hierro pulverizados con un valor de al menos 100 po, que son consumidos como parte del conjuro"
+    "descripcion": "Creas un cilindro de energía mágica de 3 m de radio y 6 m de altura centrado en un punto del suelo que puedas ver dentro del alcance. En los puntos de intersección entre el cilindro y el suelo o cualquier otra superficie aparecerán unas runas brillantes.<br>Elige uno o más de los siguientes tipos de criaturas: celestiales, elementales, feéricos, infernales o muertos vivientes. El círculo afecta a una criatura del tipo elegido de las siguientes formas:<br>• La criatura no puede entrar voluntariamente en el cilindro por medios no mágicos. Si la criatura intenta usar el teletransporte o el viaje interplanar para hacerlo, antes deberá superar una tirada de salvación de Carisma.<br>• La criatura tiene desventaja en las tiradas de ataque contra objetivos que estén dentro del cilindro.<br>• Los objetivos dentro del cilindro no pueden ser poseídos por la criatura ni obtener los estados de asustados o hechizados a causa de ella.<br><br>Cada vez que lances este conjuro, puedes hacer que su magia funcione en sentido inverso para impedir que una criatura del tipo especificado salga del cilindro y proteger así a los objetivos que estén fuera de él.<br><i>Con un espacio de conjuro de nivel superior.</i> La duración aumenta en 1 hora por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": "Sal y plata en polvo que valga al menos 100 po, que se consumen como parte del conjuro"
   },
   {
     "nombre": "Clarividencia",
@@ -197,7 +209,10 @@
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "10 minutos",
     "ritual": false,
-    "alcance": "1 milla",
+    "alcance": [
+      "1 milla",
+      "1,5 km"
+    ],
     "visible": false,
     "componentes": [
       "V",
@@ -208,8 +223,8 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas un sensor invisible dentro del alcance, en una localización familiar (que hayas visitado o visto antes) o en una ubicación obvia que no te resulte familiar (por ejemplo, detrás de una puerta, a la vuelta de una esquina o en un salón abierto). El sensor se mantiene en el sitio hasta el final de la duración del conjuro, y no puede ser atacado ni interactuar con él.<br><br>Cuando lanzas el conjuro, elige vista u oído. Puedes usar el sentido escogido a través del sensor como si estuvieras en su posición. Utilizando una acción puedes cambiar entre vista y oído.<br><br>Una criatura que pueda ver el sensor (porque se beneficie de un conjuro de <i>ver invisibilidad</i> o posea visión verdadera, por ejemplo) contempla un orbe luminoso e intangible del tamaño de tu puño.",
-    "materiales": "Una trompetilla enjoyada o un ojo de cristal con un valor de 100 o más po, como foco"
+    "descripcion": "Creas un sensor invisible dentro del alcance en un lugar que conozcas (que hayas visitado o visto antes) o en un lugar obvio, aunque no lo conozcas (por ejemplo, tras una puerta, al girar una esquina o en una arboleda). Este sensor intangible e invulnerable permanecerá allí hasta que el conjuro termine.<br>Cuando lances el conjuro, elige la vista o el oído. Podrás usar el sentido elegido como si estuvieras en el espacio del sensor. Como acción adicional, puedes cambiar entre la vista y el oído.<br>Cualquier criatura que pueda percibir el sensor (por ejemplo, que se esté beneficiando del conjuro <i>ver invisibilidad</i> o que tenga visión verdadera) verá un orbe luminoso del tamaño aproximado de tu puño.",
+    "materiales": "Un canalizador que valga al menos 100 po; puede ser una trompetilla enjoyada o un ojo de cristal"
   },
   {
     "nombre": "Conjurar animales",
@@ -218,20 +233,21 @@
       "Explorador"
     ],
     "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "60 pies",
-    "visible": true,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": true,
-    "duracion": "Hasta 1 hora",
+    "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Convocas espíritus feéricos que toman la forma de bestias en espacios desocupados que puedas ver dentro del alcance. Elige una de las siguientes opciones para lo que convocas:<br><br>• Una bestia con valor de desafío 2 o menos.<br>• Dos bestias con valor de desafío 1 o menos.<br>• Cuatro bestias con valor de desafío 1/2 o menos.<br>• Ocho bestias con valor de desafío 1/4 o menos.<br><br>Cada bestia se considera feérica y desaparece cuando sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Las bestias convocadas son amistosas hacia ti y tus compañeros. Las criaturas actúan como un grupo con sus propios turnos, con una sola de tirada de iniciativa común. Obedecen cualquier mandato verbal tuyo (no requiere acción). Si no les das ninguna orden, se defenderán de criaturas hostiles, pero no realizarán ninguna otra acción.<br><br>El DM tiene el perfil de las criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de determinados niveles superiores, el número de criaturas de la opción elegida aumenta: el doble si usas un espacio de conjuro de nivel 5, el triple si es de nivel 7 y cuatro veces más si es de nivel 9.",
-    "materiales": null
+    "descripcion": "Conjuras espíritus de la naturaleza que aparecen como una manada Grande de animales espectrales e intangibles en un espacio sin ocupar que puedas ver dentro del alcance. La manada permanecerá hasta que el conjuro termine y puedes elegir la forma animal de los espíritus, como lobos, serpientes o aves.<br><br>Tienes ventaja en las tiradas de salvación de Fuerza mientras estés a 1,5 m o menos de la manada. Además, cuando te muevas en tu turno, también podrás mover a la manada hasta 9 m a un espacio sin ocupar que puedas ver.<br><br>Siempre que la manada se mueva a 3 m o menos de una criatura que puedas ver y siempre que una criatura que puedas ver entre en un espacio a 3 m o menos de la manada o termine su turno allí, puedes obligar a la criatura a hacer una tirada de salvación de Destreza. Si la falla, recibirá 3d10 de daño cortante. Una criatura solo hace esta tirada una vez por turno.<br><b>Con un espacio de conjuro de nivel superior.</b> El daño aumenta en 1d10 por cada nivel por encima de 3 que tenga el espacio.",
+    "requiere_ataque": false
   },
   {
     "nombre": "Conjurar descarga de proyectiles",
@@ -239,21 +255,20 @@
       "Explorador"
     ],
     "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "Lanzador (cono de 60 pies)",
-    "visible": true,
+    "alcance": "Lanzador",
     "componentes": [
       "V",
       "S",
       "M"
     ],
+    "materiales": "un arma cuerpo a cuerpo o a distancia que valga al menos 1 po",
     "concentracion": false,
     "duracion": "Instantáneo",
     "tirada_de_salvacion": "DES",
-    "requiere_ataque": false,
-    "descripcion": "Arrojas un arma no mágica o unidad de munición al aire para crear un cono de armas idénticas que salen disparadas y luego desaparecen. Todas las criaturas en un cono de 60 pies deben hacer una tirada de salvación de Destreza. Sufrirán 3d8 de daño si fallan la tirada o la mitad del daño si la superan. El tipo de daño es el mismo que el del arma o munición utilizada como componente.",
-    "materiales": "Una unidad de munición o un arma arrojadiza"
+    "descripcion": "Blandes el arma utilizada para lanzar el conjuro e invocas versiones espectrales parecidas (o munición para el tipo de arma correspondiente) que salen disparadas hacia adelante y luego desaparecen. Todas las criaturas de tu elección que puedas ver en un cono de 18 m hacen una tirada de salvación de Destreza; sufrirán 5d8 de daño de fuerza si la fallan o la mitad del daño si la superan.<br><b>Con un espacio de conjuro de nivel superior.</b> El daño aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
+    "requiere_ataque": false
   },
   {
     "nombre": "Contrahechizo",

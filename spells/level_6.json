@@ -55,7 +55,10 @@
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "90 pies",
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
     "visible": false,
     "componentes": [
       "V",
@@ -65,20 +68,50 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Creas un muro vertical de cuchillas giratorias, afiladas y hechas de energía mágica. Este aparece dentro del alcance y permanece hasta el final de la duración del conjuro. Puedes crear un muro recto de hasta 100 pies de largo, 20 de alto y 5 de ancho o un muro en forma de anillo de 60 pies de diámetro, 20 de alto y 5 de ancho. En cualquiera caso, proporciona cobertura tres cuartos a las criaturas detrás de él y su espacio se considera terreno difícil.<br>Cuando una criatura entre en el área del muro por primera vez en un turno, o cuando empiece su turno en ella, deberá realizar una tirada de salvación de Destreza. Si falla, sufrirá 6d10 de daño cortante. Si tiene éxito, recibirá la mitad de daño.",
+    "descripcion": "Creas un muro de cuchillas giratorias hechas de energía mágica, que aparecerá dentro del alcance y durará hasta que termine el conjuro. Puedes crear un muro recto de hasta 30 m de longitud, 6 m de altura y 1.5 m de grosor, o un muro circular de hasta 18 m de diámetro, 6 m de altura y 1.5 m de grosor. El muro proporciona cobertura total a través de su espacio.<br>Cualquier criatura situada en el espacio del muro debe hacer una tirada de salvación de Destreza; sufre 6d10 de daño de fuerza si la falla o la mitad si la supera. Una criatura también debe hacer esta tirada si entra en el espacio del muro o termina su turno en él. Cada criatura solo hace esta tirada una vez por turno.",
     "materiales": null
+  },
+  {
+    "nombre": "Caldero burbujeante de Tasha",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Conjuración",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": [
+      "5 pies",
+      "1,5 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Conjuras un caldero con patas de garra y lleno de un líquido burbujeante, que aparecerá en un espacio sin ocupar en el suelo a 1,5 m de ti y permanecerá hasta que termine el conjuro. El caldero no se puede mover y desaparece cuando termine el conjuro junto con el líquido que contiene.<br>El líquido del caldero copia las propiedades de una poción común o infrecuente que elijas (por ejemplo, de una poción de curación). Como acción adicional, un aliado o tú podéis meter la mano en el caldero y extraer una poción de ese tipo. La poción viene en un vial que desaparece tras consumirla. El caldero puede producir una cantidad de pociones de ese tipo igual a tu modificador por aptitud mágica (mínimo 1). Cuando se extrae la última poción del caldero, este desaparece y el conjuro termina.<br>Las pociones obtenidas del caldero que no se consuman desaparecerán cuando vuelvas a lanzar el conjuro.",
+    "materiales": "Un cucharón bañado en oro que valga al menos 500 po."
   },
   {
     "nombre": "Círculo de muerte",
     "clases": [
+      "Brujo",
       "Hechicero",
       "Mago"
     ],
     "escuela": "Nigromancia",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "150 pies",
-    "visible": true,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": false,
     "componentes": [
       "V",
       "S",
@@ -88,8 +121,8 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Una esfera de energía negativa se expande hasta cubrir una esfera de 60 pies de radio alrededor de un punto dentro del alcance. Cada criatura en el área debe hacer una tirada de salvación de Constitución. Sufrirá 8d6 de daño necrótico si falla la tirada o la mitad del daño si la supera.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o más, el daño aumenta en 2d6 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
-    "materiales": "Una perla negra pulverizada que valga, al menos, 500 po"
+    "descripcion": "Una energía negativa se propaga en un radio de 18 m desde un punto que elijas dentro del alcance. Todas las criaturas situadas en la zona realizan una tirada de salvación de Constitución; sufrirán 8d8 de daño necrótico si la fallan o la mitad del daño si la superan.<br><i>Con un espacio de conjuro de nivel superior.</i> El daño aumenta en 2d8 por cada nivel por encima de 6 que tenga el espacio.",
+    "materiales": "Una perla negra pulverizada que valga al menos 500 po"
   },
   {
     "nombre": "Conjurar feérico",
@@ -97,20 +130,21 @@
       "Druída"
     ],
     "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 minuto",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "90 pies",
-    "visible": true,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": true,
-    "duracion": "Hasta 1 hora",
-    "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Invocas a una criatura feérica con valor de desafío 6 o menos, o un espíritu feérico que tome la forma de una bestia con valor de desafío 6 o menos. Aparece en un espacio desocupado que puedas ver dentro del alcance. El feérico desaparece si sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Es amistoso hacia ti y tus compañeros hasta el final de la duración del conjuro. Haz una tirada de iniciativa para el feérico, que tiene sus propios turnos. Obedecerá cualquier mandato verbal tuyo (no requiere acción) que no viole su alineamiento. Si no le das ninguna orden, se defenderá de criaturas hostiles, pero no realizará ninguna otra acción.<br><br>Si tu concentración se rompe, el feérico no desaparece. En vez de eso, pierdes el control del feérico, que se vuelve hostil hacia ti y tus compañeros y podría atacaros. No puedes desconvocar al feérico descontrolado, que desaparecerá 1 hora después de que lo invoques.<br><br>El DM tiene el perfil de las criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o más, el valor de desafío del feérico aumenta en 1 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
-    "materiales": null
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "SAB",
+    "descripcion": "Conjuras un espíritu Mediano de los Parajes Feéricos en un espacio sin ocupar que puedas ver dentro del alcance. El espíritu dura hasta que termine el conjuro y toma la forma de una criatura feérica de tu elección. Cuando aparezca, puedes hacer un ataque de conjuro cuerpo a cuerpo contra una criatura a 1,5 m o menos de él. Si acierta, el objetivo sufrirá una cantidad de daño psíquico igual a 3d12 más tu modificador por aptitud mágica y tendrá el estado de asustado hasta el principio de tu siguiente turno, y tanto el espíritu como tú seréis el origen de su miedo.<br><br>Como acción adicional en tus siguientes turnos, puedes teletransportar el espíritu a un espacio sin ocupar que puedas ver a 9 m o menos del espacio que ocupaba antes y hacer el ataque contra una criatura a 1,5 m o menos de él.<br><b>Con un espacio de conjuro de nivel superior.</b> El daño aumenta en 2d12 por cada nivel por encima de 6 que tenga el espacio.",
+    "requiere_ataque": true
   },
   {
     "nombre": "Contingencia",

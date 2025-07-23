@@ -95,19 +95,19 @@
     "clases": [
       "Paladín"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción adicional",
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acción adicional, que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V"
     ],
-    "concentracion": true,
-    "duracion": "Hasta 1 minuto",
+    "concentracion": false,
+    "duracion": "Instantáneo",
     "tirada_de_salvacion": "SAB",
-    "requiere_ataque": true,
-    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, perforas su cuerpo y su mente, y el ataque le inflige 4d6 de daño psíquico adicionales. El objetivo debe hacer una tirada de salvación de Sabiduría. Si fracasa, hasta el comienzo de su próximo turno tendrá desventaja en tiradas de ataque y pruebas de característica y no podrá llevar a cabo reacciones.",
+    "requiere_ataque": false,
+    "descripcion": "El objetivo recibirá 4d6 de daño psíquico adicional del ataque y deberá superar una tirada de salvación de Sabiduría o tendrá el estado de aturdido hasta el final de tu siguiente turno.<br><i>Con un espacio de conjuro de nivel superior.</i> El daño adicional aumenta en 1d6 por cada nivel por encima de 4 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -116,21 +116,21 @@
       "Mago"
     ],
     "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
     "alcance": "Toque",
-    "visible": true,
+    "visible": false,
     "componentes": [
       "V",
       "S",
       "M"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Hasta que sea disipado",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Ocultas un cofre y todos sus contenidos en el Plano Etéreo. Debes tocar el cofre y la réplica en miniatura que sirven de componentes materiales para el conjuro. El cofre puede alojar hasta 12 pies cúbicos de materiales inertes (3 pies por 2 pies por 2 pies).<br><br>Mientras permanezca en el Plano Etéreo, puedes utilizar una acción y tocar la réplica para convocarlo. Aparecerá en un espacio desocupado del suelo a 5 pies de ti. Puedes volver a mandarlo al Plano Etéreo empleando una acción y tocando tanto la réplica como el propio cofre.<br><br>Después de 60 días, hay una posibilidad acumulativa del 5% por día de que los efectos del conjuro terminen. También lo harán si lanzas el conjuro de nuevo, si la réplica del cofre es destruida o si decides finalizar el conjuro con una acción. Si el conjuro termina y el cofre grande está en el Plano Etéreo, se pierde irremediablemente.",
-    "materiales": "Un cofre de manufactura exquisita, cuyas dimensiones sean de 3 pies por 2 pies por 2 pies, construido de materiales exóticos con un valor de al menos 5.000 po, así como una réplica diminuta hecha de los mismos materiales y con un valor de al menos 50 po"
+    "descripcion": "Ocultas un cofre y todo su contenido en el Plano Etéreo. Debes tocar el cofre y la réplica en miniatura que sirve como componente material del conjuro. El cofre puede contener hasta 0,34 m³ de material inerte (90 cm por 60 cm por 60 cm).<br>Mientras el cofre permanezca en el Plano Etéreo, puedes usar una acción de magia y tocar la réplica para recuperar dicho cofre, que aparecerá en un espacio sin ocupar en el suelo a 1,5 m de ti. Puedes enviar el cofre de regreso al Plano Etéreo usando una acción de magia para tocar el cofre y la réplica.<br>Después de 60 días, hay una posibilidad acumulativa del 5 % al final de cada día de que el efecto del conjuro termine. El conjuro también termina si vuelves a lanzarlo o si se destruye la réplica Diminuta del cofre. Si el conjuro termina y el cofre grande está en el Plano Etéreo, permanecerá allí hasta que otra persona o tú lo encontréis.",
+    "materiales": "Un cofre de con unas dimensiones de 90 cm por 60 cm por 60 cm, construido de materiales raros que valgan al menos 5000 po, así como una réplica Diminuta hecha de los mismos materiales y que valga al menos 50 po"
   },
   {
     "nombre": "Compulsión",
@@ -138,9 +138,12 @@
       "Bardo"
     ],
     "escuela": "Encantamiento",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "30 pies",
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -150,7 +153,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Una o más criaturas de tu elección que puedas ver, dentro del alcance y que puedan oírte deben realizar una tirada de salvación de Sabiduría. Las criaturas inmunes a ser hechizadas tienen éxito automáticamente. Aquellas que fallen la tirada quedan afectadas por el conjuro.<br><br>Hasta el final del conjuro puedes usar una acción adicional en cada uno de tus turnos para designar una dirección horizontal respecto a ti. Cada criatura afectada debe usar todo el movimiento del que disponga para avanzar en esa dirección durante su próximo turno. Puede realizar una acción antes de mover. Además, después de avanzar puede hacer otra tirada de salvación para intentar terminar el efecto.<br><br>Una criatura afectada no está obligada a moverse dentro de un peligro mortal y obvio, como una hoguera o un pozo, pero provocará ataques de oportunidad al moverse en la dirección señalada.",
+    "descripcion": "Todas las criaturas de tu elección que puedas ver dentro del alcance deberán superar una tirada de salvación de Sabiduría o tendrán el estado de hechizadas hasta que el conjuro termine.<br>Mientras dure, puedes usar una acción adicional para designar una dirección horizontal respecto a ti. Cada criatura hechizada deberá usar todo el movimiento que pueda para avanzar en esa dirección por la ruta más segura durante su próximo turno. Tras moverse de este modo, un objetivo repite la tirada de salvación y, si tiene éxito, se librará del conjuro.",
     "materiales": null
   },
   {
@@ -162,42 +165,43 @@
       "Mago"
     ],
     "escuela": "Encantamiento",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "90 pies",
-    "visible": true,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
     "componentes": [
       "V",
       "S",
       "M"
     ],
+    "materiales": "tres cáscaras de nuez",
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
-    "requiere_ataque": false,
-    "descripcion": "Este conjuro ataca y retuerce la mente, creando ilusiones y provocando acciones incontroladas. Cada criatura en una esfera de 10 pies de radio centrada en un punto de tu elección dentro del alcance debe tener éxito en una tirada de salvación de Sabiduría o será afectada por el conjuro.<br><br>Una criatura afectada no puede llevar a cabo reacciones y debe tirar 1d10 al principio de cada uno de sus turnos para determinar cómo se comporta ese turno:<br><br><b>d10 - Comportamiento</b><br>1: La criatura emplea todo su movimiento en avanzar en una dirección aleatoria. Para determinar la dirección, lanza 1d8 asignando una dirección a cada cara del dado. No realiza acciones ese turno.<br>2–6: La criatura no se mueve ni realiza acciones ese turno.<br>7–8: La criatura usa su acción para hacer un ataque cuerpo a cuerpo contra una criatura determinada aleatoriamente dentro de su alcance. Si no hay ninguna criatura en su alcance, no hace nada ese turno.<br>9–10: La criatura puede actuar y moverse con normalidad.<br><br>Al final de cada uno de sus turnos, el objetivo puede realizar otra tirada de salvación de Sabiduría; si tiene éxito, el conjuro termina para él.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o más, el radio de la esfera aumenta en 5 pies por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
-    "materiales": "Tres cáscaras de nuez"
+    "descripcion": "Todas las criaturas situadas en una esfera de 3 m de radio centrada en un punto que elijas dentro del alcance deberán superar una tirada de salvación de Sabiduría o no podrán usar acciones adicionales ni reacciones y deberán tirar 1d10 al principio de cada uno de sus turnos para determinar su comportamiento ese turno. Para ello, consulta la tabla que se muestra a continuación.<br><br><b>1d10 Comportamiento del turno</b><br><b>1</b> El objetivo no usa ninguna acción y emplea todo su movimiento para desplazarse. Para determinar la dirección, tira 1d4: con un 1, se moverá al norte; con un 2, al este; con un 3, al sur; con un 4, al oeste.<br><b>2–6</b> El objetivo no se mueve ni realiza acciones.<br><b>7–8</b> El objetivo no se mueve y emplea la acción de atacar para hacer un ataque cuerpo a cuerpo contra una criatura aleatoria dentro de su alcance. Si no hay ninguna dentro de su alcance, el objetivo no hace ninguna acción.<br><b>9–10</b> El objetivo elige su comportamiento.<br><br>Al final de cada uno de sus turnos, un objetivo afectado repite la tirada de salvación y, si tiene éxito, se librará del conjuro.<br><b>Con un espacio de conjuro de nivel superior.</b> El radio de la esfera aumenta en 1,5 m por cada nivel por encima de 4 que tenga el espacio.",
+    "requiere_ataque": false
   },
   {
     "nombre": "Conjurar elementales menores",
     "clases": [
-      "Druída"
+      "Druída",
+      "Mago"
     ],
     "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 minuto",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "90 pies",
-    "visible": true,
+    "alcance": "Lanzador",
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": true,
-    "duracion": "Hasta 1 hora",
+    "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Convocas elementales en espacios desocupados que puedas ver dentro del alcance. Elige una de las siguientes opciones para lo que convocas:<br><br>• Un elemental con valor de desafío 2 o menos.<br>• Dos elementales con valor de desafío 1 o menos.<br>• Cuatro elementales con valor de desafío 1/2 o menos.<br>• Ocho elementales con valor de desafío 1/4 o menos.<br><br>Los elementales desaparecen si llegan a 0 puntos de golpe o el conjuro termina.<br><br>Las criaturas invocadas son amistosas hacia ti y tus compañeros. Las criaturas actúan como un grupo con sus propios turnos, con una sola de tirada de iniciativa común. Obedecen cualquier mandato verbal tuyo (no requiere acción). Si no les das ninguna orden, se defenderán de criaturas hostiles, pero no realizarán ninguna otra acción.<br><br>El DM tiene el perfil de las criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de determinados niveles superiores, el número de criaturas de la opción elegida aumenta: el doble si usas un espacio de conjuro de nivel 6 y el triple si es de nivel 8.",
-    "materiales": null
+    "descripcion": "Conjuras espíritus de los Planos Elementales que revolotean a tu alrededor en una emanación de 4,5 m mientras dure el conjuro. Hasta que el conjuro termine, cualquier ataque que hagas causará 2d8 de daño adicional cuando aciertes a una criatura dentro de la emanación. Ese daño será de ácido, frío, fuego o relámpago (a tu elección cuando ataques).<br><br>Además, el suelo incluido en la emanación se considerará terreno difícil para tus enemigos.<br><b>Con un espacio de conjuro de nivel superior.</b> El daño aumenta en 2d8 por cada nivel por encima de 4 que tenga el espacio.",
+    "requiere_ataque": false
   },
   {
     "nombre": "Conjurar seres del bosque",
