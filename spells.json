@@ -1414,7 +1414,7 @@
   {
     "nombre": "Comuni\u00f3n con la naturaleza",
     "clases": [
-      "Druida",
+      "Dru\u00edda",
       "Explorador"
     ],
     "escuela": "Adivinaci\u00f3n",
@@ -1438,7 +1438,7 @@
     "nombre": "Confusi\u00f3n",
     "clases": [
       "Bardo",
-      "Druida",
+      "Dru\u00edda",
       "Hechicero",
       "Mago"
     ],
@@ -1463,7 +1463,7 @@
   {
     "nombre": "Conjurar animales",
     "clases": [
-      "Druida",
+      "Dru\u00edda",
       "Explorador"
     ],
     "escuela": "Conjuraci\u00f3n",
@@ -1531,7 +1531,7 @@
   {
     "nombre": "Conjurar elemental",
     "clases": [
-      "Druida"
+      "Dru\u00edda"
     ],
     "escuela": "Conjuraci\u00f3n",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -1554,7 +1554,7 @@
   {
     "nombre": "Conjurar elementales menores",
     "clases": [
-      "Druida"
+      "Dru\u00edda"
     ],
     "escuela": "Conjuraci\u00f3n",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -1576,7 +1576,7 @@
   {
     "nombre": "Conjurar fe\u00e9rico",
     "clases": [
-      "Druida"
+      "Dru\u00edda"
     ],
     "escuela": "Conjuraci\u00f3n",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -1621,7 +1621,7 @@
   {
     "nombre": "Conjurar seres del bosque",
     "clases": [
-      "Druida"
+      "Dru\u00edda"
     ],
     "escuela": "Conjuraci\u00f3n",
     "tiempo_de_lanzamiento": "1 acci\u00f3n",
@@ -1670,7 +1670,7 @@
     "clases": [
       "Bardo",
       "Cl\u00e9rigo",
-      "Druida",
+      "Dru\u00edda",
       "Hechicero",
       "Mago"
     ],
@@ -1742,7 +1742,7 @@
     "nombre": "Contagio",
     "clases": [
       "Cl\u00e9rigo",
-      "Druida"
+      "Dru\u00edda"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "1 acci\u00f3n",
@@ -1834,7 +1834,7 @@
     "nombre": "Controlar agua",
     "clases": [
       "Cl\u00e9rigo",
-      "Druida",
+      "Dru\u00edda",
       "Hechicero",
       "Mago"
     ],
@@ -1861,7 +1861,7 @@
     "clases": [
       "Bardo",
       "Cl\u00e9rigo",
-      "Druida"
+      "Dru\u00edda"
     ],
     "escuela": "Transmutaci\u00f3n",
     "tiempo_de_lanzamiento": "10 minutos",
@@ -2001,7 +2001,7 @@
   {
     "nombre": "Crear llama",
     "clases": [
-      "Druida"
+      "Dru\u00edda"
     ],
     "escuela": "Conjuraci\u00f3n",
     "tiempo_de_lanzamiento": "1 acci\u00f3n",
@@ -2047,7 +2047,7 @@
     "nombre": "Crear o destruir agua",
     "clases": [
       "Cl\u00e9rigo",
-      "Druida"
+      "Dru\u00edda"
     ],
     "escuela": "Transmutaci\u00f3n",
     "tiempo_de_lanzamiento": "1 acci\u00f3n",
@@ -2066,6 +2066,148 @@
     "descripcion": "Creas o destruyes agua.<br><br><b>Crear agua.</b> Creas hasta 10 galones de agua limpia en un recipiente dentro del alcance. Alternativamente, el agua llueve en un cubo de 30 pies de lado dentro del alcance, apagando cualquier llama expuesta dentro del \u00e1rea.<br><br><b>Destruir agua.</b> Destruyes hasta 10 galones de agua limpia de un recipiente dentro del alcance. Alternativamente, deshaces la niebla en un cubo de 30 pies de lado dentro del alcance.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, por cada nivel por encima de 1 del espacio creas o destruyes 10 galones adicionales de agua o el lado del cubo aumenta en 5 pies.",
     "materiales": "Una gota de agua si est\u00e1s cre\u00e1ndola o unos granos de arena si la est\u00e1s destruyendo",
     "nivel": 1
+  },
+  {
+    "nombre": "Crecimiento espinoso",
+    "clases": [
+      "Bardo",
+      "Dru\u00edda",
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n",
+    "ritual": false,
+    "alcance": "150 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Concentraci\u00f3n, hasta 10 minutos",
+    "tirada_de_salvacion": "PER",
+    "requiere_ataque": false,
+    "descripcion": "Con un temblor, surgen espinas y pinchos del suelo en un radio de 20 pies alrededor de un punto dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, el suelo del \u00e1rea es terreno dif\u00edcil. Cuando una criatura entra o se mueve a trav\u00e9s del \u00e1rea, recibe 2d4 de da\u00f1o perforante por cada 5 pies que se desplace.<br><br>La transformaci\u00f3n del suelo queda camuflada de manera que parece natural. Cualquier criatura que no pueda ver el \u00e1rea en el momento en que se lanza el conjuro debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda (Percepci\u00f3n) con CD igual a tu salvaci\u00f3n de conjuros para darse cuenta de que el terreno es peligroso antes de entrar en \u00e9l.",
+    "materiales": "Siete espinas agudas o siete ramitas talladas hasta tener punta",
+    "nivel": 2
+  },
+  {
+    "nombre": "Crecimiento vegetal",
+    "clases": [
+      "Bardo",
+      "Dru\u00edda",
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n u 8 horas",
+    "ritual": false,
+    "alcance": "150 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro infunde vitalidad en las plantas de un \u00e1rea determinada. Hay dos posibles maneras de emplear este conjuro, que proporcionar\u00e1n beneficios a corto o a largo plazo.<br><br>Si lanzas el conjuro utilizando 1 acci\u00f3n, elige un punto que puedas ver dentro del alcance. Todas las plantas en un radio de 100 pies centrado en ese punto se vuelven gruesas y muy frondosas. Cualquier criatura que atraviese esa zona debe emplear 4 pies de movimiento por cada pie que quiera moverse.<br><br>Puedes excluir una o m\u00e1s \u00e1reas de cualquier tama\u00f1o de la zona afectada por el conjuro.<br><br>Si lanzas este conjuro durante 8 horas, enriquecer\u00e1s la tierra. Todas las plantas en un c\u00edrculo de media milla de radio centrado en un punto dentro del alcance quedan enriquecidas y potenciadas durante 1 a\u00f1o. Producir\u00e1n el doble de alimentos para la pr\u00f3xima cosecha.",
+    "materiales": null,
+    "nivel": 3
+  },
+  {
+    "nombre": "Curar",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Dru\u00edda"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n",
+    "ritual": false,
+    "alcance": "60 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Elige a una criatura que puedas ver dentro del alcance. Una r\u00e1faga de energ\u00eda positiva cubre al objetivo, haciendo que recupere 70 puntos de golpe. El conjuro tambi\u00e9n termina cualquier efecto de ceguera, sordera o enfermedad que aflija a la criatura. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, la curaci\u00f3n aumenta en 10 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
+    "materiales": null,
+    "nivel": 6
+  },
+  {
+    "nombre": "Curar en masa",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n",
+    "ritual": false,
+    "alcance": "60 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una r\u00e1faga de energ\u00eda curativa fluye a trav\u00e9s de ti hacia las criaturas heridas a tu alrededor. Elige a cualquier n\u00famero de criaturas voluntarias que puedas ver dentro del alcance. Recuperan 700 puntos de golpe en total, divididos como quieras. Cualquier criatura afectada por este conjuro tambi\u00e9n es curada de todas las enfermedades y de cualquier efecto que la mantuviera cegada o ensordecida. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.",
+    "materiales": null,
+    "nivel": 9
+  },
+  {
+    "nombre": "Curar heridas",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Dru\u00edda",
+      "Palad\u00edn",
+      "Explorador"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura a la que toques recupera tantos puntos de golpe como 1d8 + tu modificador por aptitud m\u00e1gica. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, la curaci\u00f3n aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Curar heridas en masa",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n",
+    "ritual": false,
+    "alcance": "60 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una ola de curaci\u00f3n emana desde un punto de tu elecci\u00f3n dentro del alcance. Elige hasta 6 criaturas dentro de una esfera de 30 pies centrada en ese punto. Cada una recupera tantos puntos de golpe como 3d8 + tu modificador por aptitud m\u00e1gica. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, la curaci\u00f3n aumenta en 1d8 por cada nivel por encima de 5 que tenga el espacio que hayas empleado.",
+    "materiales": null,
+    "nivel": 5
   },
   {
     "nombre": "C\u00edrculo de muerte",
@@ -2159,5 +2301,27 @@
     "descripcion": "Creas un cilindro de energ\u00eda m\u00e1gica de 10 pies de radio y 20 pies de alto, centrado en un punto del suelo que puedas ver dentro del alcance. Las intersecciones del cilindro con suelos o paredes quedan marcadas por una l\u00ednea de runas brillantes.<br><br>Elige uno o m\u00e1s de los siguientes tipos de criatura: celestiales, elementales, fe\u00e9ricos, infernales o muertos vivientes. El c\u00edrculo afecta a las criaturas del tipo o tipos escogidos de las siguientes maneras:<br><br>\u2022 Las criaturas de los tipos elegidos no pueden entrar en el cilindro mediante medios no m\u00e1gicos. Si intentan usar teletransportaci\u00f3n o viaje interplanar para entrar, primero deben realizar una tirada de salvaci\u00f3n de Carisma.<br>\u2022 Las criaturas de los tipos elegidos tienen desventaja en las tiradas de ataque contra objetivos dentro del cilindro.<br>\u2022 Las criaturas dentro del cilindro no pueden ser hechizadas, asustadas o pose\u00eddas por las criaturas de los tipos elegidos.<br><br>Cuando lanzas este conjuro puedes elegir que la magia funcione de forma inversa. Es decir, evitando que las criaturas de los tipos escogidos salgan del cilindro y protegiendo a las que est\u00e9n fuera del mismo.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, la duraci\u00f3n aumenta en 1 hora por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
     "materiales": "Agua bendita o plata y hierro pulverizados con un valor de al menos 100 po, que son consumidos como parte del conjuro",
     "nivel": 3
+  },
+  {
+    "nombre": "Da\u00f1ar",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 acci\u00f3n",
+    "ritual": false,
+    "alcance": "60 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Haces brotar una virulenta enfermedad en una criatura que puedas ver dentro del alcance. El objetivo debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 14d6 de da\u00f1o necr\u00f3tico si falla la tirada o la mitad del da\u00f1o si la supera.<br><br>El da\u00f1o no puede reducir los puntos de golpe del objetivo por debajo de 1. Adem\u00e1s, si falla la tirada de salvaci\u00f3n, los puntos de golpe m\u00e1ximos del objetivo se reducir\u00e1n durante una hora en la cantidad del da\u00f1o recibido. Cualquier efecto que cure una enfermedad permite que los puntos de golpe m\u00e1ximos del objetivo vuelvan a la normalidad antes del tiempo se\u00f1alado.",
+    "materiales": null,
+    "nivel": 6
   }
 ]
