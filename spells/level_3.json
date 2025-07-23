@@ -209,7 +209,7 @@
   {
     "nombre": "Conjurar animales",
     "clases": [
-      "Druida",
+      "Druída",
       "Explorador"
     ],
     "escuela": "Conjuración",
@@ -314,6 +314,29 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": "Creas 45 libras de comida y 30 galones de agua en el suelo o en recipientes dentro del alcance, lo suficiente para mantener a quince humanoides o cinco corceles durante 24 horas. La comida es sosa, aunque nutritiva, y se estropeará si no se ha consumido en 24 horas. En cambio, el agua está limpia y no se estropea.",
+    "materiales": null
+  },
+  {
+    "nombre": "Crecimiento vegetal",
+    "clases": [
+      "Bardo",
+      "Druída",
+      "Explorador"
+    ],
+    "escuela": "Transmutación",
+    "tiempo_de_lanzamiento": "1 acción u 8 horas",
+    "ritual": false,
+    "alcance": "150 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro infunde vitalidad en las plantas de un área determinada. Hay dos posibles maneras de emplear este conjuro, que proporcionarán beneficios a corto o a largo plazo.<br><br>Si lanzas el conjuro utilizando 1 acción, elige un punto que puedas ver dentro del alcance. Todas las plantas en un radio de 100 pies centrado en ese punto se vuelven gruesas y muy frondosas. Cualquier criatura que atraviese esa zona debe emplear 4 pies de movimiento por cada pie que quiera moverse.<br><br>Puedes excluir una o más áreas de cualquier tamaño de la zona afectada por el conjuro.<br><br>Si lanzas este conjuro durante 8 horas, enriquecerás la tierra. Todas las plantas en un círculo de media milla de radio centrado en un punto dentro del alcance quedan enriquecidas y potenciadas durante 1 año. Producirán el doble de alimentos para la próxima cosecha.",
     "materiales": null
   }
 ]

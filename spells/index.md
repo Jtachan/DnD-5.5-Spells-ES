@@ -98,3 +98,10 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Crear llama                          | 0 (Truco) |
 | Crear muerto viviente                | 6         |
 | Crear o destruir agua                | 1         |
+| Crecimiento espinoso                 | 2         |
+| Crecimiento vegetal                  | 3         |
+| Curar                                | 6         |
+| Curar en masa                        | 9         |
+| Curar heridas                        | 1         |
+| Curar heridas en masa                | 5         |
+| Dañar                                | 6         |

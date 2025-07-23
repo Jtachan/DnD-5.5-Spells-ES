@@ -355,5 +355,29 @@
     "requiere_ataque": false,
     "descripcion": "Un humanoide de tu elección que puedas ver dentro del alcance debe realizar una tirada de salvación de Sabiduría o quedará hechizado por ti. Mientras permanezca hechizado de esta manera, aparece en su cabeza una corona retorcida de hierro dentado y la locura brilla en sus ojos.<br><br>El objetivo hechizado debe utilizar su acción antes de moverse cada turno para realizar un ataque cuerpo a cuerpo contra una criatura elegida mentalmente por ti y que no sea ella misma.<br><br>Puede actuar con normalidad en su turno si no eliges ninguna criatura o no tiene ninguna a su alcance.<br><br>En turnos siguientes debes usar tu acción para mantener el control del objetivo o el conjuro termina. Al final de cada uno de sus turnos, el objetivo puede realizar otra tirada de salvación de Sabiduría. Si tiene éxito, el efecto del conjuro termina.",
     "materiales": null
+  },
+  {
+    "nombre": "Crecimiento espinoso",
+    "clases": [
+      "Bardo",
+      "Druída",
+      "Explorador"
+    ],
+    "escuela": "Transmutación",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "150 pies",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Concentración, hasta 10 minutos",
+    "tirada_de_salvacion": "PER",
+    "requiere_ataque": false,
+    "descripcion": "Con un temblor, surgen espinas y pinchos del suelo en un radio de 20 pies alrededor de un punto dentro del alcance. Hasta el final de la duración del conjuro, el suelo del área es terreno difícil. Cuando una criatura entra o se mueve a través del área, recibe 2d4 de daño perforante por cada 5 pies que se desplace.<br><br>La transformación del suelo queda camuflada de manera que parece natural. Cualquier criatura que no pueda ver el área en el momento en que se lanza el conjuro debe superar una tirada de salvación de Sabiduría (Percepción) con CD igual a tu salvación de conjuros para darse cuenta de que el terreno es peligroso antes de entrar en él.",
+    "materiales": "Siete espinas agudas o siete ramitas talladas hasta tener punta"
   }
 ]

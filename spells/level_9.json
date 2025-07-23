@@ -44,5 +44,26 @@
     "requiere_ataque": false,
     "descripcion": "Creas un cautiverio mágico para apresar a una criatura que puedas ver dentro del alcance. El objetivo debe tener éxito en una tirada de salvación de Sabiduría o quedará atado por el conjuro; si la supera, es inmune al mismo si vuelves a lanzarlo. Mientras la criatura esté afectada por este conjuro, no envejece y además no necesita comer, beber ni respirar. Los conjuros de adivinación no podrán localizarla o percibirla.<br><br>Cuando lanzas este conjuro, elige una de las siguientes formas de reclusión:<br><br><b>Enterrro.</b> El objetivo queda sepultado en un lugar muy profundo bajo el suelo, dentro de una esfera de fuerza mágica del tamaño justo para contenerlo. Nada puede atravesar la esfera, ni ninguna criatura podrá entrar o salir de ella utilizando teletransportación o viaje interplanar. El componente especial para esta versión del conjuro es un pequeño orbe de mithral.<br><br><b>Encadenamiento.</b> Pesadas cadenas, firmemente ancladas al suelo, atan al objetivo, que está apresado hasta el final del conjuro, y no puede moverse o ser desplazado de ninguna manera hasta entonces. El componente especial para esta versión del conjuro es una cadena fina de un metal precioso.<br><br><b>Presidio cercado.</b> El conjuro transporta al objetivo a un receptáculo semiplano, protegido contra la teletransportación y el viaje interplanar. El semiplano puede ser un laberinto, una jaula o cualquier estructura o zona confinada de tu elección. El componente especial para esta versión del conjuro es una representación en miniatura de la prisión, hecha en jade.<br><br><b>Contención mínima.</b> El objetivo queda reducido a una altura de 1 pulgada y aprisionado dentro de una gema u objeto similar. La luz puede pasar a través de la gema con normalidad (permitiendo al objetivo ver el exterior y a otras criaturas ver dentro), pero nada más puede entrar o salir, ni siquiera mediante teletransportación o viaje interplanar. La gema no puede ser cortada o rota mientras el conjuro siga en efecto. El componente especial para esta versión del conjuro es una gema grande y transparente, como un corindón, un diamante o un rubí.<br><br><b>Sueño.</b> El objetivo cae dormido y no puede ser despertado. El componente especial para esta versión del conjuro es un conjunto de hierbas soporíferas poco frecuentes.<br><br><b>Terminar el conjuro.</b> Durante el lanzamiento de cualquiera de las versiones del conjuro, puedes especificar una condición que finalizará el conjuro y liberará al objetivo. La condición puede ser tan específica o general como quieras, aunque el DM debe estar de acuerdo en que sea razonable y pueda llegar a ocurrir. Puede depender del nombre de la criatura, su identidad o ubicación, pero no debe basarse en acciones o cualidades posibles del objetivo (como su clase, nivel o puntos de golpe).<br><br>El conjuro <i>disipar magia</i> solo puede finalizar este conjuro si se lanza como uno de nivel 9, eligiendo como objetivo a la prisión o al área en la que fue creada.<br><br>Solo puedes emplear un componente especial concreto para crear una prisión a la vez. Si vuelves a lanzar el conjuro usando un mismo componente, el objetivo del primer lanzamiento queda en libertad inmediatamente.",
     "materiales": "Una representación del objetivo, en forma de estatuilla tallada o dibujo en vitela, y un componente especial en función de la versión escogida del conjuro, cuyo valor sea al menos 500 po por cada Dado de Golpe del objetivo"
+  },
+  {
+    "nombre": "Curar en masa",
+    "clases": [
+      "Clérigo"
+    ],
+    "escuela": "Evocación",
+    "tiempo_de_lanzamiento": "1 acción",
+    "ritual": false,
+    "alcance": "60 pies",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una ráfaga de energía curativa fluye a través de ti hacia las criaturas heridas a tu alrededor. Elige a cualquier número de criaturas voluntarias que puedas ver dentro del alcance. Recuperan 700 puntos de golpe en total, divididos como quieras. Cualquier criatura afectada por este conjuro también es curada de todas las enfermedades y de cualquier efecto que la mantuviera cegada o ensordecida. Este conjuro no afecta a muertos vivientes o autómatas.",
+    "materiales": null
   }
 ]
