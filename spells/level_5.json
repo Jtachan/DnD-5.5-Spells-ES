@@ -2,13 +2,17 @@
   {
     "nombre": "Alterar los recuerdos",
     "clases": [
+      "Bardo",
       "Hechicero",
       "Mago"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "30 pies",
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -18,7 +22,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Intentas reformar las memorias de otra criatura. Una criatura de tu elección que puedas ver dentro del alcance debe realizar una tirada de salvación de Sabiduría. Si tú o alguna criatura amistosa hacia ti estáis luchando contra ella, tiene ventaja en esta tirada de salvación. Si falla, queda hechizada hasta el final de la duración del conjuro. El objetivo hechizado queda incapacitado y no es consciente de su entorno, aunque todavía puede oírte. Si recibe cualquier daño o es objetivo de otro conjuro, alterar los recuerdos termina y no se cambia ninguno de sus recuerdos.<br>Mientras dure el conjuro, puedes afectar la memoria del objetivo en lo que respecta a un evento que haya experimentado en las últimas 24 horas y que no haya durado más de 10 minutos. También eres capaz de eliminar permanentemente todos los recuerdos de ese evento, permitir al objetivo recordarlo con total claridad y hasta el último detalle, cambiar su memoria de los detalles o crear un recuerdo de otro evento distinto.<br>Debes hablar al objetivo para describirle cómo su memoria queda afectada y debe ser capaz de entender tu idioma para que los recuerdos modificados se asienten. Su mente llenará cualquier hueco que deje tu descripción. Si el conjuro termina antes de que hayas acabado de describir los recuerdos modificados, la memoria de la criatura no se ve alterada. En caso contrario, los recuerdos se asentarán cuando acabe el conjuro.<br>Un recuerdo modificado no afectará necesariamente al comportamiento de una criatura, especialmente si el recuerdo contradice sus inclinaciones naturales, su alineamiento o sus creencias. Un recuerdo modificado ilógico, como el de cuánto disfrutó el objetivo al bañarse en ácido, es rechazado por su mente como si fuera un mal sueño. El DM puede considerar que un recuerdo modificado es demasiado absurdo como para afectar a una criatura de manera significativa.<br>Un conjuro de levantar maldición o restablecimiento mayor lanzado sobre el objetivo recupera los verdaderos recuerdos de la criatura.<br><b><i>A niveles superiores.</i></b> Si lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o más, puedes alterar recuerdos del objetivo de un evento que ocurrió hace 7 días (nivel 6), 30 días (nivel 7), 1 año (nivel 8) o en cualquier momento del pasado de la criatura (nivel 9).",
+    "descripcion": "Intentas modificar los recuerdos de otra criatura. Una criatura que puedas ver dentro del alcance realiza una tirada de salvación de Sabiduría. Si está luchando contra ti, tendrá ventaja en la tirada. Si la falla, tendrá el estado de hechizada hasta que termine el conjuro. Mientras esté hechizada de esta manera, el objetivo también tiene el estado de incapacitado y no es consciente de su entorno, aunque puede oírte. Si recibe cualquier daño o es el objetivo de otro conjuro, este conjuro termina y no se modifica ninguno de sus recuerdos.<br>Mientras dure este sortilegio, puedes afectar al recuerdo de un suceso que haya vivido el objetivo durante las últimas 24 horas y que no haya durado más de 10 minutos. Puedes eliminar permanentemente todo recuerdo del suceso, permitir que lo recuerde con claridad perfecta, cambiar cómo recuerda los detalles o crear un recuerdo de otro suceso.<br>Debes hablarle al objetivo para describir cómo se ven afectados sus recuerdos y este debe poder comprender tu idioma. Su mente llenará cualquier hueco que falte en los detalles de tu descripción. Si el conjuro termina antes de que acabes de describir los recuerdos modificados, la memoria de la criatura no se verá afectada. De lo contrario, los recuerdos modificados ocuparán el lugar de los reales en cuanto el conjuro termine.<br>Un recuerdo modificado no tiene por qué afectar al comportamiento de una criatura, en especial si contradice sus inclinaciones naturales, su alineamiento o sus creencias. Un recuerdo modificado que no sea lógico, como si fuese un sueño bañándose en sol, se difuminará y la criatura lo considerará un sueño. Tu DM podría considerar que un recuerdo modificado es demasiado ilógico como para afectar a una criatura.<br>Un conjuro <i>levantar maldición</i> o <i>restablecimiento mayor</i> lanzado sobre el objetivo restaurará los recuerdos auténticos de la criatura.<br><b>Con un espacio de conjuro de nivel superior.</b> Puedes alterar recuerdos del objetivo de un suceso que ocurrió hace 7 días (espacio de nivel 6), 30 días (espacio de nivel 7), 365 días (espacio de nivel 8) o en cualquier momento del pasado de la criatura (espacio de nivel 9).",
     "materiales": null
   },
   {
@@ -42,8 +46,8 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Devuelves a una criatura fallecida a la vida, siempre y cuando no haya estado muerta más de 10 días. Si el alma de la criatura tiene la libertad y la voluntad de reunirse con su cuerpo, vuelve a la vida con 1 punto de golpe.<br>Este conjuro también neutraliza cualquier veneno y cura cualquier enfermedad no mágica que afligiera a la criatura en el momento de su muerte. Sin embargo, este conjuro no elimina enfermedades mágicas, maldiciones o efectos similares; si no se eliminan antes del lanzamiento de este conjuro, entrarán en acción cuando la criatura vuelva a la vida. El conjuro no puede devolver a la vida a un muerto viviente.<br>Todas las heridas letales quedarán cerradas, pero no se restablecen miembros o partes del cuerpo que falten. Si la criatura no dispone de partes del cuerpo u órganos necesarios para su supervivencia (como su cabeza, por ejemplo) el conjuro fallará automáticamente.<br>Volver de entre los muertos es una dura experiencia. El objetivo tendrá un penalizador de -4 a todas las tiradas de ataque, tiradas de salvación y pruebas de característica. Cada vez que complete un descanso largo, ese penalizador se reducirá en 1, hasta que desaparezca al llegar a O.",
-    "materiales": "Un diamante con un valor de, al menos, 500 po, que es consumido como parte del conjuro."
+    "descripcion": "Con un toque, revives a una criatura que no lleve más de 10 días muerta y que no fuera un muerto viviente cuando falleció. La criatura vuelve a la vida con 1 punto de golpe.<br>El conjuro también neutraliza cualquier veneno que afectase a la criatura en el momento de su muerte. Este conjuro cierra todas las heridas mortales, pero no devuelve las partes del cuerpo que faltan. Si a la criatura le faltan partes del cuerpo u órganos fundamentales para que sobreviva (por ejemplo, la cabeza), el conjuro falla automáticamente.<br>Regresar de entre los muertos es una experiencia complicada. El objetivo tendrá un penalizador de -4 a las pruebas con d20. Cada vez que finalice un descanso largo, el penalizador se reduce en 1 hasta desaparecer.",
+    "materiales": "Un diamante que valga al menos 500 po y que se consume como parte del conjuro."
   },
   {
     "nombre": "Animar objetos",
@@ -55,7 +59,10 @@
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "120 pies",
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
     "visible": false,
     "componentes": [
       "V",
@@ -65,7 +72,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tus órdenes hacen que los objetos cobren vida. Elige hasta diez objetos no mágicos dentro del alcance que no lleve o vista nadie. Los objetivos Medianos cuentan como dos objetos, los Grandes como cuatro objetos y los Enormes como ocho objetos. No puedes animar ningún objeto mayor que Enorme. Cada objetivo cobra vida y se convierte en una criatura bajo tu control hasta el final de la duración del conjuro o hasta que sea reducido a O puntos de golpe.<br>En cada turno, puedes usar una acción adicional para dar una orden mental a cualquier criatura creada mediante este conjuro que esté a 500 pies o menos de ti (si controlas varias criaturas, puedes dirigir a una o más de ellas utilizando la misma orden). Decides qué acción va a tomar la criatura y dónde se moverá durante su próximo turno. También puedes dar una orden general, como vigilar una cámara o pasillo en concreto. Si no das ninguna orden, la criatura se limita a defenderse de otras criaturas hostiles. Una vez recibida una orden, la sigue hasta cumplirla.<br><b><i>Perfil de un objeto animado.</b></i><ul><li>Diminuto - PG: 20, CA: 18, Ataque: +8 a impactar, 1d4 + 4 daño, Fue: 6, Des: 18.</li><li>Pequeño - PG: 25, CA: 16, Ataque: +6 a impactar, 1d8 + 2 daño, Fue: 6, Des: 14.</li><li>Mediano - PG: 40, CA: 13, Ataque: +5 a impactar, 2d6 + 1 daño, Fue: 10, Des: 12.</li><li>Grande - PG: 50, CA: 10, Ataque: +6 a impactar, 2d10 + 2 daño, Fue: 14, Des: 10.</li><li>Enorme - PG: 80, CA: 10, Ataque: +8 a impactar, 2d12 + 4 daño, Fue: 18, Des: 6.</li></ul>Un objeto animado es un autómata con CA, puntos de golpe, ataques, Fuerza y Destreza fijados por su tamaño. Su Constitución es 10, su Inteligencia y Sabiduría son 3 y su Carisma es 1. Su velocidad es de 30 pies; si el objeto no tiene piernas o algún otro tipo de apéndice que pueda usar para desplazarse, gana una velocidad volando de 30 pies y puede levitar. Su velocidad es O si el objeto está sujeto firmemente a una superficie o a un objeto de mayor tamaño, como atado a un muro mediante una cadena. Tiene visión ciega en un radio de 30 pies, pero está ciego a más distancia. Cuando los puntos de golpe del objeto animado se reducen a O, vuelve a su forma original y cualquier daño sobrante se aplica a esta forma.<br>Si ordenas a un objeto que ataque, puede hacer un solo ataque cuerpo a cuerpo contra una criatura situada a 5 pies o menos. El bonificador y la cantidad de daño contundente del ataque que realiza están determinados por su tamaño. El DM puede decidir que un objeto en particular inflige daño cortante o perforante, según la forma que tenga.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o más, puedes animar dos objetos adicionales por cada nivel por encima de 5 que tenga el espacio que hayas empleado.",
+    "descripcion": "Tus órdenes hacen que los objetos cobren vida. Elige una cantidad de objetos no mágicos dentro del alcance que no sean ni lleven nada, que no estén fijos en una superficie y que no sean Gargantuescos. La cantidad máxima de objetos es igual a tu modificador por aptitud mágica. A estos efectos, un objetivo Mediano o más pequeño cuenta como un objeto, uno Grande cuenta como dos y uno Enorme como tres.<br>Cada objeto se animará, le crecerán patas, se convertirá en un autómata que emplea el perfil de un objeto animado y permanecerá bajo tu control hasta que el conjuro termine o hasta que sus puntos de golpe se reduzcan a 0. Cada criatura que crees con este conjuro se considera una aliada para tus aliados y para ti. En combate, comparte tu orden de iniciativa y su turno va justo después del tuyo.<br>Hasta que el conjuro termine, puedes usar una acción adicional para dar órdenes mentalmente a cada criatura que hayas creado con el conjuro que esté a 150 m o menos de ti. Si controlas varias criaturas, puedes dar una sola orden general a todas. Si no das ninguna orden, la criatura hace la acción de esquivar y se mueve para evitar peligros. Cuando los puntos de golpe de la criatura se reduzcan a 0, recuperará su forma de objeto y cualquier daño sobrante se aplicará a esa forma.<br><b>Con un espacio de conjuro de nivel superior.</b> El daño por golpe de la criatura aumenta en 1d4 (Mediana o más pequeña), 1d6 (Grande) o 1d12 (Enorme) por cada nivel por encima de 5 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -75,10 +82,13 @@
       "Hechicero",
       "Mago"
     ],
-    "escuela": "Ilusión",
+    "escuela": "Ilusionismo",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "30 pies",
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -88,21 +98,26 @@
     "duracion": "8 horas",
     "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
-    "descripcion": "Este conjuro te permite cambiar la apariencia de cualquier número de criaturas que puedas ver dentro del alcance. Le das a cada una de ellas una apariencia ilusoria nueva. Un objetivo no voluntario puede realizar una tirada de salvación de Carisma, y si tiene éxito no se verá afectado por el conjuro.<br>El conjuro disfraza la apariencia física, así como la vestimenta, armas, armadura y equipo. Puedes hacer que cada criatura parezca 1 pie más alta o más baja y de complexión delgada, gorda o intermedia. No puedes cambiar el tipo de su cuerpo, así que debes elegir una forma que tenga la misma configuración de miembros. En el resto de aspectos, la ilusión queda a tu elección. Esta permanece hasta el final de la duración del conjuro o hasta que utilices una acción para finalizarla.<br>Los cambios realizados por este conjuro no aguantan una inspección física. Por ejemplo, si usas este conjuro para añadir un sombrero a la vestimenta de una criatura, los objetos atravesarán el sombrero y cualquiera que lo toque no sentirá nada, o sencillamente notará el pelo y cabeza. Si utilizas este conjuro para parecer más delgado, la mano de una criatura que intente tocarte se chocará contigo en lo que parece ser espacio libre.<br>Si una criatura usa su acción para examinar a un objetivo con una prueba enfrentada de Inteligencia (Investigación) contra tu CD de salvación de conjuros, si tiene éxito, se da cuenta de que el objetivo está disfrazado.",
+    "descripcion": "Le das una apariencia ilusoria a cada criatura de tu elección que puedas ver dentro del alcance. Un objetivo no voluntario puede hacer una tirada de salvación de Carisma y, si la supera, el conjuro no le afectará.<br>Puedes dar la misma apariencia o una distinta a cada criatura, así como cambiar el aspecto de sus cuerpos y equipo. Puedes hacer que cada criatura parezca 30 cm más alta o más baja y de complexión más pesada o ligera. Un nuevo aspecto debe tener la misma configuración básica de miembros que el objetivo, aunque en lo demás es totalmente libre y dura hasta que el conjuro termine.<br>Los cambios pueden descubrirse mediante una inspección física. Por ejemplo, si añades un sombrero ilusorio, los objetos lo atravesarán. Una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros también revela la ilusión.",
     "materiales": null
   },
   {
     "nombre": "Atadura planar",
     "clases": [
+      "Bardo",
       "Brujo",
-      "Hechicero",
+      "Clérigo",
+      "Druída",
       "Mago"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "1 hora",
     "ritual": false,
-    "alcance": "60 pies",
-    "visible": true,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
     "componentes": [
       "V",
       "S",
@@ -112,8 +127,8 @@
     "duracion": "24 horas",
     "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
-    "descripcion": "Con este conjuro, intentas obligar a un celestial, elemental, feérico o infernal a servirte. La criatura debe estar dentro del alcance durante toda la duración del lanzamiento del conjuro (típicamente se invoca a la criatura en el centro de un círculo mágico invertido para evitar que escape mientras se lanza el conjuro). Al finalizar el lanzamiento, el objetivo debe hacer una tirada de salvación de Carisma. Si falla, queda atado, obligado a servirte hasta el final de la duración del conjuro. Si la criatura fue invocada o creada por otro conjuro, la duración de ese último se extiende hasta igualar la de este conjuro.<br>El objetivo atado debe obedecer tus órdenes lo mejor que pueda. Puedes pedirle que te acompañe en una aventura, que vigile un sitio o que entregue un mensaje. La criatura seguirá las instrucciones al pie de la letra, pero si es hostil hacia ti, intentará retorcer tus palabras para conseguir sus propios objetivos. Si cumple totalmente tus órdenes antes de que acabe el conjuro, viajará hasta donde estés para informarte, siempre y cuando estéis en el mismo plano de existencia. Si estás en otro plano, volverá al sitio donde la ataste y se quedará ahí hasta que el conjuro termine.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de un nivel superior, la duración pasa a ser de 10 días con un espacio de conjuro de nivel 6, de 30 días con uno de nivel 7, de 180 días con uno de nivel 8 y de 1 año y 1 día con un espacio de conjuro de nivel 9.",
-    "materiales": "Una joya con un valor de, al menos, 1.000 po, que es consumida como parte del conjuro."
+    "descripcion": "Intentas obligar a un celestial, un elemental, un feérico o un infernal a servirte. La criatura debe estar dentro del alcance durante todo el tiempo de lanzamiento del conjuro (normalmente invocada antes con <i>círculo mágico</i>). Al finalizar el lanzamiento, el objetivo debe superar una tirada de salvación de Carisma o quedará atado y obligado a servirte durante toda la duración del conjuro. Si la criatura ha sido invocada con otro conjuro, la duración de ambos se actualiza a la de <i>atadura planar</i>.<br>Si es hostil, puedes pedirle un servicio con riesgo. Si no puede cumplirlo, intentará sabotearlo. Si es amistosa, puedes negociar su servicio con algún pago. Si el conjuro se repite durante 30 días consecutivos, la criatura quedará permanentemente vinculada, sin posibilidad de escapar.<br><b>Con un espacio de conjuro de nivel superior.</b> La duración aumenta en 1d10 días (nivel 6), 180 días (nivel 7), 9 años (nivel 8) o indefinidamente (nivel 9).",
+    "materiales": "Una joya que valga al menos 1000 po y que se consume como parte del conjuro."
   },
   {
     "nombre": "Caparazon antivida",

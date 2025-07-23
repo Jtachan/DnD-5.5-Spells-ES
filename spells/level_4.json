@@ -2,7 +2,9 @@
   {
     "nombre": "Adivinación",
     "clases": [
-      "Clérigo"
+      "Clérigo",
+      "Druída",
+      "Mago"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "1 acción",
@@ -18,18 +20,22 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tu magia y la ofrenda te ponen en contacto con un dios o sus sirvientes. Puedes hacer una sola pregunta sobre una meta, evento o actividad específica que ocurrirá en los próximos 7 días. El DM te dará una respuesta verdadera, que puede ser una frase corta, una rima críptica o un augurio.<br>Este conjuro no tiene en cuenta ninguna circunstancia que pueda alterar los resultados, como por ejemplo el lanzamiento de otros conjuros o la pérdida de o encuentro con un compañero.<br>Si se lanya dos veces o más antes del próximo descanso largo, hay una posibilidad acumulativa del 25% por cada lanzamiento después del primero de recibir un presagio aleatorio. El Dm realiza esta tirada en secreto.",
+    "descripcion": "Este conjuro te pone en contacto con un dios o sus sirvientes. Puedes hacer una pregunta sobre un objetivo, un suceso o una actividad específicos que ocurrirán en los próximos 7 días. Tu DM te dará una respuesta verdadera, que puede ser una frase corta o una rima críptica. El conjuro no tiene en cuenta ninguna circunstancia que pueda alterar la respuesta, como por ejemplo el lanzamiento de otros conjuros.<br>Si lanzas el conjuro más de una vez antes de finalizar un descanso largo, hay una posibilidad acumulativa del 25 % por cada lanzamiento después del primero de que no recibas ninguna respuesta.",
     "materiales": "Incienso y una ofrenda ritual apropiada a tu religión, en conjunto con valor de 25 po y que son consumidos por el conjuro."
   },
   {
     "nombre": "Asesino fantasmal",
     "clases": [
+      "Bardo",
       "Mago"
     ],
-    "escuela": "Ilusión",
+    "escuela": "Ilusionismo",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "120 pies",
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -39,7 +45,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Accedes a las pesadillas de una criatura que puedas ver dentro del alcance para crear una manifestación ilusoria de sus más profundos miedos, que solo será visible para esa criatura. El objetivo debe hacer una tirada de salvación de Sabiduría. Si falla, queda asustado hasta el final de la duración del conjuro. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura debe tener éxito en una tirada de salvación de Sabiduría o sufrir 4d10 de daño psíquico. Si supera la tirada, el conjuro termina inmediatamente.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o más, el daño aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
+    "descripcion": "Accedes a las pesadillas de una criatura a la que puedas ver dentro del alcance y creas una ilusión de sus miedos más profundos que solo ella puede ver. El objetivo hace una tirada de salvación de Sabiduría. Si la falla, sufrirá 4d10 de daño psíquico y tendrá desventaja en las pruebas de característica y en las tiradas de ataque hasta que termine el conjuro. Si supera, solo sufrirá la mitad del daño y el conjuro terminará.<br>En cada uno de tus turnos mientras el conjuro dure, el objetivo hará otra tirada de salvación de Sabiduría al final de su turno. Si la falla, vuelve a sufrir daño psíquico. Si la supera, el conjuro termina.<br><b>Con un espacio de conjuro de nivel superior.</b> El daño aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -51,16 +57,16 @@
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "Lanzador (radio de 30 pies)",
+    "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V"
     ],
     "concentracion": true,
-    "duracion": "hasta 10 minutos",
+    "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Radias una energía purificante en forma de aura de 30 pies de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Todas las criaturas no hostiles en el aura (incluido tú) son resistentes al daño de veneno, no pueden enfermar y tienen ventaja en las tiradas de salvación contra cualquier efecto que cause uno de los siguientes estados: asustado, aturdido, cegado, ensordecido, envenenado, hechizado o paralizado.",
+    "descripcion": "Un aura surge de ti en una emanación de 9 m hasta que el conjuro termine. Mientras permanezcáis dentro, tus aliados y tú tenéis resistencia al daño de veneno y ventaja en las tiradas de salvación para evitar o poner fin a efectos que provoquen los estados de asustado, aturdido, cegado, ensordecido, envenenado, hechizado o paralizado.",
     "materiales": null
   },
   {
@@ -72,16 +78,16 @@
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "Lanzador (radio de 30 pies)",
+    "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V"
     ],
     "concentracion": true,
-    "duracion": "hasta 10 minutos",
+    "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Radias una energía preservadora de vida en forma de aura de 30 pies de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Todas las criaturas no hostiles en el aura (incluido tú) tienen resistencia al daño necrótico y sus puntos de golpe máximos no pueden ser reducidos. Además, todas las criaturas vivas y no hostiles recuperan 1 punto de golpe al principio de su turno si están en el aura y tienen 0 puntos de golpe.",
+    "descripcion": "Un aura surge de ti en una emanación de 9 m hasta que el conjuro termine. Mientras permanezcáis dentro, tus aliados y tú tenéis resistencia al daño necrótico y no se podrán reducir vuestros puntos de golpe máximos. Si un aliado con 0 puntos de golpe comienza su turno en el aura, recupera 1 punto de golpe.",
     "materiales": null
   },
   {

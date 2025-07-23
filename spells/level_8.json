@@ -2,13 +2,17 @@
   {
     "nombre": "Antipatía/Simpatía",
     "clases": [
+      "Bardo",
       "Druída",
       "Mago"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "1 hora",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": false,
     "componentes": [
       "V",
@@ -18,9 +22,9 @@
     "concentracion": false,
     "duracion": "10 días",
     "tirada_de_salvacion": "SAB",
-    "requiere_ataque": true,
-    "descripcion": "Este conjuro atrae o repele a criaturas de tu elección. Elige a un objetivo dentro del a lcance: un objeto, una criatura de tamaño Enorme o más pequeña, o un área igual o menor que un cubo de 200 pies. Una vez hecho esto, deberás especificar también un tipo de criatura inteligente, como dragones rojos, goblins o vampiros. Imbuyes en el objetivo un aura que o bien atrae o repele a las criaturas elegidas hasta el final de la duración del conjuro. El aura podrá causar antipatía o simpatía a tu elección.<br><b><i>Antipatía.</i></b> El encantamiento hace que las criaturas del tipo elegido sientan una fuerte necesidad de abandonar el área y evitar al objetivo. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 60 pies del mismo, deberá tener éxito en una tirada de salvación de Sabiduría o quedará asustada. La criatura permanecerá asustada mientras pueda ver al objetivo o se mantenga a 60 pies de él. Mientras esté asustada, la criatura debe usar su movimiento para dirigirse al lugar más cercano desde el que no pueda ver al objetivo. Si la criatura se aleja más de 60 pies del objetivo y no puede verlo, ya no estará asustada, pero volverá a estarlo de nuevo si vuelve a ver al objetivo o se acerca 60 pies o menos de él.<br><b><i>Simpatía.</i></b> El encantamiento hace que las criaturas del tipo elegido a 60 pies o menos del objetivo sientan una fuerte necesidad de acercarse a él. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 60 pies del mismo, deberá tener éxito en una tirada de salvación de Sabiduría o utilizará su movimiento en cada turno para acercarse a él hasta que entre en el área o quede adyacente al objetivo. Una vez hecho esto, no podrá alejarse voluntariamente.<br>Si el objetivo daña o lastima de alguna manera a una criatura afectada, esta podrá realizar una tirada de salvación de Sabiduría para que termine el efecto, como se describe más abajo.<br><b><i>Terminar el efecto.</i></b> Si una criatura afectada por el conjuro termina su turno a más de 60 pies del objetivo o no es capaz de verlo, debe hacer una tirada de salvación de Sabiduría. Si tiene éxito, la criatura ya no estará afectada por el objetivo e identificará la naturaleza mágica del sentimiento de atracción o repulsión. Además, una criatura a fectada por el conjuro podrá realizar otra tirada de salvación de Sabiduría cada 24 horas mientras su efecto persista.<br>Una criatura que tiene éxito en la tirada de salvación contra este efecto es inmune al conjuro durante 1 minuto, tiempo tras el cual podrá verse afectada de nuevo.",
-    "materiales": "Un pedazo de alumbre empapado en vinagre para el efecto de antipatía o una gota de miel para el efecto de simpatía."
+    "requiere_ataque": false,
+    "descripcion": "Mientras lanzas el conjuro, elige si crea antipatía o simpatía y haz objetivo a una criatura u objeto de tamaño Enorme o más pequeño. A continuación, selecciona un tipo de criatura, como dragones rojos, goblins o vampiros. Las criaturas del tipo elegido harán una tirada de salvación de Sabiduría cuando se acerquen a 36 m o menos del objetivo. La elección de antipatía o simpatía determina lo que le sucede a una criatura si falla la salvación:<br><b>Antipatía.</b> La criatura tiene el estado de asustada y deberá utilizar su movimiento en sus turnos para alejarse lo máximo posible del objetivo por la ruta más segura.<br><b>Simpatía.</b> La criatura tiene el estado de hechizada y deberá utilizar su movimiento en sus turnos para acercarse lo máximo posible al objetivo por la ruta más segura. Si se encuentra a 1,5 m o menos del objetivo, no podrá alejarse de él voluntariamente. Si el objetivo daña a la criatura hechizada, esta podrá hacer una tirada de salvación de Sabiduría para poner fin al efecto.<br><b>Poner fin al efecto.</b> Si la criatura asustada o hechizada termina su turno a más de 36 m del objetivo, deberá hacer una tirada de salvación de Sabiduría. Si la supera, dejará de verse afectada por el objetivo. Las criaturas que superen la tirada de salvación serán inmunes a él durante 1 minuto y después podrán verse afectadas otra vez.",
+    "materiales": "Una mezcla de vinagre y miel."
   },
   {
     "nombre": "Aspectos animales",
@@ -30,16 +34,20 @@
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "30 pies",
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
       "S"
     ],
-    "concentracion": true,
-    "duracion": "Hasta 24 horas",
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tu magia convierte a otros en bestias. Elige a cualquier número de criaturas voluntarias que puedas ver dentro del alcance. Transformas a cada objetivo en una bestia Grande o más pequeña con un valor de desafío igual o inferior a 4. En los siguientes turnos puedes usar una acción para transformar a las criaturas afectadas en bestias distintas.<br>La transformación dura hasta el final de la duración del conjuro o hasta que el objetivo muera o sea reducido a 0 puntos de golpe. Puedes elegir una forma distinta para cada objetivo. Reemplaza el perfil del objetivo por el perfil de la bestia elegida, aunque el objetivo mantiene su alineamiento y sus puntuaciones de Inteligencia, Sabiduría y Carisma. El objetivo pasa a tener los puntos de golpe de su nueva forma y, cuando revierta a su forma normal, vuelve a poseer los puntos de golpe que tuviera antes de la transformación. La transformación se rompe si la forma de bestia es reducida a 0 puntos de golpe, y cualquier daño sobrante se aplica a la forma normal. Si este daño sobrante no reduce la forma normal de la criatura a 0 puntos de vida, esta no cae inconsciente. Las acciones de la criatura quedan limitadas por la naturaleza de su nueva forma, y tampoco puede hablar ni lanzar conjuros.<br>El equipamiento del objetivo se funde con la nueva forma, de modo que no puede utilizar, blandir o beneficiarse de su equipamiento de ninguna manera.",
+    "descripcion": "Elige cualquier cantidad de criaturas voluntarias que puedas ver dentro del alcance. Todos los objetivos cambian de forma en la de una bestia Grande o más pequeña con un valor de desafío de 4 o menos. Puedes elegir una forma distinta para cada objetivo.<br>En los siguientes turnos, puedes usar una acción de magia para transformar de nuevo a los objetivos.<br>El perfil de un objetivo se sustituye por el de la bestia elegida, pero conserva su personalidad, alineamiento, equipo, clases y puntuaciones de Inteligencia, Sabiduría y Carisma. Las acciones del objetivo se ven limitadas por la anatomía de la nueva forma, y no puede usar su equipo hasta que recupere su forma normal. El objetivo gana puntos de golpe temporales igual a los de la nueva forma. Estos puntos se pierden si la transformación acaba o si se lanza de nuevo.<br>La transformación dura hasta que el conjuro termine o hasta que el objetivo la finalice como acción adicional.",
     "materiales": null
   },
   {
@@ -50,7 +58,7 @@
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "1 acción",
     "ritual": false,
-    "alcance": "Lanzador (radio de 30 pies)",
+    "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V",
@@ -61,8 +69,8 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Una luz divina baña suavemente tus alrededores, en un radio de 30 pies. Las criaturas de tu elección que se encuentren en el área cuando lanzas este conjuro emiten luz tenue en un radio de 5 pies y tienen ventaja en todas las tiradas de salvación. El resto de criaturas tienen desventaja en las tiradas de ataque contra las criaturas que elegiste hasta el final de la duración del conjuro. Además, cuando un infernal o un muerto viviente impacte a una criatura afectada con un ataque cuerpo a cuerpo, el aura brillará con un fogonazo. Debido a ello, el atacante debe tener éxito en una tirada de salvación de Constitución o quedará cegado hasta el final de la duración del conjuro.",
-    "materiales": "Un pequeño relicario que valga, al menos, 1.000 po y que contenga una reliquia sagrada, como un jirón de ropa de la túnica de un santo o un pedazo de pergamino de un texto religioso."
+    "descripcion": "Hasta que termine el conjuro, un aura emana de ti en un radio de 9 m. Mientras permanezcan dentro, tus aliados tienen ventaja en todas las tiradas de salvación y las criaturas tienen desventaja en ataques contra ellos. Si un infernal o no muerto ataca a un aliado dentro del aura, debe hacer una tirada de salvación de Constitución o fallará el ataque.<br>El efecto solo dura hasta el final de su turno si falla.",
+    "materiales": "Un relicario que valga al menos 1000 po."
   },
   {
     "nombre": "Campo antimagia",
