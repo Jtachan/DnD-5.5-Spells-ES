@@ -1,0 +1,1 @@
+- [ ] Algunos conjuros dicen "Acción adicional, que realizas de inmediato tras acertar a un objetivo con un arma cuerpo [...]" que hace que el texto sea muy largo. Automatizar el quitarlo y ponerlo en la descripción de todos los conjuros.
