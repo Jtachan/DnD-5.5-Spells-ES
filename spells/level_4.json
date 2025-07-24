@@ -171,17 +171,18 @@
       "90 pies",
       "27 m"
     ],
+    "visible": true,
     "componentes": [
       "V",
       "S",
       "M"
     ],
-    "materiales": "tres cáscaras de nuez",
     "concentracion": true,
-    "duracion": "Hasta 1 minuto",
+    "duracion": "Concentración, hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
-    "descripcion": "Todas las criaturas situadas en una esfera de 3 m de radio centrada en un punto que elijas dentro del alcance deberán superar una tirada de salvación de Sabiduría o no podrán usar acciones adicionales ni reacciones y deberán tirar 1d10 al principio de cada uno de sus turnos para determinar su comportamiento ese turno. Para ello, consulta la tabla que se muestra a continuación.<br><br><b>1d10 Comportamiento del turno</b><br><b>1</b> El objetivo no usa ninguna acción y emplea todo su movimiento para desplazarse. Para determinar la dirección, tira 1d4: con un 1, se moverá al norte; con un 2, al este; con un 3, al sur; con un 4, al oeste.<br><b>2–6</b> El objetivo no se mueve ni realiza acciones.<br><b>7–8</b> El objetivo no se mueve y emplea la acción de atacar para hacer un ataque cuerpo a cuerpo contra una criatura aleatoria dentro de su alcance. Si no hay ninguna dentro de su alcance, el objetivo no hace ninguna acción.<br><b>9–10</b> El objetivo elige su comportamiento.<br><br>Al final de cada uno de sus turnos, un objetivo afectado repite la tirada de salvación y, si tiene éxito, se librará del conjuro.<br><b>Con un espacio de conjuro de nivel superior.</b> El radio de la esfera aumenta en 1,5 m por cada nivel por encima de 4 que tenga el espacio.",
-    "requiere_ataque": false
+    "requiere_ataque": false,
+    "descripcion": "Todas las criaturas situadas en una esfera de 3 m de radio centrada en un punto que elijas dentro del alcance deberán superar una tirada de salvación de Sabiduría o no podrán usar acciones adicionales ni reacciones y deberán tirar 1d10 al principio de cada uno de sus turnos para determinar su comportamiento ese turno. Para ello, consulta la tabla que se muestra a continuación.<br><br><table><tr><th>1d10</th><th>Comportamiento del turno</th></tr><tr><td>1</td><td>El objetivo no usa ninguna acción y emplea todo su movimiento para desplazarse. Para determinar la dirección, tira 1d4: con un 1, se moverá al norte; con un 2, al este; con un 3, al sur; con un 4, al oeste.</td></tr><tr><td>2–6</td><td>El objetivo no se mueve ni realiza acciones.</td></tr><tr><td>7–8</td><td>El objetivo no se mueve y emplea la acción de atacar para hacer un ataque cuerpo a cuerpo contra una criatura aleatoria dentro de su alcance. Si no hay ninguna dentro de su alcance, el objetivo no hace ninguna acción.</td></tr><tr><td>9–10</td><td>El objetivo elige su comportamiento.</td></tr></table><br><br>Al final de cada uno de sus turnos, un objetivo afectado repite la tirada de salvación y, si tiene éxito, se librará del conjuro.<br><br><ul><li><b>Con un espacio de conjuro de nivel superior.</b> El radio de la esfera aumenta en 1,5 m por cada nivel por encima de 4 que tenga el espacio.</li></ul>",
+    "materiales": "tres cáscaras de nuez"
   },
   {
     "nombre": "Conjurar elementales menores",

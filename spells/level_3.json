@@ -239,15 +239,17 @@
       "60 pies",
       "18 m"
     ],
+    "visible": true,
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": true,
-    "duracion": "Hasta 10 minutos",
-    "tirada_de_salvacion": null,
-    "descripcion": "Conjuras espíritus de la naturaleza que aparecen como una manada Grande de animales espectrales e intangibles en un espacio sin ocupar que puedas ver dentro del alcance. La manada permanecerá hasta que el conjuro termine y puedes elegir la forma animal de los espíritus, como lobos, serpientes o aves.<br><br>Tienes ventaja en las tiradas de salvación de Fuerza mientras estés a 1,5 m o menos de la manada. Además, cuando te muevas en tu turno, también podrás mover a la manada hasta 9 m a un espacio sin ocupar que puedas ver.<br><br>Siempre que la manada se mueva a 3 m o menos de una criatura que puedas ver y siempre que una criatura que puedas ver entre en un espacio a 3 m o menos de la manada o termine su turno allí, puedes obligar a la criatura a hacer una tirada de salvación de Destreza. Si la falla, recibirá 3d10 de daño cortante. Una criatura solo hace esta tirada una vez por turno.<br><b>Con un espacio de conjuro de nivel superior.</b> El daño aumenta en 1d10 por cada nivel por encima de 3 que tenga el espacio.",
-    "requiere_ataque": false
+    "duracion": "Concentración, hasta 10 minutos",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Conjuras espíritus de la naturaleza que aparecen como una manada Grande de animales espectrales e intangibles en un espacio sin ocupar que puedas ver dentro del alcance. La manada permanecerá hasta que el conjuro termine y puedes elegir la forma animal de los espíritus, como lobos, serpientes o aves.<br><br>Tienes ventaja en las tiradas de salvación de Fuerza mientras estés a 1,5 m o menos de la manada. Además, cuando te muevas en tu turno, también podrás mover a la manada hasta 9 m a un espacio sin ocupar que puedas ver.<br><br>Siempre que la manada se mueva a 3 m o menos de una criatura que puedas ver y siempre que una criatura que puedas ver entre en un espacio a 3 m o menos de la manada o termine su turno allí, puedes obligar a la criatura a hacer una tirada de salvación de Destreza. Si la falla, recibirá 3d10 de daño cortante. Una criatura solo hace esta tirada una vez por turno.<br><br><b>Con un espacio de conjuro de nivel superior.</b> El daño aumenta en 1d10 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": null
   },
   {
     "nombre": "Conjurar descarga de proyectiles",
@@ -258,17 +260,18 @@
     "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
     "alcance": "Lanzador",
+    "visible": true,
     "componentes": [
       "V",
       "S",
       "M"
     ],
-    "materiales": "un arma cuerpo a cuerpo o a distancia que valga al menos 1 po",
     "concentracion": false,
     "duracion": "Instantáneo",
     "tirada_de_salvacion": "DES",
-    "descripcion": "Blandes el arma utilizada para lanzar el conjuro e invocas versiones espectrales parecidas (o munición para el tipo de arma correspondiente) que salen disparadas hacia adelante y luego desaparecen. Todas las criaturas de tu elección que puedas ver en un cono de 18 m hacen una tirada de salvación de Destreza; sufrirán 5d8 de daño de fuerza si la fallan o la mitad del daño si la superan.<br><b>Con un espacio de conjuro de nivel superior.</b> El daño aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
-    "requiere_ataque": false
+    "requiere_ataque": false,
+    "descripcion": "Blandes el arma utilizada para lanzar el conjuro e invocas versiones espectrales parecidas (o munición para el tipo de arma correspondiente) que salen disparadas hacia adelante y luego desaparecen. Todas las criaturas de tu elección que puedas ver en un cono de 18 m hacen una tirada de salvación de Destreza; sufrirán 5d8 de daño de fuerza si fallan o la mitad del daño si la superan.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El daño aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": "un arma cuerpo a cuerpo o a distancia que valga al menos 1 pc"
   },
   {
     "nombre": "Contrahechizo",
