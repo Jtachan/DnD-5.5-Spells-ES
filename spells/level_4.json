@@ -3,7 +3,7 @@
     "nombre": "Adivinación",
     "clases": [
       "Clérigo",
-      "Druída",
+      "Druida",
       "Mago"
     ],
     "escuela": "Adivinación",
@@ -160,7 +160,7 @@
     "nombre": "Confusión",
     "clases": [
       "Bardo",
-      "Druída",
+      "Druida",
       "Hechicero",
       "Mago"
     ],
@@ -186,7 +186,7 @@
   {
     "nombre": "Conjurar elementales menores",
     "clases": [
-      "Druída",
+      "Druida",
       "Mago"
     ],
     "escuela": "Conjuración",
@@ -206,7 +206,7 @@
   {
     "nombre": "Conjurar seres del bosque",
     "clases": [
-      "Druída"
+      "Druida"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "1 acción",
@@ -229,7 +229,7 @@
     "nombre": "Controlar agua",
     "clases": [
       "Clérigo",
-      "Druída",
+      "Druida",
       "Hechicero",
       "Mago"
     ],

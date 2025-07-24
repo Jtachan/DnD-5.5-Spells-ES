@@ -28,7 +28,7 @@
     "nombre": "Agrandar/Reducir",
     "clases": [
       "Bardo",
-      "Druída",
+      "Druida",
       "Hechicero",
       "Mago"
     ],
@@ -150,7 +150,7 @@
     "nombre": "Augurio",
     "clases": [
       "Clérigo",
-      "Druída",
+      "Druida",
       "Mago"
     ],
     "escuela": "Adivinación",
@@ -197,7 +197,7 @@
     "clases": [
       "Bardo",
       "Clérigo",
-      "Druída",
+      "Druida",
       "Explorador",
       "Paladín"
     ],
@@ -251,7 +251,7 @@
     "nombre": "Calentar metal",
     "clases": [
       "Bardo",
-      "Druída"
+      "Druida"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "1 acción",
@@ -435,7 +435,7 @@
     "nombre": "Crecimiento espinoso",
     "clases": [
       "Bardo",
-      "Druída",
+      "Druida",
       "Explorador"
     ],
     "escuela": "Transmutación",

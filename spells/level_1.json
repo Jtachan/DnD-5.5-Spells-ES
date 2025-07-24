@@ -120,7 +120,7 @@
   {
     "nombre": "Buenas bayas",
     "clases": [
-      "Druída",
+      "Druida",
       "Explorador"
     ],
     "escuela": "Conjuración",
@@ -250,7 +250,7 @@
     "nombre": "Crear o destruir agua",
     "clases": [
       "Clérigo",
-      "Druída"
+      "Druida"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "1 acción",
@@ -274,7 +274,7 @@
     "clases": [
       "Bardo",
       "Clérigo",
-      "Druída",
+      "Druida",
       "Paladín",
       "Explorador"
     ],

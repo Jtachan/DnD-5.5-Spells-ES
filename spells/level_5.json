@@ -107,7 +107,7 @@
       "Bardo",
       "Brujo",
       "Clérigo",
-      "Druída",
+      "Druida",
       "Mago"
     ],
     "escuela": "Abjuración",
@@ -133,7 +133,7 @@
   {
     "nombre": "Caparazón antivida",
     "clases": [
-      "Druída"
+      "Druida"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -269,7 +269,7 @@
   {
     "nombre": "Comunión con la naturaleza",
     "clases": [
-      "Druída",
+      "Druida",
       "Explorador"
     ],
     "escuela": "Adivinación",
@@ -289,7 +289,7 @@
   {
     "nombre": "Conjurar elemental",
     "clases": [
-      "Druída",
+      "Druida",
       "Mago"
     ],
     "escuela": "Conjuración",
@@ -359,7 +359,7 @@
     "clases": [
       "Bardo",
       "Clérigo",
-      "Druída",
+      "Druida",
       "Hechicero",
       "Mago"
     ],
@@ -428,7 +428,7 @@
     "nombre": "Contagio",
     "clases": [
       "Clérigo",
-      "Druída"
+      "Druida"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "1 acción",

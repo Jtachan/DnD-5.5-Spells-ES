@@ -54,7 +54,7 @@
   {
     "nombre": "Arma elemental",
     "clases": [
-      "Druída",
+      "Druida",
       "Explorador",
       "Paladín"
     ],
@@ -78,7 +78,7 @@
     "nombre": "Aura de vitalidad",
     "clases": [
       "Clérigo",
-      "Druída",
+      "Druida",
       "Paladín"
     ],
     "escuela": "Abjuración",
@@ -126,7 +126,7 @@
     "nombre": "Caminar sobre el agua",
     "clases": [
       "Clérigo",
-      "Druída",
+      "Druida",
       "Explorador",
       "Hechicero"
     ],
@@ -229,7 +229,7 @@
   {
     "nombre": "Conjurar animales",
     "clases": [
-      "Druída",
+      "Druida",
       "Explorador"
     ],
     "escuela": "Conjuración",
@@ -340,7 +340,7 @@
     "nombre": "Crecimiento vegetal",
     "clases": [
       "Bardo",
-      "Druída",
+      "Druida",
       "Explorador"
     ],
     "escuela": "Transmutación",

@@ -3,7 +3,7 @@
     "nombre": "Antipatía/Simpatía",
     "clases": [
       "Bardo",
-      "Druída",
+      "Druida",
       "Mago"
     ],
     "escuela": "Encantamiento",
@@ -29,7 +29,7 @@
   {
     "nombre": "Aspectos animales",
     "clases": [
-      "Druída"
+      "Druida"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "1 acción",
@@ -122,7 +122,7 @@
     "clases": [
       "Bardo",
       "Clérigo",
-      "Druída"
+      "Druida"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "10 minutos",

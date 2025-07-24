@@ -127,7 +127,7 @@
   {
     "nombre": "Conjurar feérico",
     "clases": [
-      "Druída"
+      "Druida"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -195,7 +195,7 @@
     "nombre": "Curar",
     "clases": [
       "Clérigo",
-      "Druída"
+      "Druida"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "1 acción",
