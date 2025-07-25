@@ -18,7 +18,7 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Una descarga eléctrica surge de tu mano hacia una criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo recibirá 1d8 de daño de relámpago y no podrá realizar ataques de oportunidad hasta el principio de su siguiente turno.<br><b>Mejora de truco:</b> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "descripcion": "Una descarga eléctrica surge de tu mano hacia una criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo recibirá 1d8 de daño de relámpago y no podrá realizar ataques de oportunidad hasta el principio de su siguiente turno.<br><br><i><b>Mejora de truco:</b></i> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
     "materiales": null
   },
   {
@@ -45,7 +45,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Emanas mágicamente un sentimiento de amistad hacia una criatura que puedas ver dentro del alcance. El objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de hechizado hasta que termine el conjuro. El objetivo la superará automáticamente si no es un humanoide, si estás luchando contra él o si le has lanzado este conjuro en las últimas 24 horas.<br>El conjuro termina antes de tiempo si el objetivo recibe daño o si haces una tirada de ataque, causas daño u obligas a cualquier criatura a hacer una tirada de salvación. Cuando el conjuro termine, el objetivo sabrá que lo hechizaste.",
+    "descripcion": "Emanas mágicamente un sentimiento de amistad hacia una criatura que puedas ver dentro del alcance. El objetivo deberá superar una tirada de salvación de Sabiduría o tendrá el estado de hechizado hasta que termine el conjuro. El objetivo la superará automáticamente si no es un humanoide, si estás luchando contra él o si le has lanzado este conjuro en las últimas 24 horas.<br><br>El conjuro termina antes de tiempo si el objetivo recibe daño o si haces una tirada de ataque, causas daño u obligas a cualquier criatura a hacer una tirada de salvación. Cuando el conjuro termine, el objetivo sabrá que lo hechizaste.",
     "materiales": "Un poco de maquillaje."
   },
   {
@@ -68,7 +68,7 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Profieres una sarta de improperios mezclados con encantamientos sutiles hacia una criatura que puedas ver u oír dentro del alcance. El objetivo deberá superar una tirada de salvación de Sabiduría o recibirá 1d6 de daño psíquico y tendrá desventaja en la próxima tirada de ataque que realice antes de que acabe su siguiente turno.<br><i>Mejora de truco.</i> El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "descripcion": "Profieres una sarta de improperios mezclados con encantamientos sutiles hacia una criatura que puedas ver u oír dentro del alcance. El objetivo deberá superar una tirada de salvación de Sabiduría o recibirá 1d6 de daño psíquico y tendrá desventaja en la próxima tirada de ataque que realice antes de que acabe su siguiente turno.<br><br><i><b>Mejora de truco:</b></i> El daño aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
     "materiales": null
   },
   {

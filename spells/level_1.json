@@ -22,7 +22,7 @@
     "duracion": "8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Preparas una alarma contra los intrusos. Elige una puerta, una ventana o una zona dentro del alcance que no sea mayor que un cubo de 6 m (20 pies) de lado. Hasta que el conjuro termine, una alarma te alertará siempre que una criatura toque la zona vigilada o entre en ella. Al lanzar el conjuro, puedes designar qué criaturas no activarán la alarma, que puede ser mental o sonora.<br><b>Alarma mental.</b> La alarma te avisará con un sonido dentro de tu mente si estás a 1.5 km (1 milla) o menos de la zona vigilada. Si estás dormido, te despertará.<br><b>Alarma sonora.</b> La alarma producirá el sonido de una campanilla durante 10 segundos, que será audible a 18 m (60 pies) o menos de la zona vigilada.",
+    "descripcion": "Preparas una alarma contra los intrusos. Elige una puerta, una ventana o una zona dentro del alcance que no sea mayor que un cubo de 6 m (20 pies) de lado. Hasta que el conjuro termine, una alarma te alertará siempre que una criatura toque la zona vigilada o entre en ella. Al lanzar el conjuro, puedes designar qué criaturas no activarán la alarma, que puede ser mental o sonora.<br><br><b>Alarma mental.</b> La alarma te avisará con un sonido dentro de tu mente si estás a 1.5 km (1 milla) o menos de la zona vigilada. Si estás dormido, te despertará.<br><br><b>Alarma sonora.</b> La alarma producirá el sonido de una campanilla durante 10 segundos, que será audible a 18 m (60 pies) o menos de la zona vigilada.",
     "materiales": "Una campana de hilo de plata."
   },
   {
@@ -44,7 +44,7 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una escarcha mágica protectora te rodea y ganas 5 puntos de golpe temporales. Si una criatura te acierta con una tirada de ataque cuerpo a cuerpo antes de que el conjuro termine, dicha criatura sufre 5 de daño de frío. El conjuro termina antes de tiempo si no tienes puntos de golpe temporales.<br><b>Con un espacio de conjuro de nivel superior.</b> Los puntos de golpe temporales y el daño de frío aumentan en 5 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Una escarcha mágica protectora te rodea y ganas 5 puntos de golpe temporales. Si una criatura te acierta con una tirada de ataque cuerpo a cuerpo antes de que el conjuro termine, dicha criatura sufre 5 de daño de frío. El conjuro termina antes de tiempo si no tienes puntos de golpe temporales.<br><br><i><b>Con un espacio de conjuro de nivel superior.</b></i> Los puntos de golpe temporales y el daño de frío aumentan en 5 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": "Un trozo de vidrio azul."
   },
   {
@@ -93,7 +93,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Bendices hasta tres criaturas dentro del alcance. Siempre que un objetivo haga una tirada de ataque o de salvación antes de que termine el conjuro, sumará 1d4 al resultado de dicha tirada.<br><b>Con un espacio de conjuro de nivel superior.</b> Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Bendices hasta tres criaturas dentro del alcance. Siempre que un objetivo haga una tirada de ataque o de salvación antes de que termine el conjuro, sumará 1d4 al resultado de dicha tirada.<br><br><i><b>Con un espacio de conjuro de nivel superior.</b></i> Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": "Un símbolo sagrado que valga al menos 5 po."
   },
   {
@@ -114,7 +114,7 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "Hadar extiende brazos tenebrosos desde ti. Todas las criaturas en un radio de 3 m (10 pies) deben hacer una tirada de salvación de Fuerza. Si fallan, sufren 2d6 de daño necrótico y no podrán realizar reacciones hasta el siguiente turno. Si la superan, reciben la mitad de daño.<br><b>Con un espacio de conjuro de nivel superior.</b> El daño aumenta en 1d6 por cada nivel por encima de 1.",
+    "descripcion": "Hadar extiende brazos tenebrosos desde ti. Todas las criaturas en un radio de 3 m (10 pies) deben hacer una tirada de salvación de Fuerza. Si fallan, sufren 2d6 de daño necrótico y no podrán realizar reacciones hasta el siguiente turno. Si la superan, reciben la mitad de daño.<br><br><i><b>Con un espacio de conjuro de nivel superior.</b></i> El daño aumenta en 1d6 por cada nivel por encima de 1.",
     "materiales": null
   },
   {
@@ -137,7 +137,7 @@
     "duracion": "24 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "En tu mano aparecen diez bayas mágicas. Una criatura puede usar una acción adicional para comerse una, lo que le permite recuperar 1 punto de golpe. Además, proporciona alimento suficiente para mantener a una criatura durante un día.<br>Las bayas que no se consuman desaparecen cuando el conjuro termine.",
+    "descripcion": "En tu mano aparecen diez bayas mágicas. Una criatura puede usar una acción adicional para comerse una, lo que le permite recuperar 1 punto de golpe. Además, proporciona alimento suficiente para mantener a una criatura durante un día.<br><br>Las bayas que no se consuman desaparecen cuando el conjuro termine.",
     "materiales": "Una rama de muérdago."
   },
   {
@@ -163,7 +163,7 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Elige hasta cinco criaturas dentro del alcance que estén cayendo. La velocidad de descenso de cada objetivo se reduce a 18 m por asalto hasta que el conjuro termine. Si una criatura aterriza antes de que el conjuro termine, no sufrirá daño de la caída y el conjuro terminará para esa criatura.",
+    "descripcion": "Elige hasta cinco criaturas dentro del alcance que estén cayendo. La velocidad de descenso de cada objetivo se reduce a 18 m (60 pies) por asalto hasta que el conjuro termine. Si una criatura aterriza antes de que el conjuro termine, no sufrirá daño de la caída y el conjuro terminará para esa criatura.",
     "materiales": "Una pluma pequeña o un poco de plumón."
   },
   {
@@ -183,7 +183,7 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Al golpear al objetivo, sufre 1d6 de daño de fuego adicional del ataque. Al principio de cada uno de sus turnos hasta que el conjuro termine, el objetivo sufrirá 1d6 de daño de fuego y luego hará una tirada de salvación de Constitución. Si la falla, el conjuro seguirá activo. Si la supera, el conjuro terminará.<br><i>Con un espacio de conjuro de nivel superior.</i> Todo el daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Al golpear al objetivo, sufre 1d6 de daño de fuego adicional del ataque. Al principio de cada uno de sus turnos hasta que el conjuro termine, el objetivo sufrirá 1d6 de daño de fuego y luego hará una tirada de salvación de Constitución. Si la falla, el conjuro seguirá activo. Si la supera, el conjuro terminará.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Todo el daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -203,7 +203,7 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "Tu golpe resuena con un trueno audible a 90 m de ti y el objetivo sufre 2d6 de daño de trueno adicional del ataque. Además, si el objetivo es una criatura, deberá superar una tirada de salvación de Fuerza o la empujarás 3 m respecto a ti y tendrá el estado de derribada.<br><i>Con un espacio de conjuro de nivel superior.</i> El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Tu golpe resuena con un trueno audible a 90 m (300 pies) de ti y el objetivo sufre 2d6 de daño de trueno adicional del ataque. Además, si el objetivo es una criatura, deberá superar una tirada de salvación de Fuerza o la empujarás 3 m (10 pies) respecto a ti y tendrá el estado de derribada.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -223,7 +223,7 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "El objetivo sufrirá 1d6 de daño necrótico adicional del ataque y deberá superar una tirada de salvación de Sabiduría o tendrá el estado de asustado hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo asustado repite la tirada de salvación y, si tiene éxito, se librará del conjuro.<br><i>Con un espacio de conjuro de nivel superior.</i> El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "El objetivo sufrirá 1d6 de daño necrótico adicional del ataque y deberá superar una tirada de salvación de Sabiduría o tendrá el estado de asustado hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo asustado repite la tirada de salvación y, si tiene éxito, se librará del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -243,7 +243,7 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "El objetivo sufre 2d8 de daño radiante adicional del ataque. Este daño aumenta en 1d8 si el objetivo es un infernal o un muerto viviente.<br><i>Con un espacio de conjuro de nivel superior.</i> El daño aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "El objetivo sufre 2d8 de daño radiante adicional del ataque. Este daño aumenta en 1d8 si el objetivo es un infernal o un muerto viviente.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El daño aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
