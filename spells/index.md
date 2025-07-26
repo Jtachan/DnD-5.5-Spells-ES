@@ -128,3 +128,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Disco flotante de Tenser             | 1         |
 | Disfrazarse                          | 1         |
 | Disipar el bien y el mal             | 5         |
+| Disipar magia                        | 3         |
