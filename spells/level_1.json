@@ -422,5 +422,28 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro crea un plano de fuerza horizontal de 90 cm de di\u00e1metro y 2,5 cm de grosor que flota 90 cm por encima del suelo en un espacio sin ocupar de tu elecci\u00f3n que puedas ver dentro del alcance. El disco dura hasta que termine el conjuro y puede soportar hasta un peso de 250 kg. Si se le coloca m\u00e1s peso sobre \u00e9l, el conjuro termina y todo lo que se apoyaba sobre el disco cae al suelo.<br><br>El disco se mueve con el objetivo a 6 m o menos de \u00e9l. Si te alejas a m\u00e1s de 6 m de \u00e9l, te seguir\u00e1 para mantenerse a 6 m de ti. Se puede mover por terreno irregular y subir y bajar escaleras, pendientes y similares, pero no puede superar un cambio de elevaci\u00f3n de 3 m o m\u00e1s. Por ejemplo, el disco no puede cruzar un pozo de 3 m de profundidad ni salir de \u00e9l si se crea en el fondo de este.<br><br>Si te alejas m\u00e1s de 30 m del disco (normalmente, porque no pueda superar un obst\u00e1culo para seguirte), el conjuro termina.",
     "materiales": "Una gota de mercurio."
+  },
+  {
+    "nombre": "Disfrazarse",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Haces que tu aspecto (incluyendo tu vestimenta, armadura, armas y otras posesiones que lleves contigo) aparezca distinto hasta que el conjuro termine. Puedes aparentar tener una altura 30 cm mayor o menor y una complexi\u00f3n m\u00e1s pesada o ligera. Debes adoptar una forma que tenga la misma configuraci\u00f3n de miembros que t\u00fa. Por lo dem\u00e1s, la ilusi\u00f3n puede modificar todo lo que quieras de tu aspecto.<br><br>Los cambios realizados por este conjuro pueden descubrirse mediante una inspecci\u00f3n f\u00edsica. Por ejemplo, si usas este conjuro para a\u00f1adir un sombrero a tu vestimenta, los objetos atravesar\u00e1n el sombrero y cualquiera que lo toque no sentir\u00e1 nada.<br><br>Para darse cuenta de que te has disfrazado, una criatura debe emplear la acci\u00f3n de estudiar para inspeccionar tu apariencia y superar una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros.",
+    "materiales": null
   }
 ]

@@ -126,3 +126,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Detectar trampas                     | 2         |
 | Detectar venenos y enfermedades      | 1         |
 | Disco flotante de Tenser             | 1         |
+| Disfrazarse                          | 1         |
