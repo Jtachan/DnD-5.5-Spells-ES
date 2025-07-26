@@ -2628,5 +2628,133 @@
     "descripcion": "Desatas una magia virulenta sobre una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, sufre 14d6 de da\u00f1o necr\u00f3tico y sus puntos de golpe m\u00e1ximos se reducen en una cantidad igual al da\u00f1o necr\u00f3tico recibido. Si la supera, recibir\u00e1 solo la mitad de da\u00f1o. Este conjuro no puede reducir los puntos de golpe m\u00e1ximos del objetivo a menos de 1.",
     "materiales": null,
     "nivel": 6
+  },
+  {
+    "nombre": "De la carne a la piedra",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Intentas convertir en piedra a una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, tendr\u00e1 el estado de apresado hasta que el conjuro termine. Si la supera, su velocidad ser\u00e1 0 hasta el principio de su siguiente turno. Los aut\u00f3matas superan autom\u00e1ticamente la tirada de salvaci\u00f3n. Un objetivo apresado realiza otra tirada de salvaci\u00f3n al final de cada uno de sus turnos. Si la supera tres veces, el conjuro termina. Si la falla tres veces, se convierte en piedra y sufre el estado de petrificada hasta que termine el conjuro. Si mantienes la concentraci\u00f3n durante toda su duraci\u00f3n, el objetivo quedar\u00e1 petrificado hasta que un conjuro como <i>restablecimiento mayor</i> u otro efecto m\u00e1gico similar le ponga fin.",
+    "materiales": "Una pluma de cocatriz.",
+    "nivel": 6
+  },
+  {
+    "nombre": "Dedo de la muerte",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Desatas una energ\u00eda negativa hacia una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 7d8 + 30 de da\u00f1o necr\u00f3tico si la falla o la mitad del da\u00f1o si la supera.<br><br>Si un humanoide muere a causa de este conjuro, se alzar\u00e1 al principio de tu siguiente turno como un <i>zombi</i> y seguir\u00e1 tus \u00f3rdenes verbales.",
+    "materiales": null,
+    "nivel": 7
+  },
+  {
+    "nombre": "Descarga de fuego",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Arrojas una mota de fuego a una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d10 de da\u00f1o de fuego. Objetos inflamables impactados comenzar\u00e1n a arder si nadie los lleva o viste.<br><br><i>Mejora de truco.</i> El da\u00f1o aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "Descarga sobrenatural",
+    "clases": [
+      "Brujo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Lanzas un rayo de energ\u00eda chisporroteante. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d10 de da\u00f1o de fuerza.<br><br><i>Mejora de truco.</i> El conjuro crea dos rayos a nivel 5, tres rayos a nivel 11 y cuatro rayos a nivel 17. Puedes dirigir los rayos al mismo objetivo o a distintos. Realiza una tirada de ataque por separado para cada rayo.",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "Deseo",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "<i>Deseo</i> es el conjuro m\u00e1s poderoso que puede lanzar un mortal. Solo con decirlo en voz alta, puedes alterar la propia realidad.<br><br>El uso b\u00e1sico de este conjuro es duplicar cualquier otro conjuro de nivel 8 o inferior. Si lo usas de esta forma, no necesitas cumplir ning\u00fan requisito de dicho conjuro, incluido cualquier componente costoso. El conjuro simplemente surte efecto.<br><br>Como alternativa, puedes crear uno de los siguientes efectos a tu elecci\u00f3n:<br><br><b>Creaci\u00f3n de objetos.</b> Creas un objeto con un valor de hasta 25 000 po que no sea un objeto m\u00e1gico. El objeto no puede medir m\u00e1s de 90 m en cualquier dimensi\u00f3n y aparecer\u00e1 en un espacio sin ocupar que puedas ver sobre el suelo.<br><br><b>Curaci\u00f3n instant\u00e1nea.</b> Permites que hasta veinte criaturas que puedas ver y t\u00fa recuper\u00e9is todos los puntos de golpe y os pong\u00e1is fin a todos los efectos que sufr\u00e1is descritos en el conjuro <i>restablecimiento mayor</i>.<br><br><b>Resistencia.</b> Concedes resistencia a un tipo de da\u00f1o de tu elecci\u00f3n a hasta diez criaturas que puedas ver. La resistencia es permanente.<br><br><b>Inmunidad a conjuros.</b> Concedes inmunidad a un \u00fanico conjuro u otro efecto m\u00e1gico durante 8 horas a hasta diez criaturas que puedas ver.<br><br><b>Aprendizaje repentino.</b> Sustituyes una de tus dotes por otra para la que cumplas los requisitos. Pierdes todos los beneficios de la dote anterior y obtienes los de la nueva. No puedes sustituir una dote que funcione como requisito para cualquiera de tus otras dotes o rasgos.<br><br><b>Rehacer tiradas.</b> Deshaces un solo suceso reciente obligando a repetir cualquier tirada hecha durante el \u00faltimo asalto (incluido tu \u00faltimo turno). La realidad no recuerda los momentos anteriores. Por ejemplo, un conjuro que obliga a rehacer una tirada de salvaci\u00f3n que fue fallida en un aliado o un cr\u00edtico en un enemigo. Puedes obligar a que la tirada se repita con ventaja o desventaja y elegir si usar el nuevo resultado o el resultado original.<br><br><b>Remodelar la realidad.</b> Puedes desear algo que no se incluya entre los efectos anteriores. Para ello, expl\u00edcate el deseo de la forma m\u00e1s precisa posible a tu DM, quien tiene una amplia capacidad para decidir lo que ocurre exactamente. El deseo puede ser simple, m\u00e1s posible o m\u00e1s elaborado y peligroso dependiendo de lo imprevisible debido a c\u00f3mo has expresado tu deseo. Por ejemplo, desear que un villano estuviera muerto podr\u00eda impulsarle hacia delante en el tiempo hasta un periodo en el que el villano ya no est\u00e9 vivo, lo que te excluir\u00eda del juego. De forma similar, desear un objeto m\u00e1gico legendario o un artefacto podr\u00eda transportarte de inmediato ante el actual propietario de dicho objeto. Si se te concede el deseo y sus efectos tienen consecuencias para toda una comunidad, regi\u00f3n o mundo, es posible que te ganes enemigos poderosos. Si el deseo afectase a un dios, sus sirvientes divinos podr\u00edan intervenir al momento para impedirlo o para animarte a que formules el deseo de una forma concreta. Si tu deseo fuese a deshacer el propio multiverso, poner en peligro la ciudad de Sigil o afectar a la Se\u00f1ora del Dolor de alg\u00fan modo, ver\u00e1s una imagen de ella en tu mente por un momento, negar\u00e1 con la cabeza y el deseo fallar\u00e1.<br><br>La tensi\u00f3n de lanzar <i>deseo</i> para producir cualquier efecto que no sea duplicar otro conjuro te debilita. Tras soportar dicha tensi\u00f3n, cada vez que lances un conjuro hasta que finalices un descanso largo, recibir\u00e1s 1d10 de da\u00f1o necr\u00f3tico por cada nivel de ese conjuro. Este da\u00f1o no se puede reducir ni prevenir de ning\u00fan modo. Adem\u00e1s, tu puntuaci\u00f3n de Fuerza se convierte en 3 durante 2d4 d\u00edas. Por cada uno de esos d\u00edas que pases descansando y haciendo \u00fanicamente actividades ligeras, tu tiempo de recuperaci\u00f3n restante se reduce en 2 d\u00edas. Por \u00faltimo, hay un 33 % de probabilidad de que no puedas volver a lanzar ning\u00fan <i>deseo</i> si sufres esta tensi\u00f3n.",
+    "materiales": null,
+    "nivel": 9
   }
 ]
