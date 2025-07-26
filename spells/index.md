@@ -129,3 +129,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Disfrazarse                          | 1         |
 | Disipar el bien y el mal             | 5         |
 | Disipar magia                        | 3         |
+| Dominar bestia                       | 4         |
