@@ -136,23 +136,24 @@
       "60 pies",
       "18 m"
     ],
+    "visible": true,
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": true,
     "duracion": "Hasta 10 minutos",
-    "tirada_de_salvacion": "SAB",
-    "descripcion": "Conjuras un espíritu Mediano de los Parajes Feéricos en un espacio sin ocupar que puedas ver dentro del alcance. El espíritu dura hasta que termine el conjuro y toma la forma de una criatura feérica de tu elección. Cuando aparezca, puedes hacer un ataque de conjuro cuerpo a cuerpo contra una criatura a 1,5 m o menos de él. Si acierta, el objetivo sufrirá una cantidad de daño psíquico igual a 3d12 más tu modificador por aptitud mágica y tendrá el estado de asustado hasta el principio de tu siguiente turno, y tanto el espíritu como tú seréis el origen de su miedo.<br><br>Como acción adicional en tus siguientes turnos, puedes teletransportar el espíritu a un espacio sin ocupar que puedas ver a 9 m o menos del espacio que ocupaba antes y hacer el ataque contra una criatura a 1,5 m o menos de él.<br><b>Con un espacio de conjuro de nivel superior.</b> El daño aumenta en 2d12 por cada nivel por encima de 6 que tenga el espacio.",
-    "requiere_ataque": true
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Conjuras un espíritu Mediano de los Parajes Feéricos en un espacio sin ocupar que puedas ver dentro del alcance. El espíritu dura hasta que termine el conjuro y toma la forma de una criatura feérica de tu elección. Cuando aparezca, puedes hacer un ataque de conjuro cuerpo a cuerpo contra una criatura a 1,5 m o menos de él. Si acierta, el objetivo sufrirá una cantidad de daño psíquico igual a 3d12 más tu modificador por aptitud mágica y tendrá el estado de asustado hasta el principio de tu siguiente turno, y tanto el espíritu como tú seréis el origen de su miedo.<br><br>Como acción adicional en tus siguientes turnos, puedes teletransportar el espíritu a un espacio sin ocupar que puedas ver a 9 m o menos del espacio que ocupaba antes y hacer el ataque contra una criatura a 1,5 m o menos de él.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El daño aumenta en 2d12 por cada nivel por encima de 6 que tenga el espacio.",
+    "materiales": null
   },
   {
     "nombre": "Contingencia",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
-    "escuela": "Evocación",
+    "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "10 minutos",
     "ritual": false,
     "alcance": "Lanzador",
@@ -166,19 +167,24 @@
     "duracion": "10 días",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Elige un conjuro de nivel 5 o menor que puedas lanzar, que tenga un tiempo de lanzamiento de 1 acción y que pueda hacerte objetivo. Lanzas ese conjuro (llamado el conjuro contingente) como parte de lanzar <i>contingencia</i>, empleando espacios de conjuro para ambos, pero el conjuro contingente no tiene efecto en ese momento. En vez de eso, tendrá efecto cuando ocurra una determinada situación, que describes y estableces al lanzar los dos conjuros. Por ejemplo, una <i>contingencia</i> lanzada con <i>respirar bajo el agua</i> podría estipular que <i>respirar bajo el agua</i> comenzará cuando quedes sumergido en agua o un líquido similar.<br>El conjuro contingente tiene efecto inmediatamente después de que ocurra la situación establecida por primera vez, lo quieras o no, y después <i>contingencia</i> termina.<br>El conjuro contingente solo puede tener efecto en ti, incluso si normalmente puede elegir como objetivo a otros. Solo eres capaz de tener un conjuro de <i>contingencia</i> activo al mismo tiempo. Si lanzas este conjuro de nuevo, el efecto de una <i>contingencia</i> anterior termina. Además, <i>contingencia</i> finaliza si en cualquier momento dejas de llevar encima su componente material.",
-    "materiales": "Una estatuilla de ti mismo tallada en marfil y decorada con gemas y con un valor de, al menos, 1.500 po"
+    "descripcion": "Elige un conjuro de nivel 5 o inferior que puedas lanzar, que tenga un tiempo de lanzamiento de una acción y que te permita elegirte como objetivo. Lanzas el conjuro (llamado “conjuro contingente”) como parte del lanzamiento de <i>contingencia</i> y gastas los espacios de conjuro de ambos, pero el conjuro contingente no tiene efecto en ese momento, sino que se activa cuando se produce una condición determinada. Describes esa condición cuando lanzas los dos conjuros. Por ejemplo, si lanzas <i>contingencia</i> junto a <i>respirar bajo el agua</i>, podrías decir que <i>respirar bajo el agua</i> tenga efecto cuando te sumerjas en agua o en un líquido similar.<br><br>El conjuro contingente tiene efecto inmediatamente después de que se produzca la condición por primera vez, tanto si quieres como si no, y después termina el conjuro <i>contingencia</i>.<br><br>El conjuro contingente solo tiene efecto sobre ti, aunque normalmente pudieras elegir como objetivo a otros. Solo puedes tener un conjuro <i>contingencia</i> activo al mismo tiempo. Si vuelves a lanzarlo, terminará el efecto de cualquier otro conjuro <i>contingencia</i> que tengas. Asimismo, <i>contingencia</i> termina si dejas de tener contigo su componente material.",
+    "materiales": "una estatuilla de ti tallada y decorada con gemas que valga al menos 1500 po"
   },
   {
     "nombre": "Crear muerto viviente",
     "clases": [
-      "Clérigo"
+      "Brujo",
+      "Clérigo",
+      "Mago"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "1 minuto",
     "ritual": false,
-    "alcance": "10 pies",
-    "visible": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": true,
     "componentes": [
       "V",
       "S",
@@ -188,8 +194,8 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Este conjuro solo puede lanzarse de noche. Elige hasta tres cadáveres de humanoide de tamaño Mediano o Pequeño. Deben estar dentro del alcance. Cada uno de ellos se convierte en un gul bajo tu control (el DM tiene los perfiles de estas criaturas).<br><br>En cada turno, puedes usar una acción adicional para dar una orden mental a cualquier criatura creada mediante este conjuro si está a 120 pies o menos de ti (si controlas varias criaturas, puedes dirigir a una o más de ellas utilizando la misma orden). Decides qué acción va a tomar la criatura y dónde se moverá durante su próximo turno. También puedes dar una orden general, como vigilar una cámara o un pasillo en concreto. Si no indicas ninguna orden, la criatura se limita a defenderse de otras criaturas hostiles. Una vez que recibe una orden, la sigue hasta cumplirla.<br><br>La criatura se mantiene bajo tu control durante 24 horas, después de las cuales abandonará cualquier orden que le hayas dado. Para mantener el control sobre ella durante otras 24 horas, debes lanzar este conjuro de nuevo sobre ella antes de que el periodo actual de 24 horas termine. No puedes usar este conjuro para reafirmar tu control sobre hasta tres criaturas que hayas animado previamente con este mismo conjuro en vez de reanimar nuevas criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7, reanimas o reafirmas tu control sobre cuatro gules. Cuando lanzas el conjuro usando un espacio de conjuro de nivel 8, reanimas o reafirmas tu control sobre cinco gules, o dos tumularios. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 9, reanimas o reafirmas tu control sobre seis gules, tres ghasts o tumularios, o dos momias.",
-    "materiales": "Una maceta de arcilla llena de tierra de una tumba, una maceta de arcilla llena de agua salobre y un ónice negro de 150 po por cada cadáver"
+    "descripcion": "Solo puedes lanzar este conjuro por la noche. Elige hasta tres cadáveres de humanoides de tamaño Mediano o Pequeño dentro del alcance. Cada uno se convierte en un gul bajo tu control (consulta su perfil en el <i>Manual de monstruos</i>).<br><br>Como acción adicional en cada uno de tus turnos, puedes dar órdenes mentalmente a cada criatura que hayas animado con el conjuro que esté a 36 m o menos de ti (si controlas a varias criaturas, puedes dar órdenes a cualquiera de ellas a la vez transmitiéndole la misma orden a cada una). Tú decides qué acción llevará a cabo la criatura u orden general, como proteger un lugar en concreto. Si no das ninguna orden, la criatura hace la acción de esquivar y solo se mueve para evitar peligros. En cuanto se le dé una orden, la criatura la cumplirá hasta completar su tarea.<br><br>La criatura estará bajo tu control durante 24 horas, tras las cuales dejará de obedecer cualquier orden que le hayas dado. Para mantener el control sobre ella otras 24 horas, deberás volver a lanzarle este conjuro antes de que acabe el periodo actual de 24 horas. Este uso del conjuro refuerza tu control sobre hasta tres criaturas que hayas animado con él y no anima nuevas criaturas.<br><br><i>Con un espacio de conjuro de nivel superior.</i> Si usas un espacio de conjuro de nivel 7, puedes animar o reforzar el control sobre cuatro gules. Si usas un espacio de conjuro de nivel 8, puedes animar o reforzar el control sobre cinco gules o dos ghasts o tumularios. Si usas un espacio de conjuro de nivel 9, puedes animar o reforzar el control sobre seis gules, tres ghasts o tumularios o dos momias. Consulta sus perfiles en el <i>Manual de monstruos</i>.",
+    "materiales": "un ónice negro que valga al menos 150 po por cada cadáver"
   },
   {
     "nombre": "Curar",
@@ -197,10 +203,13 @@
       "Clérigo",
       "Druida"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -210,7 +219,7 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Elige a una criatura que puedas ver dentro del alcance. Una ráfaga de energía positiva cubre al objetivo, haciendo que recupere 70 puntos de golpe. El conjuro también termina cualquier efecto de ceguera, sordera o enfermedad que aflija a la criatura. Este conjuro no afecta a muertos vivientes o autómatas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o más, la curación aumenta en 10 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
+    "descripcion": "Elige a una criatura que puedas ver dentro del alcance. Una energía positiva la recorre e hace que recupere 70 puntos de golpe. El conjuro también elimina los estados de cegado, ensordecido y envenenado del objetivo.<br><br><i>Con un espacio de conjuro de nivel superior.</i> La curación aumenta en 10 por cada nivel por encima de 6 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -219,9 +228,12 @@
       "Clérigo"
     ],
     "escuela": "Nigromancia",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -231,7 +243,7 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Haces brotar una virulenta enfermedad en una criatura que puedas ver dentro del alcance. El objetivo debe hacer una tirada de salvación de Constitución. Sufrirá 14d6 de daño necrótico si falla la tirada o la mitad del daño si la supera.<br><br>El daño no puede reducir los puntos de golpe del objetivo por debajo de 1. Además, si falla la tirada de salvación, los puntos de golpe máximos del objetivo se reducirán durante una hora en la cantidad del daño recibido. Cualquier efecto que cure una enfermedad permite que los puntos de golpe máximos del objetivo vuelvan a la normalidad antes del tiempo señalado.",
+    "descripcion": "Desatas una magia virulenta sobre una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvación de Constitución. Si la falla, sufre 14d6 de daño necrótico y sus puntos de golpe máximos se reducen en una cantidad igual al daño necrótico recibido. Si la supera, recibirá solo la mitad de daño. Este conjuro no puede reducir los puntos de golpe máximos del objetivo a menos de 1.",
     "materiales": null
   }
 ]

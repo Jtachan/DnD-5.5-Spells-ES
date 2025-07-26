@@ -276,35 +276,40 @@
   {
     "nombre": "Contrahechizo",
     "clases": [
+      "Brujo",
       "Hechicero",
-      "Mago",
-      "Brujo"
+      "Mago"
     ],
     "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "1 reacción, que llevas a cabo cuando una criatura que puedas ver a 60 pies o menos lance un conjuro",
+    "tiempo_de_lanzamiento": "Reacción, que llevas a cabo cuando una criatura que puedas ver a 18 m o menos de ti lance un conjuro usando componentes verbales, somáticos o materiales",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "S"
     ],
     "concentracion": false,
     "duracion": "Instantáneo",
-    "tirada_de_salvacion": null,
+    "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Intentas interrumpir a una criatura mientras lanza un conjuro. Si este último es de nivel 3 o menor, lo logras automáticamente y el conjuro no tiene efecto alguno. Sin embargo, para cada conjuro de nivel 4 o más, realiza una prueba de característica usando tu aptitud mágica. La CD es 10 + el nivel del conjuro. Si tienes éxito, el conjuro de la criatura falla y no tiene efecto.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, cancelas automáticamente aquellos conjuros cuyo nivel sea menor o igual al nivel del espacio de conjuro utilizado.",
+    "descripcion": "Intentas interrumpir a una criatura que esté lanzando un conjuro. La criatura hace una tirada de salvación de Constitución. Si la falla, el conjuro se disipa sin causar efecto alguno y la acción, acción adicional o reacción empleada para lanzarlo se desperdiciará. Si ese conjuro se lanzó con un espacio de conjuro, dicho espacio no se gastará.",
     "materiales": null
   },
   {
     "nombre": "Corcel fantasma",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
-    "escuela": "Ilusión",
-    "tiempo_de_lanzamiento": "1 minuto",
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "1 minuto o un ritual",
     "ritual": true,
-    "alcance": "30 pies",
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -314,7 +319,7 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una criatura de tamaño Grande, con aspecto equino, aparece en el suelo en un espacio libre de tu elección que puedas ver dentro del alcance. Tú decides la apariencia de la criatura, pero estará equipada con silla de montar, bocado y bridas. Cualquier equipo creado por el conjuro se desvanecerá si se aleja más de 10 pies de ella.<br><br>Hasta el final de la duración del conjuro, tú o una criatura de tu elección podéis montar el corcel. Este tiene el perfil de un caballo de monta, excepto que su velocidad es de 100 pies y puede viajar 10 millas en una hora, 13 a ritmo rápido. Cuando el conjuro acaba, el corcel se desvanece gradualmente, dando al jinete 1 minuto para desmontar. El conjuro acaba si la criatura recibe cualquier tipo de daño o si utilizas una acción para terminar el conjuro.",
+    "descripcion": "Una criatura equina cuasi real de tamaño Grande aparece en un espacio sin ocupar de tu elección dentro del alcance. Tú decides su aspecto y estará equipada con una silla, bocado y bridas. Cualquier equipo creado por el conjuro se desvanecerá en una bocanada de humo si se lleva a más de 3 m de la montura.<br><br>Hasta que termine el conjuro, tú o una criatura de tu elección podéis montar el corcel. El corcel utiliza el perfil del <i>caballo de monta</i> (consulta el apéndice B), excepto que tiene una velocidad de 30 m y puede desplazarse a 20 km/h. Cuando el conjuro termina, el corcel se desvanece gradualmente, lo que da al jinete 1 minuto para desmontar. El conjuro termina antes si el corcel recibe daño.",
     "materiales": null
   },
   {
@@ -324,10 +329,13 @@
       "Paladín"
     ],
     "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "30 pies",
-    "visible": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
     "componentes": [
       "V",
       "S"
@@ -336,7 +344,7 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas 45 libras de comida y 30 galones de agua en el suelo o en recipientes dentro del alcance, lo suficiente para mantener a quince humanoides o cinco corceles durante 24 horas. La comida es sosa, aunque nutritiva, y se estropeará si no se ha consumido en 24 horas. En cambio, el agua está limpia y no se estropea.",
+    "descripcion": "Creas 22,5 kg de comida y 120 l de agua potable en el suelo o en recipientes dentro del alcance, ideales para evitar los peligros de la desnutrición y la deshidratación. La comida es sosa pero nutritiva y tiene el aspecto de una comida de tu elección, mientras que el agua está limpia. La comida se estropea si no se consume en 24 horas.",
     "materiales": null
   },
   {
@@ -347,10 +355,13 @@
       "Explorador"
     ],
     "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción u 8 horas",
+    "tiempo_de_lanzamiento": "Acción (sobrecrecimiento) u 8 horas (fertilización)",
     "ritual": false,
-    "alcance": "150 pies",
-    "visible": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
     "componentes": [
       "V",
       "S"
@@ -359,7 +370,7 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Este conjuro infunde vitalidad en las plantas de un área determinada. Hay dos posibles maneras de emplear este conjuro, que proporcionarán beneficios a corto o a largo plazo.<br><br>Si lanzas el conjuro utilizando 1 acción, elige un punto que puedas ver dentro del alcance. Todas las plantas en un radio de 100 pies centrado en ese punto se vuelven gruesas y muy frondosas. Cualquier criatura que atraviese esa zona debe emplear 4 pies de movimiento por cada pie que quiera moverse.<br><br>Puedes excluir una o más áreas de cualquier tamaño de la zona afectada por el conjuro.<br><br>Si lanzas este conjuro durante 8 horas, enriquecerás la tierra. Todas las plantas en un círculo de media milla de radio centrado en un punto dentro del alcance quedan enriquecidas y potenciadas durante 1 año. Producirán el doble de alimentos para la próxima cosecha.",
+    "descripcion": "Este conjuro infunde vitalidad en las plantas. El tiempo de lanzamiento que uses determina si el conjuro tiene un efecto de sobrecrecimiento o de enriquecimiento, descritos a continuación.<br><br><b>Sobrecrecimiento.</b> Elige un punto dentro del alcance. Todas las plantas en una esfera de 30 m de radio centrada en ese punto se volverán gruesas y frondosas. Una criatura que atraviese esa área deberá gastar 4 m de movimiento por cada metro que se mueva. Puedes excluir una o más zonas de cualquier tamaño dentro del área del conjuro para que no se vean afectadas.<br><br><b>Fertilización.</b> Todas las plantas en un radio de 750 m centrado en un punto dentro del alcance estarán fertilizadas durante 365 días y producirán el doble de comida al recolectarlas. Solo podrán beneficiarse de un <i>crecimiento vegetal</i> cada año.",
     "materiales": null
   }
 ]

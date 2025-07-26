@@ -371,19 +371,19 @@
       "Hechicero",
       "Mago"
     ],
-    "escuela": "Ilusión",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
     "alcance": "Lanzador",
-    "visible": false,
+    "visible": true,
     "componentes": [
       "V"
     ],
     "concentracion": true,
-    "duracion": "Concentración, hasta 1 minuto",
+    "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "El contorno de tu cuerpo se vuelve borroso, cambiando y oscilando a la vista de todos. Hasta el final de la duración del conjuro, las criaturas que hagan tiradas de ataque contra ti tienen desventaja. El atacante es inmune a este efecto si no depende de la vista (por ejemplo, tiene visión ciega) o ve a través de las ilusiones (como con visión verdadera).",
+    "descripcion": "Tu cuerpo se vuelve borroso. Hasta que termine el conjuro, todas las criaturas tendrán desventaja en las tiradas de ataque contra ti. Un atacante es inmune a este efecto si te percibe mediante visión ciega o visión verdadera.",
     "materiales": null
   },
   {
@@ -392,10 +392,10 @@
       "Explorador"
     ],
     "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "5 pies",
-    "visible": false,
+    "alcance": "Toque",
+    "visible": true,
     "componentes": [
       "V",
       "S",
@@ -405,20 +405,24 @@
     "duracion": "8 horas",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Clavas cuatro unidades de munición no mágica (flechas o virotes de ballesta) en el suelo, dentro del alcance, y las encantas para proteger el área. Hasta que el conjuro finalice, cuando una criatura que no seas tú entre en su turno o se acerque por primera vez a 30 pies o menos de las saetas, una de ellas saldrá volando para atacarla. Deberá tener éxito en una tirada de salvación de Destreza o sufrirá 1d6 de daño perforante. La saeta resulta destruida. El conjuro termina cuando no quedan más proyectiles.<br><br>Las criaturas elegidas (por ti) pueden ignorar este conjuro.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o más, la cantidad de saetas que puedes encantar se incrementa en dos por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
-    "materiales": "Cuatro o más flechas o virotes"
+    "descripcion": "Tocas hasta cuatro flechas o virotes no mágicos y los clavas en el suelo dentro de tu espacio. Hasta que el conjuro termine, la munición no podrá extraerse por la fuerza, y siempre que una criatura que no seas tú entre en un espacio a 9 m o menos de la munición por primera vez en un turno o termine su turno allí, uno de los proyectiles saldrá volando para atacarla. La criatura deberá superar una tirada de salvación de Destreza o sufrirá 2d4 de daño perforante. A continuación, el proyectil se destruye. El conjuro termina cuando no quede munición clavada en el suelo.<br><br>Cuando lanzas este conjuro, puedes designar criaturas de tu elección para que el conjuro las ignore.<br><br><i>Con un espacio de conjuro de nivel superior.</i> La cantidad de munición que puedes hechizar aumenta en 2 por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "una trenza ornamental"
   },
   {
     "nombre": "Corona de la locura",
     "clases": [
       "Bardo",
+      "Brujo",
       "Hechicero",
       "Mago"
     ],
     "escuela": "Encantamiento",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "120 pies",
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -428,21 +432,23 @@
     "duracion": "Concentración, hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Un humanoide de tu elección que puedas ver dentro del alcance debe realizar una tirada de salvación de Sabiduría o quedará hechizado por ti. Mientras permanezca hechizado de esta manera, aparece en su cabeza una corona retorcida de hierro dentado y la locura brilla en sus ojos.<br><br>El objetivo hechizado debe utilizar su acción antes de moverse cada turno para realizar un ataque cuerpo a cuerpo contra una criatura elegida mentalmente por ti y que no sea ella misma.<br><br>Puede actuar con normalidad en su turno si no eliges ninguna criatura o no tiene ninguna a su alcance.<br><br>En turnos siguientes debes usar tu acción para mantener el control del objetivo o el conjuro termina. Al final de cada uno de sus turnos, el objetivo puede realizar otra tirada de salvación de Sabiduría. Si tiene éxito, el efecto del conjuro termina.",
+    "descripcion": "Una criatura que puedas ver dentro del alcance deberá superar una tirada de salvación de Sabiduría o tendrá el estado de hechizada hasta que termine el conjuro. Si no es humanoide, la criatura tiene éxito automáticamente.<br><br>Una corona espectral aparece sobre la cabeza del objetivo hechizado, que debe usar su acción antes de moverse cada turno para realizar un ataque cuerpo a cuerpo contra una criatura que elijas mentalmente y que no sea él mismo. El objetivo puede actuar con normalidad en su turno si no eliges ninguna criatura o no tiene ninguna a su alcance. El objetivo repetirá la tirada de salvación al final de cada uno de sus turnos y, si tiene éxito, se librará del conjuro.<br><br>En tus siguientes turnos, debes realizar la acción de magia para mantener el control sobre el objetivo o el conjuro terminará.",
     "materiales": null
   },
   {
     "nombre": "Crecimiento espinoso",
     "clases": [
-      "Bardo",
       "Druida",
       "Explorador"
     ],
     "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "150 pies",
-    "visible": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
     "componentes": [
       "V",
       "S",
@@ -450,9 +456,9 @@
     ],
     "concentracion": true,
     "duracion": "Concentración, hasta 10 minutos",
-    "tirada_de_salvacion": "PER",
+    "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Con un temblor, surgen espinas y pinchos del suelo en un radio de 20 pies alrededor de un punto dentro del alcance. Hasta el final de la duración del conjuro, el suelo del área es terreno difícil. Cuando una criatura entra o se mueve a través del área, recibe 2d4 de daño perforante por cada 5 pies que se desplace.<br><br>La transformación del suelo queda camuflada de manera que parece natural. Cualquier criatura que no pueda ver el área en el momento en que se lanza el conjuro debe superar una tirada de salvación de Sabiduría (Percepción) con CD igual a tu salvación de conjuros para darse cuenta de que el terreno es peligroso antes de entrar en él.",
-    "materiales": "Siete espinas agudas o siete ramitas talladas hasta tener punta"
+    "descripcion": "Del suelo en una esfera de 6 m de radio centrada en un punto dentro del alcance brotan espinas y pinchos. La zona se vuelve terreno difícil hasta que termine el conjuro. Cuando una criatura entra en la zona o se desplaza por ella, recibe 2d4 de daño perforante por cada 1,5 m que avance.<br><br>La transformación del suelo se camufla, de forma que parece natural. Cualquier criatura que no pueda ver la zona cuando se lanza el conjuro deberá emplear una acción de buscar y superar una prueba de Sabiduría (Percepción o Supervivencia) contra tu CD de salvación de conjuros para reconocer que el terreno es peligroso antes de adentrarse en él.",
+    "materiales": "Siete espinas"
   }
 ]

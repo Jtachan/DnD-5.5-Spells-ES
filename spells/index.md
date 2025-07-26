@@ -104,6 +104,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Crear o destruir agua                | 1         |
 | Crecimiento espinoso                 | 2         |
 | Crecimiento vegetal                  | 3         |
+| Cuchillo de hielo                    | 1         |
 | Curar                                | 6         |
 | Curar en masa                        | 9         |
 | Curar heridas                        | 1         |

@@ -253,10 +253,13 @@
       "Druida"
     ],
     "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "30 pies",
-    "visible": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
     "componentes": [
       "V",
       "S",
@@ -266,8 +269,34 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas o destruyes agua.<br><br><b>Crear agua.</b> Creas hasta 10 galones de agua limpia en un recipiente dentro del alcance. Alternativamente, el agua llueve en un cubo de 30 pies de lado dentro del alcance, apagando cualquier llama expuesta dentro del área.<br><br><b>Destruir agua.</b> Destruyes hasta 10 galones de agua limpia de un recipiente dentro del alcance. Alternativamente, deshaces la niebla en un cubo de 30 pies de lado dentro del alcance.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, por cada nivel por encima de 1 del espacio creas o destruyes 10 galones adicionales de agua o el lado del cubo aumenta en 5 pies.",
-    "materiales": "Una gota de agua si estás creándola o unos granos de arena si la estás destruyendo"
+    "descripcion": "Produces uno de estos efectos:<br><br><b>Crear agua.</b> Creas hasta 40 l de agua limpia dentro del alcance en un recipiente abierto. Como alternativa, el agua cae en forma de lluvia en un cubo de 9 m de lado dentro del alcance y apaga las llamas abiertas de la zona.<br><br><b>Destruir agua.</b> Destruyes hasta 40 l de agua dentro del alcance o en un recipiente abierto. Como alternativa, puedes destruir niebla en un cubo de 9 m de lado dentro del alcance.<br><br><i>Con un espacio de conjuro de nivel superior.</i> Creas o destruyes 40 l más de agua o el tamaño del cubo aumenta en 1,5 m por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "una mezcla de agua y arena"
+  },
+  {
+    "nombre": "Cuchillo de hielo",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuración",
+    "tiempo_de_lanzamiento": "Acción",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instantáneo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": true,
+    "descripcion": "Creas una esquirla de hielo y se la lanzas a una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de daño perforante. Acierta o falle, el fragmento explotará. El objetivo y todas las criaturas a 1,5 m menos de él deberán superar una tirada de salvación de Destreza o recibirán 2d6 de daño de frío.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El daño de frío aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "una gota de agua o un trozo de hielo"
   },
   {
     "nombre": "Curar heridas",
@@ -275,11 +304,11 @@
       "Bardo",
       "Clérigo",
       "Druida",
-      "Paladín",
-      "Explorador"
+      "Explorador",
+      "Paladín"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
     "alcance": "Toque",
     "visible": true,
@@ -291,7 +320,7 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una criatura a la que toques recupera tantos puntos de golpe como 1d8 + tu modificador por aptitud mágica. Este conjuro no afecta a muertos vivientes o autómatas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, la curación aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "descripcion": "Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d8 más tu modificador por aptitud mágica.<br><br><i>Con un espacio de conjuro de nivel superior.</i> La curación aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   }
 ]

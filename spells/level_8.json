@@ -120,14 +120,14 @@
   {
     "nombre": "Controlar el clima",
     "clases": [
-      "Bardo",
       "Clérigo",
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "10 minutos",
     "ritual": false,
-    "alcance": "Lanzador (radio de 5 millas)",
+    "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V",
@@ -138,7 +138,7 @@
     "duracion": "Concentración, hasta 8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tomas el control del tiempo atmosférico en un radio de 5 millas alrededor de ti hasta el final de la duración del conjuro. Debes estar al aire libre para poder lanzar este conjuro. Si te mueves a un sitio donde no puedas ver el cielo, el conjuro termina antes de tiempo.<br><br>Cuando lanzas el conjuro, cambias las condiciones atmosféricas actuales determinadas por el DM de acuerdo al clima y la estación. Puedes modificar las precipitaciones, temperatura y viento. Tardas 1d4 × 10 minutos en llevar este cambio a término. Cuando termines, puedes cambiar las condiciones de nuevo si así lo quieres. Al terminar el conjuro, el tiempo vuelve a la normalidad gradualmente.<br><br>Cuando manipules las condiciones atmosféricas, encuentra el estado actual en las siguientes tablas y cámbialo un nivel, hacia arriba o hacia abajo. Cuando actúas sobre el viento, puedes modificar su dirección.<br><br><b>Precipitaciones</b><br>1. Despejado<br>2. Nubes escasas<br>3. Cielo cubierto o niebla de superficie<br>4. Lluvia, granizo o nieve<br>5. Lluvia torrencial, tormenta de granizo o ventisca<br><br><b>Temperatura</b><br>1. Calor insoportable<br>2. Caliente<br>3. Templado<br>4. Fresco<br>5. Frío polar<br><br><b>Viento</b><br>1. Calmo<br>2. Viento moderado<br>3. Viento fuerte<br>4. Galerna<br>5. Tempestad",
-    "materiales": "Incienso y pedacitos de tierra y madera mezclados en agua"
+    "descripcion": "Hasta que termine el conjuro, asumes el control del clima a 7,5 km o menos de ti. Debes estar al aire libre para lanzar este conjuro y terminará antes de tiempo si entras en una zona cubierta.<br><br>Cuando lanzas el conjuro, cambias las condiciones climatológicas actuales, que determinará tu DM. Puedes cambiar las precipitaciones, la temperatura y el viento. Se tardan 1d4 × 10 minutos en que las nuevas condiciones surtan efecto. En cuanto lo hagan, puedes volver a cambiarlas. Cuando el conjuro termine, el clima volverá poco a poco a su estado normal.<br><br>Cuando cambies las condiciones meteorológicas, busca un estado en las tablas siguientes y modifica su nivel en uno, arriba o abajo. Si cambias el viento, también puedes alterar su dirección.<br><br><b>PRECIPITACIONES</b><br>1 – Despejado<br>2 – Nubes escasas<br>3 – Cielo cubierto o niebla de superficie<br>4 – Lluvia, granizo o nieve<br>5 – Lluvia torrencial, tormenta de granizo o ventisca<br><br><b>TEMPERATURA</b><br>1 – Ola de calor<br>2 – Caliente<br>3 – Templado<br>4 – Fresco<br>5 – Frío<br>6 – Frío extremo<br><br><b>VIENTO</b><br>1 – Calmo<br>2 – Viento moderado<br>3 – Viento fuerte<br>4 – Galerna<br>5 – Tempestad",
+    "materiales": "incienso para quemar"
   }
 ]

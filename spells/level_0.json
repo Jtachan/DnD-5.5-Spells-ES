@@ -77,7 +77,7 @@
       "Druida"
     ],
     "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción adicional",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": true,
@@ -89,7 +89,7 @@
     "duracion": "10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Aparece en tu mano una llama parpadeante. Esta permanece hasta el final de la duración del conjuro y no te daña ni a ti ni a tu equipo. La llama emite luz brillante en un radio de 10 pies y luz tenue 10 pies más allá. El conjuro termina si lo lanzas de nuevo o utilizas una acción para finalizarlo.<br><br>También puedes atacar con la llama, pero esto termina el conjuro. Cuando lances este conjuro, o como acción en un turno posterior, puedes arrojar la llama a una criatura hasta a 30 pies de ti. Haz un ataque de conjuro a distancia. Si impactas, el objetivo recibe 1d8 de daño de fuego.<br><br>El daño del conjuro aumenta en 1d8 cuando alcanzas nivel 5 (2d8), nivel 11 (3d8) y nivel 17 (4d8).",
+    "descripcion": "En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 6 m y luz tenue 6 m más allá. El conjuro termina si lo vuelves a lanzar.<br><br>Hasta que el conjuro termine, puedes usar una acción de magia para arrojar la llama a una criatura u objeto a 18 m o menos de ti. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d8 de daño de fuego.<br><br><i>Mejora de truco.</i> El daño aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
     "materiales": null
   }
 ]

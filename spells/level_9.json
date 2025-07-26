@@ -53,10 +53,13 @@
     "clases": [
       "Clérigo"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Abjuración",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -66,7 +69,7 @@
     "duracion": "Instantáneo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una ráfaga de energía curativa fluye a través de ti hacia las criaturas heridas a tu alrededor. Elige a cualquier número de criaturas voluntarias que puedas ver dentro del alcance. Recuperan 700 puntos de golpe en total, divididos como quieras. Cualquier criatura afectada por este conjuro también es curada de todas las enfermedades y de cualquier efecto que la mantuviera cegada o ensordecida. Este conjuro no afecta a muertos vivientes o autómatas.",
+    "descripcion": "De ti brota una oleada de energía curativa que envuelve a las criaturas que te rodean. Haces recuperar hasta 700 puntos de golpe, repartidos como tú escojas entre cualquier cantidad de criaturas que puedas ver dentro del alcance. Las criaturas sanadas con este conjuro también se libran de los estados de cegadas, ensordecidas y envenenadas.",
     "materiales": null
   }
 ]
