@@ -134,3 +134,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Dominar persona                      | 5         |
 | Don de lenguas                       | 3         |
 | Dormir                               | 1         |
+| Duelo forzado                        | 1         |

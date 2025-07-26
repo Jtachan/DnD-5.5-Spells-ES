@@ -472,5 +472,28 @@
     "requiere_ataque": false,
     "descripcion": "Todas las criaturas de tu elecci\u00f3n en una esfera de 1,5 m de radio centrada en un punto del alcance se ver\u00e1n afectadas en funci\u00f3n del resultado de la tirada de dados de vida. Una criatura ser\u00e1 afectada si su salud es igual o menor que la cantidad restante de puntos del efecto. El conjuro termina sobre un objetivo si recibe da\u00f1o o si alguien, a 1,5 m o menos de \u00e9l, lo emplea una acci\u00f3n para zarandearlo y poner fin al efecto del conjuro.<br><br>Las criaturas que no duermen, como los elfos, o que tengan inmunidad al estado de cansancio superan autom\u00e1ticamente las tiradas de salvaci\u00f3n contra este conjuro.",
     "materiales": "Una pizca de arena o p\u00e9talos de rosa."
+  },
+  {
+    "nombre": "Duelo forzado",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Intentas forzar a una criatura a batirse en duelo. Una criatura que puedas ver dentro del alcance realiza una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, el objetivo tendr\u00e1 desventaja en las tiradas de ataque contra criaturas que no seas t\u00fa y no podr\u00e1 moverse voluntariamente a ning\u00fan espacio que se encuentre a m\u00e1s de 9 m de ti.<br><br>El conjuro termina si haces una tirada de ataque contra una criatura distinta al objetivo, si lanzas un conjuro contra un enemigo distinto a \u00e9l, si uno de tus aliados hace da\u00f1o al objetivo o si terminas tu turno a m\u00e1s de 9 m de \u00e9l.",
+    "materiales": null
   }
 ]
