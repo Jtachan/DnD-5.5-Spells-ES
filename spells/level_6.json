@@ -322,5 +322,31 @@
     "requiere_ataque": false,
     "descripcion": "Percibes m\u00e1gicamente el camino f\u00edsico m\u00e1s corto hacia un lugar que nombres. Debes estar familiarizado con \u00e9l, y el conjuro fallar\u00e1 si nombras un destino en otro plano de existencia, un destino que se mueva (como una fortaleza ambulante) o un destino inespec\u00edfico (como \u201cla guarida de un drag\u00f3n verde\u201d).<br><br>Hasta que termine el conjuro y mientras est\u00e9s en el mismo plano de existencia que el destino, sabr\u00e1s lo lejos que est\u00e1 y en qu\u00e9 direcci\u00f3n se halla. Cuando te topes con una encrucijada mientras vas al destino, identificar\u00e1s cu\u00e1l camino es el m\u00e1s corto.",
     "materiales": "Un juego de herramientas de adivinaci\u00f3n, como cartas o runas, que valga al menos 100 po."
+  },
+  {
+    "nombre": "Esfera congelante de Otiluke",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "300 pies",
+      "90 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Un globo glacial surge de ti y golpea un punto de tu elecci\u00f3n dentro del alcance, donde explota en una esfera de 18 m de radio. Todas las criaturas situadas en la zona realizar\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 10d6 de da\u00f1o fr\u00edo si la fallan o la mitad del da\u00f1o si la superan.<br><br>Si el globo golpea una masa de agua, la congelar\u00e1 hasta una profundidad de 15 cm en un \u00e1rea cuadrada de 9 m de lado. El hielo dura 1 minuto. Las criaturas que estuvieran nadando en la superficie del agua congelada quedar\u00e1n atrapadas en el hielo y tendr\u00e1n el estado de apresadas. Una criatura atrapada puede utilizar una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros para liberarse.<br><br>Puedes renunciar a lanzar el globo tras completar el conjuro. En ese caso, un temno aparecer\u00e1 un globo del tama\u00f1o similar a un proyectil de honda que resulta fr\u00edo al tacto. En cualquier momento, t\u00fa o una criatura a la que le entregues el orbe pod\u00e9is lanzarlo con la mano (hasta un alcance de 12 m) o arrojarlo con una honda (hasta el alcance normal de la honda). Se har\u00e1 a\u00f1icos al impactar y causar\u00e1 el mismo efecto que el uso normal del conjuro. Tambi\u00e9n puedes dejar el orbe en el suelo sin hacerlo pedazos y, tras 1 minuto, explotar\u00e1 si nadie lo ha hecho estallar.<br><br><b>Con un espacio de conjuro de nivel superior.</b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio.",
+    "materiales": "Una esfera de cristal en miniatura."
   }
 ]
