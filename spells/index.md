@@ -110,3 +110,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Curar heridas                        | 1         |
 | Curar heridas en masa                | 5         |
 | Dañar                                | 6         |
+| De la carne a la piedra              | 6         |

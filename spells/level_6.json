@@ -245,5 +245,32 @@
     "requiere_ataque": false,
     "descripcion": "Desatas una magia virulenta sobre una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, sufre 14d6 de da\u00f1o necr\u00f3tico y sus puntos de golpe m\u00e1ximos se reducen en una cantidad igual al da\u00f1o necr\u00f3tico recibido. Si la supera, recibir\u00e1 solo la mitad de da\u00f1o. Este conjuro no puede reducir los puntos de golpe m\u00e1ximos del objetivo a menos de 1.",
     "materiales": null
+  },
+  {
+    "nombre": "De la carne a la piedra",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Intentas convertir en piedra a una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, tendr\u00e1 el estado de apresado hasta que el conjuro termine. Si la supera, su velocidad ser\u00e1 0 hasta el principio de su siguiente turno. Los aut\u00f3matas superan autom\u00e1ticamente la tirada de salvaci\u00f3n. Un objetivo apresado realiza otra tirada de salvaci\u00f3n al final de cada uno de sus turnos. Si la supera tres veces, el conjuro termina. Si la falla tres veces, se convierte en piedra y sufre el estado de petrificada hasta que termine el conjuro. Si mantienes la concentraci\u00f3n durante toda su duraci\u00f3n, el objetivo quedar\u00e1 petrificado hasta que un conjuro como <i>restablecimiento mayor</i> u otro efecto m\u00e1gico similar le ponga fin.",
+    "materiales": "Una pluma de cocatriz."
   }
 ]
