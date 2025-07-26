@@ -136,3 +136,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Dormir                               | 1         |
 | Duelo forzado                        | 1         |
 | Dulce descanso                       | 2         |
+| Elementalismo                        | 0         |
