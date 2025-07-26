@@ -142,3 +142,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Encontrar el camino                  | 6         |
 | Encontrar familiar                   | 1         |
 | Engañar                              | 5         |
+| Enlace telepático de Rary            | 5         |

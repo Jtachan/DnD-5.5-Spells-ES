@@ -596,5 +596,31 @@
     "requiere_ataque": false,
     "descripcion": "Obtienes el estado de invisible al mismo tiempo que un doble ilusorio de ti aparece en tu sitio. El doble permanece hasta que termine el conjuro, pero la invisibilidad acabar\u00e1 de inmediato despu\u00e9s de que hagas una tirada de ataque, causes da\u00f1o o lances un conjuro.<br><br>Como acci\u00f3n de magia, puedes hacer que tu doble ilusorio se mueva hasta el doble de tu velocidad y que realice gestos, hable y se comporte del modo que quieras. El doble de imitaci\u00f3n te obedece.<br><br>Puedes ver a trav\u00e9s de sus ojos y o\u00edr con sus o\u00eddos como si estuvieras en su ubicaci\u00f3n.",
     "materiales": null
+  },
+  {
+    "nombre": "Enlace telep\u00e1tico de Rary",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Forjas un enlace telep\u00e1tico entre hasta ocho criaturas voluntarias de tu elecci\u00f3n dentro del alcance y las vinculas ps\u00edquicamente unas con otras hasta que termine el conjuro. Las criaturas que no pueden comunicarse mediante idiomas no se ven afectadas.<br><br>Hasta que el conjuro termine, los objetivos se pueden comunicar telep\u00e1ticamente usando el enlace, tanto si comparten idioma como si no. Esta comunicaci\u00f3n se puede producir a cualquier distancia, pero no se extiende a otros planos de existencia.",
+    "materiales": "Dos huevos."
   }
 ]
