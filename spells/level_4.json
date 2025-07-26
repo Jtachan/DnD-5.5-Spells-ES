@@ -1,11 +1,13 @@
 [
   {
-    "nombre": "Adivinación",
+    "nombre": "Adivinaci\u00f3n",
     "clases": [
-      "Clérigo"
+      "Cl\u00e9rigo",
+      "Druida",
+      "Mago"
     ],
-    "escuela": "Adivinación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": true,
     "alcance": "Lanzador",
     "visible": false,
@@ -15,21 +17,25 @@
       "M"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tu magia y la ofrenda te ponen en contacto con un dios o sus sirvientes. Puedes hacer una sola pregunta sobre una meta, evento o actividad específica que ocurrirá en los próximos 7 días. El DM te dará una respuesta verdadera, que puede ser una frase corta, una rima críptica o un augurio.<br>Este conjuro no tiene en cuenta ninguna circunstancia que pueda alterar los resultados, como por ejemplo el lanzamiento de otros conjuros o la pérdida de o encuentro con un compañero.<br>Si se lanya dos veces o más antes del próximo descanso largo, hay una posibilidad acumulativa del 25% por cada lanzamiento después del primero de recibir un presagio aleatorio. El Dm realiza esta tirada en secreto.",
-    "materiales": "Incienso y una ofrenda ritual apropiada a tu religión, en conjunto con valor de 25 po y que son consumidos por el conjuro."
+    "descripcion": "Este conjuro te pone en contacto con un dios o sus sirvientes. Puedes hacer una pregunta sobre un objetivo, un suceso o una actividad espec\u00edficos que ocurrir\u00e1n en los pr\u00f3ximos 7 d\u00edas. Tu DM te dar\u00e1 una respuesta verdadera, que puede ser una frase corta o una rima cr\u00edptica. El conjuro no tiene en cuenta ninguna circunstancia que pueda alterar la respuesta, como por ejemplo el lanzamiento de otros conjuros.<br><br>Si lanzas el conjuro m\u00e1s de una vez antes de finalizar un descanso largo, hay una posibilidad acumulativa del 25 % por cada lanzamiento despu\u00e9s del primero de que no recibas ninguna respuesta.",
+    "materiales": "Incienso y una ofrenda ritual apropiada a tu religi\u00f3n, en conjunto con valor de 25 po y que son consumidos por el conjuro."
   },
   {
     "nombre": "Asesino fantasmal",
     "clases": [
+      "Bardo",
       "Mago"
     ],
-    "escuela": "Ilusión",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "120 pies",
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -39,58 +45,17 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Accedes a las pesadillas de una criatura que puedas ver dentro del alcance para crear una manifestación ilusoria de sus más profundos miedos, que solo será visible para esa criatura. El objetivo debe hacer una tirada de salvación de Sabiduría. Si falla, queda asustado hasta el final de la duración del conjuro. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura debe tener éxito en una tirada de salvación de Sabiduría o sufrir 4d10 de daño psíquico. Si supera la tirada, el conjuro termina inmediatamente.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o más, el daño aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
+    "descripcion": "Accedes a las pesadillas de una criatura a la que puedas ver dentro del alcance y creas una ilusi\u00f3n de sus miedos m\u00e1s profundos que solo ella puede ver. El objetivo hace una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, sufrir\u00e1 4d10 de da\u00f1o ps\u00edquico y tendr\u00e1 desventaja en las pruebas de caracter\u00edstica y en las tiradas de ataque hasta que termine el conjuro. Si supera, solo sufrir\u00e1 la mitad del da\u00f1o y el conjuro terminar\u00e1.<br><br>En cada uno de tus turnos mientras el conjuro dure, el objetivo har\u00e1 otra tirada de salvaci\u00f3n de Sabidur\u00eda al final de su turno. Si la falla, vuelve a sufrir da\u00f1o ps\u00edquico. Si la supera, el conjuro termina.<br><br><b>Con un espacio de conjuro de nivel superior.</b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio.",
     "materiales": null
   },
   {
     "nombre": "Aura de pureza",
     "clases": [
-      "Clérigo",
-      "Paladín"
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
     ],
-    "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "1 acción",
-    "ritual": false,
-    "alcance": "Lanzador (radio de 30 pies)",
-    "visible": false,
-    "componentes": [
-      "V"
-    ],
-    "concentracion": true,
-    "duracion": "hasta 10 minutos",
-    "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Radias una energía purificante en forma de aura de 30 pies de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Todas las criaturas no hostiles en el aura (incluido tú) son resistentes al daño de veneno, no pueden enfermar y tienen ventaja en las tiradas de salvación contra cualquier efecto que cause uno de los siguientes estados: asustado, aturdido, cegado, ensordecido, envenenado, hechizado o paralizado.",
-    "materiales": null
-  },
-  {
-    "nombre": "Aura de vida",
-    "clases": [
-      "Clérigo",
-      "Paladín"
-    ],
-    "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "1 acción",
-    "ritual": false,
-    "alcance": "Lanzador (radio de 30 pies)",
-    "visible": false,
-    "componentes": [
-      "V"
-    ],
-    "concentracion": true,
-    "duracion": "hasta 10 minutos",
-    "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Radias una energía preservadora de vida en forma de aura de 30 pies de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Todas las criaturas no hostiles en el aura (incluido tú) tienen resistencia al daño necrótico y sus puntos de golpe máximos no pueden ser reducidos. Además, todas las criaturas vivas y no hostiles recuperan 1 punto de golpe al principio de su turno si están en el aura y tienen 0 puntos de golpe.",
-    "materiales": null
-  },
-  {
-    "nombre": "Castigo abrumador",
-    "clases": [
-      "Paladín"
-    ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción adicional",
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -98,10 +63,51 @@
       "V"
     ],
     "concentracion": true,
-    "duracion": "Hasta 1 minuto",
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Un aura surge de ti en una emanaci\u00f3n de 9 m hasta que el conjuro termine. Mientras permanezc\u00e1is dentro, tus aliados y t\u00fa ten\u00e9is resistencia al da\u00f1o de veneno y ventaja en las tiradas de salvaci\u00f3n para evitar o poner fin a efectos que provoquen los estados de asustado, aturdido, cegado, ensordecido, envenenado, hechizado o paralizado.",
+    "materiales": null
+  },
+  {
+    "nombre": "Aura de vida",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Un aura surge de ti en una emanaci\u00f3n de 9 m hasta que el conjuro termine. Mientras permanezc\u00e1is dentro, tus aliados y t\u00fa ten\u00e9is resistencia al da\u00f1o necr\u00f3tico y no se podr\u00e1n reducir vuestros puntos de golpe m\u00e1ximos. Si un aliado con 0 puntos de golpe comienza su turno en el aura, recupera 1 punto de golpe.",
+    "materiales": null
+  },
+  {
+    "nombre": "Castigo abrumador",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional, que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "SAB",
-    "requiere_ataque": true,
-    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, perforas su cuerpo y su mente, y el ataque le inflige 4d6 de daño psíquico adicionales. El objetivo debe hacer una tirada de salvación de Sabiduría. Si fracasa, hasta el comienzo de su próximo turno tendrá desventaja en tiradas de ataque y pruebas de característica y no podrá llevar a cabo reacciones.",
+    "requiere_ataque": false,
+    "descripcion": "El objetivo recibir\u00e1 4d6 de da\u00f1o ps\u00edquico adicional del ataque y deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de aturdido hasta el final de tu siguiente turno.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o adicional aumenta en 1d6 por cada nivel por encima de 4 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -109,135 +115,144 @@
     "clases": [
       "Mago"
     ],
-    "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
     "alcance": "Toque",
-    "visible": true,
-    "componentes": [
-      "V",
-      "S",
-      "M"
-    ],
-    "concentracion": false,
-    "duracion": "Instantáneo",
-    "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Ocultas un cofre y todos sus contenidos en el Plano Etéreo. Debes tocar el cofre y la réplica en miniatura que sirven de componentes materiales para el conjuro. El cofre puede alojar hasta 12 pies cúbicos de materiales inertes (3 pies por 2 pies por 2 pies).<br><br>Mientras permanezca en el Plano Etéreo, puedes utilizar una acción y tocar la réplica para convocarlo. Aparecerá en un espacio desocupado del suelo a 5 pies de ti. Puedes volver a mandarlo al Plano Etéreo empleando una acción y tocando tanto la réplica como el propio cofre.<br><br>Después de 60 días, hay una posibilidad acumulativa del 5% por día de que los efectos del conjuro terminen. También lo harán si lanzas el conjuro de nuevo, si la réplica del cofre es destruida o si decides finalizar el conjuro con una acción. Si el conjuro termina y el cofre grande está en el Plano Etéreo, se pierde irremediablemente.",
-    "materiales": "Un cofre de manufactura exquisita, cuyas dimensiones sean de 3 pies por 2 pies por 2 pies, construido de materiales exóticos con un valor de al menos 5.000 po, así como una réplica diminuta hecha de los mismos materiales y con un valor de al menos 50 po"
-  },
-  {
-    "nombre": "Compulsión",
-    "clases": [
-      "Bardo"
-    ],
-    "escuela": "Encantamiento",
-    "tiempo_de_lanzamiento": "1 acción",
-    "ritual": false,
-    "alcance": "30 pies",
-    "visible": true,
-    "componentes": [
-      "V",
-      "S"
-    ],
-    "concentracion": true,
-    "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "SAB",
-    "requiere_ataque": false,
-    "descripcion": "Una o más criaturas de tu elección que puedas ver, dentro del alcance y que puedan oírte deben realizar una tirada de salvación de Sabiduría. Las criaturas inmunes a ser hechizadas tienen éxito automáticamente. Aquellas que fallen la tirada quedan afectadas por el conjuro.<br><br>Hasta el final del conjuro puedes usar una acción adicional en cada uno de tus turnos para designar una dirección horizontal respecto a ti. Cada criatura afectada debe usar todo el movimiento del que disponga para avanzar en esa dirección durante su próximo turno. Puede realizar una acción antes de mover. Además, después de avanzar puede hacer otra tirada de salvación para intentar terminar el efecto.<br><br>Una criatura afectada no está obligada a moverse dentro de un peligro mortal y obvio, como una hoguera o un pozo, pero provocará ataques de oportunidad al moverse en la dirección señalada.",
-    "materiales": null
-  },
-  {
-    "nombre": "Confusión",
-    "clases": [
-      "Bardo",
-      "Druída",
-      "Hechicero",
-      "Mago"
-    ],
-    "escuela": "Encantamiento",
-    "tiempo_de_lanzamiento": "1 acción",
-    "ritual": false,
-    "alcance": "90 pies",
-    "visible": true,
-    "componentes": [
-      "V",
-      "S",
-      "M"
-    ],
-    "concentracion": true,
-    "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "SAB",
-    "requiere_ataque": false,
-    "descripcion": "Este conjuro ataca y retuerce la mente, creando ilusiones y provocando acciones incontroladas. Cada criatura en una esfera de 10 pies de radio centrada en un punto de tu elección dentro del alcance debe tener éxito en una tirada de salvación de Sabiduría o será afectada por el conjuro.<br><br>Una criatura afectada no puede llevar a cabo reacciones y debe tirar 1d10 al principio de cada uno de sus turnos para determinar cómo se comporta ese turno:<br><br><b>d10 - Comportamiento</b><br>1: La criatura emplea todo su movimiento en avanzar en una dirección aleatoria. Para determinar la dirección, lanza 1d8 asignando una dirección a cada cara del dado. No realiza acciones ese turno.<br>2–6: La criatura no se mueve ni realiza acciones ese turno.<br>7–8: La criatura usa su acción para hacer un ataque cuerpo a cuerpo contra una criatura determinada aleatoriamente dentro de su alcance. Si no hay ninguna criatura en su alcance, no hace nada ese turno.<br>9–10: La criatura puede actuar y moverse con normalidad.<br><br>Al final de cada uno de sus turnos, el objetivo puede realizar otra tirada de salvación de Sabiduría; si tiene éxito, el conjuro termina para él.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o más, el radio de la esfera aumenta en 5 pies por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
-    "materiales": "Tres cáscaras de nuez"
-  },
-  {
-    "nombre": "Conjurar elementales menores",
-    "clases": [
-      "Druída"
-    ],
-    "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 minuto",
-    "ritual": false,
-    "alcance": "90 pies",
-    "visible": true,
-    "componentes": [
-      "V",
-      "S"
-    ],
-    "concentracion": true,
-    "duracion": "Hasta 1 hora",
-    "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Convocas elementales en espacios desocupados que puedas ver dentro del alcance. Elige una de las siguientes opciones para lo que convocas:<br><br>• Un elemental con valor de desafío 2 o menos.<br>• Dos elementales con valor de desafío 1 o menos.<br>• Cuatro elementales con valor de desafío 1/2 o menos.<br>• Ocho elementales con valor de desafío 1/4 o menos.<br><br>Los elementales desaparecen si llegan a 0 puntos de golpe o el conjuro termina.<br><br>Las criaturas invocadas son amistosas hacia ti y tus compañeros. Las criaturas actúan como un grupo con sus propios turnos, con una sola de tirada de iniciativa común. Obedecen cualquier mandato verbal tuyo (no requiere acción). Si no les das ninguna orden, se defenderán de criaturas hostiles, pero no realizarán ninguna otra acción.<br><br>El DM tiene el perfil de las criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de determinados niveles superiores, el número de criaturas de la opción elegida aumenta: el doble si usas un espacio de conjuro de nivel 6 y el triple si es de nivel 8.",
-    "materiales": null
-  },
-  {
-    "nombre": "Conjurar seres del bosque",
-    "clases": [
-      "Druída"
-    ],
-    "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 acción",
-    "ritual": false,
-    "alcance": "60 pies",
-    "visible": true,
-    "componentes": [
-      "V",
-      "S",
-      "M"
-    ],
-    "concentracion": true,
-    "duracion": "Hasta 1 hora",
-    "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Convocas criaturas feéricas en espacios desocupados que puedas ver dentro del alcance. Elige una de las siguientes opciones para lo que invocas:<br><br>• Un feérico con valor de desafío 2 o menos.<br>• Dos feéricos con valor de desafío 1 o menos.<br>• Cuatro feéricos con valor de desafío 1/2 o menos.<br>• Ocho feéricos con valor de desafío 1/4 o menos.<br><br>Una criatura invocada desaparece si sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Las criaturas invocadas son amistosas hacia ti y tus compañeros. Las criaturas actúan como un grupo con sus propios turnos, con una sola de tirada de iniciativa común. Obedecen cualquier mandato verbal tuyo (no requiere acción). Si no les das ninguna orden, se defenderán de criaturas hostiles, pero no realizarán ninguna otra acción.<br><br>El DM tiene el perfil de las criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de determinados niveles superiores, el número de criaturas de la opción elegida aumenta: el doble si usas un espacio de conjuro de nivel 6 y el triple si es de nivel 8.",
-    "materiales": "Una baya de acebo por cada criatura convocada"
-  },
-  {
-    "nombre": "Controlar agua",
-    "clases": [
-      "Clérigo",
-      "Druída",
-      "Hechicero",
-      "Mago"
-    ],
-    "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción",
-    "ritual": false,
-    "alcance": "300 pies",
     "visible": false,
     "componentes": [
       "V",
       "S",
       "M"
     ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Ocultas un cofre y todo su contenido en el Plano Et\u00e9reo. Debes tocar el cofre y la r\u00e9plica en miniatura que sirve como componente material del conjuro. El cofre puede contener hasta 0,34 m\u00b3 de material inerte (90 cm por 60 cm por 60 cm).<br><br>Mientras el cofre permanezca en el Plano Et\u00e9reo, puedes usar una acci\u00f3n de magia y tocar la r\u00e9plica para recuperar dicho cofre, que aparecer\u00e1 en un espacio sin ocupar en el suelo a 1,5 m de ti. Puedes enviar el cofre de regreso al Plano Et\u00e9reo usando una acci\u00f3n de magia para tocar el cofre y la r\u00e9plica.<br><br>Despu\u00e9s de 60 d\u00edas, hay una posibilidad acumulativa del 5 % al final de cada d\u00eda de que el efecto del conjuro termine. El conjuro tambi\u00e9n termina si vuelves a lanzarlo o si se destruye la r\u00e9plica Diminuta del cofre. Si el conjuro termina y el cofre grande est\u00e1 en el Plano Et\u00e9reo, permanecer\u00e1 all\u00ed hasta que otra persona o t\u00fa lo encontr\u00e9is.",
+    "materiales": "Un cofre de con unas dimensiones de 90 cm por 60 cm por 60 cm, construido de materiales raros que valgan al menos 5000 po, as\u00ed como una r\u00e9plica diminuta hecha de los mismos materiales y que valga al menos 50 po."
+  },
+  {
+    "nombre": "Compulsi\u00f3n",
+    "clases": [
+      "Bardo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
     "concentracion": true,
-    "duracion": "Concentración, hasta 10 minutos",
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Todas las criaturas de tu elecci\u00f3n que puedas ver dentro del alcance deber\u00e1n superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1n el estado de hechizadas hasta que el conjuro termine.<br><br>Mientras dure, puedes usar una acci\u00f3n adicional para designar una direcci\u00f3n horizontal respecto a ti. Cada criatura hechizada deber\u00e1 usar todo el movimiento que pueda para avanzar en esa direcci\u00f3n por la ruta m\u00e1s segura durante su pr\u00f3ximo turno. Tras moverse de este modo, un objetivo repite la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.",
+    "materiales": null
+  },
+  {
+    "nombre": "Confusi\u00f3n",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Todas las criaturas situadas en una esfera de 3 m de radio centrada en un punto que elijas dentro del alcance deber\u00e1n superar una tirada de salvaci\u00f3n de Sabidur\u00eda o no podr\u00e1n usar acciones adicionales ni reacciones y deber\u00e1n tirar 1d10 al principio de cada uno de sus turnos para determinar su comportamiento ese turno. Para ello, consulta la tabla que se muestra a continuaci\u00f3n.<br><br><table><tr><th>1d10</th><th>Comportamiento del turno</th></tr><tr><td>1</td><td>El objetivo no usa ninguna acci\u00f3n y emplea todo su movimiento para desplazarse. Para determinar la direcci\u00f3n, tira 1d4: con un 1, se mover\u00e1 al norte; con un 2, al este; con un 3, al sur; con un 4, al oeste.</td></tr><tr><td>2\u20136</td><td>El objetivo no se mueve ni realiza acciones.</td></tr><tr><td>7\u20138</td><td>El objetivo no se mueve y emplea la acci\u00f3n de atacar para hacer un ataque cuerpo a cuerpo contra una criatura aleatoria dentro de su alcance. Si no hay ninguna dentro de su alcance, el objetivo no hace ninguna acci\u00f3n.</td></tr><tr><td>9\u201310</td><td>El objetivo elige su comportamiento.</td></tr></table><br><br>Al final de cada uno de sus turnos, un objetivo afectado repite la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br><i><b>Con un espacio de conjuro de nivel superior.</b></i> El radio de la esfera aumenta en 1,5 m por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": "Tres c\u00e1scaras de nuez."
+  },
+  {
+    "nombre": "Conjurar elementales menores",
+    "clases": [
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Conjuras esp\u00edritus de los Planos Elementales que revolotean a tu alrededor en una emanaci\u00f3n de 4,5 m mientras dure el conjuro. Hasta que el conjuro termine, cualquier ataque que hagas causar\u00e1 2d8 de da\u00f1o adicional cuando aciertes a una criatura dentro de la emanaci\u00f3n. Ese da\u00f1o ser\u00e1 de \u00e1cido, fr\u00edo, fuego o rel\u00e1mpago (a tu elecci\u00f3n cuando ataques).<br><br>Adem\u00e1s, el suelo incluido en la emanaci\u00f3n se considerar\u00e1 terreno dif\u00edcil para tus enemigos.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o aumenta en 2d8 por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": null
+  },
+  {
+    "nombre": "Conjurar seres del bosque",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Conjuras esp\u00edritus de la naturaleza que revolotean a tu alrededor en una emanaci\u00f3n de 3 m hasta que el conjuro termine. Siempre que la emanaci\u00f3n entre en el espacio de una criatura que puedas ver y siempre que una criatura que puedas ver entre en la emanaci\u00f3n o termine su turno all\u00ed, puedes obligar a la criatura a hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Sufrir\u00e1 5d8 de da\u00f1o de fuerza si la falla o la mitad del da\u00f1o si la supera. Una criatura solo hace esta tirada una vez por turno.<br><br>Adem\u00e1s, hasta que termine el conjuro, puedes llevar a cabo la acci\u00f3n de destrabarse como acci\u00f3n adicional.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": null
+  },
+  {
+    "nombre": "Controlar agua",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "300 pies",
+      "90 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "Hasta el final de la duración del conjuro, controlas cualquier masa de agua que no esté en movimiento dentro de un área de tu elección con forma de cubo de hasta 100 pies de lado. Cuando lanzas este conjuro, elige uno de los siguientes efectos. Como una acción, en tu turno, puedes repetir el mismo efecto o elegir uno nuevo.<br><br><b>Inundación.</b> Haces que el nivel de toda el agua estancada en el área suba hasta 20 pies. Si esta área incluye una orilla, el agua inunda la tierra seca circundante.<br>Si eliges un área en una masa de agua, en vez de eso creas una ola de 20 pies de altura que viaja en un lado de la masa de agua al otro y después rompe. Cualquier vehículo de tamaño Enorme o menor en el camino de la ola es transportado al otro lado. Además, tiene un 25% de posibilidades de volcar.<br>El nivel del agua se mantiene elevado hasta que termine el conjuro o elijas un efecto diferente. Si este efecto se repite en un turno, la nueva ola se genera de nuevo, y la anterior vuelve a su nivel.<br><br><b>Abrir las aguas.</b> Haces que el agua se divida y cree una zanja. Se extiende a lo largo del área del conjuro, con agua separada formando un muro de agua en cada lado. La zanja permanece hasta que el conjuro termine o elijas un nuevo efecto. Si el conjuro es interrumpido, las aguas se reúnen lentamente en una marea normal que aguasa súbitamente hasta el nivel original.<br><br><b>Redirigir caudal.</b> Obligas a un flujo de agua corriente en el área a moverse en la dirección de tu elección, incluso si tiene que fluir a través de obstáculos, escalar muros o tomar otras direcciones improbables. El área se mueve según indiques, pero una vez que salga del área del conjuro vuelve a fluir de forma natural, de acuerdo a las condiciones del terreno. El agua continúa moviéndose en la dirección de tu elección hasta que el conjuro termine o elijas un efecto diferente.<br><br><b>Remolino.</b> Este efecto necesita que la masa de agua sea de, al menos, 50 pies cuadrados y tenga 25 pies de profundidad. Creas un remolino en el centro del área. Este produce un vórtice de 5 pies de ancho en la base, hasta 50 pies de ancho en la parte más alta y hasta 25 pies de profundidad. Cualquier objeto o criatura en el agua y a 25 pies o menos del remolino se ve atraído 10 pies hacia él. Una criatura puede alejarse nadando del vórtice mediante una prueba de Fuerza (Atletismo) con CD igual a tu salvación de conjuros.<br>Cuando una criatura entra en el área del remolino por primera vez en un turno, o cuando empieza su turno en ella, debe realizar una tirada de salvación de Fuerza. Si fracasa, la criatura recibe 2d8 de daño contundente y queda atrapada en el vórtice hasta que el conjuro termine. Si la supera, recibe la mitad del daño y no queda atrapada. Una criatura atrapada en el remolino puede usar su acción para intentar alejarse de él de la manera descrita más arriba, tirando con desventaja en la prueba de Fuerza (Atletismo) necesaria.<br><br>La primera vez que un objeto entre en el vórtice cada turno recibe 2d8 de daño contundente. Este daño ocurre cada asalto que permanezca dentro.",
-    "materiales": "Una gota de agua y una pizca de polvo"
+    "descripcion": "Hasta que el conjuro termine, controlas cualquier masa de agua que est\u00e9 en un \u00e1rea de tu elecci\u00f3n y con forma de cubo de hasta 30 m de lado, y usas uno de los siguientes efectos. Como acci\u00f3n de magia en tus siguientes turnos, puedes repetir el mismo efecto o elegir uno distinto.<br><br><b>Abrir las aguas.</b> Haces que las aguas de la zona se separen y creen un canal, que se extiende a lo largo de toda el \u00e1rea del conjuro, con las aguas separadas formando un muro a ambos lados. El canal se mantendr\u00e1 hasta que termine el conjuro o hasta que elijas un efecto distinto. Posteriormente, el agua ir\u00e1 llenando el canal lentamente durante el siguiente asalto hasta recuperar su nivel normal.<br><br><b>Inundaci\u00f3n.</b> Haces que el nivel del agua estancada de la zona aumente hasta 6 m. Si eliges una zona en una masa de agua grande, en vez de eso, creas una ola de 6 m de altura que se desplaza de un lado de esa zona a la otra y luego rompe. Cualquier veh\u00edculo Enorme o m\u00e1s peque\u00f1o que est\u00e9 en el recorrido de la ola ser\u00e1 transportado hasta el otro lado y tambi\u00e9n tendr\u00e1 un 25 % de probabilidades de volcar. El nivel del agua permanecer\u00e1 elevado hasta que el conjuro termine o hasta que elijas un efecto distinto. Si este efecto ha producido una ola, esta se repetir\u00e1 al principio de tu siguiente turno mientras dure el efecto de la inundaci\u00f3n.<br><br><b>Redirigir caudal.</b> Haces que un caudal de agua en la zona se mueva en la direcci\u00f3n que elijas, incluso si tiene que fluir por encima de obst\u00e1culos, subir muros o tomar otros rumbos extra\u00f1os. El agua de la zona se mover\u00e1 seg\u00fan tus instrucciones, pero una vez salga del \u00e1rea del conjuro, volver\u00e1 a fluir de forma normal en funci\u00f3n del terreno. El agua seguir\u00e1 movi\u00e9ndose en la direcci\u00f3n que hayas elegido hasta que el conjuro termine o hasta que elijas un efecto distinto.<br><br><b>Remolino.</b> Provocas que se forme un remolino en el centro del \u00e1rea, que debe ser un cuadrado de al menos 15 m de lado y 7,5 m de profundidad. El remolino permanece hasta que elijas un efecto distinto o termine el conjuro. El remolino tiene 1,5 m de ancho en su base y hasta 15 m en la parte superior, con una altura de 7,5 m. Cualquier criatura que est\u00e9 en el agua a 7,5 m o menos del remolino ser\u00e1 atra\u00edda 3 m hacia \u00e9l. Cuando una criatura entre en el remolino por primera vez en un turno o termine su turno all\u00ed, har\u00e1 una tirada de salvaci\u00f3n de Fuerza. Si la falla, la criatura recibir\u00e1 2d8 de da\u00f1o contundente. Si la supera, recibir\u00e1 la mitad de da\u00f1o. Una criatura solo puede alejarse nadando del remolino si usa primero una acci\u00f3n para apartarse y supera una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros.",
+    "materiales": "Una mezcla de agua y polvo."
   }
 ]

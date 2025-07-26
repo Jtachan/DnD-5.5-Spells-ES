@@ -2,35 +2,40 @@
   {
     "nombre": "Aliado planar",
     "clases": [
-      "Clérigo"
+      "Cl\u00e9rigo"
     ],
-    "escuela": "Conjuración",
+    "escuela": "Conjuraci\u00f3n",
     "tiempo_de_lanzamiento": "10 minutos",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": false,
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Suplicas la ayuda de una entidad de otro mundo. Debe ser una entidad que conozcas: un dios, un primordial, un príncipe demonio u otro ser de poderes cósmicos. Para ayudarte, enviará un celestial, elemental o infernal leal a ti, haciendo que aparezca en un espacio desocupado dentro del alcance. Si conoces el nombre específico de una criatura, puedes pronunciar su nombre al lanzar el conjuro para solicitar a esa criatura en concreto, aunque aun así podrías recibir otra criatura diferente (a elección del DM).<br>Cuando la criatura se presenta no está bajo los efectos de ninguna obligación que le haga comportarse de una manera determinada. Puedes pedirle que lleve a cabo un servicio a cambio de un pago, pero no está obligada a hacerlo. La tarea solicitada puede ser simple (como \"llévanos volando a través del abismo\" o \"ayúdanos en una batalla\") o compleja (como \"espía a nuestros enemigos\" o \"protégenos durante nuestra incursión en la mazmorra\"). Debes ser capaz de comunicarte con la criatura para contratar sus servicios.<br>El pago puede tomar formas muy variadas. Un celestial podría requerir una cuantiosa donación de oro u objetos mágicos a un templo aliado, mientras que un infernal podría requerir un sacrificio de un ser vivo o cierto tipo de regalo. Algunas criaturas podrían pedirte que lleves a cabo una misión a cambio de sus servicios.<br>Como regla general, una tarea que pueda ser medida en minutos cuesta 100 po por minuto. Una tarea medida en horas cuesta 1.000 po por hora. Finalmente, una tarea medida en días (hasta 10) cuesta 10.000 po por día. El DM puede ajustar estos precios en función de las circunstancias en las que se lance el conjuro. Si la tarea se ajusta a los valores de la criatura, el pago podría ser reducido a la mitad o incluso condonado. Las tareas sin peligro cuestan normalmente la mitad, mientras que las que sean especialmente peligrosas pueden requerir una donación mayor. Sería raro que alguna criatura aceptara una tarea que le pareciera suicida.<br>Después de completar su misión, o cuando se acabe el tiempo de servicio contratado, la criatura volverá a su plano nativo tras informarte, si esto es posible y apropiado a la tarea. Si sois incapaces de alcanzar un acuerdo por el servicio, la criatura vuelve inmediatamente a su plano natal.<br>Una criatura reclutada para unirse a tu grupo cuenta como un miembro más, recibiendo su parte completa de los puntos de experiencia.",
+    "descripcion": "Suplicas la ayuda de una entidad de otro mundo, la cual decide responderte o no. Esa entidad ser\u00e1 un celestial, un elemental o un fiend que aparecer\u00e1 en un espacio sin ocupar dentro del alcance. Si sabes el nombre de una criatura espec\u00edfica, puedes decirlo mientras lanzas el conjuro para solicitar a esa criatura, aunque igualmente podr\u00eda aparecer otra (a elecci\u00f3n de tu DM).<br><br>Cuando la criatura aparece, no se siente forzada a comportarse de ninguna manera concreta. Puedes pedirle que realice un servicio a cambio de un pago, pero no est\u00e1 obligada a aceptarlo. La tarea solicitada podr\u00eda ser muy sencilla (\u201cay\u00fadanos a cruzar este abismo volando\u201d o \u201c\u00e9chanos una mano en la batalla\u201d) o algo m\u00e1s complicado (\u201cesp\u00eda a nuestros enemigos\u201d o \u201cprot\u00e9gemos mientras exploramos la mazmorra\u201d). Para negociar por los servicios de la criatura, debes poder comunicarte con ella.<br><br>El pago puede adoptar una gran variedad de formas. Un celestial podr\u00eda solicitar una importante donaci\u00f3n de oro u objetos m\u00e1gicos a un templo aliado, mientras que un infernal podr\u00eda exigir el sacrificio de un ser vivo o un regalo de un tesoro. Algunas criaturas podr\u00edan solicitar que les des algo a cambio m\u00e1s all\u00e1 de sus servicios.<br><br>Una tarea que puede medirse en minutos requiere un pago equivalente a 100 po por minuto. Una tarea que se mide en horas requerir\u00eda 1000 po por hora, y una tarea que se mida en d\u00edas (hasta 10 d\u00edas) requerir\u00eda 10 000 po al d\u00eda. Tu DM puede adaptar los pagos en funci\u00f3n de la situaci\u00f3n y los valores de la criatura. Si la tarea est\u00e1 en sinton\u00eda con los valores de la criatura, el pago podr\u00eda reducirse a la mitad o incluso no ser necesario. Las tareas que no implican peligro suelen exigir solo la mitad del pago usual, mientras que las que son especialmente peligrosas, complicadas o que implican una donaci\u00f3n a\u00fan mayor. Raramente una criatura requerir\u00e1 una tarea suicida.<br><br>Una vez que la criatura accede, se marcha cuando termina el servicio o cuando vence la duraci\u00f3n del conjuro. Si no est\u00e1s en un acuerdo sobre el precio del servicio de la criatura, esta regresar\u00e1 a su plano natal de inmediato.",
     "materiales": null
   },
   {
     "nombre": "Baile irresistible de Otto",
     "clases": [
       "Bardo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Encantamiento",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "30 pies",
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
     "visible": true,
     "componentes": [
       "V"
@@ -39,18 +44,21 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Elige a una criatura que puedas ver dentro del alcance. Comenzará a ejecutar una danza cómica en el lugar en el que se encuentre: arrastrando los pies, taconeando y haciendo cabriolas hasta el final de la duración del conjuro. Las criaturas inmunes a ser hechizadas no se ven afectadas por este conjuro.<br>El objetivo debe utilizar todo su movimiento en bailar y no puede moverse de donde esté. Tendrá desventaja en tiradas de salvación de Destreza y en tiradas de ataque. Mientras siga afectado por el conjuro, las tiradas de ataque de otras criaturas contra él tendrán ventaja. Como acción, la criatura bailarina puede hacer una tirada de salvación de Sabiduría para intentar recuperar el control. Si tiene éxito en la tirada, el conjuro termina inmediatamente.",
+    "descripcion": "Una criatura que puedas ver dentro del alcance debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, tendr\u00e1 el estado de hechizado hasta que termine el conjuro. Mientras est\u00e9 hechizado, el objetivo bailar\u00e1 de forma c\u00f3mica, emplear\u00e1 todo su movimiento para bailar en el sitio y tendr\u00e1 desventaja en tiradas de ataque y de salvaci\u00f3n de Destreza, y otros tendr\u00e1n ventaja al atacarle.<br><br>En cada turno, puede usar una acci\u00f3n para repetir la tirada de salvaci\u00f3n. Si la supera, el conjuro termina.",
     "materiales": null
   },
   {
     "nombre": "Barrera de cuchillas",
     "clases": [
-      "Clérigo"
+      "Cl\u00e9rigo"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "90 pies",
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
     "visible": false,
     "componentes": [
       "V",
@@ -60,60 +68,92 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Creas un muro vertical de cuchillas giratorias, afiladas y hechas de energía mágica. Este aparece dentro del alcance y permanece hasta el final de la duración del conjuro. Puedes crear un muro recto de hasta 100 pies de largo, 20 de alto y 5 de ancho o un muro en forma de anillo de 60 pies de diámetro, 20 de alto y 5 de ancho. En cualquiera caso, proporciona cobertura tres cuartos a las criaturas detrás de él y su espacio se considera terreno difícil.<br>Cuando una criatura entre en el área del muro por primera vez en un turno, o cuando empiece su turno en ella, deberá realizar una tirada de salvación de Destreza. Si falla, sufrirá 6d10 de daño cortante. Si tiene éxito, recibirá la mitad de daño.",
+    "descripcion": "Creas un muro de cuchillas giratorias hechas de energ\u00eda m\u00e1gica, que aparecer\u00e1 dentro del alcance y durar\u00e1 hasta que termine el conjuro. Puedes crear un muro recto de hasta 30 m de longitud, 6 m de altura y 1.5 m de grosor, o un muro circular de hasta 18 m de di\u00e1metro, 6 m de altura y 1.5 m de grosor. El muro proporciona cobertura total a trav\u00e9s de su espacio.<br><br>Cualquier criatura situada en el espacio del muro debe hacer una tirada de salvaci\u00f3n de Destreza; sufre 6d10 de da\u00f1o de fuerza si la falla o la mitad si la supera. Una criatura tambi\u00e9n debe hacer esta tirada si entra en el espacio del muro o termina su turno en \u00e9l. Cada criatura solo hace esta tirada una vez por turno.",
     "materiales": null
   },
   {
-    "nombre": "Círculo de muerte",
+    "nombre": "Caldero burbujeante de Tasha",
     "clases": [
-      "Hechicero",
+      "Brujo",
       "Mago"
     ],
-    "escuela": "Nigromancia",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "150 pies",
-    "visible": true,
+    "alcance": [
+      "5 pies",
+      "1,5 m"
+    ],
+    "visible": false,
     "componentes": [
       "V",
       "S",
       "M"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
-    "tirada_de_salvacion": "CON",
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una esfera de energía negativa se expande hasta cubrir una esfera de 60 pies de radio alrededor de un punto dentro del alcance. Cada criatura en el área debe hacer una tirada de salvación de Constitución. Sufrirá 8d6 de daño necrótico si falla la tirada o la mitad del daño si la supera.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o más, el daño aumenta en 2d6 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
-    "materiales": "Una perla negra pulverizada que valga, al menos, 500 po"
+    "descripcion": "Conjuras un caldero con patas de garra y lleno de un l\u00edquido burbujeante, que aparecer\u00e1 en un espacio sin ocupar en el suelo a 1,5 m de ti y permanecer\u00e1 hasta que termine el conjuro. El caldero no se puede mover y desaparece cuando termine el conjuro junto con el l\u00edquido que contiene.<br><br>El l\u00edquido del caldero copia las propiedades de una poci\u00f3n com\u00fan o infrecuente que elijas (por ejemplo, de una poci\u00f3n de curaci\u00f3n). Como acci\u00f3n adicional, un aliado o t\u00fa pod\u00e9is meter la mano en el caldero y extraer una poci\u00f3n de ese tipo. La poci\u00f3n viene en un vial que desaparece tras consumirla. El caldero puede producir una cantidad de pociones de ese tipo igual a tu modificador por aptitud m\u00e1gica (m\u00ednimo 1). Cuando se extrae la \u00faltima poci\u00f3n del caldero, este desaparece y el conjuro termina.<br><br>Las pociones obtenidas del caldero que no se consuman desaparecer\u00e1n cuando vuelvas a lanzar el conjuro.",
+    "materiales": "Un cuchar\u00f3n ba\u00f1ado en oro que valga al menos 500 po."
   },
   {
-    "nombre": "Conjurar feérico",
+    "nombre": "C\u00edrculo de muerte",
     "clases": [
-      "Druída"
+      "Brujo",
+      "Hechicero",
+      "Mago"
     ],
-    "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 minuto",
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "90 pies",
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una energ\u00eda negativa se propaga en un radio de 18 m desde un punto que elijas dentro del alcance. Todas las criaturas situadas en la zona realizan una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 8d8 de da\u00f1o necr\u00f3tico si la fallan o la mitad del da\u00f1o si la superan.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o aumenta en 2d8 por cada nivel por encima de 6 que tenga el espacio.",
+    "materiales": "Una perla negra pulverizada que valga al menos 500 po."
+  },
+  {
+    "nombre": "Conjurar fe\u00e9rico",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": true,
-    "duracion": "Hasta 1 hora",
+    "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Invocas a una criatura feérica con valor de desafío 6 o menos, o un espíritu feérico que tome la forma de una bestia con valor de desafío 6 o menos. Aparece en un espacio desocupado que puedas ver dentro del alcance. El feérico desaparece si sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Es amistoso hacia ti y tus compañeros hasta el final de la duración del conjuro. Haz una tirada de iniciativa para el feérico, que tiene sus propios turnos. Obedecerá cualquier mandato verbal tuyo (no requiere acción) que no viole su alineamiento. Si no le das ninguna orden, se defenderá de criaturas hostiles, pero no realizará ninguna otra acción.<br><br>Si tu concentración se rompe, el feérico no desaparece. En vez de eso, pierdes el control del feérico, que se vuelve hostil hacia ti y tus compañeros y podría atacaros. No puedes desconvocar al feérico descontrolado, que desaparecerá 1 hora después de que lo invoques.<br><br>El DM tiene el perfil de las criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o más, el valor de desafío del feérico aumenta en 1 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
+    "requiere_ataque": true,
+    "descripcion": "Conjuras un esp\u00edritu Mediano de los Parajes Fe\u00e9ricos en un espacio sin ocupar que puedas ver dentro del alcance. El esp\u00edritu dura hasta que termine el conjuro y toma la forma de una criatura fe\u00e9rica de tu elecci\u00f3n. Cuando aparezca, puedes hacer un ataque de conjuro cuerpo a cuerpo contra una criatura a 1,5 m o menos de \u00e9l. Si acierta, el objetivo sufrir\u00e1 una cantidad de da\u00f1o ps\u00edquico igual a 3d12 m\u00e1s tu modificador por aptitud m\u00e1gica y tendr\u00e1 el estado de asustado hasta el principio de tu siguiente turno, y tanto el esp\u00edritu como t\u00fa ser\u00e9is el origen de su miedo.<br><br>Como acci\u00f3n adicional en tus siguientes turnos, puedes teletransportar el esp\u00edritu a un espacio sin ocupar que puedas ver a 9 m o menos del espacio que ocupaba antes y hacer el ataque contra una criatura a 1,5 m o menos de \u00e9l.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o aumenta en 2d12 por cada nivel por encima de 6 que tenga el espacio.",
     "materiales": null
   },
   {
     "nombre": "Contingencia",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
-    "escuela": "Evocación",
+    "escuela": "Abjuraci\u00f3n",
     "tiempo_de_lanzamiento": "10 minutos",
     "ritual": false,
     "alcance": "Lanzador",
@@ -124,75 +164,86 @@
       "M"
     ],
     "concentracion": false,
-    "duracion": "10 días",
+    "duracion": "10 d\u00edas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Elige un conjuro de nivel 5 o menor que puedas lanzar, que tenga un tiempo de lanzamiento de 1 acción y que pueda hacerte objetivo. Lanzas ese conjuro (llamado el conjuro contingente) como parte de lanzar <i>contingencia</i>, empleando espacios de conjuro para ambos, pero el conjuro contingente no tiene efecto en ese momento. En vez de eso, tendrá efecto cuando ocurra una determinada situación, que describes y estableces al lanzar los dos conjuros. Por ejemplo, una <i>contingencia</i> lanzada con <i>respirar bajo el agua</i> podría estipular que <i>respirar bajo el agua</i> comenzará cuando quedes sumergido en agua o un líquido similar.<br>El conjuro contingente tiene efecto inmediatamente después de que ocurra la situación establecida por primera vez, lo quieras o no, y después <i>contingencia</i> termina.<br>El conjuro contingente solo puede tener efecto en ti, incluso si normalmente puede elegir como objetivo a otros. Solo eres capaz de tener un conjuro de <i>contingencia</i> activo al mismo tiempo. Si lanzas este conjuro de nuevo, el efecto de una <i>contingencia</i> anterior termina. Además, <i>contingencia</i> finaliza si en cualquier momento dejas de llevar encima su componente material.",
-    "materiales": "Una estatuilla de ti mismo tallada en marfil y decorada con gemas y con un valor de, al menos, 1.500 po"
+    "descripcion": "Elige un conjuro de nivel 5 o inferior que puedas lanzar, que tenga un tiempo de lanzamiento de una acci\u00f3n y que te permita elegirte como objetivo. Lanzas el conjuro (llamado \u201cconjuro contingente\u201d) como parte del lanzamiento de <i>contingencia</i> y gastas los espacios de conjuro de ambos, pero el conjuro contingente no tiene efecto en ese momento, sino que se activa cuando se produce una condici\u00f3n determinada. Describes esa condici\u00f3n cuando lanzas los dos conjuros. Por ejemplo, si lanzas <i>contingencia</i> junto a <i>respirar bajo el agua</i>, podr\u00edas decir que <i>respirar bajo el agua</i> tenga efecto cuando te sumerjas en agua o en un l\u00edquido similar.<br><br>El conjuro contingente tiene efecto inmediatamente despu\u00e9s de que se produzca la condici\u00f3n por primera vez, tanto si quieres como si no, y despu\u00e9s termina el conjuro <i>contingencia</i>.<br><br>El conjuro contingente solo tiene efecto sobre ti, aunque normalmente pudieras elegir como objetivo a otros. Solo puedes tener un conjuro <i>contingencia</i> activo al mismo tiempo. Si vuelves a lanzarlo, terminar\u00e1 el efecto de cualquier otro conjuro <i>contingencia</i> que tengas. Asimismo, <i>contingencia</i> termina si dejas de tener contigo su componente material.",
+    "materiales": "Una estatuilla de ti tallada y decorada con gemas que valga al menos 1500 po."
   },
   {
     "nombre": "Crear muerto viviente",
     "clases": [
-      "Clérigo"
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Mago"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "1 minuto",
     "ritual": false,
-    "alcance": "10 pies",
-    "visible": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": true,
     "componentes": [
       "V",
       "S",
       "M"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Este conjuro solo puede lanzarse de noche. Elige hasta tres cadáveres de humanoide de tamaño Mediano o Pequeño. Deben estar dentro del alcance. Cada uno de ellos se convierte en un gul bajo tu control (el DM tiene los perfiles de estas criaturas).<br><br>En cada turno, puedes usar una acción adicional para dar una orden mental a cualquier criatura creada mediante este conjuro si está a 120 pies o menos de ti (si controlas varias criaturas, puedes dirigir a una o más de ellas utilizando la misma orden). Decides qué acción va a tomar la criatura y dónde se moverá durante su próximo turno. También puedes dar una orden general, como vigilar una cámara o un pasillo en concreto. Si no indicas ninguna orden, la criatura se limita a defenderse de otras criaturas hostiles. Una vez que recibe una orden, la sigue hasta cumplirla.<br><br>La criatura se mantiene bajo tu control durante 24 horas, después de las cuales abandonará cualquier orden que le hayas dado. Para mantener el control sobre ella durante otras 24 horas, debes lanzar este conjuro de nuevo sobre ella antes de que el periodo actual de 24 horas termine. No puedes usar este conjuro para reafirmar tu control sobre hasta tres criaturas que hayas animado previamente con este mismo conjuro en vez de reanimar nuevas criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7, reanimas o reafirmas tu control sobre cuatro gules. Cuando lanzas el conjuro usando un espacio de conjuro de nivel 8, reanimas o reafirmas tu control sobre cinco gules, o dos tumularios. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 9, reanimas o reafirmas tu control sobre seis gules, tres ghasts o tumularios, o dos momias.",
-    "materiales": "Una maceta de arcilla llena de tierra de una tumba, una maceta de arcilla llena de agua salobre y un ónice negro de 150 po por cada cadáver"
+    "descripcion": "Solo puedes lanzar este conjuro por la noche. Elige hasta tres cad\u00e1veres de humanoides de tama\u00f1o Mediano o Peque\u00f1o dentro del alcance. Cada uno se convierte en un gul bajo tu control (consulta su perfil en el <i>Manual de monstruos</i>).<br><br>Como acci\u00f3n adicional en cada uno de tus turnos, puedes dar \u00f3rdenes mentalmente a cada criatura que hayas animado con el conjuro que est\u00e9 a 36 m o menos de ti (si controlas a varias criaturas, puedes dar \u00f3rdenes a cualquiera de ellas a la vez transmiti\u00e9ndole la misma orden a cada una). T\u00fa decides qu\u00e9 acci\u00f3n llevar\u00e1 a cabo la criatura u orden general, como proteger un lugar en concreto. Si no das ninguna orden, la criatura hace la acci\u00f3n de esquivar y solo se mueve para evitar peligros. En cuanto se le d\u00e9 una orden, la criatura la cumplir\u00e1 hasta completar su tarea.<br><br>La criatura estar\u00e1 bajo tu control durante 24 horas, tras las cuales dejar\u00e1 de obedecer cualquier orden que le hayas dado. Para mantener el control sobre ella otras 24 horas, deber\u00e1s volver a lanzarle este conjuro antes de que acabe el periodo actual de 24 horas. Este uso del conjuro refuerza tu control sobre hasta tres criaturas que hayas animado con \u00e9l y no anima nuevas criaturas.<br><br><i>Con un espacio de conjuro de nivel superior.</i> Si usas un espacio de conjuro de nivel 7, puedes animar o reforzar el control sobre cuatro gules. Si usas un espacio de conjuro de nivel 8, puedes animar o reforzar el control sobre cinco gules o dos ghasts o tumularios. Si usas un espacio de conjuro de nivel 9, puedes animar o reforzar el control sobre seis gules, tres ghasts o tumularios o dos momias. Consulta sus perfiles en el <i>Manual de monstruos</i>.",
+    "materiales": "Un \u00f3nice negro que valga al menos 150 po por cada cad\u00e1ver."
   },
   {
     "nombre": "Curar",
     "clases": [
-      "Clérigo",
-      "Druída"
+      "Cl\u00e9rigo",
+      "Druida"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Elige a una criatura que puedas ver dentro del alcance. Una ráfaga de energía positiva cubre al objetivo, haciendo que recupere 70 puntos de golpe. El conjuro también termina cualquier efecto de ceguera, sordera o enfermedad que aflija a la criatura. Este conjuro no afecta a muertos vivientes o autómatas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o más, la curación aumenta en 10 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
+    "descripcion": "Elige a una criatura que puedas ver dentro del alcance. Una energ\u00eda positiva la recorre e hace que recupere 70 puntos de golpe. El conjuro tambi\u00e9n elimina los estados de cegado, ensordecido y envenenado del objetivo.<br><br><i>Con un espacio de conjuro de nivel superior.</i> La curaci\u00f3n aumenta en 10 por cada nivel por encima de 6 que tenga el espacio.",
     "materiales": null
   },
   {
-    "nombre": "Dañar",
+    "nombre": "Da\u00f1ar",
     "clases": [
-      "Clérigo"
+      "Cl\u00e9rigo"
     ],
     "escuela": "Nigromancia",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Haces brotar una virulenta enfermedad en una criatura que puedas ver dentro del alcance. El objetivo debe hacer una tirada de salvación de Constitución. Sufrirá 14d6 de daño necrótico si falla la tirada o la mitad del daño si la supera.<br><br>El daño no puede reducir los puntos de golpe del objetivo por debajo de 1. Además, si falla la tirada de salvación, los puntos de golpe máximos del objetivo se reducirán durante una hora en la cantidad del daño recibido. Cualquier efecto que cure una enfermedad permite que los puntos de golpe máximos del objetivo vuelvan a la normalidad antes del tiempo señalado.",
+    "descripcion": "Desatas una magia virulenta sobre una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, sufre 14d6 de da\u00f1o necr\u00f3tico y sus puntos de golpe m\u00e1ximos se reducen en una cantidad igual al da\u00f1o necr\u00f3tico recibido. Si la supera, recibir\u00e1 solo la mitad de da\u00f1o. Este conjuro no puede reducir los puntos de golpe m\u00e1ximos del objetivo a menos de 1.",
     "materiales": null
   }
 ]

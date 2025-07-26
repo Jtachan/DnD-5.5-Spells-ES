@@ -3,16 +3,35 @@
 All unified spells have a new keyword 'nivel' showing the level of itself.
 """
 
+import re
 import json
 import os
 
 
+CONDITIONAL_ACTION_TEXT = {
+    "que realizas de inmediato tras acertar a un objetivo con un arma cuerpo a cuerpo o un ataque sin armas": "El conjuro se realiza de inmediato tras acertar al objetivo con un arma cuerpo a cuerpo o un ataque sin armas.",
+    "que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas": "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.",
+    "que llevas a cabo cuando tú o una criatura que puedes ver a 18 m o menos de ti caigáis": "El conjuro se lleva a cabo cuando tú o una criatura que puedes ver a 18 m o menos de ti caigáis.",
+    "que llevas a cabo cuando una criatura que puedas ver a 18 m o menos de ti lance un conjuro usando componentes verbales, somáticos o materiales": "El conjuro se lleva a cabo cuando una criatura que puedas ver a 18 m o menos de ti lance un conjuro usando componentes verbales, somáticos o materiales.",
+}
+
+
 def unify_spells():
+    """Preparing the file 'spells.json' to be loaded by the HTML table."""
     all_spells = []
     for idx in range(10):
         with open(f"level_{idx}.json", "r", encoding="utf-8") as fh:
-            spells = [sp | {"nivel": idx} for sp in json.load(fh)]
-        all_spells.extend(spells)
+            file_spells = json.load(fh)
+        for spell in file_spells:
+            for ending, cond_desc in CONDITIONAL_ACTION_TEXT.items():
+                if spell["tiempo_de_lanzamiento"].endswith(ending):
+                    spell["tiempo_de_lanzamiento"] = spell[
+                        "tiempo_de_lanzamiento"
+                    ].split(",")[0]
+                    spell["descripcion"] = cond_desc + "<br><br>" + spell["descripcion"]
+                    break
+            spell["nivel"] = idx
+            all_spells.append(spell)
     all_spells.sort(key=lambda sp: sp["nombre"])
 
     out_path = os.path.join(os.path.dirname(__file__), "..", "spells.json")
@@ -20,6 +39,41 @@ def unify_spells():
         json.dump(all_spells, fh, indent=2)
 
 
-if __name__ == '__main__':
+def correct_spell_fields():
+    """Checking whether all fields are correct over the 'level_X.json' files."""
+    pattern = r"(?<!<br>)<br>(?!<br>)"
+    for idx in range(10):
+        with open(f"level_{idx}.json", "r", encoding="utf-8") as fh:
+            spells = json.load(fh)
+        for spell in spells:
+            # Ensuring each new-line jump is actually double within the description.
+            spell["descripcion"] = re.sub(pattern, "<br><br>", spell["descripcion"])
+            # Capitalizing the 'materiales' field.
+            if spell["materiales"]:
+                spell["materiales"] = spell["materiales"].capitalize()
+                if not spell["materiales"].endswith("."):
+                    spell["materiales"] += "."
+            # Correcting the concentration description.
+            if spell["concentracion"]:
+                spell["duracion"] = (
+                    spell["duracion"].lstrip("Concentración, ").capitalize()
+                )
+            # Unifying time field:
+            spell["tiempo_de_lanzamiento"] = spell["tiempo_de_lanzamiento"].replace(
+                "1 acción", "Acción"
+            )
+            if spell["tiempo_de_lanzamiento"].endswith(
+                ("o ritual", "o un ritual", "o 1 ritual")
+            ):
+                spell["tiempo_de_lanzamiento"] = spell["tiempo_de_lanzamiento"].split(
+                    " o "
+                )[0]
+
+        with open(f"level_{idx}.json", "w", encoding="utf-8") as fh:
+            json.dump(spells, fh, indent=2)
+
+
+if __name__ == "__main__":
     os.chdir(os.path.dirname(__file__))
+    correct_spell_fields()
     unify_spells()

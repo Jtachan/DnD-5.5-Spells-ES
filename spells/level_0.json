@@ -5,8 +5,8 @@
       "Hechicero",
       "Mago"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
     "alcance": "Toque",
     "visible": false,
@@ -15,10 +15,10 @@
       "S"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Un relámpago salta de tu mano para dar una descarga eléctrica a la criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Tienes ventaja en la tirada de ataque si la criatura lleva armadura de metal. Si impactas, el objetivo sufre 1d8 de daño de relámpago y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno.",
+    "descripcion": "Una descarga el\u00e9ctrica surge de tu mano hacia una criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo recibir\u00e1 1d8 de da\u00f1o de rel\u00e1mpago y no podr\u00e1 realizar ataques de oportunidad hasta el principio de su siguiente turno.<br><br><i><b>Mejora de truco:</b></i> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
     "materiales": null
   },
   {
@@ -30,48 +30,54 @@
       "Mago"
     ],
     "escuela": "Encantamiento",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "Lanzador",
-    "visible": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": true,
     "componentes": [
       "S",
       "M"
     ],
     "concentracion": true,
-    "duracion": "Hasta 1 minuto.",
-    "tirada_de_salvacion": null,
-    "requiere_ataque": true,
-    "descripcion": "Hasta el final de la duración del conjuro tienes ventaja en todas las pruebas de Carisma relacionadas con una criatura de tu elección que no sea hostil hacia ti. Cuando el conjuro termina, el objetivo se da cuenta de que has usado magia para manipular su actitud y se vuelve hostil hacia ti. Una criatura con tendencias violentas podría atacarte, mientras que otra podría intentar vengarse de otra manera (bajo el criterio del DM), dependiendo de la índole de tu interacción con ella.",
-    "materiales": "Una pequeña cantidad de maquillaje aplicada sobre la cara al lanzar el conjuro."
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Emanas m\u00e1gicamente un sentimiento de amistad hacia una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de hechizado hasta que termine el conjuro. El objetivo la superar\u00e1 autom\u00e1ticamente si no es un humanoide, si est\u00e1s luchando contra \u00e9l o si le has lanzado este conjuro en las \u00faltimas 24 horas.<br><br>El conjuro termina antes de tiempo si el objetivo recibe da\u00f1o o si haces una tirada de ataque, causas da\u00f1o u obligas a cualquier criatura a hacer una tirada de salvaci\u00f3n. Cuando el conjuro termine, el objetivo sabr\u00e1 que lo hechizaste.",
+    "materiales": "Un poco de maquillaje."
   },
   {
-    "nombre": "Burla dañina",
+    "nombre": "Burla da\u00f1ina",
     "clases": [
       "Bardo"
     ],
     "escuela": "Encantamiento",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "V"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Profieres una sarta de improperios entremezclados con sutiles encantamientos hacia una criatura que puedas ver dentro del alcance. Si el objetivo puede oírte (aunque no necesita entenderte), debe tener éxito en una tirada de salvación de Sabiduría o recibirá 1d4 de daño psíquico y sufrirá desventaja en la siguiente tirada de ataque que realice antes del final de su próximo turno.<br><b><i>A niveles superiores.</i></b> El daño del conjuro aumenta en 1d4 cuando alcanzas nivel 5 (2d4), nivel 11 (3d4) y nivel 17 (4d4).",
+    "descripcion": "Profieres una sarta de improperios mezclados con encantamientos sutiles hacia una criatura que puedas ver u o\u00edr dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o recibir\u00e1 1d6 de da\u00f1o ps\u00edquico y tendr\u00e1 desventaja en la pr\u00f3xima tirada de ataque que realice antes de que acabe su siguiente turno.<br><br><i><b>Mejora de truco:</b></i> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
     "materiales": null
   },
   {
     "nombre": "Crear llama",
     "clases": [
-      "Druída"
+      "Druida"
     ],
-    "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": true,
@@ -83,7 +89,7 @@
     "duracion": "10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Aparece en tu mano una llama parpadeante. Esta permanece hasta el final de la duración del conjuro y no te daña ni a ti ni a tu equipo. La llama emite luz brillante en un radio de 10 pies y luz tenue 10 pies más allá. El conjuro termina si lo lanzas de nuevo o utilizas una acción para finalizarlo.<br><br>También puedes atacar con la llama, pero esto termina el conjuro. Cuando lances este conjuro, o como acción en un turno posterior, puedes arrojar la llama a una criatura hasta a 30 pies de ti. Haz un ataque de conjuro a distancia. Si impactas, el objetivo recibe 1d8 de daño de fuego.<br><br>El daño del conjuro aumenta en 1d8 cuando alcanzas nivel 5 (2d8), nivel 11 (3d8) y nivel 17 (4d8).",
+    "descripcion": "En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 6 m y luz tenue 6 m m\u00e1s all\u00e1. El conjuro termina si lo vuelves a lanzar.<br><br>Hasta que el conjuro termine, puedes usar una acci\u00f3n de magia para arrojar la llama a una criatura u objeto a 18 m o menos de ti. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d8 de da\u00f1o de fuego.<br><br><i>Mejora de truco.</i> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
     "materiales": null
   }
 ]

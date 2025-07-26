@@ -12,6 +12,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Agrandar/Reducir                     | 2         |
 | Alarma                               | 1         |
 | Aliado planar                        | 6         |
+| Aliento de dragón                    | 2         |
 | Alterar el propio aspecto            | 2         |
 | Alterar los recuerdos                | 5         |
 | Alzar a los muertos                  | 5         |
@@ -44,6 +45,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Brazos de Hadar                      | 1         |
 | Buenas bayas                         | 1         |
 | Burla dañina                         | 0 (Truco) |
+| Caldero burbujeante de Tasha         | 6         |
 | Caída de pluma                       | 1         |
 | Calentar metal                       | 2         |
 | Calmar emociones                     | 2         |
@@ -55,10 +57,11 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Castigo abrasador                    | 1         |
 | Castigo abrumador                    | 4         |
 | Castigo atronador                    | 1         |
+| Castigo brillante                    | 2         |
 | Castigo cegador                      | 3         |
 | Castigo desterrador                  | 5         |
+| Castigo divino                       | 1         |
 | Castigo furioso                      | 1         |
-| Castigo marcador                     | 2         |
 | Cautiverio                           | 9         |
 | Cerradura arcana                     | 2         |
 | Círculo de muerte                    | 6         |
@@ -66,6 +69,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Círculo de teletransportación        | 5         |
 | Círculo mágico                       | 3         |
 | Clarividencia                        | 3         |
+| Clavo mental                         | 2         |
 | Clon                                 | 8         |
 | Cofre oculto de Leomund              | 4         |
 | Compulsión                           | 4         |
@@ -100,6 +104,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Crear o destruir agua                | 1         |
 | Crecimiento espinoso                 | 2         |
 | Crecimiento vegetal                  | 3         |
+| Cuchillo de hielo                    | 1         |
 | Curar                                | 6         |
 | Curar en masa                        | 9         |
 | Curar heridas                        | 1         |

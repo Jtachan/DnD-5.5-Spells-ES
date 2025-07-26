@@ -5,10 +5,13 @@
       "Hechicero",
       "Mago"
     ],
-    "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "30 pies",
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -19,41 +22,44 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Elige a una criatura voluntaria que puedas ver dentro del alcance. Hasta que el conjuro termine, la velocidad del objetivo se duplica, gana un bonificador de +2 a su CA, tiene ventaja en tiradas de salvación de Destreza y gana una segunda acción en cada uno de sus turnos. Solo puede utilizar esta acción para Atacar (solo un ataque con arma en caso de tener múltiples por acción), Correr, Destrabarse, Esconderse o Usar un Objeto.<br>Cuando el conjuro termina, el objetivo no podrá moverse o realizar acciones hasta después de su siguiente turno, debudo a una ola de somnolencia que lo afecta.",
-    "materiales": "Una ralladura de raíz de regaliz."
+    "descripcion": "Elige a una criatura voluntaria que puedas ver dentro del alcance. Hasta que el conjuro termine, la velocidad del objetivo se duplica, gana un bonificador de +2 a su CA, tiene ventaja en tiradas de salvaci\u00f3n de Destreza y consigue una segunda acci\u00f3n en cada uno de sus turnos. Solo puede utilizar esta acci\u00f3n para Atacar (solo un ataque), Correr, Destrabarse, Esconderse o Usar un Objeto.<br><br>Cuando el conjuro termine, el objetivo tendr\u00e1 el estado de incapacitado y una velocidad de 0 hasta el final de su siguiente turno, debido a una ola de somnolencia que lo afecta.",
+    "materiales": "Una ralladura de ra\u00edz de regal\u00edz."
   },
   {
     "nombre": "Animar a los muertos",
     "clases": [
-      "Clérigo",
+      "Cl\u00e9rigo",
       "Mago"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "1 minuto",
     "ritual": false,
-    "alcance": "10 pies",
-    "visible": true,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": false,
     "componentes": [
       "V",
       "S",
       "M"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
-    "requiere_ataque": true,
-    "descripcion": "Este conjuro crea un siervo muerto viviente. Elige un montón de huesos o un cadáver de un humanoide de tamaño Mediano o Pequeño. Debe estar dentro del alcance. El conjuro insufla en el objetivo una burda semblanza de vida, alzándolo como una criatura muerta viviente. El objetivo se convierte en un esqueleto, si elegiste un montón de huesos, o en un zombi, si elegiste un cadáver. El DM tiene el perfil de la criatura.<br>En cada turno, puedes usar una acción adicional para dar una orden mental a cualquier criatura creada mediante este conjuro que esté a 60 pies o menos de ti (si controlas varias criaturas, puedes dirigir a una o más de ellas utilizando la misma orden). Decides qué acción va a tomar la criatura y dónde se moverá durante su próximo turno. También puedes dar una orden general, como vigilar una cámara o pasillo en concreto. Si no das ninguna orden, la criatura se limita a defenderse de otras criaturas hostiles. Una vez recibida una orden, la sigue hasta cumplirla.<br>La criatura permanece bajo tu control durante 24 horas, después de las cuales abandonará cualquier orden que hayas dado. Para mantener el control de la criatura durante otras 24 horas, debes lanzar este conjuro de nuevo sobre ella antes de que el periodo actual de 24 horas termine. Puedes usar este conjuro para reafirmar tu control sobre hasta cuatro criaturas que hayas animado previamente con este conjuro o para reanimar a una nueva.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, reanimas o reafirmas tu control sobre dos criaturas muertas vivientes adicionales por cada nivel por encima de 3 que tenga el espacio que hayas empleado. Cada criatura debe proceder de un cadáver o montón de huesos diferente.",
+    "requiere_ataque": false,
+    "descripcion": "Elige un mont\u00f3n de huesos o un cad\u00e1ver de un humanoide Mediano o Peque\u00f1o dentro del alcance. El objetivo se convierte en una criatura muerta viviente: un esqueleto si eliges un mont\u00f3n de huesos o un zombi si eliges un cad\u00e1ver. En cada uno de tus turnos, puedes usar una acci\u00f3n adicional para dar \u00f3rdenes mentalmente a cada criatura que hayas creado con el conjuro que est\u00e9 a 60 pies (18 m) o menos de ti (si controlas a varias criaturas, puedes dar \u00f3rdenes a todas a la vez). T\u00fa decides qu\u00e9 acci\u00f3n llevar\u00e1 a cabo la criatura y ad\u00f3nde se mover\u00e1 en su siguiente turno, o puedes dar una orden general, como proteger una c\u00e1mara o un pasadizo. Si no das ninguna orden, la criatura hace la acci\u00f3n de esquivar y solo se mueve para evitar peligros. En cuanto se le d\u00e9 una orden, la criatura la cumplir\u00e1 hasta completarla.<br><br>La criatura estar\u00e1 bajo tu control durante 24 horas, tras las cuales dejar\u00e1 de obedecer cualquier orden que le hayas dado. Para mantener el control otras 24 horas, deber\u00e1s volver a lanzarle este conjuro antes de que acabe el periodo actual. Este uso del conjuro refuerza tu control sobre hasta cuatro criaturas que hayas animado con \u00e9l y no anima una nueva.<br><br><b>Con un espacio de conjuro de nivel superior.</b> Animas o refuerzas el control sobre dos criaturas muertas vivientes adicionales por cada nivel de conjuro por encima de 3 que tenga el espacio. Cada una de las criaturas debe proceder de un cad\u00e1ver o un mont\u00f3n de huesos distinto.",
     "materiales": "Una gota de sangre, un pedazo de carne y una pizca de polvo de hueso."
   },
   {
     "nombre": "Arma elemental",
     "clases": [
-      "Druída",
-      "Paladín",
-      "Ranger"
+      "Druida",
+      "Explorador",
+      "Palad\u00edn"
     ],
-    "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
     "alcance": "Toque",
     "visible": false,
@@ -65,85 +71,18 @@
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Un arma no mágica que toques se convierte en mágica. Elige uno de los siguientes tipos de daño: ácido, frío, fuego, relámpago o trueno. Hasta el final de la duración del conjuro, el arma tiene un bonificador de +1 a las tiradas de ataque y hace 1d4 de daño adicionales del tipo elegido cuando impacta.<br><b><i>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o 6, el bonificador a tiradas de ataque aumenta a +2 y el daño adicional a 2d4. Cuando utilizas un espacio de conjuro de nivel 7 o mayor, el modificador aumenta a +3 y el daño adicional a 3d4.",
+    "descripcion": "Un arma no m\u00e1gica que toques se convierte en m\u00e1gica. Elige uno de los siguientes tipos de da\u00f1o: \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago o trueno. Mientras dure el conjuro, el arma tiene un bonificador de +1 a las tiradas de ataque y causa 1d4 de da\u00f1o adicional del tipo elegido cuando acierte.<br><br><b>Con un espacio de conjuro de nivel superior.</b> Si usas un espacio de conjuro de nivel 5 o 6, el bonificador a las tiradas de ataque aumenta en +2 y el da\u00f1o adicional aumenta a 2d4. Si usas un espacio de nivel 7 o superior, el bonificador es +3 y el da\u00f1o adicional 3d4.",
     "materiales": null
   },
   {
     "nombre": "Aura de vitalidad",
     "clases": [
-      "Clérigo",
-      "Druída",
-      "Paladín",
-      "Explorador"
+      "Cl\u00e9rigo",
+      "Druida",
+      "Palad\u00edn"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción",
-    "ritual": false,
-    "alcance": "Lanzador (radio de 30 pies)",
-    "visible": false,
-    "componentes": [
-      "V"
-    ],
-    "concentracion": true,
-    "duracion": "hasta 1 minuto",
-    "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Radias una energía sanadora en forma de aura de 30 pies de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Puedes usar una acción adicional para hacer que una criatura en el aura (incluido tú) recupere 2d6 puntos de golpe.",
-    "materiales": null
-  },
-  {
-    "nombre": "Bola de fuego",
-    "clases": [
-      "Hechicero",
-      "Mago"
-    ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción",
-    "ritual": false,
-    "alcance": "150 pies",
-    "visible": false,
-    "componentes": [
-      "V",
-      "S",
-      "M"
-    ],
-    "concentracion": false,
-    "duracion": "Instantáneo",
-    "tirada_de_salvacion": "DES",
-    "requiere_ataque": false,
-    "descripcion": "Una ráfaga brillante surge de tu dedo hacia un punto de tu elección dentro del alcance y después crece con un rugido sordo hasta convertirse en una explosión ardiente. Todas las criaturas en una esfera de 20 pies centrada en el punto deben hacer una tirada de salvación de Destreza. Sufrirán 8d6 de daño de fuego si fallan la tirada o la mitad del daño si la superan.<br>El fuego se extiende más allá de las esquinas. Los objetos inflamables que se encuentren en el área que no lleve o vista alguien arderán.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, el daño aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
-    "materiales": "Una pelotita de guano de murciélago y azufre."
-  },
-  {
-    "nombre": "Caminar sobre el agua",
-    "clases": [
-      "Clérigo",
-      "Druída"
-    ],
-    "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción",
-    "ritual": true,
-    "alcance": "30 pies",
-    "visible": true,
-    "componentes": [
-      "V",
-      "S",
-      "M"
-    ],
-    "concentracion": false,
-    "duracion": "1 hora",
-    "tirada_de_salvacion": null,
-    "requiere_ataque": false,
-    "descripcion": "Este conjuro proporciona la capacidad de moverse a través de cualquier superficie líquida, como agua, ácido, barro, nieve, arenas movedizas o lava, como si fuera un terreno sólido inofensivo (aunque las criaturas que crucen lava fundida podrían recibir daño del intenso calor). Un máximo de diez criaturas que puedas ver dentro del alcance recibirán esta capacidad hasta que el conjuro termine.<br>Si eliges como objetivo a una criatura sumergida en un líquido, el conjuro la elevará a la superficie del mismo a una velocidad de 60 pies por asalto.",
-    "materiales": "Un trozo de corcho."
-  },
-  {
-    "nombre": "Castigo cegador",
-    "clases": [
-      "Paladín"
-    ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción adicional",
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -152,47 +91,128 @@
     ],
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "Constitución",
-    "requiere_ataque": true,
-    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma se vuelve fulgurante y el ataque inflige 3d8 de daño radiante adicionales al objetivo. Además, el objetivo debe tener éxito en una tirada de salvación de Constitución o quedará cegado hasta el final de la duración del conjuro.<br><br>Una criatura cegada por este conjuro debe realizar otra tirada de salvación de Constitución al final de cada uno de sus turnos. Si tiene éxito, deja de estar cegada.",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Un aura surge de ti en una emanaci\u00f3n de 9 m hasta que el conjuro termine. Cuando creas el aura y al principio de cada uno de tus turnos mientras dure, puedes restaurar 2d6 puntos de golpe a una criatura en su interior.",
     "materiales": null
   },
   {
-    "nombre": "Círculo mágico",
+    "nombre": "Bola de fuego",
     "clases": [
-      "Clérigo",
       "Hechicero",
       "Mago"
     ],
-    "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "1 minuto",
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "10 pies",
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Una r\u00e1faga brillante surge de ti hacia un punto dentro del alcance y estalla con un rugido. Todas las criaturas en una esfera de 6 m de radio centrada en ese punto hacen una tirada de salvaci\u00f3n de Destreza; sufren 8d6 de da\u00f1o de fuego si la fallan o la mitad si la superan. Los objetos inflamables no llevados o equipados comienzan a arder.<br><br><b>Con un espacio de conjuro de nivel superior.</b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": "Una pelota de guano de murci\u00e9lago y azufre."
+  },
+  {
+    "nombre": "Caminar sobre el agua",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Hechicero"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
       "S",
       "M"
     ],
-    "concentracion": true,
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro concede la capacidad de moverse por encima de cualquier superficie l\u00edquida, como agua, \u00e1cido, barro, nieve, arenas movedizas o lava, como si se tratara de un suelo s\u00f3lido inofensivo (aunque las criaturas que crucen lava derretida pueden seguir sufriendo da\u00f1o por el calor). Hasta diez criaturas voluntarias que elijas dentro del alcance obtienen esta capacidad hasta que termine el conjuro.<br><br>Los objetivos afectados deben emplear una acci\u00f3n adicional para pasar de la superficie del l\u00edquido al propio l\u00edquido y viceversa, pero si caen en \u00e9l, pasar\u00e1n a trav\u00e9s de la superficie al l\u00edquido que hay debajo.",
+    "materiales": "Un trozo de corcho."
+  },
+  {
+    "nombre": "Castigo cegador",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional, que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "El objetivo del golpe sufrir\u00e1 3d8 de da\u00f1o radiante adicional del ataque y tendr\u00e1 el estado de cegado hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo cegado har\u00e1 una tirada de salvaci\u00f3n de Constituci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o adicional aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": null
+  },
+  {
+    "nombre": "C\u00edrculo m\u00e1gico",
+    "clases": [
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Mago",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
     "duracion": "1 hora",
     "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
-    "descripcion": "Creas un cilindro de energía mágica de 10 pies de radio y 20 pies de alto, centrado en un punto del suelo que puedas ver dentro del alcance. Las intersecciones del cilindro con suelos o paredes quedan marcadas por una línea de runas brillantes.<br><br>Elige uno o más de los siguientes tipos de criatura: celestiales, elementales, feéricos, infernales o muertos vivientes. El círculo afecta a las criaturas del tipo o tipos escogidos de las siguientes maneras:<br><br>• Las criaturas de los tipos elegidos no pueden entrar en el cilindro mediante medios no mágicos. Si intentan usar teletransportación o viaje interplanar para entrar, primero deben realizar una tirada de salvación de Carisma.<br>• Las criaturas de los tipos elegidos tienen desventaja en las tiradas de ataque contra objetivos dentro del cilindro.<br>• Las criaturas dentro del cilindro no pueden ser hechizadas, asustadas o poseídas por las criaturas de los tipos elegidos.<br><br>Cuando lanzas este conjuro puedes elegir que la magia funcione de forma inversa. Es decir, evitando que las criaturas de los tipos escogidos salgan del cilindro y protegiendo a las que estén fuera del mismo.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, la duración aumenta en 1 hora por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
-    "materiales": "Agua bendita o plata y hierro pulverizados con un valor de al menos 100 po, que son consumidos como parte del conjuro"
+    "descripcion": "Creas un cilindro de energ\u00eda m\u00e1gica de 3 m de radio y 6 m de altura centrado en un punto del suelo que puedas ver dentro del alcance. En los puntos de intersecci\u00f3n entre el cilindro y el suelo o cualquier otra superficie aparecer\u00e1n unas runas brillantes.<br><br>Elige uno o m\u00e1s de los siguientes tipos de criaturas: celestiales, elementales, fe\u00e9ricos, infernales o muertos vivientes. El c\u00edrculo afecta a una criatura del tipo elegido de las siguientes formas:<br><br>\u2022 La criatura no puede entrar voluntariamente en el cilindro por medios no m\u00e1gicos. Si la criatura intenta usar el teletransporte o el viaje interplanar para hacerlo, antes deber\u00e1 superar una tirada de salvaci\u00f3n de Carisma.<br><br>\u2022 La criatura tiene desventaja en las tiradas de ataque contra objetivos que est\u00e9n dentro del cilindro.<br><br>\u2022 Los objetivos dentro del cilindro no pueden ser pose\u00eddos por la criatura ni obtener los estados de asustados o hechizados a causa de ella.<br><br>Cada vez que lances este conjuro, puedes hacer que su magia funcione en sentido inverso para impedir que una criatura del tipo especificado salga del cilindro y proteger as\u00ed a los objetivos que est\u00e9n fuera de \u00e9l.<br><br><i>Con un espacio de conjuro de nivel superior.</i> La duraci\u00f3n aumenta en 1 hora por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": "Sal y plata en polvo que valga al menos 100 po, que se consumen como parte del conjuro."
   },
   {
     "nombre": "Clarividencia",
     "clases": [
       "Bardo",
-      "Clérigo",
+      "Cl\u00e9rigo",
       "Hechicero",
       "Mago"
     ],
-    "escuela": "Adivinación",
+    "escuela": "Adivinaci\u00f3n",
     "tiempo_de_lanzamiento": "10 minutos",
     "ritual": false,
-    "alcance": "1 milla",
+    "alcance": [
+      "1 milla",
+      "1,5 km"
+    ],
     "visible": false,
     "componentes": [
       "V",
@@ -203,29 +223,32 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas un sensor invisible dentro del alcance, en una localización familiar (que hayas visitado o visto antes) o en una ubicación obvia que no te resulte familiar (por ejemplo, detrás de una puerta, a la vuelta de una esquina o en un salón abierto). El sensor se mantiene en el sitio hasta el final de la duración del conjuro, y no puede ser atacado ni interactuar con él.<br><br>Cuando lanzas el conjuro, elige vista u oído. Puedes usar el sentido escogido a través del sensor como si estuvieras en su posición. Utilizando una acción puedes cambiar entre vista y oído.<br><br>Una criatura que pueda ver el sensor (porque se beneficie de un conjuro de <i>ver invisibilidad</i> o posea visión verdadera, por ejemplo) contempla un orbe luminoso e intangible del tamaño de tu puño.",
-    "materiales": "Una trompetilla enjoyada o un ojo de cristal con un valor de 100 o más po, como foco"
+    "descripcion": "Creas un sensor invisible dentro del alcance en un lugar que conozcas (que hayas visitado o visto antes) o en un lugar obvio, aunque no lo conozcas (por ejemplo, tras una puerta, al girar una esquina o en una arboleda). Este sensor intangible e invulnerable permanecer\u00e1 all\u00ed hasta que el conjuro termine.<br><br>Cuando lances el conjuro, elige la vista o el o\u00eddo. Podr\u00e1s usar el sentido elegido como si estuvieras en el espacio del sensor. Como acci\u00f3n adicional, puedes cambiar entre la vista y el o\u00eddo.<br><br>Cualquier criatura que pueda percibir el sensor (por ejemplo, que se est\u00e9 beneficiando del conjuro <i>ver invisibilidad</i> o que tenga visi\u00f3n verdadera) ver\u00e1 un orbe luminoso del tama\u00f1o aproximado de tu pu\u00f1o.",
+    "materiales": "Un canalizador que valga al menos 100 po; puede ser una trompetilla enjoyada o un ojo de cristal."
   },
   {
     "nombre": "Conjurar animales",
     "clases": [
-      "Druída",
+      "Druida",
       "Explorador"
     ],
-    "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": true,
-    "duracion": "Hasta 1 hora",
-    "tirada_de_salvacion": null,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Convocas espíritus feéricos que toman la forma de bestias en espacios desocupados que puedas ver dentro del alcance. Elige una de las siguientes opciones para lo que convocas:<br><br>• Una bestia con valor de desafío 2 o menos.<br>• Dos bestias con valor de desafío 1 o menos.<br>• Cuatro bestias con valor de desafío 1/2 o menos.<br>• Ocho bestias con valor de desafío 1/4 o menos.<br><br>Cada bestia se considera feérica y desaparece cuando sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Las bestias convocadas son amistosas hacia ti y tus compañeros. Las criaturas actúan como un grupo con sus propios turnos, con una sola de tirada de iniciativa común. Obedecen cualquier mandato verbal tuyo (no requiere acción). Si no les das ninguna orden, se defenderán de criaturas hostiles, pero no realizarán ninguna otra acción.<br><br>El DM tiene el perfil de las criaturas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de determinados niveles superiores, el número de criaturas de la opción elegida aumenta: el doble si usas un espacio de conjuro de nivel 5, el triple si es de nivel 7 y cuatro veces más si es de nivel 9.",
+    "descripcion": "Conjuras esp\u00edritus de la naturaleza que aparecen como una manada Grande de animales espectrales e intangibles en un espacio sin ocupar que puedas ver dentro del alcance. La manada permanecer\u00e1 hasta que el conjuro termine y puedes elegir la forma animal de los esp\u00edritus, como lobos, serpientes o aves.<br><br>Tienes ventaja en las tiradas de salvaci\u00f3n de Fuerza mientras est\u00e9s a 1,5 m o menos de la manada. Adem\u00e1s, cuando te muevas en tu turno, tambi\u00e9n podr\u00e1s mover a la manada hasta 9 m a un espacio sin ocupar que puedas ver.<br><br>Siempre que la manada se mueva a 3 m o menos de una criatura que puedas ver y siempre que una criatura que puedas ver entre en un espacio a 3 m o menos de la manada o termine su turno all\u00ed, puedes obligar a la criatura a hacer una tirada de salvaci\u00f3n de Destreza. Si la falla, recibir\u00e1 3d10 de da\u00f1o cortante. Una criatura solo hace esta tirada una vez por turno.<br><br><b>Con un espacio de conjuro de nivel superior.</b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 3 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -233,10 +256,10 @@
     "clases": [
       "Explorador"
     ],
-    "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "Lanzador (cono de 60 pies)",
+    "alcance": "Lanzador",
     "visible": true,
     "componentes": [
       "V",
@@ -244,44 +267,49 @@
       "M"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Arrojas un arma no mágica o unidad de munición al aire para crear un cono de armas idénticas que salen disparadas y luego desaparecen. Todas las criaturas en un cono de 60 pies deben hacer una tirada de salvación de Destreza. Sufrirán 3d8 de daño si fallan la tirada o la mitad del daño si la superan. El tipo de daño es el mismo que el del arma o munición utilizada como componente.",
-    "materiales": "Una unidad de munición o un arma arrojadiza"
+    "descripcion": "Blandes el arma utilizada para lanzar el conjuro e invocas versiones espectrales parecidas (o munici\u00f3n para el tipo de arma correspondiente) que salen disparadas hacia adelante y luego desaparecen. Todas las criaturas de tu elecci\u00f3n que puedas ver en un cono de 18 m hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 5d8 de da\u00f1o de fuerza si fallan o la mitad del da\u00f1o si la superan.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": "Un arma cuerpo a cuerpo o a distancia que valga al menos 1 pc."
   },
   {
     "nombre": "Contrahechizo",
     "clases": [
+      "Brujo",
       "Hechicero",
-      "Mago",
-      "Brujo"
+      "Mago"
     ],
-    "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "1 reacción, que llevas a cabo cuando una criatura que puedas ver a 60 pies o menos lance un conjuro",
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Reacci\u00f3n, que llevas a cabo cuando una criatura que puedas ver a 18 m o menos de ti lance un conjuro usando componentes verbales, som\u00e1ticos o materiales",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "S"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
-    "tirada_de_salvacion": null,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Intentas interrumpir a una criatura mientras lanza un conjuro. Si este último es de nivel 3 o menor, lo logras automáticamente y el conjuro no tiene efecto alguno. Sin embargo, para cada conjuro de nivel 4 o más, realiza una prueba de característica usando tu aptitud mágica. La CD es 10 + el nivel del conjuro. Si tienes éxito, el conjuro de la criatura falla y no tiene efecto.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o más, cancelas automáticamente aquellos conjuros cuyo nivel sea menor o igual al nivel del espacio de conjuro utilizado.",
+    "descripcion": "Intentas interrumpir a una criatura que est\u00e9 lanzando un conjuro. La criatura hace una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, el conjuro se disipa sin causar efecto alguno y la acci\u00f3n, acci\u00f3n adicional o reacci\u00f3n empleada para lanzarlo se desperdiciar\u00e1. Si ese conjuro se lanz\u00f3 con un espacio de conjuro, dicho espacio no se gastar\u00e1.",
     "materiales": null
   },
   {
     "nombre": "Corcel fantasma",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
-    "escuela": "Ilusión",
+    "escuela": "Ilusionismo",
     "tiempo_de_lanzamiento": "1 minuto",
     "ritual": true,
-    "alcance": "30 pies",
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -291,52 +319,58 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una criatura de tamaño Grande, con aspecto equino, aparece en el suelo en un espacio libre de tu elección que puedas ver dentro del alcance. Tú decides la apariencia de la criatura, pero estará equipada con silla de montar, bocado y bridas. Cualquier equipo creado por el conjuro se desvanecerá si se aleja más de 10 pies de ella.<br><br>Hasta el final de la duración del conjuro, tú o una criatura de tu elección podéis montar el corcel. Este tiene el perfil de un caballo de monta, excepto que su velocidad es de 100 pies y puede viajar 10 millas en una hora, 13 a ritmo rápido. Cuando el conjuro acaba, el corcel se desvanece gradualmente, dando al jinete 1 minuto para desmontar. El conjuro acaba si la criatura recibe cualquier tipo de daño o si utilizas una acción para terminar el conjuro.",
+    "descripcion": "Una criatura equina cuasi real de tama\u00f1o Grande aparece en un espacio sin ocupar de tu elecci\u00f3n dentro del alcance. T\u00fa decides su aspecto y estar\u00e1 equipada con una silla, bocado y bridas. Cualquier equipo creado por el conjuro se desvanecer\u00e1 en una bocanada de humo si se lleva a m\u00e1s de 3 m de la montura.<br><br>Hasta que termine el conjuro, t\u00fa o una criatura de tu elecci\u00f3n pod\u00e9is montar el corcel. El corcel utiliza el perfil del <i>caballo de monta</i> (consulta el ap\u00e9ndice B), excepto que tiene una velocidad de 30 m y puede desplazarse a 20 km/h. Cuando el conjuro termina, el corcel se desvanece gradualmente, lo que da al jinete 1 minuto para desmontar. El conjuro termina antes si el corcel recibe da\u00f1o.",
     "materiales": null
   },
   {
     "nombre": "Crear comida y agua",
     "clases": [
-      "Clérigo",
-      "Paladín"
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
     ],
-    "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "30 pies",
-    "visible": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas 45 libras de comida y 30 galones de agua en el suelo o en recipientes dentro del alcance, lo suficiente para mantener a quince humanoides o cinco corceles durante 24 horas. La comida es sosa, aunque nutritiva, y se estropeará si no se ha consumido en 24 horas. En cambio, el agua está limpia y no se estropea.",
+    "descripcion": "Creas 22,5 kg de comida y 120 l de agua potable en el suelo o en recipientes dentro del alcance, ideales para evitar los peligros de la desnutrici\u00f3n y la deshidrataci\u00f3n. La comida es sosa pero nutritiva y tiene el aspecto de una comida de tu elecci\u00f3n, mientras que el agua est\u00e1 limpia. La comida se estropea si no se consume en 24 horas.",
     "materiales": null
   },
   {
     "nombre": "Crecimiento vegetal",
     "clases": [
       "Bardo",
-      "Druída",
+      "Druida",
       "Explorador"
     ],
-    "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción u 8 horas",
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n (sobrecrecimiento) u 8 horas (fertilizaci\u00f3n)",
     "ritual": false,
-    "alcance": "150 pies",
-    "visible": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Este conjuro infunde vitalidad en las plantas de un área determinada. Hay dos posibles maneras de emplear este conjuro, que proporcionarán beneficios a corto o a largo plazo.<br><br>Si lanzas el conjuro utilizando 1 acción, elige un punto que puedas ver dentro del alcance. Todas las plantas en un radio de 100 pies centrado en ese punto se vuelven gruesas y muy frondosas. Cualquier criatura que atraviese esa zona debe emplear 4 pies de movimiento por cada pie que quiera moverse.<br><br>Puedes excluir una o más áreas de cualquier tamaño de la zona afectada por el conjuro.<br><br>Si lanzas este conjuro durante 8 horas, enriquecerás la tierra. Todas las plantas en un círculo de media milla de radio centrado en un punto dentro del alcance quedan enriquecidas y potenciadas durante 1 año. Producirán el doble de alimentos para la próxima cosecha.",
+    "descripcion": "Este conjuro infunde vitalidad en las plantas. El tiempo de lanzamiento que uses determina si el conjuro tiene un efecto de sobrecrecimiento o de enriquecimiento, descritos a continuaci\u00f3n.<br><br><b>Sobrecrecimiento.</b> Elige un punto dentro del alcance. Todas las plantas en una esfera de 30 m de radio centrada en ese punto se volver\u00e1n gruesas y frondosas. Una criatura que atraviese esa \u00e1rea deber\u00e1 gastar 4 m de movimiento por cada metro que se mueva. Puedes excluir una o m\u00e1s zonas de cualquier tama\u00f1o dentro del \u00e1rea del conjuro para que no se vean afectadas.<br><br><b>Fertilizaci\u00f3n.</b> Todas las plantas en un radio de 750 m centrado en un punto dentro del alcance estar\u00e1n fertilizadas durante 365 d\u00edas y producir\u00e1n el doble de comida al recolectarlas. Solo podr\u00e1n beneficiarse de un <i>crecimiento vegetal</i> cada a\u00f1o.",
     "materiales": null
   }
 ]

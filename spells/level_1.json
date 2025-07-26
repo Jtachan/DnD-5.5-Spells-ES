@@ -5,10 +5,13 @@
       "Explorador",
       "Mago"
     ],
-    "escuela": "Abjuración",
+    "escuela": "Abjuraci\u00f3n",
     "tiempo_de_lanzamiento": "1 minuto",
     "ritual": true,
-    "alcance": "30 pies",
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
     "visible": false,
     "componentes": [
       "V",
@@ -19,16 +22,16 @@
     "duracion": "8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Preparas una alarma contra intrusos. Elige una puerta, ventana o cualquier otra área dentro del alcance cuyo volumen sea menor o igual que un cubo de 20 pies de lado. Una alarma te avisará siempre que una criatura, Diminuta o de tamaño superior, toque o entre en la zona vigilada antes del final del conjuro. Al lanzarlo puedes elegir que ciertas criaturas no activarán la alarma, que puede ser mental o sonora.<br>Una alarma mental te alerta con un sonido dentro de tu mente si estás a 1 milla de la zona vigilada. Si estás dormido, te despertará.<br>Una alarma sonora produce un sonido de campanilla durante 10 segundos audible a 60 pies de distancia.",
-    "materiales": "Una pequeña campana y un hilo de plata fina."
+    "descripcion": "Preparas una alarma contra los intrusos. Elige una puerta, una ventana o una zona dentro del alcance que no sea mayor que un cubo de 6 m (20 pies) de lado. Hasta que el conjuro termine, una alarma te alertar\u00e1 siempre que una criatura toque la zona vigilada o entre en ella. Al lanzar el conjuro, puedes designar qu\u00e9 criaturas no activar\u00e1n la alarma, que puede ser mental o sonora.<br><br><b>Alarma mental.</b> La alarma te avisar\u00e1 con un sonido dentro de tu mente si est\u00e1s a 1.5 km (1 milla) o menos de la zona vigilada. Si est\u00e1s dormido, te despertar\u00e1.<br><br><b>Alarma sonora.</b> La alarma producir\u00e1 el sonido de una campanilla durante 10 segundos, que ser\u00e1 audible a 18 m (60 pies) o menos de la zona vigilada.",
+    "materiales": "Una campana de hilo de plata."
   },
   {
     "nombre": "Armadura de Agathys",
     "clases": [
       "Brujo"
     ],
-    "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -41,8 +44,8 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una fuerza mágica protectora te rodea, manifestándose como una escarcha espectral que te cubre por completo, incluido a tu equipo. Ganas 5 puntos de golpe temporales hasta el final de la duración del conjuro. Si una criatura te impacta con un ataque cuerpo a cuerpo mientras conservas estos puntos, esta sufre 5 de daño de frío.<br><b><i>A niveles superiores.<b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, tanto los puntos de golpe temporales como el daño de frío aumentan en 5 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
-    "materiales": "Una taza de agua."
+    "descripcion": "Una escarcha m\u00e1gica protectora te rodea y ganas 5 puntos de golpe temporales. Si una criatura te acierta con una tirada de ataque cuerpo a cuerpo antes de que el conjuro termine, dicha criatura sufre 5 de da\u00f1o de fr\u00edo. El conjuro termina antes de tiempo si no tienes puntos de golpe temporales.<br><br><i><b>Con un espacio de conjuro de nivel superior.</b></i> Los puntos de golpe temporales y el da\u00f1o de fr\u00edo aumentan en 5 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "Un trozo de vidrio azul."
   },
   {
     "nombre": "Armadura de mago",
@@ -50,8 +53,8 @@
       "Hechicero",
       "Mago"
     ],
-    "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
     "alcance": "Toque",
     "visible": false,
@@ -64,20 +67,23 @@
     "duracion": "8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tocas a una criatura voluntaria que no lleve armadura y una fuerza mágica protectora la rodea hasta que el conjuro termine. La CA del objetivo pasa a ser 13 + su modificador de Destreza. El conjuro termina si el objetivo se pone una armadura o si utilizas una acción para finalizarlo.",
+    "descripcion": "Tocas a una criatura voluntaria que no lleve armadura. Hasta que el conjuro termine, la CA base del objetivo pasa a ser de 13 m\u00e1s su modificador por Destreza. El conjuro termina antes si el objetivo se pone una armadura.",
     "materiales": "Un trozo de piel curtida."
   },
   {
-    "nombre": "Bendición",
+    "nombre": "Bendici\u00f3n",
     "clases": [
-      "Clérigo",
-      "Paladín"
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
     ],
     "escuela": "Encantamiento",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "30 pies",
-    "visible": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
     "componentes": [
       "V",
       "S",
@@ -87,39 +93,40 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Bendices hasta tres criaturas de tu elección dentro del alcance. Hasta el final de la duración del conjuro, cuando uno de los objetivos haga una tirada de ataque o una tirada de salvación, puede tirar 1d4 y añadir el resultado a esa tirada.<br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
-    "materiales": "Unas gotas de agua bendita."
+    "descripcion": "Bendices hasta tres criaturas dentro del alcance. Siempre que un objetivo haga una tirada de ataque o de salvaci\u00f3n antes de que termine el conjuro, sumar\u00e1 1d4 al resultado de dicha tirada.<br><br><i><b>Con un espacio de conjuro de nivel superior.</b></i> Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "Un s\u00edmbolo sagrado que valga al menos 5 po."
   },
   {
     "nombre": "Brazos de Hadar",
     "clases": [
       "Brujo"
     ],
-    "escuela": "Conjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "Lanzador (radio de 10 pies)",
+    "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V",
       "S"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "Invocas el poder de Hadar, el Hambre Tenebrosa. Zarcillos de energía oscura surgen de ti y golpean a todas las criaturas a 10 pies o menos de tu posición. Cada criatura en el área debe hacer una tirada de salvación de Fuerza. Si falla, sufrirá 2d6 de daño necrótico y no podrá llevar a cabo reacciones hasta el comienzo de su próximo turno. Si supera la tirada, recibirá la mitad de daño, pero no sufrirá ningún otro efecto.<br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, el daño aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "descripcion": "Hadar extiende brazos tenebrosos desde ti. Todas las criaturas en un radio de 3 m (10 pies) deben hacer una tirada de salvaci\u00f3n de Fuerza. Si fallan, sufren 2d6 de da\u00f1o necr\u00f3tico y no podr\u00e1n realizar reacciones hasta el siguiente turno. Si la superan, reciben la mitad de da\u00f1o.<br><br><i><b>Con un espacio de conjuro de nivel superior.</b></i> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1.",
     "materiales": null
   },
   {
     "nombre": "Buenas bayas",
     "clases": [
-      "Druída"
+      "Druida",
+      "Explorador"
     ],
-    "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "Toque",
+    "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V",
@@ -127,23 +134,26 @@
       "M"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "24 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Aparecen en tu mano un máximo de diez bayas infundidas con magia hasta el final de la duración del conjuro. Una criatura puede utilizar su acción para comerse una baya. Si hace esto recuperará 1 punto de golpe y tendrá sustento para todo el día.<br>Las bayas pierden su poder si no son consumidas dentro de las 24 horas siguientes al lanzamiento del conjuro.",
-    "materiales": "Un ramito de muérdago."
+    "descripcion": "En tu mano aparecen diez bayas m\u00e1gicas. Una criatura puede usar una acci\u00f3n adicional para comerse una, lo que le permite recuperar 1 punto de golpe. Adem\u00e1s, proporciona alimento suficiente para mantener a una criatura durante un d\u00eda.<br><br>Las bayas que no se consuman desaparecen cuando el conjuro termine.",
+    "materiales": "Una rama de mu\u00e9rdago."
   },
   {
-    "nombre": "Caída de pluma",
+    "nombre": "Ca\u00edda de pluma",
     "clases": [
       "Bardo",
       "Hechicero",
       "Mago"
     ],
-    "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 reacción, que llevas a cabo cuando tú o una criatura a 60 pies o menos caiga",
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Reacci\u00f3n, que llevas a cabo cuando t\u00fa o una criatura que puedes ver a 18 m o menos de ti caig\u00e1is",
     "ritual": false,
-    "alcance": "60 pies",
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
@@ -153,103 +163,152 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Elige un máximo de cinco criaturas dentro del alcance que estén cayendo. La velocidad de caída de cada objetivo se reduce a 60 pies por asalto hasta que el conjuro termine. Si alguna criatura llega al suelo antes de que esto suceda, no recibe daño por caída, sino que puede caer de pie y el conjuro acaba para ese objetivo.",
-    "materiales": "Una pluma pequeña o un poco de plumón."
+    "descripcion": "Elige hasta cinco criaturas dentro del alcance que est\u00e9n cayendo. La velocidad de descenso de cada objetivo se reduce a 18 m (60 pies) por asalto hasta que el conjuro termine. Si una criatura aterriza antes de que el conjuro termine, no sufrir\u00e1 da\u00f1o de la ca\u00edda y el conjuro terminar\u00e1 para esa criatura.",
+    "materiales": "Una pluma peque\u00f1a o un poco de plum\u00f3n."
   },
   {
     "nombre": "Castigo abrasador",
     "clases": [
-      "Paladín"
+      "Palad\u00edn"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción adicional",
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional, que realizas de inmediato tras acertar a un objetivo con un arma cuerpo a cuerpo o un ataque sin armas",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V"
     ],
-    "concentracion": true,
-    "duracion": "Hasta 1 minuto",
+    "concentracion": false,
+    "duracion": "1 minuto",
     "tirada_de_salvacion": "CON",
-    "requiere_ataque": true,
-    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma se calienta hasta el rojo vivo y el ataque inflige 1d6 de daño de fuego adicional al objetivo, haciendo que comience a arder.<br><br>Al inicio de cada uno de sus turnos, el objetivo debe realizar una tirada de salvación de Constitución. Si falla, recibe 1d6 de daño de fuego. Si tiene éxito en la tirada, el conjuro termina inmediatamente. Si el objetivo o una criatura a 5 pies de este utiliza una acción para apagar las llamas, o si otro efecto las sofoca (como sumergir al objetivo en agua), el conjuro termina.<br><br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, el daño adicional del ataque aumenta en 1d6 por cada nivel por encima de 1 del espacio.",
+    "requiere_ataque": false,
+    "descripcion": "Al golpear al objetivo, sufre 1d6 de da\u00f1o de fuego adicional del ataque. Al principio de cada uno de sus turnos hasta que el conjuro termine, el objetivo sufrir\u00e1 1d6 de da\u00f1o de fuego y luego har\u00e1 una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, el conjuro seguir\u00e1 activo. Si la supera, el conjuro terminar\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Todo el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
     "nombre": "Castigo atronador",
     "clases": [
-      "Paladín"
+      "Palad\u00edn"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción adicional",
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional, que realizas de inmediato tras acertar a un objetivo con un arma cuerpo a cuerpo o un ataque sin armas",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V"
     ],
-    "concentracion": true,
-    "duracion": "Hasta 1 minuto",
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "FUE",
-    "requiere_ataque": true,
-    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, tu arma suena como un trueno audible a 300 pies de distancia y el ataque inflige 2d6 de daño de trueno adicionales al objetivo. Si el objetivo es una criatura, deberá superar una tirada de salvación de Fuerza o será empujada 10 pies en dirección opuesta a ti y será derribada.",
+    "requiere_ataque": false,
+    "descripcion": "Tu golpe resuena con un trueno audible a 90 m (300 pies) de ti y el objetivo sufre 2d6 de da\u00f1o de trueno adicional del ataque. Adem\u00e1s, si el objetivo es una criatura, deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o la empujar\u00e1s 3 m (10 pies) respecto a ti y tendr\u00e1 el estado de derribada.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
     "nombre": "Castigo furioso",
     "clases": [
-      "Paladín"
+      "Palad\u00edn"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción adicional",
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional, que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V"
     ],
-    "concentracion": true,
-    "duracion": "Hasta 1 minuto",
+    "concentracion": false,
+    "duracion": "1 minuto",
     "tirada_de_salvacion": "SAB",
-    "requiere_ataque": true,
-    "descripcion": "La próxima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duración del conjuro, el ataque le infligirá 1d6 de daño psíquico adicional. Además, el objetivo debe tener éxito en una tirada de salvación de Sabiduría o quedará asustado por ti hasta el final de tu siguiente turno. Podrá intentar superar de nuevo dicha prueba de Sabiduría con CD igual a tu salvación de conjuros para recuperar su bravura y terminar con el conjuro.",
+    "requiere_ataque": false,
+    "descripcion": "El objetivo sufrir\u00e1 1d6 de da\u00f1o necr\u00f3tico adicional del ataque y deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de asustado hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo asustado repite la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null
+  },
+  {
+    "nombre": "Castigo divino",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional, que realizas de inmediato tras acertar a un objetivo con un arma cuerpo a cuerpo o un ataque sin armas",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "El objetivo sufre 2d8 de da\u00f1o radiante adicional del ataque. Este da\u00f1o aumenta en 1d8 si el objetivo es un infernal o un muerto viviente.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
     "nombre": "Crear o destruir agua",
     "clases": [
-      "Clérigo",
-      "Druída"
+      "Cl\u00e9rigo",
+      "Druida"
     ],
-    "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "30 pies",
-    "visible": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
     "componentes": [
       "V",
       "S",
       "M"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas o destruyes agua.<br><br><b>Crear agua.</b> Creas hasta 10 galones de agua limpia en un recipiente dentro del alcance. Alternativamente, el agua llueve en un cubo de 30 pies de lado dentro del alcance, apagando cualquier llama expuesta dentro del área.<br><br><b>Destruir agua.</b> Destruyes hasta 10 galones de agua limpia de un recipiente dentro del alcance. Alternativamente, deshaces la niebla en un cubo de 30 pies de lado dentro del alcance.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, por cada nivel por encima de 1 del espacio creas o destruyes 10 galones adicionales de agua o el lado del cubo aumenta en 5 pies.",
-    "materiales": "Una gota de agua si estás creándola o unos granos de arena si la estás destruyendo"
+    "descripcion": "Produces uno de estos efectos:<br><br><b>Crear agua.</b> Creas hasta 40 l de agua limpia dentro del alcance en un recipiente abierto. Como alternativa, el agua cae en forma de lluvia en un cubo de 9 m de lado dentro del alcance y apaga las llamas abiertas de la zona.<br><br><b>Destruir agua.</b> Destruyes hasta 40 l de agua dentro del alcance o en un recipiente abierto. Como alternativa, puedes destruir niebla en un cubo de 9 m de lado dentro del alcance.<br><br><i>Con un espacio de conjuro de nivel superior.</i> Creas o destruyes 40 l m\u00e1s de agua o el tama\u00f1o del cubo aumenta en 1,5 m por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "Una mezcla de agua y arena."
+  },
+  {
+    "nombre": "Cuchillo de hielo",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": true,
+    "descripcion": "Creas una esquirla de hielo y se la lanzas a una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de da\u00f1o perforante. Acierta o falle, el fragmento explotar\u00e1. El objetivo y todas las criaturas a 1,5 m menos de \u00e9l deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o recibir\u00e1n 2d6 de da\u00f1o de fr\u00edo.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o de fr\u00edo aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "Una gota de agua o un trozo de hielo."
   },
   {
     "nombre": "Curar heridas",
     "clases": [
       "Bardo",
-      "Clérigo",
-      "Druída",
-      "Paladín",
-      "Explorador"
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Palad\u00edn"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
     "alcance": "Toque",
     "visible": true,
@@ -258,10 +317,10 @@
       "S"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una criatura a la que toques recupera tantos puntos de golpe como 1d8 + tu modificador por aptitud mágica. Este conjuro no afecta a muertos vivientes o autómatas.<br><br><b>A niveles superiores.</b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o más, la curación aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "descripcion": "Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d8 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><i>Con un espacio de conjuro de nivel superior.</i> La curaci\u00f3n aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   }
 ]
