@@ -254,5 +254,34 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que el conjuro termine, controlas cualquier masa de agua que est\u00e9 en un \u00e1rea de tu elecci\u00f3n y con forma de cubo de hasta 30 m de lado, y usas uno de los siguientes efectos. Como acci\u00f3n de magia en tus siguientes turnos, puedes repetir el mismo efecto o elegir uno distinto.<br><br><b>Abrir las aguas.</b> Haces que las aguas de la zona se separen y creen un canal, que se extiende a lo largo de toda el \u00e1rea del conjuro, con las aguas separadas formando un muro a ambos lados. El canal se mantendr\u00e1 hasta que termine el conjuro o hasta que elijas un efecto distinto. Posteriormente, el agua ir\u00e1 llenando el canal lentamente durante el siguiente asalto hasta recuperar su nivel normal.<br><br><b>Inundaci\u00f3n.</b> Haces que el nivel del agua estancada de la zona aumente hasta 6 m. Si eliges una zona en una masa de agua grande, en vez de eso, creas una ola de 6 m de altura que se desplaza de un lado de esa zona a la otra y luego rompe. Cualquier veh\u00edculo Enorme o m\u00e1s peque\u00f1o que est\u00e9 en el recorrido de la ola ser\u00e1 transportado hasta el otro lado y tambi\u00e9n tendr\u00e1 un 25 % de probabilidades de volcar. El nivel del agua permanecer\u00e1 elevado hasta que el conjuro termine o hasta que elijas un efecto distinto. Si este efecto ha producido una ola, esta se repetir\u00e1 al principio de tu siguiente turno mientras dure el efecto de la inundaci\u00f3n.<br><br><b>Redirigir caudal.</b> Haces que un caudal de agua en la zona se mueva en la direcci\u00f3n que elijas, incluso si tiene que fluir por encima de obst\u00e1culos, subir muros o tomar otros rumbos extra\u00f1os. El agua de la zona se mover\u00e1 seg\u00fan tus instrucciones, pero una vez salga del \u00e1rea del conjuro, volver\u00e1 a fluir de forma normal en funci\u00f3n del terreno. El agua seguir\u00e1 movi\u00e9ndose en la direcci\u00f3n que hayas elegido hasta que el conjuro termine o hasta que elijas un efecto distinto.<br><br><b>Remolino.</b> Provocas que se forme un remolino en el centro del \u00e1rea, que debe ser un cuadrado de al menos 15 m de lado y 7,5 m de profundidad. El remolino permanece hasta que elijas un efecto distinto o termine el conjuro. El remolino tiene 1,5 m de ancho en su base y hasta 15 m en la parte superior, con una altura de 7,5 m. Cualquier criatura que est\u00e9 en el agua a 7,5 m o menos del remolino ser\u00e1 atra\u00edda 3 m hacia \u00e9l. Cuando una criatura entre en el remolino por primera vez en un turno o termine su turno all\u00ed, har\u00e1 una tirada de salvaci\u00f3n de Fuerza. Si la falla, la criatura recibir\u00e1 2d8 de da\u00f1o contundente. Si la supera, recibir\u00e1 la mitad de da\u00f1o. Una criatura solo puede alejarse nadando del remolino si usa primero una acci\u00f3n para apartarse y supera una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros.",
     "materiales": "Una mezcla de agua y polvo."
+  },
+  {
+    "nombre": "Destierro",
+    "clases": [
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura que puedas ver dentro del alcance deber\u00e1 superar una tirada de salvaci\u00f3n de Carisma o se teletransportar\u00e1 a un semiplano inofensivo hasta que termine el conjuro. Mientras permanezca all\u00ed, tendr\u00e1 el estado de incapacitada. Cuando el conjuro termine, el objetivo reaparecer\u00e1 en el espacio que abandon\u00f3 o en el espacio m\u00e1s cercano si dicho espacio est\u00e1 ocupado.<br><br>Si el conjuro dura 1 minuto y el objetivo es una aberraci\u00f3n, un celestial, un elemental, un fe\u00e9rico o un infernal, no regresar\u00e1. En vez de ello, se teleportar\u00e1 a un lugar aleatorio de un plano (a elecci\u00f3n de tu DM) relacionado con su tipo de criatura.<br><br><b>Con un espacio de conjuro de nivel superior.</b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": "Un pent\u00e1culo."
   }
 ]

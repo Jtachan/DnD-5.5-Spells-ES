@@ -119,3 +119,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Despertar                            | 5         |
 | Desplazamiento                       | 3         |
 | Desplazamiento entre planos          | 7         |
+| Destierro                            | 4         |
