@@ -121,3 +121,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Desplazamiento entre planos          | 7         |
 | Destierro                            | 4         |
 | Detectar el bien y el mal            | 1         |
+| Detectar magia                       | 1         |

@@ -344,5 +344,33 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que el conjuro termine, percibes la ubicaci\u00f3n de cualquier aberraci\u00f3n, celestial, elemental, fe\u00e9rico, infernal o muerto viviente a 9 m o menos de ti. Tambi\u00e9n percibes si hay un conjuro <i>consagrar</i> activo en el espacio y su ubicaci\u00f3n.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina fina de plomo.",
     "materiales": null
+  },
+  {
+    "nombre": "Detectar magia",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Mago",
+      "Palad\u00edn"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, podr\u00e1s percibir la presencia de efectos m\u00e1gicos a 9 m o menos de ti. Si percibes alguno, puedes usar una acci\u00f3n de magia para ver una d\u00e9bil aura alrededor de cualquier objeto o criatura visible dentro de la zona que est\u00e9 afectada por la magia y, si el efecto lo cre\u00f3 un conjuro, distingues a qu\u00e9 escuela m\u00e1gica pertenece.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina de plomo.",
+    "materiales": null
   }
 ]
