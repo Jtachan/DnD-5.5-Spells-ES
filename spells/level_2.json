@@ -534,5 +534,30 @@
     "requiere_ataque": false,
     "descripcion": "Tocas un cad\u00e1ver u otro tipo de restos mortales. Hasta que termine el conjuro, el objetivo est\u00e1 protegido de la descomposici\u00f3n y no se puede convertir en un no muerto viviente.<br><br>El conjuro tambi\u00e9n ampl\u00eda el tiempo m\u00e1ximo para resucitar al objetivo, ya que los d\u00edas que pasa bajo su influencia no cuentan para el l\u00edmite de tiempo de conjuros como <i>alzar a los muertos</i>.",
     "materiales": "2 piezas de cobre, que se consumen como parte del conjuro"
+  },
+  {
+    "nombre": "Embelesar",
+    "clases": [
+      "Bardo",
+      "Brujo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Creas una serie de palabras encantadoras que provocan que una o m\u00e1s criaturas de tu elecci\u00f3n a las que puedas ver dentro del alcance deban hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Cualquier criatura contra la que luch\u00e9is tus aliados o t\u00fa superar\u00e1 autom\u00e1ticamente esta tirada. Si la falla, el objetivo sufrir\u00e1 un penalizador de -10 a las pruebas de Sabidur\u00eda (Percepci\u00f3n) y a la Percepci\u00f3n pasiva hasta que el conjuro termine.",
+    "materiales": null
   }
 ]
