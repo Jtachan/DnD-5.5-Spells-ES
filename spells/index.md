@@ -113,3 +113,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | De la carne a la piedra              | 6         |
 | Dedo de la muerte                    | 7         |
 | Descarga de fuego                    | 0 (Truco) |
+| Descarga sobrenatural                | 0 (Truco) |
