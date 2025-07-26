@@ -1,11 +1,14 @@
-# DnD Conjuros (5 edición)
+# DnD Conjuros (5.5 edición)
 
 Base de datos NoSQL de los conjuros de _Dungeons and Dragons_ (reglas básicas).
 
-> ℹ️ Nota:
-> En todas las entradas se han utilizado las siguientes reglas evitando caracteres españoles especiales:
-> - Las tildes se han omitido. Ej.: duración -> duracion.
-> - Los espacios han sido reemplazados por `_`.
+En todas las entradas se han utilizado las siguientes reglas evitando caracteres españoles especiales:
+ - Las tildes se han omitido. Ej.: duración -> duracion.
+ - Los espacios han sido reemplazados por `_`.
+
+> (i) Nota:
+> La extracción de los datos se ha hecho con IA, aunque se han revisado manualmente.
+> Puesto que hay errores que se me pueden escapar, por favor cread tickets si encontráis algún error.
 
 ## Index
 
