@@ -1,6 +1,6 @@
 [
   {
-    "nombre": "Antipatía/Simpatía",
+    "nombre": "Antipat\u00eda/Simpat\u00eda",
     "clases": [
       "Bardo",
       "Druida",
@@ -20,10 +20,10 @@
       "M"
     ],
     "concentracion": false,
-    "duracion": "10 días",
+    "duracion": "10 d\u00edas",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Mientras lanzas el conjuro, elige si crea antipatía o simpatía y haz objetivo a una criatura u objeto de tamaño Enorme o más pequeño. A continuación, selecciona un tipo de criatura, como dragones rojos, goblins o vampiros. Las criaturas del tipo elegido harán una tirada de salvación de Sabiduría cuando se acerquen a 36 m o menos del objetivo. La elección de antipatía o simpatía determina lo que le sucede a una criatura si falla la salvación:<br><b>Antipatía.</b> La criatura tiene el estado de asustada y deberá utilizar su movimiento en sus turnos para alejarse lo máximo posible del objetivo por la ruta más segura.<br><b>Simpatía.</b> La criatura tiene el estado de hechizada y deberá utilizar su movimiento en sus turnos para acercarse lo máximo posible al objetivo por la ruta más segura. Si se encuentra a 1,5 m o menos del objetivo, no podrá alejarse de él voluntariamente. Si el objetivo daña a la criatura hechizada, esta podrá hacer una tirada de salvación de Sabiduría para poner fin al efecto.<br><b>Poner fin al efecto.</b> Si la criatura asustada o hechizada termina su turno a más de 36 m del objetivo, deberá hacer una tirada de salvación de Sabiduría. Si la supera, dejará de verse afectada por el objetivo. Las criaturas que superen la tirada de salvación serán inmunes a él durante 1 minuto y después podrán verse afectadas otra vez.",
+    "descripcion": "Mientras lanzas el conjuro, elige si crea antipat\u00eda o simpat\u00eda y haz objetivo a una criatura u objeto de tama\u00f1o Enorme o m\u00e1s peque\u00f1o. A continuaci\u00f3n, selecciona un tipo de criatura, como dragones rojos, goblins o vampiros. Las criaturas del tipo elegido har\u00e1n una tirada de salvaci\u00f3n de Sabidur\u00eda cuando se acerquen a 36 m o menos del objetivo. La elecci\u00f3n de antipat\u00eda o simpat\u00eda determina lo que le sucede a una criatura si falla la salvaci\u00f3n:<br><br><b>Antipat\u00eda.</b> La criatura tiene el estado de asustada y deber\u00e1 utilizar su movimiento en sus turnos para alejarse lo m\u00e1ximo posible del objetivo por la ruta m\u00e1s segura.<br><br><b>Simpat\u00eda.</b> La criatura tiene el estado de hechizada y deber\u00e1 utilizar su movimiento en sus turnos para acercarse lo m\u00e1ximo posible al objetivo por la ruta m\u00e1s segura. Si se encuentra a 1,5 m o menos del objetivo, no podr\u00e1 alejarse de \u00e9l voluntariamente. Si el objetivo da\u00f1a a la criatura hechizada, esta podr\u00e1 hacer una tirada de salvaci\u00f3n de Sabidur\u00eda para poner fin al efecto.<br><br><b>Poner fin al efecto.</b> Si la criatura asustada o hechizada termina su turno a m\u00e1s de 36 m del objetivo, deber\u00e1 hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la supera, dejar\u00e1 de verse afectada por el objetivo. Las criaturas que superen la tirada de salvaci\u00f3n ser\u00e1n inmunes a \u00e9l durante 1 minuto y despu\u00e9s podr\u00e1n verse afectadas otra vez.",
     "materiales": "Una mezcla de vinagre y miel."
   },
   {
@@ -31,8 +31,8 @@
     "clases": [
       "Druida"
     ],
-    "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
     "alcance": [
       "30 pies",
@@ -47,16 +47,16 @@
     "duracion": "24 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Elige cualquier cantidad de criaturas voluntarias que puedas ver dentro del alcance. Todos los objetivos cambian de forma en la de una bestia Grande o más pequeña con un valor de desafío de 4 o menos. Puedes elegir una forma distinta para cada objetivo.<br>En los siguientes turnos, puedes usar una acción de magia para transformar de nuevo a los objetivos.<br>El perfil de un objetivo se sustituye por el de la bestia elegida, pero conserva su personalidad, alineamiento, equipo, clases y puntuaciones de Inteligencia, Sabiduría y Carisma. Las acciones del objetivo se ven limitadas por la anatomía de la nueva forma, y no puede usar su equipo hasta que recupere su forma normal. El objetivo gana puntos de golpe temporales igual a los de la nueva forma. Estos puntos se pierden si la transformación acaba o si se lanza de nuevo.<br>La transformación dura hasta que el conjuro termine o hasta que el objetivo la finalice como acción adicional.",
+    "descripcion": "Elige cualquier cantidad de criaturas voluntarias que puedas ver dentro del alcance. Todos los objetivos cambian de forma en la de una bestia Grande o m\u00e1s peque\u00f1a con un valor de desaf\u00edo de 4 o menos. Puedes elegir una forma distinta para cada objetivo.<br><br>En los siguientes turnos, puedes usar una acci\u00f3n de magia para transformar de nuevo a los objetivos.<br><br>El perfil de un objetivo se sustituye por el de la bestia elegida, pero conserva su personalidad, alineamiento, equipo, clases y puntuaciones de Inteligencia, Sabidur\u00eda y Carisma. Las acciones del objetivo se ven limitadas por la anatom\u00eda de la nueva forma, y no puede usar su equipo hasta que recupere su forma normal. El objetivo gana puntos de golpe temporales igual a los de la nueva forma. Estos puntos se pierden si la transformaci\u00f3n acaba o si se lanza de nuevo.<br><br>La transformaci\u00f3n dura hasta que el conjuro termine o hasta que el objetivo la finalice como acci\u00f3n adicional.",
     "materiales": null
   },
   {
     "nombre": "Aura sagrada",
     "clases": [
-      "Clérigo"
+      "Cl\u00e9rigo"
     ],
-    "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "1 acción",
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -69,17 +69,17 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Hasta que termine el conjuro, un aura emana de ti en un radio de 9 m. Mientras permanezcan dentro, tus aliados tienen ventaja en todas las tiradas de salvación y las criaturas tienen desventaja en ataques contra ellos. Si un infernal o no muerto ataca a un aliado dentro del aura, debe hacer una tirada de salvación de Constitución o fallará el ataque.<br>El efecto solo dura hasta el final de su turno si falla.",
+    "descripcion": "Hasta que termine el conjuro, un aura emana de ti en un radio de 9 m. Mientras permanezcan dentro, tus aliados tienen ventaja en todas las tiradas de salvaci\u00f3n y las criaturas tienen desventaja en ataques contra ellos. Si un infernal o no muerto ataca a un aliado dentro del aura, debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n o fallar\u00e1 el ataque.<br><br>El efecto solo dura hasta el final de su turno si falla.",
     "materiales": "Un relicario que valga al menos 1000 po."
   },
   {
     "nombre": "Campo antimagia",
     "clases": [
-      "Clérigo",
+      "Cl\u00e9rigo",
       "Mago"
     ],
-    "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "Acción",
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -92,7 +92,7 @@
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Un aura de antimagia te envuelve en una emanación de 3 m. Dentro de ella nadie puede lanzar conjuros, emplear acciones de magia o crear otros efectos mágicos, y estos efectos no pueden hacer objetivo o afectar a nada de su interior. Las propiedades mágicas de los objetos mágicos no funcionan dentro del aura ni afectan a nada que esté en su interior.<br>Las áreas de efecto que crean los conjuros u otro tipo de magia no pueden penetrar en el aura y nadie puede teletransportarse ni usar el viaje interplanar para entrar o salir de ella. Los portales se cierran de forma temporal mientras estén dentro del aura.<br>Los conjuros activos se suprimen en la zona, salvo los que lancen un artefacto o deidad. Mientras un efecto está suprimido, no funciona, pero el tiempo que pasa suprimido cuenta para su duración.<br><i>Disipar magia</i> no tiene efecto en el aura, y las auras que creadas por distintos conjuros campo antimagia no se anulan entre sí.",
+    "descripcion": "Un aura de antimagia te envuelve en una emanaci\u00f3n de 3 m. Dentro de ella nadie puede lanzar conjuros, emplear acciones de magia o crear otros efectos m\u00e1gicos, y estos efectos no pueden hacer objetivo o afectar a nada de su interior. Las propiedades m\u00e1gicas de los objetos m\u00e1gicos no funcionan dentro del aura ni afectan a nada que est\u00e9 en su interior.<br><br>Las \u00e1reas de efecto que crean los conjuros u otro tipo de magia no pueden penetrar en el aura y nadie puede teletransportarse ni usar el viaje interplanar para entrar o salir de ella. Los portales se cierran de forma temporal mientras est\u00e9n dentro del aura.<br><br>Los conjuros activos se suprimen en la zona, salvo los que lancen un artefacto o deidad. Mientras un efecto est\u00e1 suprimido, no funciona, pero el tiempo que pasa suprimido cuenta para su duraci\u00f3n.<br><br><i>Disipar magia</i> no tiene efecto en el aura, y las auras que creadas por distintos conjuros campo antimagia no se anulan entre s\u00ed.",
     "materiales": "Virutas de hierro."
   },
   {
@@ -111,20 +111,20 @@
       "M"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tocas a una criatura o al menos un cubo de su carne de 2,5 cm. Dentro del recipiente empleado para lanzar el conjuro se crea un duplicado inerte de la criatura que alcanza la madurez en 120 días; tú decides si el clon terminado tiene la misma edad que la criatura o si es más joven. El clon permanecerá inerte y durará indefinidamente, siempre que su recipiente se mantenga intacto.<br>Si la criatura original muere después de que el clon haya madurado, su alma se transferirá al clon si el alma es libre y desea regresar. El clon es físicamente idéntico al original, al igual que su personalidad, sus recuerdos y sus capacidades, pero no posee nada de su equipo original. Los restos mortales de la criatura original, si existen, se volverán inertes y no podrán ser devueltos a la vida, salvo que el alma de la criatura está en otra parte.",
-    "materiales": "Un diamante que valga al menos 1000 po, que se consume como parte del conjuro, y un recipiente sellable que valga al menos 2000 po y sea lo bastante grande como para alojar a la criatura que se clone"
+    "descripcion": "Tocas a una criatura o al menos un cubo de su carne de 2,5 cm. Dentro del recipiente empleado para lanzar el conjuro se crea un duplicado inerte de la criatura que alcanza la madurez en 120 d\u00edas; t\u00fa decides si el clon terminado tiene la misma edad que la criatura o si es m\u00e1s joven. El clon permanecer\u00e1 inerte y durar\u00e1 indefinidamente, siempre que su recipiente se mantenga intacto.<br><br>Si la criatura original muere despu\u00e9s de que el clon haya madurado, su alma se transferir\u00e1 al clon si el alma es libre y desea regresar. El clon es f\u00edsicamente id\u00e9ntico al original, al igual que su personalidad, sus recuerdos y sus capacidades, pero no posee nada de su equipo original. Los restos mortales de la criatura original, si existen, se volver\u00e1n inertes y no podr\u00e1n ser devueltos a la vida, salvo que el alma de la criatura est\u00e1 en otra parte.",
+    "materiales": "Un diamante que valga al menos 1000 po, que se consume como parte del conjuro, y un recipiente sellable que valga al menos 2000 po y sea lo bastante grande como para alojar a la criatura que se clone."
   },
   {
     "nombre": "Controlar el clima",
     "clases": [
-      "Clérigo",
+      "Cl\u00e9rigo",
       "Druida",
       "Mago"
     ],
-    "escuela": "Transmutación",
+    "escuela": "Transmutaci\u00f3n",
     "tiempo_de_lanzamiento": "10 minutos",
     "ritual": false,
     "alcance": "Lanzador",
@@ -135,10 +135,10 @@
       "M"
     ],
     "concentracion": true,
-    "duracion": "Concentración, hasta 8 horas",
+    "duracion": "Hasta 8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Hasta que termine el conjuro, asumes el control del clima a 7,5 km o menos de ti. Debes estar al aire libre para lanzar este conjuro y terminará antes de tiempo si entras en una zona cubierta.<br><br>Cuando lanzas el conjuro, cambias las condiciones climatológicas actuales, que determinará tu DM. Puedes cambiar las precipitaciones, la temperatura y el viento. Se tardan 1d4 × 10 minutos en que las nuevas condiciones surtan efecto. En cuanto lo hagan, puedes volver a cambiarlas. Cuando el conjuro termine, el clima volverá poco a poco a su estado normal.<br><br>Cuando cambies las condiciones meteorológicas, busca un estado en las tablas siguientes y modifica su nivel en uno, arriba o abajo. Si cambias el viento, también puedes alterar su dirección.<br><br><b>PRECIPITACIONES</b><br>1 – Despejado<br>2 – Nubes escasas<br>3 – Cielo cubierto o niebla de superficie<br>4 – Lluvia, granizo o nieve<br>5 – Lluvia torrencial, tormenta de granizo o ventisca<br><br><b>TEMPERATURA</b><br>1 – Ola de calor<br>2 – Caliente<br>3 – Templado<br>4 – Fresco<br>5 – Frío<br>6 – Frío extremo<br><br><b>VIENTO</b><br>1 – Calmo<br>2 – Viento moderado<br>3 – Viento fuerte<br>4 – Galerna<br>5 – Tempestad",
-    "materiales": "incienso para quemar"
+    "descripcion": "Hasta que termine el conjuro, asumes el control del clima a 7,5 km o menos de ti. Debes estar al aire libre para lanzar este conjuro y terminar\u00e1 antes de tiempo si entras en una zona cubierta.<br><br>Cuando lanzas el conjuro, cambias las condiciones climatol\u00f3gicas actuales, que determinar\u00e1 tu DM. Puedes cambiar las precipitaciones, la temperatura y el viento. Se tardan 1d4 \u00d7 10 minutos en que las nuevas condiciones surtan efecto. En cuanto lo hagan, puedes volver a cambiarlas. Cuando el conjuro termine, el clima volver\u00e1 poco a poco a su estado normal.<br><br>Cuando cambies las condiciones meteorol\u00f3gicas, busca un estado en las tablas siguientes y modifica su nivel en uno, arriba o abajo. Si cambias el viento, tambi\u00e9n puedes alterar su direcci\u00f3n.<br><br><b>PRECIPITACIONES</b><br><br>1 \u2013 Despejado<br><br>2 \u2013 Nubes escasas<br><br>3 \u2013 Cielo cubierto o niebla de superficie<br><br>4 \u2013 Lluvia, granizo o nieve<br><br>5 \u2013 Lluvia torrencial, tormenta de granizo o ventisca<br><br><b>TEMPERATURA</b><br><br>1 \u2013 Ola de calor<br><br>2 \u2013 Caliente<br><br>3 \u2013 Templado<br><br>4 \u2013 Fresco<br><br>5 \u2013 Fr\u00edo<br><br>6 \u2013 Fr\u00edo extremo<br><br><b>VIENTO</b><br><br>1 \u2013 Calmo<br><br>2 \u2013 Viento moderado<br><br>3 \u2013 Viento fuerte<br><br>4 \u2013 Galerna<br><br>5 \u2013 Tempestad",
+    "materiales": "Incienso para quemar."
   }
 ]

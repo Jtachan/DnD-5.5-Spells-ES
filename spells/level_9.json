@@ -5,8 +5,8 @@
       "Druida",
       "Mago"
     ],
-    "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "Acción",
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -19,8 +19,8 @@
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Asumes la forma de otra criatura hasta que termine el conjuro o hasta que uses una acción de magia para adoptar otra forma para la que cumplas los requisitos. La nueva forma debe ser la de una criatura con un valor de desafío igual o menor a tu nivel o valor de desafío. Tienes que haber visto alguna criatura de ese tipo y no puede ser un autómata ni un muerto viviente.<br>Cuando lanzas el conjuro, obtienes una cantidad de puntos de golpe temporales igual a los puntos de golpe de la primera forma que adoptes. Estos puntos de golpe temporales se desvanecerán si conservas alguno cuando el conjuro termine.<br>Tu perfil se sustituye por el de la forma elegida, pero conservarás tu tipo de criatura, alineamiento, personalidad, puntuaciones de Inteligencia, Sabiduría y Carisma, puntos de golpe, dados de puntos de golpe, competencias y capacidad para comunicarte. También conservas el rasgo Lanzamiento de conjuros si lo tienes. Al cambiar de forma, eliges si tu equipo cae al suelo o cambia de tamaño y forma para adaptarse a tu nuevo aspecto mientras lo adoptes.",
-    "materiales": "Una diadema de jade que valga al menos 1500 po"
+    "descripcion": "Asumes la forma de otra criatura hasta que termine el conjuro o hasta que uses una acci\u00f3n de magia para adoptar otra forma para la que cumplas los requisitos. La nueva forma debe ser la de una criatura con un valor de desaf\u00edo igual o menor a tu nivel o valor de desaf\u00edo. Tienes que haber visto alguna criatura de ese tipo y no puede ser un aut\u00f3mata ni un muerto viviente.<br><br>Cuando lanzas el conjuro, obtienes una cantidad de puntos de golpe temporales igual a los puntos de golpe de la primera forma que adoptes. Estos puntos de golpe temporales se desvanecer\u00e1n si conservas alguno cuando el conjuro termine.<br><br>Tu perfil se sustituye por el de la forma elegida, pero conservar\u00e1s tu tipo de criatura, alineamiento, personalidad, puntuaciones de Inteligencia, Sabidur\u00eda y Carisma, puntos de golpe, dados de puntos de golpe, competencias y capacidad para comunicarte. Tambi\u00e9n conservas el rasgo Lanzamiento de conjuros si lo tienes. Al cambiar de forma, eliges si tu equipo cae al suelo o cambia de tama\u00f1o y forma para adaptarse a tu nuevo aspecto mientras lo adoptes.",
+    "materiales": "Una diadema de jade que valga al menos 1500 po."
   },
   {
     "nombre": "Cautiverio",
@@ -28,7 +28,7 @@
       "Brujo",
       "Mago"
     ],
-    "escuela": "Abjuración",
+    "escuela": "Abjuraci\u00f3n",
     "tiempo_de_lanzamiento": "1 minuto",
     "ritual": false,
     "alcance": [
@@ -45,16 +45,16 @@
     "duracion": "Hasta que sea disipado",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Creas una restricción mágica para apresar a una criatura que puedas ver dentro del alcance. El objetivo deberá hacer una tirada de salvación de Sabiduría. Si la supera, el conjuro no le afectará y será inmune a él durante las próximas 24 horas. Si la falla, quedará aprisionado. Mientras esté aprisionado, el objetivo no necesitará respirar, comer ni beber y tampoco envejecerá. Los conjuros de adivinación no podrán localizar ni percibir al objetivo, que tampoco podrá teletransportarse.<br>Hasta que el conjuro termine, el objetivo también se verá afectado por uno de los siguientes efectos, a tu elección:<br><b>Contención mínima.</b> El objetivo queda reducido a una altura de 2,5 cm y atrapado dentro de una gema u otro objeto similar, que es indestructible. La luz puede atravesar la piedra preciosa (permitiendo que el objetivo vea lo que hay fuera y las demás criaturas vean lo que hay dentro), pero nada más puede atravesarla de ninguna forma.<br><b>Encadenamiento.</b> Unas cadenas firmemente ancladas al suelo retienen al objetivo. El objetivo tiene el estado de apresado y no hay ninguna forma de moverlo.<br><b>Entierro.</b> El objetivo queda sepultado bajo tierra en un globo hueco de fuerza mágica con un tamaño justo como para contenerlo. Nada puede entrar ni salir del globo.<br><b>Presidio cercado.</b> El objetivo está atrapado en un semiplano protegido contra la teletransportación y el viaje interplanar. El semiplano puede ser un laberinto, una jaula, una torre o una estructura similar.<br><b>Sueño.</b> El objetivo tiene el estado de inconsciente y no se le puede despertar.<br><b>Poner fin al conjuro.</b> Cuando lances el conjuro, especifica una condición que le ponga fin. Puede ser tan sencilla o complicada como quieras, aunque tu DM debe estar de acuerdo en que tenga una alta probabilidad de llegar a ocurrir en la próxima década. La condición debe ser una acción observable, como que alguien haga una ofrenda concreta en el templo de tu dios, salve a tu amor verdadero o derrote a un monstruo concreto.<br>Un conjuro <i>disipar magia</i> puede poner fin al conjuro solamente si se lanza con un espacio de conjuro de nivel 9 y hace objetivo a la prisión o al componente usado para crearla.",
-    "materiales": "Una estatuilla del objetivo que valga al menos 5000 po"
+    "descripcion": "Creas una restricci\u00f3n m\u00e1gica para apresar a una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la supera, el conjuro no le afectar\u00e1 y ser\u00e1 inmune a \u00e9l durante las pr\u00f3ximas 24 horas. Si la falla, quedar\u00e1 aprisionado. Mientras est\u00e9 aprisionado, el objetivo no necesitar\u00e1 respirar, comer ni beber y tampoco envejecer\u00e1. Los conjuros de adivinaci\u00f3n no podr\u00e1n localizar ni percibir al objetivo, que tampoco podr\u00e1 teletransportarse.<br><br>Hasta que el conjuro termine, el objetivo tambi\u00e9n se ver\u00e1 afectado por uno de los siguientes efectos, a tu elecci\u00f3n:<br><br><b>Contenci\u00f3n m\u00ednima.</b> El objetivo queda reducido a una altura de 2,5 cm y atrapado dentro de una gema u otro objeto similar, que es indestructible. La luz puede atravesar la piedra preciosa (permitiendo que el objetivo vea lo que hay fuera y las dem\u00e1s criaturas vean lo que hay dentro), pero nada m\u00e1s puede atravesarla de ninguna forma.<br><br><b>Encadenamiento.</b> Unas cadenas firmemente ancladas al suelo retienen al objetivo. El objetivo tiene el estado de apresado y no hay ninguna forma de moverlo.<br><br><b>Entierro.</b> El objetivo queda sepultado bajo tierra en un globo hueco de fuerza m\u00e1gica con un tama\u00f1o justo como para contenerlo. Nada puede entrar ni salir del globo.<br><br><b>Presidio cercado.</b> El objetivo est\u00e1 atrapado en un semiplano protegido contra la teletransportaci\u00f3n y el viaje interplanar. El semiplano puede ser un laberinto, una jaula, una torre o una estructura similar.<br><br><b>Sue\u00f1o.</b> El objetivo tiene el estado de inconsciente y no se le puede despertar.<br><br><b>Poner fin al conjuro.</b> Cuando lances el conjuro, especifica una condici\u00f3n que le ponga fin. Puede ser tan sencilla o complicada como quieras, aunque tu DM debe estar de acuerdo en que tenga una alta probabilidad de llegar a ocurrir en la pr\u00f3xima d\u00e9cada. La condici\u00f3n debe ser una acci\u00f3n observable, como que alguien haga una ofrenda concreta en el templo de tu dios, salve a tu amor verdadero o derrote a un monstruo concreto.<br><br>Un conjuro <i>disipar magia</i> puede poner fin al conjuro solamente si se lanza con un espacio de conjuro de nivel 9 y hace objetivo a la prisi\u00f3n o al componente usado para crearla.",
+    "materiales": "Una estatuilla del objetivo que valga al menos 5000 po."
   },
   {
     "nombre": "Curar en masa",
     "clases": [
-      "Clérigo"
+      "Cl\u00e9rigo"
     ],
-    "escuela": "Abjuración",
-    "tiempo_de_lanzamiento": "Acción",
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
     "alcance": [
       "60 pies",
@@ -66,10 +66,10 @@
       "S"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "De ti brota una oleada de energía curativa que envuelve a las criaturas que te rodean. Haces recuperar hasta 700 puntos de golpe, repartidos como tú escojas entre cualquier cantidad de criaturas que puedas ver dentro del alcance. Las criaturas sanadas con este conjuro también se libran de los estados de cegadas, ensordecidas y envenenadas.",
+    "descripcion": "De ti brota una oleada de energ\u00eda curativa que envuelve a las criaturas que te rodean. Haces recuperar hasta 700 puntos de golpe, repartidos como t\u00fa escojas entre cualquier cantidad de criaturas que puedas ver dentro del alcance. Las criaturas sanadas con este conjuro tambi\u00e9n se libran de los estados de cegadas, ensordecidas y envenenadas.",
     "materiales": null
   }
 ]
