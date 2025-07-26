@@ -116,3 +116,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Descarga sobrenatural                | 0 (Truco) |
 | Deseo                                | 9         |
 | Desintegrar                          | 6         |
+| Despertar                            | 5         |
