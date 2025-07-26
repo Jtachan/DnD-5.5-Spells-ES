@@ -574,5 +574,27 @@
     "requiere_ataque": false,
     "descripcion": "Un humanoide que puedas ver dentro del alcance deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de hechizado hasta que termine el conjuro. El objetivo tiene ventaja en la tirada si est\u00e1 luchando contra ti o tus aliados. Siempre que reciba da\u00f1o, repetir\u00e1 la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br>Tendr\u00e1s un v\u00ednculo telep\u00e1tico con el objetivo hechizado mientras est\u00e9is en el mismo plano de existencia. En tu turno, puedes usar este v\u00ednculo para dar \u00f3rdenes al objetivo (no requiere acci\u00f3n), como \u201cataca a esa criatura\u201d, \u201cmu\u00e9vete hacia all\u00ed\u201d o \u201ctr\u00e1eme ese objeto\u201d. En su turno, el objetivo hace todo lo posible por obedecer. Si lleva a cabo una orden y no recibe m\u00e1s instrucciones de tu parte, act\u00faa y se mueve libremente y se centra en protegerse.<br><br>Puedes ordenarle al objetivo que lleve a cabo reacciones, pero para ello deber\u00e1s usar tu propia reacci\u00f3n.<br><br><b>Con un espacio de conjuro de nivel superior.</b> Tu concentraci\u00f3n puede durar m\u00e1s con un espacio de conjuro de nivel 6 (hasta 10 minutos), 7 (hasta 1 hora) u 8 o m\u00e1s (hasta 8 horas).",
     "materiales": null
+  },
+  {
+    "nombre": "Enga\u00f1ar",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Obtienes el estado de invisible al mismo tiempo que un doble ilusorio de ti aparece en tu sitio. El doble permanece hasta que termine el conjuro, pero la invisibilidad acabar\u00e1 de inmediato despu\u00e9s de que hagas una tirada de ataque, causes da\u00f1o o lances un conjuro.<br><br>Como acci\u00f3n de magia, puedes hacer que tu doble ilusorio se mueva hasta el doble de tu velocidad y que realice gestos, hable y se comporte del modo que quieras. El doble de imitaci\u00f3n te obedece.<br><br>Puedes ver a trav\u00e9s de sus ojos y o\u00edr con sus o\u00eddos como si estuvieras en su ubicaci\u00f3n.",
+    "materiales": null
   }
 ]
