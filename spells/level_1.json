@@ -322,5 +322,27 @@
     "requiere_ataque": false,
     "descripcion": "Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d8 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><i>Con un espacio de conjuro de nivel superior.</i> La curaci\u00f3n aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Detectar el bien y el mal",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, percibes la ubicaci\u00f3n de cualquier aberraci\u00f3n, celestial, elemental, fe\u00e9rico, infernal o muerto viviente a 9 m o menos de ti. Tambi\u00e9n percibes si hay un conjuro <i>consagrar</i> activo en el espacio y su ubicaci\u00f3n.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina fina de plomo.",
+    "materiales": null
   }
 ]
