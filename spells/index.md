@@ -131,3 +131,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Disipar magia                        | 3         |
 | Dominar bestia                       | 4         |
 | Dominar monstruo                     | 8         |
+| Dominar persona                      | 5         |

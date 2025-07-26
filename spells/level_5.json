@@ -548,5 +548,31 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que termine el conjuro, celestiales, elementales, fe\u00e9ricos, infernales y muertos vivientes tendr\u00e1n desventaja en las tiradas de ataque contra ti. Puedes poner fin al conjuro anticipadamente si usas cualquiera de las siguientes funciones especiales.<br><br><b>Despido.</b> Como acci\u00f3n de magia, haces objetivo a una criatura que puedas ver a 1,5 m o menos de ti que tenga uno de los tipos de criatura anteriores. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Carisma o ser\u00e1 devuelto a su plano natal si no est\u00e1 all\u00ed ya. Si no est\u00e1n en su plano natal, los muertos vivientes son enviados al P\u00e1ramo Sombr\u00edo, y los fe\u00e9ricos, a los Parajes Fe\u00e9ricos.<br><br><b>Romper encantamiento.</b> Como acci\u00f3n de magia, tocas a una criatura que tenga los estados de asustada o hechizada o est\u00e9 pose\u00edda por una o m\u00e1s criaturas de los tipos anteriores. La criatura objetivo deja de estar pose\u00edda, asustada o hechizada por dichas criaturas.",
     "materiales": "Plata e hierro en polvo."
+  },
+  {
+    "nombre": "Dominar persona",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Un humanoide que puedas ver dentro del alcance deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de hechizado hasta que termine el conjuro. El objetivo tiene ventaja en la tirada si est\u00e1 luchando contra ti o tus aliados. Siempre que reciba da\u00f1o, repetir\u00e1 la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br>Tendr\u00e1s un v\u00ednculo telep\u00e1tico con el objetivo hechizado mientras est\u00e9is en el mismo plano de existencia. En tu turno, puedes usar este v\u00ednculo para dar \u00f3rdenes al objetivo (no requiere acci\u00f3n), como \u201cataca a esa criatura\u201d, \u201cmu\u00e9vete hacia all\u00ed\u201d o \u201ctr\u00e1eme ese objeto\u201d. En su turno, el objetivo hace todo lo posible por obedecer. Si lleva a cabo una orden y no recibe m\u00e1s instrucciones de tu parte, act\u00faa y se mueve libremente y se centra en protegerse.<br><br>Puedes ordenarle al objetivo que lleve a cabo reacciones, pero para ello deber\u00e1s usar tu propia reacci\u00f3n.<br><br><b>Con un espacio de conjuro de nivel superior.</b> Tu concentraci\u00f3n puede durar m\u00e1s con un espacio de conjuro de nivel 6 (hasta 10 minutos), 7 (hasta 1 hora) u 8 o m\u00e1s (hasta 8 horas).",
+    "materiales": null
   }
 ]
