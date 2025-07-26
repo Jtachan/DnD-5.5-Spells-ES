@@ -74,5 +74,31 @@
     "requiere_ataque": false,
     "descripcion": "Desatas una energ\u00eda negativa hacia una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 7d8 + 30 de da\u00f1o necr\u00f3tico si la falla o la mitad del da\u00f1o si la supera.<br><br>Si un humanoide muere a causa de este conjuro, se alzar\u00e1 al principio de tu siguiente turno como un <i>zombi</i> y seguir\u00e1 tus \u00f3rdenes verbales.",
     "materiales": null
+  },
+  {
+    "nombre": "Desplazamiento entre planos",
+    "clases": [
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "T\u00fa y hasta ocho criaturas voluntarias que unan sus manos formando un c\u00edrculo sois transportadas a un plano de existencia distinto. Puedes especificar un destino en t\u00e9rminos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecer\u00e9is en ese destino o cerca de \u00e9l, seg\u00fan decida tu DM.<br><br>Como alternativa, si conoces la secuencia de sellos de un c\u00edrculo de teletransportaci\u00f3n en otro plano de existencia, este conjuro puede llevarte hasta dicho c\u00edrculo. Si el c\u00edrculo de teletransportaci\u00f3n es demasiado peque\u00f1o como para que quepan todas las criaturas que has transportado, aparecer\u00e1n en los espacios sin ocupar m\u00e1s cercanos a \u00e9l.",
+    "materiales": "Una vara de metal con forma de horquilla que valga al menos 250 po y est\u00e9 sintonizada con un plano de existencia."
   }
 ]
