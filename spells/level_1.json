@@ -619,5 +619,31 @@
     "requiere_ataque": false,
     "descripcion": "Una barrera imperceptible de fuerza m\u00e1gica te protege. Hasta el principio de tu siguiente turno, tienes un bonificador de +5 a la CA, incluido contra el ataque que la reacci\u00f3n, y no recibes ning\u00fan da\u00f1o del conjuro <i>proyectil m\u00e1gico</i>.",
     "materiales": null
+  },
+  {
+    "nombre": "Escudo de fe",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Un campo titilante envuelve a una criatura de tu elecci\u00f3n dentro del alcance y le otorga un bonificador de +2 a la CA hasta que el conjuro termine.",
+    "materiales": "Un pergamino de plegarias."
   }
 ]

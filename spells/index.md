@@ -148,3 +148,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Ensueño                              | 5         |
 | Entender idiomas                     | 1         |
 | Escudo                               | 1         |
+| Escudo de fe                         | 1         |
