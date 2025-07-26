@@ -140,3 +140,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Embelesar                            | 2         |
 | Encantar animal                      | 1         |
 | Encontrar el camino                  | 6         |
+| Encontrar familiar                   | 1         |
