@@ -139,3 +139,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Elementalismo                        | 0         |
 | Embelesar                            | 2         |
 | Encantar animal                      | 1         |
+| Encontrar el camino                  | 6         |
