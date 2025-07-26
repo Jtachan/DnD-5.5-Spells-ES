@@ -123,3 +123,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Detectar el bien y el mal            | 1         |
 | Detectar magia                       | 1         |
 | Detectar pensamientos                | 2         |
+| Detectar trampas                     | 2         |

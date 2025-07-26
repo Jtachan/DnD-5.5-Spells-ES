@@ -484,5 +484,31 @@
     "requiere_ataque": false,
     "descripcion": "Activas uno de los siguientes efectos. Hasta que el conjuro termine, puedes activar cualquiera de ellos como acci\u00f3n de magia en tus siguientes turnos.<br><br><b>Sentir pensamientos.</b> Percibes la presencia de pensamientos que pertenecen a criaturas que conozcan idiomas o sean telep\u00e1ticas a 9 m o menos de ti. No lees sus pensamientos, pero sabes que hay una criatura pensante cerca.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina fina de plomo.<br><br><b>Leer pensamientos.</b> Haces objetivo a una criatura que puedes ver a 9 m o menos de ti o a una criatura a 9 m o menos de ti que detectaste con la opci\u00f3n de sentir pensamientos y averiguas lo principal que ocupa su mente en ese momento. Si el objetivo no conoce ning\u00fan idioma o no es telep\u00e1tico, no descubres nada.<br><br>Como acci\u00f3n de magia en tu pr\u00f3ximo turno, puedes intentar sondear en profundidad su mente. Si lo haces, el objetivo har\u00e1 una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, descubrir\u00e1s su l\u00ednea de razonamiento, sus emociones y algo que le preocupe (todo seg\u00fan determine el DM). Si supera la tirada, el conjuro terminar\u00e1.<br><br>El objetivo es consciente de que est\u00e1s sondeando su mente y, a menos que desplaces tu atenci\u00f3n, podr\u00e1 usar una acci\u00f3n en su turno para hacer una prueba de Inteligencia (Conocimiento arcano) contra tu CD de salvaci\u00f3n de conjuros; si la supera, el conjuro terminar\u00e1.",
     "materiales": "1 pieza de cobre."
+  },
+  {
+    "nombre": "Detectar trampas",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Detectas cualquier trampa dentro del alcance que est\u00e9 en tu l\u00ednea de visi\u00f3n. En lo que a este conjuro respecta, una trampa incluye cualquier objeto o mecanismo que fuese creado para causar un da\u00f1o u otro peligro. Por tanto, el conjuro detectar\u00e1 los conjuros <i>alarma</i> y <i>glifo custodio</i> o una trampa de pozo mec\u00e1nica, pero no revelar\u00eda una debilidad natural del suelo, un techo inestable o un socav\u00f3n oculto.<br><br>Este conjuro alerta de la existencia de una trampa, pero no te indica su ubicaci\u00f3n. Aun as\u00ed, descubres la naturaleza general del peligro que supone una trampa que detectas.",
+    "materiales": null
   }
 ]
