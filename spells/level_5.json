@@ -646,5 +646,31 @@
     "requiere_ataque": false,
     "descripcion": "Elige como objetivo a una criatura que conozcas en el mismo plano de existencia. Una criatura voluntaria a la que toques o t\u00fa entrar\u00e9is en un estado de trance y servir\u00e9is de mensajero on\u00edrico. Mientras est\u00e9 en el trance, el mensajero tendr\u00e1 el estado de incapacitado y una velocidad de 0.<br><br>Si el objetivo est\u00e1 dormido, el mensajero aparece en sus sue\u00f1os y puede conversar con \u00e9l mientras siga dormido y hasta que termine el conjuro. El mensajero tambi\u00e9n puede dar forma al entorno del sue\u00f1o y crear paisajes, objetos y otras im\u00e1genes. El mensajero puede salir del trance en cualquier momento, lo que pondr\u00e1 fin al conjuro. Al despertar, el objetivo recordar\u00e1 el sue\u00f1o con claridad.<br><br>Si el objetivo est\u00e1 despierto cuando lances el conjuro, el mensajero lo sabr\u00e1 y podr\u00e1 poner fin al trance (y al conjuro) o esperar a que el objetivo duerma, en cuyo momento entrar\u00e1 en sus sue\u00f1os.<br><br>Puede que el mensajero se le aparezca al objetivo como un ser aterrador. Si lo haces, el mensajero podr\u00e1 entregar un mensaje de un m\u00e1ximo de 10 palabras y luego el objetivo har\u00e1 una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, no recibir\u00e1 beneficio alguno del descanso y sufrir\u00e1 3d6 de da\u00f1o ps\u00edquico cuando se despierte.",
     "materiales": "Un pu\u00f1ado de arena."
+  },
+  {
+    "nombre": "Escudri\u00f1ar",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Puedes ver y o\u00edr a una criatura de tu elecci\u00f3n que est\u00e9 en el mismo plano de existencia que t\u00fa. El objetivo hace una tirada de salvaci\u00f3n de Sabidur\u00eda, modificada en funci\u00f3n de lo bien que conozcas al objetivo y el tipo de conexi\u00f3n f\u00edsica que tengas con \u00e9l (consulta las tablas m\u00e1s adelante). El objetivo desconoce contra qu\u00e9 hace la tirada de salvaci\u00f3n; solo sabe que siente intranquilidad.<br><br><b>Modificador de la tirada de salvaci\u00f3n (conocimiento):</b><br><br>De segunda mano (has o\u00eddo hablar del objetivo): +5<br><br>De primera mano (has conocido al objetivo): +0<br><br>Familiar (conoces bien al objetivo): -5<br><br><b>Modificador de la tirada de salvaci\u00f3n (posesi\u00f3n):</b><br><br>Dibujo o retrato: -2<br><br>Prenda u otra posesi\u00f3n: -4<br><br>Parte del cuerpo, mech\u00f3n de pelo o trozo de u\u00f1a: -10<br><br>Si supera la tirada de salvaci\u00f3n, el objetivo no se ver\u00e1 afectado y no podr\u00e1s volver a usar este conjuro con \u00e9l durante 24 horas.<br><br>Si la falla, el conjuro crea un sensor invisible e intangible a 3 m o menos de \u00e9l. Puedes ver y o\u00edr a trav\u00e9s del sensor como si estuvieras all\u00ed. El sensor se mueve a la vez que el objetivo y permanece a 3 m o menos de \u00e9l hasta que termine el conjuro. Si algo puede percibir el sensor, se mostrar\u00e1 como un orbe luminoso del tama\u00f1o aproximado de tu pu\u00f1o.<br><br>En vez de hacer objetivo a una criatura, puedes elegir una ubicaci\u00f3n que hayas visto antes. Cuando lo hagas, el sensor aparecer\u00e1 en ese lugar y no se mover\u00e1.",
+    "materiales": "Un canalizador que valga al menos 1000 po, como una bola de cristal, un espejo o una pila llena de agua."
   }
 ]
