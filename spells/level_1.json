@@ -547,5 +547,30 @@
     "requiere_ataque": false,
     "descripcion": "Obtienes los servicios de un familiar, un esp\u00edritu que adopta forma animal. Puedes elegir: ara\u00f1a, b\u00faho, comadreja, cuervo, gato, halc\u00f3n, lagarto, murci\u00e9lago, pulpo, rana, rata o un pez con un valor de desaf\u00edo de 0. El familiar, que aparecer\u00e1 en un espacio sin ocupar dentro del alcance, tiene el perfil de la forma elegida (consulta el ap\u00e9ndice B), aunque es un celestial, un fe\u00e9rico o un infernal (a tu elecci\u00f3n) en vez de una bestia. Tu familiar act\u00faa con independencia de ti, pero obedece tus \u00f3rdenes.<br><br><b>Conexi\u00f3n telep\u00e1tica.</b> Mientras tu familiar est\u00e9 a 30 m o menos de ti, puedes comunicarte con \u00e9l telep\u00e1ticamente. Adem\u00e1s, como acci\u00f3n adicional, puedes ver a trav\u00e9s de sus ojos y escuchar lo que oiga hasta el principio de tu siguiente turno, y tambi\u00e9n obtienes los beneficios de cualquier sentido especial que tenga.<br><br>Por \u00faltimo, cuando lances un conjuro con un alcance de toque, puedes hacer que tu familiar sea quien toque al objetivo. Tu familiar debe estar a 30 m o menos de ti y debe usar una reacci\u00f3n para tocar al objetivo cuando lances el conjuro.<br><br><b>Combate.</b> El familiar se considera un aliado para tus aliados y para ti; tira su propia iniciativa y act\u00faa en su propio turno. Un familiar no puede atacar, pero puede realizar otras acciones de manera normal.<br><br><b>Desaparici\u00f3n del familiar.</b> Si los puntos de golpe del familiar se reducen a 0, desaparecer\u00e1 y reaparecer\u00e1 despu\u00e9s de que vuelvas a lanzar este conjuro. Como acci\u00f3n de magia, puedes hacer que el familiar se retire temporalmente a una dimensi\u00f3n de bolsillo. Como alternativa, puedes hacer que se desvanezca para siempre. Como acci\u00f3n de magia mientras est\u00e9 desaparecido temporalmente, puedes hacer que reaparezca en un espacio sin ocupar a 9 m o menos de ti. Siempre que sus puntos de golpe se reduzcan a 0 o que el familiar se retire a la dimensi\u00f3n de bolsillo, dejar\u00e1 de transportar o equipar cualquier cosa que estuviera usando o llevase.<br><br><b>Un solo familiar.</b> No puedes tener m\u00e1s de un familiar al mismo tiempo. Si lanzas este conjuro mientras tengas un familiar, har\u00e1s que adopte una nueva forma que cumpla los requisitos.",
     "materiales": "Incienso para quemar que valga al menos 10 po, que se consume como parte del conjuro."
+  },
+  {
+    "nombre": "Enmara\u00f1ar",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "Unas plantas apresadoras surgen del suelo en un cuadrado de 6 m de lado dentro del alcance. Hasta que termine el conjuro, estas plantas convertir\u00e1n la zona en terreno dif\u00edcil y desaparecer\u00e1n cuando el conjuro termine.<br><br>Cada criatura (excepto t\u00fa) que est\u00e9 en la zona cuando lances el conjuro deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o tendr\u00e1 el estado de apresada hasta que el conjuro termine. Una criatura apresada puede emplear una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, se liberar\u00e1 de las plantas y dejar\u00e1 de estar apresada por ellas.",
+    "materiales": null
   }
 ]

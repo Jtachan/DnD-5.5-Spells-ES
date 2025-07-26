@@ -533,7 +533,7 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": "Tocas un cad\u00e1ver u otro tipo de restos mortales. Hasta que termine el conjuro, el objetivo est\u00e1 protegido de la descomposici\u00f3n y no se puede convertir en un no muerto viviente.<br><br>El conjuro tambi\u00e9n ampl\u00eda el tiempo m\u00e1ximo para resucitar al objetivo, ya que los d\u00edas que pasa bajo su influencia no cuentan para el l\u00edmite de tiempo de conjuros como <i>alzar a los muertos</i>.",
-    "materiales": "2 piezas de cobre, que se consumen como parte del conjuro"
+    "materiales": "2 piezas de cobre, que se consumen como parte del conjuro."
   },
   {
     "nombre": "Embelesar",
