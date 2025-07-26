@@ -145,3 +145,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Enlace telepático de Rary            | 5         |
 | Enmarañar                            | 1         |
 | Enredadera                           | 4         |
+| Ensueño                              | 5         |

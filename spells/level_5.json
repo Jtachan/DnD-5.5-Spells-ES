@@ -622,5 +622,29 @@
     "requiere_ataque": false,
     "descripcion": "Forjas un enlace telep\u00e1tico entre hasta ocho criaturas voluntarias de tu elecci\u00f3n dentro del alcance y las vinculas ps\u00edquicamente unas con otras hasta que termine el conjuro. Las criaturas que no pueden comunicarse mediante idiomas no se ven afectadas.<br><br>Hasta que el conjuro termine, los objetivos se pueden comunicar telep\u00e1ticamente usando el enlace, tanto si comparten idioma como si no. Esta comunicaci\u00f3n se puede producir a cualquier distancia, pero no se extiende a otros planos de existencia.",
     "materiales": "Dos huevos."
+  },
+  {
+    "nombre": "Ensue\u00f1o",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Especial",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Elige como objetivo a una criatura que conozcas en el mismo plano de existencia. Una criatura voluntaria a la que toques o t\u00fa entrar\u00e9is en un estado de trance y servir\u00e9is de mensajero on\u00edrico. Mientras est\u00e9 en el trance, el mensajero tendr\u00e1 el estado de incapacitado y una velocidad de 0.<br><br>Si el objetivo est\u00e1 dormido, el mensajero aparece en sus sue\u00f1os y puede conversar con \u00e9l mientras siga dormido y hasta que termine el conjuro. El mensajero tambi\u00e9n puede dar forma al entorno del sue\u00f1o y crear paisajes, objetos y otras im\u00e1genes. El mensajero puede salir del trance en cualquier momento, lo que pondr\u00e1 fin al conjuro. Al despertar, el objetivo recordar\u00e1 el sue\u00f1o con claridad.<br><br>Si el objetivo est\u00e1 despierto cuando lances el conjuro, el mensajero lo sabr\u00e1 y podr\u00e1 poner fin al trance (y al conjuro) o esperar a que el objetivo duerma, en cuyo momento entrar\u00e1 en sus sue\u00f1os.<br><br>Puede que el mensajero se le aparezca al objetivo como un ser aterrador. Si lo haces, el mensajero podr\u00e1 entregar un mensaje de un m\u00e1ximo de 10 palabras y luego el objetivo har\u00e1 una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, no recibir\u00e1 beneficio alguno del descanso y sufrir\u00e1 3d6 de da\u00f1o ps\u00edquico cuando se despierte.",
+    "materiales": "Un pu\u00f1ado de arena."
   }
 ]
