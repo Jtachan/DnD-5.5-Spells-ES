@@ -146,3 +146,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Enmarañar                            | 1         |
 | Enredadera                           | 4         |
 | Ensueño                              | 5         |
+| Entender idiomas                     | 1         |
