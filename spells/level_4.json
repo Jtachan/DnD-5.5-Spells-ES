@@ -334,5 +334,29 @@
     "requiere_ataque": true,
     "descripcion": "Conjuras una enredadera que brota de una superficie en un espacio sin ocupar que puedas ver dentro del alcance y permanece hasta que el conjuro termine.<br><br>Haz un ataque de conjuro cuerpo a cuerpo contra una criatura a 9 m o menos de la enredadera. Si acierta, el objetivo sufrir\u00e1 4d8 de da\u00f1o contundente y ser\u00e1 arrastrado hasta 9 m hacia la enredadera. Si el objetivo es Enorme o m\u00e1s peque\u00f1o, tendr\u00e1 el estado de agarrado (CD para escapar igual a tu CD de salvaci\u00f3n de conjuros).<br><br>La enredadera solo puede agarrar a una criatura a la vez y puedes hacer que suelte a una criatura con este estado (no requiere acci\u00f3n). Como acci\u00f3n adicional en tus siguientes turnos, puedes repetir el ataque contra una criatura a 9 m o menos de la enredadera.<br><br><b>Con un espacio de conjuro de nivel superior.</b> La cantidad de criaturas que puede agarrar la enredadera aumenta en uno por cada nivel por encima de 4 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Escudo de fuego",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Unas llamas tenues envuelven tu cuerpo hasta que termine el conjuro y emiten luz brillante en un radio de 3 m y luz tenue 3 m m\u00e1s all\u00e1.<br><br>Las llamas te proporcionan un escudo c\u00e1lido o un escudo fr\u00edo, a tu elecci\u00f3n. El escudo c\u00e1lido te proporciona resistencia al da\u00f1o de fr\u00edo, mientras que el escudo fr\u00edo te concede resistencia al da\u00f1o de fuego.<br><br>Adem\u00e1s, siempre que una criatura a 1,5 m o menos de ti te acierte con una tirada de ataque cuerpo a cuerpo, el escudo estallar\u00e1 en llamas. El atacante recibir\u00e1 2d8 de da\u00f1o de fuego de un escudo c\u00e1lido o 2d8 de da\u00f1o de fr\u00edo de un escudo fr\u00edo.",
+    "materiales": "Una luci\u00e9rnaga o una pizca de f\u00f3sforo."
   }
 ]

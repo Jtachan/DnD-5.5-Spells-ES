@@ -149,3 +149,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Entender idiomas                     | 1         |
 | Escudo                               | 1         |
 | Escudo de fe                         | 1         |
+| Escudo de fuego                      | 4         |
