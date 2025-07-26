@@ -272,5 +272,31 @@
     "requiere_ataque": false,
     "descripcion": "Intentas convertir en piedra a una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, tendr\u00e1 el estado de apresado hasta que el conjuro termine. Si la supera, su velocidad ser\u00e1 0 hasta el principio de su siguiente turno. Los aut\u00f3matas superan autom\u00e1ticamente la tirada de salvaci\u00f3n. Un objetivo apresado realiza otra tirada de salvaci\u00f3n al final de cada uno de sus turnos. Si la supera tres veces, el conjuro termina. Si la falla tres veces, se convierte en piedra y sufre el estado de petrificada hasta que termine el conjuro. Si mantienes la concentraci\u00f3n durante toda su duraci\u00f3n, el objetivo quedar\u00e1 petrificado hasta que un conjuro como <i>restablecimiento mayor</i> u otro efecto m\u00e1gico similar le ponga fin.",
     "materiales": "Una pluma de cocatriz."
+  },
+  {
+    "nombre": "Desintegrar",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Lanzas un rayo verde hacia un objetivo que puedas ver dentro del alcance. El objetivo puede ser una criatura, un objeto no m\u00e1gico o una creaci\u00f3n de fuerza m\u00e1gica, como una pared creada por <i>muro de fuerza</i>.<br><br>Una criatura que sea objetivo de este conjuro deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza. Si la falla, recibir\u00e1 10d6 + 40 de da\u00f1o de fuerza. Si este da\u00f1o reduce al objetivo a 0, la criatura y todos los objetos no m\u00e1gicos que vista o lleve ser\u00e1n desintegrados en un polvo gris. La criatura solo puede ser devuelta a la vida mediante un conjuro de <i>resurrecci\u00f3n verdadera</i> o <i>deseo</i>.<br><br>Este conjuro desintegra autom\u00e1ticamente cualquier objeto no m\u00e1gico de tama\u00f1o Grande o m\u00e1s peque\u00f1o o cualquier creaci\u00f3n de fuerza m\u00e1gica. Si el objetivo es un conjuro de fuerza o una creaci\u00f3n de fuerza m\u00e1gica, el conjuro <i>desintegrar</i> disipa el efecto si lo crea un hechizo de nivel igual o inferior al de este conjuro.<br><br><b>En niveles superiores.</b> El da\u00f1o aumenta en 3d6 por cada nivel por encima de 6 que se use para lanzarlo.",
+    "materiales": "Un im\u00e1n natural y polvo."
   }
 ]

@@ -115,3 +115,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Descarga de fuego                    | 0 (Truco) |
 | Descarga sobrenatural                | 0 (Truco) |
 | Deseo                                | 9         |
+| Desintegrar                          | 6         |
