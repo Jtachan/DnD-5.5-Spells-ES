@@ -510,5 +510,29 @@
     "requiere_ataque": false,
     "descripcion": "Detectas cualquier trampa dentro del alcance que est\u00e9 en tu l\u00ednea de visi\u00f3n. En lo que a este conjuro respecta, una trampa incluye cualquier objeto o mecanismo que fuese creado para causar un da\u00f1o u otro peligro. Por tanto, el conjuro detectar\u00e1 los conjuros <i>alarma</i> y <i>glifo custodio</i> o una trampa de pozo mec\u00e1nica, pero no revelar\u00eda una debilidad natural del suelo, un techo inestable o un socav\u00f3n oculto.<br><br>Este conjuro alerta de la existencia de una trampa, pero no te indica su ubicaci\u00f3n. Aun as\u00ed, descubres la naturaleza general del peligro que supone una trampa que detectas.",
     "materiales": null
+  },
+  {
+    "nombre": "Dulce descanso",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Mago",
+      "Palad\u00edn"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "10 d\u00edas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas un cad\u00e1ver u otro tipo de restos mortales. Hasta que termine el conjuro, el objetivo est\u00e1 protegido de la descomposici\u00f3n y no se puede convertir en un no muerto viviente.<br><br>El conjuro tambi\u00e9n ampl\u00eda el tiempo m\u00e1ximo para resucitar al objetivo, ya que los d\u00edas que pasa bajo su influencia no cuentan para el l\u00edmite de tiempo de conjuros como <i>alzar a los muertos</i>.",
+    "materiales": "2 piezas de cobre, que se consumen como parte del conjuro"
   }
 ]

@@ -135,3 +135,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Don de lenguas                       | 3         |
 | Dormir                               | 1         |
 | Duelo forzado                        | 1         |
+| Dulce descanso                       | 2         |
