@@ -445,5 +445,32 @@
     "requiere_ataque": false,
     "descripcion": "Haces que tu aspecto (incluyendo tu vestimenta, armadura, armas y otras posesiones que lleves contigo) aparezca distinto hasta que el conjuro termine. Puedes aparentar tener una altura 30 cm mayor o menor y una complexi\u00f3n m\u00e1s pesada o ligera. Debes adoptar una forma que tenga la misma configuraci\u00f3n de miembros que t\u00fa. Por lo dem\u00e1s, la ilusi\u00f3n puede modificar todo lo que quieras de tu aspecto.<br><br>Los cambios realizados por este conjuro pueden descubrirse mediante una inspecci\u00f3n f\u00edsica. Por ejemplo, si usas este conjuro para a\u00f1adir un sombrero a tu vestimenta, los objetos atravesar\u00e1n el sombrero y cualquiera que lo toque no sentir\u00e1 nada.<br><br>Para darse cuenta de que te has disfrazado, una criatura debe emplear la acci\u00f3n de estudiar para inspeccionar tu apariencia y superar una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros.",
     "materiales": null
+  },
+  {
+    "nombre": "Dormir",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Todas las criaturas de tu elecci\u00f3n en una esfera de 1,5 m de radio centrada en un punto del alcance se ver\u00e1n afectadas en funci\u00f3n del resultado de la tirada de dados de vida. Una criatura ser\u00e1 afectada si su salud es igual o menor que la cantidad restante de puntos del efecto. El conjuro termina sobre un objetivo si recibe da\u00f1o o si alguien, a 1,5 m o menos de \u00e9l, lo emplea una acci\u00f3n para zarandearlo y poner fin al efecto del conjuro.<br><br>Las criaturas que no duermen, como los elfos, o que tengan inmunidad al estado de cansancio superan autom\u00e1ticamente las tiradas de salvaci\u00f3n contra este conjuro.",
+    "materiales": "Una pizca de arena o p\u00e9talos de rosa."
   }
 ]
