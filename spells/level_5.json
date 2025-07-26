@@ -525,5 +525,28 @@
     "requiere_ataque": false,
     "descripcion": "Dedicas el tiempo de lanzamiento a trazar surcos m\u00e1gicos dentro de un diamante en una piedra preciosa y luego tocas al objetivo, que debe ser una criatura de tipo \u201cbestia\u201d o \u201cplanta\u201d con una puntuaci\u00f3n de Inteligencia de 3 o menos o una planta natural que no sea una criatura. El objetivo obtiene una Inteligencia de 10 y la capacidad de hablar un idioma que conozcas. Si el objetivo es una planta natural, se convierte en una criatura de tipo \u201cplanta\u201d y obtiene la capacidad de moverse sus miembros, ra\u00edces, ramas, enredaderas, etc., as\u00ed como unos sentidos similares a los de una persona. T\u00fa DM elegir\u00e1 el perfil apropiado para la planta despertada, por ejemplo el del <i>arbusto despertado</i> o el del <i>\u00e1rbol despertado</i> del <i>Manual de monstruos</i>.<br><br>El objetivo despertado tiene el estado de hechizado durante 30 d\u00edas o hasta que t\u00fa o tus aliados le caus\u00e9is da\u00f1o. Cuando termine el estado, la criatura despertada decidir\u00e1 su actitud hacia ti.",
     "materiales": "Un \u00e1gata que valga al menos 1000 po y que se consume como parte del conjuro."
+  },
+  {
+    "nombre": "Disipar el bien y el mal",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Hasta que termine el conjuro, celestiales, elementales, fe\u00e9ricos, infernales y muertos vivientes tendr\u00e1n desventaja en las tiradas de ataque contra ti. Puedes poner fin al conjuro anticipadamente si usas cualquiera de las siguientes funciones especiales.<br><br><b>Despido.</b> Como acci\u00f3n de magia, haces objetivo a una criatura que puedas ver a 1,5 m o menos de ti que tenga uno de los tipos de criatura anteriores. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Carisma o ser\u00e1 devuelto a su plano natal si no est\u00e1 all\u00ed ya. Si no est\u00e1n en su plano natal, los muertos vivientes son enviados al P\u00e1ramo Sombr\u00edo, y los fe\u00e9ricos, a los Parajes Fe\u00e9ricos.<br><br><b>Romper encantamiento.</b> Como acci\u00f3n de magia, tocas a una criatura que tenga los estados de asustada o hechizada o est\u00e9 pose\u00edda por una o m\u00e1s criaturas de los tipos anteriores. La criatura objetivo deja de estar pose\u00edda, asustada o hechizada por dichas criaturas.",
+    "materiales": "Plata e hierro en polvo."
   }
 ]
