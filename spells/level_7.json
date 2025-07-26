@@ -48,5 +48,31 @@
     "requiere_ataque": false,
     "descripcion": "Conjuras un esp\u00edritu de los Planos Superiores, que se manifiesta como un pilar de luz de 3 m de radio y 12 m de alto centrado en un punto dentro del alcance. Por cada criatura que puedas ver en el cilindro, elige qu\u00e9 tipo de luz brilla sobre ella:<br><br><i>Luz abrasadora.</i> El objetivo hace una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 6d12 de da\u00f1o radiante si la falla o la mitad del da\u00f1o si la supera.<br><br><i>Luz sanadora.</i> El objetivo recupera una cantidad de puntos de golpe igual a 4d12 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br>Hasta que el conjuro termine, una luz brillante llena el cilindro y, cuando te muevas en tu turno, tambi\u00e9n puedes mover el cilindro hasta 9 m.<br><br>Siempre que el cilindro entre en el espacio de una criatura que puedas ver y siempre que una criatura que puedas ver entre en el cilindro o termine su turno en \u00e9l, puedes ba\u00f1ar a la criatura con una de las luces. Una criatura puede verse afectada por este conjuro solo una vez por turno.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o y la curaci\u00f3n aumentan en 1d12 por cada nivel por encima de 7 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Dedo de la muerte",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Desatas una energ\u00eda negativa hacia una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 7d8 + 30 de da\u00f1o necr\u00f3tico si la falla o la mitad del da\u00f1o si la supera.<br><br>Si un humanoide muere a causa de este conjuro, se alzar\u00e1 al principio de tu siguiente turno como un <i>zombi</i> y seguir\u00e1 tus \u00f3rdenes verbales.",
+    "materiales": null
   }
 ]
