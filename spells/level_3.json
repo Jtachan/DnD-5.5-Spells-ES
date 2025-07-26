@@ -425,5 +425,31 @@
     "requiere_ataque": false,
     "descripcion": "Elige una criatura, un objeto o un efecto m\u00e1gico dentro del alcance. Cualquier conjuro activo de nivel 3 o inferior presente en el objetivo termina. Para cada conjuro activo de nivel 4 o superior, haz una prueba de caracter\u00edstica usando tu aptitud m\u00e1gica (CD 10 m\u00e1s el nivel de ese conjuro). Si superas la tirada, el conjuro termina.<br><br><b>Con un espacio de conjuro de nivel superior.</b> Disipas autom\u00e1ticamente un conjuro sobre el objetivo cuyo nivel sea menor o igual al nivel del espacio de conjuro que hayas utilizado.",
     "materiales": null
+  },
+  {
+    "nombre": "Don de lenguas",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro permite a la criatura que toques comprender cualquier idioma hablado que oiga o lengua de signos que vea. Asimismo, cuando el objetivo se comunica oralmente o mediante signos, cualquier criatura que conozca al menos un idioma podr\u00e1 entenderlo si lo escucha hablar o lo ve signar.",
+    "materiales": "Un zigur\u00e1t en miniatura."
   }
 ]

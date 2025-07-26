@@ -132,3 +132,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Dominar bestia                       | 4         |
 | Dominar monstruo                     | 8         |
 | Dominar persona                      | 5         |
+| Don de lenguas                       | 3         |
