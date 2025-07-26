@@ -397,5 +397,30 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que el conjuro termine, percibes la ubicaci\u00f3n de venenos, criaturas venenosas y enfermedades m\u00e1gicas a 9 m o menos de ti, e identificas el tipo de veneno, criatura o enfermedad en cada caso.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina fina de plomo.",
     "materiales": "Una hoja de tejo."
+  },
+  {
+    "nombre": "Disco flotante de Tenser",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro crea un plano de fuerza horizontal de 90 cm de di\u00e1metro y 2,5 cm de grosor que flota 90 cm por encima del suelo en un espacio sin ocupar de tu elecci\u00f3n que puedas ver dentro del alcance. El disco dura hasta que termine el conjuro y puede soportar hasta un peso de 250 kg. Si se le coloca m\u00e1s peso sobre \u00e9l, el conjuro termina y todo lo que se apoyaba sobre el disco cae al suelo.<br><br>El disco se mueve con el objetivo a 6 m o menos de \u00e9l. Si te alejas a m\u00e1s de 6 m de \u00e9l, te seguir\u00e1 para mantenerse a 6 m de ti. Se puede mover por terreno irregular y subir y bajar escaleras, pendientes y similares, pero no puede superar un cambio de elevaci\u00f3n de 3 m o m\u00e1s. Por ejemplo, el disco no puede cruzar un pozo de 3 m de profundidad ni salir de \u00e9l si se crea en el fondo de este.<br><br>Si te alejas m\u00e1s de 30 m del disco (normalmente, porque no pueda superar un obst\u00e1culo para seguirte), el conjuro termina.",
+    "materiales": "Una gota de mercurio."
   }
 ]

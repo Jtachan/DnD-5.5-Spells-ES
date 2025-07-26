@@ -125,3 +125,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Detectar pensamientos                | 2         |
 | Detectar trampas                     | 2         |
 | Detectar venenos y enfermedades      | 1         |
+| Disco flotante de Tenser             | 1         |
