@@ -147,3 +147,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Enredadera                           | 4         |
 | Ensueño                              | 5         |
 | Entender idiomas                     | 1         |
+| Escudo                               | 1         |
