@@ -98,8 +98,8 @@
       "Hechicero",
       "Mago"
     ],
-    "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "Acción",
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
     "alcance": [
       "120 pies",
@@ -111,10 +111,10 @@
       "S"
     ],
     "concentracion": false,
-    "duracion": "Instantáneo",
+    "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Arrojas una mota de fuego a una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d10 de daño de fuego. Objetos inflamables impactados comenzarán a arder si nadie los lleva o viste.<br><br><i>Mejora de truco.</i> El daño aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).",
+    "descripcion": "Arrojas una mota de fuego a una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d10 de da\u00f1o de fuego. Objetos inflamables impactados comenzar\u00e1n a arder si nadie los lleva o viste.<br><br><i>Mejora de truco.</i> El da\u00f1o aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).",
     "materiales": null
   }
 ]
