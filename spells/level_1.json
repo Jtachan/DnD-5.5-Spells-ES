@@ -495,5 +495,32 @@
     "requiere_ataque": false,
     "descripcion": "Intentas forzar a una criatura a batirse en duelo. Una criatura que puedas ver dentro del alcance realiza una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, el objetivo tendr\u00e1 desventaja en las tiradas de ataque contra criaturas que no seas t\u00fa y no podr\u00e1 moverse voluntariamente a ning\u00fan espacio que se encuentre a m\u00e1s de 9 m de ti.<br><br>El conjuro termina si haces una tirada de ataque contra una criatura distinta al objetivo, si lanzas un conjuro contra un enemigo distinto a \u00e9l, si uno de tus aliados hace da\u00f1o al objetivo o si terminas tu turno a m\u00e1s de 9 m de \u00e9l.",
     "materiales": null
+  },
+  {
+    "nombre": "Encantar animal",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Haces objetivo a una bestia que puedes ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizado por ti durante 24 horas o hasta que t\u00fa o tus aliados le hag\u00e1is da\u00f1o al objetivo.<br><br><b>Con un espacio de conjuro de nivel superior.</b> Puedes hacer objetivo a una bestia adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "Unas migajas de comida."
   }
 ]
