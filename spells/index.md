@@ -117,3 +117,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Deseo                                | 9         |
 | Desintegrar                          | 6         |
 | Despertar                            | 5         |
+| Desplazamiento                       | 3         |

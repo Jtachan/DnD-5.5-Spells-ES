@@ -372,5 +372,27 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro infunde vitalidad en las plantas. El tiempo de lanzamiento que uses determina si el conjuro tiene un efecto de sobrecrecimiento o de enriquecimiento, descritos a continuaci\u00f3n.<br><br><b>Sobrecrecimiento.</b> Elige un punto dentro del alcance. Todas las plantas en una esfera de 30 m de radio centrada en ese punto se volver\u00e1n gruesas y frondosas. Una criatura que atraviese esa \u00e1rea deber\u00e1 gastar 4 m de movimiento por cada metro que se mueva. Puedes excluir una o m\u00e1s zonas de cualquier tama\u00f1o dentro del \u00e1rea del conjuro para que no se vean afectadas.<br><br><b>Fertilizaci\u00f3n.</b> Todas las plantas en un radio de 750 m centrado en un punto dentro del alcance estar\u00e1n fertilizadas durante 365 d\u00edas y producir\u00e1n el doble de comida al recolectarlas. Solo podr\u00e1n beneficiarse de un <i>crecimiento vegetal</i> cada a\u00f1o.",
     "materiales": null
+  },
+  {
+    "nombre": "Desplazamiento",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tira 1d6 al final de cada uno de tus turnos hasta que el conjuro termine. Si el resultado es 4\u20136, desapareces de tu plano de existencia actual y apareces en el Plano Et\u00e9reo (el conjuro termina al instante si ya estabas en ese plano). Mientras est\u00e1s en el Plano Et\u00e9reo, puedes percibir lo que sucede en el plano del que procedes, que se muestra en distintos tonos de gris, pero no puedes ver nada que est\u00e9 a m\u00e1s de 18 m. Solo puedes afectar a criaturas que est\u00e9n en el Plano Et\u00e9reo y solo estas criaturas te pueden afectar a ti. Las criaturas que est\u00e9n en el otro plano no pueden percibirte en el Plano Et\u00e9reo a menos que tengan una capacidad especial que les permita percibir cosas en el Plano Et\u00e9reo.<br><br>Al principio de tu siguiente turno, y si el conjuro acaba mientras est\u00e1s en el Plano Et\u00e9reo, volver\u00e1s a tu plano y aparecer\u00e1s en un espacio sin ocupar del tu elecci\u00f3n que puedas ver a 3 m. o menos del espacio que hayas abandonado. Si no hay ning\u00fan espacio sin ocupar en ese alcance, aparecer\u00e1s en el espacio sin ocupar m\u00e1s cercano.",
+    "materiales": null
   }
 ]
