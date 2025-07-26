@@ -71,5 +71,26 @@
     "requiere_ataque": false,
     "descripcion": "De ti brota una oleada de energ\u00eda curativa que envuelve a las criaturas que te rodean. Haces recuperar hasta 700 puntos de golpe, repartidos como t\u00fa escojas entre cualquier cantidad de criaturas que puedas ver dentro del alcance. Las criaturas sanadas con este conjuro tambi\u00e9n se libran de los estados de cegadas, ensordecidas y envenenadas.",
     "materiales": null
+  },
+  {
+    "nombre": "Deseo",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Deseo es el conjuro m\u00e1s poderoso que puede lanzar un mortal. Solo con decirlo en voz alta, puedes alterar la propia realidad.<br><br><b>Uso b\u00e1sico:</b> duplicar cualquier otro conjuro de nivel 8 o inferior sin necesidad de componentes ni requisitos.<br><br><b>Otros efectos posibles:</b><ul><li><b>Creaci\u00f3n de objetos:</b> Un objeto no m\u00e1gico de hasta 25,000 po y 90 m de tama\u00f1o.</li><li><b>Curaci\u00f3n instant\u00e1nea:</b> Hasta 20 criaturas recuperan todos los PG y se eliminan efectos como <i>restablecimiento mayor</i>.</li><li><b>Resistencia:</b> Resistencia permanente a un tipo de da\u00f1o para hasta 10 criaturas.</li><li><b>Inmunidad a conjuros:</b> Inmunidad durante 8 horas a un conjuro u otro efecto m\u00e1gico para hasta 10 criaturas.</li><li><b>Aprendizaje repentino:</b> Sustituyes una dote por otra.</li><li><b>Rehacer tiradas:</b> Repetir una tirada hecha en el \u00faltimo asalto (con ventaja o desventaja).</li><li><b>Remodelar la realidad:</b> Pides algo que no est\u00e9 en la lista, con alto riesgo de consecuencias si el deseo es impreciso o ambicioso.</li></ul><br><br><b>Riesgo:</b> Usar el conjuro para algo distinto a duplicar otro conjuro provoca tensi\u00f3n m\u00e1gica: recibes 1d10 de da\u00f1o necr\u00f3tico por nivel del conjuro que lances antes de un descanso largo. Tu Fuerza se reduce a 3 durante 2d4 d\u00edas y hay un 33% de probabilidad de no poder volver a lanzar <i>Deseo</i> nunca m\u00e1s.",
+    "materiales": null
   }
 ]
