@@ -309,5 +309,30 @@
     "requiere_ataque": false,
     "descripcion": "Una bestia que puedas ver dentro del alcance deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de hechizada hasta que termine el conjuro. El objetivo tiene ventaja si t\u00fa o tus aliados luchan contra \u00e9l o tus aliados. Siempre que reciba da\u00f1o, repetir\u00e1 la tirada de salvaci\u00f3n, y si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br>Tendr\u00e1s un v\u00ednculo telep\u00e1tico con el objetivo hechizado mientras est\u00e9is en el mismo plano de existencia. En tu turno, puedes usar este v\u00ednculo para dar \u00f3rdenes al objetivo (no requiere acci\u00f3n), como \u201cataca a esa criatura\u201d, \u201cmu\u00e9vete hacia all\u00ed\u201d o \u201ctr\u00e1eme ese objeto\u201d. En su turno, el objetivo hace todo lo posible por obedecer. Si lleva a cabo una orden y no recibe m\u00e1s instrucciones de tu parte, act\u00faa y se mueve libremente y se centra en protegerse.<br><br>Puedes ordenarle al objetivo que lleve a cabo reacciones, pero para ello deber\u00e1s usar tu propia reacci\u00f3n.<br><br><b>Con un espacio de conjuro de nivel superior.</b> Tu concentraci\u00f3n puede durar m\u00e1s con un espacio de conjuro de nivel 5 (hasta 10 minutos), 6 (hasta 1 hora) o 7 o m\u00e1s (hasta 8 horas).",
     "materiales": null
+  },
+  {
+    "nombre": "Enredadera",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Conjuras una enredadera que brota de una superficie en un espacio sin ocupar que puedas ver dentro del alcance y permanece hasta que el conjuro termine.<br><br>Haz un ataque de conjuro cuerpo a cuerpo contra una criatura a 9 m o menos de la enredadera. Si acierta, el objetivo sufrir\u00e1 4d8 de da\u00f1o contundente y ser\u00e1 arrastrado hasta 9 m hacia la enredadera. Si el objetivo es Enorme o m\u00e1s peque\u00f1o, tendr\u00e1 el estado de agarrado (CD para escapar igual a tu CD de salvaci\u00f3n de conjuros).<br><br>La enredadera solo puede agarrar a una criatura a la vez y puedes hacer que suelte a una criatura con este estado (no requiere acci\u00f3n). Como acci\u00f3n adicional en tus siguientes turnos, puedes repetir el ataque contra una criatura a 9 m o menos de la enredadera.<br><br><b>Con un espacio de conjuro de nivel superior.</b> La cantidad de criaturas que puede agarrar la enredadera aumenta en uno por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": null
   }
 ]
