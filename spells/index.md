@@ -165,3 +165,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Favor Divino                         | 1         |
 | Festín de Héroes                     | 6         |
 | Fingir Muerte                        | 3         |
+| Flecha Ácida de Melf                 | 2         |
