@@ -126,5 +126,28 @@
     "requiere_ataque": true,
     "descripcion": "Creas una espada espectral que levitar\u00e1 dentro del alcance y durar\u00e1 hasta que termine el conjuro.<br><br>Cuando aparezca la espada, puedes realizar un ataque de conjuro cuerpo a cuerpo contra un objetivo que se encuentre a 1,5 m o menos de ella. Si acierta, el objetivo recibe una cantidad de da\u00f1o de fuerza igual a 4d12 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br>En tus turnos posteriores, puedes emplear una acci\u00f3n adicional para mover la espada hasta 9 m a un lugar que puedas ver y repetir el ataque contra el mismo objetivo u otro distinto.",
     "materiales": "Una espada en miniatura que valga al menos 250 po."
+  },
+  {
+    "nombre": "Espejismo Arcano",
+    "clases": [
+      "Bardo",
+      "Dru\u00edda",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": "Vista",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "10 d\u00edas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Haces que el terreno de una zona cuadrada de hasta 1,5 km de lado tenga el aspecto, los sonidos, los olores e incluso las sensaciones de otro tipo de terreno. Podr\u00edas hacer que un campo abierto o una carretera se parezcan a un pantano, una colina, una grieta u otro tipo de terreno dif\u00edcil o infranqueable. Se puede hacer que un estanque parezca una pradera cubierta de hierba, que un precipicio se aparezca como una suave cuesta o que un barranco pedregoso y estrecho se presente como una carretera amplia y lisa.<br><br>De forma similar, puedes alterar el aspecto de las estructuras o a\u00f1adir algunas donde no las hay. El conjuro no disfraza, oculta ni a\u00f1ade criaturas.<br><br>La ilusi\u00f3n incluye elementos sonoros, visuales, t\u00e1ctiles y olfativos, por lo que puede convertir un lugar despejado en un terreno dif\u00edcil (o viceversa) o entorpecer de otra forma el movimiento por la zona. Cualquier parte del terreno ilusorio (como una piedra o un palo) que se saque de la zona desaparece de inmediato.<br><br>Las criaturas con visi\u00f3n verdadera pueden ver a trav\u00e9s de la ilusi\u00f3n y distinguir la verdadera forma del terreno. Sin embargo, todos los dem\u00e1s elementos de la ilusi\u00f3n permanecen, por lo que, aunque dichas criaturas ser\u00e1n conscientes de que se trata de una ilusi\u00f3n, podr\u00e1n interactuar f\u00edsicamente con ella.",
+    "materiales": null
   }
 ]

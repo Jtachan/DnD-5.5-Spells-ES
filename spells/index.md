@@ -154,3 +154,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Esfera congelante de Otiluke         | 6         |
 | Esfera Vitriólica                    | 4         |
 | Espada de Mordenkainen               | 7         |
+| Espejismo Arcano                     | 7         |
