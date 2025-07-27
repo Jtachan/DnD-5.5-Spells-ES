@@ -160,3 +160,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Estática Sináptica                   | 5         |
 | Excursión Etérea                     | 7         |
 | Explosión Solar                      | 8         |
+| Fabricar                             | 4         |
