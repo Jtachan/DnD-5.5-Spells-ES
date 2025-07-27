@@ -155,3 +155,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Esfera Vitriólica                    | 4         |
 | Espada de Mordenkainen               | 7         |
 | Espejismo Arcano                     | 7         |
+| Espíritus Guardianes                 | 3         |
