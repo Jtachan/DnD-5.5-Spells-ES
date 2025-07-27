@@ -100,5 +100,31 @@
     "requiere_ataque": false,
     "descripcion": "T\u00fa y hasta ocho criaturas voluntarias que unan sus manos formando un c\u00edrculo sois transportadas a un plano de existencia distinto. Puedes especificar un destino en t\u00e9rminos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecer\u00e9is en ese destino o cerca de \u00e9l, seg\u00fan decida tu DM.<br><br>Como alternativa, si conoces la secuencia de sellos de un c\u00edrculo de teletransportaci\u00f3n en otro plano de existencia, este conjuro puede llevarte hasta dicho c\u00edrculo. Si el c\u00edrculo de teletransportaci\u00f3n es demasiado peque\u00f1o como para que quepan todas las criaturas que has transportado, aparecer\u00e1n en los espacios sin ocupar m\u00e1s cercanos a \u00e9l.",
     "materiales": "Una vara de metal con forma de horquilla que valga al menos 250 po y est\u00e9 sintonizada con un plano de existencia."
+  },
+  {
+    "nombre": "Espada de Mordenkainen",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Creas una espada espectral que levitar\u00e1 dentro del alcance y durar\u00e1 hasta que termine el conjuro.<br><br>Cuando aparezca la espada, puedes realizar un ataque de conjuro cuerpo a cuerpo contra un objetivo que se encuentre a 1,5 m o menos de ella. Si acierta, el objetivo recibe una cantidad de da\u00f1o de fuerza igual a 4d12 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br>En tus turnos posteriores, puedes emplear una acci\u00f3n adicional para mover la espada hasta 9 m a un lugar que puedas ver y repetir el ataque contra el mismo objetivo u otro distinto.",
+    "materiales": "Una espada en miniatura que valga al menos 250 po."
   }
 ]
