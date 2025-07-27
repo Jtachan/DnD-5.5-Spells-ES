@@ -473,5 +473,30 @@
     "requiere_ataque": false,
     "descripcion": "Unos esp\u00edritus protectores revolotean a tu alrededor en una emanaci\u00f3n de 4,5 m hasta que el conjuro termine. Si tu alineamiento es bueno o neutral, su forma espectral parece angelical o fe\u00e9rica (a tu elecci\u00f3n). Si es malvado, su forma es infernal.<br><br>Cuando lanzas este conjuro, puedes elegir criaturas para que no les afecte. La velocidad de las dem\u00e1s criaturas se reducir\u00e1 a la mitad en la emanaci\u00f3n. Cuando esta entre en el espacio de una criatura o cuando una criatura entre en la emanaci\u00f3n o termine su turno en ella, la criatura deber\u00e1 hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, recibir\u00e1 3d8 de da\u00f1o radiante (si tu alineamiento es bueno o neutral) o 3d8 de da\u00f1o necr\u00f3tico (si tu alineamiento es malvado). Si la supera, recibir\u00e1 la mitad de da\u00f1o. Una criatura solo hace esta tirada una vez por turno.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
     "materiales": "Un pergamino de plegarias."
+  },
+  {
+    "nombre": "Fingir Muerte",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Dru\u00edda",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria y la sumes en un estado catal\u00e9ptico que no se puede distinguir de la muerte.<br><br>Hasta que termine el conjuro, la criatura parecer\u00e1 muerta ante cualquier inspecci\u00f3n externa o conjuro que intente averiguar su estado. El objetivo tendr\u00e1 los estados de cegado e incapacitado y su velocidad ser\u00e1 0.<br><br>El objetivo tambi\u00e9n tendr\u00e1 resistencia a todo el da\u00f1o excepto el ps\u00edquico e inmunidad al estado de envenenado.",
+    "materiales": "Una pizca de tierra de cementerio."
   }
 ]
