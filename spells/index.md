@@ -157,3 +157,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Espejismo Arcano                     | 7         |
 | Espíritus Guardianes                 | 3         |
 | Estallido Mágico                     | 0 (Truco) |
+| Estática Sináptica                   | 5         |

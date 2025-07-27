@@ -672,5 +672,32 @@
     "requiere_ataque": false,
     "descripcion": "Puedes ver y o\u00edr a una criatura de tu elecci\u00f3n que est\u00e9 en el mismo plano de existencia que t\u00fa. El objetivo hace una tirada de salvaci\u00f3n de Sabidur\u00eda, modificada en funci\u00f3n de lo bien que conozcas al objetivo y el tipo de conexi\u00f3n f\u00edsica que tengas con \u00e9l (consulta las tablas m\u00e1s adelante). El objetivo desconoce contra qu\u00e9 hace la tirada de salvaci\u00f3n; solo sabe que siente intranquilidad.<br><br><b>Modificador de la tirada de salvaci\u00f3n (conocimiento):</b><br><br>De segunda mano (has o\u00eddo hablar del objetivo): +5<br><br>De primera mano (has conocido al objetivo): +0<br><br>Familiar (conoces bien al objetivo): -5<br><br><b>Modificador de la tirada de salvaci\u00f3n (posesi\u00f3n):</b><br><br>Dibujo o retrato: -2<br><br>Prenda u otra posesi\u00f3n: -4<br><br>Parte del cuerpo, mech\u00f3n de pelo o trozo de u\u00f1a: -10<br><br>Si supera la tirada de salvaci\u00f3n, el objetivo no se ver\u00e1 afectado y no podr\u00e1s volver a usar este conjuro con \u00e9l durante 24 horas.<br><br>Si la falla, el conjuro crea un sensor invisible e intangible a 3 m o menos de \u00e9l. Puedes ver y o\u00edr a trav\u00e9s del sensor como si estuvieras all\u00ed. El sensor se mueve a la vez que el objetivo y permanece a 3 m o menos de \u00e9l hasta que termine el conjuro. Si algo puede percibir el sensor, se mostrar\u00e1 como un orbe luminoso del tama\u00f1o aproximado de tu pu\u00f1o.<br><br>En vez de hacer objetivo a una criatura, puedes elegir una ubicaci\u00f3n que hayas visto antes. Cuando lo hagas, el sensor aparecer\u00e1 en ese lugar y no se mover\u00e1.",
     "materiales": "Un canalizador que valga al menos 1000 po, como una bola de cristal, un espejo o una pila llena de agua."
+  },
+  {
+    "nombre": "Est\u00e1tica Sin\u00e1ptica",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": "Una energ\u00eda ps\u00edquica surge de ti hacia un punto dentro del alcance. Todas las criaturas situadas en una esfera de 6 m de radio centrada en ese punto hacen una tirada de salvaci\u00f3n de Inteligencia; sufrir\u00e1n 8d6 de da\u00f1o ps\u00edquico si la fallan o la mitad del da\u00f1o si la superan.<br><br>Si la fallan, un objetivo tambi\u00e9n tendr\u00e1 la mente nublada durante 1 minuto. Durante este tiempo, resta 1d6 a todas sus tiradas de ataque y pruebas de caracter\u00edstica, as\u00ed como a cualquier tirada de salvaci\u00f3n de Constituci\u00f3n que haga para mantener la concentraci\u00f3n. El objetivo har\u00e1 una tirada de salvaci\u00f3n de Inteligencia al final de cada uno de sus turnos y, si tiene \u00e9xito, se librar\u00e1 del efecto.",
+    "materiales": null
   }
 ]
