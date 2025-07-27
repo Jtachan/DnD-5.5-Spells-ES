@@ -163,3 +163,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Fabricar                             | 4         |
 | Falsa Vida                           | 1         |
 | Favor Divino                         | 1         |
+| Festín de Héroes                     | 6         |
