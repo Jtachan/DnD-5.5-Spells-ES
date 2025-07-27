@@ -156,3 +156,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Espada de Mordenkainen               | 7         |
 | Espejismo Arcano                     | 7         |
 | Espíritus Guardianes                 | 3         |
+| Estallido Mágico                     | 0 (Truco) |

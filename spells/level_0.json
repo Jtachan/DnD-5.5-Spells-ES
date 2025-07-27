@@ -166,5 +166,29 @@
     "requiere_ataque": false,
     "descripcion": "Controlas los elementos y creas uno de los siguientes efectos dentro del alcance:<br><br><b>Esculpir los elementos.</b> Haces que la tierra, arena, fuego, humo, niebla o agua que quepan en un cubo de 30 cm de lado adopten una forma tosca (como la de una criatura) durante 1 hora.<br><br><b>Invocar el agua.</b> Creas un roc\u00edo de fr\u00eda niebla que humedece ligeramente a las criaturas y objetos en un cubo de 1,5 m de lado. Como alternativa, creas una taza de agua limpia, ya sea en un recipiente abierto o sobre una superficie, y el agua se evapora al cabo de 1 minuto.<br><br><b>Invocar el aire.</b> Creas una brisa lo bastante fuerte como para ondear telas, remover polvo, agitar hojas y cerrar puertas y contraventanas abiertas en un cubo de 1,5 m de lado. Las puertas y contraventanas que algo o alguien mantenga abiertas no se ven afectadas.<br><br><b>Invocar el fuego.</b> Creas una fina nube de ascuas inofensivas y un humo de color perfumado en un cubo de 1,5 m de lado. T\u00fa eliges el color y el olor, y las ascuas pueden encender velas, antorchas o l\u00e1mparas dentro de la zona. El aroma del humo permanece durante 1 minuto.<br><br><b>Invocar la tierra.</b> Creas una fina capa de polvo o arena que cubre superficies en una zona de 1,5 m de lado o haces que aparezca una sola palabra escrita con tu letra en una superficie de tierra o arena.",
     "materiales": null
+  },
+  {
+    "nombre": "Estallido M\u00e1gico",
+    "clases": [
+      "Hechicero"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Lanzas energ\u00eda m\u00e1gica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de da\u00f1o del tipo que elijas: \u00e1cido, fr\u00edo, fuego, ps\u00edquico, rel\u00e1mpago, trueno o veneno.<br><br>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al da\u00f1o. Cuando lances este conjuro, la cantidad m\u00e1xima de d8 que puedes sumar al da\u00f1o del conjuro es igual a tu modificador por aptitud m\u00e1gica.<br><br><i>Mejora de truco.</i> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "materiales": null
   }
 ]
