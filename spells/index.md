@@ -159,3 +159,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Estallido Mágico                     | 0 (Truco) |
 | Estática Sináptica                   | 5         |
 | Excursión Etérea                     | 7         |
+| Explosión Solar                      | 8         |
