@@ -358,5 +358,31 @@
     "requiere_ataque": false,
     "descripcion": "Unas llamas tenues envuelven tu cuerpo hasta que termine el conjuro y emiten luz brillante en un radio de 3 m y luz tenue 3 m m\u00e1s all\u00e1.<br><br>Las llamas te proporcionan un escudo c\u00e1lido o un escudo fr\u00edo, a tu elecci\u00f3n. El escudo c\u00e1lido te proporciona resistencia al da\u00f1o de fr\u00edo, mientras que el escudo fr\u00edo te concede resistencia al da\u00f1o de fuego.<br><br>Adem\u00e1s, siempre que una criatura a 1,5 m o menos de ti te acierte con una tirada de ataque cuerpo a cuerpo, el escudo estallar\u00e1 en llamas. El atacante recibir\u00e1 2d8 de da\u00f1o de fuego de un escudo c\u00e1lido o 2d8 de da\u00f1o de fr\u00edo de un escudo fr\u00edo.",
     "materiales": "Una luci\u00e9rnaga o una pizca de f\u00f3sforo."
+  },
+  {
+    "nombre": "Esfera Vitri\u00f3lica",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Se\u00f1alas un lugar dentro del alcance y una bola resplandeciente de \u00e1cido de 30 cm de di\u00e1metro vuela hacia el punto escogido y explota en una esfera de 6 m de radio. Todas las criaturas situadas en esa zona realizan una tirada de salvaci\u00f3n de Destreza. Si la fallan, recibir\u00e1n 10d4 de da\u00f1o de \u00e1cido y otros 5d4 de da\u00f1o de \u00e1cido al final de su siguiente turno. Si la superan, solo sufren la mitad del da\u00f1o inicial.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o inicial aumenta en 2d4 por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": "Una gota de bilis."
   }
 ]

@@ -152,3 +152,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Escudo de fuego                      | 4         |
 | Escudriñar                           | 5         |
 | Esfera congelante de Otiluke         | 6         |
+| Esfera Vitriólica                    | 4         |
