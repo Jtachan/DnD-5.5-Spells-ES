@@ -519,5 +519,29 @@
     "requiere_ataque": true,
     "descripcion": "Cuando tu ataque contra el objetivo acierte o falle, el arma o la munici\u00f3n que usas se transforma en un rel\u00e1mpago. En vez de sufrir da\u00f1o u otros efectos del ataque, el objetivo recibe 4d8 de da\u00f1o de rel\u00e1mpago si el ataque acierta o la mitad de da\u00f1o si falla. Todas las criaturas a 3 m o menos del objetivo har\u00e1n despu\u00e9s una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 2d8 de da\u00f1o de rel\u00e1mpago si la fallan o la mitad del da\u00f1o si la superan.<br><br>Luego, el arma o la munici\u00f3n vuelve a la normalidad.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o de los dos efectos del conjuro aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Forma Gaseosa",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura voluntaria a la que toques cambia de forma, junto con todo lo que lleve o vista, y se convierte en una niebla fina hasta que termine el conjuro. El conjuro termina para el objetivo si sus puntos de golpe se reducen a 0 o si emplea una acci\u00f3n de magia para ponerle fin.<br><br>Mientras est\u00e1 en esta forma, el \u00fanico m\u00e9todo de movimiento del objetivo es una velocidad volando de 3 m, y podr\u00e1 levitar y entrar en el espacio de otra criatura y ocuparlo. El objetivo tiene resistencia al da\u00f1o contundente, cortante y perforante, inmunidad al estado de derribado y ventaja en las tiradas de salvaci\u00f3n de Fuerza, Destreza y Constituci\u00f3n. El objetivo puede atravesar aberturas estrechas, pero trata los l\u00edquidos como si fueran superficies s\u00f3lidas.<br><br>El objetivo no puede hablar ni manipular objetos y no puede soltar, usar ni interactuar de ninguna otra forma con cualquier objeto que llevara o sostuviera. Por \u00faltimo, el objetivo no puede atacar ni lanzar conjuros.<br><br><i>Con un espacio de conjuro de nivel superior.</i> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": "Un poco de gasa."
   }
 ]
