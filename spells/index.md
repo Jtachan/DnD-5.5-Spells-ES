@@ -162,3 +162,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Explosión Solar                      | 8         |
 | Fabricar                             | 4         |
 | Falsa Vida                           | 1         |
+| Favor Divino                         | 1         |

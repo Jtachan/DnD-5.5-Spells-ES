@@ -668,5 +668,26 @@
     "requiere_ataque": false,
     "descripcion": "Obtienes 2d4 + 4 puntos de golpe temporales.<br><br><i>Con un espacio de conjuro de nivel superior.</i> Obtienes 5 puntos de golpe temporales adicionales por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": "Una gota de alcohol."
+  },
+  {
+    "nombre": "Favor Divino",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, tus ataques con armas infligen 1d4 de da\u00f1o radiante adicional si aciertan.",
+    "materiales": null
   }
 ]
