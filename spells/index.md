@@ -161,3 +161,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Excursión Etérea                     | 7         |
 | Explosión Solar                      | 8         |
 | Fabricar                             | 4         |
+| Falsa Vida                           | 1         |

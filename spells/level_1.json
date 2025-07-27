@@ -645,5 +645,28 @@
     "requiere_ataque": false,
     "descripcion": "Un campo titilante envuelve a una criatura de tu elecci\u00f3n dentro del alcance y le otorga un bonificador de +2 a la CA hasta que el conjuro termine.",
     "materiales": "Un pergamino de plegarias."
+  },
+  {
+    "nombre": "Falsa Vida",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Obtienes 2d4 + 4 puntos de golpe temporales.<br><br><i>Con un espacio de conjuro de nivel superior.</i> Obtienes 5 puntos de golpe temporales adicionales por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "Una gota de alcohol."
   }
 ]
