@@ -498,5 +498,26 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura voluntaria y la sumes en un estado catal\u00e9ptico que no se puede distinguir de la muerte.<br><br>Hasta que termine el conjuro, la criatura parecer\u00e1 muerta ante cualquier inspecci\u00f3n externa o conjuro que intente averiguar su estado. El objetivo tendr\u00e1 los estados de cegado e incapacitado y su velocidad ser\u00e1 0.<br><br>El objetivo tambi\u00e9n tendr\u00e1 resistencia a todo el da\u00f1o excepto el ps\u00edquico e inmunidad al estado de envenenado.",
     "materiales": "Una pizca de tierra de cementerio."
+  },
+  {
+    "nombre": "Flecha de Rel\u00e1mpago",
+    "clases": [
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": true,
+    "descripcion": "Cuando tu ataque contra el objetivo acierte o falle, el arma o la munici\u00f3n que usas se transforma en un rel\u00e1mpago. En vez de sufrir da\u00f1o u otros efectos del ataque, el objetivo recibe 4d8 de da\u00f1o de rel\u00e1mpago si el ataque acierta o la mitad de da\u00f1o si falla. Todas las criaturas a 3 m o menos del objetivo har\u00e1n despu\u00e9s una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 2d8 de da\u00f1o de rel\u00e1mpago si la fallan o la mitad del da\u00f1o si la superan.<br><br>Luego, el arma o la munici\u00f3n vuelve a la normalidad.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o de los dos efectos del conjuro aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": null
   }
 ]
