@@ -2,15 +2,17 @@
 
 The functions shown here should be run only to normalize the data among
 the 'level_X.json' files.
+
 """
 
 import re
 import json
+import os
 
 
 def norm_materiales(text: str) -> str:
     """Normalizing the field 'materiales' (capitalizing + full stop).
-    
+
     Required field: 'materiales'.
     """
     text = text.capitalize()
@@ -21,7 +23,7 @@ def norm_materiales(text: str) -> str:
 
 def norm_new_lines(text: str) -> str:
     """Ensuring each new-line jump is actually double within the description.
-    
+
     Required field: 'descripcion'.
     """
     pattern = r"(?<!<br>)<br>(?!<br>)"
@@ -30,7 +32,7 @@ def norm_new_lines(text: str) -> str:
 
 def fix_concentration_duration_text(text: str) -> str:
     """Removing 'Concentracion' at the beginning of those that require it.
-    
+
     Required field: 'duracion'.
     """
     return text.lstrip("Concentración, ").capitalize()
@@ -47,6 +49,20 @@ def norm_action(text: str) -> str:
     return text
 
 
+def norm_higher_level(text: str) -> str:
+    """Checking the enphasis is correct"""
+    higher_level_texts = [
+        "Mejora de truco",
+        "En niveles superiores",
+        "Con un espacio de conjuro de nivel superior",
+    ]
+    for hlt in higher_level_texts:
+        pattern = fr"<br>((?=<(i|b)>)?<(i|b)>){hlt}.((?=<\/(i|b)>)?<\/(i|b)>)"
+        final_text = f"<br><b><i>{hlt}</i></b>"
+        text = re.sub(pattern, final_text, text)
+    return text
+
+
 if __name__ == "__main__":
     os.chdir(os.path.dirname(__file__))
     for idx in range(10):
@@ -54,10 +70,11 @@ if __name__ == "__main__":
         # Loading all spells:
         with open(file_name, "r", encoding="utf-8") as fh:
             spells = json.load(fh)
-        
+
         # Performing all corrections (one per spell):
         for spell in spells:
             spell["descripcion"] = norm_new_lines(spell["descripcion"])
+            spell["descripcion"] = norm_higher_level(spell["descripcion"])
 
             if spell["materiales"]:
                 spell["materiales"] = norm_materiales(spell["materiales"])
