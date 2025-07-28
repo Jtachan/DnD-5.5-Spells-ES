@@ -89,7 +89,7 @@
     "duracion": "10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 6 m y luz tenue 6 m m\u00e1s all\u00e1. El conjuro termina si lo vuelves a lanzar.<br><br>Hasta que el conjuro termine, puedes usar una acci\u00f3n de magia para arrojar la llama a una criatura u objeto a 18 m o menos de ti. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d8 de da\u00f1o de fuego.<br><br><i>Mejora de truco.</i> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "descripcion": "En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 6 m y luz tenue 6 m m\u00e1s all\u00e1. El conjuro termina si lo vuelves a lanzar.<br><br>Hasta que el conjuro termine, puedes usar una acci\u00f3n de magia para arrojar la llama a una criatura u objeto a 18 m o menos de ti. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d8 de da\u00f1o de fuego.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
     "materiales": null
   },
   {
@@ -114,7 +114,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Arrojas una mota de fuego a una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d10 de da\u00f1o de fuego. Objetos inflamables impactados comenzar\u00e1n a arder si nadie los lleva o viste.<br><br><i>Mejora de truco.</i> El da\u00f1o aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).",
+    "descripcion": "Arrojas una mota de fuego a una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d10 de da\u00f1o de fuego. Objetos inflamables impactados comenzar\u00e1n a arder si nadie los lleva o viste.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).",
     "materiales": null
   },
   {
@@ -138,7 +138,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Lanzas un rayo de energ\u00eda chisporroteante. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d10 de da\u00f1o de fuerza.<br><br><i>Mejora de truco.</i> El conjuro crea dos rayos a nivel 5, tres rayos a nivel 11 y cuatro rayos a nivel 17. Puedes dirigir los rayos al mismo objetivo o a distintos. Realiza una tirada de ataque por separado para cada rayo.",
+    "descripcion": "Lanzas un rayo de energ\u00eda chisporroteante. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d10 de da\u00f1o de fuerza.<br><br><b><i>Mejora de truco</i></b> El conjuro crea dos rayos a nivel 5, tres rayos a nivel 11 y cuatro rayos a nivel 17. Puedes dirigir los rayos al mismo objetivo o a distintos. Realiza una tirada de ataque por separado para cada rayo.",
     "materiales": null
   },
   {
@@ -188,7 +188,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Lanzas energ\u00eda m\u00e1gica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de da\u00f1o del tipo que elijas: \u00e1cido, fr\u00edo, fuego, ps\u00edquico, rel\u00e1mpago, trueno o veneno.<br><br>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al da\u00f1o. Cuando lances este conjuro, la cantidad m\u00e1xima de d8 que puedes sumar al da\u00f1o del conjuro es igual a tu modificador por aptitud m\u00e1gica.<br><br><i>Mejora de truco.</i> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "descripcion": "Lanzas energ\u00eda m\u00e1gica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de da\u00f1o del tipo que elijas: \u00e1cido, fr\u00edo, fuego, ps\u00edquico, rel\u00e1mpago, trueno o veneno.<br><br>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al da\u00f1o. Cuando lances este conjuro, la cantidad m\u00e1xima de d8 que puedes sumar al da\u00f1o del conjuro es igual a tu modificador por aptitud m\u00e1gica.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
     "materiales": null
   }
 ]
