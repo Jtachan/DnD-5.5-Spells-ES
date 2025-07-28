@@ -270,7 +270,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Elige un objeto met\u00e1lico fabricado que puedas ver dentro del alcance, como un arma de metal o una armadura met\u00e1lica media o pesada. Haces que el objeto se ponga al rojo vivo. Cualquier criatura que est\u00e9 en contacto f\u00edsico con el objeto recibir\u00e1 2d8 de da\u00f1o de fuego cuando lances el conjuro. Hasta que el conjuro termine, puedes usar una acci\u00f3n adicional en cada uno de tus turnos posteriores para volver a causar este da\u00f1o si el objeto est\u00e1 dentro del alcance.<br><br>Si una criatura sostiene o lleva puesto el objeto y recibe el da\u00f1o de este, deber\u00e1 superar una tirada de salvaci\u00f3n de Constituci\u00f3n o dejar\u00e1 caer el objeto si puede. Si no lo puede dejar caer, tendr\u00e1 desventaja en las tiradas de ataque y en las pruebas de caracter\u00edstica hasta el principio de su siguiente turno.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+    "descripcion": "Elige un objeto met\u00e1lico fabricado que puedas ver dentro del alcance, como un arma de metal o una armadura met\u00e1lica media o pesada. Haces que el objeto se ponga al rojo vivo. Cualquier criatura que est\u00e9 en contacto f\u00edsico con el objeto recibir\u00e1 2d8 de da\u00f1o de fuego cuando lances el conjuro. Hasta que el conjuro termine, puedes usar una acci\u00f3n adicional en cada uno de tus turnos posteriores para volver a causar este da\u00f1o si el objeto est\u00e1 dentro del alcance.<br><br>Si una criatura sostiene o lleva puesto el objeto y recibe el da\u00f1o de este, deber\u00e1 superar una tirada de salvaci\u00f3n de Constituci\u00f3n o dejar\u00e1 caer el objeto si puede. Si no lo puede dejar caer, tendr\u00e1 desventaja en las tiradas de ataque y en las pruebas de caracter\u00edstica hasta el principio de su siguiente turno.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": "Un trozo de hierro y una llama."
   },
   {
@@ -315,7 +315,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "El objetivo del golpe recibe 2d6 de da\u00f1o radiante adicional del ataque. Hasta que el conjuro termine, el objetivo emitir\u00e1 luz brillante en un radio de 1,5 m, las tiradas de ataque contra \u00e9l tendr\u00e1n ventaja y no podr\u00e1 beneficiarse del estado de invisible.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.",
+    "descripcion": "El objetivo del golpe recibe 2d6 de da\u00f1o radiante adicional del ataque. Hasta que el conjuro termine, el objetivo emitir\u00e1 luz brillante en un radio de 1,5 m, las tiradas de ataque contra \u00e9l tendr\u00e1n ventaja y no podr\u00e1 beneficiarse del estado de invisible.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -362,7 +362,7 @@
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Introduces una p\u00faa de energ\u00eda psi\u00f3nica en la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Sabidur\u00eda; sufrir\u00e1 3d8 de da\u00f1o ps\u00edquico si la falla o la mitad del da\u00f1o si la supera. Adem\u00e1s, si falla la tirada, conocer\u00e1s en todo momento la ubicaci\u00f3n del objetivo hasta que el conjuro termine, pero solo mientras los dos est\u00e9is en el mismo plano de existencia. Mientras tengas este conocimiento, la criatura no te podr\u00e1 ocultarse de ti, y si tiene el estado de invisible, no se beneficiar\u00e1 de dicho estado contra ti.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+    "descripcion": "Introduces una p\u00faa de energ\u00eda psi\u00f3nica en la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Sabidur\u00eda; sufrir\u00e1 3d8 de da\u00f1o ps\u00edquico si la falla o la mitad del da\u00f1o si la supera. Adem\u00e1s, si falla la tirada, conocer\u00e1s en todo momento la ubicaci\u00f3n del objetivo hasta que el conjuro termine, pero solo mientras los dos est\u00e9is en el mismo plano de existencia. Mientras tengas este conocimiento, la criatura no te podr\u00e1 ocultarse de ti, y si tiene el estado de invisible, no se beneficiar\u00e1 de dicho estado contra ti.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -405,7 +405,7 @@
     "duracion": "8 horas",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Tocas hasta cuatro flechas o virotes no m\u00e1gicos y los clavas en el suelo dentro de tu espacio. Hasta que el conjuro termine, la munici\u00f3n no podr\u00e1 extraerse por la fuerza, y siempre que una criatura que no seas t\u00fa entre en un espacio a 9 m o menos de la munici\u00f3n por primera vez en un turno o termine su turno all\u00ed, uno de los proyectiles saldr\u00e1 volando para atacarla. La criatura deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1 2d4 de da\u00f1o perforante. A continuaci\u00f3n, el proyectil se destruye. El conjuro termina cuando no quede munici\u00f3n clavada en el suelo.<br><br>Cuando lanzas este conjuro, puedes designar criaturas de tu elecci\u00f3n para que el conjuro las ignore.<br><br><i>Con un espacio de conjuro de nivel superior.</i> La cantidad de munici\u00f3n que puedes hechizar aumenta en 2 por cada nivel por encima de 2 que tenga el espacio.",
+    "descripcion": "Tocas hasta cuatro flechas o virotes no m\u00e1gicos y los clavas en el suelo dentro de tu espacio. Hasta que el conjuro termine, la munici\u00f3n no podr\u00e1 extraerse por la fuerza, y siempre que una criatura que no seas t\u00fa entre en un espacio a 9 m o menos de la munici\u00f3n por primera vez en un turno o termine su turno all\u00ed, uno de los proyectiles saldr\u00e1 volando para atacarla. La criatura deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1 2d4 de da\u00f1o perforante. A continuaci\u00f3n, el proyectil se destruye. El conjuro termina cuando no quede munici\u00f3n clavada en el suelo.<br><br>Cuando lanzas este conjuro, puedes designar criaturas de tu elecci\u00f3n para que el conjuro las ignore.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> La cantidad de munici\u00f3n que puedes hechizar aumenta en 2 por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": "Una trenza ornamental."
   },
   {
@@ -582,7 +582,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Una brillante flecha verde sale disparada hacia un objetivo dentro del alcance y estalla en una lluvia de \u00e1cido. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 4d4 de da\u00f1o de \u00e1cido y 2d4 de da\u00f1o de \u00e1cido al final de su siguiente turno. Si falla, la flecha salpica al objetivo con \u00e1cido y solo le causa la mitad del da\u00f1o inicial.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o (tanto el inicial como el posterior) aumenta en 1d4 por cada nivel por encima de 2 que tenga el espacio.",
+    "descripcion": "Una brillante flecha verde sale disparada hacia un objetivo dentro del alcance y estalla en una lluvia de \u00e1cido. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 4d4 de da\u00f1o de \u00e1cido y 2d4 de da\u00f1o de \u00e1cido al final de su siguiente turno. Si falla, la flecha salpica al objetivo con \u00e1cido y solo le causa la mitad del da\u00f1o inicial.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o (tanto el inicial como el posterior) aumenta en 1d4 por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": "Ruibarbo en polvo."
   }
 ]

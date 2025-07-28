@@ -3,7 +3,6 @@
 All unified spells have a new keyword 'nivel' showing the level of itself.
 """
 
-import re
 import json
 import os
 
@@ -39,41 +38,6 @@ def unify_spells():
         json.dump(all_spells, fh, indent=2)
 
 
-def correct_spell_fields():
-    """Checking whether all fields are correct over the 'level_X.json' files."""
-    pattern = r"(?<!<br>)<br>(?!<br>)"
-    for idx in range(10):
-        with open(f"level_{idx}.json", "r", encoding="utf-8") as fh:
-            spells = json.load(fh)
-        for spell in spells:
-            # Ensuring each new-line jump is actually double within the description.
-            spell["descripcion"] = re.sub(pattern, "<br><br>", spell["descripcion"])
-            # Capitalizing the 'materiales' field.
-            if spell["materiales"]:
-                spell["materiales"] = spell["materiales"].capitalize()
-                if not spell["materiales"].endswith("."):
-                    spell["materiales"] += "."
-            # Correcting the concentration description.
-            if spell["concentracion"]:
-                spell["duracion"] = (
-                    spell["duracion"].lstrip("Concentración, ").capitalize()
-                )
-            # Unifying time field:
-            spell["tiempo_de_lanzamiento"] = spell["tiempo_de_lanzamiento"].replace(
-                "1 acción", "Acción"
-            )
-            if spell["tiempo_de_lanzamiento"].endswith(
-                ("o ritual", "o un ritual", "o 1 ritual")
-            ):
-                spell["tiempo_de_lanzamiento"] = spell["tiempo_de_lanzamiento"].split(
-                    " o "
-                )[0]
-
-        with open(f"level_{idx}.json", "w", encoding="utf-8") as fh:
-            json.dump(spells, fh, indent=2)
-
-
 if __name__ == "__main__":
     os.chdir(os.path.dirname(__file__))
-    correct_spell_fields()
     unify_spells()

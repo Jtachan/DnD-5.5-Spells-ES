@@ -269,7 +269,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Produces uno de estos efectos:<br><br><b>Crear agua.</b> Creas hasta 40 l de agua limpia dentro del alcance en un recipiente abierto. Como alternativa, el agua cae en forma de lluvia en un cubo de 9 m de lado dentro del alcance y apaga las llamas abiertas de la zona.<br><br><b>Destruir agua.</b> Destruyes hasta 40 l de agua dentro del alcance o en un recipiente abierto. Como alternativa, puedes destruir niebla en un cubo de 9 m de lado dentro del alcance.<br><br><i>Con un espacio de conjuro de nivel superior.</i> Creas o destruyes 40 l m\u00e1s de agua o el tama\u00f1o del cubo aumenta en 1,5 m por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Produces uno de estos efectos:<br><br><b>Crear agua.</b> Creas hasta 40 l de agua limpia dentro del alcance en un recipiente abierto. Como alternativa, el agua cae en forma de lluvia en un cubo de 9 m de lado dentro del alcance y apaga las llamas abiertas de la zona.<br><br><b>Destruir agua.</b> Destruyes hasta 40 l de agua dentro del alcance o en un recipiente abierto. Como alternativa, puedes destruir niebla en un cubo de 9 m de lado dentro del alcance.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Creas o destruyes 40 l m\u00e1s de agua o el tama\u00f1o del cubo aumenta en 1,5 m por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": "Una mezcla de agua y arena."
   },
   {
@@ -295,7 +295,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": true,
-    "descripcion": "Creas una esquirla de hielo y se la lanzas a una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de da\u00f1o perforante. Acierta o falle, el fragmento explotar\u00e1. El objetivo y todas las criaturas a 1,5 m menos de \u00e9l deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o recibir\u00e1n 2d6 de da\u00f1o de fr\u00edo.<br><br><i>Con un espacio de conjuro de nivel superior.</i> El da\u00f1o de fr\u00edo aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Creas una esquirla de hielo y se la lanzas a una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de da\u00f1o perforante. Acierta o falle, el fragmento explotar\u00e1. El objetivo y todas las criaturas a 1,5 m menos de \u00e9l deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o recibir\u00e1n 2d6 de da\u00f1o de fr\u00edo.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o de fr\u00edo aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": "Una gota de agua o un trozo de hielo."
   },
   {
@@ -320,7 +320,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d8 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><i>Con un espacio de conjuro de nivel superior.</i> La curaci\u00f3n aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d8 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> La curaci\u00f3n aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -520,7 +520,7 @@
     "duracion": "24 horas",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Haces objetivo a una bestia que puedes ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizado por ti durante 24 horas o hasta que t\u00fa o tus aliados le hag\u00e1is da\u00f1o al objetivo.<br><br><b>Con un espacio de conjuro de nivel superior.</b> Puedes hacer objetivo a una bestia adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Haces objetivo a una bestia que puedes ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizado por ti durante 24 horas o hasta que t\u00fa o tus aliados le hag\u00e1is da\u00f1o al objetivo.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una bestia adicional por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": "Unas migajas de comida."
   },
   {
@@ -666,7 +666,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Obtienes 2d4 + 4 puntos de golpe temporales.<br><br><i>Con un espacio de conjuro de nivel superior.</i> Obtienes 5 puntos de golpe temporales adicionales por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Obtienes 2d4 + 4 puntos de golpe temporales.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Obtienes 5 puntos de golpe temporales adicionales por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": "Una gota de alcohol."
   },
   {
