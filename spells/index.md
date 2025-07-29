@@ -172,3 +172,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Fuego Feérico                        | 1         |
 | Fuente de Luz Lunar                  | 4         |
 | Fuerza Fantasmal                     | 2         |
+| Fundirse con la Piedra               | 3         |
