@@ -566,5 +566,29 @@
     "requiere_ataque": false,
     "descripcion": "Entras en un objeto o una superficie de piedra lo suficientemente grande como para que tu cuerpo quepa dentro y tanto t\u00fa como tu equipo os fund\u00eds con la piedra hasta que termine el conjuro. Para ello, debes tocar la piedra. No queda nada de tu presencia visible ni que se pueda detectar mediante sentidos que no sean m\u00e1gicos.<br><br>Mientras est\u00e9s fundido con la piedra, no puedes ver lo que sucede fuera y tienes desventaja en las pruebas de Sabidur\u00eda (Percepci\u00f3n) que hagas para escuchar sonidos en el exterior.<br><br>Eres consciente del paso del tiempo y puedes lanzar conjuros sobre ti. Puedes usar 1,5 m de tu movimiento para salir de la piedra por el punto en el que entraste, lo que pone fin al conjuro. Por lo dem\u00e1s, no te puedes mover.<br><br>Un da\u00f1o f\u00edsico menor hecho a la piedra no te afecta, pero su destrucci\u00f3n parcial o un cambio en su forma (de manera que no quepas en ella) te expulsa y te causa 6d6 de da\u00f1o de fuerza. La destrucci\u00f3n completa de la piedra (o su transmutaci\u00f3n en una sustancia distinta) te expulsa de ella y te inflige 50 de da\u00f1o de fuerza. Si eres expulsado, te mueves al espacio sin ocupar m\u00e1s cercano junto al punto en el que entraste en ella y tendr\u00e1s el estado de derribado.",
     "materiales": null
+  },
+  {
+    "nombre": "Glifo Custodio",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado o se active",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Inscribes un glifo que liberar\u00e1 posteriormente un efecto m\u00e1gico. Puedes hacerlo en una superficie (como una mesa o un trozo de un suelo) o en un objeto que se pueda cerrar (como un libro o un cofre) para ocultar dicho glifo. Este puede abarcar una zona de hasta 3 m de di\u00e1metro.<br><br>Si la superficie o el objeto se mueven m\u00e1s de 3 m respecto al lugar donde lanzaste el conjuro, el glifo se romper\u00e1 y el conjuro terminar\u00e1 sin activarse.<br><br>El glifo es casi imperceptible y es necesario superar una prueba de Sabidur\u00eda (Percepci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros para detectarlo.<br><br><i>Establecer el activador.</i> Cuando lances el conjuro, decides qu\u00e9 activar\u00e1 el glifo. Puedes establecer condiciones como tocarlo, situarse sobre \u00e9l, abrir el objeto, mirar el glifo, etc. Puedes especificar a\u00fan m\u00e1s condiciones, como qu\u00e9 tipos de criaturas lo activan o excepciones.<br><br><i>Runa explosiva.</i> Cuando se activa, el glifo estalla en una esfera de 6 m de radio centrada en \u00e9l. Todas las criaturas en esa zona hacen una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 5d8 de da\u00f1o de \u00e1cido, fuego, fr\u00edo, rel\u00e1mpago o trueno (a tu elecci\u00f3n) si fallan, o la mitad si la superan.<br><br><i>Glifo de conjuro.</i> Puedes almacenar un conjuro preparado de nivel 3 o inferior en el glifo. Si se activa, el conjuro almacenado se lanza con el glifo como origen. Si el conjuro tiene un objetivo, afecta a quien activ\u00f3 el glifo. Si afecta un \u00e1rea, se centra en el activador. Si invoca criaturas, objetos o trampas, aparecer\u00e1n tan cerca como sea posible del intruso.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o de una runa explosiva aumenta en 1d8 por cada nivel por encima de 3. Para un glifo de conjuro, puedes almacenar un conjuro de hasta el mismo nivel del espacio de conjuro usado para lanzar <i>glifo custodio</i>.",
+    "materiales": "Diamante en polvo que valga al menos 200 po, que se consume como parte del conjuro."
   }
 ]

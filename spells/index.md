@@ -174,4 +174,5 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Fuerza Fantasmal                     | 2         |
 | Fundirse con la Piedra               | 3         |
 | Geas                                 | 5         |
+| Glifo Custodio                       | 3         |
 | Globo de Invulnerabilidad            | 6         |
