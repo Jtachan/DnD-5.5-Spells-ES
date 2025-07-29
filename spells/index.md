@@ -187,3 +187,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Guía                                 | 0 (Truco) |
 | Hablar con las Plantas               | 3         |
 | Hablar con los Animales              | 1         |
+| Hablar con los Muertos               | 3         |

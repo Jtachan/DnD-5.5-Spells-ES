@@ -613,5 +613,29 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": "Infundes consciencia a plantas en un \u00e1rea de 9 m. Pueden comunicarse contigo, seguir \u00f3rdenes simples y darte informaci\u00f3n sobre eventos ocurridos en el \u00faltimo d\u00eda. Puedes alterar terreno dif\u00edcil vegetal en terreno normal, o viceversa. Las plantas no se mueven, pero pueden manipularse. Si hay una criatura tipo planta, puedes comunicarte con ella como si compartieras idioma com\u00fan."
+  },
+  {
+    "nombre": "Hablar con los Muertos",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "3 m",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "materiales": "Incienso para quemar.",
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Animas el esp\u00edritu de un cad\u00e1ver con boca que no haya sido objetivo del conjuro en los \u00faltimos 10 d\u00edas. Puedes hacerle hasta cinco preguntas. El cad\u00e1ver no miente si no eres hostil, pero no aprende informaci\u00f3n nueva, ni entiende lo ocurrido tras su muerte, ni puede especular. Solo sabe lo que sab\u00eda en vida."
   }
 ]
