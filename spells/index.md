@@ -194,3 +194,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Hechizar persona                     | 1         |
 | Heroísmo                             | 1         |
 | Hoja de fuego                        | 2         |
+| Identificar                          | 1         |

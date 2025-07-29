@@ -833,5 +833,28 @@
     "requiere_ataque": false,
     "descripcion": "Insuflas valor a una criatura voluntaria a la que toques. Hasta que el conjuro termine, la criatura es inmune al estado de asustada y obtiene una cantidad de puntos de golpe temporales igual a tu modificador por aptitud m\u00e1gica al principio de cada uno de sus turnos.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Identificar",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas un objeto durante el lanzamiento del conjuro. Si se trata de un objeto m\u00e1gico o de un objeto imbuido de magia, averiguar\u00e1s sus propiedades y c\u00f3mo usarlas, si hace falta sintonizarse con \u00e9l y cu\u00e1ntas cargas tiene, si corresponde. Si hay conjuros activos que afecten al objeto, sabr\u00e1s cu\u00e1les son. Si el objeto se cre\u00f3 mediante un conjuro, averiguar\u00e1s su nombre.<br><br>Si tocas a una criatura en lugar de un objeto, averiguar\u00e1s qu\u00e9 conjuros activos le afectan en ese momento, si hay alguno.",
+    "materiales": "Una perla que valga al menos 100 po."
   }
 ]
