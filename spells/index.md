@@ -190,3 +190,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Hablar con los Muertos               | 3         |
 | Hacer añicos                         | 2         |
 | Hambre de Hadar                      | 3         |
+| Hechizar monstruo                    | 4         |

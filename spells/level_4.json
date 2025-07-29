@@ -472,5 +472,33 @@
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
     "descripcion": "Invocas un guardi\u00e1n espectral Grande en un espacio visible que no ocupe lugar. Levita y es invulnerable. Cualquier enemigo que entre a 3 m o inicie su turno all\u00ed debe hacer una tirada de salvaci\u00f3n de Destreza. Recibe 20 de da\u00f1o radiante si falla, o la mitad si la supera. El guardi\u00e1n desaparece tras infligir un total de 60 de da\u00f1o."
+  },
+  {
+    "nombre": "Hechizar monstruo",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura que puedas ver dentro del alcance realiza una tirada de salvaci\u00f3n de Sabidur\u00eda. La hace con ventaja si est\u00e1 luchando contra ti o tus aliados. Si la falla, tendr\u00e1 el estado de hechizada hasta que el conjuro termine o hasta que tus aliados o t\u00fa le hag\u00e1is da\u00f1o. La criatura hechizada es amistosa contigo, pero cuando el conjuro termine, sabr\u00e1 que la hechizaste.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": null
   }
 ]
