@@ -200,3 +200,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Imagen múltiple                      | 2         |
 | Imagen silenciosa                    | 1         |
 | Impacto certero                      | 0 (Truco) |
+| Imponer maldición                    | 3         |

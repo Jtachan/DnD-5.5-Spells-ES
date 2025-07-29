@@ -690,5 +690,28 @@
     "requiere_ataque": false,
     "descripcion": "Creas una imagen de un objeto, una criatura u otro tipo de fen\u00f3meno visible cuyas dimensiones no excedan las de un cubo de 6 m de lado. La imagen aparece en un sitio que puedas ver dentro del alcance y se mantiene hasta que termine el conjuro. Parece real e incluye sonidos, olores y temperatura apropiados para lo que se representa, pero no puede hacer da\u00f1o ni provocar estados.<br><br>Si est\u00e1s dentro del alcance de la ilusi\u00f3n, puedes utilizar una acci\u00f3n de magia para moverla a otro sitio dentro de dicho alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando. De forma similar, puedes hacer que la ilusi\u00f3n produzca distintos sonidos en diferentes momentos e incluso mantener una conversaci\u00f3n, por ejemplo.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla. Si una criatura emplea una acci\u00f3n de estudiar para examinar la imagen, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, no se dejar\u00e1 enga\u00f1ar por ella y sus otras cualidades sensoriales se ir\u00e1n desvaneciendo para esa criatura.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El conjuro durar\u00e1 hasta que sea disipado y no requerir\u00e1 concentraci\u00f3n si se lanza con un espacio de conjuro de nivel 4 o superior.",
     "materiales": "Un poco de vell\u00f3n."
+  },
+  {
+    "nombre": "Imponer maldici\u00f3n",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura, que deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 maldecida hasta que el conjuro termine. Hasta que se rompa la maldici\u00f3n, el objetivo sufrir\u00e1 uno de los siguientes efectos a tu elecci\u00f3n:<br><br>\u2022 Elige una caracter\u00edstica. El objetivo tendr\u00e1 desventaja en las pruebas de caracter\u00edstica y tiradas de salvaci\u00f3n hechas con esa caracter\u00edstica.<br><br>\u2022 El objetivo tendr\u00e1 desventaja en las tiradas de ataque contra ti.<br><br>\u2022 En combate, el objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda al principio de cada uno de sus turnos o se ver\u00e1 obligado a llevar a cabo la acci\u00f3n de esquivar ese turno.<br><br>\u2022 Si causas da\u00f1o al objetivo con una tirada de ataque o un conjuro, recibir\u00e1 1d8 de da\u00f1o necr\u00f3tico adicional.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Si lanzas este conjuro con un espacio de nivel 4, puedes mantener la concentraci\u00f3n en \u00e9l hasta 10 minutos. Si usas un espacio de nivel 5 o superior, el conjuro no requiere concentraci\u00f3n y la duraci\u00f3n pasar\u00e1 a ser de 8 horas (espacio de nivel 5 o 6) o de 24 horas (espacio de nivel 7 u 8). Si usas un espacio de conjuro de nivel 9, el conjuro durar\u00e1 hasta que sea disipado.",
+    "materiales": null
   }
 ]
