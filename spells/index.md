@@ -168,3 +168,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Flecha Ácida de Melf                 | 2         |
 | Flecha de Relámpago                  | 3         |
 | Forma Gaseosa                        | 3         |
+| Fragmento Mental                     | 0         |

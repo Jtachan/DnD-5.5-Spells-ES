@@ -190,5 +190,30 @@
     "requiere_ataque": true,
     "descripcion": "Lanzas energ\u00eda m\u00e1gica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de da\u00f1o del tipo que elijas: \u00e1cido, fr\u00edo, fuego, ps\u00edquico, rel\u00e1mpago, trueno o veneno.<br><br>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al da\u00f1o. Cuando lances este conjuro, la cantidad m\u00e1xima de d8 que puedes sumar al da\u00f1o del conjuro es igual a tu modificador por aptitud m\u00e1gica.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
     "materiales": null
+  },
+  {
+    "nombre": "Fragmento Mental",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": "Intentas fragmentar de forma temporal la mente de una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Inteligencia o recibir\u00e1 1d6 de da\u00f1o ps\u00edquico y restar\u00e1 1d4 en la siguiente tirada de salvaci\u00f3n que haga antes del final de tu siguiente turno.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "materiales": null
   }
 ]
