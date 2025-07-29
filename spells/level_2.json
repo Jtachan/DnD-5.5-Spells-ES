@@ -662,5 +662,28 @@
     "requiere_ataque": false,
     "descripcion": "Invocas un ser sobrenatural que asume la forma de un corcel fiel en un espacio sin ocupar de tu elecci\u00f3n dentro del alcance. La criatura utiliza el perfil del <i>corcel sobrenatural</i>. Si ya tienes un corcel gracias a este conjuro, se sustituir\u00e1 por el nuevo.<br><br>El corcel se parece a un animal Grande que puedas montar de tu elecci\u00f3n, como un caballo, un alce, un camello o un lobo terrible. Siempre que lances el conjuro, elige el tipo de criatura del corcel (celestial, fe\u00e9rico o infernal), lo que determinar\u00e1 ciertos atributos de su perfil.<br><br><b>Combate.</b> El corcel se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa y funciona como una montura controlada mientras vayas sobre ella (como se describe en las normas del combate montado). Si tienes el estado de incapacitado, su turno ir\u00e1 justo despu\u00e9s del tuyo, actuar\u00e1 con independencia de ti y se centrar\u00e1 en protegerte.<br><br><b>Desaparici\u00f3n del corcel.</b> El corcel desaparece si sus puntos de golpe se reducen a 0 o si mueres. Cuando desaparece, deja atr\u00e1s todo lo que vistiera o llevase. Si vuelves a lanzar este conjuro, decides si invocas al corcel que desapareci\u00f3 u otro distinto.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
     "materiales": null
+  },
+  {
+    "nombre": "Hoja de fuego",
+    "clases": [
+      "Druida",
+      "Hechicero"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Haces aparecer una hoja ardiente en tu mano libre que es similar en tama\u00f1o y forma a una cimitarra y que durar\u00e1 hasta que termine el conjuro. Si sueltas la hoja, desaparece, pero puedes volver a invocarla como acci\u00f3n adicional.<br><br>Como acci\u00f3n de magia, puedes hacer un ataque de conjuro cuerpo a cuerpo con la hoja ardiente. Si acierta, el objetivo sufrir\u00e1 una cantidad de da\u00f1o de fuego igual a 3d6 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br>La hoja llameante emite luz brillante en un radio de 3 m y luz tenue 3 m m\u00e1s all\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "Una hoja de zumaque."
   }
 ]
