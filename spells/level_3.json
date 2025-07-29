@@ -662,5 +662,33 @@
     "requiere_ataque": false,
     "descripcion": "Abres un portal al Reino Lejano, una regi\u00f3n infestada de horrores ignotos. Aparece una esfera de oscuridad de 6 m de radio centrada en un punto dentro del alcance y que permanece hasta que el conjuro termine. La esfera se considera terreno dif\u00edcil y est\u00e1 llena de susurros extra\u00f1os y sonidos de succi\u00f3n, audibles a 9 m de distancia. Ninguna luz m\u00e1gica u ordinaria puede iluminar la zona, y las criaturas completamente dentro de ella tendr\u00e1n el estado de cegadas.<br><br>Cualquier criatura que comience su turno dentro de la zona recibir\u00e1 2d6 de da\u00f1o de fr\u00edo. Cualquier criatura que termine su turno dentro deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o recibir\u00e1 2d6 de da\u00f1o de \u00e1cido de unos tent\u00e1culos sobrenaturales.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o de fr\u00edo o de \u00e1cido (a tu elecci\u00f3n) aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
     "materiales": "Un tent\u00e1culo en salmuera."
+  },
+  {
+    "nombre": "Imagen mayor",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas una imagen de un objeto, una criatura u otro tipo de fen\u00f3meno visible cuyas dimensiones no excedan las de un cubo de 6 m de lado. La imagen aparece en un sitio que puedas ver dentro del alcance y se mantiene hasta que termine el conjuro. Parece real e incluye sonidos, olores y temperatura apropiados para lo que se representa, pero no puede hacer da\u00f1o ni provocar estados.<br><br>Si est\u00e1s dentro del alcance de la ilusi\u00f3n, puedes utilizar una acci\u00f3n de magia para moverla a otro sitio dentro de dicho alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando. De forma similar, puedes hacer que la ilusi\u00f3n produzca distintos sonidos en diferentes momentos e incluso mantener una conversaci\u00f3n, por ejemplo.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla. Si una criatura emplea una acci\u00f3n de estudiar para examinar la imagen, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, no se dejar\u00e1 enga\u00f1ar por ella y sus otras cualidades sensoriales se ir\u00e1n desvaneciendo para esa criatura.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El conjuro durar\u00e1 hasta que sea disipado y no requerir\u00e1 concentraci\u00f3n si se lanza con un espacio de conjuro de nivel 4 o superior.",
+    "materiales": "Un poco de vell\u00f3n."
   }
 ]

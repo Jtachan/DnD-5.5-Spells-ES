@@ -197,3 +197,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Identificar                          | 1         |
 | Ilusión menor                        | 0 (Truco) |
 | Ilusión programada                   | 6         |
+| Imagen mayor                         | 3         |
