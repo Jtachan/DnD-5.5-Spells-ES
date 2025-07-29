@@ -430,5 +430,27 @@
     "requiere_ataque": false,
     "descripcion": "Mientras dure el efecto, una luz fr\u00eda envuelve tu cuerpo y emite luz brillante en un radio de 6 m y luz tenue 6 m m\u00e1s all\u00e1.",
     "materiales": null
+  },
+  {
+    "nombre": "Guarda contra la Muerte",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura y le concedes cierta protecci\u00f3n frente a la muerte. La primera vez que los puntos de golpe del objetivo fueran a reducirse a 0 antes de que el conjuro termine, en lugar de eso, se reducen a 1 y el conjuro termina.<br><br>Si el conjuro sigue activo cuando el objetivo sufre un efecto que fuera a matarlo al instante sin causarle da\u00f1o, se niega ese efecto y el conjuro termina.",
+    "materiales": null
   }
 ]

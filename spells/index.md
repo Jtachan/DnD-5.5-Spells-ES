@@ -180,3 +180,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Golpe de Viento Acerado              | 5         |
 | Golpe Flamígero                      | 5         |
 | Grasa                                | 1         |
+| Guarda contra la Muerte              | 4         |
