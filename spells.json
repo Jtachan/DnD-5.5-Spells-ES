@@ -4620,5 +4620,399 @@
     "requiere_ataque": false,
     "descripcion": "Animas el esp\u00edritu de un cad\u00e1ver con boca que no haya sido objetivo del conjuro en los \u00faltimos 10 d\u00edas. Puedes hacerle hasta cinco preguntas. El cad\u00e1ver no miente si no eres hostil, pero no aprende informaci\u00f3n nueva, ni entiende lo ocurrido tras su muerte, ni puede especular. Solo sabe lo que sab\u00eda en vida.",
     "nivel": 3
+  },
+  {
+    "nombre": "Hacer a\u00f1icos",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Un fuerte ruido surge de un punto de tu elecci\u00f3n dentro del alcance. Todas las criaturas situadas en una esfera de 3 m de radio centrada en ese punto hacen una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 3d8 de da\u00f1o de trueno si la fallan o la mitad del da\u00f1o si la superan. Los aut\u00f3matas tienen desventaja en esta tirada.<br><br>Los objetos no m\u00e1gicos que se encuentren dentro del \u00e1rea del conjuro tambi\u00e9n recibir\u00e1n el da\u00f1o, salvo si los lleva o viste una criatura.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "Una lasca de mica.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Hallar corcel",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un ser sobrenatural que asume la forma de un corcel fiel en un espacio sin ocupar de tu elecci\u00f3n dentro del alcance. La criatura utiliza el perfil del <i>corcel sobrenatural</i>. Si ya tienes un corcel gracias a este conjuro, se sustituir\u00e1 por el nuevo.<br><br>El corcel se parece a un animal Grande que puedas montar de tu elecci\u00f3n, como un caballo, un alce, un camello o un lobo terrible. Siempre que lances el conjuro, elige el tipo de criatura del corcel (celestial, fe\u00e9rico o infernal), lo que determinar\u00e1 ciertos atributos de su perfil.<br><br><b>Combate.</b> El corcel se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa y funciona como una montura controlada mientras vayas sobre ella (como se describe en las normas del combate montado). Si tienes el estado de incapacitado, su turno ir\u00e1 justo despu\u00e9s del tuyo, actuar\u00e1 con independencia de ti y se centrar\u00e1 en protegerte.<br><br><b>Desaparici\u00f3n del corcel.</b> El corcel desaparece si sus puntos de golpe se reducen a 0 o si mueres. Cuando desaparece, deja atr\u00e1s todo lo que vistiera o llevase. Si vuelves a lanzar este conjuro, decides si invocas al corcel que desapareci\u00f3 u otro distinto.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": null,
+    "nivel": 2
+  },
+  {
+    "nombre": "Hambre de Hadar",
+    "clases": [
+      "Brujo"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Abres un portal al Reino Lejano, una regi\u00f3n infestada de horrores ignotos. Aparece una esfera de oscuridad de 6 m de radio centrada en un punto dentro del alcance y que permanece hasta que el conjuro termine. La esfera se considera terreno dif\u00edcil y est\u00e1 llena de susurros extra\u00f1os y sonidos de succi\u00f3n, audibles a 9 m de distancia. Ninguna luz m\u00e1gica u ordinaria puede iluminar la zona, y las criaturas completamente dentro de ella tendr\u00e1n el estado de cegadas.<br><br>Cualquier criatura que comience su turno dentro de la zona recibir\u00e1 2d6 de da\u00f1o de fr\u00edo. Cualquier criatura que termine su turno dentro deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o recibir\u00e1 2d6 de da\u00f1o de \u00e1cido de unos tent\u00e1culos sobrenaturales.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o de fr\u00edo o de \u00e1cido (a tu elecci\u00f3n) aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": "Un tent\u00e1culo en salmuera.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Hechizar monstruo",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura que puedas ver dentro del alcance realiza una tirada de salvaci\u00f3n de Sabidur\u00eda. La hace con ventaja si est\u00e1 luchando contra ti o tus aliados. Si la falla, tendr\u00e1 el estado de hechizada hasta que el conjuro termine o hasta que tus aliados o t\u00fa le hag\u00e1is da\u00f1o. La criatura hechizada es amistosa contigo, pero cuando el conjuro termine, sabr\u00e1 que la hechizaste.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 4
+  },
+  {
+    "nombre": "Hechizar persona",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Un humanoide que puedas ver dentro del alcance realiza una tirada de salvaci\u00f3n de Sabidur\u00eda. La hace con ventaja si est\u00e1 luchando contra ti o tus aliados. Si la falla, tendr\u00e1 el estado de hechizado hasta que el conjuro termine o hasta que tus aliados o t\u00fa le hag\u00e1is da\u00f1o. La criatura hechizada es amistosa contigo, pero cuando el conjuro termine, sabr\u00e1 que la hechizaste.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Hero\u00edsmo",
+    "clases": [
+      "Bardo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Insuflas valor a una criatura voluntaria a la que toques. Hasta que el conjuro termine, la criatura es inmune al estado de asustada y obtiene una cantidad de puntos de golpe temporales igual a tu modificador por aptitud m\u00e1gica al principio de cada uno de sus turnos.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Hoja de fuego",
+    "clases": [
+      "Druida",
+      "Hechicero"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Haces aparecer una hoja ardiente en tu mano libre que es similar en tama\u00f1o y forma a una cimitarra y que durar\u00e1 hasta que termine el conjuro. Si sueltas la hoja, desaparece, pero puedes volver a invocarla como acci\u00f3n adicional.<br><br>Como acci\u00f3n de magia, puedes hacer un ataque de conjuro cuerpo a cuerpo con la hoja ardiente. Si acierta, el objetivo sufrir\u00e1 una cantidad de da\u00f1o de fuego igual a 3d6 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br>La hoja llameante emite luz brillante en un radio de 3 m y luz tenue 3 m m\u00e1s all\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "Una hoja de zumaque.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Identificar",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas un objeto durante el lanzamiento del conjuro. Si se trata de un objeto m\u00e1gico o de un objeto imbuido de magia, averiguar\u00e1s sus propiedades y c\u00f3mo usarlas, si hace falta sintonizarse con \u00e9l y cu\u00e1ntas cargas tiene, si corresponde. Si hay conjuros activos que afecten al objeto, sabr\u00e1s cu\u00e1les son. Si el objeto se cre\u00f3 mediante un conjuro, averiguar\u00e1s su nombre.<br><br>Si tocas a una criatura en lugar de un objeto, averiguar\u00e1s qu\u00e9 conjuros activos le afectan en ese momento, si hay alguno.",
+    "materiales": "Una perla que valga al menos 100 po.",
+    "nivel": 1
+  },
+  {
+    "nombre": "Ilusi\u00f3n menor",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas un sonido o una imagen de un objeto situado dentro del alcance que permanecer\u00e1 hasta que termine el conjuro. Consulta las descripciones a continuaci\u00f3n para conocer sus efectos. La ilusi\u00f3n termina si lanzas el conjuro de nuevo.<br><br>Si una criatura emplea su acci\u00f3n de estudiar para examinar la imagen o el sonido, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que se trata de una ilusi\u00f3n, esta se ir\u00e1 desvaneciendo para esa criatura.<br><br><b>Sonido.</b> Si creas un sonido, su volumen se situar\u00e1 entre el de un susurro y el de un grito. Puede ser tu voz, la de otra criatura, el rugido de un le\u00f3n, un redoblar de tambores o cualquier otro sonido que elijas. El sonido contin\u00faa incesante mientras dure el conjuro o puedes originar sonidos distintos en diferentes momentos antes del fin del conjuro.<br><br><b>Imagen.</b> Si creas la imagen de un objeto (como una silla, pisadas embarradas o un peque\u00f1o cofre), no podr\u00e1 ser mayor que un cubo de 1,5 m de lado. La imagen no puede generar sonido, luz, olor o cualquier otro efecto sensorial. La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla.",
+    "materiales": "Un poco de vell\u00f3n.",
+    "nivel": 0
+  },
+  {
+    "nombre": "Ilusi\u00f3n programada",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas una ilusi\u00f3n de un objeto, una criatura u otro tipo de fen\u00f3meno visible dentro del alcance que se activa cuando se produce una condici\u00f3n espec\u00edfica. Hasta entonces, la ilusi\u00f3n es imperceptible. No puede tener un tama\u00f1o mayor que un cubo de 9 m de lado y, cuando lanzas el conjuro, t\u00fa decides c\u00f3mo se comporta y el sonido que emite. Esta actuaci\u00f3n programada puede durar hasta 5 minutos.<br><br>Cuando se produzca la condici\u00f3n especificada, la ilusi\u00f3n se activar\u00e1 y actuar\u00e1 de la manera que hayas descrito. En cuanto finalice su actuaci\u00f3n, desaparecer\u00e1 y permanecer\u00e1 inactiva durante 10 minutos, tras lo cual podr\u00e1 volver a activarse la ilusi\u00f3n.<br><br>La condici\u00f3n puede ser tan gen\u00e9rica o detallada como quieras, aunque debe basarse en fen\u00f3menos visuales o audibles que se produzcan a 9 m o menos del \u00e1rea.<br><br>Por ejemplo, podr\u00edas crear una ilusi\u00f3n de ti para que aparezca y avise a quienes intenten abrir una puerta con trampa.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla. Si una criatura emplea una acci\u00f3n de estudiar para examinar la imagen, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, no se dejar\u00e1 enga\u00f1ar por ella y los sonidos que emita le sonar\u00e1n huecos.",
+    "materiales": "Polvo de jade con un valor de al menos 25 po.",
+    "nivel": 6
+  },
+  {
+    "nombre": "Imagen mayor",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas una imagen de un objeto, una criatura u otro tipo de fen\u00f3meno visible cuyas dimensiones no excedan las de un cubo de 6 m de lado. La imagen aparece en un sitio que puedas ver dentro del alcance y se mantiene hasta que termine el conjuro. Parece real e incluye sonidos, olores y temperatura apropiados para lo que se representa, pero no puede hacer da\u00f1o ni provocar estados.<br><br>Si est\u00e1s dentro del alcance de la ilusi\u00f3n, puedes utilizar una acci\u00f3n de magia para moverla a otro sitio dentro de dicho alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando. De forma similar, puedes hacer que la ilusi\u00f3n produzca distintos sonidos en diferentes momentos e incluso mantener una conversaci\u00f3n, por ejemplo.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla. Si una criatura emplea una acci\u00f3n de estudiar para examinar la imagen, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, no se dejar\u00e1 enga\u00f1ar por ella y sus otras cualidades sensoriales se ir\u00e1n desvaneciendo para esa criatura.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El conjuro durar\u00e1 hasta que sea disipado y no requerir\u00e1 concentraci\u00f3n si se lanza con un espacio de conjuro de nivel 4 o superior.",
+    "materiales": "Un poco de vell\u00f3n.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Imagen m\u00faltiple",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "En tu espacio aparecen tres duplicados ilusorios de ti. Hasta que el conjuro termine, estos duplicados se mueven a la vez que t\u00fa e imitan tus acciones cambiando de posici\u00f3n, por lo que es imposible saber cu\u00e1l es la imagen real.<br><br>Cada vez que una criatura te acierte con una tirada de ataque mientras dure el conjuro, tira 1d6 por cada uno de tus duplicados restantes. Si cualquiera de los resultados es de 3 o m\u00e1s, uno de los duplicados recibe el golpe en tu lugar y es destruido. Por lo dem\u00e1s, los duplicados ignoran el resto del da\u00f1o y efectos. Cuando los tres duplicados son destruidos, el conjuro termina.<br><br>Una criatura no se ver\u00e1 afectada por este conjuro si tiene el estado de cegada, visi\u00f3n ciega o visi\u00f3n verdadera.",
+    "materiales": null,
+    "nivel": 2
+  },
+  {
+    "nombre": "Imagen silenciosa",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas una imagen de un objeto, una criatura u otro tipo de fen\u00f3meno visible cuyas dimensiones no excedan las de un cubo de 4,5 m de lado. La imagen aparece en un sitio dentro del alcance y se mantiene hasta el final del conjuro. La imagen es solamente visual; no est\u00e1 acompa\u00f1ada de sonido, olor u otros efectos sensoriales.<br><br>Como acci\u00f3n de magia, puedes mover la imagen a cualquier sitio dentro del alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla. Si una criatura emplea una acci\u00f3n de estudiar para examinar la imagen, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, no se dejar\u00e1 enga\u00f1ar por ella.",
+    "materiales": "Un poco de vell\u00f3n.",
+    "nivel": 1
+  },
+  {
+    "nombre": "Impacto certero",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Un destello de perspicacia m\u00e1gica te gu\u00eda y haces un ataque con el arma empleada para lanzar el conjuro. El ataque usa tu aptitud m\u00e1gica para las tiradas de ataque y de da\u00f1o en lugar de la Fuerza o la Destreza. Si el ataque inflige da\u00f1o, puede ser radiante o del tipo de da\u00f1o normal del arma (a tu elecci\u00f3n).<br><br><b><i>Mejora de truco</i></b> Independientemente de si haces da\u00f1o radiante o del tipo normal del arma, el ataque inflige da\u00f1o radiante adicional cuando alcanzas los niveles 5 (1d6), 11 (2d6) y 17 (3d6).",
+    "materiales": "Un arma con la que tengas competencia y que valga al menos 1 pc.",
+    "nivel": 0
+  },
+  {
+    "nombre": "Imponer maldici\u00f3n",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura, que deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 maldecida hasta que el conjuro termine. Hasta que se rompa la maldici\u00f3n, el objetivo sufrir\u00e1 uno de los siguientes efectos a tu elecci\u00f3n:<br><br>\u2022 Elige una caracter\u00edstica. El objetivo tendr\u00e1 desventaja en las pruebas de caracter\u00edstica y tiradas de salvaci\u00f3n hechas con esa caracter\u00edstica.<br><br>\u2022 El objetivo tendr\u00e1 desventaja en las tiradas de ataque contra ti.<br><br>\u2022 En combate, el objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda al principio de cada uno de sus turnos o se ver\u00e1 obligado a llevar a cabo la acci\u00f3n de esquivar ese turno.<br><br>\u2022 Si causas da\u00f1o al objetivo con una tirada de ataque o un conjuro, recibir\u00e1 1d8 de da\u00f1o necr\u00f3tico adicional.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Si lanzas este conjuro con un espacio de nivel 4, puedes mantener la concentraci\u00f3n en \u00e9l hasta 10 minutos. Si usas un espacio de nivel 5 o superior, el conjuro no requiere concentraci\u00f3n y la duraci\u00f3n pasar\u00e1 a ser de 8 horas (espacio de nivel 5 o 6) o de 24 horas (espacio de nivel 7 u 8). Si usas un espacio de conjuro de nivel 9, el conjuro durar\u00e1 hasta que sea disipado.",
+    "materiales": null,
+    "nivel": 3
   }
 ]
