@@ -408,5 +408,27 @@
     "requiere_ataque": false,
     "descripcion": "Convertes materias primas en productos del mismo material. Por ejemplo, puedes fabricar un puente de madera a partir de \u00e1rboles, una cuerda a partir de c\u00e1\u00f1amo o prendas usando lino o lana.<br><br>Elige materias primas que puedas ver dentro del alcance. Puedes fabricar un objeto Grande o m\u00e1s peque\u00f1o (que quepa en un cubo de 3 m de lado u ocho cubos conectados de 1,5 m de lado), siempre y cuando tengas suficiente material. Sin embargo, si trabajas con metal, piedra u otra sustancia mineral, el objeto fabricado no puede ser mayor que Mediano (y debe caber en un cubo de 1,5 m de lado). La calidad de los objetos fabricados depende de la calidad de los materiales.<br><br>No puedes crear criaturas ni objetos m\u00e1gicos con este conjuro, y tampoco puedes usarlo para crear objetos que requieran un alto grado de habilidad, como armas o armaduras, a menos que tengas competencia en el tipo de herramientas de artesano usadas para elaborar esos objetos.",
     "materiales": null
+  },
+  {
+    "nombre": "Fuente de Luz Lunar",
+    "clases": [
+      "Bardo",
+      "Druida"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Mientras dure el efecto, una luz fr\u00eda envuelve tu cuerpo y emite luz brillante en un radio de 6 m y luz tenue 6 m m\u00e1s all\u00e1.",
+    "materiales": null
   }
 ]
