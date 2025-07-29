@@ -638,5 +638,29 @@
     "requiere_ataque": false,
     "descripcion": "Un fuerte ruido surge de un punto de tu elecci\u00f3n dentro del alcance. Todas las criaturas situadas en una esfera de 3 m de radio centrada en ese punto hacen una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 3d8 de da\u00f1o de trueno si la fallan o la mitad del da\u00f1o si la superan. Los aut\u00f3matas tienen desventaja en esta tirada.<br><br>Los objetos no m\u00e1gicos que se encuentren dentro del \u00e1rea del conjuro tambi\u00e9n recibir\u00e1n el da\u00f1o, salvo si los lleva o viste una criatura.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": "Una lasca de mica."
+  },
+  {
+    "nombre": "Hallar corcel",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un ser sobrenatural que asume la forma de un corcel fiel en un espacio sin ocupar de tu elecci\u00f3n dentro del alcance. La criatura utiliza el perfil del <i>corcel sobrenatural</i>. Si ya tienes un corcel gracias a este conjuro, se sustituir\u00e1 por el nuevo.<br><br>El corcel se parece a un animal Grande que puedas montar de tu elecci\u00f3n, como un caballo, un alce, un camello o un lobo terrible. Siempre que lances el conjuro, elige el tipo de criatura del corcel (celestial, fe\u00e9rico o infernal), lo que determinar\u00e1 ciertos atributos de su perfil.<br><br><b>Combate.</b> El corcel se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa y funciona como una montura controlada mientras vayas sobre ella (como se describe en las normas del combate montado). Si tienes el estado de incapacitado, su turno ir\u00e1 justo despu\u00e9s del tuyo, actuar\u00e1 con independencia de ti y se centrar\u00e1 en protegerte.<br><br><b>Desaparici\u00f3n del corcel.</b> El corcel desaparece si sus puntos de golpe se reducen a 0 o si mueres. Cuando desaparece, deja atr\u00e1s todo lo que vistiera o llevase. Si vuelves a lanzar este conjuro, decides si invocas al corcel que desapareci\u00f3 u otro distinto.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": null
   }
 ]
