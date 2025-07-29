@@ -173,3 +173,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Fuente de Luz Lunar                  | 4         |
 | Fuerza Fantasmal                     | 2         |
 | Fundirse con la Piedra               | 3         |
+| Geas                                 | 5         |

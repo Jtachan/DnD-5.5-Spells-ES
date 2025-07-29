@@ -699,5 +699,32 @@
     "requiere_ataque": false,
     "descripcion": "Una energ\u00eda ps\u00edquica surge de ti hacia un punto dentro del alcance. Todas las criaturas situadas en una esfera de 6 m de radio centrada en ese punto hacen una tirada de salvaci\u00f3n de Inteligencia; sufrir\u00e1n 8d6 de da\u00f1o ps\u00edquico si la fallan o la mitad del da\u00f1o si la superan.<br><br>Si la fallan, un objetivo tambi\u00e9n tendr\u00e1 la mente nublada durante 1 minuto. Durante este tiempo, resta 1d6 a todas sus tiradas de ataque y pruebas de caracter\u00edstica, as\u00ed como a cualquier tirada de salvaci\u00f3n de Constituci\u00f3n que haga para mantener la concentraci\u00f3n. El objetivo har\u00e1 una tirada de salvaci\u00f3n de Inteligencia al final de cada uno de sus turnos y, si tiene \u00e9xito, se librar\u00e1 del efecto.",
     "materiales": null
+  },
+  {
+    "nombre": "Geas",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Dru\u00edda",
+      "Mago",
+      "Palad\u00edn"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "30 d\u00edas",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Das una orden verbal a una criatura que puedas ver dentro del alcance y la obligas a llevar a cabo un cometido o le impides realizar una acci\u00f3n o actividad, seg\u00fan desees. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de hechizado hasta que termine el conjuro. El objetivo la superar\u00e1 autom\u00e1ticamente si no entiende la orden.<br><br>Mientras est\u00e9 hechizada, la criatura sufre 5d10 de da\u00f1o ps\u00edquico si act\u00faa de manera contraria a tus instrucciones, y solo podr\u00e1 recibir este da\u00f1o una vez al d\u00eda.<br><br>Puedes dar cualquier orden que quieras, siempre que no sea una actividad que suponga una muerte segura. Si das una orden suicida, el conjuro termina.<br><br>Un conjuro <i>deseo</i>, <i>levantar maldici\u00f3n</i> o <i>restablecimiento mayor</i> tambi\u00e9n pone fin a este conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Si usas un espacio de niveles 7 u 8, la duraci\u00f3n ser\u00e1 de 365 d\u00edas. Si usas un espacio de nivel 9, el conjuro durar\u00e1 hasta que se le ponga fin mediante uno de los conjuros mencionados anteriormente.",
+    "materiales": null
   }
 ]
