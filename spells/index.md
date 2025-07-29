@@ -196,3 +196,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Hoja de fuego                        | 2         |
 | Identificar                          | 1         |
 | Ilusión menor                        | 0 (Truco) |
+| Ilusión programada                   | 6         |

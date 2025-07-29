@@ -418,5 +418,31 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": "Creas una protecci\u00f3n que cubre hasta 250 m\u00b2 de espacio en el suelo. La zona protegida puede tener hasta 6 m de altura y se puede dar forma a una zona cuadrada de 15 m de lado, cien cuadrados contiguos de 1,5 m o veinticinco cuadrados de 3 m.<br><br>Cuando lances el conjuro, puedes especificar criaturas que no se ver\u00e1n afectadas por sus efectos, o establecer una contrase\u00f1a que al ser dicha a 1,5 m de la zona protegida hace inmune a quien la diga.<br><br>Disipar magia no afecta directamente a 'guardas y guardias', pero s\u00ed puede disipar sus efectos. Si se disipan los cuatro efectos principales, el conjuro termina. Si lanzas el conjuro a diario durante 365 d\u00edas en la misma zona, dura hasta que se disipen sus efectos.<br><br><b>Efectos:</b><ul><li><b>Escaleras:</b> Se llenan de telara\u00f1as (como telara\u00f1a) que se regeneran cada 10 minutos.</li><li><b>Pasillos:</b> Llenos de niebla y muy oscuros. En intersecciones, 50% de error en la direcci\u00f3n tomada.</li><li><b>Puertas:</b> Cerradas m\u00e1gicamente (como cerradura arcana) y hasta 10 puertas pueden parecer paredes por ilusi\u00f3n.</li><li><b>Otro efecto:</b> Elige uno: <ul><li>Luces danzantes en 4 pasillos.</li><li>Boca m\u00e1gica en 2 lugares.</li><li>Nube apestosa en 2 lugares.</li><li>R\u00e1faga de viento constante en una sala o pasillo.</li><li>Sugesti\u00f3n en una casilla de 1,5 m de lado.</li></ul></li></ul>"
+  },
+  {
+    "nombre": "Ilusi\u00f3n programada",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas una ilusi\u00f3n de un objeto, una criatura u otro tipo de fen\u00f3meno visible dentro del alcance que se activa cuando se produce una condici\u00f3n espec\u00edfica. Hasta entonces, la ilusi\u00f3n es imperceptible. No puede tener un tama\u00f1o mayor que un cubo de 9 m de lado y, cuando lanzas el conjuro, t\u00fa decides c\u00f3mo se comporta y el sonido que emite. Esta actuaci\u00f3n programada puede durar hasta 5 minutos.<br><br>Cuando se produzca la condici\u00f3n especificada, la ilusi\u00f3n se activar\u00e1 y actuar\u00e1 de la manera que hayas descrito. En cuanto finalice su actuaci\u00f3n, desaparecer\u00e1 y permanecer\u00e1 inactiva durante 10 minutos, tras lo cual podr\u00e1 volver a activarse la ilusi\u00f3n.<br><br>La condici\u00f3n puede ser tan gen\u00e9rica o detallada como quieras, aunque debe basarse en fen\u00f3menos visuales o audibles que se produzcan a 9 m o menos del \u00e1rea.<br><br>Por ejemplo, podr\u00edas crear una ilusi\u00f3n de ti para que aparezca y avise a quienes intenten abrir una puerta con trampa.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla. Si una criatura emplea una acci\u00f3n de estudiar para examinar la imagen, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, no se dejar\u00e1 enga\u00f1ar por ella y los sonidos que emita le sonar\u00e1n huecos.",
+    "materiales": "Polvo de jade con un valor de al menos 25 po."
   }
 ]
