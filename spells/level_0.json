@@ -215,5 +215,29 @@
     "requiere_ataque": false,
     "descripcion": "Intentas fragmentar de forma temporal la mente de una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Inteligencia o recibir\u00e1 1d6 de da\u00f1o ps\u00edquico y restar\u00e1 1d4 en la siguiente tirada de salvaci\u00f3n que haga antes del final de tu siguiente turno.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
     "materiales": null
+  },
+  {
+    "nombre": "Guardia de Cuchillas",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "materiales": null,
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Siempre que una criatura haga una tirada de ataque contra ti antes de que el conjuro termine, el atacante restar\u00e1 1d4 a esa tirada."
   }
 ]

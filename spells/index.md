@@ -136,7 +136,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Dormir                               | 1         |
 | Duelo forzado                        | 1         |
 | Dulce descanso                       | 2         |
-| Elementalismo                        | 0         |
+| Elementalismo                        | 0 (Truco) |
 | Embelesar                            | 2         |
 | Encantar animal                      | 1         |
 | Encontrar el camino                  | 6         |
@@ -168,7 +168,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Flecha Ácida de Melf                 | 2         |
 | Flecha de Relámpago                  | 3         |
 | Forma Gaseosa                        | 3         |
-| Fragmento Mental                     | 0         |
+| Fragmento Mental                     | 0 (Truco) |
 | Fuego Feérico                        | 1         |
 | Fuente de Luz Lunar                  | 4         |
 | Fuerza Fantasmal                     | 2         |
@@ -181,3 +181,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Golpe Flamígero                      | 5         |
 | Grasa                                | 1         |
 | Guarda contra la Muerte              | 4         |
+| Guardia de Cuchillas                 | 0 (Truco) |
