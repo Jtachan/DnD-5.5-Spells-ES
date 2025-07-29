@@ -584,5 +584,32 @@
     "requiere_ataque": true,
     "descripcion": "Una brillante flecha verde sale disparada hacia un objetivo dentro del alcance y estalla en una lluvia de \u00e1cido. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 4d4 de da\u00f1o de \u00e1cido y 2d4 de da\u00f1o de \u00e1cido al final de su siguiente turno. Si falla, la flecha salpica al objetivo con \u00e1cido y solo le causa la mitad del da\u00f1o inicial.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o (tanto el inicial como el posterior) aumenta en 1d4 por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": "Ruibarbo en polvo."
+  },
+  {
+    "nombre": "Fuerza Fantasmal",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": "Intentas crear una ilusi\u00f3n en la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Inteligencia. Si la falla, creas una forma encarnada fantasmal u otro fen\u00f3meno cuyas dimensiones no excedan las de un cubo de 3 m de lado y que solo puede percibir el objetivo hasta que el conjuro termine. El fantasma puede emitir sonidos, alterar la temperatura y producir otros est\u00edmulos.<br><br>El objetivo puede usar una acci\u00f3n de estudiar para examinar la imagen con una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, se da cuenta de que el fantasma es una ilusi\u00f3n y el conjuro termina.<br><br>Mientras est\u00e9 afectado por este conjuro, el objetivo tratar\u00e1 al fantasma como si fuera real y racionalizar\u00e1 cualquier resultado il\u00f3gico derivado de interactuar con \u00e9l. Por ejemplo, si el objetivo intenta caminar por un puente ilusorio y sobrevive a la ca\u00edda, creer\u00e1 que el puente existe y que otra cosa ha provocado su ca\u00edda.<br><br>Un objetivo afectado incluso puede recibir da\u00f1o de la ilusi\u00f3n si el fantasma se muestra como una amenaza o una criatura peligrosa. En cada uno de tus turnos, la forma fantasmal puede causar 2d8 de da\u00f1o ps\u00edquico al objetivo si est\u00e1 en el \u00e1rea que ocupa el fantasma o a 1,5 m de \u00e9l. El objetivo percibe el da\u00f1o como de un tipo apropiado para la ilusi\u00f3n.",
+    "materiales": "Un poco de vell\u00f3n."
   }
 ]

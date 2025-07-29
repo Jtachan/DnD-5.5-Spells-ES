@@ -171,3 +171,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Fragmento Mental                     | 0         |
 | Fuego Feérico                        | 1         |
 | Fuente de Luz Lunar                  | 4         |
+| Fuerza Fantasmal                     | 2         |
