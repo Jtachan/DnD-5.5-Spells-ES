@@ -176,3 +176,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Geas                                 | 5         |
 | Glifo Custodio                       | 3         |
 | Globo de Invulnerabilidad            | 6         |
+| Golpe Apresador                      | 1         |

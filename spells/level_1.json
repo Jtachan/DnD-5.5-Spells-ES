@@ -713,5 +713,25 @@
     "requiere_ataque": false,
     "descripcion": "El conjuro ilumina con luz azul, verde o violeta, a tu elecci\u00f3n, el contorno de los objetos en un cubo de 6 m de lado dentro del alcance. Tambi\u00e9n se ilumina el contorno de cualquier criatura dentro del cubo que falle una tirada de salvaci\u00f3n de Destreza. Hasta que termine el conjuro, los objetos y criaturas afectados emitir\u00e1n luz tenue en un radio de 3 m y no podr\u00e1n beneficiarse del estado de invisibles.<br><br>Las tiradas de ataque contra las criaturas u objetos afectados tendr\u00e1n ventaja si el atacante puede verlos.",
     "materiales": null
+  },
+  {
+    "nombre": "Golpe Apresador",
+    "clases": [
+      "Explorador"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "Al acertar al objetivo, unas enredaderas aparecer\u00e1n sobre \u00e9l y deber\u00e1 hacer una tirada de salvaci\u00f3n de Fuerza. Las criaturas Grandes o de mayor tama\u00f1o tienen ventaja en esta tirada. Si la falla, tendr\u00e1 el estado de apresado hasta que el conjuro termine. Si la supera, las enredaderas se marchitan y el conjuro termina.<br><br>Mientras est\u00e9 apresado, el objetivo sufrir\u00e1 1d6 de da\u00f1o perforante al principio de cada uno de sus turnos. El objetivo o una criatura a su alcance puede emplear una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, el conjuro termina.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null
   }
 ]
