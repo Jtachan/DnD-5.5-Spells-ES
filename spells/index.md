@@ -181,4 +181,5 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Golpe Flamígero                      | 5         |
 | Grasa                                | 1         |
 | Guarda contra la Muerte              | 4         |
+| Guardas y Guardias                   | 6         |
 | Guardia de Cuchillas                 | 0 (Truco) |

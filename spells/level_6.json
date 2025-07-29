@@ -395,5 +395,28 @@
     "requiere_ataque": false,
     "descripcion": "Una barrera inm\u00f3vil y brillante surge en una emanaci\u00f3n de 3 m alrededor de ti y permanece hasta que el conjuro termine.<br><br>Cualquier conjuro de nivel 5 o inferior que se lance desde fuera de la barrera no puede afectar a nada dentro de ella. Tales conjuros pueden hacer objetivo a criaturas y objetos que est\u00e9n dentro de la barrera, pero no tendr\u00e1n ning\u00fan efecto sobre ellos. De forma similar, el interior de la barrera estar\u00e1 excluido de las \u00e1reas de efecto creadas por dichos conjuros.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> La barrera bloquea los conjuros de un nivel m\u00e1s por cada nivel por encima de 6 que tenga el espacio.",
     "materiales": "Una cuenta de cristal."
+  },
+  {
+    "nombre": "Guardas y Guardias",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "materiales": "Una vara de plata que valga al menos 10 po.",
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas una protecci\u00f3n que cubre hasta 250 m\u00b2 de espacio en el suelo. La zona protegida puede tener hasta 6 m de altura y se puede dar forma a una zona cuadrada de 15 m de lado, cien cuadrados contiguos de 1,5 m o veinticinco cuadrados de 3 m.<br><br>Cuando lances el conjuro, puedes especificar criaturas que no se ver\u00e1n afectadas por sus efectos, o establecer una contrase\u00f1a que al ser dicha a 1,5 m de la zona protegida hace inmune a quien la diga.<br><br>Disipar magia no afecta directamente a 'guardas y guardias', pero s\u00ed puede disipar sus efectos. Si se disipan los cuatro efectos principales, el conjuro termina. Si lanzas el conjuro a diario durante 365 d\u00edas en la misma zona, dura hasta que se disipen sus efectos.<br><br><b>Efectos:</b><ul><li><b>Escaleras:</b> Se llenan de telara\u00f1as (como telara\u00f1a) que se regeneran cada 10 minutos.</li><li><b>Pasillos:</b> Llenos de niebla y muy oscuros. En intersecciones, 50% de error en la direcci\u00f3n tomada.</li><li><b>Puertas:</b> Cerradas m\u00e1gicamente (como cerradura arcana) y hasta 10 puertas pueden parecer paredes por ilusi\u00f3n.</li><li><b>Otro efecto:</b> Elige uno: <ul><li>Luces danzantes en 4 pasillos.</li><li>Boca m\u00e1gica en 2 lugares.</li><li>Nube apestosa en 2 lugares.</li><li>R\u00e1faga de viento constante en una sala o pasillo.</li><li>Sugesti\u00f3n en una casilla de 1,5 m de lado.</li></ul></li></ul>"
   }
 ]
