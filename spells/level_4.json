@@ -452,5 +452,25 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura y le concedes cierta protecci\u00f3n frente a la muerte. La primera vez que los puntos de golpe del objetivo fueran a reducirse a 0 antes de que el conjuro termine, en lugar de eso, se reducen a 1 y el conjuro termina.<br><br>Si el conjuro sigue activo cuando el objetivo sufre un efecto que fuera a matarlo al instante sin causarle da\u00f1o, se niega ese efecto y el conjuro termina.",
     "materiales": null
+  },
+  {
+    "nombre": "Guardi\u00e1n de la Fe",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "9 pies (2,7 m)",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "materiales": null,
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Invocas un guardi\u00e1n espectral Grande en un espacio visible que no ocupe lugar. Levita y es invulnerable. Cualquier enemigo que entre a 3 m o inicie su turno all\u00ed debe hacer una tirada de salvaci\u00f3n de Destreza. Recibe 20 de da\u00f1o radiante si falla, o la mitad si la supera. El guardi\u00e1n desaparece tras infligir un total de 60 de da\u00f1o."
   }
 ]

@@ -183,3 +183,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Guarda contra la Muerte              | 4         |
 | Guardas y Guardias                   | 6         |
 | Guardia de Cuchillas                 | 0 (Truco) |
+| Guardián de la Fe                    | 4         |
