@@ -191,3 +191,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Hacer añicos                         | 2         |
 | Hambre de Hadar                      | 3         |
 | Hechizar monstruo                    | 4         |
+| Hechizar persona                     | 1         |

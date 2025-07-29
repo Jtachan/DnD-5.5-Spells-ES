@@ -783,5 +783,33 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": "Puedes comprender y comunicarte verbalmente con bestias, usando opciones de la acci\u00f3n de influir. Las bestias pueden dar informaci\u00f3n sobre lugares, monstruos cercanos y eventos recientes."
+  },
+  {
+    "nombre": "Hechizar persona",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Un humanoide que puedas ver dentro del alcance realiza una tirada de salvaci\u00f3n de Sabidur\u00eda. La hace con ventaja si est\u00e1 luchando contra ti o tus aliados. Si la falla, tendr\u00e1 el estado de hechizado hasta que el conjuro termine o hasta que tus aliados o t\u00fa le hag\u00e1is da\u00f1o. La criatura hechizada es amistosa contigo, pero cuando el conjuro termine, sabr\u00e1 que la hechizaste.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null
   }
 ]
