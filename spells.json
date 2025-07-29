@@ -3782,7 +3782,7 @@
     "nombre": "Espejismo Arcano",
     "clases": [
       "Bardo",
-      "Dru\u00edda",
+      "Druida",
       "Mago"
     ],
     "escuela": "Ilusionismo",
@@ -3908,7 +3908,7 @@
     "nombre": "Explosi\u00f3n Solar",
     "clases": [
       "Cl\u00e9rigo",
-      "Dru\u00edda",
+      "Druida",
       "Hechicero",
       "Mago"
     ],
@@ -4009,7 +4009,7 @@
     "clases": [
       "Bardo",
       "Cl\u00e9rigo",
-      "Dru\u00edda"
+      "Druida"
     ],
     "escuela": "Conjuraci\u00f3n",
     "tiempo_de_lanzamiento": "10 minutos",
@@ -4034,7 +4034,7 @@
     "clases": [
       "Bardo",
       "Cl\u00e9rigo",
-      "Dru\u00edda",
+      "Druida",
       "Mago"
     ],
     "escuela": "Nigromancia",
