@@ -637,5 +637,30 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": "Animas el esp\u00edritu de un cad\u00e1ver con boca que no haya sido objetivo del conjuro en los \u00faltimos 10 d\u00edas. Puedes hacerle hasta cinco preguntas. El cad\u00e1ver no miente si no eres hostil, pero no aprende informaci\u00f3n nueva, ni entiende lo ocurrido tras su muerte, ni puede especular. Solo sabe lo que sab\u00eda en vida."
+  },
+  {
+    "nombre": "Hambre de Hadar",
+    "clases": [
+      "Brujo"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Abres un portal al Reino Lejano, una regi\u00f3n infestada de horrores ignotos. Aparece una esfera de oscuridad de 6 m de radio centrada en un punto dentro del alcance y que permanece hasta que el conjuro termine. La esfera se considera terreno dif\u00edcil y est\u00e1 llena de susurros extra\u00f1os y sonidos de succi\u00f3n, audibles a 9 m de distancia. Ninguna luz m\u00e1gica u ordinaria puede iluminar la zona, y las criaturas completamente dentro de ella tendr\u00e1n el estado de cegadas.<br><br>Cualquier criatura que comience su turno dentro de la zona recibir\u00e1 2d6 de da\u00f1o de fr\u00edo. Cualquier criatura que termine su turno dentro deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o recibir\u00e1 2d6 de da\u00f1o de \u00e1cido de unos tent\u00e1culos sobrenaturales.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o de fr\u00edo o de \u00e1cido (a tu elecci\u00f3n) aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": "Un tent\u00e1culo en salmuera."
   }
 ]
