@@ -179,3 +179,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Golpe Apresador                      | 1         |
 | Golpe de Viento Acerado              | 5         |
 | Golpe Flamígero                      | 5         |
+| Grasa                                | 1         |

@@ -733,5 +733,31 @@
     "requiere_ataque": false,
     "descripcion": "Al acertar al objetivo, unas enredaderas aparecer\u00e1n sobre \u00e9l y deber\u00e1 hacer una tirada de salvaci\u00f3n de Fuerza. Las criaturas Grandes o de mayor tama\u00f1o tienen ventaja en esta tirada. Si la falla, tendr\u00e1 el estado de apresado hasta que el conjuro termine. Si la supera, las enredaderas se marchitan y el conjuro termina.<br><br>Mientras est\u00e9 apresado, el objetivo sufrir\u00e1 1d6 de da\u00f1o perforante al principio de cada uno de sus turnos. El objetivo o una criatura a su alcance puede emplear una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, el conjuro termina.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Grasa",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Una grasa no inflamable cubre una zona cuadrada del suelo de 3 m de lado centrada en un punto dentro del alcance y que la convierte en terreno dif\u00edcil hasta que termine el conjuro.<br><br>Cuando aparezca la grasa, las criaturas que haya en esa zona deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o tendr\u00e1n el estado de derribadas. Una criatura que entre en la zona o termine su turno ah\u00ed deber\u00e1 superar esa tirada de salvaci\u00f3n o caer\u00e1 derribada.",
+    "materiales": "Un poco de piel de cerdo o de mantequilla."
   }
 ]
