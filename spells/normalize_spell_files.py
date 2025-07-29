@@ -40,7 +40,7 @@ def normalizar_descripcion(text: str) -> str:
 # ------ Field: 'materiales' ------ #
 def normalizar_materiales(text: str) -> str:
     """Normalizing the field 'materiales' (capitalizing + full stop)."""
-    text = text.capitalize()
+    text = text.lstrip("(").rstrip(")").capitalize()
     if not text.endswith("."):
         text += "."
     return text

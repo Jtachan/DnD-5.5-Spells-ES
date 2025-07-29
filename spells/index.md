@@ -188,3 +188,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Hablar con las Plantas               | 3         |
 | Hablar con los Animales              | 1         |
 | Hablar con los Muertos               | 3         |
+| Hacer añicos                         | 2         |
