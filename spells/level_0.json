@@ -261,5 +261,32 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura voluntaria y eliges una habilidad. Hasta que termine el conjuro, la criatura a\u00f1ade 1d4 a una prueba de caracter\u00edstica usando esa habilidad."
+  },
+  {
+    "nombre": "Ilusi\u00f3n menor",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas un sonido o una imagen de un objeto situado dentro del alcance que permanecer\u00e1 hasta que termine el conjuro. Consulta las descripciones a continuaci\u00f3n para conocer sus efectos. La ilusi\u00f3n termina si lanzas el conjuro de nuevo.<br><br>Si una criatura emplea su acci\u00f3n de estudiar para examinar la imagen o el sonido, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que se trata de una ilusi\u00f3n, esta se ir\u00e1 desvaneciendo para esa criatura.<br><br><b>Sonido.</b> Si creas un sonido, su volumen se situar\u00e1 entre el de un susurro y el de un grito. Puede ser tu voz, la de otra criatura, el rugido de un le\u00f3n, un redoblar de tambores o cualquier otro sonido que elijas. El sonido contin\u00faa incesante mientras dure el conjuro o puedes originar sonidos distintos en diferentes momentos antes del fin del conjuro.<br><br><b>Imagen.</b> Si creas la imagen de un objeto (como una silla, pisadas embarradas o un peque\u00f1o cofre), no podr\u00e1 ser mayor que un cubo de 1,5 m de lado. La imagen no puede generar sonido, luz, olor o cualquier otro efecto sensorial. La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla.",
+    "materiales": "Un poco de vell\u00f3n."
   }
 ]

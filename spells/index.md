@@ -195,3 +195,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Heroísmo                             | 1         |
 | Hoja de fuego                        | 2         |
 | Identificar                          | 1         |
+| Ilusión menor                        | 0 (Truco) |
