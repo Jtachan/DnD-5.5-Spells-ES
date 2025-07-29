@@ -192,3 +192,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Hambre de Hadar                      | 3         |
 | Hechizar monstruo                    | 4         |
 | Hechizar persona                     | 1         |
+| Heroísmo                             | 1         |

@@ -811,5 +811,27 @@
     "requiere_ataque": false,
     "descripcion": "Un humanoide que puedas ver dentro del alcance realiza una tirada de salvaci\u00f3n de Sabidur\u00eda. La hace con ventaja si est\u00e1 luchando contra ti o tus aliados. Si la falla, tendr\u00e1 el estado de hechizado hasta que el conjuro termine o hasta que tus aliados o t\u00fa le hag\u00e1is da\u00f1o. La criatura hechizada es amistosa contigo, pero cuando el conjuro termine, sabr\u00e1 que la hechizaste.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Hero\u00edsmo",
+    "clases": [
+      "Bardo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Insuflas valor a una criatura voluntaria a la que toques. Hasta que el conjuro termine, la criatura es inmune al estado de asustada y obtiene una cantidad de puntos de golpe temporales igual a tu modificador por aptitud m\u00e1gica al principio de cada uno de sus turnos.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null
   }
 ]
