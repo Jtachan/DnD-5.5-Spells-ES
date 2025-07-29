@@ -759,5 +759,29 @@
     "requiere_ataque": false,
     "descripcion": "Una grasa no inflamable cubre una zona cuadrada del suelo de 3 m de lado centrada en un punto dentro del alcance y que la convierte en terreno dif\u00edcil hasta que termine el conjuro.<br><br>Cuando aparezca la grasa, las criaturas que haya en esa zona deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o tendr\u00e1n el estado de derribadas. Una criatura que entre en la zona o termine su turno ah\u00ed deber\u00e1 superar esa tirada de salvaci\u00f3n o caer\u00e1 derribada.",
     "materiales": "Un poco de piel de cerdo o de mantequilla."
+  },
+  {
+    "nombre": "Hablar con los Animales",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "materiales": null,
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Puedes comprender y comunicarte verbalmente con bestias, usando opciones de la acci\u00f3n de influir. Las bestias pueden dar informaci\u00f3n sobre lugares, monstruos cercanos y eventos recientes."
   }
 ]

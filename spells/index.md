@@ -186,3 +186,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Guardián de la Fe                    | 4         |
 | Guía                                 | 0 (Truco) |
 | Hablar con las Plantas               | 3         |
+| Hablar con los Animales              | 1         |
