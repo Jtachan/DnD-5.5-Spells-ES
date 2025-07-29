@@ -689,5 +689,29 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que el conjuro termine, tus ataques con armas infligen 1d4 de da\u00f1o radiante adicional si aciertan.",
     "materiales": null
+  },
+  {
+    "nombre": "Fuego Fe\u00e9rico",
+    "clases": [
+      "Bardo",
+      "Druida"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "El conjuro ilumina con luz azul, verde o violeta, a tu elecci\u00f3n, el contorno de los objetos en un cubo de 6 m de lado dentro del alcance. Tambi\u00e9n se ilumina el contorno de cualquier criatura dentro del cubo que falle una tirada de salvaci\u00f3n de Destreza. Hasta que termine el conjuro, los objetos y criaturas afectados emitir\u00e1n luz tenue en un radio de 3 m y no podr\u00e1n beneficiarse del estado de invisibles.<br><br>Las tiradas de ataque contra las criaturas u objetos afectados tendr\u00e1n ventaja si el atacante puede verlos.",
+    "materiales": null
   }
 ]
