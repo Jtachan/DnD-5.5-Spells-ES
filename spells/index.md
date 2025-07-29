@@ -198,3 +198,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Ilusión menor                        | 0 (Truco) |
 | Ilusión programada                   | 6         |
 | Imagen múltiple                      | 2         |
+| Imagen silenciosa                    | 1         |

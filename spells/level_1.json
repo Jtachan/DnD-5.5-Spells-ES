@@ -856,5 +856,32 @@
     "requiere_ataque": false,
     "descripcion": "Tocas un objeto durante el lanzamiento del conjuro. Si se trata de un objeto m\u00e1gico o de un objeto imbuido de magia, averiguar\u00e1s sus propiedades y c\u00f3mo usarlas, si hace falta sintonizarse con \u00e9l y cu\u00e1ntas cargas tiene, si corresponde. Si hay conjuros activos que afecten al objeto, sabr\u00e1s cu\u00e1les son. Si el objeto se cre\u00f3 mediante un conjuro, averiguar\u00e1s su nombre.<br><br>Si tocas a una criatura en lugar de un objeto, averiguar\u00e1s qu\u00e9 conjuros activos le afectan en ese momento, si hay alguno.",
     "materiales": "Una perla que valga al menos 100 po."
+  },
+  {
+    "nombre": "Imagen silenciosa",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas una imagen de un objeto, una criatura u otro tipo de fen\u00f3meno visible cuyas dimensiones no excedan las de un cubo de 4,5 m de lado. La imagen aparece en un sitio dentro del alcance y se mantiene hasta el final del conjuro. La imagen es solamente visual; no est\u00e1 acompa\u00f1ada de sonido, olor u otros efectos sensoriales.<br><br>Como acci\u00f3n de magia, puedes mover la imagen a cualquier sitio dentro del alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla. Si una criatura emplea una acci\u00f3n de estudiar para examinar la imagen, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, no se dejar\u00e1 enga\u00f1ar por ella.",
+    "materiales": "Un poco de vell\u00f3n."
   }
 ]
