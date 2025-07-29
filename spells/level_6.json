@@ -372,5 +372,28 @@
     "requiere_ataque": false,
     "descripcion": "Conjuras un fest\u00edn que aparece sobre una superficie en un cubo de 3 m de lado sin ocupar junto a ti. Se tarda 1 hora en consumirlo, desaparece al final de ese tiempo y sus efectos beneficiosos no se aplican hasta que concluye dicha hora. En el fest\u00edn pueden participar hasta doce criaturas.<br><br>Una criatura que participe obtiene varios beneficios que durar\u00e1n 24 horas. Esa criatura tendr\u00e1 resistencia al da\u00f1o de veneno e inmunidad a los estados de asustada y envenenada. Adem\u00e1s, sus puntos de golpe m\u00e1ximos aumentan en 2d10 y recupera la misma cantidad de puntos de golpe.",
     "materiales": "Un cuenco incrustado de gemas que valga al menos 1000 po y que se consume como parte del conjuro."
+  },
+  {
+    "nombre": "Globo de Invulnerabilidad",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una barrera inm\u00f3vil y brillante surge en una emanaci\u00f3n de 3 m alrededor de ti y permanece hasta que el conjuro termine.<br><br>Cualquier conjuro de nivel 5 o inferior que se lance desde fuera de la barrera no puede afectar a nada dentro de ella. Tales conjuros pueden hacer objetivo a criaturas y objetos que est\u00e9n dentro de la barrera, pero no tendr\u00e1n ning\u00fan efecto sobre ellos. De forma similar, el interior de la barrera estar\u00e1 excluido de las \u00e1reas de efecto creadas por dichos conjuros.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> La barrera bloquea los conjuros de un nivel m\u00e1s por cada nivel por encima de 6 que tenga el espacio.",
+    "materiales": "Una cuenta de cristal."
   }
 ]
