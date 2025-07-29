@@ -185,3 +185,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Guardia de Cuchillas                 | 0 (Truco) |
 | Guardián de la Fe                    | 4         |
 | Guía                                 | 0 (Truco) |
+| Hablar con las Plantas               | 3         |
