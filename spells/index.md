@@ -199,3 +199,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Ilusión programada                   | 6         |
 | Imagen múltiple                      | 2         |
 | Imagen silenciosa                    | 1         |
+| Impacto certero                      | 0 (Truco) |

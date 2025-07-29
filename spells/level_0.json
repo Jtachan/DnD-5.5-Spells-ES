@@ -288,5 +288,29 @@
     "requiere_ataque": false,
     "descripcion": "Creas un sonido o una imagen de un objeto situado dentro del alcance que permanecer\u00e1 hasta que termine el conjuro. Consulta las descripciones a continuaci\u00f3n para conocer sus efectos. La ilusi\u00f3n termina si lanzas el conjuro de nuevo.<br><br>Si una criatura emplea su acci\u00f3n de estudiar para examinar la imagen o el sonido, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que se trata de una ilusi\u00f3n, esta se ir\u00e1 desvaneciendo para esa criatura.<br><br><b>Sonido.</b> Si creas un sonido, su volumen se situar\u00e1 entre el de un susurro y el de un grito. Puede ser tu voz, la de otra criatura, el rugido de un le\u00f3n, un redoblar de tambores o cualquier otro sonido que elijas. El sonido contin\u00faa incesante mientras dure el conjuro o puedes originar sonidos distintos en diferentes momentos antes del fin del conjuro.<br><br><b>Imagen.</b> Si creas la imagen de un objeto (como una silla, pisadas embarradas o un peque\u00f1o cofre), no podr\u00e1 ser mayor que un cubo de 1,5 m de lado. La imagen no puede generar sonido, luz, olor o cualquier otro efecto sensorial. La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla.",
     "materiales": "Un poco de vell\u00f3n."
+  },
+  {
+    "nombre": "Impacto certero",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Un destello de perspicacia m\u00e1gica te gu\u00eda y haces un ataque con el arma empleada para lanzar el conjuro. El ataque usa tu aptitud m\u00e1gica para las tiradas de ataque y de da\u00f1o en lugar de la Fuerza o la Destreza. Si el ataque inflige da\u00f1o, puede ser radiante o del tipo de da\u00f1o normal del arma (a tu elecci\u00f3n).<br><br><b><i>Mejora de truco</i></b> Independientemente de si haces da\u00f1o radiante o del tipo normal del arma, el ataque inflige da\u00f1o radiante adicional cuando alcanzas los niveles 5 (1d6), 11 (2d6) y 17 (3d6).",
+    "materiales": "Un arma con la que tengas competencia y que valga al menos 1 pc."
   }
 ]
