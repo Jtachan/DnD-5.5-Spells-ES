@@ -178,3 +178,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Globo de Invulnerabilidad            | 6         |
 | Golpe Apresador                      | 1         |
 | Golpe de Viento Acerado              | 5         |
+| Golpe Flamígero                      | 5         |
