@@ -239,5 +239,27 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": "Siempre que una criatura haga una tirada de ataque contra ti antes de que el conjuro termine, el atacante restar\u00e1 1d4 a esa tirada."
+  },
+  {
+    "nombre": "Gu\u00eda",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "materiales": null,
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria y eliges una habilidad. Hasta que termine el conjuro, la criatura a\u00f1ade 1d4 a una prueba de caracter\u00edstica usando esa habilidad."
   }
 ]
