@@ -5014,5 +5014,265 @@
     "descripcion": "Tocas a una criatura, que deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 maldecida hasta que el conjuro termine. Hasta que se rompa la maldici\u00f3n, el objetivo sufrir\u00e1 uno de los siguientes efectos a tu elecci\u00f3n:<br><br>\u2022 Elige una caracter\u00edstica. El objetivo tendr\u00e1 desventaja en las pruebas de caracter\u00edstica y tiradas de salvaci\u00f3n hechas con esa caracter\u00edstica.<br><br>\u2022 El objetivo tendr\u00e1 desventaja en las tiradas de ataque contra ti.<br><br>\u2022 En combate, el objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda al principio de cada uno de sus turnos o se ver\u00e1 obligado a llevar a cabo la acci\u00f3n de esquivar ese turno.<br><br>\u2022 Si causas da\u00f1o al objetivo con una tirada de ataque o un conjuro, recibir\u00e1 1d8 de da\u00f1o necr\u00f3tico adicional.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Si lanzas este conjuro con un espacio de nivel 4, puedes mantener la concentraci\u00f3n en \u00e9l hasta 10 minutos. Si usas un espacio de nivel 5 o superior, el conjuro no requiere concentraci\u00f3n y la duraci\u00f3n pasar\u00e1 a ser de 8 horas (espacio de nivel 5 o 6) o de 24 horas (espacio de nivel 7 u 8). Si usas un espacio de conjuro de nivel 9, el conjuro durar\u00e1 hasta que sea disipado.",
     "materiales": null,
     "nivel": 3
+  },
+  {
+    "nombre": "Indetectable",
+    "clases": [
+      "Bardo",
+      "Explorador",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que termine el conjuro, escondes a un objetivo que toques ante los conjuros de adivinaci\u00f3n. Este puede ser una criatura voluntaria, o un lugar o un objeto que no midan m\u00e1s de 3 m en ninguna de sus dimensiones. El objetivo no podr\u00e1 ser el objetivo de conjuros de adivinaci\u00f3n ni podr\u00e1 ser percibido mediante sensores m\u00e1gicos de escrutinamiento.",
+    "materiales": "Una pizca de diamante en polvo que valga al menos 25 po, que se consume como parte del conjuro.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Infligir heridas",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura a la que toques hace una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 2d10 de da\u00f1o necr\u00f3tico si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Inmovilizar monstruo",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Elige a una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de paralizado hasta que termine el conjuro. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 5 que tenga el espacio.",
+    "materiales": "Un trozo de hierro recto.",
+    "nivel": 5
+  },
+  {
+    "nombre": "Inmovilizar persona",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Elige a un humanoide que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de paralizado hasta que termine el conjuro. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a un humanoide adicional por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "Un trozo de hierro recto.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Insecto gigante",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas una ara\u00f1a, una avispa o un ciempi\u00e9s gigantes (a tu elecci\u00f3n cuando lanzas el conjuro). Se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y utiliza el perfil del <i>insecto gigante</i>. La forma que elijas determina ciertos aspectos de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": null,
+    "nivel": 4
+  },
+  {
+    "nombre": "Invertir la gravedad",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "100 pies",
+      "30 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro invierte la gravedad en un cilindro de 15 m de radio y 30 m de alto centrado en un punto dentro del alcance. Todas las criaturas y objetos dentro de la zona que no est\u00e9n fijados al suelo caer\u00e1n hacia arriba y llegar\u00e1n a la parte superior del cilindro. Una criatura puede hacer una tirada de salvaci\u00f3n de Destreza para agarrarse a un objeto fijo a su alcance y as\u00ed evitar la ca\u00edda hacia arriba.<br><br>Si un techo o un objeto fijo se interpone en la ca\u00edda, las criaturas y objetos chocan contra \u00e9l como har\u00edan en una ca\u00edda normal hacia abajo. Si una criatura u objeto llega a la parte superior del cilindro sin chocarse con nada, permanecer\u00e1 all\u00ed flotando hasta que el conjuro termine. Cuando ocurra, las criaturas y objetos afectados caer\u00e1n hacia abajo.",
+    "materiales": "Un im\u00e1n natural y virutas de hierro.",
+    "nivel": 7
+  },
+  {
+    "nombre": "Invisibilidad",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura a la que tocas tiene el estado de invisible hasta que el conjuro termine. El conjuro terminar\u00e1 inmediatamente despu\u00e9s de que el objetivo haga una tirada de ataque, cause da\u00f1o o lance un conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "Una pesta\u00f1a envuelta en goma ar\u00e1biga.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Invisibilidad mejorada",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura a la que tocas tiene el estado de invisible hasta que el conjuro termine.",
+    "materiales": null,
+    "nivel": 4
+  },
+  {
+    "nombre": "Invocaci\u00f3n instant\u00e1nea de Drawmij",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas el zafiro empleado en el lanzamiento y un objeto que pese 5 kg o menos y cuya dimensi\u00f3n m\u00e1s grande sea de 1,8 m o menos. El conjuro deja una marca invisible en su superficie y graba de la misma forma el nombre del objeto en el zafiro. Cada vez que lances este conjuro, deber\u00e1s usar un zafiro distinto.<br><br>A partir de entonces, podr\u00e1s emplear una acci\u00f3n de magia para decir el nombre del objeto y aplastar el zafiro. El objeto aparecer\u00e1 en tu mano al instante, sin importar las distancias f\u00edsicas o interplanares, y el conjuro terminar\u00e1.<br><br>Si otra criatura sostiene o lleva el objeto consigo, aplastar el zafiro no lo llevar\u00e1 hasta ti. En su lugar, descubrir\u00e1s qui\u00e9n es la criatura que lo tiene y su paradero actual.",
+    "materiales": "Un zafiro que valga al menos 1000 po.",
+    "nivel": 6
+  },
+  {
+    "nombre": "Invocar aberraci\u00f3n",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un esp\u00edritu aberrante que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu aberrante</i>. Cuando lances el conjuro, elige azotamentes, contemplador o slaad. La criatura se parecer\u00e1 a una aberraci\u00f3n de ese tipo, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Un tent\u00e1culo en salmuera y un globo ocular en un vial con incrustaciones de platino que valga al menos 400 po.",
+    "nivel": 4
   }
 ]
