@@ -524,5 +524,28 @@
     "requiere_ataque": false,
     "descripcion": "Invocas una ara\u00f1a, una avispa o un ciempi\u00e9s gigantes (a tu elecci\u00f3n cuando lanzas el conjuro). Se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y utiliza el perfil del <i>insecto gigante</i>. La forma que elijas determina ciertos aspectos de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
     "materiales": null
+  },
+  {
+    "nombre": "Invisibilidad mejorada",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura a la que tocas tiene el estado de invisible hasta que el conjuro termine.",
+    "materiales": null
   }
 ]
