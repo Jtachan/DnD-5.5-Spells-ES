@@ -174,5 +174,32 @@
     "requiere_ataque": false,
     "descripcion": "Te desplazas a las regiones fronterizas del Plano Et\u00e9reo, desde donde puedes observar el plano material. Mientras te mantengas en la Frontera Et\u00e9rea hasta que termine el conjuro.<br><br>Durante este tiempo, puedes moverte en cualquier direcci\u00f3n. Si te mueves hacia arriba o hacia abajo, cada metro de movimiento te cuesta 1 m adicional. Puedes percibir el plano del que vienes, que se mostrar\u00e1 gris, y no puedes ver m\u00e1s all\u00e1 de 18 m.<br><br>Mientras est\u00e9s en el Plano Et\u00e9reo, solo puedes afectar y ser afectado por criaturas, objetos y efectos que haya en dicho plano. Las criaturas que no est\u00e9n en \u00e9l no podr\u00e1n percibirte ni interactuar contigo a menos que un rasgo les otorgue la capacidad de hacerlo.<br><br>Cuando el conjuro termine, reaparecer\u00e1s en el plano del que viniste en el mismo sitio que se corresponde con tu espacio en la Frontera Et\u00e9rea. Si apareces en un espacio ocupado, te desplazar\u00e1s al espacio sin ocupar m\u00e1s cercano y recibir\u00e1s 2d6 de da\u00f1o de fuerza por cada 30 cm que te hayas movido.<br><br>Este conjuro termina al instante si lo lanzas mientras est\u00e1s en el Plano Et\u00e9reo o en un plano que no tenga frontera con \u00e9l, como alguno de los Planos Exteriores.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a hasta tres criaturas voluntarias (incluy\u00e9ndote a ti) por cada nivel por encima de 7 que tenga el espacio. Estas criaturas deben estar a 3 m o menos de ti cuando lances el conjuro.",
     "materiales": null
+  },
+  {
+    "nombre": "Invertir la gravedad",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "100 pies",
+      "30 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro invierte la gravedad en un cilindro de 15 m de radio y 30 m de alto centrado en un punto dentro del alcance. Todas las criaturas y objetos dentro de la zona que no est\u00e9n fijados al suelo caer\u00e1n hacia arriba y llegar\u00e1n a la parte superior del cilindro. Una criatura puede hacer una tirada de salvaci\u00f3n de Destreza para agarrarse a un objeto fijo a su alcance y as\u00ed evitar la ca\u00edda hacia arriba.<br><br>Si un techo o un objeto fijo se interpone en la ca\u00edda, las criaturas y objetos chocan contra \u00e9l como har\u00edan en una ca\u00edda normal hacia abajo. Si una criatura u objeto llega a la parte superior del cilindro sin chocarse con nada, permanecer\u00e1 all\u00ed flotando hasta que el conjuro termine. Cuando ocurra, las criaturas y objetos afectados caer\u00e1n hacia abajo.",
+    "materiales": "Un im\u00e1n natural y virutas de hierro."
   }
 ]
