@@ -202,3 +202,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Impacto certero                      | 0 (Truco) |
 | Imponer maldición                    | 3         |
 | Indetectable                         | 3         |
+| Infligir heridas                     | 1         |
