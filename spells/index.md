@@ -207,3 +207,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Inmovilizar persona                  | 2         |
 | Insecto gigante                      | 4         |
 | Invertir la gravedad                 | 7         |
+| Invisibilidad                        | 2         |

@@ -739,5 +739,30 @@
     "requiere_ataque": false,
     "descripcion": "Elige a un humanoide que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de paralizado hasta que termine el conjuro. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a un humanoide adicional por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": "Un trozo de hierro recto."
+  },
+  {
+    "nombre": "Invisibilidad",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura a la que tocas tiene el estado de invisible hasta que el conjuro termine. El conjuro terminar\u00e1 inmediatamente despu\u00e9s de que el objetivo haga una tirada de ataque, cause da\u00f1o o lance un conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "Una pesta\u00f1a envuelta en goma ar\u00e1biga."
   }
 ]
