@@ -547,5 +547,31 @@
     "requiere_ataque": false,
     "descripcion": "Una criatura a la que tocas tiene el estado de invisible hasta que el conjuro termine.",
     "materiales": null
+  },
+  {
+    "nombre": "Invocar aberraci\u00f3n",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un esp\u00edritu aberrante que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu aberrante</i>. Cuando lances el conjuro, elige azotamentes, contemplador o slaad. La criatura se parecer\u00e1 a una aberraci\u00f3n de ese tipo, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Un tent\u00e1culo en salmuera y un globo ocular en un vial con incrustaciones de platino que valga al menos 400 po."
   }
 ]
