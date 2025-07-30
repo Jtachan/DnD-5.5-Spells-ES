@@ -444,5 +444,27 @@
     "requiere_ataque": false,
     "descripcion": "Creas una ilusi\u00f3n de un objeto, una criatura u otro tipo de fen\u00f3meno visible dentro del alcance que se activa cuando se produce una condici\u00f3n espec\u00edfica. Hasta entonces, la ilusi\u00f3n es imperceptible. No puede tener un tama\u00f1o mayor que un cubo de 9 m de lado y, cuando lanzas el conjuro, t\u00fa decides c\u00f3mo se comporta y el sonido que emite. Esta actuaci\u00f3n programada puede durar hasta 5 minutos.<br><br>Cuando se produzca la condici\u00f3n especificada, la ilusi\u00f3n se activar\u00e1 y actuar\u00e1 de la manera que hayas descrito. En cuanto finalice su actuaci\u00f3n, desaparecer\u00e1 y permanecer\u00e1 inactiva durante 10 minutos, tras lo cual podr\u00e1 volver a activarse la ilusi\u00f3n.<br><br>La condici\u00f3n puede ser tan gen\u00e9rica o detallada como quieras, aunque debe basarse en fen\u00f3menos visuales o audibles que se produzcan a 9 m o menos del \u00e1rea.<br><br>Por ejemplo, podr\u00edas crear una ilusi\u00f3n de ti para que aparezca y avise a quienes intenten abrir una puerta con trampa.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla. Si una criatura emplea una acci\u00f3n de estudiar para examinar la imagen, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, no se dejar\u00e1 enga\u00f1ar por ella y los sonidos que emita le sonar\u00e1n huecos.",
     "materiales": "Polvo de jade con un valor de al menos 25 po."
+  },
+  {
+    "nombre": "Invocaci\u00f3n instant\u00e1nea de Drawmij",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas el zafiro empleado en el lanzamiento y un objeto que pese 5 kg o menos y cuya dimensi\u00f3n m\u00e1s grande sea de 1,8 m o menos. El conjuro deja una marca invisible en su superficie y graba de la misma forma el nombre del objeto en el zafiro. Cada vez que lances este conjuro, deber\u00e1s usar un zafiro distinto.<br><br>A partir de entonces, podr\u00e1s emplear una acci\u00f3n de magia para decir el nombre del objeto y aplastar el zafiro. El objeto aparecer\u00e1 en tu mano al instante, sin importar las distancias f\u00edsicas o interplanares, y el conjuro terminar\u00e1.<br><br>Si otra criatura sostiene o lleva el objeto consigo, aplastar el zafiro no lo llevar\u00e1 hasta ti. En su lugar, descubrir\u00e1s qui\u00e9n es la criatura que lo tiene y su paradero actual.",
+    "materiales": "Un zafiro que valga al menos 1000 po."
   }
 ]

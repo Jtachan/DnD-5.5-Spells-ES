@@ -209,3 +209,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Invertir la gravedad                 | 7         |
 | Invisibilidad                        | 2         |
 | Invisibilidad mejorada               | 4         |
+| Invocación instantánea de Drawmij    | 6         |
