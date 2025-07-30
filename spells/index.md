@@ -205,3 +205,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Infligir heridas                     | 1         |
 | Inmovilizar monstruo                 | 5         |
 | Inmovilizar persona                  | 2         |
+| Insecto gigante                      | 4         |
