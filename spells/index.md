@@ -204,3 +204,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Indetectable                         | 3         |
 | Infligir heridas                     | 1         |
 | Inmovilizar monstruo                 | 5         |
+| Inmovilizar persona                  | 2         |
