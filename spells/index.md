@@ -203,3 +203,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Imponer maldición                    | 3         |
 | Indetectable                         | 3         |
 | Infligir heridas                     | 1         |
+| Inmovilizar monstruo                 | 5         |

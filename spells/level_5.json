@@ -776,5 +776,33 @@
     "requiere_ataque": false,
     "descripcion": "Una columna de fuego brillante ruge desde el cielo. Todas las criaturas en un cilindro de 3 m de radio y 12 m de altura centrado en un punto dentro del alcance realizan una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 5d6 de da\u00f1o de fuego y 5d6 de da\u00f1o radiante si la fallan o la mitad de da\u00f1o si la superan.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o de fuego y radiante aumentan en 1d6 por cada nivel por encima de 5 que tenga el espacio.",
     "materiales": "Una pizca de azufre."
+  },
+  {
+    "nombre": "Inmovilizar monstruo",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Elige a una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de paralizado hasta que termine el conjuro. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 5 que tenga el espacio.",
+    "materiales": "Un trozo de hierro recto."
   }
 ]
