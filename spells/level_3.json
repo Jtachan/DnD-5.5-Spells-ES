@@ -739,6 +739,34 @@
     "materiales": "Una pizca de diamante en polvo que valga al menos 25 po, que se consume como parte del conjuro."
   },
   {
+    "nombre": "Invocar fe\u00e9rico",
+    "clases": [
+      "Brujo",
+      "Druida",
+      "Explorador",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un esp\u00edritu fe\u00e9rico que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu fe\u00e9rico</i>. Cuando lances el conjuro, elige un estado de \u00e1nimo: alegre, burl\u00f3n o enfurecido. La criatura se parecer\u00e1 a un ser fe\u00e9rico de tu elecci\u00f3n con ese estado de \u00e1nimo, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Una flor ba\u00f1ada en oro que valga al menos 300 po."
+  },
+  {
     "nombre": "Invocar muerto viviente",
     "clases": [
       "Brujo",
