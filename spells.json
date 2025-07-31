@@ -5274,5 +5274,529 @@
     "descripcion": "Invocas un esp\u00edritu aberrante que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu aberrante</i>. Cuando lances el conjuro, elige azotamentes, contemplador o slaad. La criatura se parecer\u00e1 a una aberraci\u00f3n de ese tipo, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
     "materiales": "Un tent\u00e1culo en salmuera y un globo ocular en un vial con incrustaciones de platino que valga al menos 400 po.",
     "nivel": 4
+  },
+  {
+    "nombre": "Invocar aut\u00f3mata",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas el esp\u00edritu de un aut\u00f3mata, que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu aut\u00f3mata</i>. Cuando lances el conjuro, elige un material: arcilla, metal o piedra. La criatura parecer\u00e1 una estatua animada (t\u00fa decides el aspecto) hecha del material en cuesti\u00f3n, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Una caja de seguridad que valga al menos 400 po.",
+    "nivel": 4
+  },
+  {
+    "nombre": "Invocar bestia",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un esp\u00edritu bestial que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu bestial</i>. Cuando lances el conjuro, elige un h\u00e1bitat: tierra, mar o aire. La criatura se parecer\u00e1 a un animal de tu elecci\u00f3n de ese h\u00e1bitat, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Una pluma, un poco de pelaje y cola de pez dentro de una bellota ba\u00f1ada en oro que valga al menos 200 po.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Invocar celestial",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un esp\u00edritu celestial que se manifiesta con una forma angelical en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu celestial</i>. Cuando lances el conjuro, elige defensor o vengador. Tu elecci\u00f3n determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Un relicario que valga al menos 500 po.",
+    "nivel": 5
+  },
+  {
+    "nombre": "Invocar drag\u00f3n",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas el esp\u00edritu de un drag\u00f3n, que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu drac\u00f3nico</i>. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Un objeto con la imagen de un drag\u00f3n grabada en \u00e9l que valga al menos 500 po.",
+    "nivel": 5
+  },
+  {
+    "nombre": "Invocar elemental",
+    "clases": [
+      "Druida",
+      "Explorador",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un esp\u00edritu elemental que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu elemental</i>. Cuando lances el conjuro, elige un elemento: agua, aire, fuego o tierra. La criatura se parecer\u00e1 a un ser b\u00edpedo envuelto en el elemento elegido, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Aire, un guijarro, ceniza y agua dentro de un vial con incrustaciones de oro que valga al menos 400 po.",
+    "nivel": 4
+  },
+  {
+    "nombre": "Invocar fe\u00e9rico",
+    "clases": [
+      "Brujo",
+      "Druida",
+      "Explorador",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un esp\u00edritu fe\u00e9rico que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu fe\u00e9rico</i>. Cuando lances el conjuro, elige un estado de \u00e1nimo: alegre, burl\u00f3n o enfurecido. La criatura se parecer\u00e1 a un ser fe\u00e9rico de tu elecci\u00f3n con ese estado de \u00e1nimo, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Una flor ba\u00f1ada en oro que valga al menos 300 po.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Invocar infernal",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un esp\u00edritu infernal que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu infernal</i>. Cuando lances el conjuro, elige demonio, diablo o yugoloth. La criatura se parecer\u00e1 a un infernal del tipo elegido, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Un vial con sangre que valga al menos 600 po.",
+    "nivel": 6
+  },
+  {
+    "nombre": "Invocar muerto viviente",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un esp\u00edritu muerto viviente que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu muerto viviente</i>. Cuando lances el conjuro, elige la forma de la criatura: esquel\u00e9tica, fantasmal o p\u00fatrida. El esp\u00edritu se parecer\u00e1 a un muerto viviente con la forma elegida, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Una calavera ba\u00f1ada en oro que valga al menos 300 po.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Jaula de fuerza",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "100 pies",
+      "30 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Una prisi\u00f3n inm\u00f3vil e invisible con forma de cubo y compuesta de fuerza m\u00e1gica surge en una zona de tu elecci\u00f3n dentro del alcance. Puede ser una jaula o una caja de paredes s\u00f3lidas, seg\u00fan desees.<br><br>Una prisi\u00f3n con forma de jaula puede tener hasta 6 m de lado y estar hecha de barrotes de 1,25 cm de di\u00e1metro separados 1,25 cm entre s\u00ed. Una prisi\u00f3n con forma de caja puede tener hasta 3 m de lado. Crear\u00e1 una barrera s\u00f3lida que impida que cualquier materia la atraviese y bloquear\u00e1 cualquier conjuro que se lance a esa zona o desde ella.<br><br>Cuando lances el conjuro, cualquier criatura que est\u00e9 completamente dentro del \u00e1rea de la jaula quedar\u00e1 atrapada en ella. A las criaturas que se encuentren solo parcialmente dentro del \u00e1rea o sean demasiado grandes para caber en ella se les empujar\u00e1 lejos del centro de la jaula hasta estar completamente fuera de la zona.<br><br>Una criatura que est\u00e9 dentro de la jaula no puede salir de ella por medios que no sean m\u00e1gicos. Si la criatura intenta usar el teletransporte o el viaje interplanar para huir, primero deber\u00e1 hacer una tirada de salvaci\u00f3n de Carisma. Si la supera, podr\u00e1 usar esa magia para salir de la jaula. Si falla la tirada, no saldr\u00e1 y se perder\u00e1 el espacio de conjuro o el efecto. La jaula tambi\u00e9n se extiende hasta el Plano Et\u00e9reo e impide el viaje et\u00e9reo.<br><br>Este conjuro no se puede eliminar mediante <i>disipar magia</i>.",
+    "materiales": "Polvo de rub\u00ed que valga al menos 1500 po, que se consume como parte del conjuro.",
+    "nivel": 7
+  },
+  {
+    "nombre": "Laberinto",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Destierras a una criatura que puedas ver dentro del alcance a un semiplano laber\u00edntico. El objetivo permanecer\u00e1 all\u00ed hasta que termine el conjuro o hasta que escape del laberinto.<br><br>El objetivo puede llevar a cabo una acci\u00f3n de estudiar para intentar escapar. Cuando lo haga, realizar\u00e1 una prueba de Inteligencia (Investigaci\u00f3n) con CD 20. Si la supera, escapar\u00e1 y el conjuro terminar\u00e1.<br><br>Cuando el conjuro termine, el objetivo reaparecer\u00e1 en el espacio que abandon\u00f3 o en el espacio sin ocupar m\u00e1s cercano si dicho espacio est\u00e1 ocupado.",
+    "materiales": null,
+    "nivel": 8
+  },
+  {
+    "nombre": "Labia",
+    "clases": [
+      "Bardo",
+      "Brujo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, cuando hagas una prueba de Carisma, puedes sustituir el resultado de la tirada por un 15. Adem\u00e1s, digas lo que digas, cualquier magia usada para detectar si dices la verdad indicar\u00e1 que la est\u00e1s diciendo.",
+    "materiales": null,
+    "nivel": 8
+  },
+  {
+    "nombre": "Levantar maldici\u00f3n",
+    "clases": [
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Mago",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Con tan solo tocar a una criatura o un objeto, eliminar\u00e1s todas las maldiciones que le afecten. Si el objetivo es un objeto m\u00e1gico maldito, la maldici\u00f3n permanecer\u00e1, pero este conjuro romper\u00e1 la sintonizaci\u00f3n del objeto con el due\u00f1o, lo que le permitir\u00e1 quit\u00e1rselo o deshacerse de \u00e9l.",
+    "materiales": null,
+    "nivel": 3
+  },
+  {
+    "nombre": "Levitar",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura o un objeto suelto de tu elecci\u00f3n que puedas ver dentro del alcance se eleva verticalmente hasta 6 m y se mantiene suspendido hasta que el conjuro termine.<br><br>El conjuro puede hacer levitar un objeto que pese hasta 250 kg y no afecta a una criatura no voluntaria que supere una tirada de salvaci\u00f3n de Constituci\u00f3n.<br><br>El objetivo solo puede moverse empuj\u00e1ndose o tirando de un objeto fijo o una superficie a su alcance (como una pared o techo), lo que le permite desplazarse como si estuviera trepando. En tu turno, puedes variar la altitud del objetivo hasta 6 m en cualquier sentido. Si t\u00fa mismo eres el objetivo, te puedes mover hacia arriba o abajo como parte de tu movimiento. En caso contrario, puedes usar una acci\u00f3n de magia para mover al objetivo, que deber\u00e1 permanecer dentro del alcance del conjuro.<br><br>Cuando el conjuro termine, el objetivo flotar\u00e1 suavemente hasta llegar al suelo si todav\u00eda est\u00e1 en el aire.",
+    "materiales": "Un muelle de metal.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Libertad de movimiento",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria. Hasta que termine el conjuro, el movimiento del objetivo no se ve afectado por el terreno dif\u00edcil y los conjuros y otros efectos m\u00e1gicos no pueden reducir su velocidad ni hacer que tenga los estados de apresado o paralizado. Adem\u00e1s, el objetivo tiene una velocidad nadando igual a su velocidad.<br><br>El objetivo tambi\u00e9n puede gastar 1,5 m de movimiento para escapar autom\u00e1ticamente de ataduras no m\u00e1gicas, como unas esposas o una criatura que le imponga el estado de agarrado.",
+    "materiales": "Una tira de cuero.",
+    "nivel": 4
+  },
+  {
+    "nombre": "Llama permanente",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una llama surge de un objeto que toques. El efecto emite una luz brillante en un radio de 6 m y una luz tenue 6 m m\u00e1s all\u00e1. Parece una llama normal, pero no genera calor ni consume combustible. La llama se puede tapar u ocultar, pero no se puede apagar ni extinguir.",
+    "materiales": "Polvo de rub\u00ed que valga al menos 50 po, que se consume como parte del conjuro.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Llama sagrada",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Un fulgor de llamas desciende sobre una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1 1d8 de da\u00f1o radiante. No podr\u00e1 beneficiarse de la cobertura media o tres cuartos en esta tirada.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "Llamar al rel\u00e1mpago",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Una nube de tormenta aparece en un punto dentro del alcance que puedas ver por encima de ti. La nube adopta la forma de un cilindro de 3 m de altura y 18 m de radio.<br><br>Cuando lances el conjuro, elige un punto que puedas ver bajo la nube y de ella caer\u00e1 un rel\u00e1mpago hacia ese punto. Todas las criaturas a 1,5 m o menos de ese punto hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 3d10 de da\u00f1o de rel\u00e1mpago si la fallan o la mitad del da\u00f1o si la superan.<br><br>Hasta que el conjuro termine, puedes usar una acci\u00f3n de magia para volver a invocar otro rel\u00e1mpago y elegir como objetivo el mismo punto u otro distinto.<br><br>Si est\u00e1s al aire libre y hay una tormenta cuando lanzas este conjuro, te da el control de ella en vez de crear una nueva. En estas condiciones, el da\u00f1o del conjuro aumenta en 1d10.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 3
+  },
+  {
+    "nombre": "Localizar animales o plantas",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Describe o nombra un tipo concreto de bestia, criatura de tipo \u201cplanta\u201d o planta no m\u00e1gica. Descubres la direcci\u00f3n y la distancia hasta la criatura o la planta de ese tipo m\u00e1s cercana que est\u00e9 a 7,5 km o menos, siempre y cuando haya alguna.",
+    "materiales": "Pelaje de un sabueso.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Localizar criatura",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Mago",
+      "Palad\u00edn"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Describe o nombra una criatura que conozcas. Presientes la direcci\u00f3n en la que se encuentra dicha criatura si est\u00e1 a 300 m o menos de ti. Si la criatura se est\u00e1 moviendo, conoces la direcci\u00f3n de su movimiento.<br><br>El conjuro puede localizar a una criatura espec\u00edfica que conozcas o a la criatura m\u00e1s cercana de un tipo espec\u00edfico (como un humano o un unicornio) si has visto a una criatura as\u00ed de cerca (a 9 m o menos) al menos una vez. Si una criatura que describas o nombres est\u00e1 adoptando una forma distinta, por ejemplo bajo los efectos de un conjuro de <i>la carne a la piedra</i> o <i>polimorfar</i>, este conjuro no la localiza.<br><br>El conjuro no puede localizar a una criatura si hay cualquier grosor de plomo que bloquee una ruta directa entre la criatura y t\u00fa.",
+    "materiales": "Pelaje de un sabueso.",
+    "nivel": 4
+  },
+  {
+    "nombre": "L\u00e1tigo de espinas",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Creas un l\u00e1tigo similar a una enredadera cubierta de espinas que fustiga bajo tus \u00f3rdenes a una criatura dentro del alcance. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo sufre 1d6 de da\u00f1o perforante y, si es Grande o m\u00e1s peque\u00f1o, puedes arrastrarlo hasta 3 m hacia ti.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "materiales": "El tallo de una planta con espinas.",
+    "nivel": 0
   }
 ]
