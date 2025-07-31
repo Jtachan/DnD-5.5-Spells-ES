@@ -234,3 +234,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Localizar objeto                     | 2         |
 | Luces danzantes                      | 0 (Truco) |
 | Luz                                  | 0 (Truco) |
+| Luz del día                          | 3         |
