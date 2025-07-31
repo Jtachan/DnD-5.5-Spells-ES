@@ -212,3 +212,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Invocación instantánea de Drawmij    | 6         |
 | Invocar aberración                   | 4         |
 | Invocar autómata                     | 4         |
+| Invocar bestia                       | 2         |
