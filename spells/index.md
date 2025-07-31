@@ -237,3 +237,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Luz del día                          | 3         |
 | Mal de ojo                           | 6         |
 | Maleficio                            | 1         |
+| Mano de Bigby                        | 5         |

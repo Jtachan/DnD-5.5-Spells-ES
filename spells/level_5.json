@@ -855,5 +855,31 @@
     "requiere_ataque": false,
     "descripcion": "Invocas el esp\u00edritu de un drag\u00f3n, que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu drac\u00f3nico</i>. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
     "materiales": "Un objeto con la imagen de un drag\u00f3n grabada en \u00e9l que valga al menos 500 po."
+  },
+  {
+    "nombre": "Mano de Bigby",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Creas una mano de energ\u00eda m\u00e1gica brillante de tama\u00f1o Grande en un espacio sin ocupar que puedas ver dentro del alcance. Esta mano durar\u00e1 hasta que el conjuro termine y estar\u00e1 bajo tus \u00f3rdenes, imitando los movimientos de tu propia mano.<br><br>La mano es un objeto con una CA de 20 y una cantidad de puntos de golpe igual a tus puntos de golpe m\u00e1ximos. Si sus puntos de golpe se reducen a 0, el conjuro termina. La mano no ocupa el espacio en el que se encuentra.<br><br>Cuando lances el conjuro y como acci\u00f3n adicional en tus siguientes turnos, puedes mover la mano hasta 18 m y luego usar uno de los siguientes efectos:<br><br><i>Mano apresadora.</i> La mano intenta agarrar a una criatura Enorme o m\u00e1s peque\u00f1a que est\u00e9 a 1,5 m o menos de ella. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o tendr\u00e1 el estado de agarrado. La CD para escapar es igual a tu CD de salvaci\u00f3n de conjuros. Mientras la mano agarre al objetivo, puedes usar una acci\u00f3n adicional para hacer que la mano lo aplaste y causarle una cantidad de da\u00f1o contundente igual a 4d6 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><i>Mano contundente.</i> La mano intenta empujar a una criatura Enorme o m\u00e1s peque\u00f1a que est\u00e9 a 1,5 m o menos de ella. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o la mano lo empujar\u00e1 hasta 1,5 m m\u00e1s una distancia igual a 1,5 m \u00d7 tu modificador por aptitud m\u00e1gica. La mano se mueve a la vez que el objetivo y permanece a 1,5 m o menos de \u00e9l.<br><br><i>Mano interpuesta.</i> La mano te proporciona cobertura media contra ataques y otros efectos que se originen en su espacio o intenten atravesarla. Adem\u00e1s, ese espacio se considera terreno dif\u00edcil para tus enemigos.<br><br><i>Pu\u00f1o cerrado.</i> La mano golpea a un objetivo a 1,5 m o menos de ella. Haz un ataque de conjuro cuerpo a cuerpo. Si acierta, el objetivo recibe 5d8 de da\u00f1o de fuerza.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o del pu\u00f1o cerrado aumenta en 2d8 y el da\u00f1o de la mano apresadora aumenta en 2d6 por cada nivel por encima de 5 que tenga el espacio.",
+    "materiales": "Una c\u00e1scara de huevo y un guante."
   }
 ]
