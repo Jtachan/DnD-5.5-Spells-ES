@@ -737,5 +737,31 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que termine el conjuro, escondes a un objetivo que toques ante los conjuros de adivinaci\u00f3n. Este puede ser una criatura voluntaria, o un lugar o un objeto que no midan m\u00e1s de 3 m en ninguna de sus dimensiones. El objetivo no podr\u00e1 ser el objetivo de conjuros de adivinaci\u00f3n ni podr\u00e1 ser percibido mediante sensores m\u00e1gicos de escrutinamiento.",
     "materiales": "Una pizca de diamante en polvo que valga al menos 25 po, que se consume como parte del conjuro."
+  },
+  {
+    "nombre": "Invocar muerto viviente",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un esp\u00edritu muerto viviente que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu muerto viviente</i>. Cuando lances el conjuro, elige la forma de la criatura: esquel\u00e9tica, fantasmal o p\u00fatrida. El esp\u00edritu se parecer\u00e1 a un muerto viviente con la forma elegida, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Una calavera ba\u00f1ada en oro que valga al menos 300 po."
   }
 ]
