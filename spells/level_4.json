@@ -625,5 +625,30 @@
     "requiere_ataque": false,
     "descripcion": "Invocas un esp\u00edritu elemental que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu elemental</i>. Cuando lances el conjuro, elige un elemento: agua, aire, fuego o tierra. La criatura se parecer\u00e1 a un ser b\u00edpedo envuelto en el elemento elegido, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
     "materiales": "Aire, un guijarro, ceniza y agua dentro de un vial con incrustaciones de oro que valga al menos 400 po."
+  },
+  {
+    "nombre": "Libertad de movimiento",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria. Hasta que termine el conjuro, el movimiento del objetivo no se ve afectado por el terreno dif\u00edcil y los conjuros y otros efectos m\u00e1gicos no pueden reducir su velocidad ni hacer que tenga los estados de apresado o paralizado. Adem\u00e1s, el objetivo tiene una velocidad nadando igual a su velocidad.<br><br>El objetivo tambi\u00e9n puede gastar 1,5 m de movimiento para escapar autom\u00e1ticamente de ataduras no m\u00e1gicas, como unas esposas o una criatura que le imponga el estado de agarrado.",
+    "materiales": "Una tira de cuero."
   }
 ]
