@@ -211,3 +211,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Invisibilidad mejorada               | 4         |
 | Invocación instantánea de Drawmij    | 6         |
 | Invocar aberración                   | 4         |
+| Invocar autómata                     | 4         |
