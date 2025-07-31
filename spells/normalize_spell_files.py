@@ -25,7 +25,7 @@ def _norm_higher_level(text: str) -> str:
     ]
     for hlt in higher_level_texts:
         pattern = rf"<br>((?=<(i|b)>)?<(i|b)>){hlt}.((?=<\/(i|b)>)?<\/(i|b)>)"
-        final_text = f"<br><b><i>{hlt}</i></b>"
+        final_text = f"<br><b><i>{hlt}.</i></b>"
         text = re.sub(pattern, final_text, text)
     return text
 
