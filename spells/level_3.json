@@ -815,5 +815,29 @@
     "requiere_ataque": false,
     "descripcion": "Con tan solo tocar a una criatura o un objeto, eliminar\u00e1s todas las maldiciones que le afecten. Si el objetivo es un objeto m\u00e1gico maldito, la maldici\u00f3n permanecer\u00e1, pero este conjuro romper\u00e1 la sintonizaci\u00f3n del objeto con el due\u00f1o, lo que le permitir\u00e1 quit\u00e1rselo o deshacerse de \u00e9l.",
     "materiales": null
+  },
+  {
+    "nombre": "Llamar al rel\u00e1mpago",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Una nube de tormenta aparece en un punto dentro del alcance que puedas ver por encima de ti. La nube adopta la forma de un cilindro de 3 m de altura y 18 m de radio.<br><br>Cuando lances el conjuro, elige un punto que puedas ver bajo la nube y de ella caer\u00e1 un rel\u00e1mpago hacia ese punto. Todas las criaturas a 1,5 m o menos de ese punto hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 3d10 de da\u00f1o de rel\u00e1mpago si la fallan o la mitad del da\u00f1o si la superan.<br><br>Hasta que el conjuro termine, puedes usar una acci\u00f3n de magia para volver a invocar otro rel\u00e1mpago y elegir como objetivo el mismo punto u otro distinto.<br><br>Si est\u00e1s al aire libre y hay una tormenta cuando lanzas este conjuro, te da el control de ella en vez de crear una nueva. En estas condiciones, el da\u00f1o del conjuro aumenta en 1d10.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": null
   }
 ]
