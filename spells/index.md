@@ -222,3 +222,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Jaula de fuerza                      | 7         |
 | Laberinto                            | 8         |
 | Labia                                | 8         |
+| Látigo de espinas                    | 0 (Truco) |

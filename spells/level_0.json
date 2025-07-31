@@ -312,5 +312,30 @@
     "requiere_ataque": true,
     "descripcion": "Un destello de perspicacia m\u00e1gica te gu\u00eda y haces un ataque con el arma empleada para lanzar el conjuro. El ataque usa tu aptitud m\u00e1gica para las tiradas de ataque y de da\u00f1o en lugar de la Fuerza o la Destreza. Si el ataque inflige da\u00f1o, puede ser radiante o del tipo de da\u00f1o normal del arma (a tu elecci\u00f3n).<br><br><b><i>Mejora de truco</i></b> Independientemente de si haces da\u00f1o radiante o del tipo normal del arma, el ataque inflige da\u00f1o radiante adicional cuando alcanzas los niveles 5 (1d6), 11 (2d6) y 17 (3d6).",
     "materiales": "Un arma con la que tengas competencia y que valga al menos 1 pc."
+  },
+  {
+    "nombre": "L\u00e1tigo de espinas",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Creas un l\u00e1tigo similar a una enredadera cubierta de espinas que fustiga bajo tus \u00f3rdenes a una criatura dentro del alcance. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo sufre 1d6 de da\u00f1o perforante y, si es Grande o m\u00e1s peque\u00f1o, puedes arrastrarlo hasta 3 m hacia ti.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "materiales": "El tallo de una planta con espinas."
   }
 ]
