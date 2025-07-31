@@ -598,5 +598,32 @@
     "requiere_ataque": false,
     "descripcion": "Invocas el esp\u00edritu de un aut\u00f3mata, que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu aut\u00f3mata</i>. Cuando lances el conjuro, elige un material: arcilla, metal o piedra. La criatura parecer\u00e1 una estatua animada (t\u00fa decides el aspecto) hecha del material en cuesti\u00f3n, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
     "materiales": "Una caja de seguridad que valga al menos 400 po."
+  },
+  {
+    "nombre": "Invocar elemental",
+    "clases": [
+      "Druida",
+      "Explorador",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un esp\u00edritu elemental que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu elemental</i>. Cuando lances el conjuro, elige un elemento: agua, aire, fuego o tierra. La criatura se parecer\u00e1 a un ser b\u00edpedo envuelto en el elemento elegido, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Aire, un guijarro, ceniza y agua dentro de un vial con incrustaciones de oro que valga al menos 400 po."
   }
 ]

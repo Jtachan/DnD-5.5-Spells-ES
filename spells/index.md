@@ -215,4 +215,5 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Invocar bestia                       | 2         |
 | Invocar celestial                    | 5         |
 | Invocar dragón                       | 5         |
+| Invocar elemental                    | 4         |
 | Invocar muerto viviente              | 3         |
