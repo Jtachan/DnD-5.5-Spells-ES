@@ -220,3 +220,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Invocar infernal                     | 6         |
 | Invocar muerto viviente              | 3         |
 | Jaula de fuerza                      | 7         |
+| Laberinto                            | 8         |
