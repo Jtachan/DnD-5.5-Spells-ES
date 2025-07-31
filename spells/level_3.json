@@ -791,5 +791,29 @@
     "requiere_ataque": false,
     "descripcion": "Invocas un esp\u00edritu muerto viviente que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu muerto viviente</i>. Cuando lances el conjuro, elige la forma de la criatura: esquel\u00e9tica, fantasmal o p\u00fatrida. El esp\u00edritu se parecer\u00e1 a un muerto viviente con la forma elegida, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
     "materiales": "Una calavera ba\u00f1ada en oro que valga al menos 300 po."
+  },
+  {
+    "nombre": "Levantar maldici\u00f3n",
+    "clases": [
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Mago",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Con tan solo tocar a una criatura o un objeto, eliminar\u00e1s todas las maldiciones que le afecten. Si el objetivo es un objeto m\u00e1gico maldito, la maldici\u00f3n permanecer\u00e1, pero este conjuro romper\u00e1 la sintonizaci\u00f3n del objeto con el due\u00f1o, lo que le permitir\u00e1 quit\u00e1rselo o deshacerse de \u00e9l.",
+    "materiales": null
   }
 ]

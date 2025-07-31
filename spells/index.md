@@ -223,3 +223,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Laberinto                            | 8         |
 | Labia                                | 8         |
 | Látigo de espinas                    | 0 (Truco) |
+| Levantar maldición                   | 3         |
