@@ -228,5 +228,31 @@
     "requiere_ataque": false,
     "descripcion": "Una prisi\u00f3n inm\u00f3vil e invisible con forma de cubo y compuesta de fuerza m\u00e1gica surge en una zona de tu elecci\u00f3n dentro del alcance. Puede ser una jaula o una caja de paredes s\u00f3lidas, seg\u00fan desees.<br><br>Una prisi\u00f3n con forma de jaula puede tener hasta 6 m de lado y estar hecha de barrotes de 1,25 cm de di\u00e1metro separados 1,25 cm entre s\u00ed. Una prisi\u00f3n con forma de caja puede tener hasta 3 m de lado. Crear\u00e1 una barrera s\u00f3lida que impida que cualquier materia la atraviese y bloquear\u00e1 cualquier conjuro que se lance a esa zona o desde ella.<br><br>Cuando lances el conjuro, cualquier criatura que est\u00e9 completamente dentro del \u00e1rea de la jaula quedar\u00e1 atrapada en ella. A las criaturas que se encuentren solo parcialmente dentro del \u00e1rea o sean demasiado grandes para caber en ella se les empujar\u00e1 lejos del centro de la jaula hasta estar completamente fuera de la zona.<br><br>Una criatura que est\u00e9 dentro de la jaula no puede salir de ella por medios que no sean m\u00e1gicos. Si la criatura intenta usar el teletransporte o el viaje interplanar para huir, primero deber\u00e1 hacer una tirada de salvaci\u00f3n de Carisma. Si la supera, podr\u00e1 usar esa magia para salir de la jaula. Si falla la tirada, no saldr\u00e1 y se perder\u00e1 el espacio de conjuro o el efecto. La jaula tambi\u00e9n se extiende hasta el Plano Et\u00e9reo e impide el viaje et\u00e9reo.<br><br>Este conjuro no se puede eliminar mediante <i>disipar magia</i>.",
     "materiales": "Polvo de rub\u00ed que valga al menos 1500 po, que se consume como parte del conjuro."
+  },
+  {
+    "nombre": "Mansi\u00f3n magn\u00edfica de Mordenkainen",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "300 pies",
+      "90 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Conjuras una puerta brillante dentro del alcance que permanece hasta que el conjuro termine. La puerta mide 1,5 m de ancho y 3 m de alto y lleva a una morada extradimensional. T\u00fa y cualquier criatura que designes cuando lances el conjuro podr\u00e9is entrar en la morada extradimensional mientras la puerta permanezca abierta. Puedes abrirla o cerrarla (no requiere acci\u00f3n) si est\u00e1s a 9 m o menos de ella. Mientras permanezca cerrada, es imperceptible.<br><br>Al otro lado de la puerta encuentras un fastuoso recibidor, tras la cual se hallan numerosas estancias. La morada est\u00e1 limpia y es fresca y c\u00e1lida.<br><br>Puedes crear cualquier plano de planta que desees, pero no puede superar los 50 cubos contiguos, cada uno de 3 m de lado. El lugar est\u00e1 amueblado y decorado como elijas y contiene comida suficiente como para servir un banquete de nueve platos a hasta 100 personas. Los muebles y otros objetos creados por este conjuro se convierten en humo si se sacan del lugar.<br><br>El personal de servicio est\u00e1 compuesto de 100 sirvientes casi transparentes que atienden a todos los que entran. T\u00fa decides la apariencia y el atuendo de estos sirvientes, que son invulnerables y obedecen tus \u00f3rdenes. Los sirvientes pueden realizar las tareas que har\u00eda un humano, pero no pueden atacar ni realizar ninguna acci\u00f3n que da\u00f1ar\u00eda directamente a otra criatura. Por lo tanto, pueden traer y llevar cosas, limpiar, arreglar y plegar ropa, encender fuegos, servir comida y vino, etc, aunque no pueden abandonar el lugar.<br><br>Cuando el conjuro termina, todas las criaturas u objetos que queden en el espacio extradimensional son expulsados a los espacios sin ocupar m\u00e1s cercanos a la entrada.",
+    "materiales": "Una puerta en miniatura que valga al menos 15 po."
   }
 ]

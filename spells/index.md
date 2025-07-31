@@ -240,3 +240,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Mano de Bigby                        | 5         |
 | Mano de mago                         | 0 (Truco) |
 | Manos ardientes                      | 1         |
+| Mansión magnífica de Mordenkainen    | 7         |
