@@ -201,5 +201,32 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro invierte la gravedad en un cilindro de 15 m de radio y 30 m de alto centrado en un punto dentro del alcance. Todas las criaturas y objetos dentro de la zona que no est\u00e9n fijados al suelo caer\u00e1n hacia arriba y llegar\u00e1n a la parte superior del cilindro. Una criatura puede hacer una tirada de salvaci\u00f3n de Destreza para agarrarse a un objeto fijo a su alcance y as\u00ed evitar la ca\u00edda hacia arriba.<br><br>Si un techo o un objeto fijo se interpone en la ca\u00edda, las criaturas y objetos chocan contra \u00e9l como har\u00edan en una ca\u00edda normal hacia abajo. Si una criatura u objeto llega a la parte superior del cilindro sin chocarse con nada, permanecer\u00e1 all\u00ed flotando hasta que el conjuro termine. Cuando ocurra, las criaturas y objetos afectados caer\u00e1n hacia abajo.",
     "materiales": "Un im\u00e1n natural y virutas de hierro."
+  },
+  {
+    "nombre": "Jaula de fuerza",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "100 pies",
+      "30 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Una prisi\u00f3n inm\u00f3vil e invisible con forma de cubo y compuesta de fuerza m\u00e1gica surge en una zona de tu elecci\u00f3n dentro del alcance. Puede ser una jaula o una caja de paredes s\u00f3lidas, seg\u00fan desees.<br><br>Una prisi\u00f3n con forma de jaula puede tener hasta 6 m de lado y estar hecha de barrotes de 1,25 cm de di\u00e1metro separados 1,25 cm entre s\u00ed. Una prisi\u00f3n con forma de caja puede tener hasta 3 m de lado. Crear\u00e1 una barrera s\u00f3lida que impida que cualquier materia la atraviese y bloquear\u00e1 cualquier conjuro que se lance a esa zona o desde ella.<br><br>Cuando lances el conjuro, cualquier criatura que est\u00e9 completamente dentro del \u00e1rea de la jaula quedar\u00e1 atrapada en ella. A las criaturas que se encuentren solo parcialmente dentro del \u00e1rea o sean demasiado grandes para caber en ella se les empujar\u00e1 lejos del centro de la jaula hasta estar completamente fuera de la zona.<br><br>Una criatura que est\u00e9 dentro de la jaula no puede salir de ella por medios que no sean m\u00e1gicos. Si la criatura intenta usar el teletransporte o el viaje interplanar para huir, primero deber\u00e1 hacer una tirada de salvaci\u00f3n de Carisma. Si la supera, podr\u00e1 usar esa magia para salir de la jaula. Si falla la tirada, no saldr\u00e1 y se perder\u00e1 el espacio de conjuro o el efecto. La jaula tambi\u00e9n se extiende hasta el Plano Et\u00e9reo e impide el viaje et\u00e9reo.<br><br>Este conjuro no se puede eliminar mediante <i>disipar magia</i>.",
+    "materiales": "Polvo de rub\u00ed que valga al menos 1500 po, que se consume como parte del conjuro."
   }
 ]
