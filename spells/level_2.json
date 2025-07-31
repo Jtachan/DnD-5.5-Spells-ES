@@ -816,5 +816,29 @@
     "requiere_ataque": false,
     "descripcion": "Una criatura o un objeto suelto de tu elecci\u00f3n que puedas ver dentro del alcance se eleva verticalmente hasta 6 m y se mantiene suspendido hasta que el conjuro termine.<br><br>El conjuro puede hacer levitar un objeto que pese hasta 250 kg y no afecta a una criatura no voluntaria que supere una tirada de salvaci\u00f3n de Constituci\u00f3n.<br><br>El objetivo solo puede moverse empuj\u00e1ndose o tirando de un objeto fijo o una superficie a su alcance (como una pared o techo), lo que le permite desplazarse como si estuviera trepando. En tu turno, puedes variar la altitud del objetivo hasta 6 m en cualquier sentido. Si t\u00fa mismo eres el objetivo, te puedes mover hacia arriba o abajo como parte de tu movimiento. En caso contrario, puedes usar una acci\u00f3n de magia para mover al objetivo, que deber\u00e1 permanecer dentro del alcance del conjuro.<br><br>Cuando el conjuro termine, el objetivo flotar\u00e1 suavemente hasta llegar al suelo si todav\u00eda est\u00e1 en el aire.",
     "materiales": "Un muelle de metal."
+  },
+  {
+    "nombre": "Llama permanente",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una llama surge de un objeto que toques. El efecto emite una luz brillante en un radio de 6 m y una luz tenue 6 m m\u00e1s all\u00e1. Parece una llama normal, pero no genera calor ni consume combustible. La llama se puede tapar u ocultar, pero no se puede apagar ni extinguir.",
+    "materiales": "Polvo de rub\u00ed que valga al menos 50 po, que se consume como parte del conjuro."
   }
 ]
