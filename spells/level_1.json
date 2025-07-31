@@ -904,5 +904,30 @@
     "requiere_ataque": false,
     "descripcion": "Una criatura a la que toques hace una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 2d10 de da\u00f1o necr\u00f3tico si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Maleficio",
+    "clases": [
+      "Brujo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Impones una maldici\u00f3n a una criatura que puedas ver dentro del alcance. Hasta que el conjuro termine, infliges 1d6 de da\u00f1o necr\u00f3tico adicional al objetivo siempre que le aciertes con una tirada de ataque. Adem\u00e1s, elige una caracter\u00edstica cuando lances el conjuro. El objetivo tendr\u00e1 desventaja en las pruebas que haga con la caracter\u00edstica elegida.<br><br>Si los puntos de golpe del objetivo se reducen a 0 antes de que el conjuro termine, puedes usar una acci\u00f3n adicional en un turno posterior para maldecir a una nueva criatura.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Tu concentraci\u00f3n puede durar m\u00e1s si usas un espacio de conjuro de nivel 2 (hasta 4 horas), 3 o 4 (hasta 8 horas) o 5 o m\u00e1s (24 horas).",
+    "materiales": "El ojo petrificado de un trit\u00f3n."
   }
 ]
