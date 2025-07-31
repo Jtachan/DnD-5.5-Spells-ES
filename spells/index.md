@@ -232,4 +232,5 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Localizar animales o plantas         | 2         |
 | Localizar criatura                   | 4         |
 | Localizar objeto                     | 2         |
-| Luces danzantes                      | 0         |
+| Luces danzantes                      | 0 (Truco) |
+| Luz                                  | 0 (Truco) |

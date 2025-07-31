@@ -388,5 +388,29 @@
     "requiere_ataque": false,
     "descripcion": "Creas hasta cuatro luces del tama\u00f1o de antorchas dentro del alcance. Puedes darles la apariencia de antorchas, linternas u orbes luminosos, y levitar\u00e1n hasta que el conjuro termine. Como alternativa, combinas las cuatro luces en una sola de tama\u00f1o Mediano y aspecto vagamente humanoide. En ambos casos, cada luz proyecta una luz tenue en un radio de 3 m.<br><br>Como acci\u00f3n adicional, puedes mover las luces hasta 18 m a otro espacio dentro del alcance. Cada luz debe estar a 6 m o menos de otra luz creada por este conjuro y se desvanecer\u00e1 si sale del alcance del mismo.",
     "materiales": "Una pizca de f\u00f3sforo."
+  },
+  {
+    "nombre": "Luz",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas un objeto Grande o m\u00e1s peque\u00f1o que nadie lleve o vista. Hasta que el conjuro termine, el objeto emitir\u00e1 luz brillante en un radio de 6 m y luz tenue otros 6 m m\u00e1s all\u00e1. La luz puede tener el color que desees.<br><br>Tapar completamente el objeto con un material opaco bloquea la luz. El conjuro termina si lo vuelves a lanzar.",
+    "materiales": "Una luci\u00e9rnaga o musgo fosforescente."
   }
 ]
