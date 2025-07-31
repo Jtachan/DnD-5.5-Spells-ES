@@ -361,5 +361,32 @@
     "requiere_ataque": false,
     "descripcion": "Un fulgor de llamas desciende sobre una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1 1d8 de da\u00f1o radiante. No podr\u00e1 beneficiarse de la cobertura media o tres cuartos en esta tirada.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
     "materiales": null
+  },
+  {
+    "nombre": "Luces danzantes",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas hasta cuatro luces del tama\u00f1o de antorchas dentro del alcance. Puedes darles la apariencia de antorchas, linternas u orbes luminosos, y levitar\u00e1n hasta que el conjuro termine. Como alternativa, combinas las cuatro luces en una sola de tama\u00f1o Mediano y aspecto vagamente humanoide. En ambos casos, cada luz proyecta una luz tenue en un radio de 3 m.<br><br>Como acci\u00f3n adicional, puedes mover las luces hasta 18 m a otro espacio dentro del alcance. Cada luz debe estar a 6 m o menos de otra luz creada por este conjuro y se desvanecer\u00e1 si sale del alcance del mismo.",
+    "materiales": "Una pizca de f\u00f3sforo."
   }
 ]
