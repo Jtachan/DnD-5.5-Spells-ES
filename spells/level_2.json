@@ -790,5 +790,31 @@
     "requiere_ataque": false,
     "descripcion": "Invocas un esp\u00edritu bestial que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu bestial</i>. Cuando lances el conjuro, elige un h\u00e1bitat: tierra, mar o aire. La criatura se parecer\u00e1 a un animal de tu elecci\u00f3n de ese h\u00e1bitat, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
     "materiales": "Una pluma, un poco de pelaje y cola de pez dentro de una bellota ba\u00f1ada en oro que valga al menos 200 po."
+  },
+  {
+    "nombre": "Levitar",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura o un objeto suelto de tu elecci\u00f3n que puedas ver dentro del alcance se eleva verticalmente hasta 6 m y se mantiene suspendido hasta que el conjuro termine.<br><br>El conjuro puede hacer levitar un objeto que pese hasta 250 kg y no afecta a una criatura no voluntaria que supere una tirada de salvaci\u00f3n de Constituci\u00f3n.<br><br>El objetivo solo puede moverse empuj\u00e1ndose o tirando de un objeto fijo o una superficie a su alcance (como una pared o techo), lo que le permite desplazarse como si estuviera trepando. En tu turno, puedes variar la altitud del objetivo hasta 6 m en cualquier sentido. Si t\u00fa mismo eres el objetivo, te puedes mover hacia arriba o abajo como parte de tu movimiento. En caso contrario, puedes usar una acci\u00f3n de magia para mover al objetivo, que deber\u00e1 permanecer dentro del alcance del conjuro.<br><br>Cuando el conjuro termine, el objetivo flotar\u00e1 suavemente hasta llegar al suelo si todav\u00eda est\u00e1 en el aire.",
+    "materiales": "Un muelle de metal."
   }
 ]
