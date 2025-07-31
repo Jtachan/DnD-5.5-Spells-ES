@@ -231,3 +231,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Llamar al relámpago                  | 3         |
 | Localizar animales o plantas         | 2         |
 | Localizar criatura                   | 4         |
+| Localizar objeto                     | 2         |
