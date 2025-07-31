@@ -238,3 +238,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Mal de ojo                           | 6         |
 | Maleficio                            | 1         |
 | Mano de Bigby                        | 5         |
+| Mano de mago                         | 0 (Truco) |
