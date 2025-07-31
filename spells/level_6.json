@@ -466,5 +466,31 @@
     "requiere_ataque": false,
     "descripcion": "Tocas el zafiro empleado en el lanzamiento y un objeto que pese 5 kg o menos y cuya dimensi\u00f3n m\u00e1s grande sea de 1,8 m o menos. El conjuro deja una marca invisible en su superficie y graba de la misma forma el nombre del objeto en el zafiro. Cada vez que lances este conjuro, deber\u00e1s usar un zafiro distinto.<br><br>A partir de entonces, podr\u00e1s emplear una acci\u00f3n de magia para decir el nombre del objeto y aplastar el zafiro. El objeto aparecer\u00e1 en tu mano al instante, sin importar las distancias f\u00edsicas o interplanares, y el conjuro terminar\u00e1.<br><br>Si otra criatura sostiene o lleva el objeto consigo, aplastar el zafiro no lo llevar\u00e1 hasta ti. En su lugar, descubrir\u00e1s qui\u00e9n es la criatura que lo tiene y su paradero actual.",
     "materiales": "Un zafiro que valga al menos 1000 po."
+  },
+  {
+    "nombre": "Invocar infernal",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un esp\u00edritu infernal que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu infernal</i>. Cuando lances el conjuro, elige demonio, diablo o yugoloth. La criatura se parecer\u00e1 a un infernal del tipo elegido, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "materiales": "Un vial con sangre que valga al menos 600 po."
   }
 ]

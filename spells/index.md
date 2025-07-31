@@ -217,4 +217,5 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Invocar dragón                       | 5         |
 | Invocar elemental                    | 4         |
 | Invocar feérico                      | 3         |
+| Invocar infernal                     | 6         |
 | Invocar muerto viviente              | 3         |
