@@ -219,5 +219,26 @@
     "requiere_ataque": false,
     "descripcion": "Destierras a una criatura que puedas ver dentro del alcance a un semiplano laber\u00edntico. El objetivo permanecer\u00e1 all\u00ed hasta que termine el conjuro o hasta que escape del laberinto.<br><br>El objetivo puede llevar a cabo una acci\u00f3n de estudiar para intentar escapar. Cuando lo haga, realizar\u00e1 una prueba de Inteligencia (Investigaci\u00f3n) con CD 20. Si la supera, escapar\u00e1 y el conjuro terminar\u00e1.<br><br>Cuando el conjuro termine, el objetivo reaparecer\u00e1 en el espacio que abandon\u00f3 o en el espacio sin ocupar m\u00e1s cercano si dicho espacio est\u00e1 ocupado.",
     "materiales": null
+  },
+  {
+    "nombre": "Labia",
+    "clases": [
+      "Bardo",
+      "Brujo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, cuando hagas una prueba de Carisma, puedes sustituir el resultado de la tirada por un 15. Adem\u00e1s, digas lo que digas, cualquier magia usada para detectar si dices la verdad indicar\u00e1 que la est\u00e1s diciendo.",
+    "materiales": null
   }
 ]

@@ -221,3 +221,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Invocar muerto viviente              | 3         |
 | Jaula de fuerza                      | 7         |
 | Laberinto                            | 8         |
+| Labia                                | 8         |
