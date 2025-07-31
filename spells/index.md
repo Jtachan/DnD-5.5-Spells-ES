@@ -213,3 +213,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Invocar aberración                   | 4         |
 | Invocar autómata                     | 4         |
 | Invocar bestia                       | 2         |
+| Invocar celestial                    | 5         |
