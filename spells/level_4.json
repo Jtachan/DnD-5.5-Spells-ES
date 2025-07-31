@@ -650,5 +650,32 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura voluntaria. Hasta que termine el conjuro, el movimiento del objetivo no se ve afectado por el terreno dif\u00edcil y los conjuros y otros efectos m\u00e1gicos no pueden reducir su velocidad ni hacer que tenga los estados de apresado o paralizado. Adem\u00e1s, el objetivo tiene una velocidad nadando igual a su velocidad.<br><br>El objetivo tambi\u00e9n puede gastar 1,5 m de movimiento para escapar autom\u00e1ticamente de ataduras no m\u00e1gicas, como unas esposas o una criatura que le imponga el estado de agarrado.",
     "materiales": "Una tira de cuero."
+  },
+  {
+    "nombre": "Localizar criatura",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Mago",
+      "Palad\u00edn"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Describe o nombra una criatura que conozcas. Presientes la direcci\u00f3n en la que se encuentra dicha criatura si est\u00e1 a 300 m o menos de ti. Si la criatura se est\u00e1 moviendo, conoces la direcci\u00f3n de su movimiento.<br><br>El conjuro puede localizar a una criatura espec\u00edfica que conozcas o a la criatura m\u00e1s cercana de un tipo espec\u00edfico (como un humano o un unicornio) si has visto a una criatura as\u00ed de cerca (a 9 m o menos) al menos una vez. Si una criatura que describas o nombres est\u00e1 adoptando una forma distinta, por ejemplo bajo los efectos de un conjuro de <i>la carne a la piedra</i> o <i>polimorfar</i>, este conjuro no la localiza.<br><br>El conjuro no puede localizar a una criatura si hay cualquier grosor de plomo que bloquee una ruta directa entre la criatura y t\u00fa.",
+    "materiales": "Pelaje de un sabueso."
   }
 ]

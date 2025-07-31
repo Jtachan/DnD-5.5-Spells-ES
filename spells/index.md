@@ -230,3 +230,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Llama sagrada                        | 0 (Truco) |
 | Llamar al relámpago                  | 3         |
 | Localizar animales o plantas         | 2         |
+| Localizar criatura                   | 4         |
