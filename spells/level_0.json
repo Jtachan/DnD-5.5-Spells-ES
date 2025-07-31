@@ -337,5 +337,29 @@
     "requiere_ataque": true,
     "descripcion": "Creas un l\u00e1tigo similar a una enredadera cubierta de espinas que fustiga bajo tus \u00f3rdenes a una criatura dentro del alcance. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo sufre 1d6 de da\u00f1o perforante y, si es Grande o m\u00e1s peque\u00f1o, puedes arrastrarlo hasta 3 m hacia ti.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
     "materiales": "El tallo de una planta con espinas."
+  },
+  {
+    "nombre": "Llama sagrada",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Un fulgor de llamas desciende sobre una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1 1d8 de da\u00f1o radiante. No podr\u00e1 beneficiarse de la cobertura media o tres cuartos en esta tirada.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "materiales": null
   }
 ]

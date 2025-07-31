@@ -227,3 +227,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Levitar                              | 2         |
 | Libertad de movimiento               | 4         |
 | Llama permanente                     | 2         |
+| Llama sagrada                        | 0 (Truco) |
