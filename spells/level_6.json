@@ -492,5 +492,29 @@
     "requiere_ataque": false,
     "descripcion": "Invocas un esp\u00edritu infernal que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu infernal</i>. Cuando lances el conjuro, elige demonio, diablo o yugoloth. La criatura se parecer\u00e1 a un infernal del tipo elegido, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
     "materiales": "Un vial con sangre que valga al menos 600 po."
+  },
+  {
+    "nombre": "Mal de ojo",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, tus ojos se convierten en un vac\u00edo oscuro. Una criatura de tu elecci\u00f3n que puedas ver a 18 m o menos de ti deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o se ver\u00e1 afectada por uno de los efectos descritos debajo, a tu elecci\u00f3n, hasta que termine el conjuro.<br><br>En cada uno de tus turnos hasta que el conjuro termine, puedes usar una acci\u00f3n de magia para hacer objetivo a otra criatura, pero no puedes volver a elegir a una que haya superado una tirada de salvaci\u00f3n contra este lanzamiento del conjuro.<br><br><i>N\u00e1useas.</i> El objetivo tiene el estado de envenenado.<br><br><i>P\u00e1nico.</i> El objetivo tiene el estado de asustado. En cada uno de sus turnos, el objetivo asustado deber\u00e1 realizar la acci\u00f3n de correr para alejarse de ti por la ruta m\u00e1s corta y segura disponible. Si se mueve a un espacio que est\u00e9 al menos a 18 m de ti donde no pueda verte, el efecto termina.<br><br><i>Sue\u00f1o.</i> El objetivo tiene el estado de inconsciente. Se despertar\u00e1 si recibe alg\u00fan da\u00f1o o si otra criatura utiliza una acci\u00f3n para despertarlo.",
+    "materiales": null
   }
 ]

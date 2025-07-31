@@ -235,3 +235,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Luces danzantes                      | 0 (Truco) |
 | Luz                                  | 0 (Truco) |
 | Luz del día                          | 3         |
+| Mal de ojo                           | 6         |
