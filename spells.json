@@ -5774,6 +5774,116 @@
     "nivel": 4
   },
   {
+    "nombre": "Localizar objeto",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Mago",
+      "Palad\u00edn"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Describe o nombra un objeto que conozcas. Presientes la direcci\u00f3n en la que se encuentra dicho objeto si est\u00e1 a 300 m o menos de ti. Si el objeto se est\u00e1 moviendo, conoces la direcci\u00f3n de su movimiento.<br><br>El conjuro puede localizar un objeto espec\u00edfico que conozcas si lo has visto de cerca (a 9 m o menos) al menos una vez. Como alternativa, el conjuro puede localizar el objeto m\u00e1s cercano de un tipo particular, como un cierto tipo de ropa, joyas, muebles, herramientas o armas.<br><br>El conjuro no puede localizar un objeto si hay cualquier grosor de plomo que bloquee una ruta directa entre dicho objeto y t\u00fa.",
+    "materiales": "Una ramita con forma de horquilla.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Luces danzantes",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas hasta cuatro luces del tama\u00f1o de antorchas dentro del alcance. Puedes darles la apariencia de antorchas, linternas u orbes luminosos, y levitar\u00e1n hasta que el conjuro termine. Como alternativa, combinas las cuatro luces en una sola de tama\u00f1o Mediano y aspecto vagamente humanoide. En ambos casos, cada luz proyecta una luz tenue en un radio de 3 m.<br><br>Como acci\u00f3n adicional, puedes mover las luces hasta 18 m a otro espacio dentro del alcance. Cada luz debe estar a 6 m o menos de otra luz creada por este conjuro y se desvanecer\u00e1 si sale del alcance del mismo.",
+    "materiales": "Una pizca de f\u00f3sforo.",
+    "nivel": 0
+  },
+  {
+    "nombre": "Luz",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas un objeto Grande o m\u00e1s peque\u00f1o que nadie lleve o vista. Hasta que el conjuro termine, el objeto emitir\u00e1 luz brillante en un radio de 6 m y luz tenue otros 6 m m\u00e1s all\u00e1. La luz puede tener el color que desees.<br><br>Tapar completamente el objeto con un material opaco bloquea la luz. El conjuro termina si lo vuelves a lanzar.",
+    "materiales": "Una luci\u00e9rnaga o musgo fosforescente.",
+    "nivel": 0
+  },
+  {
+    "nombre": "Luz del d\u00eda",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Palad\u00edn"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, una luz solar se extiende desde un punto dentro del alcance y llena una esfera de 18 m de radio. La zona que cubre es de luz brillante y emite una luz tenue 18 m m\u00e1s all\u00e1.<br><br>Como alternativa, lanzas el conjuro sobre un objeto que no lleve o vista nadie, lo que har\u00e1 que la luz solar llene una emanaci\u00f3n de 18 m metros que se origina en \u00e9l. Cubrir el objeto con algo opaco, como un cuenco o un casco, bloquear\u00e1 la luz solar.<br><br>Si cualquier zona del conjuro se superpone con una zona de oscuridad creada por un conjuro de nivel 3 o inferior, el conjuro que cre\u00f3 esa oscuridad se disipa.",
+    "materiales": null,
+    "nivel": 3
+  },
+  {
     "nombre": "L\u00e1tigo de espinas",
     "clases": [
       "Druida"
@@ -5798,5 +5908,182 @@
     "descripcion": "Creas un l\u00e1tigo similar a una enredadera cubierta de espinas que fustiga bajo tus \u00f3rdenes a una criatura dentro del alcance. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo sufre 1d6 de da\u00f1o perforante y, si es Grande o m\u00e1s peque\u00f1o, puedes arrastrarlo hasta 3 m hacia ti.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
     "materiales": "El tallo de una planta con espinas.",
     "nivel": 0
+  },
+  {
+    "nombre": "Mal de ojo",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, tus ojos se convierten en un vac\u00edo oscuro. Una criatura de tu elecci\u00f3n que puedas ver a 18 m o menos de ti deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o se ver\u00e1 afectada por uno de los efectos descritos debajo, a tu elecci\u00f3n, hasta que termine el conjuro.<br><br>En cada uno de tus turnos hasta que el conjuro termine, puedes usar una acci\u00f3n de magia para hacer objetivo a otra criatura, pero no puedes volver a elegir a una que haya superado una tirada de salvaci\u00f3n contra este lanzamiento del conjuro.<br><br><i>N\u00e1useas.</i> El objetivo tiene el estado de envenenado.<br><br><i>P\u00e1nico.</i> El objetivo tiene el estado de asustado. En cada uno de sus turnos, el objetivo asustado deber\u00e1 realizar la acci\u00f3n de correr para alejarse de ti por la ruta m\u00e1s corta y segura disponible. Si se mueve a un espacio que est\u00e9 al menos a 18 m de ti donde no pueda verte, el efecto termina.<br><br><i>Sue\u00f1o.</i> El objetivo tiene el estado de inconsciente. Se despertar\u00e1 si recibe alg\u00fan da\u00f1o o si otra criatura utiliza una acci\u00f3n para despertarlo.",
+    "materiales": null,
+    "nivel": 6
+  },
+  {
+    "nombre": "Maleficio",
+    "clases": [
+      "Brujo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Impones una maldici\u00f3n a una criatura que puedas ver dentro del alcance. Hasta que el conjuro termine, infliges 1d6 de da\u00f1o necr\u00f3tico adicional al objetivo siempre que le aciertes con una tirada de ataque. Adem\u00e1s, elige una caracter\u00edstica cuando lances el conjuro. El objetivo tendr\u00e1 desventaja en las pruebas que haga con la caracter\u00edstica elegida.<br><br>Si los puntos de golpe del objetivo se reducen a 0 antes de que el conjuro termine, puedes usar una acci\u00f3n adicional en un turno posterior para maldecir a una nueva criatura.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Tu concentraci\u00f3n puede durar m\u00e1s si usas un espacio de conjuro de nivel 2 (hasta 4 horas), 3 o 4 (hasta 8 horas) o 5 o m\u00e1s (24 horas).",
+    "materiales": "El ojo petrificado de un trit\u00f3n.",
+    "nivel": 1
+  },
+  {
+    "nombre": "Mano de Bigby",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Creas una mano de energ\u00eda m\u00e1gica brillante de tama\u00f1o Grande en un espacio sin ocupar que puedas ver dentro del alcance. Esta mano durar\u00e1 hasta que el conjuro termine y estar\u00e1 bajo tus \u00f3rdenes, imitando los movimientos de tu propia mano.<br><br>La mano es un objeto con una CA de 20 y una cantidad de puntos de golpe igual a tus puntos de golpe m\u00e1ximos. Si sus puntos de golpe se reducen a 0, el conjuro termina. La mano no ocupa el espacio en el que se encuentra.<br><br>Cuando lances el conjuro y como acci\u00f3n adicional en tus siguientes turnos, puedes mover la mano hasta 18 m y luego usar uno de los siguientes efectos:<br><br><i>Mano apresadora.</i> La mano intenta agarrar a una criatura Enorme o m\u00e1s peque\u00f1a que est\u00e9 a 1,5 m o menos de ella. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o tendr\u00e1 el estado de agarrado. La CD para escapar es igual a tu CD de salvaci\u00f3n de conjuros. Mientras la mano agarre al objetivo, puedes usar una acci\u00f3n adicional para hacer que la mano lo aplaste y causarle una cantidad de da\u00f1o contundente igual a 4d6 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><i>Mano contundente.</i> La mano intenta empujar a una criatura Enorme o m\u00e1s peque\u00f1a que est\u00e9 a 1,5 m o menos de ella. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o la mano lo empujar\u00e1 hasta 1,5 m m\u00e1s una distancia igual a 1,5 m \u00d7 tu modificador por aptitud m\u00e1gica. La mano se mueve a la vez que el objetivo y permanece a 1,5 m o menos de \u00e9l.<br><br><i>Mano interpuesta.</i> La mano te proporciona cobertura media contra ataques y otros efectos que se originen en su espacio o intenten atravesarla. Adem\u00e1s, ese espacio se considera terreno dif\u00edcil para tus enemigos.<br><br><i>Pu\u00f1o cerrado.</i> La mano golpea a un objetivo a 1,5 m o menos de ella. Haz un ataque de conjuro cuerpo a cuerpo. Si acierta, el objetivo recibe 5d8 de da\u00f1o de fuerza.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o del pu\u00f1o cerrado aumenta en 2d8 y el da\u00f1o de la mano apresadora aumenta en 2d6 por cada nivel por encima de 5 que tenga el espacio.",
+    "materiales": "Una c\u00e1scara de huevo y un guante.",
+    "nivel": 5
+  },
+  {
+    "nombre": "Mano de mago",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Conjuras una mano espectral flotante en un punto de tu elecci\u00f3n dentro del alcance. La mano dura hasta que el conjuro termine. Adem\u00e1s, desaparecer\u00e1 si en alg\u00fan momento est\u00e1 a m\u00e1s de 9 m de ti o si vuelves a lanzar este conjuro.<br><br>Cuando lances este conjuro, puedes utilizar la mano para manipular un objeto, abrir una puerta o un recipiente que no est\u00e9n cerrados con llave, sacar un objeto de un recipiente abierto o guardarlo en \u00e9l o verter el contenido de un vial.<br><br>Como acci\u00f3n de magia en tus siguientes turnos, puedes volver a controlar la mano de esta forma. Como parte de la acci\u00f3n, puedes mover la mano hasta 9 m.<br><br>La mano no puede atacar, activar objetos m\u00e1gicos ni llevar m\u00e1s de 5 kg de peso.",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "Manos ardientes",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Una fina capa de llamas se proyecta desde ti. Todas las criaturas situadas en un cono de 4,5 m hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 3d6 de da\u00f1o de fuego si la fallan o la mitad del da\u00f1o si la superan.<br><br>Los objetos inflamables dentro del cono que no lleve o vista nadie empezar\u00e1n a arder.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Mansi\u00f3n magn\u00edfica de Mordenkainen",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "300 pies",
+      "90 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Conjuras una puerta brillante dentro del alcance que permanece hasta que el conjuro termine. La puerta mide 1,5 m de ancho y 3 m de alto y lleva a una morada extradimensional. T\u00fa y cualquier criatura que designes cuando lances el conjuro podr\u00e9is entrar en la morada extradimensional mientras la puerta permanezca abierta. Puedes abrirla o cerrarla (no requiere acci\u00f3n) si est\u00e1s a 9 m o menos de ella. Mientras permanezca cerrada, es imperceptible.<br><br>Al otro lado de la puerta encuentras un fastuoso recibidor, tras la cual se hallan numerosas estancias. La morada est\u00e1 limpia y es fresca y c\u00e1lida.<br><br>Puedes crear cualquier plano de planta que desees, pero no puede superar los 50 cubos contiguos, cada uno de 3 m de lado. El lugar est\u00e1 amueblado y decorado como elijas y contiene comida suficiente como para servir un banquete de nueve platos a hasta 100 personas. Los muebles y otros objetos creados por este conjuro se convierten en humo si se sacan del lugar.<br><br>El personal de servicio est\u00e1 compuesto de 100 sirvientes casi transparentes que atienden a todos los que entran. T\u00fa decides la apariencia y el atuendo de estos sirvientes, que son invulnerables y obedecen tus \u00f3rdenes. Los sirvientes pueden realizar las tareas que har\u00eda un humano, pero no pueden atacar ni realizar ninguna acci\u00f3n que da\u00f1ar\u00eda directamente a otra criatura. Por lo tanto, pueden traer y llevar cosas, limpiar, arreglar y plegar ropa, encender fuegos, servir comida y vino, etc, aunque no pueden abandonar el lugar.<br><br>Cuando el conjuro termina, todas las criaturas u objetos que queden en el espacio extradimensional son expulsados a los espacios sin ocupar m\u00e1s cercanos a la entrada.",
+    "materiales": "Una puerta en miniatura que valga al menos 15 po.",
+    "nivel": 7
+  },
+  {
+    "nombre": "Manto del cruzado",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Irradias un aura m\u00e1gica en una emanaci\u00f3n de 9 m. Mientras permanezc\u00e1is dentro, tus aliados y t\u00fa causar\u00e9is 1d4 de da\u00f1o radiante adicional cuando acert\u00e9is con un arma o un ataque sin armas.",
+    "materiales": null,
+    "nivel": 3
   }
 ]
