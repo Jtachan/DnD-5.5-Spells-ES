@@ -951,5 +951,28 @@
     "requiere_ataque": false,
     "descripcion": "Una fina capa de llamas se proyecta desde ti. Todas las criaturas situadas en un cono de 4,5 m hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 3d6 de da\u00f1o de fuego si la fallan o la mitad del da\u00f1o si la superan.<br><br>Los objetos inflamables dentro del cono que no lleve o vista nadie empezar\u00e1n a arder.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Marca del cazador",
+    "clases": [
+      "Explorador"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Marcas m\u00e1gicamente a una criatura que puedas ver dentro del alcance como tu presa. Hasta que el conjuro termine, infliges 1d6 de da\u00f1o de fuerza adicional al objetivo siempre que le aciertes con una tirada de ataque. Tambi\u00e9n tendr\u00e1s ventaja en cualquier prueba de Sabidur\u00eda (Percepci\u00f3n o Supervivencia) que realices para buscarlo.<br><br>Si los puntos de golpe del objetivo se reducen a 0 antes de que el conjuro termine, puedes emplear una acci\u00f3n adicional para transferir la marca a una nueva criatura que puedas ver dentro del alcance.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Tu concentraci\u00f3n puede durar m\u00e1s si usas un espacio de conjuro de nivel 3 o 4 (hasta 8 horas) o 5 o m\u00e1s (hasta 24 horas).",
+    "materiales": null
   }
 ]
