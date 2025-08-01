@@ -881,5 +881,30 @@
     "requiere_ataque": true,
     "descripcion": "Creas una mano de energ\u00eda m\u00e1gica brillante de tama\u00f1o Grande en un espacio sin ocupar que puedas ver dentro del alcance. Esta mano durar\u00e1 hasta que el conjuro termine y estar\u00e1 bajo tus \u00f3rdenes, imitando los movimientos de tu propia mano.<br><br>La mano es un objeto con una CA de 20 y una cantidad de puntos de golpe igual a tus puntos de golpe m\u00e1ximos. Si sus puntos de golpe se reducen a 0, el conjuro termina. La mano no ocupa el espacio en el que se encuentra.<br><br>Cuando lances el conjuro y como acci\u00f3n adicional en tus siguientes turnos, puedes mover la mano hasta 18 m y luego usar uno de los siguientes efectos:<br><br><i>Mano apresadora.</i> La mano intenta agarrar a una criatura Enorme o m\u00e1s peque\u00f1a que est\u00e9 a 1,5 m o menos de ella. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o tendr\u00e1 el estado de agarrado. La CD para escapar es igual a tu CD de salvaci\u00f3n de conjuros. Mientras la mano agarre al objetivo, puedes usar una acci\u00f3n adicional para hacer que la mano lo aplaste y causarle una cantidad de da\u00f1o contundente igual a 4d6 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><i>Mano contundente.</i> La mano intenta empujar a una criatura Enorme o m\u00e1s peque\u00f1a que est\u00e9 a 1,5 m o menos de ella. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o la mano lo empujar\u00e1 hasta 1,5 m m\u00e1s una distancia igual a 1,5 m \u00d7 tu modificador por aptitud m\u00e1gica. La mano se mueve a la vez que el objetivo y permanece a 1,5 m o menos de \u00e9l.<br><br><i>Mano interpuesta.</i> La mano te proporciona cobertura media contra ataques y otros efectos que se originen en su espacio o intenten atravesarla. Adem\u00e1s, ese espacio se considera terreno dif\u00edcil para tus enemigos.<br><br><i>Pu\u00f1o cerrado.</i> La mano golpea a un objetivo a 1,5 m o menos de ella. Haz un ataque de conjuro cuerpo a cuerpo. Si acierta, el objetivo recibe 5d8 de da\u00f1o de fuerza.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o del pu\u00f1o cerrado aumenta en 2d8 y el da\u00f1o de la mano apresadora aumenta en 2d6 por cada nivel por encima de 5 que tenga el espacio.",
     "materiales": "Una c\u00e1scara de huevo y un guante."
+  },
+  {
+    "nombre": "Muro de fuerza",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Un muro de fuerza invisible surge de la nada en un punto de tu elecci\u00f3n dentro del alcance. Este muro adopta la orientaci\u00f3n que t\u00fa elijas y puede ser tanto una barrera horizontal o vertical como estar situado en \u00e1ngulo. Tambi\u00e9n puede flotar o estar apoyado en una superficie s\u00f3lida. Puedes darle forma de c\u00fapula semiesf\u00e9rica o de globo con un radio de hasta 3 m o puedes hacer que sea una superficie plana compuesta por hasta 10 paneles de 3 m por 3 m. Cada panel debe estar adyacente a otro panel. En cualquiera de las formas, el muro tiene un grosor de 6 mm y durar\u00e1 hasta que termine el conjuro. Al aparecer, si el muro atraviesa el espacio de una criatura, esta es empujada hacia un lado del muro (t\u00fa eliges cu\u00e1l).<br><br>Nada puede atravesar el muro f\u00edsicamente. Es inmune a todo el da\u00f1o y no se puede eliminar mediante <i>disipar magia</i>. Sin embargo, un conjuro <i>desintegrar</i> destruye el muro al instante. El muro tambi\u00e9n se extiende hasta el Plano Et\u00e9reo e impide el viaje et\u00e9reo a trav\u00e9s de \u00e9l.",
+    "materiales": "Un trozo de vidrio."
   }
 ]

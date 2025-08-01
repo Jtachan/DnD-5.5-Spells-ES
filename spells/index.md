@@ -252,3 +252,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Mover la tierra                      | 6         |
 | Muro de espinas                      | 6         |
 | Muro de fuego                        | 4         |
+| Muro de fuerza                       | 5         |
