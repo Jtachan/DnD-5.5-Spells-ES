@@ -729,5 +729,29 @@
     "requiere_ataque": false,
     "descripcion": "Conjuras un perro guardi\u00e1n en un espacio sin ocupar que puedas ver dentro del alcance. El perro permanece hasta que el conjuro termine o hasta que os alej\u00e9is a m\u00e1s de 90 m.<br><br>Solo t\u00fa puedes verlo y es intangible e invulnerable. Cuando una criatura Peque\u00f1a o de mayor tama\u00f1o se acerque a 9 m o menos de \u00e9l sin decir la contrase\u00f1a que especificaste al lanzar el conjuro, el mast\u00edn empezar\u00e1 a ladrar ruidosamente. Adem\u00e1s, tiene visi\u00f3n verdadera hasta 9 m.<br><br>Al principio de cada uno de tus turnos, el mast\u00edn tratar\u00e1 de morder a un enemigo que est\u00e9 a 1,5 m o menos de \u00e9l. Ese enemigo deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1 4d8 de da\u00f1o de fuerza.<br><br>En tus siguientes turnos, puedes usar una acci\u00f3n de magia para mover el mast\u00edn hasta 9 m.",
     "materiales": "Un silbato de plata."
+  },
+  {
+    "nombre": "Moldear la piedra",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas un objeto de piedra de tama\u00f1o Mediano o m\u00e1s peque\u00f1o, o una secci\u00f3n de piedra que no mida m\u00e1s de 1,5 m en cualquier dimensi\u00f3n, y lo moldeas como desees. Puedes convertirlo en un arma, estatua, cofre o crear un pasaje peque\u00f1o a trav\u00e9s de una pared de hasta 1,5 m de grosor. Tambi\u00e9n puedes transformar puertas y marcos, pero no crear detalles mec\u00e1nicos precisos como cerraduras complejas.",
+    "materiales": "Arcilla blanda."
   }
 ]

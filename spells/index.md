@@ -248,3 +248,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Mensaje                              | 0 (Truco) |
 | Mensajero animal                     | 2         |
 | Mente en blanco                      | 8         |
+| Moldear la piedra                    | 4         |
