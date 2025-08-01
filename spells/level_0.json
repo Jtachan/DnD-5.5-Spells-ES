@@ -439,5 +439,32 @@
     "requiere_ataque": false,
     "descripcion": "Conjuras una mano espectral flotante en un punto de tu elecci\u00f3n dentro del alcance. La mano dura hasta que el conjuro termine. Adem\u00e1s, desaparecer\u00e1 si en alg\u00fan momento est\u00e1 a m\u00e1s de 9 m de ti o si vuelves a lanzar este conjuro.<br><br>Cuando lances este conjuro, puedes utilizar la mano para manipular un objeto, abrir una puerta o un recipiente que no est\u00e9n cerrados con llave, sacar un objeto de un recipiente abierto o guardarlo en \u00e9l o verter el contenido de un vial.<br><br>Como acci\u00f3n de magia en tus siguientes turnos, puedes volver a controlar la mano de esta forma. Como parte de la acci\u00f3n, puedes mover la mano hasta 9 m.<br><br>La mano no puede atacar, activar objetos m\u00e1gicos ni llevar m\u00e1s de 5 kg de peso.",
     "materiales": null
+  },
+  {
+    "nombre": "Mensaje",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Se\u00f1alas a una criatura dentro del alcance y susurras un mensaje. El objetivo (y \u00fanicamente el objetivo) escucha el mensaje y puede responder con un susurro que solamente t\u00fa puedes o\u00edr.<br><br>Puedes lanzar este conjuro a trav\u00e9s de objetos f\u00edsicos si conoces al objetivo y sabes que est\u00e1 detr\u00e1s de la barrera. El silencio m\u00e1gico, 30 cm de piedra, metal o madera o una l\u00e1mina fina de plomo bloquean el conjuro.",
+    "materiales": "Un alambre de cobre."
   }
 ]

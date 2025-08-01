@@ -245,3 +245,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Marca del cazador                    | 1         |
 | Marchitar                            | 4         |
 | Mastín fiel de Mordenkainen          | 4         |
+| Mensaje                              | 0 (Truco) |
