@@ -250,3 +250,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Mente en blanco                      | 8         |
 | Moldear la piedra                    | 4         |
 | Mover la tierra                      | 6         |
+| Muro de espinas                      | 6         |
