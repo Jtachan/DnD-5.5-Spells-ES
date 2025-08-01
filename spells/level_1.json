@@ -269,7 +269,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Produces uno de estos efectos:<br><br><b>Crear agua.</b> Creas hasta 40 l de agua limpia dentro del alcance en un recipiente abierto. Como alternativa, el agua cae en forma de lluvia en un cubo de 9 m de lado dentro del alcance y apaga las llamas abiertas de la zona.<br><br><b>Destruir agua.</b> Destruyes hasta 40 l de agua dentro del alcance o en un recipiente abierto. Como alternativa, puedes destruir niebla en un cubo de 9 m de lado dentro del alcance.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Creas o destruyes 40 l m\u00e1s de agua o el tama\u00f1o del cubo aumenta en 1,5 m por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Produces uno de estos efectos:<br><br><b>Crear agua.</b> Creas hasta 40 l de agua limpia dentro del alcance en un recipiente abierto. Como alternativa, el agua cae en forma de lluvia en un cubo de 9 m de lado dentro del alcance y apaga las llamas abiertas de la zona.<br><br><b>Destruir agua.</b> Destruyes hasta 40 l de agua dentro del alcance o en un recipiente abierto. Como alternativa, puedes destruir niebla en un cubo de 9 m de lado dentro del alcance.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Creas o destruyes 40 l m\u00e1s de agua o el tama\u00f1o del cubo aumenta en 1,5 m por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": "Una mezcla de agua y arena."
   },
   {
@@ -295,7 +295,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": true,
-    "descripcion": "Creas una esquirla de hielo y se la lanzas a una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de da\u00f1o perforante. Acierta o falle, el fragmento explotar\u00e1. El objetivo y todas las criaturas a 1,5 m menos de \u00e9l deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o recibir\u00e1n 2d6 de da\u00f1o de fr\u00edo.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o de fr\u00edo aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Creas una esquirla de hielo y se la lanzas a una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de da\u00f1o perforante. Acierta o falle, el fragmento explotar\u00e1. El objetivo y todas las criaturas a 1,5 m menos de \u00e9l deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o recibir\u00e1n 2d6 de da\u00f1o de fr\u00edo.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o de fr\u00edo aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": "Una gota de agua o un trozo de hielo."
   },
   {
@@ -320,7 +320,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d8 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> La curaci\u00f3n aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d8 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -520,7 +520,7 @@
     "duracion": "24 horas",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Haces objetivo a una bestia que puedes ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizado por ti durante 24 horas o hasta que t\u00fa o tus aliados le hag\u00e1is da\u00f1o al objetivo.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una bestia adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Haces objetivo a una bestia que puedes ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizado por ti durante 24 horas o hasta que t\u00fa o tus aliados le hag\u00e1is da\u00f1o al objetivo.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una bestia adicional por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": "Unas migajas de comida."
   },
   {
@@ -666,7 +666,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Obtienes 2d4 + 4 puntos de golpe temporales.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Obtienes 5 puntos de golpe temporales adicionales por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Obtienes 2d4 + 4 puntos de golpe temporales.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Obtienes 5 puntos de golpe temporales adicionales por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": "Una gota de alcohol."
   },
   {
@@ -731,7 +731,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "Al acertar al objetivo, unas enredaderas aparecer\u00e1n sobre \u00e9l y deber\u00e1 hacer una tirada de salvaci\u00f3n de Fuerza. Las criaturas Grandes o de mayor tama\u00f1o tienen ventaja en esta tirada. Si la falla, tendr\u00e1 el estado de apresado hasta que el conjuro termine. Si la supera, las enredaderas se marchitan y el conjuro termina.<br><br>Mientras est\u00e9 apresado, el objetivo sufrir\u00e1 1d6 de da\u00f1o perforante al principio de cada uno de sus turnos. El objetivo o una criatura a su alcance puede emplear una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, el conjuro termina.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Al acertar al objetivo, unas enredaderas aparecer\u00e1n sobre \u00e9l y deber\u00e1 hacer una tirada de salvaci\u00f3n de Fuerza. Las criaturas Grandes o de mayor tama\u00f1o tienen ventaja en esta tirada. Si la falla, tendr\u00e1 el estado de apresado hasta que el conjuro termine. Si la supera, las enredaderas se marchitan y el conjuro termina.<br><br>Mientras est\u00e9 apresado, el objetivo sufrir\u00e1 1d6 de da\u00f1o perforante al principio de cada uno de sus turnos. El objetivo o una criatura a su alcance puede emplear una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, el conjuro termina.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -809,7 +809,7 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Un humanoide que puedas ver dentro del alcance realiza una tirada de salvaci\u00f3n de Sabidur\u00eda. La hace con ventaja si est\u00e1 luchando contra ti o tus aliados. Si la falla, tendr\u00e1 el estado de hechizado hasta que el conjuro termine o hasta que tus aliados o t\u00fa le hag\u00e1is da\u00f1o. La criatura hechizada es amistosa contigo, pero cuando el conjuro termine, sabr\u00e1 que la hechizaste.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Un humanoide que puedas ver dentro del alcance realiza una tirada de salvaci\u00f3n de Sabidur\u00eda. La hace con ventaja si est\u00e1 luchando contra ti o tus aliados. Si la falla, tendr\u00e1 el estado de hechizado hasta que el conjuro termine o hasta que tus aliados o t\u00fa le hag\u00e1is da\u00f1o. La criatura hechizada es amistosa contigo, pero cuando el conjuro termine, sabr\u00e1 que la hechizaste.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -831,7 +831,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Insuflas valor a una criatura voluntaria a la que toques. Hasta que el conjuro termine, la criatura es inmune al estado de asustada y obtiene una cantidad de puntos de golpe temporales igual a tu modificador por aptitud m\u00e1gica al principio de cada uno de sus turnos.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Insuflas valor a una criatura voluntaria a la que toques. Hasta que el conjuro termine, la criatura es inmune al estado de asustada y obtiene una cantidad de puntos de golpe temporales igual a tu modificador por aptitud m\u00e1gica al principio de cada uno de sus turnos.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -902,7 +902,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Una criatura a la que toques hace una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 2d10 de da\u00f1o necr\u00f3tico si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Una criatura a la que toques hace una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 2d10 de da\u00f1o necr\u00f3tico si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
@@ -927,7 +927,7 @@
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Impones una maldici\u00f3n a una criatura que puedas ver dentro del alcance. Hasta que el conjuro termine, infliges 1d6 de da\u00f1o necr\u00f3tico adicional al objetivo siempre que le aciertes con una tirada de ataque. Adem\u00e1s, elige una caracter\u00edstica cuando lances el conjuro. El objetivo tendr\u00e1 desventaja en las pruebas que haga con la caracter\u00edstica elegida.<br><br>Si los puntos de golpe del objetivo se reducen a 0 antes de que el conjuro termine, puedes usar una acci\u00f3n adicional en un turno posterior para maldecir a una nueva criatura.<br><br><b><i>Con un espacio de conjuro de nivel superior</i></b> Tu concentraci\u00f3n puede durar m\u00e1s si usas un espacio de conjuro de nivel 2 (hasta 4 horas), 3 o 4 (hasta 8 horas) o 5 o m\u00e1s (24 horas).",
+    "descripcion": "Impones una maldici\u00f3n a una criatura que puedas ver dentro del alcance. Hasta que el conjuro termine, infliges 1d6 de da\u00f1o necr\u00f3tico adicional al objetivo siempre que le aciertes con una tirada de ataque. Adem\u00e1s, elige una caracter\u00edstica cuando lances el conjuro. El objetivo tendr\u00e1 desventaja en las pruebas que haga con la caracter\u00edstica elegida.<br><br>Si los puntos de golpe del objetivo se reducen a 0 antes de que el conjuro termine, puedes usar una acci\u00f3n adicional en un turno posterior para maldecir a una nueva criatura.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Tu concentraci\u00f3n puede durar m\u00e1s si usas un espacio de conjuro de nivel 2 (hasta 4 horas), 3 o 4 (hasta 8 horas) o 5 o m\u00e1s (24 horas).",
     "materiales": "El ojo petrificado de un trit\u00f3n."
   },
   {

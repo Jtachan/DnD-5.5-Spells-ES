@@ -18,7 +18,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Una descarga el\u00e9ctrica surge de tu mano hacia una criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo recibir\u00e1 1d8 de da\u00f1o de rel\u00e1mpago y no podr\u00e1 realizar ataques de oportunidad hasta el principio de su siguiente turno.<br><br><i><b>Mejora de truco:</b></i> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "descripcion": "Una descarga el\u00e9ctrica surge de tu mano hacia una criatura que intentas tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo recibir\u00e1 1d8 de da\u00f1o de rel\u00e1mpago y no podr\u00e1 realizar ataques de oportunidad hasta el principio de su siguiente turno.<br><br><i><b>Mejora de truco.</b></i> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
     "materiales": null
   },
   {
@@ -68,7 +68,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Profieres una sarta de improperios mezclados con encantamientos sutiles hacia una criatura que puedas ver u o\u00edr dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o recibir\u00e1 1d6 de da\u00f1o ps\u00edquico y tendr\u00e1 desventaja en la pr\u00f3xima tirada de ataque que realice antes de que acabe su siguiente turno.<br><br><i><b>Mejora de truco:</b></i> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "descripcion": "Profieres una sarta de improperios mezclados con encantamientos sutiles hacia una criatura que puedas ver u o\u00edr dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o recibir\u00e1 1d6 de da\u00f1o ps\u00edquico y tendr\u00e1 desventaja en la pr\u00f3xima tirada de ataque que realice antes de que acabe su siguiente turno.<br><br><i><b>Mejora de truco.</b></i> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
     "materiales": null
   },
   {
@@ -89,7 +89,7 @@
     "duracion": "10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 6 m y luz tenue 6 m m\u00e1s all\u00e1. El conjuro termina si lo vuelves a lanzar.<br><br>Hasta que el conjuro termine, puedes usar una acci\u00f3n de magia para arrojar la llama a una criatura u objeto a 18 m o menos de ti. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d8 de da\u00f1o de fuego.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "descripcion": "En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 6 m y luz tenue 6 m m\u00e1s all\u00e1. El conjuro termina si lo vuelves a lanzar.<br><br>Hasta que el conjuro termine, puedes usar una acci\u00f3n de magia para arrojar la llama a una criatura u objeto a 18 m o menos de ti. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d8 de da\u00f1o de fuego.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
     "materiales": null
   },
   {
@@ -114,7 +114,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Arrojas una mota de fuego a una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d10 de da\u00f1o de fuego. Objetos inflamables impactados comenzar\u00e1n a arder si nadie los lleva o viste.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).",
+    "descripcion": "Arrojas una mota de fuego a una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d10 de da\u00f1o de fuego. Objetos inflamables impactados comenzar\u00e1n a arder si nadie los lleva o viste.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).",
     "materiales": null
   },
   {
@@ -138,7 +138,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Lanzas un rayo de energ\u00eda chisporroteante. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d10 de da\u00f1o de fuerza.<br><br><b><i>Mejora de truco</i></b> El conjuro crea dos rayos a nivel 5, tres rayos a nivel 11 y cuatro rayos a nivel 17. Puedes dirigir los rayos al mismo objetivo o a distintos. Realiza una tirada de ataque por separado para cada rayo.",
+    "descripcion": "Lanzas un rayo de energ\u00eda chisporroteante. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d10 de da\u00f1o de fuerza.<br><br><b><i>Mejora de truco.</i></b> El conjuro crea dos rayos a nivel 5, tres rayos a nivel 11 y cuatro rayos a nivel 17. Puedes dirigir los rayos al mismo objetivo o a distintos. Realiza una tirada de ataque por separado para cada rayo.",
     "materiales": null
   },
   {
@@ -188,7 +188,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Lanzas energ\u00eda m\u00e1gica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de da\u00f1o del tipo que elijas: \u00e1cido, fr\u00edo, fuego, ps\u00edquico, rel\u00e1mpago, trueno o veneno.<br><br>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al da\u00f1o. Cuando lances este conjuro, la cantidad m\u00e1xima de d8 que puedes sumar al da\u00f1o del conjuro es igual a tu modificador por aptitud m\u00e1gica.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "descripcion": "Lanzas energ\u00eda m\u00e1gica contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de da\u00f1o del tipo que elijas: \u00e1cido, fr\u00edo, fuego, ps\u00edquico, rel\u00e1mpago, trueno o veneno.<br><br>Si sacas un 8 en un d8 con este conjuro, puedes tirar otro d8 y sumarlo al da\u00f1o. Cuando lances este conjuro, la cantidad m\u00e1xima de d8 que puedes sumar al da\u00f1o del conjuro es igual a tu modificador por aptitud m\u00e1gica.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
     "materiales": null
   },
   {
@@ -213,7 +213,7 @@
     "duracion": "1 asalto",
     "tirada_de_salvacion": "INT",
     "requiere_ataque": false,
-    "descripcion": "Intentas fragmentar de forma temporal la mente de una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Inteligencia o recibir\u00e1 1d6 de da\u00f1o ps\u00edquico y restar\u00e1 1d4 en la siguiente tirada de salvaci\u00f3n que haga antes del final de tu siguiente turno.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "descripcion": "Intentas fragmentar de forma temporal la mente de una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Inteligencia o recibir\u00e1 1d6 de da\u00f1o ps\u00edquico y restar\u00e1 1d4 en la siguiente tirada de salvaci\u00f3n que haga antes del final de tu siguiente turno.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
     "materiales": null
   },
   {
@@ -310,7 +310,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Un destello de perspicacia m\u00e1gica te gu\u00eda y haces un ataque con el arma empleada para lanzar el conjuro. El ataque usa tu aptitud m\u00e1gica para las tiradas de ataque y de da\u00f1o en lugar de la Fuerza o la Destreza. Si el ataque inflige da\u00f1o, puede ser radiante o del tipo de da\u00f1o normal del arma (a tu elecci\u00f3n).<br><br><b><i>Mejora de truco</i></b> Independientemente de si haces da\u00f1o radiante o del tipo normal del arma, el ataque inflige da\u00f1o radiante adicional cuando alcanzas los niveles 5 (1d6), 11 (2d6) y 17 (3d6).",
+    "descripcion": "Un destello de perspicacia m\u00e1gica te gu\u00eda y haces un ataque con el arma empleada para lanzar el conjuro. El ataque usa tu aptitud m\u00e1gica para las tiradas de ataque y de da\u00f1o en lugar de la Fuerza o la Destreza. Si el ataque inflige da\u00f1o, puede ser radiante o del tipo de da\u00f1o normal del arma (a tu elecci\u00f3n).<br><br><b><i>Mejora de truco.</i></b> Independientemente de si haces da\u00f1o radiante o del tipo normal del arma, el ataque inflige da\u00f1o radiante adicional cuando alcanzas los niveles 5 (1d6), 11 (2d6) y 17 (3d6).",
     "materiales": "Un arma con la que tengas competencia y que valga al menos 1 pc."
   },
   {
@@ -335,7 +335,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Creas un l\u00e1tigo similar a una enredadera cubierta de espinas que fustiga bajo tus \u00f3rdenes a una criatura dentro del alcance. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo sufre 1d6 de da\u00f1o perforante y, si es Grande o m\u00e1s peque\u00f1o, puedes arrastrarlo hasta 3 m hacia ti.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "descripcion": "Creas un l\u00e1tigo similar a una enredadera cubierta de espinas que fustiga bajo tus \u00f3rdenes a una criatura dentro del alcance. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo sufre 1d6 de da\u00f1o perforante y, si es Grande o m\u00e1s peque\u00f1o, puedes arrastrarlo hasta 3 m hacia ti.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
     "materiales": "El tallo de una planta con espinas."
   },
   {
@@ -359,7 +359,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Un fulgor de llamas desciende sobre una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1 1d8 de da\u00f1o radiante. No podr\u00e1 beneficiarse de la cobertura media o tres cuartos en esta tirada.<br><br><b><i>Mejora de truco</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "descripcion": "Un fulgor de llamas desciende sobre una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1 1d8 de da\u00f1o radiante. No podr\u00e1 beneficiarse de la cobertura media o tres cuartos en esta tirada.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
     "materiales": null
   },
   {
