@@ -251,3 +251,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Moldear la piedra                    | 4         |
 | Mover la tierra                      | 6         |
 | Muro de espinas                      | 6         |
+| Muro de fuego                        | 4         |
