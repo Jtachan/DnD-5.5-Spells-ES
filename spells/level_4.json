@@ -677,5 +677,32 @@
     "requiere_ataque": false,
     "descripcion": "Describe o nombra una criatura que conozcas. Presientes la direcci\u00f3n en la que se encuentra dicha criatura si est\u00e1 a 300 m o menos de ti. Si la criatura se est\u00e1 moviendo, conoces la direcci\u00f3n de su movimiento.<br><br>El conjuro puede localizar a una criatura espec\u00edfica que conozcas o a la criatura m\u00e1s cercana de un tipo espec\u00edfico (como un humano o un unicornio) si has visto a una criatura as\u00ed de cerca (a 9 m o menos) al menos una vez. Si una criatura que describas o nombres est\u00e1 adoptando una forma distinta, por ejemplo bajo los efectos de un conjuro de <i>la carne a la piedra</i> o <i>polimorfar</i>, este conjuro no la localiza.<br><br>El conjuro no puede localizar a una criatura si hay cualquier grosor de plomo que bloquee una ruta directa entre la criatura y t\u00fa.",
     "materiales": "Pelaje de un sabueso."
+  },
+  {
+    "nombre": "Marchitar",
+    "clases": [
+      "Brujo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura a la que puedas ver dentro del alcance deber\u00e1 hacer una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 8d8 de da\u00f1o necr\u00f3tico si la falla o la mitad del da\u00f1o si la supera. Las criaturas de tipo \u201cplanta\u201d fallan autom\u00e1ticamente la tirada.<br><br>Como alternativa, haz objetivo a una planta no m\u00e1gica que no sea una criatura, como un \u00e1rbol o un arbusto. No har\u00e1 una tirada de salvaci\u00f3n: simplemente se marchitar\u00e1 y morir\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": null
   }
 ]

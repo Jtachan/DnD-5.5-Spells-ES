@@ -243,3 +243,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Mansión magnífica de Mordenkainen    | 7         |
 | Manto del cruzado                    | 3         |
 | Marca del cazador                    | 1         |
+| Marchitar                            | 4         |
