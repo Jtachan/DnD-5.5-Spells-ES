@@ -704,5 +704,30 @@
     "requiere_ataque": false,
     "descripcion": "Una criatura a la que puedas ver dentro del alcance deber\u00e1 hacer una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 8d8 de da\u00f1o necr\u00f3tico si la falla o la mitad del da\u00f1o si la supera. Las criaturas de tipo \u201cplanta\u201d fallan autom\u00e1ticamente la tirada.<br><br>Como alternativa, haz objetivo a una planta no m\u00e1gica que no sea una criatura, como un \u00e1rbol o un arbusto. No har\u00e1 una tirada de salvaci\u00f3n: simplemente se marchitar\u00e1 y morir\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Mast\u00edn fiel de Mordenkainen",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Conjuras un perro guardi\u00e1n en un espacio sin ocupar que puedas ver dentro del alcance. El perro permanece hasta que el conjuro termine o hasta que os alej\u00e9is a m\u00e1s de 90 m.<br><br>Solo t\u00fa puedes verlo y es intangible e invulnerable. Cuando una criatura Peque\u00f1a o de mayor tama\u00f1o se acerque a 9 m o menos de \u00e9l sin decir la contrase\u00f1a que especificaste al lanzar el conjuro, el mast\u00edn empezar\u00e1 a ladrar ruidosamente. Adem\u00e1s, tiene visi\u00f3n verdadera hasta 9 m.<br><br>Al principio de cada uno de tus turnos, el mast\u00edn tratar\u00e1 de morder a un enemigo que est\u00e9 a 1,5 m o menos de \u00e9l. Ese enemigo deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1 4d8 de da\u00f1o de fuerza.<br><br>En tus siguientes turnos, puedes usar una acci\u00f3n de magia para mover el mast\u00edn hasta 9 m.",
+    "materiales": "Un silbato de plata."
   }
 ]
