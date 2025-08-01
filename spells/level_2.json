@@ -891,5 +891,32 @@
     "requiere_ataque": false,
     "descripcion": "Describe o nombra un objeto que conozcas. Presientes la direcci\u00f3n en la que se encuentra dicho objeto si est\u00e1 a 300 m o menos de ti. Si el objeto se est\u00e1 moviendo, conoces la direcci\u00f3n de su movimiento.<br><br>El conjuro puede localizar un objeto espec\u00edfico que conozcas si lo has visto de cerca (a 9 m o menos) al menos una vez. Como alternativa, el conjuro puede localizar el objeto m\u00e1s cercano de un tipo particular, como un cierto tipo de ropa, joyas, muebles, herramientas o armas.<br><br>El conjuro no puede localizar un objeto si hay cualquier grosor de plomo que bloquee una ruta directa entre dicho objeto y t\u00fa.",
     "materiales": "Una ramita con forma de horquilla."
+  },
+  {
+    "nombre": "Mensajero animal",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Una bestia Diminuta de tu elecci\u00f3n que puedas ver dentro del alcance deber\u00e1 superar una tirada de salvaci\u00f3n de Carisma o intentar\u00e1 enviar un mensaje por ti (si el valor de desaf\u00edo del objetivo no es 0, la supera autom\u00e1ticamente).<br><br>Indica un lugar que hayas visitado y da una descripci\u00f3n general del destinatario, como \u201cuna persona que lleva un uniforme de guardia de la ciudad\u201d o \u201cuna enana pelirroja con un gorro puntiagudo\u201d. Adem\u00e1s, le transmites al animal un mensaje de hasta 25 palabras. Hasta que termine el conjuro, la bestia viajar\u00e1 hacia el lugar elegido y recorrer\u00e1 aproximadamente 37,5 km cada 24 horas o 75 km si puede volar.<br><br>Cuando llegue, la bestia entregar\u00e1 tu mensaje a la criatura que le hayas descrito e imitar\u00e1 tu forma de comunicarte. Si la bestia no llega a su destino antes de que el conjuro termine, el mensaje se pierde y la bestia regresa al lugar donde lanzaste el conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La duraci\u00f3n del conjuro aumenta en 48 horas por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "Unas migajas de comida."
   }
 ]

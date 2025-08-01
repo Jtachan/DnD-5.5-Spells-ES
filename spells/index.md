@@ -246,3 +246,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Marchitar                            | 4         |
 | Mastín fiel de Mordenkainen          | 4         |
 | Mensaje                              | 0 (Truco) |
+| Mensajero animal                     | 2         |
