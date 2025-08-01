@@ -6085,5 +6085,321 @@
     "descripcion": "Irradias un aura m\u00e1gica en una emanaci\u00f3n de 9 m. Mientras permanezc\u00e1is dentro, tus aliados y t\u00fa causar\u00e9is 1d4 de da\u00f1o radiante adicional cuando acert\u00e9is con un arma o un ataque sin armas.",
     "materiales": null,
     "nivel": 3
+  },
+  {
+    "nombre": "Marca del cazador",
+    "clases": [
+      "Explorador"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Marcas m\u00e1gicamente a una criatura que puedas ver dentro del alcance como tu presa. Hasta que el conjuro termine, infliges 1d6 de da\u00f1o de fuerza adicional al objetivo siempre que le aciertes con una tirada de ataque. Tambi\u00e9n tendr\u00e1s ventaja en cualquier prueba de Sabidur\u00eda (Percepci\u00f3n o Supervivencia) que realices para buscarlo.<br><br>Si los puntos de golpe del objetivo se reducen a 0 antes de que el conjuro termine, puedes emplear una acci\u00f3n adicional para transferir la marca a una nueva criatura que puedas ver dentro del alcance.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Tu concentraci\u00f3n puede durar m\u00e1s si usas un espacio de conjuro de nivel 3 o 4 (hasta 8 horas) o 5 o m\u00e1s (hasta 24 horas).",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Marchitar",
+    "clases": [
+      "Brujo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura a la que puedas ver dentro del alcance deber\u00e1 hacer una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 8d8 de da\u00f1o necr\u00f3tico si la falla o la mitad del da\u00f1o si la supera. Las criaturas de tipo \u201cplanta\u201d fallan autom\u00e1ticamente la tirada.<br><br>Como alternativa, haz objetivo a una planta no m\u00e1gica que no sea una criatura, como un \u00e1rbol o un arbusto. No har\u00e1 una tirada de salvaci\u00f3n: simplemente se marchitar\u00e1 y morir\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 4
+  },
+  {
+    "nombre": "Mast\u00edn fiel de Mordenkainen",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Conjuras un perro guardi\u00e1n en un espacio sin ocupar que puedas ver dentro del alcance. El perro permanece hasta que el conjuro termine o hasta que os alej\u00e9is a m\u00e1s de 90 m.<br><br>Solo t\u00fa puedes verlo y es intangible e invulnerable. Cuando una criatura Peque\u00f1a o de mayor tama\u00f1o se acerque a 9 m o menos de \u00e9l sin decir la contrase\u00f1a que especificaste al lanzar el conjuro, el mast\u00edn empezar\u00e1 a ladrar ruidosamente. Adem\u00e1s, tiene visi\u00f3n verdadera hasta 9 m.<br><br>Al principio de cada uno de tus turnos, el mast\u00edn tratar\u00e1 de morder a un enemigo que est\u00e9 a 1,5 m o menos de \u00e9l. Ese enemigo deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1 4d8 de da\u00f1o de fuerza.<br><br>En tus siguientes turnos, puedes usar una acci\u00f3n de magia para mover el mast\u00edn hasta 9 m.",
+    "materiales": "Un silbato de plata.",
+    "nivel": 4
+  },
+  {
+    "nombre": "Mensaje",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Se\u00f1alas a una criatura dentro del alcance y susurras un mensaje. El objetivo (y \u00fanicamente el objetivo) escucha el mensaje y puede responder con un susurro que solamente t\u00fa puedes o\u00edr.<br><br>Puedes lanzar este conjuro a trav\u00e9s de objetos f\u00edsicos si conoces al objetivo y sabes que est\u00e1 detr\u00e1s de la barrera. El silencio m\u00e1gico, 30 cm de piedra, metal o madera o una l\u00e1mina fina de plomo bloquean el conjuro.",
+    "materiales": "Un alambre de cobre.",
+    "nivel": 0
+  },
+  {
+    "nombre": "Mensajero animal",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Una bestia Diminuta de tu elecci\u00f3n que puedas ver dentro del alcance deber\u00e1 superar una tirada de salvaci\u00f3n de Carisma o intentar\u00e1 enviar un mensaje por ti (si el valor de desaf\u00edo del objetivo no es 0, la supera autom\u00e1ticamente).<br><br>Indica un lugar que hayas visitado y da una descripci\u00f3n general del destinatario, como \u201cuna persona que lleva un uniforme de guardia de la ciudad\u201d o \u201cuna enana pelirroja con un gorro puntiagudo\u201d. Adem\u00e1s, le transmites al animal un mensaje de hasta 25 palabras. Hasta que termine el conjuro, la bestia viajar\u00e1 hacia el lugar elegido y recorrer\u00e1 aproximadamente 37,5 km cada 24 horas o 75 km si puede volar.<br><br>Cuando llegue, la bestia entregar\u00e1 tu mensaje a la criatura que le hayas descrito e imitar\u00e1 tu forma de comunicarte. Si la bestia no llega a su destino antes de que el conjuro termine, el mensaje se pierde y la bestia regresa al lugar donde lanzaste el conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La duraci\u00f3n del conjuro aumenta en 48 horas por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "Unas migajas de comida.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Mente en blanco",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, una criatura voluntaria a la que toques tendr\u00e1 inmunidad al da\u00f1o ps\u00edquico y al estado de hechizada. Adem\u00e1s, no se ver\u00e1 afectada por nada que pudiera percibir sus emociones o alineamiento, leer sus pensamientos o detectar m\u00e1gicamente su ubicaci\u00f3n, y ning\u00fan conjuro (ni siquiera <i>deseo</i>) puede conseguir informaci\u00f3n sobre el objetivo, observarlo desde lejos o controlar su mente.",
+    "materiales": null,
+    "nivel": 8
+  },
+  {
+    "nombre": "Moldear la piedra",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas un objeto de piedra de tama\u00f1o Mediano o m\u00e1s peque\u00f1o, o una secci\u00f3n de piedra que no mida m\u00e1s de 1,5 m en cualquier dimensi\u00f3n, y lo moldeas como desees. Puedes convertirlo en un arma, estatua, cofre o crear un pasaje peque\u00f1o a trav\u00e9s de una pared de hasta 1,5 m de grosor. Tambi\u00e9n puedes transformar puertas y marcos, pero no crear detalles mec\u00e1nicos precisos como cerraduras complejas.",
+    "materiales": "Arcilla blanda.",
+    "nivel": 4
+  },
+  {
+    "nombre": "Mover la tierra",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 2 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Eliges una zona de hasta 12 m de lado dentro del alcance. Puedes alterar tierra, arena o arcilla (pero no piedra natural ni construcciones). Puedes elevar, bajar, formar zanjas o columnas, con cambios de hasta la mitad de la longitud mayor de la zona afectada. Cada modificaci\u00f3n tarda 10 minutos. Al final de cada 10 minutos, puedes elegir otra zona. No afecta al crecimiento vegetal, pero desplaza la tierra junto con cualquier planta presente.",
+    "materiales": "Una pala en miniatura.",
+    "nivel": 6
+  },
+  {
+    "nombre": "Muro de espinas",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Creas un muro de maleza con espinas dentro del alcance, en una superficie s\u00f3lida. Puede ser recto (18 m largo, 3 m alto, 1,5 m grosor) o circular (6 m di\u00e1metro, 6 m alto, 1,5 m grosor). Bloquea la l\u00ednea de visi\u00f3n.<br><br>Al aparecer, criaturas en su \u00e1rea hacen TS de Destreza; sufren 7d8 de da\u00f1o perforante si fallan o la mitad si superan.<br><br>Al atravesarlo, una criatura gasta 4 m de movimiento por cada metro y hace otro TS de Destreza (da\u00f1o cortante 7d8 si falla). Solo realiza esta tirada una vez por turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> ambos tipos de da\u00f1o aumentan en 1d8 por cada nivel superior a 6.",
+    "materiales": "Un pu\u00f1ado de espinas vegetales.",
+    "nivel": 6
+  },
+  {
+    "nombre": "Muro de fuego",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Creas un muro de fuego en una superficie s\u00f3lida dentro del alcance. Puede ser recto (18 m largo, 6 m alto, 30 cm grosor) o circular (6 m di\u00e1metro, 6 m alto, 30 cm grosor). Es opaco y dura mientras se mantenga la concentraci\u00f3n.<br><br>Al aparecer, criaturas en el \u00e1rea hacen TS de Destreza; sufren 5d8 de da\u00f1o de fuego si fallan o la mitad si superan.<br><br>Un lado del muro (el que elijas al conjurarlo) inflige 5d8 de da\u00f1o de fuego a criaturas que terminen su turno a 3 m o menos de ese lado o entren por primera vez en \u00e9l durante un turno. El otro lado no causa da\u00f1o.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> el da\u00f1o aumenta en 1d8 por cada nivel por encima de 4.",
+    "materiales": "Un trozo de carb\u00f3n.",
+    "nivel": 4
+  },
+  {
+    "nombre": "Muro de fuerza",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Un muro de fuerza invisible surge de la nada en un punto de tu elecci\u00f3n dentro del alcance. Este muro adopta la orientaci\u00f3n que t\u00fa elijas y puede ser tanto una barrera horizontal o vertical como estar situado en \u00e1ngulo. Tambi\u00e9n puede flotar o estar apoyado en una superficie s\u00f3lida. Puedes darle forma de c\u00fapula semiesf\u00e9rica o de globo con un radio de hasta 3 m o puedes hacer que sea una superficie plana compuesta por hasta 10 paneles de 3 m por 3 m. Cada panel debe estar adyacente a otro panel. En cualquiera de las formas, el muro tiene un grosor de 6 mm y durar\u00e1 hasta que termine el conjuro. Al aparecer, si el muro atraviesa el espacio de una criatura, esta es empujada hacia un lado del muro (t\u00fa eliges cu\u00e1l).<br><br>Nada puede atravesar el muro f\u00edsicamente. Es inmune a todo el da\u00f1o y no se puede eliminar mediante <i>disipar magia</i>. Sin embargo, un conjuro <i>desintegrar</i> destruye el muro al instante. El muro tambi\u00e9n se extiende hasta el Plano Et\u00e9reo e impide el viaje et\u00e9reo a trav\u00e9s de \u00e9l.",
+    "materiales": "Un trozo de vidrio.",
+    "nivel": 5
+  },
+  {
+    "nombre": "Muro de hielo",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Creas un muro de hielo en una superficie s\u00f3lida dentro del alcance. Puedes darle forma de c\u00fapula semiesf\u00e9rica o de globo con un radio de hasta 3 m o puedes hacer que sea una superficie plana compuesta por hasta 10 paneles cuadrados de 3 m de lado. Cada panel debe estar adyacente a otro panel. En cualquiera de las formas, el muro tiene un grosor de 30 cm y durar\u00e1 hasta que termine el conjuro.<br><br>Al aparecer, si el muro atraviesa el espacio de una criatura, esta es empujada hacia un lado del muro (t\u00fa eliges cu\u00e1l) y hace una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 10d6 de da\u00f1o de fr\u00edo si la falla o la mitad de da\u00f1o si la supera.<br><br>El muro es un objeto que se puede da\u00f1ar y, por tanto, atravesar. Tiene una CA de 12, 30 puntos de golpe por cada secci\u00f3n de 3 m de lado, inmunidad al da\u00f1o de fr\u00edo, ps\u00edquico y de veneno y vulnerabilidad al da\u00f1o de fuego. Si se reduce una secci\u00f3n del muro de 3 m de lado a 0 puntos de golpe, se destruir\u00e1 y dejar\u00e1 una capa de aire g\u00e9lido en el lugar que ocupaba.<br><br>Si una criatura pasa por la capa de aire g\u00e9lido por primera vez en un turno, deber\u00e1 hacer una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 5d6 de da\u00f1o de fr\u00edo si la falla o la mitad de da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o que causa el muro al aparecer aumenta en 2d6 y el que se sufre por cruzar la capa de aire g\u00e9lido aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio.",
+    "materiales": "Un trozo de cuarzo.",
+    "nivel": 6
   }
 ]
