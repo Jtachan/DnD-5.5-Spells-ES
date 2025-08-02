@@ -275,3 +275,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Palabra de poder: matar              | 9         |
 | Palabra de poder: sanar              | 9         |
 | Palabra de regreso                   | 6         |
+| Palabra de resplandor                | 0 (Truco) |
