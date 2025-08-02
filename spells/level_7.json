@@ -254,5 +254,29 @@
     "requiere_ataque": false,
     "descripcion": "Conjuras una puerta brillante dentro del alcance que permanece hasta que el conjuro termine. La puerta mide 1,5 m de ancho y 3 m de alto y lleva a una morada extradimensional. T\u00fa y cualquier criatura que designes cuando lances el conjuro podr\u00e9is entrar en la morada extradimensional mientras la puerta permanezca abierta. Puedes abrirla o cerrarla (no requiere acci\u00f3n) si est\u00e1s a 9 m o menos de ella. Mientras permanezca cerrada, es imperceptible.<br><br>Al otro lado de la puerta encuentras un fastuoso recibidor, tras la cual se hallan numerosas estancias. La morada est\u00e1 limpia y es fresca y c\u00e1lida.<br><br>Puedes crear cualquier plano de planta que desees, pero no puede superar los 50 cubos contiguos, cada uno de 3 m de lado. El lugar est\u00e1 amueblado y decorado como elijas y contiene comida suficiente como para servir un banquete de nueve platos a hasta 100 personas. Los muebles y otros objetos creados por este conjuro se convierten en humo si se sacan del lugar.<br><br>El personal de servicio est\u00e1 compuesto de 100 sirvientes casi transparentes que atienden a todos los que entran. T\u00fa decides la apariencia y el atuendo de estos sirvientes, que son invulnerables y obedecen tus \u00f3rdenes. Los sirvientes pueden realizar las tareas que har\u00eda un humano, pero no pueden atacar ni realizar ninguna acci\u00f3n que da\u00f1ar\u00eda directamente a otra criatura. Por lo tanto, pueden traer y llevar cosas, limpiar, arreglar y plegar ropa, encender fuegos, servir comida y vino, etc, aunque no pueden abandonar el lugar.<br><br>Cuando el conjuro termina, todas las criaturas u objetos que queden en el espacio extradimensional son expulsados a los espacios sin ocupar m\u00e1s cercanos a la entrada.",
     "materiales": "Una puerta en miniatura que valga al menos 15 po."
+  },
+  {
+    "nombre": "Palabra de poder: fortalecer",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Refuerzas a hasta seis criaturas que puedas ver dentro del alcance. El conjuro proporciona 120 puntos de golpe temporales, que divides entre los objetivos.",
+    "materiales": null
   }
 ]

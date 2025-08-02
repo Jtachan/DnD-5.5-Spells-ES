@@ -271,3 +271,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Oscuridad                            | 2         |
 | Palabra de curación en masa          | 3         |
 | Palabra de poder: aturdir            | 8         |
+| Palabra de poder: fortalecer         | 7         |
