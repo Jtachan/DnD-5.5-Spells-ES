@@ -262,3 +262,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Nube de dagas                        | 2         |
 | Nube de oscurecimiento               | 1         |
 | Nube incendiaria                     | 8         |
+| Ofuscación                           | 8         |
