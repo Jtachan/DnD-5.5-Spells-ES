@@ -267,3 +267,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Ola atronadora                       | 1         |
 | Ola destructora                      | 5         |
 | Orbe cromático                       | 1         |
+| Orden imperiosa                      | 1         |

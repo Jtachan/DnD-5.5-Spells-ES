@@ -1051,5 +1051,30 @@
     "requiere_ataque": true,
     "descripcion": "Lanzas un orbe de energ\u00eda a un objetivo dentro del alcance. Elige entre \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago, trueno o veneno para el tipo de orbe creado y despu\u00e9s haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 3d8 de da\u00f1o del tipo elegido.<br><br>Si sacas el mismo n\u00famero en dos o m\u00e1s de los d8, el orbe salta a otro objetivo distinto de tu elecci\u00f3n que est\u00e9 a 9 m o menos del objetivo. Haz una tirada de ataque contra el nuevo objetivo y otra tirada de da\u00f1o. El orbe no puede volver a saltar, a menos que lances el conjuro con un espacio de nivel 2 o superior.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio. El orbe puede saltar un m\u00e1ximo de veces igual al nivel del espacio gastado. Una criatura solo puede ser el objetivo una vez por cada lanzamiento del conjuro.",
     "materiales": "Un diamante que valga al menos 50 po."
+  },
+  {
+    "nombre": "Orden imperiosa",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Das una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o verse obligado a obedecer la orden en su pr\u00f3ximo turno. Elige una de las siguientes \u00f3rdenes:<br><br><b>Ac\u00e9rcate.</b> El objetivo se acerca a ti por la ruta m\u00e1s corta y directa posible, y su turno acaba si se sit\u00faa a 1,5 m o menos de ti.<br><br><b>Detente.</b> En su turno, el objetivo no se mueve y no usa acciones ni acciones adicionales.<br><br><b>Huye.</b> El objetivo empieza su turno en alejarse de ti de la manera m\u00e1s r\u00e1pida posible.<br><br><b>P\u00f3strate.</b> El objetivo adopta el estado de derribado y termina su turno.<br><br><b>Suelta.</b> El objetivo deja lo que sea que est\u00e9 sujetando y acaba su turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null
   }
 ]
