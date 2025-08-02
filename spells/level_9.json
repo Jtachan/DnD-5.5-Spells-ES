@@ -143,5 +143,29 @@
     "requiere_ataque": false,
     "descripcion": "Obligas a morir a una criatura que puedas ver dentro del alcance. Si el objetivo tiene 100 puntos de golpe o menos, morir\u00e1. De lo contrario, sufrir\u00e1 12d12 de da\u00f1o ps\u00edquico.",
     "materiales": null
+  },
+  {
+    "nombre": "Palabra de poder: sanar",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura que puedas ver dentro del alcance se ve envuelta por una oleada de energ\u00eda sanadora. El objetivo recupera todos sus puntos de golpe. Si la criatura tiene los estados de asustada, aturdida, envenenada, hechizada o paralizada, los estados terminan. Si la criatura tiene el estado de derribada, puede usar su reacci\u00f3n para levantarse.",
+    "materiales": null
   }
 ]
