@@ -958,5 +958,25 @@
     "requiere_ataque": false,
     "descripcion": "Creas una esfera de una niebla amarillo-verdosa de 6 m de radio centrada en un punto dentro del alcance. La niebla dura hasta que el conjuro termine o hasta que la disperse un viento intenso (por ejemplo, el que crea <i>r\u00e1faga de viento</i>), lo que pondr\u00e1 fin al conjuro. La zona que ocupa est\u00e1 muy oscura.<br><br>Todas las criaturas situadas en la esfera hacen una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 5d8 de da\u00f1o de veneno si la fallan o la mitad del da\u00f1o si la superan. Una criatura tambi\u00e9n deber\u00e1 hacer esta tirada cuando la esfera entre en su espacio o cuando la criatura entre en la esfera o termine su turno en ella. Una criatura solo hace esta tirada una vez por turno.<br><br>La esfera se aleja de ti 3 m al principio de cada uno de tus turnos.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 5 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Ola destructora",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una energ\u00eda destructiva surge de ti formando ondas en una emanaci\u00f3n de 9 m. Las criaturas que elijas dentro de la emanaci\u00f3n realizan una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la fallan, sufrir\u00e1n 5d6 de da\u00f1o de trueno, 5d6 de da\u00f1o radiante o necr\u00f3tico (a tu elecci\u00f3n) y tendr\u00e1n el estado de derribadas. Si la superan, solamente recibir\u00e1n la mitad de ese da\u00f1o.",
+    "materiales": null
   }
 ]
