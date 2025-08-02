@@ -262,5 +262,31 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que el conjuro termine, una criatura voluntaria a la que toques tendr\u00e1 inmunidad al da\u00f1o ps\u00edquico y al estado de hechizada. Adem\u00e1s, no se ver\u00e1 afectada por nada que pudiera percibir sus emociones o alineamiento, leer sus pensamientos o detectar m\u00e1gicamente su ubicaci\u00f3n, y ning\u00fan conjuro (ni siquiera <i>deseo</i>) puede conseguir informaci\u00f3n sobre el objetivo, observarlo desde lejos o controlar su mente.",
     "materiales": null
+  },
+  {
+    "nombre": "Nube incendiaria",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Una nube turbulenta de humo y ascuas llena una esfera de 6 m de radio centrada en un punto dentro del alcance. La zona que ocupa la nube est\u00e1 muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea <i>r\u00e1faga de viento</i>).<br><br>Cuando aparezca la nube, todas las criaturas dentro de ella har\u00e1n una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 10d8 de da\u00f1o de fuego si la fallan o la mitad del da\u00f1o si la superan. Una criatura tambi\u00e9n deber\u00e1 hacer esta tirada cuando la esfera entre en su espacio o cuando la criatura entre en la esfera o termine su turno en ella. Una criatura solo hace esta tirada una vez por turno.<br><br>La nube se aleja de ti 3 m en la direcci\u00f3n que elijas al principio de cada uno de tus turnos.",
+    "materiales": null
   }
 ]

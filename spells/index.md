@@ -261,3 +261,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Nube apestosa                        | 3         |
 | Nube de dagas                        | 2         |
 | Nube de oscurecimiento               | 1         |
+| Nube incendiaria                     | 8         |
