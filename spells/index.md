@@ -263,3 +263,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Nube de oscurecimiento               | 1         |
 | Nube incendiaria                     | 8         |
 | Ofuscación                           | 8         |
+| Ojo arcano                           | 4         |

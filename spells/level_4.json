@@ -780,5 +780,30 @@
     "requiere_ataque": false,
     "descripcion": "Creas un muro de fuego en una superficie s\u00f3lida dentro del alcance. Puede ser recto (18 m largo, 6 m alto, 30 cm grosor) o circular (6 m di\u00e1metro, 6 m alto, 30 cm grosor). Es opaco y dura mientras se mantenga la concentraci\u00f3n.<br><br>Al aparecer, criaturas en el \u00e1rea hacen TS de Destreza; sufren 5d8 de da\u00f1o de fuego si fallan o la mitad si superan.<br><br>Un lado del muro (el que elijas al conjurarlo) inflige 5d8 de da\u00f1o de fuego a criaturas que terminen su turno a 3 m o menos de ese lado o entren por primera vez en \u00e9l durante un turno. El otro lado no causa da\u00f1o.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> el da\u00f1o aumenta en 1d8 por cada nivel por encima de 4.",
     "materiales": "Un trozo de carb\u00f3n."
+  },
+  {
+    "nombre": "Ojo arcano",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas un ojo invisible e invulnerable dentro del alcance que levita hasta que el conjuro termine. Recibes mentalmente informaci\u00f3n visual desde el ojo, que puede mirar en cualquier direcci\u00f3n y tiene visi\u00f3n en la oscuridad hasta 9 m.<br><br>Como acci\u00f3n adicional, puedes mover el ojo hasta 9 m en cualquier direcci\u00f3n. El ojo no podr\u00e1 atravesar una barrera s\u00f3lida, pero podr\u00e1 pasar por cualquier abertura de 2,5 cm de di\u00e1metro como m\u00ednimo.",
+    "materiales": "Un poco de pelo de murci\u00e9lago."
   }
 ]
