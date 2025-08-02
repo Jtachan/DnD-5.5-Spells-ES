@@ -974,5 +974,32 @@
     "requiere_ataque": false,
     "descripcion": "Marcas m\u00e1gicamente a una criatura que puedas ver dentro del alcance como tu presa. Hasta que el conjuro termine, infliges 1d6 de da\u00f1o de fuerza adicional al objetivo siempre que le aciertes con una tirada de ataque. Tambi\u00e9n tendr\u00e1s ventaja en cualquier prueba de Sabidur\u00eda (Percepci\u00f3n o Supervivencia) que realices para buscarlo.<br><br>Si los puntos de golpe del objetivo se reducen a 0 antes de que el conjuro termine, puedes emplear una acci\u00f3n adicional para transferir la marca a una nueva criatura que puedas ver dentro del alcance.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Tu concentraci\u00f3n puede durar m\u00e1s si usas un espacio de conjuro de nivel 3 o 4 (hasta 8 horas) o 5 o m\u00e1s (hasta 24 horas).",
     "materiales": null
+  },
+  {
+    "nombre": "Nube de oscurecimiento",
+    "clases": [
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas una esfera de niebla de 6 m de radio centrada en un punto dentro del alcance. La esfera est\u00e1 muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea <i>r\u00e1faga de viento</i>).<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El radio de la niebla aumenta en 6 m por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null
   }
 ]
