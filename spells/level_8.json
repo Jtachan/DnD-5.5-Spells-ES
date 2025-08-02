@@ -316,5 +316,31 @@
     "requiere_ataque": false,
     "descripcion": "Atacas la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Inteligencia.<br><br>Si la falla, sufrir\u00e1 10d12 de da\u00f1o ps\u00edquico y no podr\u00e1 lanzar conjuros ni realizar acciones de magia. Al final de cada 30 d\u00edas, el objetivo repite la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del efecto. Tambi\u00e9n se puede finalizar este efecto mediante un conjuro <i>curar</i>, <i>deseo</i> o <i>restablecimiento mayor</i>.<br><br>Si supera la tirada, solo sufrir\u00e1 la mitad de ese da\u00f1o.",
     "materiales": "Un llavero sin llaves."
+  },
+  {
+    "nombre": "Palabra de poder: aturdir",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Abrumas la mente de una criatura que puedas ver dentro del alcance. Si el objetivo tiene 150 puntos de golpe o menos, tendr\u00e1 el estado de aturdido. De lo contrario, su velocidad ser\u00e1 0 hasta el principio de tu siguiente turno.<br><br>El objetivo aturdido hace una tirada de salvaci\u00f3n de Constituci\u00f3n al final de cada uno de sus turnos y, si tiene \u00e9xito, se librar\u00e1 del estado.",
+    "materiales": null
   }
 ]

@@ -270,3 +270,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Orden imperiosa                      | 1         |
 | Oscuridad                            | 2         |
 | Palabra de curación en masa          | 3         |
+| Palabra de poder: aturdir            | 8         |
