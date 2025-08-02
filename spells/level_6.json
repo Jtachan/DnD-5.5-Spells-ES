@@ -593,5 +593,28 @@
     "requiere_ataque": false,
     "descripcion": "Creas un muro de hielo en una superficie s\u00f3lida dentro del alcance. Puedes darle forma de c\u00fapula semiesf\u00e9rica o de globo con un radio de hasta 3 m o puedes hacer que sea una superficie plana compuesta por hasta 10 paneles cuadrados de 3 m de lado. Cada panel debe estar adyacente a otro panel. En cualquiera de las formas, el muro tiene un grosor de 30 cm y durar\u00e1 hasta que termine el conjuro.<br><br>Al aparecer, si el muro atraviesa el espacio de una criatura, esta es empujada hacia un lado del muro (t\u00fa eliges cu\u00e1l) y hace una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 10d6 de da\u00f1o de fr\u00edo si la falla o la mitad de da\u00f1o si la supera.<br><br>El muro es un objeto que se puede da\u00f1ar y, por tanto, atravesar. Tiene una CA de 12, 30 puntos de golpe por cada secci\u00f3n de 3 m de lado, inmunidad al da\u00f1o de fr\u00edo, ps\u00edquico y de veneno y vulnerabilidad al da\u00f1o de fuego. Si se reduce una secci\u00f3n del muro de 3 m de lado a 0 puntos de golpe, se destruir\u00e1 y dejar\u00e1 una capa de aire g\u00e9lido en el lugar que ocupaba.<br><br>Si una criatura pasa por la capa de aire g\u00e9lido por primera vez en un turno, deber\u00e1 hacer una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 5d6 de da\u00f1o de fr\u00edo si la falla o la mitad de da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o que causa el muro al aparecer aumenta en 2d6 y el que se sufre por cruzar la capa de aire g\u00e9lido aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio.",
     "materiales": "Un trozo de cuarzo."
+  },
+  {
+    "nombre": "Palabra de regreso",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "5 pies",
+      "1,5 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "T\u00fa y hasta cinco criaturas voluntarias a 1,5 m o menos de ti os teletransport\u00e1is al instante a un santuario designado previamente. T\u00fa y cualquier criatura que se teletransporte contigo aparecer\u00e9is en el espacio sin ocupar m\u00e1s cercano al punto designado al preparar el santuario (consulta m\u00e1s adelante). Si lanzas este conjuro sin preparar antes un santuario, no tiene ning\u00fan efecto.<br><br>Debes designar un lugar como santuario lanzando este conjuro all\u00ed; por ejemplo, en un templo.",
+    "materiales": null
   }
 ]
