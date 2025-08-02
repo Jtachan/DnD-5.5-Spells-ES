@@ -918,5 +918,33 @@
     "requiere_ataque": false,
     "descripcion": "Una bestia Diminuta de tu elecci\u00f3n que puedas ver dentro del alcance deber\u00e1 superar una tirada de salvaci\u00f3n de Carisma o intentar\u00e1 enviar un mensaje por ti (si el valor de desaf\u00edo del objetivo no es 0, la supera autom\u00e1ticamente).<br><br>Indica un lugar que hayas visitado y da una descripci\u00f3n general del destinatario, como \u201cuna persona que lleva un uniforme de guardia de la ciudad\u201d o \u201cuna enana pelirroja con un gorro puntiagudo\u201d. Adem\u00e1s, le transmites al animal un mensaje de hasta 25 palabras. Hasta que termine el conjuro, la bestia viajar\u00e1 hacia el lugar elegido y recorrer\u00e1 aproximadamente 37,5 km cada 24 horas o 75 km si puede volar.<br><br>Cuando llegue, la bestia entregar\u00e1 tu mensaje a la criatura que le hayas descrito e imitar\u00e1 tu forma de comunicarte. Si la bestia no llega a su destino antes de que el conjuro termine, el mensaje se pierde y la bestia regresa al lugar donde lanzaste el conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La duraci\u00f3n del conjuro aumenta en 48 horas por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": "Unas migajas de comida."
+  },
+  {
+    "nombre": "Nube de dagas",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Conjuras dagas giratorias en un cubo de 1,5 m centrado en un punto dentro del alcance. Todas las criaturas situadas en esa zona sufren 4d4 de da\u00f1o cortante. Una criatura tambi\u00e9n recibe da\u00f1o si entra en el cubo, si termina su turno en \u00e9l o si el cubo entra en su espacio. Una criatura solo sufre este da\u00f1o una vez por turno.<br><br>En tus siguientes turnos, puedes usar una acci\u00f3n de magia para teletransportar el cubo hasta 9 m.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 2d4 por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "Un fragmento de cristal."
   }
 ]

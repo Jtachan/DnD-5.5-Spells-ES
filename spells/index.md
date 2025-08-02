@@ -259,3 +259,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Muro prismático                      | 9         |
 | Nube aniquiladora                    | 5         |
 | Nube apestosa                        | 3         |
+| Nube de dagas                        | 2         |
