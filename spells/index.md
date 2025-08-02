@@ -268,3 +268,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Ola destructora                      | 5         |
 | Orbe cromático                       | 1         |
 | Orden imperiosa                      | 1         |
+| Oscuridad                            | 2         |
