@@ -933,5 +933,30 @@
     "requiere_ataque": false,
     "descripcion": "Un muro no m\u00e1gico de piedra s\u00f3lida brota en un punto de tu elecci\u00f3n dentro del alcance. Tiene 15 cm de grosor y est\u00e1 compuesto de 10 paneles de 3 m por 3 m. Cada panel debe estar adyacente a otro panel. Como alternativa, puedes crear paneles de 3 m por 6 m cuyo grosor sea solo de 7,5 cm.<br><br>Al aparecer, si el muro atraviesa el espacio de una criatura, esta es empujada hacia un lado del muro (t\u00fa eliges cu\u00e1l). Si una criatura fuera a quedar rodeada por todas partes por el muro (o por el muro y otra superficie s\u00f3lida), puede hacer una tirada de salvaci\u00f3n de Destreza. Si la supera, podr\u00e1 usar su reacci\u00f3n para moverse hasta su velocidad y no quedar encerrada por el muro.<br><br>El muro puede adoptar la forma que desees, pero no puede ocupar el mismo espacio que una criatura o un objeto. El muro no tiene por qu\u00e9 ser vertical ni apoyarse en una base firme. Sin embargo, s\u00ed debe fundirse con alguna masa de piedra existente que lo sostenga firmemente. As\u00ed, podr\u00edas usar este conjuro para formar un puente que cruce una sima o para crear una rampa.<br><br>Si creas un muro que se extienda m\u00e1s de 6 m, se debe reducir a la mitad el tama\u00f1o de cada panel para crear soportes. Puedes moldear el muro de forma tosca para que tenga almenas y elementos similares.<br><br>El muro es un objeto hecho de piedra que se puede da\u00f1ar y, por tanto, atravesar. Cada panel tiene una CA de 15, 30 puntos de golpe por cada 2,5 cm de grosor e inmunidad al da\u00f1o ps\u00edquico y de veneno. Si los puntos de golpe de un panel se reducen a 0, se destruye, lo que podr\u00eda provocar que los paneles conectados se derrumben, a discreci\u00f3n de tu DM.<br><br>Si mantienes la concentraci\u00f3n en este conjuro durante toda su duraci\u00f3n, el muro se vuelve permanente y no se puede disipar. De lo contrario, desaparece en cuanto el conjuro termine.",
     "materiales": "Un cubo de granito."
+  },
+  {
+    "nombre": "Nube aniquiladora",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Creas una esfera de una niebla amarillo-verdosa de 6 m de radio centrada en un punto dentro del alcance. La niebla dura hasta que el conjuro termine o hasta que la disperse un viento intenso (por ejemplo, el que crea <i>r\u00e1faga de viento</i>), lo que pondr\u00e1 fin al conjuro. La zona que ocupa est\u00e1 muy oscura.<br><br>Todas las criaturas situadas en la esfera hacen una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 5d8 de da\u00f1o de veneno si la fallan o la mitad del da\u00f1o si la superan. Una criatura tambi\u00e9n deber\u00e1 hacer esta tirada cuando la esfera entre en su espacio o cuando la criatura entre en la esfera o termine su turno en ella. Una criatura solo hace esta tirada una vez por turno.<br><br>La esfera se aleja de ti 3 m al principio de cada uno de tus turnos.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 5 que tenga el espacio.",
+    "materiales": null
   }
 ]
