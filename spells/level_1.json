@@ -1001,5 +1001,29 @@
     "requiere_ataque": false,
     "descripcion": "Creas una esfera de niebla de 6 m de radio centrada en un punto dentro del alcance. La esfera est\u00e1 muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea <i>r\u00e1faga de viento</i>).<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El radio de la niebla aumenta en 6 m por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Ola atronadora",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Desatas una ola de energ\u00eda atronadora. Todas las criaturas situadas en un cubo de 4,5 m de lado adyacente a ti har\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la fallan, recibir\u00e1n 2d8 de da\u00f1o de trueno y ser\u00e1n empujadas 3 m respecto a ti. Si la superan, solo sufrir\u00e1n la mitad de ese da\u00f1o.<br><br>Adem\u00e1s, a los objetos sueltos que est\u00e9n completamente dentro del cubo se les empujar\u00e1 3 m respecto a ti y la explosi\u00f3n atronadora podr\u00e1 o\u00edrse a 90 m de distancia.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null
   }
 ]
