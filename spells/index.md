@@ -269,3 +269,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Orbe cromático                       | 1         |
 | Orden imperiosa                      | 1         |
 | Oscuridad                            | 2         |
+| Palabra de curación                  | 1         |

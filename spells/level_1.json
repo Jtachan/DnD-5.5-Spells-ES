@@ -1076,5 +1076,30 @@
     "requiere_ataque": false,
     "descripcion": "Das una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o verse obligado a obedecer la orden en su pr\u00f3ximo turno. Elige una de las siguientes \u00f3rdenes:<br><br><b>Ac\u00e9rcate.</b> El objetivo se acerca a ti por la ruta m\u00e1s corta y directa posible, y su turno acaba si se sit\u00faa a 1,5 m o menos de ti.<br><br><b>Detente.</b> En su turno, el objetivo no se mueve y no usa acciones ni acciones adicionales.<br><br><b>Huye.</b> El objetivo empieza su turno en alejarse de ti de la manera m\u00e1s r\u00e1pida posible.<br><br><b>P\u00f3strate.</b> El objetivo adopta el estado de derribado y termina su turno.<br><br><b>Suelta.</b> El objetivo deja lo que sea que est\u00e9 sujetando y acaba su turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Palabra de curaci\u00f3n",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance recupera una cantidad de puntos de golpe igual a 2d4 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 2d4 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null
   }
 ]
