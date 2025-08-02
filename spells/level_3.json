@@ -913,5 +913,32 @@
     "requiere_ataque": false,
     "descripcion": "Un muro conformado por un intenso viento surge del suelo en un punto de tu elecci\u00f3n dentro del alcance. Puedes formar un muro de hasta 15 m de longitud, 4,5 m de altura y 30 cm de grosor. Puedes darle a ese muro la forma que quieras, siempre que trace una ruta continua por el suelo, y durar\u00e1 hasta que termine el conjuro.<br><br>Cuando aparezca el muro, todas las criaturas situadas en su \u00e1rea hacen una tirada de salvaci\u00f3n de Fuerza; sufrir\u00e1n 4d8 de da\u00f1o contundente si la fallan o la mitad de da\u00f1o si la superan.<br><br>El viento fuerte mantiene a raya la niebla, el humo y otros gases. Las criaturas voladoras de tama\u00f1o Peque\u00f1o o menor no pueden atravesar el muro. Los materiales sueltos de poco peso que entran en el muro salen volando hacia arriba. Las flechas, los virotes y otros proyectiles ordinarios lanzados a objetivos que est\u00e9n detr\u00e1s del muro salen despedidos hacia arriba y fallan autom\u00e1ticamente. Los pedruscos lanzados por gigantes o m\u00e1quinas de asedio y los proyectiles similares no se ven afectados. Las criaturas en forma gaseosa no pueden atravesarlo.",
     "materiales": "Un abanico y una pluma."
+  },
+  {
+    "nombre": "Nube apestosa",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Creas una esfera de gas nauseabundo y amarillento de 6 m de radio centrada en un punto dentro del alcance. La nube est\u00e1 muy oscura y permanece en el aire hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea <i>r\u00e1faga de viento</i>).<br><br>Todas las criaturas que comiencen su turno en la esfera deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o tendr\u00e1n el estado de envenenadas hasta el final del turno actual. Mientras est\u00e9n envenenadas de esta forma, no podr\u00e1n realizar acciones ni acciones adicionales.",
+    "materiales": "Un huevo podrido."
   }
 ]
