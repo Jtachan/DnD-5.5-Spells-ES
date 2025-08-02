@@ -6401,5 +6401,606 @@
     "descripcion": "Creas un muro de hielo en una superficie s\u00f3lida dentro del alcance. Puedes darle forma de c\u00fapula semiesf\u00e9rica o de globo con un radio de hasta 3 m o puedes hacer que sea una superficie plana compuesta por hasta 10 paneles cuadrados de 3 m de lado. Cada panel debe estar adyacente a otro panel. En cualquiera de las formas, el muro tiene un grosor de 30 cm y durar\u00e1 hasta que termine el conjuro.<br><br>Al aparecer, si el muro atraviesa el espacio de una criatura, esta es empujada hacia un lado del muro (t\u00fa eliges cu\u00e1l) y hace una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 10d6 de da\u00f1o de fr\u00edo si la falla o la mitad de da\u00f1o si la supera.<br><br>El muro es un objeto que se puede da\u00f1ar y, por tanto, atravesar. Tiene una CA de 12, 30 puntos de golpe por cada secci\u00f3n de 3 m de lado, inmunidad al da\u00f1o de fr\u00edo, ps\u00edquico y de veneno y vulnerabilidad al da\u00f1o de fuego. Si se reduce una secci\u00f3n del muro de 3 m de lado a 0 puntos de golpe, se destruir\u00e1 y dejar\u00e1 una capa de aire g\u00e9lido en el lugar que ocupaba.<br><br>Si una criatura pasa por la capa de aire g\u00e9lido por primera vez en un turno, deber\u00e1 hacer una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 5d6 de da\u00f1o de fr\u00edo si la falla o la mitad de da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o que causa el muro al aparecer aumenta en 2d6 y el que se sufre por cruzar la capa de aire g\u00e9lido aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio.",
     "materiales": "Un trozo de cuarzo.",
     "nivel": 6
+  },
+  {
+    "nombre": "Muro de piedra",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Un muro no m\u00e1gico de piedra s\u00f3lida brota en un punto de tu elecci\u00f3n dentro del alcance. Tiene 15 cm de grosor y est\u00e1 compuesto de 10 paneles de 3 m por 3 m. Cada panel debe estar adyacente a otro panel. Como alternativa, puedes crear paneles de 3 m por 6 m cuyo grosor sea solo de 7,5 cm.<br><br>Al aparecer, si el muro atraviesa el espacio de una criatura, esta es empujada hacia un lado del muro (t\u00fa eliges cu\u00e1l). Si una criatura fuera a quedar rodeada por todas partes por el muro (o por el muro y otra superficie s\u00f3lida), puede hacer una tirada de salvaci\u00f3n de Destreza. Si la supera, podr\u00e1 usar su reacci\u00f3n para moverse hasta su velocidad y no quedar encerrada por el muro.<br><br>El muro puede adoptar la forma que desees, pero no puede ocupar el mismo espacio que una criatura o un objeto. El muro no tiene por qu\u00e9 ser vertical ni apoyarse en una base firme. Sin embargo, s\u00ed debe fundirse con alguna masa de piedra existente que lo sostenga firmemente. As\u00ed, podr\u00edas usar este conjuro para formar un puente que cruce una sima o para crear una rampa.<br><br>Si creas un muro que se extienda m\u00e1s de 6 m, se debe reducir a la mitad el tama\u00f1o de cada panel para crear soportes. Puedes moldear el muro de forma tosca para que tenga almenas y elementos similares.<br><br>El muro es un objeto hecho de piedra que se puede da\u00f1ar y, por tanto, atravesar. Cada panel tiene una CA de 15, 30 puntos de golpe por cada 2,5 cm de grosor e inmunidad al da\u00f1o ps\u00edquico y de veneno. Si los puntos de golpe de un panel se reducen a 0, se destruye, lo que podr\u00eda provocar que los paneles conectados se derrumben, a discreci\u00f3n de tu DM.<br><br>Si mantienes la concentraci\u00f3n en este conjuro durante toda su duraci\u00f3n, el muro se vuelve permanente y no se puede disipar. De lo contrario, desaparece en cuanto el conjuro termine.",
+    "materiales": "Un cubo de granito.",
+    "nivel": 5
+  },
+  {
+    "nombre": "Muro de viento",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "Un muro conformado por un intenso viento surge del suelo en un punto de tu elecci\u00f3n dentro del alcance. Puedes formar un muro de hasta 15 m de longitud, 4,5 m de altura y 30 cm de grosor. Puedes darle a ese muro la forma que quieras, siempre que trace una ruta continua por el suelo, y durar\u00e1 hasta que termine el conjuro.<br><br>Cuando aparezca el muro, todas las criaturas situadas en su \u00e1rea hacen una tirada de salvaci\u00f3n de Fuerza; sufrir\u00e1n 4d8 de da\u00f1o contundente si la fallan o la mitad de da\u00f1o si la superan.<br><br>El viento fuerte mantiene a raya la niebla, el humo y otros gases. Las criaturas voladoras de tama\u00f1o Peque\u00f1o o menor no pueden atravesar el muro. Los materiales sueltos de poco peso que entran en el muro salen volando hacia arriba. Las flechas, los virotes y otros proyectiles ordinarios lanzados a objetivos que est\u00e9n detr\u00e1s del muro salen despedidos hacia arriba y fallan autom\u00e1ticamente. Los pedruscos lanzados por gigantes o m\u00e1quinas de asedio y los proyectiles similares no se ven afectados. Las criaturas en forma gaseosa no pueden atravesarlo.",
+    "materiales": "Un abanico y una pluma.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Muro prism\u00e1tico",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Un plano de luz rutilante y multicolor forma un muro vertical opaco (de hasta 27 m de largo, 9 m de alto y 2,5 cm de grosor) centrado en un punto dentro del alcance. Como alternativa, le das al muro la forma de un globo de hasta 9 m de di\u00e1metro centrado en un punto dentro del alcance.<br><br>El muro permanecer\u00e1 all\u00ed hasta que termine el conjuro. Si lo colocas en un espacio que ocupa una criatura, el conjuro termina al instante sin surtir efecto.<br><br>El muro emite luz brillante hasta 30 m y luz tenue 30 m m\u00e1s all\u00e1. Las criaturas que indiques cuando lanzas el conjuro y t\u00fa pod\u00e9is atravesar el muro y estar cerca de \u00e9l sin sufrir da\u00f1os. Si otra criatura que pueda ver el muro se acerca a 6 m o menos de \u00e9l, deber\u00e1 superar una tirada de salvaci\u00f3n de Constituci\u00f3n o tendr\u00e1 el estado de cegada hasta el final de su siguiente turno.<br><br>El muro consta de siete capas, cada una de un color distinto. Cuando una criatura meta una mano en el muro o lo atraviese, lo debe hacer capa por capa hasta superarlas todas. Para cada una, deber\u00e1 realizar una tirada de salvaci\u00f3n de Destreza o quedar\u00e1 afectada por las propiedades de esa capa, como se describe en la tabla \u201cCapas prism\u00e1ticas\u201d.<br><br>El muro, que tiene una CA de 10, se puede destruir capa por capa, en orden de roja a violeta, por el medio espec\u00edfico para cada una de ellas. Si se destruye una capa, seguir\u00e1 eliminada hasta que termine el conjuro. <i>Campo antimagia</i> no tiene efecto en el muro y <i>disipar magia</i> solo puede afectar a la capa violeta.<br><br><b>CAPAS PRISM\u00c1TICAS</b><br><br><b>1 Roja.</b> <i>Si falla la tirada:</i> 12d6 de da\u00f1o de fuego. <i>Si supera la tirada:</i> la mitad de da\u00f1o. <b>Efectos adicionales:</b> los ataques a distancia no m\u00e1gicos no pueden atravesar esta capa, que se destruye si recibe al menos 25 de da\u00f1o de fr\u00edo.<br><br><b>2 Naranja.</b> <i>Si falla la tirada:</i> 12d6 de da\u00f1o de \u00e1cido. <i>Si supera la tirada:</i> la mitad de da\u00f1o. <b>Efectos adicionales:</b> los ataques a distancia m\u00e1gicos no atraviesan esta capa, que puede destruirse mediante un viento fuerte (como el que crea <i>r\u00e1faga de viento</i>).<br><br><b>3 Amarilla.</b> <i>Si falla la tirada:</i> 12d6 de da\u00f1o de rel\u00e1mpago. <i>Si supera la tirada:</i> la mitad de da\u00f1o. <b>Efectos adicionales:</b> la capa se destruye si recibe al menos 60 de da\u00f1o de fuerza.<br><br><b>4 Verde.</b> <i>Si falla la tirada:</i> 12d6 de da\u00f1o de veneno. <i>Si supera la tirada:</i> la mitad de da\u00f1o. <b>Efectos adicionales:</b> un conjuro <i>pasamuros</i> u otro del mismo nivel o superior que puedan abrir un portal en una superficie s\u00f3lida destruir\u00e1n esta capa.<br><br><b>5 Azul.</b> <i>Si falla la tirada:</i> 12d6 de da\u00f1o de fr\u00edo. <i>Si supera la tirada:</i> la mitad de da\u00f1o. <b>Efectos adicionales:</b> la capa se destruye si recibe al menos 60 de da\u00f1o de fuego.<br><br><b>6 A\u00f1il.</b> <i>Si falla la tirada:</i> el objetivo tendr\u00e1 el estado de apresado y har\u00e1 una tirada de salvaci\u00f3n de Constituci\u00f3n al final de cada uno de sus turnos. Si la supera tres veces, el estado terminar\u00e1. Si la falla tres veces, tendr\u00e1 el estado de petrificado hasta que lo libere un efecto como el del conjuro <i>restablecimiento mayor</i>. Los \u00e9xitos y los fallos no tienen por qu\u00e9 ser consecutivos: lleva la cuenta de ambos hasta que el objetivo tenga tres de un mismo tipo. <b>Efectos adicionales:</b> no es posible lanzar conjuros a trav\u00e9s de esta capa, que se puede destruirse mediante la luz brillante del conjuro <i>luz de d\u00eda</i>.<br><br><b>7 Violeta.</b> <i>Si falla la tirada:</i> el objetivo tendr\u00e1 el estado de cegado y har\u00e1 una tirada de salvaci\u00f3n de Sabidur\u00eda al principio de tu siguiente turno. Si la supera, el estado terminar\u00e1. Si la falla, el estado terminar\u00e1 y la criatura se teletransportar\u00e1 a otro plano de existencia (a elecci\u00f3n de tu DM). <b>Efectos adicionales:</b> esta capa puede destruirse mediante <i>disipar magia</i>.",
+    "materiales": null,
+    "nivel": 9
+  },
+  {
+    "nombre": "Nube aniquiladora",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Creas una esfera de una niebla amarillo-verdosa de 6 m de radio centrada en un punto dentro del alcance. La niebla dura hasta que el conjuro termine o hasta que la disperse un viento intenso (por ejemplo, el que crea <i>r\u00e1faga de viento</i>), lo que pondr\u00e1 fin al conjuro. La zona que ocupa est\u00e1 muy oscura.<br><br>Todas las criaturas situadas en la esfera hacen una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 5d8 de da\u00f1o de veneno si la fallan o la mitad del da\u00f1o si la superan. Una criatura tambi\u00e9n deber\u00e1 hacer esta tirada cuando la esfera entre en su espacio o cuando la criatura entre en la esfera o termine su turno en ella. Una criatura solo hace esta tirada una vez por turno.<br><br>La esfera se aleja de ti 3 m al principio de cada uno de tus turnos.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 5 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 5
+  },
+  {
+    "nombre": "Nube apestosa",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Creas una esfera de gas nauseabundo y amarillento de 6 m de radio centrada en un punto dentro del alcance. La nube est\u00e1 muy oscura y permanece en el aire hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea <i>r\u00e1faga de viento</i>).<br><br>Todas las criaturas que comiencen su turno en la esfera deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o tendr\u00e1n el estado de envenenadas hasta el final del turno actual. Mientras est\u00e9n envenenadas de esta forma, no podr\u00e1n realizar acciones ni acciones adicionales.",
+    "materiales": "Un huevo podrido.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Nube de dagas",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Conjuras dagas giratorias en un cubo de 1,5 m centrado en un punto dentro del alcance. Todas las criaturas situadas en esa zona sufren 4d4 de da\u00f1o cortante. Una criatura tambi\u00e9n recibe da\u00f1o si entra en el cubo, si termina su turno en \u00e9l o si el cubo entra en su espacio. Una criatura solo sufre este da\u00f1o una vez por turno.<br><br>En tus siguientes turnos, puedes usar una acci\u00f3n de magia para teletransportar el cubo hasta 9 m.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 2d4 por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "Un fragmento de cristal.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Nube de oscurecimiento",
+    "clases": [
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas una esfera de niebla de 6 m de radio centrada en un punto dentro del alcance. La esfera est\u00e1 muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea <i>r\u00e1faga de viento</i>).<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El radio de la niebla aumenta en 6 m por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Nube incendiaria",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Una nube turbulenta de humo y ascuas llena una esfera de 6 m de radio centrada en un punto dentro del alcance. La zona que ocupa la nube est\u00e1 muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea <i>r\u00e1faga de viento</i>).<br><br>Cuando aparezca la nube, todas las criaturas dentro de ella har\u00e1n una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 10d8 de da\u00f1o de fuego si la fallan o la mitad del da\u00f1o si la superan. Una criatura tambi\u00e9n deber\u00e1 hacer esta tirada cuando la esfera entre en su espacio o cuando la criatura entre en la esfera o termine su turno en ella. Una criatura solo hace esta tirada una vez por turno.<br><br>La nube se aleja de ti 3 m en la direcci\u00f3n que elijas al principio de cada uno de tus turnos.",
+    "materiales": null,
+    "nivel": 8
+  },
+  {
+    "nombre": "Ofuscaci\u00f3n",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": "Atacas la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Inteligencia.<br><br>Si la falla, sufrir\u00e1 10d12 de da\u00f1o ps\u00edquico y no podr\u00e1 lanzar conjuros ni realizar acciones de magia. Al final de cada 30 d\u00edas, el objetivo repite la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del efecto. Tambi\u00e9n se puede finalizar este efecto mediante un conjuro <i>curar</i>, <i>deseo</i> o <i>restablecimiento mayor</i>.<br><br>Si supera la tirada, solo sufrir\u00e1 la mitad de ese da\u00f1o.",
+    "materiales": "Un llavero sin llaves.",
+    "nivel": 8
+  },
+  {
+    "nombre": "Ojo arcano",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas un ojo invisible e invulnerable dentro del alcance que levita hasta que el conjuro termine. Recibes mentalmente informaci\u00f3n visual desde el ojo, que puede mirar en cualquier direcci\u00f3n y tiene visi\u00f3n en la oscuridad hasta 9 m.<br><br>Como acci\u00f3n adicional, puedes mover el ojo hasta 9 m en cualquier direcci\u00f3n. El ojo no podr\u00e1 atravesar una barrera s\u00f3lida, pero podr\u00e1 pasar por cualquier abertura de 2,5 cm de di\u00e1metro como m\u00ednimo.",
+    "materiales": "Un poco de pelo de murci\u00e9lago.",
+    "nivel": 4
+  },
+  {
+    "nombre": "Ola atronadora",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Desatas una ola de energ\u00eda atronadora. Todas las criaturas situadas en un cubo de 4,5 m de lado adyacente a ti har\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la fallan, recibir\u00e1n 2d8 de da\u00f1o de trueno y ser\u00e1n empujadas 3 m respecto a ti. Si la superan, solo sufrir\u00e1n la mitad de ese da\u00f1o.<br><br>Adem\u00e1s, a los objetos sueltos que est\u00e9n completamente dentro del cubo se les empujar\u00e1 3 m respecto a ti y la explosi\u00f3n atronadora podr\u00e1 o\u00edrse a 90 m de distancia.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Ola destructora",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una energ\u00eda destructiva surge de ti formando ondas en una emanaci\u00f3n de 9 m. Las criaturas que elijas dentro de la emanaci\u00f3n realizan una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la fallan, sufrir\u00e1n 5d6 de da\u00f1o de trueno, 5d6 de da\u00f1o radiante o necr\u00f3tico (a tu elecci\u00f3n) y tendr\u00e1n el estado de derribadas. Si la superan, solamente recibir\u00e1n la mitad de ese da\u00f1o.",
+    "materiales": null,
+    "nivel": 5
+  },
+  {
+    "nombre": "Orbe crom\u00e1tico",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Lanzas un orbe de energ\u00eda a un objetivo dentro del alcance. Elige entre \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago, trueno o veneno para el tipo de orbe creado y despu\u00e9s haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 3d8 de da\u00f1o del tipo elegido.<br><br>Si sacas el mismo n\u00famero en dos o m\u00e1s de los d8, el orbe salta a otro objetivo distinto de tu elecci\u00f3n que est\u00e9 a 9 m o menos del objetivo. Haz una tirada de ataque contra el nuevo objetivo y otra tirada de da\u00f1o. El orbe no puede volver a saltar, a menos que lances el conjuro con un espacio de nivel 2 o superior.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio. El orbe puede saltar un m\u00e1ximo de veces igual al nivel del espacio gastado. Una criatura solo puede ser el objetivo una vez por cada lanzamiento del conjuro.",
+    "materiales": "Un diamante que valga al menos 50 po.",
+    "nivel": 1
+  },
+  {
+    "nombre": "Orden imperiosa",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Das una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o verse obligado a obedecer la orden en su pr\u00f3ximo turno. Elige una de las siguientes \u00f3rdenes:<br><br><b>Ac\u00e9rcate.</b> El objetivo se acerca a ti por la ruta m\u00e1s corta y directa posible, y su turno acaba si se sit\u00faa a 1,5 m o menos de ti.<br><br><b>Detente.</b> En su turno, el objetivo no se mueve y no usa acciones ni acciones adicionales.<br><br><b>Huye.</b> El objetivo empieza su turno en alejarse de ti de la manera m\u00e1s r\u00e1pida posible.<br><br><b>P\u00f3strate.</b> El objetivo adopta el estado de derribado y termina su turno.<br><br><b>Suelta.</b> El objetivo deja lo que sea que est\u00e9 sujetando y acaba su turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Oscuridad",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, una oscuridad m\u00e1gica se propaga desde un punto dentro del alcance y llena una esfera de 4,5 m de radio. La visi\u00f3n en la oscuridad no puede ver a trav\u00e9s de ella y la luz no m\u00e1gica no puede alumbrarla.<br><br>Como alternativa, lanzas el conjuro sobre un objeto que no lleve o vista nadie, lo que har\u00e1 que la oscuridad llene una emanaci\u00f3n de 4,5 m que se origina en \u00e9l. Cubrir el objeto con algo opaco, como un cuenco o un casco, bloquear\u00e1 la oscuridad.<br><br>Si cualquier zona del conjuro se superpone con una zona de luz brillante o luz tenue creada por un conjuro de nivel 2 o inferior, el conjuro que cre\u00f3 esa luz se disipa.",
+    "materiales": "Pelaje de murci\u00e9lago y un trozo de carb\u00f3n.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Palabra de curaci\u00f3n",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance recupera una cantidad de puntos de golpe igual a 2d4 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 2d4 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Palabra de curaci\u00f3n en masa",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta seis criaturas de tu elecci\u00f3n que puedas ver dentro del alcance recuperan una cantidad de puntos de golpe igual a 2d4 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 1d4 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 3
+  },
+  {
+    "nombre": "Palabra de poder: aturdir",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Abrumas la mente de una criatura que puedas ver dentro del alcance. Si el objetivo tiene 150 puntos de golpe o menos, tendr\u00e1 el estado de aturdido. De lo contrario, su velocidad ser\u00e1 0 hasta el principio de tu siguiente turno.<br><br>El objetivo aturdido hace una tirada de salvaci\u00f3n de Constituci\u00f3n al final de cada uno de sus turnos y, si tiene \u00e9xito, se librar\u00e1 del estado.",
+    "materiales": null,
+    "nivel": 8
+  },
+  {
+    "nombre": "Palabra de poder: fortalecer",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Refuerzas a hasta seis criaturas que puedas ver dentro del alcance. El conjuro proporciona 120 puntos de golpe temporales, que divides entre los objetivos.",
+    "materiales": null,
+    "nivel": 7
+  },
+  {
+    "nombre": "Palabra de poder: matar",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Obligas a morir a una criatura que puedas ver dentro del alcance. Si el objetivo tiene 100 puntos de golpe o menos, morir\u00e1. De lo contrario, sufrir\u00e1 12d12 de da\u00f1o ps\u00edquico.",
+    "materiales": null,
+    "nivel": 9
+  },
+  {
+    "nombre": "Palabra de poder: sanar",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura que puedas ver dentro del alcance se ve envuelta por una oleada de energ\u00eda sanadora. El objetivo recupera todos sus puntos de golpe. Si la criatura tiene los estados de asustada, aturdida, envenenada, hechizada o paralizada, los estados terminan. Si la criatura tiene el estado de derribada, puede usar su reacci\u00f3n para levantarse.",
+    "materiales": null,
+    "nivel": 9
+  },
+  {
+    "nombre": "Palabra de regreso",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "5 pies",
+      "1,5 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "T\u00fa y hasta cinco criaturas voluntarias a 1,5 m o menos de ti os teletransport\u00e1is al instante a un santuario designado previamente. T\u00fa y cualquier criatura que se teletransporte contigo aparecer\u00e9is en el espacio sin ocupar m\u00e1s cercano al punto designado al preparar el santuario (consulta m\u00e1s adelante). Si lanzas este conjuro sin preparar antes un santuario, no tiene ning\u00fan efecto.<br><br>Debes designar un lugar como santuario lanzando este conjuro all\u00ed; por ejemplo, en un templo.",
+    "materiales": null,
+    "nivel": 6
+  },
+  {
+    "nombre": "Palabra de resplandor",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Un fulgor ardiente surge de ti en una emanaci\u00f3n de 1,5 m. Todas las criaturas de tu elecci\u00f3n que puedas ver en ella deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o radiante.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "materiales": "Un s\u00edmbolo con forma de rayo.",
+    "nivel": 0
   }
 ]
