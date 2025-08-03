@@ -281,3 +281,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Pasamuros                            | 5         |
 | Pasar sin rastro                     | 2         |
 | Paso arbóreo                         | 5         |
+| Paso brumoso                         | 2         |

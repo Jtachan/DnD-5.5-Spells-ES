@@ -995,5 +995,27 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que el conjuro termine, irradias un aura de ocultaci\u00f3n en una emanaci\u00f3n de 9 m. Mientras permanezc\u00e1is dentro, las criaturas que elijas y t\u00fa tendr\u00e9is un bonificador de +10 a las pruebas de Destreza (Sigilo) y no dejar\u00e9is huellas.",
     "materiales": "Cenizas de mu\u00e9rdago quemado."
+  },
+  {
+    "nombre": "Paso brumoso",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una niebla plateada te rodea brevemente y te teletransportas hasta 9 m a un espacio sin ocupar que puedas ver.",
+    "materiales": null
   }
 ]
