@@ -293,3 +293,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Polimorfar                           | 4         |
 | Polimorfar verdadero                 | 9         |
 | Portal                               | 9         |
+| Potenciar característica             | 2         |
