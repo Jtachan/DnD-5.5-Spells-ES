@@ -964,5 +964,33 @@
     "requiere_ataque": false,
     "descripcion": "Hasta seis criaturas de tu elecci\u00f3n que puedas ver dentro del alcance recuperan una cantidad de puntos de golpe igual a 2d4 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 1d4 por cada nivel por encima de 3 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Patr\u00f3n hipn\u00f3tico",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Creas un patr\u00f3n de colores que se retuercen en un cubo de 9 m de lado dentro del alcance. El patr\u00f3n aparece un instante y se desvanece. Todas las criaturas de la zona que puedan ver el patr\u00f3n deber\u00e1n superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1n el estado de hechizadas hasta que termine el conjuro. Mientras est\u00e9n hechizadas, las criaturas tendr\u00e1n una velocidad de 0 y el estado de incapacitadas.<br><br>El conjuro finaliza para una criatura afectada si esta recibe da\u00f1o o si alguien m\u00e1s emplea una acci\u00f3n para sacudir a dicha criatura y sacarla de su estupor.",
+    "materiales": "Una pizca de confeti."
   }
 ]
