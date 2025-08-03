@@ -299,3 +299,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Protección contra el bien y el mal   | 1         |
 | Protección contra veneno             | 2         |
 | Proyección astral                    | 9         |
+| Proyectar imagen                     | 7         |

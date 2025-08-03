@@ -301,5 +301,31 @@
     "requiere_ataque": false,
     "descripcion": "Susurras una palabra imbuida con el poder de los Planos Superiores. Todas las criaturas de tu elecci\u00f3n dentro del alcance realizan una tirada de salvaci\u00f3n de Carisma. Si la fallan, los objetivos que tengan 50 puntos de golpe o menos sufrir\u00e1n un efecto en funci\u00f3n de sus puntos de golpe actuales, como se muestra en la tabla \u201cEfectos de palabra divina\u201d.<br><br>Con independencia de sus puntos de golpe, cualquier objetivo celestial, elemental, fe\u00e9rico o infernal que falle su tirada de salvaci\u00f3n se ver\u00e1 forzado a regresar a su plano de origen (si no est\u00e1 en \u00e9l) y no podr\u00e1 regresar al plano actual durante 24 horas por cualquier medio que no sea un conjuro <i>deseo</i>.<br><br><b>Efectos de palabra divina</b><br><br><b>0\u201320:</b> El objetivo muere.<br><br><b>21\u201330:</b> El objetivo tiene los estados de aturdido, cegado y ensordecido durante 1 hora.<br><br><b>31\u201340:</b> El objetivo tiene los estados de cegado y ensordecido durante 10 minutos.<br><br><b>41\u201350:</b> El objetivo tiene el estado de ensordecido durante 1 minuto.",
     "materiales": null
+  },
+  {
+    "nombre": "Proyectar imagen",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "2460 pies",
+      "750 km"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 d\u00eda",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas una copia ilusoria de ti que dura hasta que termine el conjuro. La copia puede aparecer en cualquier lugar dentro del alcance que hayas visto antes, sin importar que haya obst\u00e1culos que se interpongan. La ilusi\u00f3n tiene tu aspecto y suena como t\u00fa, pero es intangible. Si recibe cualquier da\u00f1o, desaparecer\u00e1 y el conjuro terminar\u00e1.<br><br>Puedes ver a trav\u00e9s de sus ojos y o\u00edr con sus o\u00eddos como si estuvieras en su espacio. Como acci\u00f3n de magia, puedes hacer que se mueva hasta 18 m y que realice gestos, hable y se comporte del modo que quieras. Imita tu gestualidad a la perfecci\u00f3n.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla. Si una criatura emplea una acci\u00f3n de estudiar para examinar la imagen, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, no se dejar\u00e1 enga\u00f1ar por ella y los sonidos que emita le sonar\u00e1n huecos.",
+    "materiales": "Una estatuilla de ti que valga al menos 5 po."
   }
 ]
