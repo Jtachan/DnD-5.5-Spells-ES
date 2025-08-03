@@ -188,5 +188,32 @@
     "requiere_ataque": false,
     "descripcion": "Detienes el paso del tiempo brevemente para todo el mundo menos para ti. Para las dem\u00e1s criaturas, el tiempo no avanza, mientras que t\u00fa puedes llevar a cabo 1d4 + 1 turnos seguidos, durante los cuales puedes usar acciones y moverte con normalidad.<br><br>Este conjuro termina si una de las acciones que usas o uno de los efectos que creas durante este periodo afecta a una criatura que no seas t\u00fa o a un objeto que lleve o vista alguien que no seas t\u00fa. Tambi\u00e9n termina si te mueves a un sitio que est\u00e9 a m\u00e1s de 300 m del lugar donde lo lanzaste.",
     "materiales": null
+  },
+  {
+    "nombre": "Polimorfar verdadero",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Elige a una criatura o un objeto no m\u00e1gico que puedas ver dentro del alcance. La criatura adopta la forma de otra criatura o la de un objeto no m\u00e1gico, o el objeto se convierte en una criatura (el objeto no puede llevarse ni vestirse). La transformaci\u00f3n dura hasta que el conjuro termine o hasta que el objetivo muera o sea destruido, pero si mantienes la concentraci\u00f3n en el conjuro durante su duraci\u00f3n completa, permanecer\u00e1 hasta que sea disipado.<br><br>Una criatura no voluntaria puede hacer una tirada de salvaci\u00f3n de Sabidur\u00eda y, si la supera, el conjuro no le afectar\u00e1.<br><br><i>Criatura en criatura.</i> Si conviertes a una criatura en otro tipo de criatura, la nueva forma puede ser cualquier tipo que elijas y que tenga un valor de desaf\u00edo igual o menor que el valor de desaf\u00edo o el nivel del objetivo. El perfil del objetivo se reemplaza por el perfil de la nueva forma, pero mantiene sus puntos de golpe, dados de puntos de golpe, alineamiento y personalidad.<br><br>El objetivo obtiene una cantidad de puntos de golpe temporales igual a los puntos de golpe de la nueva forma. Estos puntos de golpe temporales se desvanecer\u00e1n si conservas alguno cuando el conjuro termine.<br><br>Las acciones que puede realizar el objetivo est\u00e1n limitadas por la anatom\u00eda de su nueva forma y no podr\u00e1 hablar ni lanzar conjuros.<br><br>El equipo del objetivo se funde con su nueva forma y la criatura no podr\u00e1 usar ese equipo ni beneficiarse de \u00e9l.<br><br><i>Objeto en criatura.</i> Puedes convertir un objeto en cualquier tipo de criatura, siempre que el tama\u00f1o de dicha criatura no sea mayor que el del objeto y que su valor de desaf\u00edo sea de 9 o menos. La criatura es amistosa contigo y tus aliados. En combate, sus turnos van inmediatamente despu\u00e9s de los tuyos y obedece tus \u00f3rdenes.<br><br>Si el conjuro dura m\u00e1s de una hora, dejas de controlar a la criatura, que puede seguir siendo amistosa contigo en funci\u00f3n de c\u00f3mo la hayas tratado.<br><br><i>Criatura en objeto.</i> Si conviertes a una criatura en un objeto, se transforma en esa forma junto con todo lo que lleve o vista, siempre que el tama\u00f1o del objeto no sea mayor que el de la criatura. El perfil de la criatura pasa a ser el del objeto y no tiene recuerdos del tiempo pasado en esa forma despu\u00e9s de que el conjuro termine y vuelva a la normalidad.",
+    "materiales": "Una gota de mercurio, un poco de goma ar\u00e1biga y un jir\u00f3n de humo."
   }
 ]
