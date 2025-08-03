@@ -297,4 +297,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Presciencia                          | 9         |
 | Prohibición                          | 6         |
 | Protección contra el bien y el mal   | 1         |
-| Protección contra energía            | 3         |
+| Protección contra veneno             | 2         |
