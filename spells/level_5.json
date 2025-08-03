@@ -978,5 +978,30 @@
     "requiere_ataque": false,
     "descripcion": "Una energ\u00eda destructiva surge de ti formando ondas en una emanaci\u00f3n de 9 m. Las criaturas que elijas dentro de la emanaci\u00f3n realizan una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la fallan, sufrir\u00e1n 5d6 de da\u00f1o de trueno, 5d6 de da\u00f1o radiante o necr\u00f3tico (a tu elecci\u00f3n) y tendr\u00e1n el estado de derribadas. Si la superan, solamente recibir\u00e1n la mitad de ese da\u00f1o.",
     "materiales": null
+  },
+  {
+    "nombre": "Pasamuros",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Aparece un pasaje en un punto que puedas ver en una superficie de madera, yeso o piedra (como una pared, un techo o un suelo) dentro del alcance y se mantiene hasta que termine el conjuro. T\u00fa eliges las dimensiones de la abertura: hasta 1,5 m de ancho, 2,4 m de alto y 6 m de largo. El pasaje no crea ninguna inestabilidad en la estructura que lo rodea.<br><br>Cuando la abertura desaparece, las criaturas o los objetos que sigan en el pasaje creado por el conjuro ser\u00e1n expulsados sin da\u00f1o alguno al espacio sin ocupar m\u00e1s cercano a la superficie sobre la que lanzaste el conjuro.",
+    "materiales": "Una pizca de semillas de s\u00e9samo."
   }
 ]
