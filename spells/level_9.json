@@ -268,5 +268,32 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura voluntaria y la dotas de una capacidad limitada de ver el futuro inmediato. Hasta que el conjuro termine, el objetivo tendr\u00e1 ventaja en las pruebas con d20 y las dem\u00e1s criaturas tendr\u00e1n desventaja en las tiradas de ataque contra \u00e9l. El conjuro termina antes si lo vuelves a lanzar.",
     "materiales": "Una pluma de colibr\u00ed."
+  },
+  {
+    "nombre": "Proyecci\u00f3n astral",
+    "clases": [
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "T\u00fa y hasta ocho criaturas voluntarias dentro del alcance proyect\u00e1is vuestros cuerpos astrales al Plano Astral (si ya est\u00e1is all\u00ed, el conjuro termina al instante). El cuerpo material que deja atr\u00e1s un objetivo queda en animaci\u00f3n suspendida; tiene el estado de inconsciente, no necesita aire ni comida y no envejece.<br><br>El cuerpo astral de un objetivo es semejante a su cuerpo en casi todo y replica su perfil y sus posesiones. La diferencia principal es un cord\u00f3n plateado que sale de entre los om\u00f3platos de la forma astral y se desvanece a los 30 cm. Si el cord\u00f3n se corta (algo que solo puede ocurrir si un efecto as\u00ed lo indica), el cuerpo y la forma astral del objetivo mueren.<br><br>Una forma astral puede viajar a trav\u00e9s del Plano Astral. Si abandona el plano, el cuerpo y las posesiones del objetivo viajan a trav\u00e9s del cord\u00f3n de plata, permiti\u00e9ndole volver a entrar en su cuerpo en el nuevo plano.<br><br>El da\u00f1o y otros efectos que se le apliquen a una forma astral no afectan al cuerpo del objetivo y viceversa. Si los puntos de golpe del cuerpo del objetivo o de su forma astral se reducen a 0, el conjuro terminar\u00e1 para \u00e9l. El conjuro termina para todos los objetivos si empleas una acci\u00f3n de magia para ponerle fin.<br><br>Cuando el conjuro termine para un objetivo que no est\u00e9 muerto, reaparecer\u00e1 en su cuerpo y concluir\u00e1 su animaci\u00f3n suspendida.",
+    "materiales": "Por cada objetivo del conjuro, un jacinto que valga al menos 1000 po y un lingote de plata que valga al menos 100 po, que se consumen como parte del conjuro."
   }
 ]
