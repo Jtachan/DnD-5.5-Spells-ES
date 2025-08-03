@@ -992,5 +992,28 @@
     "requiere_ataque": false,
     "descripcion": "Creas un patr\u00f3n de colores que se retuercen en un cubo de 9 m de lado dentro del alcance. El patr\u00f3n aparece un instante y se desvanece. Todas las criaturas de la zona que puedan ver el patr\u00f3n deber\u00e1n superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1n el estado de hechizadas hasta que termine el conjuro. Mientras est\u00e9n hechizadas, las criaturas tendr\u00e1n una velocidad de 0 y el estado de incapacitadas.<br><br>El conjuro finaliza para una criatura afectada si esta recibe da\u00f1o o si alguien m\u00e1s emplea una acci\u00f3n para sacudir a dicha criatura y sacarla de su estupor.",
     "materiales": "Una pizca de confeti."
+  },
+  {
+    "nombre": "Peque\u00f1a choza de Leomund",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una emanaci\u00f3n de 3 m surge a tu alrededor y permanece est\u00e1tica hasta que termine el conjuro. El conjuro fallar\u00e1 al lanzarlo si la emanaci\u00f3n no es lo bastante grande como para cubrir a todas las criaturas en su \u00e1rea. Las criaturas y los objetos que haya en la emanaci\u00f3n cuando lances el conjuro pueden moverse por ella libremente. El resto de criaturas y objetos no pueden atravesarla. No pueden lanzarse conjuros de nivel 3 o inferior a trav\u00e9s de ella y los efectos de estos conjuros no pueden penetrar a su interior. Dentro de la emanaci\u00f3n, la atm\u00f3sfera es c\u00f3moda y seca, independientemente del clima exterior. Hasta que el conjuro termine, puedes hacer que el interior est\u00e9 iluminado de forma tenue o no (requiere acci\u00f3n). Desde el exterior, la emanaci\u00f3n es opaca y de color oscuro, pero es transparente desde el interior. El conjuro termina antes si sales de la emanaci\u00f3n o lo vuelves a lanzar.",
+    "materiales": "Una cuenta de cristal."
   }
 ]
