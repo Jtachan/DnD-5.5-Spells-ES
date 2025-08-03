@@ -284,3 +284,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Paso brumoso                         | 2         |
 | Patrón hipnótico                     | 3         |
 | Pequeña choza de Leomund             | 3         |
+| Perdición                            | 1         |

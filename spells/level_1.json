@@ -1101,5 +1101,32 @@
     "requiere_ataque": false,
     "descripcion": "Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance recupera una cantidad de puntos de golpe igual a 2d4 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 2d4 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Perdici\u00f3n",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Brujo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Hasta tres criaturas de tu elecci\u00f3n a las que puedas ver dentro del alcance deber\u00e1n hacer una tirada de salvaci\u00f3n de Carisma cada una. Siempre que un objetivo que haya fallado esta tirada de salvaci\u00f3n haga una tirada de ataque o de salvaci\u00f3n antes de que termine el conjuro, deber\u00e1 restar 1d4 al resultado de dicha tirada.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "Una gota de sangre."
   }
 ]
