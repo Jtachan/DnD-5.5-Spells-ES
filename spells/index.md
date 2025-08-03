@@ -288,3 +288,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Piedad con los moribundos            | 0 (Truco) |
 | Piel pétrea                          | 4         |
 | Piel robliza                         | 2         |
+| Plaga de insectos                    | 5         |

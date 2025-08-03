@@ -1025,5 +1025,32 @@
     "requiere_ataque": false,
     "descripcion": "Obtienes la capacidad de entrar en un \u00e1rbol y moverte desde dentro al interior de otro \u00e1rbol del mismo tipo que est\u00e9 a 150 m o menos. Ambos \u00e1rboles tienen que estar vivos y ser al menos del mismo tama\u00f1o que t\u00fa. Para entrar en un \u00e1rbol debes gastar 1,5 m de movimiento. Al instante conoces la ubicaci\u00f3n de todos los dem\u00e1s \u00e1rboles del mismo tipo situados a 150 m o menos y, como parte del movimiento gastado para entrar en el \u00e1rbol, puedes pasar al interior de uno de esos \u00e1rboles o salir del \u00e1rbol en el que est\u00e1s.<br><br>Apareces en un punto de tu elecci\u00f3n a 1,5 m o menos del \u00e1rbol de destino gastando otros 1,5 m de movimiento. Si no te queda movimiento, apareces a 1,5 m o menos del \u00e1rbol en el que entraste.<br><br>Puedes usar esta capacidad de transporte solo una vez en cada uno de tus turnos y debes terminar cada turno fuera de un \u00e1rbol.",
     "materiales": null
+  },
+  {
+    "nombre": "Plaga de insectos",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Un enjambre de langostas llena una esfera de 6 m de radio centrada en un punto de tu elecci\u00f3n dentro del alcance. Permanece hasta que termine el conjuro y la zona se considera ligeramente oscura y terreno dif\u00edcil.<br><br>Cuando aparezca el enjambre, todas las criaturas dentro de \u00e9l har\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 4d10 de da\u00f1o perforante si fallan o la mitad del da\u00f1o si la superan. Una criatura tambi\u00e9n har\u00e1 esta tirada cuando entre en el \u00e1rea del conjuro por primera vez en un turno o termine su turno all\u00ed. Una criatura solo hace esta tirada una vez por turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 5 que tenga el espacio.",
+    "materiales": "Una langosta."
   }
 ]
