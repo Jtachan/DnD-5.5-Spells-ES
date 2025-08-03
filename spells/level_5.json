@@ -1003,5 +1003,27 @@
     "requiere_ataque": false,
     "descripcion": "Aparece un pasaje en un punto que puedas ver en una superficie de madera, yeso o piedra (como una pared, un techo o un suelo) dentro del alcance y se mantiene hasta que termine el conjuro. T\u00fa eliges las dimensiones de la abertura: hasta 1,5 m de ancho, 2,4 m de alto y 6 m de largo. El pasaje no crea ninguna inestabilidad en la estructura que lo rodea.<br><br>Cuando la abertura desaparece, las criaturas o los objetos que sigan en el pasaje creado por el conjuro ser\u00e1n expulsados sin da\u00f1o alguno al espacio sin ocupar m\u00e1s cercano a la superficie sobre la que lanzaste el conjuro.",
     "materiales": "Una pizca de semillas de s\u00e9samo."
+  },
+  {
+    "nombre": "Paso arb\u00f3reo",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Obtienes la capacidad de entrar en un \u00e1rbol y moverte desde dentro al interior de otro \u00e1rbol del mismo tipo que est\u00e9 a 150 m o menos. Ambos \u00e1rboles tienen que estar vivos y ser al menos del mismo tama\u00f1o que t\u00fa. Para entrar en un \u00e1rbol debes gastar 1,5 m de movimiento. Al instante conoces la ubicaci\u00f3n de todos los dem\u00e1s \u00e1rboles del mismo tipo situados a 150 m o menos y, como parte del movimiento gastado para entrar en el \u00e1rbol, puedes pasar al interior de uno de esos \u00e1rboles o salir del \u00e1rbol en el que est\u00e1s.<br><br>Apareces en un punto de tu elecci\u00f3n a 1,5 m o menos del \u00e1rbol de destino gastando otros 1,5 m de movimiento. Si no te queda movimiento, apareces a 1,5 m o menos del \u00e1rbol en el que entraste.<br><br>Puedes usar esta capacidad de transporte solo una vez en cada uno de tus turnos y debes terminar cada turno fuera de un \u00e1rbol.",
+    "materiales": null
   }
 ]

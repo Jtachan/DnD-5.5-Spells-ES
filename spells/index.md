@@ -280,3 +280,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Parar el tiempo                      | 9         |
 | Pasamuros                            | 5         |
 | Pasar sin rastro                     | 2         |
+| Paso arbóreo                         | 5         |
