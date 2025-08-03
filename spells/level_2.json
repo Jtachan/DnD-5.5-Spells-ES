@@ -1017,5 +1017,28 @@
     "requiere_ataque": false,
     "descripcion": "Una niebla plateada te rodea brevemente y te teletransportas hasta 9 m a un espacio sin ocupar que puedas ver.",
     "materiales": null
+  },
+  {
+    "nombre": "Piel robliza",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria. Hasta que el conjuro termine, la piel del objetivo adopta una apariencia de corteza y su clase de armadura no podr\u00e1 ser inferior a 17.",
+    "materiales": "Un pu\u00f1ado de corteza."
   }
 ]
