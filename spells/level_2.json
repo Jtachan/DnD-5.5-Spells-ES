@@ -1040,5 +1040,29 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura voluntaria. Hasta que el conjuro termine, la piel del objetivo adopta una apariencia de corteza y su clase de armadura no podr\u00e1 ser inferior a 17.",
     "materiales": "Un pu\u00f1ado de corteza."
+  },
+  {
+    "nombre": "Plegaria de curaci\u00f3n",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta cinco criaturas de tu elecci\u00f3n que permanezcan dentro del alcance del conjuro durante todo su lanzamiento obtienen los beneficios de un descanso corto y tambi\u00e9n recuperan 2d8 puntos de golpe. Las criaturas no pueden volver a beneficiarse de este conjuro hasta que finalicen un descanso largo.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": null
   }
 ]
