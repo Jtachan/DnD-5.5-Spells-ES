@@ -487,5 +487,30 @@
     "requiere_ataque": false,
     "descripcion": "Un fulgor ardiente surge de ti en una emanaci\u00f3n de 1,5 m. Todas las criaturas de tu elecci\u00f3n que puedas ver en ella deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o radiante.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
     "materiales": "Un s\u00edmbolo con forma de rayo."
+  },
+  {
+    "nombre": "Piedad con los moribundos",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "15 pies",
+      "4.5 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Elige a una criatura dentro del alcance que tenga 0 puntos de golpe y no est\u00e9 muerta. La criatura pasa a estar estable.<br><br><b><i>Mejora de truco.</i></b> El alcance se duplica cuando alcanzas los niveles 5 (9 m), 11 (18 m) y 17 (36 m).",
+    "materiales": null
   }
 ]
