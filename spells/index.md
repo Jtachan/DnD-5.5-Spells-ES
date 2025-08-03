@@ -300,3 +300,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Protección contra veneno             | 2         |
 | Proyección astral                    | 9         |
 | Proyectar imagen                     | 7         |
+| Proyectil mágico                     | 1         |

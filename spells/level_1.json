@@ -1154,5 +1154,30 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que el conjuro termine, una criatura voluntaria a la que toques estar\u00e1 protegida contra aberraciones, celestiales, elementales, fe\u00e9ricos, infernales o muertos vivientes. La protecci\u00f3n concede varios beneficios. Las criaturas de esos tipos tendr\u00e1n desventaja en las tiradas de ataque contra el objetivo. El objetivo tampoco puede ser pose\u00eddo por las criaturas ni obtener los estados de asustado o hechizado a causa de ellas. Si el objetivo ya est\u00e1 asustado, hechizado o pose\u00eddo por una criatura de estos tipos, dicho objetivo tendr\u00e1 ventaja en cualquier nueva tirada de salvaci\u00f3n contra el efecto correspondiente.",
     "materiales": "Un frasco de agua bendita que valga al menos 25 po, que se consume como parte del conjuro."
+  },
+  {
+    "nombre": "Proyectil m\u00e1gico",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas tres dardos brillantes de fuerza m\u00e1gica y cada uno de ellos golpea a una criatura de tu elecci\u00f3n a la que puedas ver dentro del alcance. Cada dardo inflige 1d4 + 1 de da\u00f1o de fuerza al objetivo. Todos los dardos aciertan a la vez y puedes dirigirlos para que acierten a una sola criatura o a varias.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El conjuro crea un dardo adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null
   }
 ]
