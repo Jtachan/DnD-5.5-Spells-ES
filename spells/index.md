@@ -286,3 +286,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Pequeña choza de Leomund             | 3         |
 | Perdición                            | 1         |
 | Piedad con los moribundos            | 0 (Truco) |
+| Piel pétrea                          | 4         |

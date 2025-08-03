@@ -805,5 +805,30 @@
     "requiere_ataque": false,
     "descripcion": "Creas un ojo invisible e invulnerable dentro del alcance que levita hasta que el conjuro termine. Recibes mentalmente informaci\u00f3n visual desde el ojo, que puede mirar en cualquier direcci\u00f3n y tiene visi\u00f3n en la oscuridad hasta 9 m.<br><br>Como acci\u00f3n adicional, puedes mover el ojo hasta 9 m en cualquier direcci\u00f3n. El ojo no podr\u00e1 atravesar una barrera s\u00f3lida, pero podr\u00e1 pasar por cualquier abertura de 2,5 cm de di\u00e1metro como m\u00ednimo.",
     "materiales": "Un poco de pelo de murci\u00e9lago."
+  },
+  {
+    "nombre": "Piel p\u00e9trea",
+    "clases": [
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, una criatura voluntaria a la que toques tiene resistencia al da\u00f1o contundente, cortante y perforante.",
+    "materiales": "Polvo de diamante que valga al menos 100 po y que se consume como parte del conjuro."
   }
 ]
