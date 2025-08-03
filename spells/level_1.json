@@ -1128,5 +1128,31 @@
     "requiere_ataque": false,
     "descripcion": "Hasta tres criaturas de tu elecci\u00f3n a las que puedas ver dentro del alcance deber\u00e1n hacer una tirada de salvaci\u00f3n de Carisma cada una. Siempre que un objetivo que haya fallado esta tirada de salvaci\u00f3n haga una tirada de ataque o de salvaci\u00f3n antes de que termine el conjuro, deber\u00e1 restar 1d4 al resultado de dicha tirada.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": "Una gota de sangre."
+  },
+  {
+    "nombre": "Protecci\u00f3n contra el bien y el mal",
+    "clases": [
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Mago",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, una criatura voluntaria a la que toques estar\u00e1 protegida contra aberraciones, celestiales, elementales, fe\u00e9ricos, infernales o muertos vivientes. La protecci\u00f3n concede varios beneficios. Las criaturas de esos tipos tendr\u00e1n desventaja en las tiradas de ataque contra el objetivo. El objetivo tampoco puede ser pose\u00eddo por las criaturas ni obtener los estados de asustado o hechizado a causa de ellas. Si el objetivo ya est\u00e1 asustado, hechizado o pose\u00eddo por una criatura de estos tipos, dicho objetivo tendr\u00e1 ventaja en cualquier nueva tirada de salvaci\u00f3n contra el efecto correspondiente.",
+    "materiales": "Un frasco de agua bendita que valga al menos 25 po, que se consume como parte del conjuro."
   }
 ]

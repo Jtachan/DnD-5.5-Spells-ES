@@ -296,3 +296,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Potenciar característica             | 2         |
 | Presciencia                          | 9         |
 | Prohibición                          | 6         |
+| Protección contra el bien y el mal   | 1         |
