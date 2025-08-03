@@ -277,3 +277,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Palabra de regreso                   | 6         |
 | Palabra de resplandor                | 0 (Truco) |
 | Palabra divina                       | 7         |
+| Parar el tiempo                      | 9         |

@@ -167,5 +167,26 @@
     "requiere_ataque": false,
     "descripcion": "Una criatura que puedas ver dentro del alcance se ve envuelta por una oleada de energ\u00eda sanadora. El objetivo recupera todos sus puntos de golpe. Si la criatura tiene los estados de asustada, aturdida, envenenada, hechizada o paralizada, los estados terminan. Si la criatura tiene el estado de derribada, puede usar su reacci\u00f3n para levantarse.",
     "materiales": null
+  },
+  {
+    "nombre": "Parar el tiempo",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Detienes el paso del tiempo brevemente para todo el mundo menos para ti. Para las dem\u00e1s criaturas, el tiempo no avanza, mientras que t\u00fa puedes llevar a cabo 1d4 + 1 turnos seguidos, durante los cuales puedes usar acciones y moverte con normalidad.<br><br>Este conjuro termina si una de las acciones que usas o uno de los efectos que creas durante este periodo afecta a una criatura que no seas t\u00fa o a un objeto que lleve o vista alguien que no seas t\u00fa. Tambi\u00e9n termina si te mueves a un sitio que est\u00e9 a m\u00e1s de 300 m del lugar donde lo lanzaste.",
+    "materiales": null
   }
 ]
