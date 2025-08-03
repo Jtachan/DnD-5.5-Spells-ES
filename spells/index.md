@@ -290,3 +290,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Piel robliza                         | 2         |
 | Plaga de insectos                    | 5         |
 | Plegaria de curación                 | 2         |
+| Polimorfar                           | 4         |

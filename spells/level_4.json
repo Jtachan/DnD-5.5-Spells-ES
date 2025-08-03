@@ -830,5 +830,33 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que el conjuro termine, una criatura voluntaria a la que toques tiene resistencia al da\u00f1o contundente, cortante y perforante.",
     "materiales": "Polvo de diamante que valga al menos 100 po y que se consume como parte del conjuro."
+  },
+  {
+    "nombre": "Polimorfar",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Intentas transformar en una bestia a una criatura que puedes ver dentro del alcance. El objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o adoptar\u00e1 la forma de una bestia hasta que termine el conjuro. Esa forma puede ser la de cualquier bestia que elijas y cuyo valor de desaf\u00edo sea igual o menor que el del objetivo (o el nivel del objetivo si este no tiene un valor de desaf\u00edo). El perfil del objetivo se sustituye por el de la bestia elegida, pero el objetivo conservar\u00e1 su alineamiento, personalidad, tipo de criatura, puntos de golpe y dados de golpe.<br><br>En el ap\u00e9ndice B puedes consultar varios perfiles de bestias.<br><br>El objetivo obtiene una cantidad de puntos de golpe temporales igual a los puntos de golpe de la forma de bestia. Estos puntos de golpe temporales se desvanecer\u00e1n si conservas alguno cuando el conjuro termine. El conjuro termina antes de tiempo si el objetivo se queda sin puntos de golpe temporales.<br><br>Las acciones que puede realizar el objetivo est\u00e1n limitadas por la anatom\u00eda de su nueva forma y no podr\u00e1 hablar ni lanzar conjuros.<br><br>El equipo del objetivo se funde con su nueva forma y la criatura no podr\u00e1 usar ese equipo ni beneficiarse de \u00e9l.",
+    "materiales": "Un capullo de oruga."
   }
 ]
