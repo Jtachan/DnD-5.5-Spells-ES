@@ -295,3 +295,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Portal                               | 9         |
 | Potenciar característica             | 2         |
 | Presciencia                          | 9         |
+| Prohibición                          | 6         |
