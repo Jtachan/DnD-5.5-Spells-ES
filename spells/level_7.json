@@ -278,5 +278,28 @@
     "requiere_ataque": false,
     "descripcion": "Refuerzas a hasta seis criaturas que puedas ver dentro del alcance. El conjuro proporciona 120 puntos de golpe temporales, que divides entre los objetivos.",
     "materiales": null
+  },
+  {
+    "nombre": "Palabra divina",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Susurras una palabra imbuida con el poder de los Planos Superiores. Todas las criaturas de tu elecci\u00f3n dentro del alcance realizan una tirada de salvaci\u00f3n de Carisma. Si la fallan, los objetivos que tengan 50 puntos de golpe o menos sufrir\u00e1n un efecto en funci\u00f3n de sus puntos de golpe actuales, como se muestra en la tabla \u201cEfectos de palabra divina\u201d.<br><br>Con independencia de sus puntos de golpe, cualquier objetivo celestial, elemental, fe\u00e9rico o infernal que falle su tirada de salvaci\u00f3n se ver\u00e1 forzado a regresar a su plano de origen (si no est\u00e1 en \u00e9l) y no podr\u00e1 regresar al plano actual durante 24 horas por cualquier medio que no sea un conjuro <i>deseo</i>.<br><br><b>Efectos de palabra divina</b><br><br><b>0\u201320:</b> El objetivo muere.<br><br><b>21\u201330:</b> El objetivo tiene los estados de aturdido, cegado y ensordecido durante 1 hora.<br><br><b>31\u201340:</b> El objetivo tiene los estados de cegado y ensordecido durante 10 minutos.<br><br><b>41\u201350:</b> El objetivo tiene el estado de ensordecido durante 1 minuto.",
+    "materiales": null
   }
 ]
