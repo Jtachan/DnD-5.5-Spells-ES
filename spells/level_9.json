@@ -215,5 +215,33 @@
     "requiere_ataque": false,
     "descripcion": "Elige a una criatura o un objeto no m\u00e1gico que puedas ver dentro del alcance. La criatura adopta la forma de otra criatura o la de un objeto no m\u00e1gico, o el objeto se convierte en una criatura (el objeto no puede llevarse ni vestirse). La transformaci\u00f3n dura hasta que el conjuro termine o hasta que el objetivo muera o sea destruido, pero si mantienes la concentraci\u00f3n en el conjuro durante su duraci\u00f3n completa, permanecer\u00e1 hasta que sea disipado.<br><br>Una criatura no voluntaria puede hacer una tirada de salvaci\u00f3n de Sabidur\u00eda y, si la supera, el conjuro no le afectar\u00e1.<br><br><i>Criatura en criatura.</i> Si conviertes a una criatura en otro tipo de criatura, la nueva forma puede ser cualquier tipo que elijas y que tenga un valor de desaf\u00edo igual o menor que el valor de desaf\u00edo o el nivel del objetivo. El perfil del objetivo se reemplaza por el perfil de la nueva forma, pero mantiene sus puntos de golpe, dados de puntos de golpe, alineamiento y personalidad.<br><br>El objetivo obtiene una cantidad de puntos de golpe temporales igual a los puntos de golpe de la nueva forma. Estos puntos de golpe temporales se desvanecer\u00e1n si conservas alguno cuando el conjuro termine.<br><br>Las acciones que puede realizar el objetivo est\u00e1n limitadas por la anatom\u00eda de su nueva forma y no podr\u00e1 hablar ni lanzar conjuros.<br><br>El equipo del objetivo se funde con su nueva forma y la criatura no podr\u00e1 usar ese equipo ni beneficiarse de \u00e9l.<br><br><i>Objeto en criatura.</i> Puedes convertir un objeto en cualquier tipo de criatura, siempre que el tama\u00f1o de dicha criatura no sea mayor que el del objeto y que su valor de desaf\u00edo sea de 9 o menos. La criatura es amistosa contigo y tus aliados. En combate, sus turnos van inmediatamente despu\u00e9s de los tuyos y obedece tus \u00f3rdenes.<br><br>Si el conjuro dura m\u00e1s de una hora, dejas de controlar a la criatura, que puede seguir siendo amistosa contigo en funci\u00f3n de c\u00f3mo la hayas tratado.<br><br><i>Criatura en objeto.</i> Si conviertes a una criatura en un objeto, se transforma en esa forma junto con todo lo que lleve o vista, siempre que el tama\u00f1o del objeto no sea mayor que el de la criatura. El perfil de la criatura pasa a ser el del objeto y no tiene recuerdos del tiempo pasado en esa forma despu\u00e9s de que el conjuro termine y vuelva a la normalidad.",
     "materiales": "Una gota de mercurio, un poco de goma ar\u00e1biga y un jir\u00f3n de humo."
+  },
+  {
+    "nombre": "Portal",
+    "clases": [
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Conjuras un portal que enlaza un espacio sin ocupar que puedas ver dentro del alcance con una ubicaci\u00f3n precisa situada en otro plano de existencia. El portal es una abertura circular a la que puedes dar un di\u00e1metro de entre 1,5 y 6 m, que puedes orientar en la direcci\u00f3n que elijas. El portal permanece hasta que el conjuro termine y puede verse su destino a trav\u00e9s de \u00e9l.<br><br>El portal tiene una parte delantera y otra trasera en cada plano en el que aparece y solo es posible desplazarse a trav\u00e9s de \u00e9l si se atraviesa por la parte delantera. Cualquier cosa que lo haga es transportada al instante al otro plano y aparecer\u00e1 en el espacio sin ocupar m\u00e1s cercano al portal.<br><br>Las deidades y otros gobernantes de planos pueden impedir que los portales creados mediante este conjuro se abran en su presencia o en cualquier lugar dentro de sus dominios.<br><br>Cuando lances el conjuro, puedes decir el nombre de una criatura espec\u00edfica (no sirven un seud\u00f3nimo, un t\u00edtulo o un apodo). Si esa criatura est\u00e1 en un plano distinto al tuyo, el portal se abrir\u00e1 junto a la criatura mencionada y la transportar\u00e1 al espacio sin ocupar m\u00e1s cercano en tu lado del portal. No obtienes ning\u00fan poder especial sobre la criatura y ser\u00e1 libre de actuar seg\u00fan tu DM considere apropiado: puede irse, atacarte o ayudarte.",
+    "materiales": "Un diamante que valga al menos 5000 po."
   }
 ]
