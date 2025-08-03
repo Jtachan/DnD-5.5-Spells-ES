@@ -243,5 +243,30 @@
     "requiere_ataque": false,
     "descripcion": "Conjuras un portal que enlaza un espacio sin ocupar que puedas ver dentro del alcance con una ubicaci\u00f3n precisa situada en otro plano de existencia. El portal es una abertura circular a la que puedes dar un di\u00e1metro de entre 1,5 y 6 m, que puedes orientar en la direcci\u00f3n que elijas. El portal permanece hasta que el conjuro termine y puede verse su destino a trav\u00e9s de \u00e9l.<br><br>El portal tiene una parte delantera y otra trasera en cada plano en el que aparece y solo es posible desplazarse a trav\u00e9s de \u00e9l si se atraviesa por la parte delantera. Cualquier cosa que lo haga es transportada al instante al otro plano y aparecer\u00e1 en el espacio sin ocupar m\u00e1s cercano al portal.<br><br>Las deidades y otros gobernantes de planos pueden impedir que los portales creados mediante este conjuro se abran en su presencia o en cualquier lugar dentro de sus dominios.<br><br>Cuando lances el conjuro, puedes decir el nombre de una criatura espec\u00edfica (no sirven un seud\u00f3nimo, un t\u00edtulo o un apodo). Si esa criatura est\u00e1 en un plano distinto al tuyo, el portal se abrir\u00e1 junto a la criatura mencionada y la transportar\u00e1 al espacio sin ocupar m\u00e1s cercano en tu lado del portal. No obtienes ning\u00fan poder especial sobre la criatura y ser\u00e1 libre de actuar seg\u00fan tu DM considere apropiado: puede irse, atacarte o ayudarte.",
     "materiales": "Un diamante que valga al menos 5000 po."
+  },
+  {
+    "nombre": "Presciencia",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria y la dotas de una capacidad limitada de ver el futuro inmediato. Hasta que el conjuro termine, el objetivo tendr\u00e1 ventaja en las pruebas con d20 y las dem\u00e1s criaturas tendr\u00e1n desventaja en las tiradas de ataque contra \u00e9l. El conjuro termina antes si lo vuelves a lanzar.",
+    "materiales": "Una pluma de colibr\u00ed."
   }
 ]
