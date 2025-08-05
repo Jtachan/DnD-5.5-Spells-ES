@@ -321,3 +321,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Relámpago en cadena                  | 6         |
 | Reparar                              | 0 (Truco) |
 | Represión infernal                   | 1         |
+| Resistencia                          | 0 (Truco) |

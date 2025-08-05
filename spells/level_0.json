@@ -563,5 +563,27 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro repara una sola grieta o desgarr\u00f3n en un objeto que toques, como un eslab\u00f3n roto en una cadena, las dos mitades de una llave partida, una capa rasgada o una fuga en una bota de vino. Mientras la grieta o el desgarr\u00f3n no tenga m\u00e1s de 30 cm de tama\u00f1o en ninguna de sus dimensiones, lo arreglar\u00e1s sin dejar rastro del da\u00f1o.<br><br>Este conjuro puede reparar el componente f\u00edsico de un objeto m\u00e1gico, pero no puede restaurar su magia.",
     "materiales": "Dos imanes naturales."
+  },
+  {
+    "nombre": "Resistencia",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria y eliges un tipo de da\u00f1o: \u00e1cido, contundente, cortante, fr\u00edo, fuego, necr\u00f3tico, perforante, radiante, rel\u00e1mpago, trueno o veneno.<br><br>Cuando la criatura sufra da\u00f1o del tipo elegido antes de que termine el conjuro, reduce el da\u00f1o total recibido en 1d4. Una criatura solo puede beneficiarse de este conjuro una vez por turno.",
+    "materiales": null
   }
 ]
