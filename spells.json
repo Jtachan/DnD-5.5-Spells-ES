@@ -7676,5 +7676,602 @@
     "descripcion": "Creas tres dardos brillantes de fuerza m\u00e1gica y cada uno de ellos golpea a una criatura de tu elecci\u00f3n a la que puedas ver dentro del alcance. Cada dardo inflige 1d4 + 1 de da\u00f1o de fuerza al objetivo. Todos los dardos aciertan a la vez y puedes dirigirlos para que acierten a una sola criatura o a varias.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El conjuro crea un dardo adicional por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null,
     "nivel": 1
+  },
+  {
+    "nombre": "Puerta arcana",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "500 pies",
+      "150 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas portales de teletransporte enlazados. Elige dos espacios Grandes sin ocupar en el suelo que puedas ver, uno dentro del alcance y el otro a 3 m o menos de ti. Un portal circular se abre en cada uno de dichos espacios y permanece hasta que el conjuro termine.<br><br>Los portales son anillos bidimensionales, brillantes y cubiertos de una niebla que tapa la vista, y levitan a pocos cent\u00edmetros del suelo, perpendiculares a \u00e9l.<br><br>Cada portal solo se abre por un lado (t\u00fa decides cu\u00e1l). Todo lo que entre por el lado abierto de un portal sale por el lado abierto del otro como si estuvieran adyacentes entre s\u00ed. Como acci\u00f3n adicional, puedes cambiar la orientaci\u00f3n de los lados abiertos.",
+    "materiales": null,
+    "nivel": 6
+  },
+  {
+    "nombre": "Puerta dimensional",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "500 pies",
+      "150 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Te teletransportas a una ubicaci\u00f3n dentro del alcance y llegas exactamente al sitio deseado. Puede ser un lugar que tengas a la vista, uno que logres visualizar o uno que puedas describir indicando la distancia y la direcci\u00f3n, como \u201c60 m en l\u00ednea recta hacia abajo\u201d o \u201c90 m hacia arriba y hacia el noroeste en un \u00e1ngulo de 45 grados\u201d.<br><br>Tambi\u00e9n puedes teletransportar contigo a una criatura voluntaria. La criatura deber\u00e1 estar a 1,5 m o menos de ti cuando te teletransportes y aparecer\u00e1 en un espacio a 1,5 m o menos de tu espacio de destino.<br><br>Si la otra criatura, t\u00fa o los dos fuerais a llegar a un espacio ya ocupado por una criatura o totalmente ocupado por uno o m\u00e1s objetos, la criatura que viaje contigo y t\u00fa sufrir\u00e9is 4d6 de da\u00f1o de fuerza y la teletransportaci\u00f3n fallar\u00e1.",
+    "materiales": null,
+    "nivel": 4
+  },
+  {
+    "nombre": "Purificar comida y bebida",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Palad\u00edn"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Eliminas el veneno y la podredumbre de la comida y bebida no m\u00e1gicas en una esfera de 1,5 m de radio centrada en un punto dentro del alcance.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Ralentizar",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Alteras el tiempo alrededor de hasta seis criaturas de tu elecci\u00f3n en un cubo de 12 m de lado dentro del alcance. Cada objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o se ver\u00e1 afectado hasta que termine el conjuro.<br><br>Un objetivo afectado ve c\u00f3mo su velocidad se reduce a la mitad, sufre un penalizador de -2 a la CA y a las tiradas de salvaci\u00f3n de Destreza y no puede llevar a cabo reacciones. En sus turnos, puede realizar una acci\u00f3n o una acci\u00f3n adicional, pero no ambas, y solo puede hacer un ataque si emplea la acci\u00f3n de atacar. Si lanza un conjuro con un componente som\u00e1tico, hay un 25 % de probabilidad de que el conjuro falle porque el objetivo haga los gestos demasiado despacio.<br><br>Un objetivo afectado repetir\u00e1 la tirada de salvaci\u00f3n al final de cada uno de sus turnos y, si tiene \u00e9xito, se librar\u00e1 del conjuro.",
+    "materiales": "Una gota de melaza.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Rayo abrasador",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Lanzas tres rayos ardientes y los arrojas contra uno o varios objetivos dentro del alcance. Haz un ataque de conjuro a distancia por cada rayo. Si acierta, el objetivo recibe 2d6 de da\u00f1o de fuego.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Creas un rayo adicional por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 2
+  },
+  {
+    "nombre": "Rayo de escarcha",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Lanzas un rayo helado de luz blanquiazul hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de da\u00f1o de fr\u00edo y su velocidad se reduce en 3 m hasta el principio de tu siguiente turno.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "Rayo de hechicer\u00eda",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Un rayo de energ\u00eda chisporroteante sale disparado hacia una criatura dentro del alcance, formando un arco constante similar a un rel\u00e1mpago entre el objetivo y t\u00fa. Haz un ataque de conjuro a distancia contra \u00e9l. Si acierta, el objetivo sufre 2d12 de da\u00f1o de rel\u00e1mpago.<br><br>En cada uno de tus siguientes turnos, puedes emplear una acci\u00f3n adicional para causar 1d12 de da\u00f1o de rel\u00e1mpago al objetivo autom\u00e1ticamente, incluso si el primer ataque falla.<br><br>El conjuro termina si en alg\u00fan momento el objetivo queda fuera del alcance del conjuro o si consigue tener cobertura completa respecto a ti.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o inicial aumenta en 1d12 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "Una ramita golpeada por un rayo.",
+    "nivel": 1
+  },
+  {
+    "nombre": "Rayo de luna",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Un rayo de luz p\u00e1lida y plateada brilla en un cilindro de 1,5 m de radio y 12 m de alto centrado en un punto dentro del alcance. Hasta que el conjuro termine, una luz tenue llena el cilindro y puedes emplear una acci\u00f3n de magia en turnos posteriores para mover el cilindro hasta 18 m.<br><br>Cuando el cilindro aparezca, todas las criaturas que haya en \u00e9l realizar\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la fallan, recibir\u00e1n 2d10 de da\u00f1o radiante, y si una criatura ha cambiado de forma (por ejemplo, como resultado del conjuro <i>polimorfar</i>), volver\u00e1 a su forma original y no podr\u00e1 cambiarla hasta que salga del cilindro. Si la superan, solo sufrir\u00e1n la mitad de ese da\u00f1o. Una criatura tambi\u00e9n deber\u00e1 hacer esta tirada cuando el \u00e1rea del conjuro entre en su espacio o cuando la criatura entre en el \u00e1rea o acabe su turno en ella. Una criatura solo hace esta tirada una vez por turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "Una hoja con forma de media luna.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Rayo debilitador",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Un haz de energ\u00eda debilitadora surge de ti hacia una criatura dentro del alcance. El objetivo deber\u00e1 hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la supera, tendr\u00e1 desventaja en la siguiente tirada de ataque que haga hasta el principio de tu siguiente turno.<br><br>Si la falla, tendr\u00e1 desventaja en las pruebas con d20 basadas en la Fuerza hasta que termine el conjuro. Durante ese tiempo, tambi\u00e9n restar\u00e1 1d8 a todas las tiradas de da\u00f1o que haga. El objetivo repetir\u00e1 la tirada de salvaci\u00f3n al final de cada uno de sus turnos y, si tiene \u00e9xito, se librar\u00e1 del conjuro.",
+    "materiales": null,
+    "nivel": 2
+  },
+  {
+    "nombre": "Rayo nauseabundo",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Disparas un rayo verduzco hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo sufrir\u00e1 2d8 de da\u00f1o de veneno y tendr\u00e1 el estado de envenenado hasta el final de tu siguiente turno.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Rayo solar",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Lanzas un rayo solar en una l\u00ednea de 1,5 m de ancho y 18 m de largo. Todas las criaturas situadas en esa l\u00ednea har\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la fallan, recibir\u00e1n 6d8 de da\u00f1o radiante y tendr\u00e1n el estado de cegadas hasta el principio de tu siguiente turno. Si la superan, recibir\u00e1n solo la mitad de da\u00f1o.<br><br>Hasta que el conjuro termine, puedes emplear una acci\u00f3n de magia para crear una nueva l\u00ednea de luz radiante.<br><br>Hasta que termine el conjuro, por encima de ti brillar\u00e1 una mota radiante que emite luz brillante en un radio de 9 m y luz tenue 9 m m\u00e1s all\u00e1. Esta luz es luz solar.",
+    "materiales": "Una lupa.",
+    "nivel": 6
+  },
+  {
+    "nombre": "Recado",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Ilimitado",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Env\u00edas un mensaje corto de 25 palabras o menos a una criatura que conozcas o a una criatura que te haya descrito alguien que la conozca. El objetivo escucha el mensaje en su mente, te reconoce como emisor si sabe qui\u00e9n eres y puede responder de manera similar inmediatamente. El conjuro permite que los objetivos comprendan el significado del mensaje.<br><br>Puedes enviar el mensaje a cualquier distancia e incluso a otros planos de existencia, pero si el objetivo est\u00e1 en un plano diferente al tuyo, existe una probabilidad del 5 % de que el mensaje no llegue. Si el mensaje no llega, lo sabr\u00e1s.<br><br>Al recibir tu mensaje, una criatura puede impedir que te pongas en contacto con ella otra vez con este conjuro durante 8 horas. Si intentas enviarle otro mensaje durante ese tiempo, sabr\u00e1s que te ha bloqueado y el conjuro fallar\u00e1.",
+    "materiales": "Un alambre de cobre.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Recluir",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Con un toque, recluyes m\u00e1gicamente un objeto o a una criatura voluntaria. Hasta que el conjuro termine, el objetivo tiene el estado de invisible y no puede ser objetivo de conjuros de adivinaci\u00f3n, detectado con magia ni observado desde lejos mediante magia.<br><br>Si el objetivo es una criatura, entra en un estado de animaci\u00f3n suspendida: tiene el estado de inconsciente, no envejece y no necesita aire, beber ni comer.<br><br>Puedes establecer una condici\u00f3n para que el conjuro termine antes de tiempo, que puede ser cualquier cosa que elijas, pero debe ocurrir o ser visible a 1.5 km o menos del objetivo. Por ejemplo, \u201ccuando transcurran 1000 a\u00f1os\u201d o \u201ccuando se despierte la tarasca\u201d. Este conjuro tambi\u00e9n termina si el objetivo recibe cualquier da\u00f1o.",
+    "materiales": "Polvo de piedras preciosas que valga al menos 5000 po, que se consume como parte del conjuro.",
+    "nivel": 7
+  },
+  {
+    "nombre": "Reencarnar",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a un humanoide muerto o una parte de sus restos. Siempre que la criatura no lleve muerta m\u00e1s de 10 d\u00edas, el conjuro forma un nuevo cuerpo y llama al alma para que entre en \u00e9l. Tira 1d10 y consulta la tabla a continuaci\u00f3n para determinar la especie del cuerpo, o bien tu DM elige otra especie jugable.<br><br><table><tr><th>1d10</th><th>Especie</th><th>1d10</th><th>Especie</th></tr><tr><td>1</td><td>Aasimar</td><td>6</td><td>Goliat</td></tr><tr><td>2</td><td>Drac\u00f3nido</td><td>7</td><td>Humano</td></tr><tr><td>3</td><td>Elfo</td><td>8</td><td>Mediano</td></tr><tr><td>4</td><td>Enano</td><td>9</td><td>Orco</td></tr><tr><td>5</td><td>Gnomo</td><td>10</td><td>Tiefling</td></tr></table><br><br>La criatura reencarnada hace cualquier elecci\u00f3n que ofrezca la descripci\u00f3n de la especie y recuerda su vida anterior. Conserva las capacidades que ten\u00eda en su forma original, pero los atributos de su especie nueva sustituyen a los de la anterior.",
+    "materiales": "Aceites raros que valgan al menos 1000 po, que se consumen como parte del conjuro.",
+    "nivel": 5
+  },
+  {
+    "nombre": "Regenerar",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura a la que toques recupera 4d8 + 15 puntos de golpe. Hasta que el conjuro termine, el objetivo recupera 1 punto de golpe al principio de cada uno de sus turnos y los miembros cercenados crecen de nuevo al cabo de 2 minutos.",
+    "materiales": "Una rueda de plegarias.",
+    "nivel": 7
+  },
+  {
+    "nombre": "Rel\u00e1mpago",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Un rel\u00e1mpago que forma una l\u00ednea de 30 m de largo y 1.5 m de ancho surge de ti en la direcci\u00f3n que elijas. Todas las criaturas situadas en esa l\u00ednea deber\u00e1n hacer una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 8d6 de da\u00f1o de rel\u00e1mpago si la fallan o la mitad del da\u00f1o si la superan.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": "Un poco de pelaje y una vara de cristal.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Rel\u00e1mpago en cadena",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Lanzas un rel\u00e1mpago hacia un objetivo que puedas ver dentro del alcance. A continuaci\u00f3n, de ese objetivo surgir\u00e1n otros tres rel\u00e1mpagos dirigidos a otros tantos objetivos de tu elecci\u00f3n, cada uno de los cuales deber\u00e1 estar a 9 m o menos del primero. Un objetivo puede ser una criatura o un objeto y solo puede ser objetivo de uno de los rel\u00e1mpagos.<br><br>Cada objetivo hace una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 10d8 de da\u00f1o de rel\u00e1mpago si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Surge un rel\u00e1mpago adicional del primer objetivo a otro objetivo por cada nivel por encima de 6 que tenga el espacio.",
+    "materiales": "Tres alfileres de plata.",
+    "nivel": 6
+  },
+  {
+    "nombre": "Reparar",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro repara una sola grieta o desgarr\u00f3n en un objeto que toques, como un eslab\u00f3n roto en una cadena, las dos mitades de una llave partida, una capa rasgada o una fuga en una bota de vino. Mientras la grieta o el desgarr\u00f3n no tenga m\u00e1s de 30 cm de tama\u00f1o en ninguna de sus dimensiones, lo arreglar\u00e1s sin dejar rastro del da\u00f1o.<br><br>Este conjuro puede reparar el componente f\u00edsico de un objeto m\u00e1gico, pero no puede restaurar su magia.",
+    "materiales": "Dos imanes naturales.",
+    "nivel": 0
+  },
+  {
+    "nombre": "Represi\u00f3n infernal",
+    "clases": [
+      "Brujo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Reacci\u00f3n, que llevas a cabo en respuesta a recibir da\u00f1o de una criatura que puedas ver a 18 m o menos de ti",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "La criatura que te ha da\u00f1ado se ve rodeada moment\u00e1neamente por unas llamas verdes y har\u00e1 una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 2d10 de da\u00f1o de fuego si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Resistencia",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria y eliges un tipo de da\u00f1o: \u00e1cido, contundente, cortante, fr\u00edo, fuego, necr\u00f3tico, perforante, radiante, rel\u00e1mpago, trueno o veneno.<br><br>Cuando la criatura sufra da\u00f1o del tipo elegido antes de que termine el conjuro, reduce el da\u00f1o total recibido en 1d4. Una criatura solo puede beneficiarse de este conjuro una vez por turno.",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "Respirar bajo el agua",
+    "clases": [
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro concede a hasta diez criaturas voluntarias que elijas dentro del alcance la capacidad de respirar bajo el agua hasta que el conjuro termine. Las criaturas afectadas tambi\u00e9n conservan su modo de respiraci\u00f3n normal.",
+    "materiales": "Un junco corto.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Restablecimiento mayor",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura y eliminas m\u00e1gicamente uno de los siguientes efectos de ella:<br><br>\u2022 1 nivel de cansancio.<br><br>\u2022 Los estados de hechizado o petrificado.<br><br>\u2022 Una maldici\u00f3n, incluida la sintonizaci\u00f3n del objetivo con un objeto m\u00e1gico maldito.<br><br>\u2022 Cualquier reducci\u00f3n de una de las puntuaciones de caracter\u00edstica del objetivo.<br><br>\u2022 Cualquier reducci\u00f3n de los puntos de golpe m\u00e1ximos del objetivo.",
+    "materiales": "Polvo de diamante que valga al menos 100 po y que se consume como parte del conjuro.",
+    "nivel": 5
+  },
+  {
+    "nombre": "R\u00e1faga de viento",
+    "clases": [
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "De ti surge una r\u00e1faga de viento fuerte en una l\u00ednea recta de 18 m de largo y 3 m de ancho en la direcci\u00f3n que elijas hasta que termine el conjuro. Todas las criaturas en esa l\u00ednea deber\u00e1n superar una tirada de salvaci\u00f3n de Fuerza o ser\u00e1n empujadas 4,5 m en la direcci\u00f3n de la l\u00ednea. Las criaturas que terminen su turno en ella tambi\u00e9n deber\u00e1n hacer la tirada de salvaci\u00f3n.<br><br>Cualquier criatura que est\u00e9 en la l\u00ednea deber\u00e1 gastar 2 m de movimiento por cada metro que se mueva para acercarse a ti.<br><br>La r\u00e1faga dispersa el gas o el vapor y apaga velas y otras llamas desprotegidas de la zona. Hace que las llamas protegidas, como las de los faroles, se agiten salvajemente y tienen un 50 % de probabilidad de apagarse.<br><br>Como acci\u00f3n adicional en tus siguientes turnos, puedes cambiar la direcci\u00f3n en la que la l\u00ednea surge de ti.",
+    "materiales": "La semilla de una legumbre.",
+    "nivel": 2
   }
 ]
