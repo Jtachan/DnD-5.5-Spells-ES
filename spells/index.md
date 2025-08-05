@@ -303,3 +303,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Proyectil mágico                     | 1         |
 | Puerta arcana                        | 6         |
 | Puerta dimensional                   | 4         |
+| Purificar comida y bebida            | 1         |
