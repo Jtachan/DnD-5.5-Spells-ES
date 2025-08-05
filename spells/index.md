@@ -308,3 +308,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Ralentizar                           | 3         |
 | Rayo abrasador                       | 2         |
 | Rayo de escarcha                     | 0 (Truco) |
+| Rayo de hechicería                   | 1         |
