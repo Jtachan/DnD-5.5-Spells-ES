@@ -319,3 +319,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Regenerar                            | 7         |
 | Relámpago                            | 3         |
 | Relámpago en cadena                  | 6         |
+| Reparar                              | 0 (Truco) |
