@@ -349,5 +349,29 @@
     "requiere_ataque": false,
     "descripcion": "Con un toque, recluyes m\u00e1gicamente un objeto o a una criatura voluntaria. Hasta que el conjuro termine, el objetivo tiene el estado de invisible y no puede ser objetivo de conjuros de adivinaci\u00f3n, detectado con magia ni observado desde lejos mediante magia.<br><br>Si el objetivo es una criatura, entra en un estado de animaci\u00f3n suspendida: tiene el estado de inconsciente, no envejece y no necesita aire, beber ni comer.<br><br>Puedes establecer una condici\u00f3n para que el conjuro termine antes de tiempo, que puede ser cualquier cosa que elijas, pero debe ocurrir o ser visible a 1.5 km o menos del objetivo. Por ejemplo, \u201ccuando transcurran 1000 a\u00f1os\u201d o \u201ccuando se despierte la tarasca\u201d. Este conjuro tambi\u00e9n termina si el objetivo recibe cualquier da\u00f1o.",
     "materiales": "Polvo de piedras preciosas que valga al menos 5000 po, que se consume como parte del conjuro."
+  },
+  {
+    "nombre": "Regenerar",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura a la que toques recupera 4d8 + 15 puntos de golpe. Hasta que el conjuro termine, el objetivo recupera 1 punto de golpe al principio de cada uno de sus turnos y los miembros cercenados crecen de nuevo al cabo de 2 minutos.",
+    "materiales": "Una rueda de plegarias."
   }
 ]

@@ -316,3 +316,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Recado                               | 3         |
 | Recluir                              | 7         |
 | Reencarnar                           | 5         |
+| Regenerar                            | 7         |
