@@ -306,3 +306,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Purificar comida y bebida            | 1         |
 | Ráfaga de viento                     | 2         |
 | Ralentizar                           | 3         |
+| Rayo abrasador                       | 2         |
