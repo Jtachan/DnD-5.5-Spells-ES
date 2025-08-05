@@ -1067,5 +1067,29 @@
     "requiere_ataque": false,
     "descripcion": "Alteras el tiempo alrededor de hasta seis criaturas de tu elecci\u00f3n en un cubo de 12 m de lado dentro del alcance. Cada objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o se ver\u00e1 afectado hasta que termine el conjuro.<br><br>Un objetivo afectado ve c\u00f3mo su velocidad se reduce a la mitad, sufre un penalizador de -2 a la CA y a las tiradas de salvaci\u00f3n de Destreza y no puede llevar a cabo reacciones. En sus turnos, puede realizar una acci\u00f3n o una acci\u00f3n adicional, pero no ambas, y solo puede hacer un ataque si emplea la acci\u00f3n de atacar. Si lanza un conjuro con un componente som\u00e1tico, hay un 25 % de probabilidad de que el conjuro falle porque el objetivo haga los gestos demasiado despacio.<br><br>Un objetivo afectado repetir\u00e1 la tirada de salvaci\u00f3n al final de cada uno de sus turnos y, si tiene \u00e9xito, se librar\u00e1 del conjuro.",
     "materiales": "Una gota de melaza."
+  },
+  {
+    "nombre": "Recado",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Ilimitado",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Env\u00edas un mensaje corto de 25 palabras o menos a una criatura que conozcas o a una criatura que te haya descrito alguien que la conozca. El objetivo escucha el mensaje en su mente, te reconoce como emisor si sabe qui\u00e9n eres y puede responder de manera similar inmediatamente. El conjuro permite que los objetivos comprendan el significado del mensaje.<br><br>Puedes enviar el mensaje a cualquier distancia e incluso a otros planos de existencia, pero si el objetivo est\u00e1 en un plano diferente al tuyo, existe una probabilidad del 5 % de que el mensaje no llegue. Si el mensaje no llega, lo sabr\u00e1s.<br><br>Al recibir tu mensaje, una criatura puede impedir que te pongas en contacto con ella otra vez con este conjuro durante 8 horas. Si intentas enviarle otro mensaje durante ese tiempo, sabr\u00e1s que te ha bloqueado y el conjuro fallar\u00e1.",
+    "materiales": "Un alambre de cobre."
   }
 ]

@@ -313,3 +313,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Rayo debilitador                     | 2         |
 | Rayo nauseabundo                     | 1         |
 | Rayo solar                           | 6         |
+| Recado                               | 3         |
