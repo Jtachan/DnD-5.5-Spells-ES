@@ -322,3 +322,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Reparar                              | 0 (Truco) |
 | Represión infernal                   | 1         |
 | Resistencia                          | 0 (Truco) |
+| Respirar bajo el agua                | 3         |
