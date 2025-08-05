@@ -1040,5 +1040,32 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que termine el conjuro, una criatura voluntaria a la que toques tendr\u00e1 resistencia a un tipo de da\u00f1o de tu elecci\u00f3n: \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago o trueno.",
     "materiales": null
+  },
+  {
+    "nombre": "Ralentizar",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Alteras el tiempo alrededor de hasta seis criaturas de tu elecci\u00f3n en un cubo de 12 m de lado dentro del alcance. Cada objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o se ver\u00e1 afectado hasta que termine el conjuro.<br><br>Un objetivo afectado ve c\u00f3mo su velocidad se reduce a la mitad, sufre un penalizador de -2 a la CA y a las tiradas de salvaci\u00f3n de Destreza y no puede llevar a cabo reacciones. En sus turnos, puede realizar una acci\u00f3n o una acci\u00f3n adicional, pero no ambas, y solo puede hacer un ataque si emplea la acci\u00f3n de atacar. Si lanza un conjuro con un componente som\u00e1tico, hay un 25 % de probabilidad de que el conjuro falle porque el objetivo haga los gestos demasiado despacio.<br><br>Un objetivo afectado repetir\u00e1 la tirada de salvaci\u00f3n al final de cada uno de sus turnos y, si tiene \u00e9xito, se librar\u00e1 del conjuro.",
+    "materiales": "Una gota de melaza."
   }
 ]
