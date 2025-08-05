@@ -1052,5 +1052,27 @@
     "requiere_ataque": false,
     "descripcion": "Un enjambre de langostas llena una esfera de 6 m de radio centrada en un punto de tu elecci\u00f3n dentro del alcance. Permanece hasta que termine el conjuro y la zona se considera ligeramente oscura y terreno dif\u00edcil.<br><br>Cuando aparezca el enjambre, todas las criaturas dentro de \u00e9l har\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 4d10 de da\u00f1o perforante si fallan o la mitad del da\u00f1o si la superan. Una criatura tambi\u00e9n har\u00e1 esta tirada cuando entre en el \u00e1rea del conjuro por primera vez en un turno o termine su turno all\u00ed. Una criatura solo hace esta tirada una vez por turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 5 que tenga el espacio.",
     "materiales": "Una langosta."
+  },
+  {
+    "nombre": "Reencarnar",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a un humanoide muerto o una parte de sus restos. Siempre que la criatura no lleve muerta m\u00e1s de 10 d\u00edas, el conjuro forma un nuevo cuerpo y llama al alma para que entre en \u00e9l. Tira 1d10 y consulta la tabla a continuaci\u00f3n para determinar la especie del cuerpo, o bien tu DM elige otra especie jugable.<br><br><table><tr><th>1d10</th><th>Especie</th><th>1d10</th><th>Especie</th></tr><tr><td>1</td><td>Aasimar</td><td>6</td><td>Goliat</td></tr><tr><td>2</td><td>Drac\u00f3nido</td><td>7</td><td>Humano</td></tr><tr><td>3</td><td>Elfo</td><td>8</td><td>Mediano</td></tr><tr><td>4</td><td>Enano</td><td>9</td><td>Orco</td></tr><tr><td>5</td><td>Gnomo</td><td>10</td><td>Tiefling</td></tr></table><br><br>La criatura reencarnada hace cualquier elecci\u00f3n que ofrezca la descripci\u00f3n de la especie y recuerda su vida anterior. Conserva las capacidades que ten\u00eda en su forma original, pero los atributos de su especie nueva sustituyen a los de la anterior.",
+    "materiales": "Aceites raros que valgan al menos 1000 po, que se consumen como parte del conjuro."
   }
 ]
