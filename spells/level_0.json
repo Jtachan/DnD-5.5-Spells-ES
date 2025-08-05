@@ -512,5 +512,30 @@
     "requiere_ataque": false,
     "descripcion": "Elige a una criatura dentro del alcance que tenga 0 puntos de golpe y no est\u00e9 muerta. La criatura pasa a estar estable.<br><br><b><i>Mejora de truco.</i></b> El alcance se duplica cuando alcanzas los niveles 5 (9 m), 11 (18 m) y 17 (36 m).",
     "materiales": null
+  },
+  {
+    "nombre": "Rayo de escarcha",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Lanzas un rayo helado de luz blanquiazul hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de da\u00f1o de fr\u00edo y su velocidad se reduce en 3 m hasta el principio de tu siguiente turno.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "materiales": null
   }
 ]

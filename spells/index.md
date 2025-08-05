@@ -307,3 +307,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Ráfaga de viento                     | 2         |
 | Ralentizar                           | 3         |
 | Rayo abrasador                       | 2         |
+| Rayo de escarcha                     | 0 (Truco) |
