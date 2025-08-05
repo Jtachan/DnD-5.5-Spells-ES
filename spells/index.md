@@ -302,3 +302,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Proyectar imagen                     | 7         |
 | Proyectil mágico                     | 1         |
 | Puerta arcana                        | 6         |
+| Puerta dimensional                   | 4         |

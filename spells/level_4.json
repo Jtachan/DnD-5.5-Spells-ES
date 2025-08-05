@@ -858,5 +858,31 @@
     "requiere_ataque": false,
     "descripcion": "Intentas transformar en una bestia a una criatura que puedes ver dentro del alcance. El objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o adoptar\u00e1 la forma de una bestia hasta que termine el conjuro. Esa forma puede ser la de cualquier bestia que elijas y cuyo valor de desaf\u00edo sea igual o menor que el del objetivo (o el nivel del objetivo si este no tiene un valor de desaf\u00edo). El perfil del objetivo se sustituye por el de la bestia elegida, pero el objetivo conservar\u00e1 su alineamiento, personalidad, tipo de criatura, puntos de golpe y dados de golpe.<br><br>En el ap\u00e9ndice B puedes consultar varios perfiles de bestias.<br><br>El objetivo obtiene una cantidad de puntos de golpe temporales igual a los puntos de golpe de la forma de bestia. Estos puntos de golpe temporales se desvanecer\u00e1n si conservas alguno cuando el conjuro termine. El conjuro termina antes de tiempo si el objetivo se queda sin puntos de golpe temporales.<br><br>Las acciones que puede realizar el objetivo est\u00e1n limitadas por la anatom\u00eda de su nueva forma y no podr\u00e1 hablar ni lanzar conjuros.<br><br>El equipo del objetivo se funde con su nueva forma y la criatura no podr\u00e1 usar ese equipo ni beneficiarse de \u00e9l.",
     "materiales": "Un capullo de oruga."
+  },
+  {
+    "nombre": "Puerta dimensional",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "500 pies",
+      "150 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Te teletransportas a una ubicaci\u00f3n dentro del alcance y llegas exactamente al sitio deseado. Puede ser un lugar que tengas a la vista, uno que logres visualizar o uno que puedas describir indicando la distancia y la direcci\u00f3n, como \u201c60 m en l\u00ednea recta hacia abajo\u201d o \u201c90 m hacia arriba y hacia el noroeste en un \u00e1ngulo de 45 grados\u201d.<br><br>Tambi\u00e9n puedes teletransportar contigo a una criatura voluntaria. La criatura deber\u00e1 estar a 1,5 m o menos de ti cuando te teletransportes y aparecer\u00e1 en un espacio a 1,5 m o menos de tu espacio de destino.<br><br>Si la otra criatura, t\u00fa o los dos fuerais a llegar a un espacio ya ocupado por una criatura o totalmente ocupado por uno o m\u00e1s objetos, la criatura que viaje contigo y t\u00fa sufrir\u00e9is 4d6 de da\u00f1o de fuerza y la teletransportaci\u00f3n fallar\u00e1.",
+    "materiales": null
   }
 ]
