@@ -1091,5 +1091,28 @@
     "requiere_ataque": false,
     "descripcion": "Env\u00edas un mensaje corto de 25 palabras o menos a una criatura que conozcas o a una criatura que te haya descrito alguien que la conozca. El objetivo escucha el mensaje en su mente, te reconoce como emisor si sabe qui\u00e9n eres y puede responder de manera similar inmediatamente. El conjuro permite que los objetivos comprendan el significado del mensaje.<br><br>Puedes enviar el mensaje a cualquier distancia e incluso a otros planos de existencia, pero si el objetivo est\u00e1 en un plano diferente al tuyo, existe una probabilidad del 5 % de que el mensaje no llegue. Si el mensaje no llega, lo sabr\u00e1s.<br><br>Al recibir tu mensaje, una criatura puede impedir que te pongas en contacto con ella otra vez con este conjuro durante 8 horas. Si intentas enviarle otro mensaje durante ese tiempo, sabr\u00e1s que te ha bloqueado y el conjuro fallar\u00e1.",
     "materiales": "Un alambre de cobre."
+  },
+  {
+    "nombre": "Rel\u00e1mpago",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Un rel\u00e1mpago que forma una l\u00ednea de 30 m de largo y 1.5 m de ancho surge de ti en la direcci\u00f3n que elijas. Todas las criaturas situadas en esa l\u00ednea deber\u00e1n hacer una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 8d6 de da\u00f1o de rel\u00e1mpago si la fallan o la mitad del da\u00f1o si la superan.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": "Un poco de pelaje y una vara de cristal."
   }
 ]
