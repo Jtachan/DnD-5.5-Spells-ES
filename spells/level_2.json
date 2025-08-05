@@ -295,7 +295,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
-    "descripcion": "Cada humanoide en una esfera de 6 m de radio centrada en un punto que elijas dentro del alcance deber\u00e1 superar una tirada de salvaci\u00f3n de Carisma o se ver\u00e1 afectado por uno de los siguientes efectos (elige uno por cada criatura):<br><br>- La criatura tiene inmunidad a los estados de asustada y hechizada hasta que el conjuro termine. Si la criatura ya estaba asustada o hechizada, se suprimen esos estados hasta que el conjuro termine.<br><br>- La criatura se vuelve indiferente hacia las criaturas de tu elecci\u00f3n hacia las que sea hostil. Esta indiferencia termina si el objetivo recibe da\u00f1o o si observa c\u00f3mo alguno de sus aliados resulta da\u00f1ado. Cuando el conjuro termine, la actitud de la criatura volver\u00e1 a la normalidad.",
+    "descripcion": "Cada humanoide en una esfera de 6 m de radio centrada en un punto que elijas dentro del alcance deber\u00e1 superar una tirada de salvaci\u00f3n de Carisma o se ver\u00e1 afectado por uno de los siguientes efectos (elige uno por cada criatura):<ul><li>La criatura tiene inmunidad a los estados de asustada y hechizada hasta que el conjuro termine. Si la criatura ya estaba asustada o hechizada, se suprimen esos estados hasta que el conjuro termine.</li><li>La criatura se vuelve indiferente hacia las criaturas de tu elecci\u00f3n hacia las que sea hostil. Esta indiferencia termina si el objetivo recibe da\u00f1o o si observa c\u00f3mo alguno de sus aliados resulta da\u00f1ado. Cuando el conjuro termine, la actitud de la criatura volver\u00e1 a la normalidad.</li></ul>",
     "materiales": null
   },
   {
