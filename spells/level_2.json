@@ -1190,5 +1190,30 @@
     "requiere_ataque": false,
     "descripcion": "Un rayo de luz p\u00e1lida y plateada brilla en un cilindro de 1,5 m de radio y 12 m de alto centrado en un punto dentro del alcance. Hasta que el conjuro termine, una luz tenue llena el cilindro y puedes emplear una acci\u00f3n de magia en turnos posteriores para mover el cilindro hasta 18 m.<br><br>Cuando el cilindro aparezca, todas las criaturas que haya en \u00e9l realizar\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la fallan, recibir\u00e1n 2d10 de da\u00f1o radiante, y si una criatura ha cambiado de forma (por ejemplo, como resultado del conjuro <i>polimorfar</i>), volver\u00e1 a su forma original y no podr\u00e1 cambiarla hasta que salga del cilindro. Si la superan, solo sufrir\u00e1n la mitad de ese da\u00f1o. Una criatura tambi\u00e9n deber\u00e1 hacer esta tirada cuando el \u00e1rea del conjuro entre en su espacio o cuando la criatura entre en el \u00e1rea o acabe su turno en ella. Una criatura solo hace esta tirada una vez por turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": "Una hoja con forma de media luna."
+  },
+  {
+    "nombre": "Rayo debilitador",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Un haz de energ\u00eda debilitadora surge de ti hacia una criatura dentro del alcance. El objetivo deber\u00e1 hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la supera, tendr\u00e1 desventaja en la siguiente tirada de ataque que haga hasta el principio de tu siguiente turno.<br><br>Si la falla, tendr\u00e1 desventaja en las pruebas con d20 basadas en la Fuerza hasta que termine el conjuro. Durante ese tiempo, tambi\u00e9n restar\u00e1 1d8 a todas las tiradas de da\u00f1o que haga. El objetivo repetir\u00e1 la tirada de salvaci\u00f3n al final de cada uno de sus turnos y, si tiene \u00e9xito, se librar\u00e1 del conjuro.",
+    "materiales": null
   }
 ]
