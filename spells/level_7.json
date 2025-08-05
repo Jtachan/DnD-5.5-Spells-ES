@@ -327,5 +327,27 @@
     "requiere_ataque": false,
     "descripcion": "Creas una copia ilusoria de ti que dura hasta que termine el conjuro. La copia puede aparecer en cualquier lugar dentro del alcance que hayas visto antes, sin importar que haya obst\u00e1culos que se interpongan. La ilusi\u00f3n tiene tu aspecto y suena como t\u00fa, pero es intangible. Si recibe cualquier da\u00f1o, desaparecer\u00e1 y el conjuro terminar\u00e1.<br><br>Puedes ver a trav\u00e9s de sus ojos y o\u00edr con sus o\u00eddos como si estuvieras en su espacio. Como acci\u00f3n de magia, puedes hacer que se mueva hasta 18 m y que realice gestos, hable y se comporte del modo que quieras. Imita tu gestualidad a la perfecci\u00f3n.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla. Si una criatura emplea una acci\u00f3n de estudiar para examinar la imagen, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, no se dejar\u00e1 enga\u00f1ar por ella y los sonidos que emita le sonar\u00e1n huecos.",
     "materiales": "Una estatuilla de ti que valga al menos 5 po."
+  },
+  {
+    "nombre": "Recluir",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Con un toque, recluyes m\u00e1gicamente un objeto o a una criatura voluntaria. Hasta que el conjuro termine, el objetivo tiene el estado de invisible y no puede ser objetivo de conjuros de adivinaci\u00f3n, detectado con magia ni observado desde lejos mediante magia.<br><br>Si el objetivo es una criatura, entra en un estado de animaci\u00f3n suspendida: tiene el estado de inconsciente, no envejece y no necesita aire, beber ni comer.<br><br>Puedes establecer una condici\u00f3n para que el conjuro termine antes de tiempo, que puede ser cualquier cosa que elijas, pero debe ocurrir o ser visible a 1.5 km o menos del objetivo. Por ejemplo, \u201ccuando transcurran 1000 a\u00f1os\u201d o \u201ccuando se despierte la tarasca\u201d. Este conjuro tambi\u00e9n termina si el objetivo recibe cualquier da\u00f1o.",
+    "materiales": "Polvo de piedras preciosas que valga al menos 5000 po, que se consume como parte del conjuro."
   }
 ]

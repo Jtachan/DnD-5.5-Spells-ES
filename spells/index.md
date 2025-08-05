@@ -314,3 +314,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Rayo nauseabundo                     | 1         |
 | Rayo solar                           | 6         |
 | Recado                               | 3         |
+| Recluir                              | 7         |
