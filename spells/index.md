@@ -304,3 +304,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Puerta arcana                        | 6         |
 | Puerta dimensional                   | 4         |
 | Purificar comida y bebida            | 1         |
+| Ráfaga de viento                     | 2         |
