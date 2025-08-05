@@ -1232,5 +1232,30 @@
     "requiere_ataque": true,
     "descripcion": "Un rayo de energ\u00eda chisporroteante sale disparado hacia una criatura dentro del alcance, formando un arco constante similar a un rel\u00e1mpago entre el objetivo y t\u00fa. Haz un ataque de conjuro a distancia contra \u00e9l. Si acierta, el objetivo sufre 2d12 de da\u00f1o de rel\u00e1mpago.<br><br>En cada uno de tus siguientes turnos, puedes emplear una acci\u00f3n adicional para causar 1d12 de da\u00f1o de rel\u00e1mpago al objetivo autom\u00e1ticamente, incluso si el primer ataque falla.<br><br>El conjuro termina si en alg\u00fan momento el objetivo queda fuera del alcance del conjuro o si consigue tener cobertura completa respecto a ti.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o inicial aumenta en 1d12 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": "Una ramita golpeada por un rayo."
+  },
+  {
+    "nombre": "Rayo nauseabundo",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Disparas un rayo verduzco hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo sufrir\u00e1 2d8 de da\u00f1o de veneno y tendr\u00e1 el estado de envenenado hasta el final de tu siguiente turno.",
+    "materiales": null
   }
 ]

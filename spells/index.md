@@ -311,3 +311,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Rayo de hechicería                   | 1         |
 | Rayo de luna                         | 2         |
 | Rayo debilitador                     | 2         |
+| Rayo nauseabundo                     | 1         |
