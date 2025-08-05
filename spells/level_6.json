@@ -397,7 +397,7 @@
     "materiales": "Una cuenta de cristal."
   },
   {
-    "nombre": "Guardas y Guardias",
+    "nombre": "Guardas y guardias",
     "clases": [
       "Bardo",
       "Mago"
@@ -412,12 +412,12 @@
       "S",
       "M"
     ],
-    "materiales": "Una vara de plata que valga al menos 10 po.",
     "concentracion": false,
     "duracion": "24 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas una protecci\u00f3n que cubre hasta 250 m\u00b2 de espacio en el suelo. La zona protegida puede tener hasta 6 m de altura y se puede dar forma a una zona cuadrada de 15 m de lado, cien cuadrados contiguos de 1,5 m o veinticinco cuadrados de 3 m.<br><br>Cuando lances el conjuro, puedes especificar criaturas que no se ver\u00e1n afectadas por sus efectos, o establecer una contrase\u00f1a que al ser dicha a 1,5 m de la zona protegida hace inmune a quien la diga.<br><br>Disipar magia no afecta directamente a 'guardas y guardias', pero s\u00ed puede disipar sus efectos. Si se disipan los cuatro efectos principales, el conjuro termina. Si lanzas el conjuro a diario durante 365 d\u00edas en la misma zona, dura hasta que se disipen sus efectos.<br><br><b>Efectos:</b><ul><li><b>Escaleras:</b> Se llenan de telara\u00f1as (como telara\u00f1a) que se regeneran cada 10 minutos.</li><li><b>Pasillos:</b> Llenos de niebla y muy oscuros. En intersecciones, 50% de error en la direcci\u00f3n tomada.</li><li><b>Puertas:</b> Cerradas m\u00e1gicamente (como cerradura arcana) y hasta 10 puertas pueden parecer paredes por ilusi\u00f3n.</li><li><b>Otro efecto:</b> Elige uno: <ul><li>Luces danzantes en 4 pasillos.</li><li>Boca m\u00e1gica en 2 lugares.</li><li>Nube apestosa en 2 lugares.</li><li>R\u00e1faga de viento constante en una sala o pasillo.</li><li>Sugesti\u00f3n en una casilla de 1,5 m de lado.</li></ul></li></ul>"
+    "descripcion": "Creas una protecci\u00f3n que cubre hasta 250 m\u00b2 de espacio en el suelo. La zona protegida puede tener hasta 6 m de altura y le das la forma de una zona cuadrada de 15 m de lado, cien cuadrados contiguos de 1,5 m de lado o veinticinco cuadrados contiguos de 3 m de lado.<br><br>Cuando lances el conjuro, puedes especificar criaturas individuales que no se ver\u00e1n afectadas por los efectos del conjuro. Tambi\u00e9n puedes designar una contrase\u00f1a que, cuando se diga en alto a 1,5 m o menos de la zona protegida, hace inmune a sus efectos a quien la dice.<br><br>El conjuro crea los efectos indicados a continuaci\u00f3n en la zona protegida. <i>Disipar magia</i> no tiene efecto sobre <i>guardas y guardias</i>, pero s\u00ed que se pueden disipar los siguientes efectos. Si se disipan los cuatro, <i>guardas y guardias</i> terminar\u00e1. Si lanzas el conjuro a diario durante 365 d\u00edas en la misma zona, el conjuro durar\u00e1 hasta que se disipen todos sus efectos.<br><br><b>Escaleras.</b> Todas las escaleras de la zona protegida se llenan de telara\u00f1as de arriba abajo, como si estuvieran afectadas por el conjuro <i>telara\u00f1a</i>. Mientras dure <i>guardas y guardias</i>, estas telara\u00f1as vuelven a generarse en un plazo de 10 minutos si se destruyen.<br><br><b>Pasillos.</b> Todos los pasillos protegidos se llenan de niebla y pasan a estar muy oscuros. Adem\u00e1s, en cada intersecci\u00f3n o en cada camino que se divida y que permita elegir una direcci\u00f3n, hay un 50 % de probabilidad de que una criatura que no seas t\u00fa piense que va en la direcci\u00f3n contraria a la que haya elegido.<br><br><b>Puertas.</b> Todas las puertas de la zona protegida est\u00e1n cerradas de manera m\u00e1gica, como si estuvieran afectadas por el conjuro <i>cerradura arcana</i>. Adem\u00e1s, puedes cubrir hasta 10 puertas con una ilusi\u00f3n para que parezcan simples secciones de pared.<br><br><b>Otro efecto del conjuro.</b> Sit\u00faas uno de los siguientes efectos m\u00e1gicos dentro de la zona protegida:<br><br>\u2022 <i>Luces danzantes</i> en cuatro pasillos con un patr\u00f3n sencillo que las luces reproducir\u00e1n mientras dure <i>guardas y guardias</i>.<br><br>\u2022 <i>Boca m\u00e1gica</i> en dos lugares.<br><br>\u2022 <i>Nube apestosa</i> en dos lugares (los vapores volver\u00e1n tras 10 minutos si se dispersan mientras dure <i>guardas y guardias</i>).<br><br>\u2022 <i>R\u00e1faga de viento</i> en un pasillo o sala (el viento sopla sin parar mientras dure el conjuro).<br><br>\u2022 <i>Sugesti\u00f3n</i> en una casilla de 1,5 m de lado, y cualquier criatura que entre en ella recibir\u00e1 la sugesti\u00f3n mentalmente.",
+    "materiales": "Una vara de plata que valga al menos 10 po."
   },
   {
     "nombre": "Ilusi\u00f3n programada",

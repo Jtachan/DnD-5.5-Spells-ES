@@ -1098,7 +1098,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tocas a una criatura y eliminas m\u00e1gicamente uno de los siguientes efectos de ella:<br><br>\u2022 1 nivel de cansancio.<br><br>\u2022 Los estados de hechizado o petrificado.<br><br>\u2022 Una maldici\u00f3n, incluida la sintonizaci\u00f3n del objetivo con un objeto m\u00e1gico maldito.<br><br>\u2022 Cualquier reducci\u00f3n de una de las puntuaciones de caracter\u00edstica del objetivo.<br><br>\u2022 Cualquier reducci\u00f3n de los puntos de golpe m\u00e1ximos del objetivo.",
+    "descripcion": "Tocas a una criatura y eliminas m\u00e1gicamente uno de los siguientes efectos de ella:<ul><li>1 nivel de cansancio.</li><li>Los estados de hechizado o petrificado.</li><li>Una maldici\u00f3n, incluida la sintonizaci\u00f3n del objetivo con un objeto m\u00e1gico maldito.</li><li>Cualquier reducci\u00f3n de una de las puntuaciones de caracter\u00edstica del objetivo.</li><li>Cualquier reducci\u00f3n de los puntos de golpe m\u00e1ximos del objetivo.</li></ul>",
     "materiales": "Polvo de diamante que valga al menos 100 po y que se consume como parte del conjuro."
   }
 ]
