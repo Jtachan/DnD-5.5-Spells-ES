@@ -689,5 +689,31 @@
     "requiere_ataque": false,
     "descripcion": "Lanzas un rayo solar en una l\u00ednea de 1,5 m de ancho y 18 m de largo. Todas las criaturas situadas en esa l\u00ednea har\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la fallan, recibir\u00e1n 6d8 de da\u00f1o radiante y tendr\u00e1n el estado de cegadas hasta el principio de tu siguiente turno. Si la superan, recibir\u00e1n solo la mitad de da\u00f1o.<br><br>Hasta que el conjuro termine, puedes emplear una acci\u00f3n de magia para crear una nueva l\u00ednea de luz radiante.<br><br>Hasta que termine el conjuro, por encima de ti brillar\u00e1 una mota radiante que emite luz brillante en un radio de 9 m y luz tenue 9 m m\u00e1s all\u00e1. Esta luz es luz solar.",
     "materiales": "Una lupa."
+  },
+  {
+    "nombre": "Rel\u00e1mpago en cadena",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Lanzas un rel\u00e1mpago hacia un objetivo que puedas ver dentro del alcance. A continuaci\u00f3n, de ese objetivo surgir\u00e1n otros tres rel\u00e1mpagos dirigidos a otros tantos objetivos de tu elecci\u00f3n, cada uno de los cuales deber\u00e1 estar a 9 m o menos del primero. Un objetivo puede ser una criatura o un objeto y solo puede ser objetivo de uno de los rel\u00e1mpagos.<br><br>Cada objetivo hace una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 10d8 de da\u00f1o de rel\u00e1mpago si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Surge un rel\u00e1mpago adicional del primer objetivo a otro objetivo por cada nivel por encima de 6 que tenga el espacio.",
+    "materiales": "Tres alfileres de plata."
   }
 ]

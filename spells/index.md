@@ -318,3 +318,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Reencarnar                           | 5         |
 | Regenerar                            | 7         |
 | Relámpago                            | 3         |
+| Relámpago en cadena                  | 6         |
