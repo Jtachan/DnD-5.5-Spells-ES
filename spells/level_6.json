@@ -638,5 +638,31 @@
     "requiere_ataque": false,
     "descripcion": "Creas una protecci\u00f3n contra los viajes m\u00e1gicos que cubre una zona del suelo de 4000 m\u00b2 hasta una altura de 9 m. Hasta que termine el conjuro, ninguna criatura podr\u00e1 teletransportarse a esa zona ni entrar en ella usando portales, como los creados por el conjuro <i>portal</i>. El conjuro protege la zona frente al viaje interplanar, por lo que impide que cualquier criatura entre en el \u00e1rea mediante el Plano Astral, el Plano Et\u00e9reo, los Parajes Fe\u00e9ricos, el P\u00e1ramo Sombr\u00edo o el conjuro <i>desplazamiento entre planos</i>.<br><br>Adem\u00e1s, el conjuro da\u00f1a a los tipos de criaturas que elijas al lanzarlo. Elige uno o m\u00e1s de los siguientes: aberraciones, celestiales, elementales, fe\u00e9ricos, infernales y muertos vivientes. Cuando una criatura de un tipo elegido entre en la zona del conjuro por primera vez en un turno o termine su turno all\u00ed, recibir\u00e1 5d10 de da\u00f1o radiante o necr\u00f3tico (a tu elecci\u00f3n cuando lanzas el conjuro).<br><br>Puedes designar una contrase\u00f1a cuando lanzas el conjuro. Si una criatura pronuncia la contrase\u00f1a al entrar en el \u00e1rea, no recibir\u00e1 da\u00f1o del conjuro.<br><br>La zona del conjuro no se puede superponer con la de otro conjuro <i>prohibici\u00f3n</i>. Si lanzas <i>prohibici\u00f3n</i> todos los d\u00edas durante 30 d\u00edas en la misma ubicaci\u00f3n, el conjuro durar\u00e1 hasta que se disipe y los componentes materiales se consumir\u00e1n en el \u00faltimo lanzamiento.",
     "materiales": "Polvo de rub\u00ed que valga al menos 1000 po."
+  },
+  {
+    "nombre": "Puerta arcana",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "500 pies",
+      "150 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas portales de teletransporte enlazados. Elige dos espacios Grandes sin ocupar en el suelo que puedas ver, uno dentro del alcance y el otro a 3 m o menos de ti. Un portal circular se abre en cada uno de dichos espacios y permanece hasta que el conjuro termine.<br><br>Los portales son anillos bidimensionales, brillantes y cubiertos de una niebla que tapa la vista, y levitan a pocos cent\u00edmetros del suelo, perpendiculares a \u00e9l.<br><br>Cada portal solo se abre por un lado (t\u00fa decides cu\u00e1l). Todo lo que entre por el lado abierto de un portal sale por el lado abierto del otro como si estuvieran adyacentes entre s\u00ed. Como acci\u00f3n adicional, puedes cambiar la orientaci\u00f3n de los lados abiertos.",
+    "materiales": null
   }
 ]

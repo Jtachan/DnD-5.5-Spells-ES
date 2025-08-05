@@ -301,3 +301,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Proyección astral                    | 9         |
 | Proyectar imagen                     | 7         |
 | Proyectil mágico                     | 1         |
+| Puerta arcana                        | 6         |
