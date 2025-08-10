@@ -2,26 +2,29 @@
 
 Base de datos NoSQL de los conjuros de _Dungeons and Dragons_ (reglas básicas).
 
-En todas las entradas se han utilizado las siguientes reglas evitando caracteres españoles especiales:
- - Las tildes se han omitido. Ej.: duración -> duracion.
- - Los espacios han sido reemplazados por `_`.
+Todos los hechizos contenidos en este proyecto pertenecen a _Wizards of the Coast_ bajo licencia **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+Aquellos conjuros que no se encuentran en el archivo [SDR v5.2](https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf) han sido adaptados.
 
-> (i) Nota:
+> Nota:
 > La extracción de los datos se ha hecho con IA, aunque se han revisado manualmente.
 > Puesto que hay errores que se me pueden escapar, por favor cread tickets si encontráis algún error.
 
 ## Index
 
-Hay tres maneras de buscar conjuros:
+Se han preparado las siguientes ayudas para el uso de los datos:
 
 - **Tabla HTML**: Ve a https://jtachan.github.io/DnD-5.5-Spells-ES/ para visualizar la tabla con todos los conjuros. Esta tabla permite buscar conjuros por su nombre.
-- **Índice de conjuros**: El archivo [spells/index.md](spells/index.md) contiene todos los conjuros registrados indicando su nivel correspondiente. Buscando un conjuro aquí, se puede saber fácilmente dentro de qué archivo JSON se encuentra.
-- **Compendio de conjuros**: El archivo [spells.json](spells.json) es una recopilación de todos los conjuros con el campo extra `nivel` y organizados alfabéticamente por nombre de conjuro. No se recomienda utilizar este archivo para la búsqueda de conjuros de forma manual, ya que es generado automáticamente y algunos caracteres especiales se encuentran representados con su código en unicode. Por ejemplo, el conjuro `"Adivinación"` está representado como `"Adivinaci\u00f3n"`.
+- **Índice de conjuros**: El archivo [spells/index.md](spells/index.md) contiene todos los conjuros registrados, indicando su nivel correspondiente y si se encuentran en el archivo [SDR v5.2](https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf).
 
 ## Estructura
 
 Los conjuros están registrados en archivos `spells/level_N.json`, donde N es el nivel del propio conjuro.
 Dentro del archivo, los conjuros están organizados en un diccionario organizado por el nombre.
+
+En todas las entradas se han utilizado las siguientes reglas evitando caracteres españoles especiales:
+ - Las tildes se han omitido. Ej.: duración -> duracion.
+ - Los espacios han sido reemplazados por `_`.
+
 Cada conjuro contiene las siguientes entradas:
 
 - **nombre** `str`:<br>Nombre del conjuro.
@@ -122,3 +125,8 @@ Cada conjuro contiene las siguientes entradas:
   }
 ]
 ```
+
+> Nota:
+> Este ejemplo ha sido preparado para una lectura fácil.
+> No obstante, el texto original dentro de cada archivo JSON contiene la secuencia codificada en utf-8 para todos los caracteres especiales.
+> Por ejemplo, el conjuro `"Adivinación"` está representado como `"Adivinaci\u00f3n"`
