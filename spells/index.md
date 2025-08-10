@@ -338,3 +338,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Salpicadura ácida                       | 0 (Truco) |
 | Salto                                   | 1         |
 | Sanctasanctórum privado de Mordenkainen | 4         |
+| Santuario                               | 1         |
