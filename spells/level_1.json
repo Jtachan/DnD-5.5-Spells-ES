@@ -1456,5 +1456,28 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro crea una fuerza invisible de tama\u00f1o Mediano, sin mente y sin forma, que realiza las tareas sencillas que le ordenes hasta que el conjuro termine. El sirviente surge en un espacio sin ocupar en el suelo dentro del alcance. Tiene una CA de 10, 1 punto de golpe, una Fuerza de 2 y no puede atacar. Si sus puntos de golpe se reducen a 0, el conjuro termina.<br><br>Una vez en cada uno de tus turnos como acci\u00f3n adicional, puedes ordenar mentalmente al sirviente que se mueva hasta 4,5 m y que interact\u00fae con un objeto. El sirviente puede realizar tareas sencillas que tambi\u00e9n podr\u00eda llevar a cabo un humano, como traer y llevar cosas, limpiar, remendar, plegar ropa, encender un fuego y servir comida o bebida. En cuanto das la orden, el sirviente realiza la tarea lo mejor que puede hasta que la completa y luego espera tu siguiente orden.<br><br>Si ordenas al sirviente que lleve a cabo una tarea que lo alejar\u00eda m\u00e1s de 18 m de ti, el conjuro termina.",
     "materiales": "Un trozo de cuerda y uno de madera."
+  },
+  {
+    "nombre": "Susurros discordantes",
+    "clases": [
+      "Bardo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance oye una melod\u00eda discordante en su mente. El objetivo hace una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, recibir\u00e1 3d6 de da\u00f1o ps\u00edquico y deber\u00e1 utilizar su reacci\u00f3n inmediatamente, si es posible, para alejarse de ti tanto como pueda por la ruta m\u00e1s segura. Si supera la tirada, solo sufrir\u00e1 la mitad de ese da\u00f1o.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null
   }
 ]

@@ -350,3 +350,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Sordera/Ceguera                         | 2         |
 | Sugestión                               | 2         |
 | Sugestión en masa                       | 6         |
+| Susurros discordantes                   | 1         |
