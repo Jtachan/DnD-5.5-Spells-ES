@@ -9626,5 +9626,285 @@
     "descripcion": "Tu cuerpo entra en estado catat\u00f3nico y tu alma lo abandona y entra en el recipiente que has usado como componente material del conjuro. Mientras tu alma est\u00e9 dentro del recipiente, ser\u00e1s consciente de lo que te rodea, igual que si estuvieras en el espacio de dicho recipiente. No podr\u00e1s moverte ni llevar a cabo reacciones. La \u00fanica acci\u00f3n que puedes realizar es proyectar tu alma hasta 30 m del recipiente, bien para regresar a tu cuerpo viviente (y poner fin al conjuro) o bien para tratar de poseer el cuerpo de un humanoide.<br><br>Puedes intentar poseer a cualquier humanoide que est\u00e9 a 30 m o menos de ti que puedas ver (las criaturas protegidas mediante un conjuro <i>c\u00edrculo m\u00e1gico</i> o <i>protecci\u00f3n contra el bien y el mal</i> no pueden ser pose\u00eddas). El objetivo hace una tirada de salvaci\u00f3n de Carisma. Si la falla, tu alma se introducir\u00e1 en el cuerpo del objetivo y la suya quedar\u00e1 atrapada en el recipiente. Si la supera, resistir\u00e1 tus esfuerzos por poseerlo y no podr\u00e1s volver a intentarlo durante 24 horas.<br><br>En cuanto posees el cuerpo de una criatura, lo controlas. Tus puntos de golpe, dados de puntos de golpe, Fuerza, Destreza, Constituci\u00f3n, velocidad y sentidos se sustituyen por los de la criatura. Por lo dem\u00e1s, conservas tu perfil. Por su parte, el alma de la criatura pose\u00edda puede percibir desde el recipiente usando sus propios sentidos, pero no puede moverse y tiene el estado de incapacitada.<br><br>Mientras posees un cuerpo, puedes usar una acci\u00f3n de magia para volver del cuerpo anfitri\u00f3n al recipiente si est\u00e1 a 30 m o menos de ti, lo que hace que el alma de la criatura anfitriona regrese a su propio cuerpo. Si el cuerpo anfitri\u00f3n muere mientras est\u00e1s en \u00e9l, la criatura muere y t\u00fa debes hacer una tirada de salvaci\u00f3n de Carisma contra tu propia CD de salvaci\u00f3n de conjuros. Si la superas, volver\u00e1s al recipiente si est\u00e1 a 30 m o menos de ti. De lo contrario, morir\u00e1s.<br><br>Si el recipiente es destruido o el conjuro termina, tu alma volver\u00e1 a tu cuerpo. Si tu cuerpo est\u00e1 a m\u00e1s de 30 m de ti o est\u00e1 muerto, morir\u00e1s. Si el alma de otra criatura est\u00e1 en el recipiente cuando es destruido, esa alma volver\u00e1 a su cuerpo, siempre y cuando este est\u00e9 vivo y a 30 m o menos de ella. De lo contrario, esa criatura morir\u00e1.<br><br>Cuando el conjuro termine, el recipiente se destruir\u00e1.",
     "materiales": "Una gema, un cristal o un relicario que valga al menos 500 po.",
     "nivel": 6
+  },
+  {
+    "nombre": "Ver invisibilidad",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que termine el conjuro, ves a las criaturas y objetos que tengan el estado de invisibles como si fueran visibles y puedes ver en el Plano Et\u00e9reo. Las criaturas y objetos que haya en \u00e9l tendr\u00e1n un aspecto fantasmal.",
+    "materiales": "Una pizca de talco.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Viajar con el viento",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "T\u00fa y hasta diez criaturas voluntarias que elijas dentro del alcance asum\u00eds formas gaseosas hasta que termine el conjuro y ten\u00e9is la apariencia de jirones de nubes. En esta forma de nube, un objetivo tiene una velocidad volando de 90 m, puede levitar, tiene inmunidad al estado de derribado y resistencia al da\u00f1o contundente, cortante y perforante. Las \u00fanicas acciones que puede realizar un objetivo en esta forma son la acci\u00f3n de correr y una acci\u00f3n de magia para empezar a volver a su forma normal. Recuperarla lleva 1 minuto, durante el cual el objetivo tendr\u00e1 el estado de aturdido. Hasta que el conjuro termine, el objetivo puede volver a la forma de nube, lo que tambi\u00e9n requiere una acci\u00f3n de magia seguida de una transformaci\u00f3n de 1 minuto.<br><br>Si un objetivo se encuentra en forma de nube y volando en el momento de recibir fin, desciende 18 m por asalto durante 1 minuto hasta aterrizar, lo que hace sin ning\u00fan peligro. Si transcurrido ese minuto no ha aterrizado, caer\u00e1 la distancia restante.",
+    "materiales": "Una vela.",
+    "nivel": 6
+  },
+  {
+    "nombre": "Viajar mediante plantas",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro crea un v\u00ednculo m\u00e1gico entre una planta inanimada de tama\u00f1o Grande o mayor dentro del alcance y otra planta a cualquier distancia en el mismo plano de existencia. Tienes que haber visto o tocado la planta de destino al menos una vez antes. Hasta que termine el conjuro, cualquier criatura puede entrar en la planta objetivo y salir por la de destino gastando 1,5 m de movimiento.",
+    "materiales": null,
+    "nivel": 6
+  },
+  {
+    "nombre": "Vigor arcano",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Recurrres a tu fuerza vital para curarte. Tira uno o dos de tus dados de puntos de golpe no gastados para recuperar una cantidad de puntos de golpe igual al resultado total de la tirada m\u00e1s tu modificador por aptitud m\u00e1gica. Despu\u00e9s, los dados se consideran gastados.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La cantidad de dados de golpe no gastados que puedes tirar aumenta en uno por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 2
+  },
+  {
+    "nombre": "Visi\u00f3n en la oscuridad",
+    "clases": [
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, una criatura voluntaria a la que toques tendr\u00e1 visi\u00f3n en la oscuridad hasta 45 m.",
+    "materiales": "Una zanahoria seca.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Visi\u00f3n veraz",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, la criatura voluntaria a la que toques tendr\u00e1 visi\u00f3n verdadera hasta 36 m.",
+    "materiales": "Hongos pulverizados que valgan al menos 25 po, que se consumen como parte del conjuro.",
+    "nivel": 6
+  },
+  {
+    "nombre": "Volar",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria. Hasta que el conjuro termine, el objetivo consigue una velocidad volando de 18 m y puede levitar. Cuando el conjuro termine, el objetivo caer\u00e1 si a\u00fan est\u00e1 en el aire, excepto si puede detener la ca\u00edda.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": "Una pluma.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Voluta estelar",
+    "clases": [
+      "Bardo",
+      "Druida"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Lanzas una mota de luz contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibir\u00e1 1d8 de da\u00f1o radiante y, hasta el final de tu siguiente turno, emitir\u00e1 luz tenue en un radio de 3 m y no podr\u00e1 beneficiarse del estado de invisible.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "V\u00ednculo protector",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a otra criatura voluntaria y creas una conexi\u00f3n m\u00edstica entre ella y t\u00fa hasta que el conjuro termine. Mientras el objetivo est\u00e9 a 18 m o menos de ti, obtiene un bonificador de +1 a la CA y a las tiradas de salvaci\u00f3n, as\u00ed como resistencia a todo el da\u00f1o. Sin embargo, cada vez que reciba da\u00f1o, t\u00fa sufrir\u00e1s la misma cantidad de da\u00f1o.<br><br>El conjuro termina si tus puntos de golpe se reducen a 0 o si el objetivo y t\u00fa os separ\u00e1is m\u00e1s de 18 m. Tambi\u00e9n termina si se lanza otra vez sobre cualquiera de las dos criaturas conectadas.",
+    "materiales": "Un par de anillos de platino que valgan al menos 50 po cada uno y que deb\u00e9is llevar puestos tanto t\u00fa como el objetivo hasta que termine el conjuro.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Zancada prodigiosa",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Explorador",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura y su velocidad aumenta en 3 m hasta que el conjuro termine.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "Una pizca de tierra.",
+    "nivel": 1
+  },
+  {
+    "nombre": "Zona de la verdad",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Creas una zona m\u00e1gica que protege contra el enga\u00f1o en una esfera de 4,5 m de radio centrada en un punto dentro del alcance. Hasta que el conjuro termine, una criatura que entre en la zona del conjuro por primera vez en un turno o comience su turno all\u00ed realizar\u00e1 una tirada de salvaci\u00f3n de Carisma. Si la falla, no podr\u00e1 decir una mentira voluntariamente mientras est\u00e9 en el radio del conjuro. Sabr\u00e1s si una criatura supera o falla esta tirada.<br><br>Una criatura afectada es consciente del conjuro y puede evitar responder a preguntas a las que normalmente responder\u00eda con una mentira. Dicha criatura puede dar respuestas evasivas, pero deber\u00e1 ser sincera.",
+    "materiales": null,
+    "nivel": 2
   }
 ]
