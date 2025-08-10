@@ -336,3 +336,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Saber druídico                       | 0 (Truco) |
 | Saeta guía                           | 1         |
 | Salpicadura ácida                    | 0 (Truco) |
+| Salto                                | 1         |
