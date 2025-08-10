@@ -93,7 +93,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Un aura surge de ti en una emanaci\u00f3n de 9 m hasta que el conjuro termine. Cuando creas el aura y al principio de cada uno de tus turnos mientras dure, puedes restaurar 2d6 puntos de golpe a una criatura en su interior.",
+    "descripcion": "Un aura emana de ti en un radio de 9 m y permanece activa hasta que el conjuro finaliza. Al generarse el aura y al inicio de cada uno de tus turnos mientras est\u00e9 activa, puedes restaurar 2d6 puntos de golpe a una criatura que se encuentre dentro de ella.\n",
     "materiales": null
   },
   {
