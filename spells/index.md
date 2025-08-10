@@ -346,3 +346,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Silencio                                | 2         |
 | Símbolo                                 | 7         |
 | Simulacro                               | 7         |
+| Sirviente invisible                     | 1         |
