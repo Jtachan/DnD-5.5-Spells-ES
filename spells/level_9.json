@@ -367,5 +367,30 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que termine el conjuro, una nube de tormenta se forma centrada en un punto dentro del alcance y se extiende hasta un radio de 90 m. Todas las criaturas que est\u00e9n debajo de ella cuando aparezca deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 2d6 de da\u00f1o de trueno y tendr\u00e1n el estado de ensordecidas hasta que el conjuro termine.<br><br>Al principio de cada uno de tus siguientes turnos, la tormenta produce efectos diferentes, como se detalla a continuaci\u00f3n.<br><br><b>Turno 2.</b> Cae una lluvia \u00e1cida. Todas las criaturas y objetos que est\u00e9n debajo de la nube sufrir\u00e1n 4d6 de da\u00f1o de \u00e1cido.<br><br><b>Turno 3.</b> Invocas seis rel\u00e1mpagos que surgen de la nube para golpear a seis criaturas u objetos distintos bajo ella. Cada objetivo hace una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 10d6 de da\u00f1o de rel\u00e1mpago si la falla o la mitad del da\u00f1o si la supera.<br><br><b>Turno 4.</b> Caen bolas de granizo. Todas las criaturas que est\u00e9n debajo de la nube sufrir\u00e1n 2d6 de da\u00f1o contundente.<br><br><b>Turnos 5 a 10.</b> La zona bajo la nube se ve asolada por vendavales y aguanieve. Todas las criaturas que est\u00e9n all\u00ed sufren 1d6 de da\u00f1o de fr\u00edo. Hasta que el conjuro termine, la zona es terreno dif\u00edcil y est\u00e1 muy oscura. Adem\u00e1s, es imposible hacer ataques con armas a distancia, ya que un fuerte viento sopla en toda la zona.",
     "materiales": null
+  },
+  {
+    "nombre": "Tormenta de meteoritos",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "5000 pies",
+      "1,5 km"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Unos orbes de fuego abrasador caen en picado en cuatro puntos del suelo distintos que puedas ver dentro del alcance. Todas las criaturas situadas en una esfera de 12 m de radio centrada en cada uno de esos puntos hacen una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 20d6 de da\u00f1o de fuego y 20d6 de da\u00f1o contundente si la fallan o la mitad del da\u00f1o si la superan. Las criaturas que est\u00e9n situadas en el \u00e1rea de efecto de m\u00e1s de una de las esferas ardientes solo se ver\u00e1n afectadas por una.<br><br>Los objetos no m\u00e1gicos que se encuentren dentro del \u00e1rea del conjuro tambi\u00e9n recibir\u00e1n el da\u00f1o, salvo si los lleva o viste una criatura, y empezar\u00e1n a arder si son inflamables.",
+    "materiales": null
   }
 ]
