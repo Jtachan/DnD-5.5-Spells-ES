@@ -354,3 +354,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Tañido por los muertos                  | 0 (Truco) |
 | Taumaturgia                             | 0 (Truco) |
 | Telaraña                                | 2         |
+| Telepatía                               | 8         |
