@@ -416,5 +416,29 @@
     "requiere_ataque": false,
     "descripcion": "Elige un punto del suelo que puedas ver dentro del alcance. Hasta que el conjuro termine, una intensa sacudida afecta al suelo en un c\u00edrculo de 30 m de radio centrado en ese punto. El suelo de la zona se considera terreno dif\u00edcil.<br><br>Cuando lances este conjuro y al final de cada uno de tus turnos hasta que termine, todas las criaturas que haya en el suelo en la zona deber\u00e1n hacer una tirada de salvaci\u00f3n de Destreza. Si la fallan, tendr\u00e1n el estado de derribadas y perder\u00e1n la concentraci\u00f3n.<br><br>Adem\u00e1s, podr\u00e1s provocar los siguientes efectos.<br><br><i>Grietas.</i> Se abren un total de 1d6 fisuras en la zona de alcance al final del turno en que lo lances. T\u00fa eliges la ubicaci\u00f3n de las grietas, que pueden estar debajo de estructuras. Cada una tiene una profundidad de 1d10 \u00d7 3 m y una anchura de 3 m y se extiende desde un borde del \u00e1rea del conjuro hasta otro borde. Una criatura que est\u00e9 en el mismo espacio que una grieta deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o caer\u00e1 en ella. Si la supera, la criatura se mover\u00e1 a la vez que se abre el borde de la grieta y se mantendr\u00e1 all\u00ed.<br><br><i>Estructuras.</i> El temblor causa 50 de da\u00f1o contundente a cualquier estructura que est\u00e9 en contacto con el suelo de la zona cuando lances el conjuro y al final de cada uno de tus turnos hasta que el conjuro termine. Si los puntos de golpe de una estructura se reducen a 0, se derrumbar\u00e1.<br><br>Una criatura que se encuentre a una distancia de una estructura que se derrumba igual a la mitad de su altura hace una tirada de salvaci\u00f3n de Destreza. Si la falla, sufrir\u00e1 12d6 de da\u00f1o contundente, tendr\u00e1 el estado de derribada y quedar\u00e1 enterrada entre los escombros. Para escapar, como acci\u00f3n tendr\u00e1 que superar una prueba de Fuerza (Atletismo) con CD 20. Si la supera, solo sufrir\u00e1 la mitad de ese da\u00f1o.",
     "materiales": "Una piedra fracturada."
+  },
+  {
+    "nombre": "Tsunami",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "5000 pies",
+      "1,5 km"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 6 asaltos",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "Un muro de agua surge de la nada en un punto de tu elecci\u00f3n dentro del alcance. Puedes hacerlo de hasta 90 m de longitud, 90 m de alto y 15 m de grosor y durar\u00e1 hasta que termine el conjuro.<br><br>Cuando aparezca el muro, todas las criaturas situadas en su \u00e1rea hacen una tirada de salvaci\u00f3n de Fuerza; sufrir\u00e1n 6d10 de da\u00f1o contundente si la fallan o la mitad de da\u00f1o si la superan.<br><br>Al principio de cada uno de tus turnos tras la aparici\u00f3n del muro, se alejar\u00e1 15 m de ti junto con todas las criaturas que haya en su interior. Cualquier criatura Enorme o m\u00e1s peque\u00f1a dentro del muro, o a cuyo espacio entre el muro cuando este se mueva, deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o sufrir\u00e1 5d10 de da\u00f1o contundente. Una criatura solo puede sufrir este da\u00f1o una vez por asalto. Al final del turno, la altura del muro se reduce en 15 m y el da\u00f1o que causa el muro en asaltos subsiguientes se reduce en 1d10. Cuando el muro llegue a 0 m de altura, el conjuro termina.<br><br>Una criatura atrapada en el muro puede moverse nadando. Sin embargo, debido a la fuerza de la ola, la criatura deber\u00e1 superar una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros para moverse. Si no la supera, no podr\u00e1 hacerlo. Una criatura que salga del muro caer\u00e1 al suelo.",
+    "materiales": null
   }
 ]
