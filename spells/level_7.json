@@ -491,5 +491,31 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro os transporta a un destino que elijas a ti y a hasta ocho criaturas voluntarias que puedas ver o a un solo objeto que puedas ver dentro del alcance. Si el objetivo es un objeto, debe ser Grande o m\u00e1s peque\u00f1o y no puede llevarlo o vestirlo una criatura no voluntaria.<br><br>Debes conocer el destino que elijas y tambi\u00e9n debe estar en el mismo plano de existencia que t\u00fa. Lo bien que conoces el destino es decisivo para conseguir llegar a \u00e9l. Tu DM tira 1d100 y consulta la tabla \"Resultado del teletransporte\" y las explicaciones que la siguen.<br><br><table><thead><tr><th>Familiaridad</th><th>Percance</th><th>\u00c1rea similar</th><th>Lejos del objetivo</th><th>En el objetivo</th></tr></thead><tbody><tr><td>C\u00edrculo permanente</td><td>\u2014</td><td>\u2014</td><td>\u2014</td><td>01-00</td></tr><tr><td>Objeto vinculado</td><td>\u2014</td><td>\u2014</td><td>\u2014</td><td>01-00</td></tr><tr><td>Muy familiar</td><td>01-05</td><td>06-13</td><td>14-24</td><td>25-00</td></tr><tr><td>Visto espor\u00e1dicamente</td><td>01-33</td><td>34-43</td><td>44-53</td><td>54-00</td></tr><tr><td>Visto una vez o descrito</td><td>01-43</td><td>44-53</td><td>54-73</td><td>74-00</td></tr><tr><td>Destino falso</td><td>01-50</td><td>51-00</td><td>\u2014</td><td>\u2014</td></tr></tbody></table><br><br><b>Familiaridad</b>. Los t\u00e9rminos de la columna \"Familiaridad\" de la tabla significan lo siguiente:<ul><li>\"C\u00edrculo permanente\" se refiere a un c\u00edrculo de teletransportaci\u00f3n permanente cuya secuencia de sellos conozcas.</li><li>\"Objeto vinculado\" quiere decir que posees un objeto tomado del destino deseado en los \u00faltimos seis meses, como un libro de la biblioteca de un mago.</li><li>\"Muy familiar\" es un sitio que has visitado a menudo, que has estudiado detenidamente o que puedas ver cuando lanzas el conjuro.</li><li>\"Visto espor\u00e1dicamente\" es un lugar que has visto m\u00e1s de una vez, pero que no conoces muy bien.</li><li>\"Visto una vez o descrito\" es un lugar que solo has visto en una ocasi\u00f3n, quiz\u00e1 mediante la magia, o un sitio que conoces de segunda mano, quiz\u00e1 por un mapa.</li><li>\"Destino falso\" es un lugar que no existe. Es posible que trataras de escrudi\u00f1ar el sanctasanct\u00f3rum de un enemigo, pero que, en su lugar, vieras una ilusi\u00f3n, o puede que intentes teletransportarte a una ubicaci\u00f3n que ya no existe.</li></ul><b>Percance</b>. La magia impredecible del conjuro da como resultado un viaje complicado. Cada criatura que se teletransporta (o el objeto objetivo) recibe 3d10 de da\u00f1o de fuerza y tu DM vuelve a tirar en la tabla para ver d\u00f3nde acab\u00e1is (se pueden producir varios percances, que causar\u00e1n da\u00f1o cada una de las veces).<br><br><b>\u00c1rea similar</b>. Tu grupo y t\u00fa (o el objeto objetivo) aparec\u00e9is en una zona diferente pero que se parece visual o tem\u00e1ticamente al \u00e1rea objetivo. Llegar\u00e9is al espacio similar m\u00e1s cercano. Por ejemplo, si te dirig\u00edas a tu laboratorio, podr\u00edas acabar en el laboratorio de otra persona en la misma ciudad.<br><br><b>Lejos del objetivo</b>. Tu grupo y t\u00fa (o el objeto objetivo) aparec\u00e9is a 2d12 \u00d7 1,5 km de distancia del destino en una direcci\u00f3n al azar. Tira 1d8 para determinar la direcci\u00f3n: con un 1, al este; con un 2, al sureste; con un 3, al sur; con un 4, al suroeste; con un 5, al oeste; con un 6, al noroeste; con un 7, al norte; y con un 8, al noreste.<br><br><b>En el objetivo</b>. Tu grupo y t\u00fa (o el objeto objetivo) aparec\u00e9is donde t\u00fa quer\u00edas.",
     "materiales": null
+  },
+  {
+    "nombre": "Tormenta de fuego",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Una tormenta de llamas aparece dentro del alcance. El \u00e1rea de la tormenta consta de hasta diez cubos de 3 m de lado que puedes disponer seg\u00fan desees, cada uno de los cuales debe estar adyacente al menos a otro. Todas las criaturas situadas en la zona de 4,5 m deber\u00e1n realizar una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 7d10 de da\u00f1o de fuego si la fallan o la mitad del da\u00f1o si la superan.<br><br>Los objetos inflamables dentro del \u00e1rea que no lleve o vista nadie empezar\u00e1n a arder.",
+    "materiales": null
   }
 ]
