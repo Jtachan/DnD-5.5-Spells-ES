@@ -332,3 +332,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Risa horrible de Tasha               | 1         |
 | Rociada de color                     | 1         |
 | Rociada prismática                   | 7         |
+| Rociada venenosa                     | 0 (Truco) |
