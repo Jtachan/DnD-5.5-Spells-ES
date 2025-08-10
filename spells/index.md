@@ -341,3 +341,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Santuario                               | 1         |
 | Semiplano                               | 8         |
 | Señal de esperanza                      | 3         |
+| Sentidos de la bestia                   | 2         |
