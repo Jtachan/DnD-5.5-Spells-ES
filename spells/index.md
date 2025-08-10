@@ -379,3 +379,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Urna mágica                             | 6         |
 | Ver invisibilidad                       | 2         |
 | Viajar con el viento                    | 6         |
+| Viajar mediante plantas                 | 6         |

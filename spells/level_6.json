@@ -788,5 +788,29 @@
     "requiere_ataque": false,
     "descripcion": "T\u00fa y hasta diez criaturas voluntarias que elijas dentro del alcance asum\u00eds formas gaseosas hasta que termine el conjuro y ten\u00e9is la apariencia de jirones de nubes. En esta forma de nube, un objetivo tiene una velocidad volando de 90 m, puede levitar, tiene inmunidad al estado de derribado y resistencia al da\u00f1o contundente, cortante y perforante. Las \u00fanicas acciones que puede realizar un objetivo en esta forma son la acci\u00f3n de correr y una acci\u00f3n de magia para empezar a volver a su forma normal. Recuperarla lleva 1 minuto, durante el cual el objetivo tendr\u00e1 el estado de aturdido. Hasta que el conjuro termine, el objetivo puede volver a la forma de nube, lo que tambi\u00e9n requiere una acci\u00f3n de magia seguida de una transformaci\u00f3n de 1 minuto.<br><br>Si un objetivo se encuentra en forma de nube y volando en el momento de recibir fin, desciende 18 m por asalto durante 1 minuto hasta aterrizar, lo que hace sin ning\u00fan peligro. Si transcurrido ese minuto no ha aterrizado, caer\u00e1 la distancia restante.",
     "materiales": "Una vela."
+  },
+  {
+    "nombre": "Viajar mediante plantas",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro crea un v\u00ednculo m\u00e1gico entre una planta inanimada de tama\u00f1o Grande o mayor dentro del alcance y otra planta a cualquier distancia en el mismo plano de existencia. Tienes que haber visto o tocado la planta de destino al menos una vez antes. Hasta que termine el conjuro, cualquier criatura puede entrar en la planta objetivo y salir por la de destino gastando 1,5 m de movimiento.",
+    "materiales": null
   }
 ]
