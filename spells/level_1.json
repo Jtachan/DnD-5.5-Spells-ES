@@ -1355,5 +1355,29 @@
     "requiere_ataque": false,
     "descripcion": "Emite una r\u00e1faga de luces brillantes y parpadeantes de m\u00faltiples colores. Todas las criaturas situadas en un cono de 4,5 m que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o tendr\u00e1n el estado de cegadas hasta el final de tu siguiente turno.",
     "materiales": "Una pizca de arena de colores."
+  },
+  {
+    "nombre": "Saeta gu\u00eda",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Lanzas un rayo de luz hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibir\u00e1 4d6 de da\u00f1o radiante y la siguiente tirada de ataque contra \u00e9l antes del final de tu siguiente turno tendr\u00e1 ventaja.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null
   }
 ]

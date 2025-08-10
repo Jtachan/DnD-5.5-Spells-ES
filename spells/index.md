@@ -334,3 +334,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Rociada prismática                   | 7         |
 | Rociada venenosa                     | 0 (Truco) |
 | Saber druídico                       | 0 (Truco) |
+| Saeta guía                           | 1         |
