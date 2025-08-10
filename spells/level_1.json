@@ -44,7 +44,7 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una escarcha m\u00e1gica protectora te rodea y ganas 5 puntos de golpe temporales. Si una criatura te acierta con una tirada de ataque cuerpo a cuerpo antes de que el conjuro termine, dicha criatura sufre 5 de da\u00f1o de fr\u00edo. El conjuro termina antes de tiempo si no tienes puntos de golpe temporales.<br><br><i><b>Con un espacio de conjuro de nivel superior.</b></i> Los puntos de golpe temporales y el da\u00f1o de fr\u00edo aumentan en 5 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Una capa m\u00e1gica de escarcha te envuelve, otorg\u00e1ndote 5 puntos de golpe temporales. Si una criatura te alcanza con un ataque cuerpo a cuerpo antes de que finalice el conjuro, esta recibe 5 puntos de da\u00f1o por fr\u00edo. El efecto termina antes de tiempo si pierdes todos los puntos de golpe temporales.<br><br><i><b>Usando un espacio de conjuro de nivel superior.</b></i> Tanto los puntos de golpe temporales como el da\u00f1o por fr\u00edo aumentan en 5 por cada nivel del espacio utilizado por encima de 1.\n",
     "materiales": "Un trozo de vidrio azul."
   },
   {
