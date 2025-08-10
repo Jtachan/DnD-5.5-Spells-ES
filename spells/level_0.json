@@ -636,5 +636,30 @@
     "requiere_ataque": false,
     "descripcion": "Susurras a los esp\u00edritus de la naturaleza y produces uno de los siguientes efectos dentro del alcance.<br><br><b>Sensor clim\u00e1tico.</b> Creas un efecto sensorial Diminuto e inofensivo que predice el clima que habr\u00e1 en tu ubicaci\u00f3n durante las siguientes 24 horas. El efecto se manifiesta como un orbe dorado para los cielos despejados, una nube para la lluvia, copos de nieve para la nieve, etc. Este efecto persiste durante 1 asalto.<br><br><b>Florecer.</b> Haces que, al instante, una flor florezca, una vaina de semillas se abra o el brote de una hoja germine.<br><br><b>Efecto sensorial.</b> Creas un efecto sensorial inofensivo, como hojas cayendo, hadas espectrales bailando, una suave brisa, el sonido de un animal o un leve olor a mofeta. El efecto debe caber en un cubo de 1,5 m de lado.<br><br><b>Jugar con fuego.</b> Enciendes o apagas una vela, una antorcha o una hoguera.",
     "materiales": null
+  },
+  {
+    "nombre": "Salpicadura \u00e1cida",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Creas una burbuja \u00e1cida en un punto dentro del alcance, donde explotar\u00e1 en una esfera de 1,5 m de radio. Todas las criaturas situadas en la esfera deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1n 1d6 de da\u00f1o de \u00e1cido.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "materiales": null
   }
 ]
