@@ -1458,5 +1458,28 @@
     "requiere_ataque": false,
     "descripcion": "Recurrres a tu fuerza vital para curarte. Tira uno o dos de tus dados de puntos de golpe no gastados para recuperar una cantidad de puntos de golpe igual al resultado total de la tirada m\u00e1s tu modificador por aptitud m\u00e1gica. Despu\u00e9s, los dados se consideran gastados.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La cantidad de dados de golpe no gastados que puedes tirar aumenta en uno por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "V\u00ednculo protector",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a otra criatura voluntaria y creas una conexi\u00f3n m\u00edstica entre ella y t\u00fa hasta que el conjuro termine. Mientras el objetivo est\u00e9 a 18 m o menos de ti, obtiene un bonificador de +1 a la CA y a las tiradas de salvaci\u00f3n, as\u00ed como resistencia a todo el da\u00f1o. Sin embargo, cada vez que reciba da\u00f1o, t\u00fa sufrir\u00e1s la misma cantidad de da\u00f1o.<br><br>El conjuro termina si tus puntos de golpe se reducen a 0 o si el objetivo y t\u00fa os separ\u00e1is m\u00e1s de 18 m. Tambi\u00e9n termina si se lanza otra vez sobre cualquiera de las dos criaturas conectadas.",
+    "materiales": "Un par de anillos de platino que valgan al menos 50 po cada uno y que deb\u00e9is llevar puestos tanto t\u00fa como el objetivo hasta que termine el conjuro."
   }
 ]

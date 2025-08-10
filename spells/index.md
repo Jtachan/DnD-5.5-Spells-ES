@@ -381,3 +381,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Viajar con el viento                    | 6         |
 | Viajar mediante plantas                 | 6         |
 | Vigor arcano                            | 2         |
+| Vínculo protector                       | 2         |
