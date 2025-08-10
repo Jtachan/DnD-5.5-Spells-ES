@@ -1506,5 +1506,31 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que el conjuro termine, una criatura voluntaria a la que toques tendr\u00e1 visi\u00f3n en la oscuridad hasta 45 m.",
     "materiales": "Una zanahoria seca."
+  },
+  {
+    "nombre": "Zona de la verdad",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Creas una zona m\u00e1gica que protege contra el enga\u00f1o en una esfera de 4,5 m de radio centrada en un punto dentro del alcance. Hasta que el conjuro termine, una criatura que entre en la zona del conjuro por primera vez en un turno o comience su turno all\u00ed realizar\u00e1 una tirada de salvaci\u00f3n de Carisma. Si la falla, no podr\u00e1 decir una mentira voluntariamente mientras est\u00e9 en el radio del conjuro. Sabr\u00e1s si una criatura supera o falla esta tirada.<br><br>Una criatura afectada es consciente del conjuro y puede evitar responder a preguntas a las que normalmente responder\u00eda con una mentira. Dicha criatura puede dar respuestas evasivas, pero deber\u00e1 ser sincera.",
+    "materiales": null
   }
 ]

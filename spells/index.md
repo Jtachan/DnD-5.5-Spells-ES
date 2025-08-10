@@ -387,3 +387,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Volar                                   | 3         |
 | Voluta estelar                          | 0 (Truco) |
 | Zancada prodigiosa                      | 1         |
+| Zona de la verdad                       | 2         |
