@@ -66,7 +66,7 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Un aura surge de ti en una emanaci\u00f3n de 9 m hasta que el conjuro termine. Mientras permanezc\u00e1is dentro, tus aliados y t\u00fa ten\u00e9is resistencia al da\u00f1o de veneno y ventaja en las tiradas de salvaci\u00f3n para evitar o poner fin a efectos que provoquen los estados de asustado, aturdido, cegado, ensordecido, envenenado, hechizado o paralizado.",
+    "descripcion": "Un aura se expande desde ti en un radio de 9 m, permaneciendo activa hasta que el conjuro finalice. Mientras est\u00e9is dentro de su alcance, tanto t\u00fa como tus aliados obten\u00e9is resistencia al da\u00f1o por veneno y ventaja en las tiradas de salvaci\u00f3n destinadas a evitar o poner fin a los efectos que causen los estados de asustado, aturdido, cegado, ensordecido, envenenado, hechizado o paralizado.",
     "materiales": null
   },
   {
