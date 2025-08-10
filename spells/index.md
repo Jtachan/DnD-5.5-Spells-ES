@@ -342,3 +342,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Semiplano                               | 8         |
 | Señal de esperanza                      | 3         |
 | Sentidos de la bestia                   | 2         |
+| Shillelagh                              | 0 (Truco) |
