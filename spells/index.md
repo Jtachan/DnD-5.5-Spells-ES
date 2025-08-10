@@ -345,3 +345,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Shillelagh                              | 0 (Truco) |
 | Silencio                                | 2         |
 | Símbolo                                 | 7         |
+| Simulacro                               | 7         |
