@@ -8249,6 +8249,235 @@
     "nivel": 5
   },
   {
+    "nombre": "Restablecimiento menor",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura y le pones fin a un estado que tenga: cegada, ensordecida, envenenada o paralizada.",
+    "materiales": null,
+    "nivel": 2
+  },
+  {
+    "nombre": "Resurrecci\u00f3n",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Con un toque, revives a una criatura que no lleve m\u00e1s de un siglo muerta, que no muriera de vieja y que no fuera un muerto viviente cuando falleci\u00f3.<br><br>La criatura vuelve a la vida con todos sus puntos de golpe. El conjuro tambi\u00e9n neutraliza cualquier veneno que afectase a la criatura en el momento de su muerte. Este conjuro cierra todas las heridas mortales y devuelve las partes del cuerpo que falten.<br><br>Regresar de entre los muertos es una experiencia complicada. El objetivo tendr\u00e1 un penalizador de -4 a las pruebas con d20. Cada vez que finalice un descanso largo, el penalizador se reduce en 1 hasta desaparecer.<br><br>Lanzar el conjuro para revivir a una criatura que lleve muerta 365 d\u00edas o m\u00e1s te exige un gran esfuerzo. Hasta que finalices un descanso largo, no podr\u00e1s volver a lanzar conjuros y tendr\u00e1s desventaja en las pruebas con d20.",
+    "materiales": "Un diamante que valga al menos 1000 po y que se consume como parte del conjuro.",
+    "nivel": 7
+  },
+  {
+    "nombre": "Resurrecci\u00f3n verdadera",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura que no lleve m\u00e1s de 200 a\u00f1os muerta y que falleciera por cualquier motivo menos de vieja. La criatura revive con todos sus puntos de golpe.<br><br>Este conjuro cierra todas las heridas, neutraliza cualquier veneno, cura todas las enfermedades m\u00e1gicas y levanta las maldiciones que afectaran a la criatura cuando muri\u00f3. Tambi\u00e9n sustituye los \u00f3rganos y las extremidades que le falten o sufrieran da\u00f1os. Si la criatura era un muerto viviente, la resucitar\u00e1 con su forma normal.<br><br>El conjuro puede proporcionar un nuevo cuerpo si el original ya no existe, en cuyo caso debes pronunciar el nombre de la criatura. A continuaci\u00f3n, esta aparecer\u00e1 en un espacio sin ocupar que elijas a 3 m o menos de ti.",
+    "materiales": "Diamantes que valgan al menos 25 000 po, que se consumen como parte del conjuro.",
+    "nivel": 9
+  },
+  {
+    "nombre": "Retirada expeditiva",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Realizas la acci\u00f3n de correr y, hasta que el conjuro termine, puedes volver a hacerla como acci\u00f3n adicional.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Revivir",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Palad\u00edn"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura que haya muerto en el \u00faltimo minuto. La criatura revive con 1 punto de golpe. Este conjuro no puede revivir a una criatura que haya muerto de vieja ni devolverle las partes del cuerpo que haya perdido.",
+    "materiales": "Un diamante que valga al menos 300 po, que se consume como parte del conjuro.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Risa horrible de Tasha",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance realiza una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, tendr\u00e1 los estados de derribada e incapacitada hasta que el conjuro termine. Durante ese tiempo, se reir\u00e1 de forma incontrolable si tiene la capacidad de re\u00edrse y no podr\u00e1 poner fin a su estado de derribada.<br><br>Al final de cada uno de sus turnos y cada vez que reciba da\u00f1o, realizar\u00e1 otra tirada de salvaci\u00f3n de Sabidur\u00eda. Tendr\u00e1 ventaja en ella si la realiza por sufrir da\u00f1o. Si la supera, el conjuro terminar\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "Una tarta y una pluma.",
+    "nivel": 1
+  },
+  {
+    "nombre": "Rociada de color",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Emite una r\u00e1faga de luces brillantes y parpadeantes de m\u00faltiples colores. Todas las criaturas situadas en un cono de 4,5 m que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o tendr\u00e1n el estado de cegadas hasta el final de tu siguiente turno.",
+    "materiales": "Una pizca de arena de colores.",
+    "nivel": 1
+  },
+  {
+    "nombre": "Rociada prism\u00e1tica",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Ocho rayos de luz surgen de tu mano en un cono de 18 m. Todas las criaturas situadas en el cono hacen una tirada de salvaci\u00f3n de Destreza. Por cada objetivo, tira 1d8 para determinar qu\u00e9 rayo de color le afecta y consulta la tabla \u201cRayos prism\u00e1ticos\u201d.<br><br><table><tr><th>1d8</th><th>Rayo</th></tr><tr><td>1</td><td>Rojo. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de fuego. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>2</td><td>Naranja. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de \u00e1cido. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>3</td><td>Amarillo. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de rel\u00e1mpago. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>4</td><td>Verde. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de veneno. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>5</td><td>Azul. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de fr\u00edo. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>6</td><td>A\u00f1il. <i>Si falla la tirada:</i> el objetivo tendr\u00e1 el estado de apresado y har\u00e1 una tirada de salvaci\u00f3n de Constituci\u00f3n al final de cada uno de sus turnos. Si la supera tres veces, el estado terminar\u00e1. Si la falla tres veces, tendr\u00e1 el estado de petrificado hasta que lo libere un efecto como el del conjuro <i>restablecimiento mayor</i>. Los \u00e9xitos y los fallos no tienen por qu\u00e9 ser consecutivos: lleva la cuenta de ambos hasta que el objetivo tenga tres de un mismo tipo.</td></tr><tr><td>7</td><td>Violeta. <i>Si falla la tirada:</i> el objetivo tendr\u00e1 el estado de cegado y har\u00e1 una tirada de salvaci\u00f3n de Sabidur\u00eda al principio de su siguiente turno. Si la supera, el estado terminar\u00e1. Si la falla, el estado terminar\u00e1 y la criatura se teletransportar\u00e1 a otro plano de existencia (a elecci\u00f3n de tu DM).</td></tr><tr><td>8</td><td>Especial. Dos rayos alcanzan al objetivo. Tira dos veces y repite los resultados de 8.</td></tr></table>",
+    "materiales": null,
+    "nivel": 7
+  },
+  {
+    "nombre": "Rociada venenosa",
+    "clases": [
+      "Brujo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Roc\u00edas a una criatura dentro del alcance con una niebla t\u00f3xica. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d12 de da\u00f1o de veneno.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d12 cuando alcanzas los niveles 5 (2d12), 11 (3d12) y 17 (4d12).",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
     "nombre": "R\u00e1faga de viento",
     "clases": [
       "Druida",
@@ -8273,5 +8502,1129 @@
     "descripcion": "De ti surge una r\u00e1faga de viento fuerte en una l\u00ednea recta de 18 m de largo y 3 m de ancho en la direcci\u00f3n que elijas hasta que termine el conjuro. Todas las criaturas en esa l\u00ednea deber\u00e1n superar una tirada de salvaci\u00f3n de Fuerza o ser\u00e1n empujadas 4,5 m en la direcci\u00f3n de la l\u00ednea. Las criaturas que terminen su turno en ella tambi\u00e9n deber\u00e1n hacer la tirada de salvaci\u00f3n.<br><br>Cualquier criatura que est\u00e9 en la l\u00ednea deber\u00e1 gastar 2 m de movimiento por cada metro que se mueva para acercarse a ti.<br><br>La r\u00e1faga dispersa el gas o el vapor y apaga velas y otras llamas desprotegidas de la zona. Hace que las llamas protegidas, como las de los faroles, se agiten salvajemente y tienen un 50 % de probabilidad de apagarse.<br><br>Como acci\u00f3n adicional en tus siguientes turnos, puedes cambiar la direcci\u00f3n en la que la l\u00ednea surge de ti.",
     "materiales": "La semilla de una legumbre.",
     "nivel": 2
+  },
+  {
+    "nombre": "Saber dru\u00eddico",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Susurras a los esp\u00edritus de la naturaleza y produces uno de los siguientes efectos dentro del alcance.<br><br><b>Sensor clim\u00e1tico.</b> Creas un efecto sensorial Diminuto e inofensivo que predice el clima que habr\u00e1 en tu ubicaci\u00f3n durante las siguientes 24 horas. El efecto se manifiesta como un orbe dorado para los cielos despejados, una nube para la lluvia, copos de nieve para la nieve, etc. Este efecto persiste durante 1 asalto.<br><br><b>Florecer.</b> Haces que, al instante, una flor florezca, una vaina de semillas se abra o el brote de una hoja germine.<br><br><b>Efecto sensorial.</b> Creas un efecto sensorial inofensivo, como hojas cayendo, hadas espectrales bailando, una suave brisa, el sonido de un animal o un leve olor a mofeta. El efecto debe caber en un cubo de 1,5 m de lado.<br><br><b>Jugar con fuego.</b> Enciendes o apagas una vela, una antorcha o una hoguera.",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "Saeta gu\u00eda",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Lanzas un rayo de luz hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibir\u00e1 4d6 de da\u00f1o radiante y la siguiente tirada de ataque contra \u00e9l antes del final de tu siguiente turno tendr\u00e1 ventaja.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Salpicadura \u00e1cida",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Creas una burbuja \u00e1cida en un punto dentro del alcance, donde explotar\u00e1 en una esfera de 1,5 m de radio. Todas las criaturas situadas en la esfera deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1n 1d6 de da\u00f1o de \u00e1cido.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "Salto",
+    "clases": [
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria. Una vez en cada uno de sus turnos hasta que el conjuro termine, la criatura puede saltar hasta 9 m usando 3 m de movimiento.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "La pata trasera de un saltamontes.",
+    "nivel": 1
+  },
+  {
+    "nombre": "Sanctasanct\u00f3rum privado de Mordenkainen",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Haces que una zona dentro del alcance sea m\u00e1gicamente segura. Esta zona es un cubo que puede tener un tama\u00f1o desde tan solo 1,5 m de lado a hasta 30 m y permanecer\u00e1 hasta que el conjuro termine.<br><br>Cuando lanzas el conjuro, decides el tipo de seguridad que proporciona eligiendo cualesquiera de las siguientes propiedades:<ul><li>El sonido no puede atravesar la barrera del per\u00edmetro de la zona protegida.</li><li>La barrera de la zona protegida parece oscura y con niebla, impidiendo ver a trav\u00e9s de ella (incluso a la visi\u00f3n en la oscuridad).</li><li>Dentro de la zona protegida no pueden aparecer sensores creados mediante conjuros de adivinaci\u00f3n, ni estos pueden atravesar la barrera del per\u00edmetro.</li><li>Las criaturas en la zona no pueden ser el objetivo de conjuros de adivinaci\u00f3n.</li><li>Nada puede teletransportarse ni al interior ni al exterior del \u00e1rea protegida.</li><li>El viaje interplanar est\u00e1 bloqueado dentro de la zona.</li></ul>Si este conjuro se lanza a diario en el mismo lugar durante 365 d\u00edas, durar\u00e1 hasta que sea disipado.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes aumentar el tama\u00f1o del cubo en 30 m por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": "Una l\u00e1mina fina de plomo.",
+    "nivel": 4
+  },
+  {
+    "nombre": "Santuario",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Proteges a una criatura que est\u00e9 dentro del alcance. Hasta que el conjuro termine, cualquier criatura que haga objetivo a la criatura protegida con un ataque o un conjuro que inflija da\u00f1o deber\u00e1 superar primero una tirada de salvaci\u00f3n de Sabidur\u00eda; de lo contrario, elegir\u00e1 un nuevo objetivo o perder\u00e1 el ataque o conjuro. Este conjuro no protege a la criatura contra efectos de \u00e1rea. El conjuro termina si la criatura protegida hace una tirada de ataque, lanza un conjuro o inflige da\u00f1o.",
+    "materiales": "Un trozo de vidrio de un espejo.",
+    "nivel": 1
+  },
+  {
+    "nombre": "Semiplano",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas una puerta de sombras Mediana en una superficie s\u00f3lida plana que puedas ver dentro del alcance. Esta puerta puede abrirse y cerrarse y lleva a un semiplano que parece una habitaci\u00f3n vac\u00eda de 9 m de lado en cada dimensi\u00f3n, hecha de madera o de piedra (a tu elecci\u00f3n).<br><br>Cuando el conjuro termina, la puerta se desvanecer\u00e1 y todos los objetos dentro del semiplano permanecer\u00e1n en \u00e9l. Las criaturas que haya tambi\u00e9n se quedar\u00e1n dentro salvo que prefieran que la puerta las expulse cuando se desvanece, lo que har\u00e1 que aterricen con el estado de derribadas en los espacios sin ocupar m\u00e1s cercanos desde donde estaba la puerta.<br><br>Cada vez que lances este conjuro, puedes crear un nuevo semiplano o hacer que la puerta de sombras conecte con un semiplano que hayas creado previamente con el conjuro. Adem\u00e1s, si conoces la naturaleza y el contenido de un semiplano creado cuando otra criatura lanz\u00f3 este conjuro, en su lugar puedes hacer que la puerta de sombras conecte con dicho semiplano.",
+    "materiales": null,
+    "nivel": 8
+  },
+  {
+    "nombre": "Sentidos de la bestia",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una bestia voluntaria. Hasta que el conjuro termine, puedes percibir a trav\u00e9s de los sentidos de la bestia, as\u00ed como de los tuyos. Cuando percibes a trav\u00e9s de ella, te beneficias de cualquier sentido especial que tenga.",
+    "materiales": null,
+    "nivel": 2
+  },
+  {
+    "nombre": "Se\u00f1al de esperanza",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Elige cualquier cantidad de criaturas dentro del alcance. Hasta que el conjuro termine, todos los objetivos tienen ventaja en sus tiradas de salvaci\u00f3n de Sabidur\u00eda y sus tiradas de salvaci\u00f3n contra muerte, y tambi\u00e9n recuperan la cantidad m\u00e1xima posible de puntos de golpe en cualquier curaci\u00f3n.",
+    "materiales": null,
+    "nivel": 3
+  },
+  {
+    "nombre": "Shillelagh",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Un bast\u00f3n o un garrote que sostengas se ve impregnado del poder de la naturaleza. Hasta que termine el conjuro, puedes usar tu aptitud m\u00e1gica en lugar de tu Fuerza para las tiradas de ataque y de da\u00f1o de tus ataques cuerpo a cuerpo usando esa arma y el dado de da\u00f1o pasa a ser un d8. Si el ataque inflige da\u00f1o, puede ser de fuerza o del tipo de da\u00f1o normal del arma (a tu elecci\u00f3n).<br><br>El conjuro termina antes de tiempo si lo vuelves a lanzar o si sueltas el arma.<br><br><b><i>Mejora de truco.</i></b> El dado de da\u00f1o cambia cuando alcanzas los niveles 5 (d10), 11 (d12) y 17 (2d6).",
+    "materiales": "Mu\u00e9rdago.",
+    "nivel": 0
+  },
+  {
+    "nombre": "Silencio",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Explorador"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que termine el conjuro, creas una esfera de 6 m de radio centrada en un punto de tu elecci\u00f3n dentro del alcance. Ning\u00fan sonido podr\u00e1 atravesarla ni originarse en su interior. Toda criatura u objeto tiene inmunidad al da\u00f1o de trueno si se halla completamente dentro de la esfera, y las criaturas tienen el estado de ensordecidas en su interior. Dentro de ella es imposible lanzar conjuros que tengan un componente verbal.",
+    "materiales": null,
+    "nivel": 2
+  },
+  {
+    "nombre": "Simulacro",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "12 horas",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas un simulacro de una bestia o humanoide que permanezca a 3 m o menos de ti durante todo el tiempo de lanzamiento del conjuro. Para finalizar el lanzamiento, tocas a la criatura y una pila de hielo o nieve de su mismo tama\u00f1o, de modo que la pila se transformar\u00e1 en un simulacro y ser\u00e1 una criatura. El simulacro tendr\u00e1 el perfil de la criatura original en el momento del lanzamiento, excepto que es un aut\u00f3mata, tiene la mitad de puntos de golpe m\u00e1ximos y no puede lanzar este conjuro.<br><br>El simulacro es amistoso contigo y con las criaturas que designes, obedece tus \u00f3rdenes y act\u00faa en tu turno en combate. Adem\u00e1s, no puede subir de nivel ni hacer descansos cortos o largos.<br><br>Si el simulacro sufre da\u00f1o, la \u00fanica forma de restaurar sus puntos de golpe es repararlo cuando hagas un descanso largo. En ese momento, puedes gastar componentes con un valor de 100 po por cada punto de golpe recuperado. Para repararlo, el simulacro debe permanecer a 1,5 m o menos de ti.<br><br>El simulacro dura hasta que sus puntos de golpe se reducen a 0, momento en el que vuelve a convertirse en nieve o hielo y se derrite. Si vuelves a lanzar este conjuro, cualquier simulacro que hayas creado antes con \u00e9l se destruye al instante.",
+    "materiales": "Rub\u00ed en polvo que valga al menos 1500 po, que se consume como parte del conjuro.",
+    "nivel": 7
+  },
+  {
+    "nombre": "Sirviente invisible",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro crea una fuerza invisible de tama\u00f1o Mediano, sin mente y sin forma, que realiza las tareas sencillas que le ordenes hasta que el conjuro termine. El sirviente surge en un espacio sin ocupar en el suelo dentro del alcance. Tiene una CA de 10, 1 punto de golpe, una Fuerza de 2 y no puede atacar. Si sus puntos de golpe se reducen a 0, el conjuro termina.<br><br>Una vez en cada uno de tus turnos como acci\u00f3n adicional, puedes ordenar mentalmente al sirviente que se mueva hasta 4,5 m y que interact\u00fae con un objeto. El sirviente puede realizar tareas sencillas que tambi\u00e9n podr\u00eda llevar a cabo un humano, como traer y llevar cosas, limpiar, remendar, plegar ropa, encender un fuego y servir comida o bebida. En cuanto das la orden, el sirviente realiza la tarea lo mejor que puede hasta que la completa y luego espera tu siguiente orden.<br><br>Si ordenas al sirviente que lleve a cabo una tarea que lo alejar\u00eda m\u00e1s de 18 m de ti, el conjuro termina.",
+    "materiales": "Un trozo de cuerda y uno de madera.",
+    "nivel": 1
+  },
+  {
+    "nombre": "Sordera/Ceguera",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura que puedas ver dentro del alcance deber\u00e1 superar una tirada de salvaci\u00f3n de Constituci\u00f3n o tendr\u00e1 el estado de cegada o ensordecida (a tu elecci\u00f3n) hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 2
+  },
+  {
+    "nombre": "Sugesti\u00f3n",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 8 horas",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Sugieres un curso de acci\u00f3n (de no m\u00e1s de 25 palabras) a una criatura que puedas ver dentro del alcance y que te pueda o\u00edr y entender. La sugerencia tiene que parecer factible y no ser claramente da\u00f1ina para el objetivo o sus aliados. Por ejemplo, podr\u00edas decir: \u201cVe a por la llave de la c\u00e1mara del tesoro de la secta y tr\u00e1emela\u201d, o quiz\u00e1 \u201cdeja de luchar, vete pac\u00edficamente de la biblioteca y no vuelvas\u201d.<br><br>El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de hechizado hasta que termine el conjuro o hasta que tus aliados o t\u00fa le hag\u00e1is da\u00f1o. El objetivo hechizado llevar\u00e1 a cabo la sugerencia lo mejor que pueda. La actividad sugerida puede seguir hasta que termine el conjuro, pero si se puede completar en menos tiempo, el conjuro terminar\u00e1 sobre el objetivo cuando la complete.",
+    "materiales": "Una gota de miel.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Sugesti\u00f3n en masa",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Sugieres un curso de acci\u00f3n (de no m\u00e1s de 25 palabras) a doce o menos criaturas que puedas ver dentro del alcance y que te puedan o\u00edr y entender. La sugerencia tiene que parecer factible y no ser claramente da\u00f1ina para cualquiera de los objetivos o sus aliados. Por ejemplo, podr\u00edas decir: \u201cId hasta el pueblo por ese camino y ayudad a sus habitantes a recoger la cosecha hasta que atardezca\u201d, o quiz\u00e1 \u201cno es momento de luchar; soltad las armas, poneos a bailar y no par\u00e9is hasta dentro de una hora\u201d.<br><br>Todos los objetivos deber\u00e1n superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1n el estado de hechizados hasta que termine el conjuro o hasta que tus aliados o t\u00fa les hag\u00e1is da\u00f1o. Cada objetivo hechizado llevar\u00e1 a cabo la sugerencia lo mejor que pueda. La actividad sugerida puede seguir hasta que termine el conjuro, pero si se puede completar en menos tiempo, el conjuro terminar\u00e1 sobre un objetivo cuando la complete.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La duraci\u00f3n aumenta al usar espacios de nivel 7 (10 d\u00edas), 8 (30 d\u00edas) o 9 (366 d\u00edas).",
+    "materiales": "Una lengua de serpiente.",
+    "nivel": 6
+  },
+  {
+    "nombre": "Susurros discordantes",
+    "clases": [
+      "Bardo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance oye una melod\u00eda discordante en su mente. El objetivo hace una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, recibir\u00e1 3d6 de da\u00f1o ps\u00edquico y deber\u00e1 utilizar su reacci\u00f3n inmediatamente, si es posible, para alejarse de ti tanto como pueda por la ruta m\u00e1s segura. Si supera la tirada, solo sufrir\u00e1 la mitad de ese da\u00f1o.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "S\u00edmbolo",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado o se active",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Inscribes un glifo da\u00f1ino bien en una superficie (como un trozo de un suelo o una pared) o bien en un objeto que se pueda cerrar (como un libro o un cofre). Este puede abarcar una zona de hasta 3 m de di\u00e1metro. Si eliges un objeto, este debe permanecer en su sitio; si se mueve m\u00e1s de 3 m respecto al lugar donde lanzaste el conjuro, el glifo se romper\u00e1 y el conjuro terminar\u00e1 sin activarse.<br><br>El glifo es casi imperceptible y es necesario superar una prueba de Sabidur\u00eda (Percepci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros para detectarlo.<br><br>Cuando inscribas el glifo, decides qu\u00e9 condici\u00f3n lo activa y eliges qu\u00e9 efecto tiene el s\u00edmbolo: aturdimiento, discordia, dolor, muerte, miedo o sue\u00f1o (se explican a continuaci\u00f3n).<br><br><b>Establecer el activador.</b> Cuando lances el conjuro, decide qu\u00e9 activar\u00e1 el glifo. En el caso de los glifos inscritos en una superficie, las condiciones que suelen activarlos incluyen tocarlos o situarse sobre ellos, quitar otro objeto que los cubra o acercarse a cierta distancia de ellos. En el caso de los glifos inscritos en un objeto, suelen activarse al abrir el objeto o mirar el glifo.<br><br>Puedes especificar a\u00fan m\u00e1s la condici\u00f3n, de modo que solo las criaturas de ciertos tipos puedan activarlo (por ejemplo, que solo afecte a las aberraciones). Tambi\u00e9n puedes establecer excepciones sobre qu\u00e9 criaturas no activar\u00e1n el glifo; por ejemplo, las que pronuncien una contrase\u00f1a.<br><br>Una vez activado, el glifo brilla y llena una esfera de 18 m de radio con luz tenue durante 10 minutos, tras lo cual el conjuro termina. Todas las criaturas que haya en la esfera cuando el glifo se active ser\u00e1n objetivo de su efecto, al igual que una criatura que entre en ella por primera vez en un turno o termine su turno all\u00ed. Una criatura solo puede ser objetivo una vez por turno.<br><br><b>Aturdimiento.</b> Cada objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de aturdido durante 1 minuto.<br><br><b>Discordia.</b> Cada objetivo hace una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, el objetivo discutir\u00e1 verbalmente con otras criaturas durante 1 minuto. Durante este tiempo, no podr\u00e1 comunicarse de forma razonable y tendr\u00e1 desventaja en las tiradas de ataque y las pruebas de caracter\u00edstica.<br><br><b>Dolor.</b> Cada objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Constituci\u00f3n o tendr\u00e1 el estado de incapacitado durante 1 minuto.<br><br><b>Muerte.</b> Cada objetivo hace una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 10d10 de da\u00f1o necr\u00f3tico si la falla o la mitad del da\u00f1o si la supera.<br><br><b>Sue\u00f1o.</b> Cada objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de inconsciente durante 10 minutos. Una criatura se despierta si recibe da\u00f1o o si alguien utiliza una acci\u00f3n para sacudirla.<br><br><b>Terror.</b> Cada objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de asustado durante 1 minuto. Mientras est\u00e9 asustado, el objetivo deber\u00e1 alejarse al menos 9 m del glifo en cada uno de sus turnos si puede.",
+    "materiales": "Diamante en polvo que valga al menos 1000 po y que se consume como parte del conjuro.",
+    "nivel": 7
+  },
+  {
+    "nombre": "Taumaturgia",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Manifiestas un peque\u00f1o milagro dentro del alcance y produces uno de los siguientes efectos m\u00e1gicos. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos de 1 minuto.<br><br><b>Jugar con fuego.</b> Haces que las llamas parpadeen, brillen m\u00e1s, se aten\u00faen o cambien de color durante 1 minuto.<br><br><b>Mano invisible.</b> Abres o cierras de golpe una puerta o ventana que no est\u00e9 cerrada con llave.<br><br><b>Ojos alterados.</b> Cambias el aspecto de tus ojos durante 1 minuto.<br><br><b>Sonido fantasmal.</b> Creas un sonido instant\u00e1neo que procede de un punto de tu elecci\u00f3n dentro del alcance. Por ejemplo, el retumbar de un trueno, el graznido de un cuervo o unos susurros de mal ag\u00fcero.<br><br><b>Temblor.</b> Provocas que la tierra tiemble sin causar da\u00f1os durante 1 minuto.<br><br><b>Voz atronadora.</b> Tu voz resuena hasta tres veces m\u00e1s alto de lo normal durante 1 minuto. Hasta que termine el conjuro, tienes ventaja en las pruebas de Carisma (Intimidaci\u00f3n).",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "Ta\u00f1ido por los muertos",
+    "clases": [
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Se\u00f1alas a una criatura que puedas ver dentro del alcance y el sonido de una campana funesta suena a 3 m o menos del objetivo. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir\u00e1 1d8 de da\u00f1o necr\u00f3tico. Si el objetivo no tiene todos sus puntos de golpe, el da\u00f1o necr\u00f3tico aumenta a 1d12.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en un dado cuando alcanzas los niveles 5 (2d8 o 2d12), 11 (3d8 o 3d12) y 17 (4d8 o 4d12).",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "Telara\u00f1a",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Conjuras una masa de telara\u00f1as pegajosas en un punto dentro del alcance. Las telara\u00f1as ocupan un cubo de 6 m de lado en ese espacio hasta que el conjuro termine. Las telara\u00f1as son terreno dif\u00edcil y su interior se considera ligeramente oscuro.<br><br>Si las telara\u00f1as no est\u00e1n ancladas entre dos objetos s\u00f3lidos (como muros o \u00e1rboles) o extendidas sobre un suelo, muro o techo, se vendr\u00e1n abajo y el conjuro terminar\u00e1 al principio de tu siguiente turno. Las telara\u00f1as dispuestas sobre una superficie plana tienen una profundidad de 1,5 m.<br><br>La primera vez que una criatura entre en las telara\u00f1as o termine su turno all\u00ed, deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o tendr\u00e1 el estado de apresada mientras permanezca en ellas o hasta que se libere.<br><br>Una criatura apresada puede utilizar una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, dejar\u00e1 de estar apresada.<br><br>Las telara\u00f1as son inflamables. Cualquier cubo de telara\u00f1as de 1,5 m de lado expuesto al fuego se quema por completo en 1 asalto y causa 2d4 de da\u00f1o de fuego a cualquier criatura que comience su turno en el incendio.",
+    "materiales": "Un poco de tela de ara\u00f1a.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Telepat\u00eda",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Ilimitado",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas un enlace telep\u00e1tico entre t\u00fa y una criatura voluntaria que conozcas. El objetivo puede estar en cualquier lugar del mismo plano de existencia que t\u00fa, pero el conjuro terminar\u00e1 si dej\u00e1is de estar en el mismo plano.<br><br>Hasta que el conjuro termine, el objetivo y t\u00fa pod\u00e9is compartir de forma instant\u00e1nea palabras, im\u00e1genes, sonidos y otros mensajes sensoriales mediante el enlace, y el objetivo te reconoce como la criatura con la que se est\u00e1 comunicando. El conjuro permite que una criatura comprenda el significado de tus palabras y cualquier mensaje sensorial que le env\u00edes.",
+    "materiales": "Un par de anillos de plata enlazados.",
+    "nivel": 8
+  },
+  {
+    "nombre": "Telequinesis",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "Obtienes la capacidad de mover o manipular criaturas u objetos con la mente. Cuando lanzas este conjuro y como acci\u00f3n de magia en tus siguientes turnos hasta que termine el conjuro, puedes imponer tu voluntad sobre una criatura o un objeto que puedas ver dentro del alcance y provocar el efecto correspondiente de los indicados debajo. Puedes afectar al mismo objetivo cada asalto o elegir uno nuevo cada vez. Si cambias de objetivo, el anterior dejar\u00e1 de estar afectado por el conjuro.<br><br><b>Criatura.</b> Puedes intentar mover a una criatura Enorme o m\u00e1s peque\u00f1a. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o lo mover\u00e1s hasta 9 m en cualquier direcci\u00f3n dentro del alcance del conjuro. Hasta el final de tu siguiente turno, la criatura tendr\u00e1 el estado de apresada y, si la elevas en el aire, quedar\u00e1 suspendida. Caer\u00e1 al final de tu siguiente turno a menos que vuelvas a usar esta opci\u00f3n y falle la tirada de salvaci\u00f3n.<br><br><b>Objeto.</b> Puedes intentar mover un objeto Enorme o m\u00e1s peque\u00f1o. Si el objeto no lo lleva ni viste nadie, lo mueves autom\u00e1ticamente hasta 9 m en cualquier direcci\u00f3n dentro del alcance del conjuro.<br><br>Si una criatura lleva o viste el objeto, deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o tirar\u00e1s del objeto y lo mover\u00e1s hasta 9 m en cualquier direcci\u00f3n dentro del alcance del conjuro.<br><br>Puedes ejercer un control m\u00e1s preciso de los objetos con tu agarre telequin\u00e9tico, como, por ejemplo, manipular una herramienta sencilla o abrir una puerta o un contenedor, guardar o sacar un objeto de un contenedor abierto o verter el contenido de un vial.",
+    "materiales": null,
+    "nivel": 5
+  },
+  {
+    "nombre": "Teletransporte",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro os transporta a un destino que elijas a ti y a hasta ocho criaturas voluntarias que puedas ver o a un solo objeto que puedas ver dentro del alcance. Si el objetivo es un objeto, debe ser Grande o m\u00e1s peque\u00f1o y no puede llevarlo o vestirlo una criatura no voluntaria.<br><br>Debes conocer el destino que elijas y tambi\u00e9n debe estar en el mismo plano de existencia que t\u00fa. Lo bien que conoces el destino es decisivo para conseguir llegar a \u00e9l. Tu DM tira 1d100 y consulta la tabla \"Resultado del teletransporte\" y las explicaciones que la siguen.<br><br><table><thead><tr><th>Familiaridad</th><th>Percance</th><th>\u00c1rea similar</th><th>Lejos del objetivo</th><th>En el objetivo</th></tr></thead><tbody><tr><td>C\u00edrculo permanente</td><td>\u2014</td><td>\u2014</td><td>\u2014</td><td>01-00</td></tr><tr><td>Objeto vinculado</td><td>\u2014</td><td>\u2014</td><td>\u2014</td><td>01-00</td></tr><tr><td>Muy familiar</td><td>01-05</td><td>06-13</td><td>14-24</td><td>25-00</td></tr><tr><td>Visto espor\u00e1dicamente</td><td>01-33</td><td>34-43</td><td>44-53</td><td>54-00</td></tr><tr><td>Visto una vez o descrito</td><td>01-43</td><td>44-53</td><td>54-73</td><td>74-00</td></tr><tr><td>Destino falso</td><td>01-50</td><td>51-00</td><td>\u2014</td><td>\u2014</td></tr></tbody></table><br><br><b>Familiaridad</b>. Los t\u00e9rminos de la columna \"Familiaridad\" de la tabla significan lo siguiente:<ul><li>\"C\u00edrculo permanente\" se refiere a un c\u00edrculo de teletransportaci\u00f3n permanente cuya secuencia de sellos conozcas.</li><li>\"Objeto vinculado\" quiere decir que posees un objeto tomado del destino deseado en los \u00faltimos seis meses, como un libro de la biblioteca de un mago.</li><li>\"Muy familiar\" es un sitio que has visitado a menudo, que has estudiado detenidamente o que puedas ver cuando lanzas el conjuro.</li><li>\"Visto espor\u00e1dicamente\" es un lugar que has visto m\u00e1s de una vez, pero que no conoces muy bien.</li><li>\"Visto una vez o descrito\" es un lugar que solo has visto en una ocasi\u00f3n, quiz\u00e1 mediante la magia, o un sitio que conoces de segunda mano, quiz\u00e1 por un mapa.</li><li>\"Destino falso\" es un lugar que no existe. Es posible que trataras de escrudi\u00f1ar el sanctasanct\u00f3rum de un enemigo, pero que, en su lugar, vieras una ilusi\u00f3n, o puede que intentes teletransportarte a una ubicaci\u00f3n que ya no existe.</li></ul><b>Percance</b>. La magia impredecible del conjuro da como resultado un viaje complicado. Cada criatura que se teletransporta (o el objeto objetivo) recibe 3d10 de da\u00f1o de fuerza y tu DM vuelve a tirar en la tabla para ver d\u00f3nde acab\u00e1is (se pueden producir varios percances, que causar\u00e1n da\u00f1o cada una de las veces).<br><br><b>\u00c1rea similar</b>. Tu grupo y t\u00fa (o el objeto objetivo) aparec\u00e9is en una zona diferente pero que se parece visual o tem\u00e1ticamente al \u00e1rea objetivo. Llegar\u00e9is al espacio similar m\u00e1s cercano. Por ejemplo, si te dirig\u00edas a tu laboratorio, podr\u00edas acabar en el laboratorio de otra persona en la misma ciudad.<br><br><b>Lejos del objetivo</b>. Tu grupo y t\u00fa (o el objeto objetivo) aparec\u00e9is a 2d12 \u00d7 1,5 km de distancia del destino en una direcci\u00f3n al azar. Tira 1d8 para determinar la direcci\u00f3n: con un 1, al este; con un 2, al sureste; con un 3, al sur; con un 4, al suroeste; con un 5, al oeste; con un 6, al noroeste; con un 7, al norte; y con un 8, al noreste.<br><br><b>En el objetivo</b>. Tu grupo y t\u00fa (o el objeto objetivo) aparec\u00e9is donde t\u00fa quer\u00edas.",
+    "materiales": null,
+    "nivel": 7
+  },
+  {
+    "nombre": "Tent\u00e1culos negros de Evard",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "Unos tent\u00e1culos color \u00e9bano que se retuercen llenan un cuadrado en el suelo de 6 m de lado que puedas ver dentro del alcance. Hasta que termine el conjuro, estos tent\u00e1culos convertir\u00e1n la zona en terreno dif\u00edcil.<br><br>Todas las criaturas situadas en esa zona hacen una tirada de salvaci\u00f3n de Fuerza. Si la fallan, sufrir\u00e1n 3d6 de da\u00f1o contundente y tendr\u00e1n el estado de apresadas hasta que el conjuro termine. Una criatura tambi\u00e9n deber\u00e1 hacer la tirada si entra en la zona o termina su turno en ella. Cada criatura solo hace esta tirada una vez por turno.<br><br>Una criatura apresada puede emplear una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros y, si la supera, pondr\u00e1 fin a su estado.",
+    "materiales": "Un tent\u00e1culo.",
+    "nivel": 4
+  },
+  {
+    "nombre": "Terremoto",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "500 pies",
+      "150 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Elige un punto del suelo que puedas ver dentro del alcance. Hasta que el conjuro termine, una intensa sacudida afecta al suelo en un c\u00edrculo de 30 m de radio centrado en ese punto. El suelo de la zona se considera terreno dif\u00edcil.<br><br>Cuando lances este conjuro y al final de cada uno de tus turnos hasta que termine, todas las criaturas que haya en el suelo en la zona deber\u00e1n hacer una tirada de salvaci\u00f3n de Destreza. Si la fallan, tendr\u00e1n el estado de derribadas y perder\u00e1n la concentraci\u00f3n.<br><br>Adem\u00e1s, podr\u00e1s provocar los siguientes efectos.<br><br><i>Grietas.</i> Se abren un total de 1d6 fisuras en la zona de alcance al final del turno en que lo lances. T\u00fa eliges la ubicaci\u00f3n de las grietas, que pueden estar debajo de estructuras. Cada una tiene una profundidad de 1d10 \u00d7 3 m y una anchura de 3 m y se extiende desde un borde del \u00e1rea del conjuro hasta otro borde. Una criatura que est\u00e9 en el mismo espacio que una grieta deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o caer\u00e1 en ella. Si la supera, la criatura se mover\u00e1 a la vez que se abre el borde de la grieta y se mantendr\u00e1 all\u00ed.<br><br><i>Estructuras.</i> El temblor causa 50 de da\u00f1o contundente a cualquier estructura que est\u00e9 en contacto con el suelo de la zona cuando lances el conjuro y al final de cada uno de tus turnos hasta que el conjuro termine. Si los puntos de golpe de una estructura se reducen a 0, se derrumbar\u00e1.<br><br>Una criatura que se encuentre a una distancia de una estructura que se derrumba igual a la mitad de su altura hace una tirada de salvaci\u00f3n de Destreza. Si la falla, sufrir\u00e1 12d6 de da\u00f1o contundente, tendr\u00e1 el estado de derribada y quedar\u00e1 enterrada entre los escombros. Para escapar, como acci\u00f3n tendr\u00e1 que superar una prueba de Fuerza (Atletismo) con CD 20. Si la supera, solo sufrir\u00e1 la mitad de ese da\u00f1o.",
+    "materiales": "Una piedra fracturada.",
+    "nivel": 8
+  },
+  {
+    "nombre": "Terreno alucinatorio",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": [
+      "300 pies",
+      "90 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": "Haces que un terreno natural en un cubo de 45 m de lado dentro del alcance tenga el aspecto, los sonidos y los olores de otro tipo de terreno natural. Por ejemplo, puedes hacer que un campo abierto o una carretera se parezcan a un pantano, una colina, una grieta u otro tipo de terreno dif\u00edcil o infranqueable. Se puede hacer que un estanque parezca una pradera cubierta de hierba, que un precipicio se aparezca como una suave cuesta o que un barranco pedregoso y estrecho se presente como una carretera amplia y lisa. Las estructuras fabricadas, el equipo y las criaturas en la zona no cambian.<br><br>Las caracter\u00edsticas t\u00e1ctiles del terreno no cambian, por lo que es probable que las criaturas que entren en la zona descubran que es una ilusi\u00f3n. Si la diferencia no es obvia al tacto, cualquier criatura que examine la ilusi\u00f3n puede usar una acci\u00f3n de estudiar y hacer una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros para distinguirla. Si criatura percibe que es una ilusi\u00f3n, la ver\u00e1 como una imagen difusa y superpuesta al terreno de verdad.",
+    "materiales": "Una seta.",
+    "nivel": 4
+  },
+  {
+    "nombre": "Terror",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Todas las criaturas situadas en un cono de 9 m deber\u00e1n superar una tirada de salvaci\u00f3n de Sabidur\u00eda o soltar\u00e1n cualquier cosa que tengan agarrada y tendr\u00e1n el estado de asustadas hasta que termine el conjuro.<br><br>Una criatura asustada realizar\u00e1 la acci\u00f3n de correr en todos sus turnos para alejarse de ti por la ruta m\u00e1s segura, a menos que no haya por d\u00f3nde huir. Si la criatura acaba su turno en un espacio desde el que no tenga l\u00ednea de visi\u00f3n directa de ti, har\u00e1 una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la supera, el conjuro terminar\u00e1 para ella.",
+    "materiales": "Una pluma blanca.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Terror abyecto",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Intentas crear horrores ilusorios en las mentes de otros. Todas las criaturas de tu elecci\u00f3n situadas en una esfera de 9 m de radio centrada en un punto dentro del alcance realizan una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la fallan, los objetivos sufrir\u00e1n 10d10 de da\u00f1o ps\u00edquico y tendr\u00e1n el estado de asustados hasta que el conjuro termine. Si la superan, solamente recibir\u00e1n la mitad de ese da\u00f1o.<br><br>Un objetivo asustado har\u00e1 una tirada de salvaci\u00f3n de Sabidur\u00eda al final de cada uno de sus turnos. Si la falla, sufrir\u00e1 5d10 de da\u00f1o ps\u00edquico. Si la supera, el conjuro terminar\u00e1 para ese objetivo.",
+    "materiales": null,
+    "nivel": 9
+  },
+  {
+    "nombre": "Texto ilusorio",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "10 d\u00edas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Escribes en pergamino, papel u otro material adecuado y lo impregnas con una ilusi\u00f3n hasta que termine el conjuro. Para ti y las dem\u00e1s criaturas que designes cuando lanzas el conjuro, el texto parece normal, escrito con tu letra, y transmite el significado que pretender\u00edas al escribirlo. Para los dem\u00e1s, el texto parece escrito en letra m\u00e1gica desconocida y es ininteligible. Como alternativa, la ilusi\u00f3n puede modificar el significado, la caligraf\u00eda y el idioma de un texto, aunque el idioma debe ser uno que conozcas.<br><br>Si el conjuro se disipa, desaparecer\u00e1n tanto el escrito original como la ilusi\u00f3n.<br><br>Una criatura con visi\u00f3n verdadera puede leer el mensaje oculto.",
+    "materiales": "Tinta que valga al menos 10 po, que se consume como parte del conjuro.",
+    "nivel": 1
+  },
+  {
+    "nombre": "Toque helado",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Canalizas un fr\u00edo sepulcral y haces un ataque de conjuro cuerpo a cuerpo contra un objetivo dentro del alcance. Si acierta, el objetivo recibir\u00e1 1d10 de da\u00f1o necr\u00f3tico y no podr\u00e1 recuperar puntos de golpe hasta el final de tu siguiente turno.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d10 cuando alcanzas los niveles 5 (2d10), 11 (3d10) y 17 (4d10).",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "Toque vamp\u00edrico",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "El toque de tu mano envuelta en sombras puede absorber la fuerza vital de otros para curar tus heridas. Haz un ataque de conjuro cuerpo a cuerpo contra una criatura dentro del alcance. Si acierta, el objetivo sufrir\u00e1 3d6 de da\u00f1o necr\u00f3tico y t\u00fa recuperar\u00e1s una cantidad de puntos de golpe igual a la mitad del da\u00f1o necr\u00f3tico infligido.<br><br>Hasta que el conjuro termine, podr\u00e1s realizar el ataque otra vez como acci\u00f3n de magia en cada uno de tus turnos y hacer objetivo a la misma criatura o a otra distinta.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 3
+  },
+  {
+    "nombre": "Tormenta de aguanieve",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, caer\u00e1 aguanieve en un cilindro de 12 m de alto y 6 m de radio centrado en un punto que elijas dentro del alcance. La zona est\u00e1 muy oscura y las llamas desprotegidas que haya en ella se apagan.<br><br>El suelo abarcado en el cilindro es terreno dif\u00edcil. Cuando una criatura entre en el cilindro por primera vez en un turno o comience su turno en \u00e9l, deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o tendr\u00e1 el estado de derribada y perder\u00e1 la concentraci\u00f3n.",
+    "materiales": "Un paraguas en miniatura.",
+    "nivel": 3
+  },
+  {
+    "nombre": "Tormenta de espinas",
+    "clases": [
+      "Explorador"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional, que realizas de inmediato tras acertar a una criatura con un arma a distancia",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Al golpear a la criatura, el conjuro crea una lluvia de espinas que saldr\u00e1 disparada de tu arma a distancia o munici\u00f3n. El objetivo del ataque y todas las criaturas a 1,5 m o menos de \u00e9l hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 1d10 de da\u00f1o perforante si la fallan o la mitad del da\u00f1o si la superan.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null,
+    "nivel": 1
+  },
+  {
+    "nombre": "Tormenta de fuego",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Una tormenta de llamas aparece dentro del alcance. El \u00e1rea de la tormenta consta de hasta diez cubos de 3 m de lado que puedes disponer seg\u00fan desees, cada uno de los cuales debe estar adyacente al menos a otro. Todas las criaturas situadas en la zona de 4,5 m deber\u00e1n realizar una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 7d10 de da\u00f1o de fuego si la fallan o la mitad del da\u00f1o si la superan.<br><br>Los objetos inflamables dentro del \u00e1rea que no lleve o vista nadie empezar\u00e1n a arder.",
+    "materiales": null,
+    "nivel": 7
+  },
+  {
+    "nombre": "Tormenta de hielo",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "300 pies",
+      "90 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Una granizada cae en un cilindro de 6 m de radio y 12 m de altura centrado en un punto dentro del alcance. Todas las criaturas situadas en el cilindro hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 2d10 de da\u00f1o contundente y 4d6 de da\u00f1o de fr\u00edo si la fallan o la mitad del da\u00f1o si la superan.<br><br>Las bolas de granizo convierten el suelo del cilindro en terreno dif\u00edcil hasta el final de tu siguiente turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o contundente aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": "Una manopla.",
+    "nivel": 4
+  },
+  {
+    "nombre": "Tormenta de la venganza",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "5000 pies",
+      "1,5 km"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Hasta que termine el conjuro, una nube de tormenta se forma centrada en un punto dentro del alcance y se extiende hasta un radio de 90 m. Todas las criaturas que est\u00e9n debajo de ella cuando aparezca deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 2d6 de da\u00f1o de trueno y tendr\u00e1n el estado de ensordecidas hasta que el conjuro termine.<br><br>Al principio de cada uno de tus siguientes turnos, la tormenta produce efectos diferentes, como se detalla a continuaci\u00f3n.<br><br><b>Turno 2.</b> Cae una lluvia \u00e1cida. Todas las criaturas y objetos que est\u00e9n debajo de la nube sufrir\u00e1n 4d6 de da\u00f1o de \u00e1cido.<br><br><b>Turno 3.</b> Invocas seis rel\u00e1mpagos que surgen de la nube para golpear a seis criaturas u objetos distintos bajo ella. Cada objetivo hace una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 10d6 de da\u00f1o de rel\u00e1mpago si la falla o la mitad del da\u00f1o si la supera.<br><br><b>Turno 4.</b> Caen bolas de granizo. Todas las criaturas que est\u00e9n debajo de la nube sufrir\u00e1n 2d6 de da\u00f1o contundente.<br><br><b>Turnos 5 a 10.</b> La zona bajo la nube se ve asolada por vendavales y aguanieve. Todas las criaturas que est\u00e9n all\u00ed sufren 1d6 de da\u00f1o de fr\u00edo. Hasta que el conjuro termine, la zona es terreno dif\u00edcil y est\u00e1 muy oscura. Adem\u00e1s, es imposible hacer ataques con armas a distancia, ya que un fuerte viento sopla en toda la zona.",
+    "materiales": null,
+    "nivel": 9
+  },
+  {
+    "nombre": "Tormenta de meteoritos",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "5000 pies",
+      "1,5 km"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Unos orbes de fuego abrasador caen en picado en cuatro puntos del suelo distintos que puedas ver dentro del alcance. Todas las criaturas situadas en una esfera de 12 m de radio centrada en cada uno de esos puntos hacen una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 20d6 de da\u00f1o de fuego y 20d6 de da\u00f1o contundente si la fallan o la mitad del da\u00f1o si la superan. Las criaturas que est\u00e9n situadas en el \u00e1rea de efecto de m\u00e1s de una de las esferas ardientes solo se ver\u00e1n afectadas por una.<br><br>Los objetos no m\u00e1gicos que se encuentren dentro del \u00e1rea del conjuro tambi\u00e9n recibir\u00e1n el da\u00f1o, salvo si los lleva o viste una criatura, y empezar\u00e1n a arder si son inflamables.",
+    "materiales": null,
+    "nivel": 9
+  },
+  {
+    "nombre": "Tormenta resplandeciente de Jallarzi",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Desatas una tormenta de luz intermitente y truenos intensos en un cilindro de 3 m de radio de di\u00e1metro y 12 m de alto centrado en un punto que puedas ver dentro del alcance. Mientras est\u00e9n en esta zona, las criaturas tendr\u00e1n los estados de cegadas y ensordecidas y no podr\u00e1n lanzar conjuros que tengan un componente verbal.<br><br>Cuando aparezca la tormenta, todas las criaturas dentro de ella har\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 2d10 de da\u00f1o radiante y 2d10 de da\u00f1o de trueno si la fallan o la mitad del da\u00f1o si la superan. Una criatura tambi\u00e9n har\u00e1 esta tirada cuando entre en el \u00e1rea del conjuro por primera vez en un turno o termine su turno all\u00ed. Una criatura solo hace esta tirada una vez por turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o radiante y de trueno aumenta en 1d10 por cada nivel por encima de 5 que tenga el espacio.",
+    "materiales": "Una pizca de f\u00f3sforo.",
+    "nivel": 5
+  },
+  {
+    "nombre": "Trepar cual ar\u00e1cnido",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, una criatura voluntaria a la que toques gana la capacidad de moverse hacia arriba, hacia abajo y de lado por superficies verticales, as\u00ed como por techos. Esta manera de moverse no requiere del uso de las manos, que quedan libres. Adem\u00e1s, el objetivo obtiene una velocidad trepando igual a su velocidad.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "Una gota de bet\u00fan y una ara\u00f1a.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Tronar",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Todas las criaturas situadas en una emanaci\u00f3n de 1,5 m que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o de trueno. El sonido atronador del conjuro se puede o\u00edr a una distancia de hasta 30 m.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "materiales": null,
+    "nivel": 0
+  },
+  {
+    "nombre": "Truco de la cuerda",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas una cuerda, lo que hace que uno de sus extremos flote hacia arriba hasta que la cuerda se ponga perpendicular al suelo o toque un techo. En el extremo superior de la cuerda se abre un portal invisible de 0,9 m por 1,5 m, el cual conduce a un espacio extradimensional que dura hasta que el conjuro termine. Este espacio puede alcanzarse trepando por la cuerda, que puede recogerse o soltarse desde el interior.<br><br>En el espacio caben hasta ocho criaturas Medianas o m\u00e1s peque\u00f1as. Los ataques, conjuros y otros efectos no pueden cruzar el espacio en ning\u00fan sentido, pero las criaturas que est\u00e1n dentro pueden ver a trav\u00e9s del portal. Todo lo que est\u00e9 dentro del espacio caer\u00e1 fuera cuando el conjuro termine.",
+    "materiales": "Un trozo de cuerda.",
+    "nivel": 2
+  },
+  {
+    "nombre": "Tsunami",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "5000 pies",
+      "1,5 km"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 6 asaltos",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "Un muro de agua surge de la nada en un punto de tu elecci\u00f3n dentro del alcance. Puedes hacerlo de hasta 90 m de longitud, 90 m de alto y 15 m de grosor y durar\u00e1 hasta que termine el conjuro.<br><br>Cuando aparezca el muro, todas las criaturas situadas en su \u00e1rea hacen una tirada de salvaci\u00f3n de Fuerza; sufrir\u00e1n 6d10 de da\u00f1o contundente si la fallan o la mitad de da\u00f1o si la superan.<br><br>Al principio de cada uno de tus turnos tras la aparici\u00f3n del muro, se alejar\u00e1 15 m de ti junto con todas las criaturas que haya en su interior. Cualquier criatura Enorme o m\u00e1s peque\u00f1a dentro del muro, o a cuyo espacio entre el muro cuando este se mueva, deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o sufrir\u00e1 5d10 de da\u00f1o contundente. Una criatura solo puede sufrir este da\u00f1o una vez por asalto. Al final del turno, la altura del muro se reduce en 15 m y el da\u00f1o que causa el muro en asaltos subsiguientes se reduce en 1d10. Cuando el muro llegue a 0 m de altura, el conjuro termina.<br><br>Una criatura atrapada en el muro puede moverse nadando. Sin embargo, debido a la fuerza de la ola, la criatura deber\u00e1 superar una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros para moverse. Si no la supera, no podr\u00e1 hacerlo. Una criatura que salga del muro caer\u00e1 al suelo.",
+    "materiales": null,
+    "nivel": 8
+  },
+  {
+    "nombre": "Urna m\u00e1gica",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Tu cuerpo entra en estado catat\u00f3nico y tu alma lo abandona y entra en el recipiente que has usado como componente material del conjuro. Mientras tu alma est\u00e9 dentro del recipiente, ser\u00e1s consciente de lo que te rodea, igual que si estuvieras en el espacio de dicho recipiente. No podr\u00e1s moverte ni llevar a cabo reacciones. La \u00fanica acci\u00f3n que puedes realizar es proyectar tu alma hasta 30 m del recipiente, bien para regresar a tu cuerpo viviente (y poner fin al conjuro) o bien para tratar de poseer el cuerpo de un humanoide.<br><br>Puedes intentar poseer a cualquier humanoide que est\u00e9 a 30 m o menos de ti que puedas ver (las criaturas protegidas mediante un conjuro <i>c\u00edrculo m\u00e1gico</i> o <i>protecci\u00f3n contra el bien y el mal</i> no pueden ser pose\u00eddas). El objetivo hace una tirada de salvaci\u00f3n de Carisma. Si la falla, tu alma se introducir\u00e1 en el cuerpo del objetivo y la suya quedar\u00e1 atrapada en el recipiente. Si la supera, resistir\u00e1 tus esfuerzos por poseerlo y no podr\u00e1s volver a intentarlo durante 24 horas.<br><br>En cuanto posees el cuerpo de una criatura, lo controlas. Tus puntos de golpe, dados de puntos de golpe, Fuerza, Destreza, Constituci\u00f3n, velocidad y sentidos se sustituyen por los de la criatura. Por lo dem\u00e1s, conservas tu perfil. Por su parte, el alma de la criatura pose\u00edda puede percibir desde el recipiente usando sus propios sentidos, pero no puede moverse y tiene el estado de incapacitada.<br><br>Mientras posees un cuerpo, puedes usar una acci\u00f3n de magia para volver del cuerpo anfitri\u00f3n al recipiente si est\u00e1 a 30 m o menos de ti, lo que hace que el alma de la criatura anfitriona regrese a su propio cuerpo. Si el cuerpo anfitri\u00f3n muere mientras est\u00e1s en \u00e9l, la criatura muere y t\u00fa debes hacer una tirada de salvaci\u00f3n de Carisma contra tu propia CD de salvaci\u00f3n de conjuros. Si la superas, volver\u00e1s al recipiente si est\u00e1 a 30 m o menos de ti. De lo contrario, morir\u00e1s.<br><br>Si el recipiente es destruido o el conjuro termina, tu alma volver\u00e1 a tu cuerpo. Si tu cuerpo est\u00e1 a m\u00e1s de 30 m de ti o est\u00e1 muerto, morir\u00e1s. Si el alma de otra criatura est\u00e1 en el recipiente cuando es destruido, esa alma volver\u00e1 a su cuerpo, siempre y cuando este est\u00e9 vivo y a 30 m o menos de ella. De lo contrario, esa criatura morir\u00e1.<br><br>Cuando el conjuro termine, el recipiente se destruir\u00e1.",
+    "materiales": "Una gema, un cristal o un relicario que valga al menos 500 po.",
+    "nivel": 6
   }
 ]

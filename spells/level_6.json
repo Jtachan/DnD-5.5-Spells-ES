@@ -741,5 +741,27 @@
     "requiere_ataque": false,
     "descripcion": "Sugieres un curso de acci\u00f3n (de no m\u00e1s de 25 palabras) a doce o menos criaturas que puedas ver dentro del alcance y que te puedan o\u00edr y entender. La sugerencia tiene que parecer factible y no ser claramente da\u00f1ina para cualquiera de los objetivos o sus aliados. Por ejemplo, podr\u00edas decir: \u201cId hasta el pueblo por ese camino y ayudad a sus habitantes a recoger la cosecha hasta que atardezca\u201d, o quiz\u00e1 \u201cno es momento de luchar; soltad las armas, poneos a bailar y no par\u00e9is hasta dentro de una hora\u201d.<br><br>Todos los objetivos deber\u00e1n superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1n el estado de hechizados hasta que termine el conjuro o hasta que tus aliados o t\u00fa les hag\u00e1is da\u00f1o. Cada objetivo hechizado llevar\u00e1 a cabo la sugerencia lo mejor que pueda. La actividad sugerida puede seguir hasta que termine el conjuro, pero si se puede completar en menos tiempo, el conjuro terminar\u00e1 sobre un objetivo cuando la complete.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La duraci\u00f3n aumenta al usar espacios de nivel 7 (10 d\u00edas), 8 (30 d\u00edas) o 9 (366 d\u00edas).",
     "materiales": "Una lengua de serpiente."
+  },
+  {
+    "nombre": "Urna m\u00e1gica",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Tu cuerpo entra en estado catat\u00f3nico y tu alma lo abandona y entra en el recipiente que has usado como componente material del conjuro. Mientras tu alma est\u00e9 dentro del recipiente, ser\u00e1s consciente de lo que te rodea, igual que si estuvieras en el espacio de dicho recipiente. No podr\u00e1s moverte ni llevar a cabo reacciones. La \u00fanica acci\u00f3n que puedes realizar es proyectar tu alma hasta 30 m del recipiente, bien para regresar a tu cuerpo viviente (y poner fin al conjuro) o bien para tratar de poseer el cuerpo de un humanoide.<br><br>Puedes intentar poseer a cualquier humanoide que est\u00e9 a 30 m o menos de ti que puedas ver (las criaturas protegidas mediante un conjuro <i>c\u00edrculo m\u00e1gico</i> o <i>protecci\u00f3n contra el bien y el mal</i> no pueden ser pose\u00eddas). El objetivo hace una tirada de salvaci\u00f3n de Carisma. Si la falla, tu alma se introducir\u00e1 en el cuerpo del objetivo y la suya quedar\u00e1 atrapada en el recipiente. Si la supera, resistir\u00e1 tus esfuerzos por poseerlo y no podr\u00e1s volver a intentarlo durante 24 horas.<br><br>En cuanto posees el cuerpo de una criatura, lo controlas. Tus puntos de golpe, dados de puntos de golpe, Fuerza, Destreza, Constituci\u00f3n, velocidad y sentidos se sustituyen por los de la criatura. Por lo dem\u00e1s, conservas tu perfil. Por su parte, el alma de la criatura pose\u00edda puede percibir desde el recipiente usando sus propios sentidos, pero no puede moverse y tiene el estado de incapacitada.<br><br>Mientras posees un cuerpo, puedes usar una acci\u00f3n de magia para volver del cuerpo anfitri\u00f3n al recipiente si est\u00e1 a 30 m o menos de ti, lo que hace que el alma de la criatura anfitriona regrese a su propio cuerpo. Si el cuerpo anfitri\u00f3n muere mientras est\u00e1s en \u00e9l, la criatura muere y t\u00fa debes hacer una tirada de salvaci\u00f3n de Carisma contra tu propia CD de salvaci\u00f3n de conjuros. Si la superas, volver\u00e1s al recipiente si est\u00e1 a 30 m o menos de ti. De lo contrario, morir\u00e1s.<br><br>Si el recipiente es destruido o el conjuro termina, tu alma volver\u00e1 a tu cuerpo. Si tu cuerpo est\u00e1 a m\u00e1s de 30 m de ti o est\u00e1 muerto, morir\u00e1s. Si el alma de otra criatura est\u00e1 en el recipiente cuando es destruido, esa alma volver\u00e1 a su cuerpo, siempre y cuando este est\u00e9 vivo y a 30 m o menos de ella. De lo contrario, esa criatura morir\u00e1.<br><br>Cuando el conjuro termine, el recipiente se destruir\u00e1.",
+    "materiales": "Una gema, un cristal o un relicario que valga al menos 500 po."
   }
 ]
