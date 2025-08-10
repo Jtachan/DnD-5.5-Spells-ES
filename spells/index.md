@@ -339,3 +339,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Salto                                   | 1         |
 | Sanctasanctórum privado de Mordenkainen | 4         |
 | Santuario                               | 1         |
+| Semiplano                               | 8         |

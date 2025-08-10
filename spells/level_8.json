@@ -342,5 +342,30 @@
     "requiere_ataque": false,
     "descripcion": "Abrumas la mente de una criatura que puedas ver dentro del alcance. Si el objetivo tiene 150 puntos de golpe o menos, tendr\u00e1 el estado de aturdido. De lo contrario, su velocidad ser\u00e1 0 hasta el principio de tu siguiente turno.<br><br>El objetivo aturdido hace una tirada de salvaci\u00f3n de Constituci\u00f3n al final de cada uno de sus turnos y, si tiene \u00e9xito, se librar\u00e1 del estado.",
     "materiales": null
+  },
+  {
+    "nombre": "Semiplano",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas una puerta de sombras Mediana en una superficie s\u00f3lida plana que puedas ver dentro del alcance. Esta puerta puede abrirse y cerrarse y lleva a un semiplano que parece una habitaci\u00f3n vac\u00eda de 9 m de lado en cada dimensi\u00f3n, hecha de madera o de piedra (a tu elecci\u00f3n).<br><br>Cuando el conjuro termina, la puerta se desvanecer\u00e1 y todos los objetos dentro del semiplano permanecer\u00e1n en \u00e9l. Las criaturas que haya tambi\u00e9n se quedar\u00e1n dentro salvo que prefieran que la puerta las expulse cuando se desvanece, lo que har\u00e1 que aterricen con el estado de derribadas en los espacios sin ocupar m\u00e1s cercanos desde donde estaba la puerta.<br><br>Cada vez que lances este conjuro, puedes crear un nuevo semiplano o hacer que la puerta de sombras conecte con un semiplano que hayas creado previamente con el conjuro. Adem\u00e1s, si conoces la naturaleza y el contenido de un semiplano creado cuando otra criatura lanz\u00f3 este conjuro, en su lugar puedes hacer que la puerta de sombras conecte con dicho semiplano.",
+    "materiales": null
   }
 ]
