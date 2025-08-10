@@ -366,3 +366,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Toque helado                            | 0 (Truco) |
 | Toque vampírico                         | 3         |
 | Tormenta de aguanieve                   | 3         |
+| Tormenta de espinas                     | 1         |

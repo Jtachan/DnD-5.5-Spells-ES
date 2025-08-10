@@ -1503,5 +1503,25 @@
     "requiere_ataque": false,
     "descripcion": "Escribes en pergamino, papel u otro material adecuado y lo impregnas con una ilusi\u00f3n hasta que termine el conjuro. Para ti y las dem\u00e1s criaturas que designes cuando lanzas el conjuro, el texto parece normal, escrito con tu letra, y transmite el significado que pretender\u00edas al escribirlo. Para los dem\u00e1s, el texto parece escrito en letra m\u00e1gica desconocida y es ininteligible. Como alternativa, la ilusi\u00f3n puede modificar el significado, la caligraf\u00eda y el idioma de un texto, aunque el idioma debe ser uno que conozcas.<br><br>Si el conjuro se disipa, desaparecer\u00e1n tanto el escrito original como la ilusi\u00f3n.<br><br>Una criatura con visi\u00f3n verdadera puede leer el mensaje oculto.",
     "materiales": "Tinta que valga al menos 10 po, que se consume como parte del conjuro."
+  },
+  {
+    "nombre": "Tormenta de espinas",
+    "clases": [
+      "Explorador"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional, que realizas de inmediato tras acertar a una criatura con un arma a distancia",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Al golpear a la criatura, el conjuro crea una lluvia de espinas que saldr\u00e1 disparada de tu arma a distancia o munici\u00f3n. El objetivo del ataque y todas las criaturas a 1,5 m o menos de \u00e9l hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 1d10 de da\u00f1o perforante si la fallan o la mitad del da\u00f1o si la superan.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": null
   }
 ]
