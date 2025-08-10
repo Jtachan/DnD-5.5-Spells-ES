@@ -373,3 +373,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Tormenta de meteoritos                  | 9         |
 | Tormenta resplandeciente de Jallarzi    | 5         |
 | Trepar cual arácnido                    | 2         |
+| Tronar                                  | 0 (Truco) |
