@@ -1215,5 +1215,30 @@
     "requiere_ataque": false,
     "descripcion": "Un haz de energ\u00eda debilitadora surge de ti hacia una criatura dentro del alcance. El objetivo deber\u00e1 hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la supera, tendr\u00e1 desventaja en la siguiente tirada de ataque que haga hasta el principio de tu siguiente turno.<br><br>Si la falla, tendr\u00e1 desventaja en las pruebas con d20 basadas en la Fuerza hasta que termine el conjuro. Durante ese tiempo, tambi\u00e9n restar\u00e1 1d8 a todas las tiradas de da\u00f1o que haga. El objetivo repetir\u00e1 la tirada de salvaci\u00f3n al final de cada uno de sus turnos y, si tiene \u00e9xito, se librar\u00e1 del conjuro.",
     "materiales": null
+  },
+  {
+    "nombre": "Restablecimiento menor",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura y le pones fin a un estado que tenga: cegada, ensordecida, envenenada o paralizada.",
+    "materiales": null
   }
 ]

@@ -324,3 +324,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Resistencia                          | 0 (Truco) |
 | Respirar bajo el agua                | 3         |
 | Restablecimiento mayor               | 5         |
+| Restablecimiento menor               | 2         |
