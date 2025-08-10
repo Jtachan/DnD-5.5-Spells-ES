@@ -715,5 +715,31 @@
     "requiere_ataque": false,
     "descripcion": "Lanzas un rel\u00e1mpago hacia un objetivo que puedas ver dentro del alcance. A continuaci\u00f3n, de ese objetivo surgir\u00e1n otros tres rel\u00e1mpagos dirigidos a otros tantos objetivos de tu elecci\u00f3n, cada uno de los cuales deber\u00e1 estar a 9 m o menos del primero. Un objetivo puede ser una criatura o un objeto y solo puede ser objetivo de uno de los rel\u00e1mpagos.<br><br>Cada objetivo hace una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 10d8 de da\u00f1o de rel\u00e1mpago si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Surge un rel\u00e1mpago adicional del primer objetivo a otro objetivo por cada nivel por encima de 6 que tenga el espacio.",
     "materiales": "Tres alfileres de plata."
+  },
+  {
+    "nombre": "Sugesti\u00f3n en masa",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Sugieres un curso de acci\u00f3n (de no m\u00e1s de 25 palabras) a doce o menos criaturas que puedas ver dentro del alcance y que te puedan o\u00edr y entender. La sugerencia tiene que parecer factible y no ser claramente da\u00f1ina para cualquiera de los objetivos o sus aliados. Por ejemplo, podr\u00edas decir: \u201cId hasta el pueblo por ese camino y ayudad a sus habitantes a recoger la cosecha hasta que atardezca\u201d, o quiz\u00e1 \u201cno es momento de luchar; soltad las armas, poneos a bailar y no par\u00e9is hasta dentro de una hora\u201d.<br><br>Todos los objetivos deber\u00e1n superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1n el estado de hechizados hasta que termine el conjuro o hasta que tus aliados o t\u00fa les hag\u00e1is da\u00f1o. Cada objetivo hechizado llevar\u00e1 a cabo la sugerencia lo mejor que pueda. La actividad sugerida puede seguir hasta que termine el conjuro, pero si se puede completar en menos tiempo, el conjuro terminar\u00e1 sobre un objetivo cuando la complete.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La duraci\u00f3n aumenta al usar espacios de nivel 7 (10 d\u00edas), 8 (30 d\u00edas) o 9 (366 d\u00edas).",
+    "materiales": "Una lengua de serpiente."
   }
 ]
