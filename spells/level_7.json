@@ -396,5 +396,28 @@
     "requiere_ataque": false,
     "descripcion": "Con un toque, revives a una criatura que no lleve m\u00e1s de un siglo muerta, que no muriera de vieja y que no fuera un muerto viviente cuando falleci\u00f3.<br><br>La criatura vuelve a la vida con todos sus puntos de golpe. El conjuro tambi\u00e9n neutraliza cualquier veneno que afectase a la criatura en el momento de su muerte. Este conjuro cierra todas las heridas mortales y devuelve las partes del cuerpo que falten.<br><br>Regresar de entre los muertos es una experiencia complicada. El objetivo tendr\u00e1 un penalizador de -4 a las pruebas con d20. Cada vez que finalice un descanso largo, el penalizador se reduce en 1 hasta desaparecer.<br><br>Lanzar el conjuro para revivir a una criatura que lleve muerta 365 d\u00edas o m\u00e1s te exige un gran esfuerzo. Hasta que finalices un descanso largo, no podr\u00e1s volver a lanzar conjuros y tendr\u00e1s desventaja en las pruebas con d20.",
     "materiales": "Un diamante que valga al menos 1000 po y que se consume como parte del conjuro."
+  },
+  {
+    "nombre": "Rociada prism\u00e1tica",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Ocho rayos de luz surgen de tu mano en un cono de 18 m. Todas las criaturas situadas en el cono hacen una tirada de salvaci\u00f3n de Destreza. Por cada objetivo, tira 1d8 para determinar qu\u00e9 rayo de color le afecta y consulta la tabla \u201cRayos prism\u00e1ticos\u201d.<br><br><table><tr><th>1d8</th><th>Rayo</th></tr><tr><td>1</td><td>Rojo. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de fuego. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>2</td><td>Naranja. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de \u00e1cido. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>3</td><td>Amarillo. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de rel\u00e1mpago. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>4</td><td>Verde. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de veneno. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>5</td><td>Azul. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de fr\u00edo. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>6</td><td>A\u00f1il. <i>Si falla la tirada:</i> el objetivo tendr\u00e1 el estado de apresado y har\u00e1 una tirada de salvaci\u00f3n de Constituci\u00f3n al final de cada uno de sus turnos. Si la supera tres veces, el estado terminar\u00e1. Si la falla tres veces, tendr\u00e1 el estado de petrificado hasta que lo libere un efecto como el del conjuro <i>restablecimiento mayor</i>. Los \u00e9xitos y los fallos no tienen por qu\u00e9 ser consecutivos: lleva la cuenta de ambos hasta que el objetivo tenga tres de un mismo tipo.</td></tr><tr><td>7</td><td>Violeta. <i>Si falla la tirada:</i> el objetivo tendr\u00e1 el estado de cegado y har\u00e1 una tirada de salvaci\u00f3n de Sabidur\u00eda al principio de su siguiente turno. Si la supera, el estado terminar\u00e1. Si la falla, el estado terminar\u00e1 y la criatura se teletransportar\u00e1 a otro plano de existencia (a elecci\u00f3n de tu DM).</td></tr><tr><td>8</td><td>Especial. Dos rayos alcanzan al objetivo. Tira dos veces y repite los resultados de 8.</td></tr></table>",
+    "materiales": null
   }
 ]

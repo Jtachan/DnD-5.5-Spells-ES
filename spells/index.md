@@ -331,3 +331,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Revivir                              | 3         |
 | Risa horrible de Tasha               | 1         |
 | Rociada de color                     | 1         |
+| Rociada prismática                   | 7         |
