@@ -934,5 +934,33 @@
     "requiere_ataque": false,
     "descripcion": "Unos tent\u00e1culos color \u00e9bano que se retuercen llenan un cuadrado en el suelo de 6 m de lado que puedas ver dentro del alcance. Hasta que termine el conjuro, estos tent\u00e1culos convertir\u00e1n la zona en terreno dif\u00edcil.<br><br>Todas las criaturas situadas en esa zona hacen una tirada de salvaci\u00f3n de Fuerza. Si la fallan, sufrir\u00e1n 3d6 de da\u00f1o contundente y tendr\u00e1n el estado de apresadas hasta que el conjuro termine. Una criatura tambi\u00e9n deber\u00e1 hacer la tirada si entra en la zona o termina su turno en ella. Cada criatura solo hace esta tirada una vez por turno.<br><br>Una criatura apresada puede emplear una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros y, si la supera, pondr\u00e1 fin a su estado.",
     "materiales": "Un tent\u00e1culo."
+  },
+  {
+    "nombre": "Terreno alucinatorio",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": [
+      "300 pies",
+      "90 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": "Haces que un terreno natural en un cubo de 45 m de lado dentro del alcance tenga el aspecto, los sonidos y los olores de otro tipo de terreno natural. Por ejemplo, puedes hacer que un campo abierto o una carretera se parezcan a un pantano, una colina, una grieta u otro tipo de terreno dif\u00edcil o infranqueable. Se puede hacer que un estanque parezca una pradera cubierta de hierba, que un precipicio se aparezca como una suave cuesta o que un barranco pedregoso y estrecho se presente como una carretera amplia y lisa. Las estructuras fabricadas, el equipo y las criaturas en la zona no cambian.<br><br>Las caracter\u00edsticas t\u00e1ctiles del terreno no cambian, por lo que es probable que las criaturas que entren en la zona descubran que es una ilusi\u00f3n. Si la diferencia no es obvia al tacto, cualquier criatura que examine la ilusi\u00f3n puede usar una acci\u00f3n de estudiar y hacer una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros para distinguirla. Si criatura percibe que es una ilusi\u00f3n, la ver\u00e1 como una imagen difusa y superpuesta al terreno de verdad.",
+    "materiales": "Una seta."
   }
 ]

@@ -359,3 +359,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Teletransporte                          | 7         |
 | Tentáculos negros de Evard              | 4         |
 | Terremoto                               | 8         |
+| Terreno alucinatorio                    | 4         |
