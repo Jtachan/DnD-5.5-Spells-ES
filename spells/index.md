@@ -353,3 +353,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Susurros discordantes                   | 1         |
 | Tañido por los muertos                  | 0 (Truco) |
 | Taumaturgia                             | 0 (Truco) |
+| Telaraña                                | 2         |

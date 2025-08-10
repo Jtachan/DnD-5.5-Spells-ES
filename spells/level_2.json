@@ -1340,5 +1340,31 @@
     "requiere_ataque": false,
     "descripcion": "Sugieres un curso de acci\u00f3n (de no m\u00e1s de 25 palabras) a una criatura que puedas ver dentro del alcance y que te pueda o\u00edr y entender. La sugerencia tiene que parecer factible y no ser claramente da\u00f1ina para el objetivo o sus aliados. Por ejemplo, podr\u00edas decir: \u201cVe a por la llave de la c\u00e1mara del tesoro de la secta y tr\u00e1emela\u201d, o quiz\u00e1 \u201cdeja de luchar, vete pac\u00edficamente de la biblioteca y no vuelvas\u201d.<br><br>El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de hechizado hasta que termine el conjuro o hasta que tus aliados o t\u00fa le hag\u00e1is da\u00f1o. El objetivo hechizado llevar\u00e1 a cabo la sugerencia lo mejor que pueda. La actividad sugerida puede seguir hasta que termine el conjuro, pero si se puede completar en menos tiempo, el conjuro terminar\u00e1 sobre el objetivo cuando la complete.",
     "materiales": "Una gota de miel."
+  },
+  {
+    "nombre": "Telara\u00f1a",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Conjuras una masa de telara\u00f1as pegajosas en un punto dentro del alcance. Las telara\u00f1as ocupan un cubo de 6 m de lado en ese espacio hasta que el conjuro termine. Las telara\u00f1as son terreno dif\u00edcil y su interior se considera ligeramente oscuro.<br><br>Si las telara\u00f1as no est\u00e1n ancladas entre dos objetos s\u00f3lidos (como muros o \u00e1rboles) o extendidas sobre un suelo, muro o techo, se vendr\u00e1n abajo y el conjuro terminar\u00e1 al principio de tu siguiente turno. Las telara\u00f1as dispuestas sobre una superficie plana tienen una profundidad de 1,5 m.<br><br>La primera vez que una criatura entre en las telara\u00f1as o termine su turno all\u00ed, deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o tendr\u00e1 el estado de apresada mientras permanezca en ellas o hasta que se libere.<br><br>Una criatura apresada puede utilizar una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, dejar\u00e1 de estar apresada.<br><br>Las telara\u00f1as son inflamables. Cualquier cubo de telara\u00f1as de 1,5 m de lado expuesto al fuego se quema por completo en 1 asalto y causa 2d4 de da\u00f1o de fuego a cualquier criatura que comience su turno en el incendio.",
+    "materiales": "Un poco de tela de ara\u00f1a."
   }
 ]
