@@ -1304,5 +1304,32 @@
     "requiere_ataque": false,
     "descripcion": "Realizas la acci\u00f3n de correr y, hasta que el conjuro termine, puedes volver a hacerla como acci\u00f3n adicional.",
     "materiales": null
+  },
+  {
+    "nombre": "Risa horrible de Tasha",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance realiza una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, tendr\u00e1 los estados de derribada e incapacitada hasta que el conjuro termine. Durante ese tiempo, se reir\u00e1 de forma incontrolable si tiene la capacidad de re\u00edrse y no podr\u00e1 poner fin a su estado de derribada.<br><br>Al final de cada uno de sus turnos y cada vez que reciba da\u00f1o, realizar\u00e1 otra tirada de salvaci\u00f3n de Sabidur\u00eda. Tendr\u00e1 ventaja en ella si la realiza por sufrir da\u00f1o. Si la supera, el conjuro terminar\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "materiales": "Una tarta y una pluma."
   }
 ]

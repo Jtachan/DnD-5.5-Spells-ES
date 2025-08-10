@@ -329,3 +329,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Resurrección verdadera               | 9         |
 | Retirada expeditiva                  | 1         |
 | Revivir                              | 3         |
+| Risa horrible de Tasha               | 1         |
