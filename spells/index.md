@@ -378,3 +378,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Tsunami                                 | 8         |
 | Urna mágica                             | 6         |
 | Ver invisibilidad                       | 2         |
+| Viajar con el viento                    | 6         |
