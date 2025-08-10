@@ -340,3 +340,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Sanctasanctórum privado de Mordenkainen | 4         |
 | Santuario                               | 1         |
 | Semiplano                               | 8         |
+| Señal de esperanza                      | 3         |
