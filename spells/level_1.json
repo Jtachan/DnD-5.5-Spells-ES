@@ -203,7 +203,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "Tu golpe resuena con un trueno audible a 90 m (300 pies) de ti y el objetivo sufre 2d6 de da\u00f1o de trueno adicional del ataque. Adem\u00e1s, si el objetivo es una criatura, deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o la empujar\u00e1s 3 m (10 pies) respecto a ti y tendr\u00e1 el estado de derribada.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Tu golpe emite un estruendo audible a 90 m de distancia y el objetivo recibe 2d6 de da\u00f1o de trueno adicional del ataque. Adem\u00e1s, si el objetivo es una criatura, debe superar una tirada de salvaci\u00f3n de Fuerza o ser\u00e1 empujado 3 m lejos de ti y quedar\u00e1 derribado.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o se incrementa en 1d6 por cada nivel del espacio usado por encima de 1.",
     "materiales": null
   },
   {
