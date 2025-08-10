@@ -385,3 +385,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Visión en la oscuridad                  | 2         |
 | Visión veraz                            | 6         |
 | Volar                                   | 3         |
+| Voluta estelar                          | 0 (Truco) |

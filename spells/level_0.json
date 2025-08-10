@@ -779,5 +779,30 @@
     "requiere_ataque": false,
     "descripcion": "Todas las criaturas situadas en una emanaci\u00f3n de 1,5 m que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o de trueno. El sonido atronador del conjuro se puede o\u00edr a una distancia de hasta 30 m.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
     "materiales": null
+  },
+  {
+    "nombre": "Voluta estelar",
+    "clases": [
+      "Bardo",
+      "Druida"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Lanzas una mota de luz contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibir\u00e1 1d8 de da\u00f1o radiante y, hasta el final de tu siguiente turno, emitir\u00e1 luz tenue en un radio de 3 m y no podr\u00e1 beneficiarse del estado de invisible.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "materiales": null
   }
 ]
