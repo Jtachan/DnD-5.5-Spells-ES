@@ -1390,5 +1390,27 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que el conjuro termine, una criatura voluntaria a la que toques gana la capacidad de moverse hacia arriba, hacia abajo y de lado por superficies verticales, as\u00ed como por techos. Esta manera de moverse no requiere del uso de las manos, que quedan libres. Adem\u00e1s, el objetivo obtiene una velocidad trepando igual a su velocidad.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": "Una gota de bet\u00fan y una ara\u00f1a."
+  },
+  {
+    "nombre": "Truco de la cuerda",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas una cuerda, lo que hace que uno de sus extremos flote hacia arriba hasta que la cuerda se ponga perpendicular al suelo o toque un techo. En el extremo superior de la cuerda se abre un portal invisible de 0,9 m por 1,5 m, el cual conduce a un espacio extradimensional que dura hasta que el conjuro termine. Este espacio puede alcanzarse trepando por la cuerda, que puede recogerse o soltarse desde el interior.<br><br>En el espacio caben hasta ocho criaturas Medianas o m\u00e1s peque\u00f1as. Los ataques, conjuros y otros efectos no pueden cruzar el espacio en ning\u00fan sentido, pero las criaturas que est\u00e1n dentro pueden ver a trav\u00e9s del portal. Todo lo que est\u00e9 dentro del espacio caer\u00e1 fuera cuando el conjuro termine.",
+    "materiales": "Un trozo de cuerda."
   }
 ]
