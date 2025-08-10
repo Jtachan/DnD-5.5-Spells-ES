@@ -45,7 +45,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Emanas m\u00e1gicamente un sentimiento de amistad hacia una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de hechizado hasta que termine el conjuro. El objetivo la superar\u00e1 autom\u00e1ticamente si no es un humanoide, si est\u00e1s luchando contra \u00e9l o si le has lanzado este conjuro en las \u00faltimas 24 horas.<br><br>El conjuro termina antes de tiempo si el objetivo recibe da\u00f1o o si haces una tirada de ataque, causas da\u00f1o u obligas a cualquier criatura a hacer una tirada de salvaci\u00f3n. Cuando el conjuro termine, el objetivo sabr\u00e1 que lo hechizaste.",
+    "descripcion": "Emanas de forma m\u00e1gica una sensaci\u00f3n amistosa hacia una criatura que puedas ver dentro del alcance. Esta criatura debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 bajo el efecto de estar hechizada hasta que finalice la duraci\u00f3n del conjuro. Superar\u00e1 autom\u00e1ticamente esta tirada si no es un humanoide, si est\u00e1 en combate contigo o si le lanzaste este mismo conjuro en las \u00faltimas 24 horas.<br><br>El efecto termina antes de lo previsto si el objetivo recibe da\u00f1o, si realizas una tirada de ataque, infliges da\u00f1o o fuerzas a cualquier criatura a hacer una tirada de salvaci\u00f3n. Una vez finalizado el conjuro, la criatura sabr\u00e1 que fue objeto de tu magia.\n",
     "materiales": "Un poco de maquillaje."
   },
   {
