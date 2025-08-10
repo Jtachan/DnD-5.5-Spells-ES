@@ -190,7 +190,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
-    "descripcion": "El objetivo de la tirada de ataque recibe 5d10 de da\u00f1o de fuerza adicional del ataque. Si el ataque reduce los puntos de golpe del objetivo a 50 o menos, deber\u00e1 superar una tirada de salvaci\u00f3n de Carisma o se teletransportar\u00e1 a un semiplano inofensivo hasta que termine el conjuro. Mientras permanezca all\u00ed, tendr\u00e1 el estado de incapacitado. Cuando el conjuro termine, el objetivo reaparecer\u00e1 en el espacio que abandon\u00f3 o en el espacio sin ocupar m\u00e1s cercano si dicho espacio est\u00e1 ocupado.",
+    "descripcion": "El objetivo alcanzado por la tirada de ataque recibe 5d10 de da\u00f1o de fuerza adicional del ataque. Si este reduce sus puntos de golpe a 50 o menos, debe realizar una tirada de salvaci\u00f3n de Carisma; con una falla, es teletransportado a un semiplano seguro hasta que el conjuro finalice. Mientras permanezca all\u00ed, se encuentra incapacitado. Al terminar el conjuro, el objetivo reaparece en el espacio que ocupaba originalmente o, si este est\u00e1 ocupado, en el espacio libre m\u00e1s cercano.",
     "materiales": null
   },
   {
