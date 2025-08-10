@@ -1125,5 +1125,31 @@
     "requiere_ataque": false,
     "descripcion": "Obtienes la capacidad de mover o manipular criaturas u objetos con la mente. Cuando lanzas este conjuro y como acci\u00f3n de magia en tus siguientes turnos hasta que termine el conjuro, puedes imponer tu voluntad sobre una criatura o un objeto que puedas ver dentro del alcance y provocar el efecto correspondiente de los indicados debajo. Puedes afectar al mismo objetivo cada asalto o elegir uno nuevo cada vez. Si cambias de objetivo, el anterior dejar\u00e1 de estar afectado por el conjuro.<br><br><b>Criatura.</b> Puedes intentar mover a una criatura Enorme o m\u00e1s peque\u00f1a. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o lo mover\u00e1s hasta 9 m en cualquier direcci\u00f3n dentro del alcance del conjuro. Hasta el final de tu siguiente turno, la criatura tendr\u00e1 el estado de apresada y, si la elevas en el aire, quedar\u00e1 suspendida. Caer\u00e1 al final de tu siguiente turno a menos que vuelvas a usar esta opci\u00f3n y falle la tirada de salvaci\u00f3n.<br><br><b>Objeto.</b> Puedes intentar mover un objeto Enorme o m\u00e1s peque\u00f1o. Si el objeto no lo lleva ni viste nadie, lo mueves autom\u00e1ticamente hasta 9 m en cualquier direcci\u00f3n dentro del alcance del conjuro.<br><br>Si una criatura lleva o viste el objeto, deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o tirar\u00e1s del objeto y lo mover\u00e1s hasta 9 m en cualquier direcci\u00f3n dentro del alcance del conjuro.<br><br>Puedes ejercer un control m\u00e1s preciso de los objetos con tu agarre telequin\u00e9tico, como, por ejemplo, manipular una herramienta sencilla o abrir una puerta o un contenedor, guardar o sacar un objeto de un contenedor abierto o verter el contenido de un vial.",
     "materiales": null
+  },
+  {
+    "nombre": "Tormenta resplandeciente de Jallarzi",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Desatas una tormenta de luz intermitente y truenos intensos en un cilindro de 3 m de radio de di\u00e1metro y 12 m de alto centrado en un punto que puedas ver dentro del alcance. Mientras est\u00e9n en esta zona, las criaturas tendr\u00e1n los estados de cegadas y ensordecidas y no podr\u00e1n lanzar conjuros que tengan un componente verbal.<br><br>Cuando aparezca la tormenta, todas las criaturas dentro de ella har\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 2d10 de da\u00f1o radiante y 2d10 de da\u00f1o de trueno si la fallan o la mitad del da\u00f1o si la superan. Una criatura tambi\u00e9n har\u00e1 esta tirada cuando entre en el \u00e1rea del conjuro por primera vez en un turno o termine su turno all\u00ed. Una criatura solo hace esta tirada una vez por turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o radiante y de trueno aumenta en 1d10 por cada nivel por encima de 5 que tenga el espacio.",
+    "materiales": "Una pizca de f\u00f3sforo."
   }
 ]
