@@ -114,7 +114,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "Hadar extiende brazos tenebrosos desde ti. Todas las criaturas en un radio de 3 m (10 pies) deben hacer una tirada de salvaci\u00f3n de Fuerza. Si fallan, sufren 2d6 de da\u00f1o necr\u00f3tico y no podr\u00e1n realizar reacciones hasta el siguiente turno. Si la superan, reciben la mitad de da\u00f1o.<br><br><i><b>Con un espacio de conjuro de nivel superior.</b></i> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1.",
+    "descripcion": "Hadar proyecta brazos sombr\u00edos desde tu posici\u00f3n. Todas las criaturas en un radio de 3 m deben efectuar una tirada de salvaci\u00f3n de Fuerza. Con una falla, reciben 2d6 de da\u00f1o necr\u00f3tico y no pueden realizar reacciones hasta el inicio de tu pr\u00f3ximo turno. Con una salvaci\u00f3n exitosa, reciben la mitad del da\u00f1o.<br><br><i><b>Con un espacio de conjuro de nivel superior.</b></i> El da\u00f1o se incrementa en 1d6 por cada nivel de conjuro usado por encima de 1.\n",
     "materiales": null
   },
   {
