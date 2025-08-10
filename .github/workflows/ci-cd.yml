@@ -3,6 +3,11 @@ on:
   push:
     branches:
       - "main"
+    paths:
+      - "spells/*.json"
+      - "index.html"
+  schedule:
+    - cron: "0 5 1 * *"  # 05:00 UTC, 1st day of every month
   workflow_dispatch:
 
 permissions:
@@ -15,28 +20,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1: Cloning repo with credentials to allow a 'push commit'
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           persist-credentials: true
 
-      # 2: Configure python.
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
 
-      # 3: Execute script.
       - name: Unify spell files
         run: |
           python spells/unify_spell_files.py
 
-      # 4: Add commit and push.
       - name: Commit and push spells.json
         uses: EndBug/add-and-commit@v9
         with:
-          # Usa el GitHub Token disponible en ${{ secrets.GITHUB_TOKEN }}
           author_name: GitHub Actions
           author_email: actions@github.com
           message: 'GH commit: Update spells.json with new spells'
@@ -51,7 +51,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
       
     steps:
-      # Cloning repo to hace access to the HTML file
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -62,7 +61,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./
-          retention-days: 30
+          retention-days: 32
 
       - name: Deploy to GitHub Pages
         id: deploy
