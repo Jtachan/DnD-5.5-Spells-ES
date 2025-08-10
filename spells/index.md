@@ -369,3 +369,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Tormenta de espinas                     | 1         |
 | Tormenta de fuego                       | 7         |
 | Tormenta de hielo                       | 4         |
+| Tormenta de la venganza                 | 9         |

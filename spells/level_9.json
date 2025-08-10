@@ -343,5 +343,29 @@
     "requiere_ataque": false,
     "descripcion": "Intentas crear horrores ilusorios en las mentes de otros. Todas las criaturas de tu elecci\u00f3n situadas en una esfera de 9 m de radio centrada en un punto dentro del alcance realizan una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la fallan, los objetivos sufrir\u00e1n 10d10 de da\u00f1o ps\u00edquico y tendr\u00e1n el estado de asustados hasta que el conjuro termine. Si la superan, solamente recibir\u00e1n la mitad de ese da\u00f1o.<br><br>Un objetivo asustado har\u00e1 una tirada de salvaci\u00f3n de Sabidur\u00eda al final de cada uno de sus turnos. Si la falla, sufrir\u00e1 5d10 de da\u00f1o ps\u00edquico. Si la supera, el conjuro terminar\u00e1 para ese objetivo.",
     "materiales": null
+  },
+  {
+    "nombre": "Tormenta de la venganza",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "5000 pies",
+      "1,5 km"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Hasta que termine el conjuro, una nube de tormenta se forma centrada en un punto dentro del alcance y se extiende hasta un radio de 90 m. Todas las criaturas que est\u00e9n debajo de ella cuando aparezca deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 2d6 de da\u00f1o de trueno y tendr\u00e1n el estado de ensordecidas hasta que el conjuro termine.<br><br>Al principio de cada uno de tus siguientes turnos, la tormenta produce efectos diferentes, como se detalla a continuaci\u00f3n.<br><br><b>Turno 2.</b> Cae una lluvia \u00e1cida. Todas las criaturas y objetos que est\u00e9n debajo de la nube sufrir\u00e1n 4d6 de da\u00f1o de \u00e1cido.<br><br><b>Turno 3.</b> Invocas seis rel\u00e1mpagos que surgen de la nube para golpear a seis criaturas u objetos distintos bajo ella. Cada objetivo hace una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 10d6 de da\u00f1o de rel\u00e1mpago si la falla o la mitad del da\u00f1o si la supera.<br><br><b>Turno 4.</b> Caen bolas de granizo. Todas las criaturas que est\u00e9n debajo de la nube sufrir\u00e1n 2d6 de da\u00f1o contundente.<br><br><b>Turnos 5 a 10.</b> La zona bajo la nube se ve asolada por vendavales y aguanieve. Todas las criaturas que est\u00e9n all\u00ed sufren 1d6 de da\u00f1o de fr\u00edo. Hasta que el conjuro termine, la zona es terreno dif\u00edcil y est\u00e1 muy oscura. Adem\u00e1s, es imposible hacer ataques con armas a distancia, ya que un fuerte viento sopla en toda la zona.",
+    "materiales": null
   }
 ]
