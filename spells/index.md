@@ -326,3 +326,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Restablecimiento mayor               | 5         |
 | Restablecimiento menor               | 2         |
 | Resurrección                         | 7         |
+| Resurrección verdadera               | 9         |

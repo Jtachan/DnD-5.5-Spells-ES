@@ -295,5 +295,28 @@
     "requiere_ataque": false,
     "descripcion": "T\u00fa y hasta ocho criaturas voluntarias dentro del alcance proyect\u00e1is vuestros cuerpos astrales al Plano Astral (si ya est\u00e1is all\u00ed, el conjuro termina al instante). El cuerpo material que deja atr\u00e1s un objetivo queda en animaci\u00f3n suspendida; tiene el estado de inconsciente, no necesita aire ni comida y no envejece.<br><br>El cuerpo astral de un objetivo es semejante a su cuerpo en casi todo y replica su perfil y sus posesiones. La diferencia principal es un cord\u00f3n plateado que sale de entre los om\u00f3platos de la forma astral y se desvanece a los 30 cm. Si el cord\u00f3n se corta (algo que solo puede ocurrir si un efecto as\u00ed lo indica), el cuerpo y la forma astral del objetivo mueren.<br><br>Una forma astral puede viajar a trav\u00e9s del Plano Astral. Si abandona el plano, el cuerpo y las posesiones del objetivo viajan a trav\u00e9s del cord\u00f3n de plata, permiti\u00e9ndole volver a entrar en su cuerpo en el nuevo plano.<br><br>El da\u00f1o y otros efectos que se le apliquen a una forma astral no afectan al cuerpo del objetivo y viceversa. Si los puntos de golpe del cuerpo del objetivo o de su forma astral se reducen a 0, el conjuro terminar\u00e1 para \u00e9l. El conjuro termina para todos los objetivos si empleas una acci\u00f3n de magia para ponerle fin.<br><br>Cuando el conjuro termine para un objetivo que no est\u00e9 muerto, reaparecer\u00e1 en su cuerpo y concluir\u00e1 su animaci\u00f3n suspendida.",
     "materiales": "Por cada objetivo del conjuro, un jacinto que valga al menos 1000 po y un lingote de plata que valga al menos 100 po, que se consumen como parte del conjuro."
+  },
+  {
+    "nombre": "Resurrecci\u00f3n verdadera",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura que no lleve m\u00e1s de 200 a\u00f1os muerta y que falleciera por cualquier motivo menos de vieja. La criatura revive con todos sus puntos de golpe.<br><br>Este conjuro cierra todas las heridas, neutraliza cualquier veneno, cura todas las enfermedades m\u00e1gicas y levanta las maldiciones que afectaran a la criatura cuando muri\u00f3. Tambi\u00e9n sustituye los \u00f3rganos y las extremidades que le falten o sufrieran da\u00f1os. Si la criatura era un muerto viviente, la resucitar\u00e1 con su forma normal.<br><br>El conjuro puede proporcionar un nuevo cuerpo si el original ya no existe, en cuyo caso debes pronunciar el nombre de la criatura. A continuaci\u00f3n, esta aparecer\u00e1 en un espacio sin ocupar que elijas a 3 m o menos de ti.",
+    "materiales": "Diamantes que valgan al menos 25 000 po, que se consumen como parte del conjuro."
   }
 ]
