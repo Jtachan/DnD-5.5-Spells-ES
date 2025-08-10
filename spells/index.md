@@ -325,3 +325,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Respirar bajo el agua                | 3         |
 | Restablecimiento mayor               | 5         |
 | Restablecimiento menor               | 2         |
+| Resurrección                         | 7         |
