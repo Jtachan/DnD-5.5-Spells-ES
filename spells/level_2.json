@@ -1366,5 +1366,29 @@
     "requiere_ataque": false,
     "descripcion": "Conjuras una masa de telara\u00f1as pegajosas en un punto dentro del alcance. Las telara\u00f1as ocupan un cubo de 6 m de lado en ese espacio hasta que el conjuro termine. Las telara\u00f1as son terreno dif\u00edcil y su interior se considera ligeramente oscuro.<br><br>Si las telara\u00f1as no est\u00e1n ancladas entre dos objetos s\u00f3lidos (como muros o \u00e1rboles) o extendidas sobre un suelo, muro o techo, se vendr\u00e1n abajo y el conjuro terminar\u00e1 al principio de tu siguiente turno. Las telara\u00f1as dispuestas sobre una superficie plana tienen una profundidad de 1,5 m.<br><br>La primera vez que una criatura entre en las telara\u00f1as o termine su turno all\u00ed, deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o tendr\u00e1 el estado de apresada mientras permanezca en ellas o hasta que se libere.<br><br>Una criatura apresada puede utilizar una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, dejar\u00e1 de estar apresada.<br><br>Las telara\u00f1as son inflamables. Cualquier cubo de telara\u00f1as de 1,5 m de lado expuesto al fuego se quema por completo en 1 asalto y causa 2d4 de da\u00f1o de fuego a cualquier criatura que comience su turno en el incendio.",
     "materiales": "Un poco de tela de ara\u00f1a."
+  },
+  {
+    "nombre": "Trepar cual ar\u00e1cnido",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, una criatura voluntaria a la que toques gana la capacidad de moverse hacia arriba, hacia abajo y de lado por superficies verticales, as\u00ed como por techos. Esta manera de moverse no requiere del uso de las manos, que quedan libres. Adem\u00e1s, el objetivo obtiene una velocidad trepando igual a su velocidad.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": "Una gota de bet\u00fan y una ara\u00f1a."
   }
 ]

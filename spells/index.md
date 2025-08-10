@@ -372,3 +372,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Tormenta de la venganza                 | 9         |
 | Tormenta de meteoritos                  | 9         |
 | Tormenta resplandeciente de Jallarzi    | 5         |
+| Trepar cual arácnido                    | 2         |
