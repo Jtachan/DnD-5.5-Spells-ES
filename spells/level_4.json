@@ -909,5 +909,30 @@
     "requiere_ataque": false,
     "descripcion": "Haces que una zona dentro del alcance sea m\u00e1gicamente segura. Esta zona es un cubo que puede tener un tama\u00f1o desde tan solo 1,5 m de lado a hasta 30 m y permanecer\u00e1 hasta que el conjuro termine.<br><br>Cuando lanzas el conjuro, decides el tipo de seguridad que proporciona eligiendo cualesquiera de las siguientes propiedades:<ul><li>El sonido no puede atravesar la barrera del per\u00edmetro de la zona protegida.</li><li>La barrera de la zona protegida parece oscura y con niebla, impidiendo ver a trav\u00e9s de ella (incluso a la visi\u00f3n en la oscuridad).</li><li>Dentro de la zona protegida no pueden aparecer sensores creados mediante conjuros de adivinaci\u00f3n, ni estos pueden atravesar la barrera del per\u00edmetro.</li><li>Las criaturas en la zona no pueden ser el objetivo de conjuros de adivinaci\u00f3n.</li><li>Nada puede teletransportarse ni al interior ni al exterior del \u00e1rea protegida.</li><li>El viaje interplanar est\u00e1 bloqueado dentro de la zona.</li></ul>Si este conjuro se lanza a diario en el mismo lugar durante 365 d\u00edas, durar\u00e1 hasta que sea disipado.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes aumentar el tama\u00f1o del cubo en 30 m por cada nivel por encima de 4 que tenga el espacio.",
     "materiales": "Una l\u00e1mina fina de plomo."
+  },
+  {
+    "nombre": "Tent\u00e1culos negros de Evard",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "Unos tent\u00e1culos color \u00e9bano que se retuercen llenan un cuadrado en el suelo de 6 m de lado que puedas ver dentro del alcance. Hasta que termine el conjuro, estos tent\u00e1culos convertir\u00e1n la zona en terreno dif\u00edcil.<br><br>Todas las criaturas situadas en esa zona hacen una tirada de salvaci\u00f3n de Fuerza. Si la fallan, sufrir\u00e1n 3d6 de da\u00f1o contundente y tendr\u00e1n el estado de apresadas hasta que el conjuro termine. Una criatura tambi\u00e9n deber\u00e1 hacer la tirada si entra en la zona o termina su turno en ella. Cada criatura solo hace esta tirada una vez por turno.<br><br>Una criatura apresada puede emplear una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros y, si la supera, pondr\u00e1 fin a su estado.",
+    "materiales": "Un tent\u00e1culo."
   }
 ]
