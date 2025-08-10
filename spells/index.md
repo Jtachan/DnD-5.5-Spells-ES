@@ -333,3 +333,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Rociada de color                     | 1         |
 | Rociada prismática                   | 7         |
 | Rociada venenosa                     | 0 (Truco) |
+| Saber druídico                       | 0 (Truco) |

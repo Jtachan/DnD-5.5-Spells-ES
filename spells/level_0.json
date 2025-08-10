@@ -612,5 +612,29 @@
     "requiere_ataque": true,
     "descripcion": "Roc\u00edas a una criatura dentro del alcance con una niebla t\u00f3xica. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d12 de da\u00f1o de veneno.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d12 cuando alcanzas los niveles 5 (2d12), 11 (3d12) y 17 (4d12).",
     "materiales": null
+  },
+  {
+    "nombre": "Saber dru\u00eddico",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Susurras a los esp\u00edritus de la naturaleza y produces uno de los siguientes efectos dentro del alcance.<br><br><b>Sensor clim\u00e1tico.</b> Creas un efecto sensorial Diminuto e inofensivo que predice el clima que habr\u00e1 en tu ubicaci\u00f3n durante las siguientes 24 horas. El efecto se manifiesta como un orbe dorado para los cielos despejados, una nube para la lluvia, copos de nieve para la nieve, etc. Este efecto persiste durante 1 asalto.<br><br><b>Florecer.</b> Haces que, al instante, una flor florezca, una vaina de semillas se abra o el brote de una hoja germine.<br><br><b>Efecto sensorial.</b> Creas un efecto sensorial inofensivo, como hojas cayendo, hadas espectrales bailando, una suave brisa, el sonido de un animal o un leve olor a mofeta. El efecto debe caber en un cubo de 1,5 m de lado.<br><br><b>Jugar con fuego.</b> Enciendes o apagas una vela, una antorcha o una hoguera.",
+    "materiales": null
   }
 ]
