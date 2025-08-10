@@ -382,3 +382,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Viajar mediante plantas                 | 6         |
 | Vigor arcano                            | 2         |
 | Vínculo protector                       | 2         |
+| Visión en la oscuridad                  | 2         |

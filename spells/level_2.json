@@ -1481,5 +1481,30 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a otra criatura voluntaria y creas una conexi\u00f3n m\u00edstica entre ella y t\u00fa hasta que el conjuro termine. Mientras el objetivo est\u00e9 a 18 m o menos de ti, obtiene un bonificador de +1 a la CA y a las tiradas de salvaci\u00f3n, as\u00ed como resistencia a todo el da\u00f1o. Sin embargo, cada vez que reciba da\u00f1o, t\u00fa sufrir\u00e1s la misma cantidad de da\u00f1o.<br><br>El conjuro termina si tus puntos de golpe se reducen a 0 o si el objetivo y t\u00fa os separ\u00e1is m\u00e1s de 18 m. Tambi\u00e9n termina si se lanza otra vez sobre cualquiera de las dos criaturas conectadas.",
     "materiales": "Un par de anillos de platino que valgan al menos 50 po cada uno y que deb\u00e9is llevar puestos tanto t\u00fa como el objetivo hasta que termine el conjuro."
+  },
+  {
+    "nombre": "Visi\u00f3n en la oscuridad",
+    "clases": [
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, una criatura voluntaria a la que toques tendr\u00e1 visi\u00f3n en la oscuridad hasta 45 m.",
+    "materiales": "Una zanahoria seca."
   }
 ]
