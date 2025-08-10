@@ -356,3 +356,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Telaraña                                | 2         |
 | Telepatía                               | 8         |
 | Telequinesis                            | 5         |
+| Teletransporte                          | 7         |
