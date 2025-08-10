@@ -170,7 +170,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Cuando lances el conjuro y como acci\u00f3n adicional hasta que termine, puedes realizar dos ataques con un arma que use flechas o virotes, como un arco largo o una ballesta ligera. El conjuro crea m\u00e1gicamente la munici\u00f3n necesaria para cada ataque. Cada flecha o virote que cree el conjuro inflige da\u00f1o como si fuera munici\u00f3n no m\u00e1gica de su tipo y se desintegra inmediatamente despu\u00e9s de acertar o fallar.",
+    "descripcion": "Al lanzar el conjuro y como acci\u00f3n adicional mientras permanezca activo, puedes efectuar dos ataques con un arma que utilice flechas o virotes, como un arco largo o una ballesta ligera. El conjuro genera de forma m\u00e1gica la munici\u00f3n necesaria para cada disparo. Cada flecha o virote creado inflige da\u00f1o como si fuera munici\u00f3n no m\u00e1gica de su tipo y se desintegra inmediatamente tras impactar o fallar.",
     "materiales": "Una aljaba que valga al menos 1 po."
   },
   {
