@@ -360,3 +360,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Tentáculos negros de Evard              | 4         |
 | Terremoto                               | 8         |
 | Terreno alucinatorio                    | 4         |
+| Terror                                  | 3         |
