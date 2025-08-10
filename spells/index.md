@@ -344,3 +344,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Sentidos de la bestia                   | 2         |
 | Shillelagh                              | 0 (Truco) |
 | Silencio                                | 2         |
+| Símbolo                                 | 7         |

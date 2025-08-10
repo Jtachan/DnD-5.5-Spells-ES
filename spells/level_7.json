@@ -419,5 +419,30 @@
     "requiere_ataque": false,
     "descripcion": "Ocho rayos de luz surgen de tu mano en un cono de 18 m. Todas las criaturas situadas en el cono hacen una tirada de salvaci\u00f3n de Destreza. Por cada objetivo, tira 1d8 para determinar qu\u00e9 rayo de color le afecta y consulta la tabla \u201cRayos prism\u00e1ticos\u201d.<br><br><table><tr><th>1d8</th><th>Rayo</th></tr><tr><td>1</td><td>Rojo. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de fuego. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>2</td><td>Naranja. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de \u00e1cido. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>3</td><td>Amarillo. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de rel\u00e1mpago. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>4</td><td>Verde. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de veneno. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>5</td><td>Azul. <i>Si falla la tirada:</i> 12d6 de da\u00f1o de fr\u00edo. <i>Si supera la tirada:</i> la mitad de da\u00f1o.</td></tr><tr><td>6</td><td>A\u00f1il. <i>Si falla la tirada:</i> el objetivo tendr\u00e1 el estado de apresado y har\u00e1 una tirada de salvaci\u00f3n de Constituci\u00f3n al final de cada uno de sus turnos. Si la supera tres veces, el estado terminar\u00e1. Si la falla tres veces, tendr\u00e1 el estado de petrificado hasta que lo libere un efecto como el del conjuro <i>restablecimiento mayor</i>. Los \u00e9xitos y los fallos no tienen por qu\u00e9 ser consecutivos: lleva la cuenta de ambos hasta que el objetivo tenga tres de un mismo tipo.</td></tr><tr><td>7</td><td>Violeta. <i>Si falla la tirada:</i> el objetivo tendr\u00e1 el estado de cegado y har\u00e1 una tirada de salvaci\u00f3n de Sabidur\u00eda al principio de su siguiente turno. Si la supera, el estado terminar\u00e1. Si la falla, el estado terminar\u00e1 y la criatura se teletransportar\u00e1 a otro plano de existencia (a elecci\u00f3n de tu DM).</td></tr><tr><td>8</td><td>Especial. Dos rayos alcanzan al objetivo. Tira dos veces y repite los resultados de 8.</td></tr></table>",
     "materiales": null
+  },
+  {
+    "nombre": "S\u00edmbolo",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado o se active",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Inscribes un glifo da\u00f1ino bien en una superficie (como un trozo de un suelo o una pared) o bien en un objeto que se pueda cerrar (como un libro o un cofre). Este puede abarcar una zona de hasta 3 m de di\u00e1metro. Si eliges un objeto, este debe permanecer en su sitio; si se mueve m\u00e1s de 3 m respecto al lugar donde lanzaste el conjuro, el glifo se romper\u00e1 y el conjuro terminar\u00e1 sin activarse.<br><br>El glifo es casi imperceptible y es necesario superar una prueba de Sabidur\u00eda (Percepci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros para detectarlo.<br><br>Cuando inscribas el glifo, decides qu\u00e9 condici\u00f3n lo activa y eliges qu\u00e9 efecto tiene el s\u00edmbolo: aturdimiento, discordia, dolor, muerte, miedo o sue\u00f1o (se explican a continuaci\u00f3n).<br><br><b>Establecer el activador.</b> Cuando lances el conjuro, decide qu\u00e9 activar\u00e1 el glifo. En el caso de los glifos inscritos en una superficie, las condiciones que suelen activarlos incluyen tocarlos o situarse sobre ellos, quitar otro objeto que los cubra o acercarse a cierta distancia de ellos. En el caso de los glifos inscritos en un objeto, suelen activarse al abrir el objeto o mirar el glifo.<br><br>Puedes especificar a\u00fan m\u00e1s la condici\u00f3n, de modo que solo las criaturas de ciertos tipos puedan activarlo (por ejemplo, que solo afecte a las aberraciones). Tambi\u00e9n puedes establecer excepciones sobre qu\u00e9 criaturas no activar\u00e1n el glifo; por ejemplo, las que pronuncien una contrase\u00f1a.<br><br>Una vez activado, el glifo brilla y llena una esfera de 18 m de radio con luz tenue durante 10 minutos, tras lo cual el conjuro termina. Todas las criaturas que haya en la esfera cuando el glifo se active ser\u00e1n objetivo de su efecto, al igual que una criatura que entre en ella por primera vez en un turno o termine su turno all\u00ed. Una criatura solo puede ser objetivo una vez por turno.<br><br><b>Aturdimiento.</b> Cada objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de aturdido durante 1 minuto.<br><br><b>Discordia.</b> Cada objetivo hace una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, el objetivo discutir\u00e1 verbalmente con otras criaturas durante 1 minuto. Durante este tiempo, no podr\u00e1 comunicarse de forma razonable y tendr\u00e1 desventaja en las tiradas de ataque y las pruebas de caracter\u00edstica.<br><br><b>Dolor.</b> Cada objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Constituci\u00f3n o tendr\u00e1 el estado de incapacitado durante 1 minuto.<br><br><b>Muerte.</b> Cada objetivo hace una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1 10d10 de da\u00f1o necr\u00f3tico si la falla o la mitad del da\u00f1o si la supera.<br><br><b>Sue\u00f1o.</b> Cada objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de inconsciente durante 10 minutos. Una criatura se despierta si recibe da\u00f1o o si alguien utiliza una acci\u00f3n para sacudirla.<br><br><b>Terror.</b> Cada objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de asustado durante 1 minuto. Mientras est\u00e9 asustado, el objetivo deber\u00e1 alejarse al menos 9 m del glifo en cada uno de sus turnos si puede.",
+    "materiales": "Diamante en polvo que valga al menos 1000 po y que se consume como parte del conjuro."
   }
 ]
