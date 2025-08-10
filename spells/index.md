@@ -361,3 +361,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Terremoto                               | 8         |
 | Terreno alucinatorio                    | 4         |
 | Terror                                  | 3         |
+| Terror abyecto                          | 9         |

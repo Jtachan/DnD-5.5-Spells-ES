@@ -318,5 +318,30 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura que no lleve m\u00e1s de 200 a\u00f1os muerta y que falleciera por cualquier motivo menos de vieja. La criatura revive con todos sus puntos de golpe.<br><br>Este conjuro cierra todas las heridas, neutraliza cualquier veneno, cura todas las enfermedades m\u00e1gicas y levanta las maldiciones que afectaran a la criatura cuando muri\u00f3. Tambi\u00e9n sustituye los \u00f3rganos y las extremidades que le falten o sufrieran da\u00f1os. Si la criatura era un muerto viviente, la resucitar\u00e1 con su forma normal.<br><br>El conjuro puede proporcionar un nuevo cuerpo si el original ya no existe, en cuyo caso debes pronunciar el nombre de la criatura. A continuaci\u00f3n, esta aparecer\u00e1 en un espacio sin ocupar que elijas a 3 m o menos de ti.",
     "materiales": "Diamantes que valgan al menos 25 000 po, que se consumen como parte del conjuro."
+  },
+  {
+    "nombre": "Terror abyecto",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Intentas crear horrores ilusorios en las mentes de otros. Todas las criaturas de tu elecci\u00f3n situadas en una esfera de 9 m de radio centrada en un punto dentro del alcance realizan una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la fallan, los objetivos sufrir\u00e1n 10d10 de da\u00f1o ps\u00edquico y tendr\u00e1n el estado de asustados hasta que el conjuro termine. Si la superan, solamente recibir\u00e1n la mitad de ese da\u00f1o.<br><br>Un objetivo asustado har\u00e1 una tirada de salvaci\u00f3n de Sabidur\u00eda al final de cada uno de sus turnos. Si la falla, sufrir\u00e1 5d10 de da\u00f1o ps\u00edquico. Si la supera, el conjuro terminar\u00e1 para ese objetivo.",
+    "materiales": null
   }
 ]
