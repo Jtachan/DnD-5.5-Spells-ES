@@ -683,5 +683,31 @@
     "requiere_ataque": true,
     "descripcion": "Un bast\u00f3n o un garrote que sostengas se ve impregnado del poder de la naturaleza. Hasta que termine el conjuro, puedes usar tu aptitud m\u00e1gica en lugar de tu Fuerza para las tiradas de ataque y de da\u00f1o de tus ataques cuerpo a cuerpo usando esa arma y el dado de da\u00f1o pasa a ser un d8. Si el ataque inflige da\u00f1o, puede ser de fuerza o del tipo de da\u00f1o normal del arma (a tu elecci\u00f3n).<br><br>El conjuro termina antes de tiempo si lo vuelves a lanzar o si sueltas el arma.<br><br><b><i>Mejora de truco.</i></b> El dado de da\u00f1o cambia cuando alcanzas los niveles 5 (d10), 11 (d12) y 17 (2d6).",
     "materiales": "Mu\u00e9rdago."
+  },
+  {
+    "nombre": "Ta\u00f1ido por los muertos",
+    "clases": [
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Se\u00f1alas a una criatura que puedas ver dentro del alcance y el sonido de una campana funesta suena a 3 m o menos del objetivo. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir\u00e1 1d8 de da\u00f1o necr\u00f3tico. Si el objetivo no tiene todos sus puntos de golpe, el da\u00f1o necr\u00f3tico aumenta a 1d12.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en un dado cuando alcanzas los niveles 5 (2d8 o 2d12), 11 (3d8 o 3d12) y 17 (4d8 o 4d12).",
+    "materiales": null
   }
 ]
