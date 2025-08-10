@@ -1216,5 +1216,28 @@
     "requiere_ataque": false,
     "descripcion": "Todas las criaturas situadas en un cono de 9 m deber\u00e1n superar una tirada de salvaci\u00f3n de Sabidur\u00eda o soltar\u00e1n cualquier cosa que tengan agarrada y tendr\u00e1n el estado de asustadas hasta que termine el conjuro.<br><br>Una criatura asustada realizar\u00e1 la acci\u00f3n de correr en todos sus turnos para alejarse de ti por la ruta m\u00e1s segura, a menos que no haya por d\u00f3nde huir. Si la criatura acaba su turno en un espacio desde el que no tenga l\u00ednea de visi\u00f3n directa de ti, har\u00e1 una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la supera, el conjuro terminar\u00e1 para ella.",
     "materiales": "Una pluma blanca."
+  },
+  {
+    "nombre": "Toque vamp\u00edrico",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "El toque de tu mano envuelta en sombras puede absorber la fuerza vital de otros para curar tus heridas. Haz un ataque de conjuro cuerpo a cuerpo contra una criatura dentro del alcance. Si acierta, el objetivo sufrir\u00e1 3d6 de da\u00f1o necr\u00f3tico y t\u00fa recuperar\u00e1s una cantidad de puntos de golpe igual a la mitad del da\u00f1o necr\u00f3tico infligido.<br><br>Hasta que el conjuro termine, podr\u00e1s realizar el ataque otra vez como acci\u00f3n de magia en cada uno de tus turnos y hacer objetivo a la misma criatura o a otra distinta.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+    "materiales": null
   }
 ]
