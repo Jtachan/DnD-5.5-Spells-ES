@@ -183,7 +183,7 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Al golpear al objetivo, sufre 1d6 de da\u00f1o de fuego adicional del ataque. Al principio de cada uno de sus turnos hasta que el conjuro termine, el objetivo sufrir\u00e1 1d6 de da\u00f1o de fuego y luego har\u00e1 una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, el conjuro seguir\u00e1 activo. Si la supera, el conjuro terminar\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Todo el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Al impactar contra el objetivo, este recibe 1d6 de da\u00f1o de fuego adicional del ataque. Al inicio de cada uno de sus turnos mientras el conjuro siga activo, el objetivo recibe 1d6 de da\u00f1o de fuego y luego debe realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Con una falla, el conjuro contin\u00faa; con una salvaci\u00f3n exitosa, el conjuro finaliza.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Todo el da\u00f1o se incrementa en 1d6 por cada nivel del espacio usado por encima de 1.\n",
     "materiales": null
   },
   {
