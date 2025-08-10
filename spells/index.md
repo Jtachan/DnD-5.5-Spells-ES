@@ -327,3 +327,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Restablecimiento menor               | 2         |
 | Resurrección                         | 7         |
 | Resurrección verdadera               | 9         |
+| Retirada expeditiva                  | 1         |

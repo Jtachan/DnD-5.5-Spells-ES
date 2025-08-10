@@ -1281,5 +1281,28 @@
     "requiere_ataque": false,
     "descripcion": "La criatura que te ha da\u00f1ado se ve rodeada moment\u00e1neamente por unas llamas verdes y har\u00e1 una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 2d10 de da\u00f1o de fuego si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Retirada expeditiva",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Realizas la acci\u00f3n de correr y, hasta que el conjuro termine, puedes volver a hacerla como acci\u00f3n adicional.",
+    "materiales": null
   }
 ]
