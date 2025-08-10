@@ -1412,5 +1412,29 @@
     "requiere_ataque": false,
     "descripcion": "Tocas una cuerda, lo que hace que uno de sus extremos flote hacia arriba hasta que la cuerda se ponga perpendicular al suelo o toque un techo. En el extremo superior de la cuerda se abre un portal invisible de 0,9 m por 1,5 m, el cual conduce a un espacio extradimensional que dura hasta que el conjuro termine. Este espacio puede alcanzarse trepando por la cuerda, que puede recogerse o soltarse desde el interior.<br><br>En el espacio caben hasta ocho criaturas Medianas o m\u00e1s peque\u00f1as. Los ataques, conjuros y otros efectos no pueden cruzar el espacio en ning\u00fan sentido, pero las criaturas que est\u00e1n dentro pueden ver a trav\u00e9s del portal. Todo lo que est\u00e9 dentro del espacio caer\u00e1 fuera cuando el conjuro termine.",
     "materiales": "Un trozo de cuerda."
+  },
+  {
+    "nombre": "Ver invisibilidad",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que termine el conjuro, ves a las criaturas y objetos que tengan el estado de invisibles como si fueran visibles y puedes ver en el Plano Et\u00e9reo. Las criaturas y objetos que haya en \u00e9l tendr\u00e1n un aspecto fantasmal.",
+    "materiales": "Una pizca de talco."
   }
 ]

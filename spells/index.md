@@ -377,3 +377,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Truco de la cuerda                      | 2         |
 | Tsunami                                 | 8         |
 | Urna mágica                             | 6         |
+| Ver invisibilidad                       | 2         |
