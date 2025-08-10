@@ -71,7 +71,7 @@
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Un arma no m\u00e1gica que toques se convierte en m\u00e1gica. Elige uno de los siguientes tipos de da\u00f1o: \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago o trueno. Mientras dure el conjuro, el arma tiene un bonificador de +1 a las tiradas de ataque y causa 1d4 de da\u00f1o adicional del tipo elegido cuando acierte.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Si usas un espacio de conjuro de nivel 5 o 6, el bonificador a las tiradas de ataque aumenta en +2 y el da\u00f1o adicional aumenta a 2d4. Si usas un espacio de nivel 7 o superior, el bonificador es +3 y el da\u00f1o adicional 3d4.",
+    "descripcion": "Un arma no m\u00e1gica que toques pasa a ser m\u00e1gica. Elige uno de los siguientes tipos de da\u00f1o: \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago o trueno. Mientras dure el conjuro, el arma obtiene un bonificador de +1 a las tiradas de ataque y provoca 1d4 de da\u00f1o adicional del tipo seleccionado cuando impacta.<br><br><b><i>Usando un espacio de conjuro de nivel superior.</i></b> Si empleas un espacio de nivel 5 o 6, el bonificador a las tiradas de ataque aumenta a +2 y el da\u00f1o adicional pasa a ser 2d4. Si utilizas un espacio de nivel 7 o m\u00e1s, el bonificador sube a +3 y el da\u00f1o adicional se incrementa a 3d4.\n",
     "materiales": null
   },
   {
