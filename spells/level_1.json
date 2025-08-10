@@ -1479,5 +1479,29 @@
     "requiere_ataque": false,
     "descripcion": "Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance oye una melod\u00eda discordante en su mente. El objetivo hace una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, recibir\u00e1 3d6 de da\u00f1o ps\u00edquico y deber\u00e1 utilizar su reacci\u00f3n inmediatamente, si es posible, para alejarse de ti tanto como pueda por la ruta m\u00e1s segura. Si supera la tirada, solo sufrir\u00e1 la mitad de ese da\u00f1o.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Texto ilusorio",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "10 d\u00edas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Escribes en pergamino, papel u otro material adecuado y lo impregnas con una ilusi\u00f3n hasta que termine el conjuro. Para ti y las dem\u00e1s criaturas que designes cuando lanzas el conjuro, el texto parece normal, escrito con tu letra, y transmite el significado que pretender\u00edas al escribirlo. Para los dem\u00e1s, el texto parece escrito en letra m\u00e1gica desconocida y es ininteligible. Como alternativa, la ilusi\u00f3n puede modificar el significado, la caligraf\u00eda y el idioma de un texto, aunque el idioma debe ser uno que conozcas.<br><br>Si el conjuro se disipa, desaparecer\u00e1n tanto el escrito original como la ilusi\u00f3n.<br><br>Una criatura con visi\u00f3n verdadera puede leer el mensaje oculto.",
+    "materiales": "Tinta que valga al menos 10 po, que se consume como parte del conjuro."
   }
 ]

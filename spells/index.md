@@ -362,3 +362,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Terreno alucinatorio                    | 4         |
 | Terror                                  | 3         |
 | Terror abyecto                          | 9         |
+| Texto ilusorio                          | 1         |
