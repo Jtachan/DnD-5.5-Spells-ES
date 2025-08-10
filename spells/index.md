@@ -355,3 +355,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Taumaturgia                             | 0 (Truco) |
 | Telaraña                                | 2         |
 | Telepatía                               | 8         |
+| Telequinesis                            | 5         |

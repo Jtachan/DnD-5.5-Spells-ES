@@ -1100,5 +1100,30 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura y eliminas m\u00e1gicamente uno de los siguientes efectos de ella:<ul><li>1 nivel de cansancio.</li><li>Los estados de hechizado o petrificado.</li><li>Una maldici\u00f3n, incluida la sintonizaci\u00f3n del objetivo con un objeto m\u00e1gico maldito.</li><li>Cualquier reducci\u00f3n de una de las puntuaciones de caracter\u00edstica del objetivo.</li><li>Cualquier reducci\u00f3n de los puntos de golpe m\u00e1ximos del objetivo.</li></ul>",
     "materiales": "Polvo de diamante que valga al menos 100 po y que se consume como parte del conjuro."
+  },
+  {
+    "nombre": "Telequinesis",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "Obtienes la capacidad de mover o manipular criaturas u objetos con la mente. Cuando lanzas este conjuro y como acci\u00f3n de magia en tus siguientes turnos hasta que termine el conjuro, puedes imponer tu voluntad sobre una criatura o un objeto que puedas ver dentro del alcance y provocar el efecto correspondiente de los indicados debajo. Puedes afectar al mismo objetivo cada asalto o elegir uno nuevo cada vez. Si cambias de objetivo, el anterior dejar\u00e1 de estar afectado por el conjuro.<br><br><b>Criatura.</b> Puedes intentar mover a una criatura Enorme o m\u00e1s peque\u00f1a. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o lo mover\u00e1s hasta 9 m en cualquier direcci\u00f3n dentro del alcance del conjuro. Hasta el final de tu siguiente turno, la criatura tendr\u00e1 el estado de apresada y, si la elevas en el aire, quedar\u00e1 suspendida. Caer\u00e1 al final de tu siguiente turno a menos que vuelvas a usar esta opci\u00f3n y falle la tirada de salvaci\u00f3n.<br><br><b>Objeto.</b> Puedes intentar mover un objeto Enorme o m\u00e1s peque\u00f1o. Si el objeto no lo lleva ni viste nadie, lo mueves autom\u00e1ticamente hasta 9 m en cualquier direcci\u00f3n dentro del alcance del conjuro.<br><br>Si una criatura lleva o viste el objeto, deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o tirar\u00e1s del objeto y lo mover\u00e1s hasta 9 m en cualquier direcci\u00f3n dentro del alcance del conjuro.<br><br>Puedes ejercer un control m\u00e1s preciso de los objetos con tu agarre telequin\u00e9tico, como, por ejemplo, manipular una herramienta sencilla o abrir una puerta o un contenedor, guardar o sacar un objeto de un contenedor abierto o verter el contenido de un vial.",
+    "materiales": null
   }
 ]
