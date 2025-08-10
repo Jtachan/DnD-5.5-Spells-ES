@@ -1287,5 +1287,31 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que termine el conjuro, creas una esfera de 6 m de radio centrada en un punto de tu elecci\u00f3n dentro del alcance. Ning\u00fan sonido podr\u00e1 atravesarla ni originarse en su interior. Toda criatura u objeto tiene inmunidad al da\u00f1o de trueno si se halla completamente dentro de la esfera, y las criaturas tienen el estado de ensordecidas en su interior. Dentro de ella es imposible lanzar conjuros que tengan un componente verbal.",
     "materiales": null
+  },
+  {
+    "nombre": "Sordera/Ceguera",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una criatura que puedas ver dentro del alcance deber\u00e1 superar una tirada de salvaci\u00f3n de Constituci\u00f3n o tendr\u00e1 el estado de cegada o ensordecida (a tu elecci\u00f3n) hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": null
   }
 ]
