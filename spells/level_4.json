@@ -962,5 +962,32 @@
     "requiere_ataque": false,
     "descripcion": "Haces que un terreno natural en un cubo de 45 m de lado dentro del alcance tenga el aspecto, los sonidos y los olores de otro tipo de terreno natural. Por ejemplo, puedes hacer que un campo abierto o una carretera se parezcan a un pantano, una colina, una grieta u otro tipo de terreno dif\u00edcil o infranqueable. Se puede hacer que un estanque parezca una pradera cubierta de hierba, que un precipicio se aparezca como una suave cuesta o que un barranco pedregoso y estrecho se presente como una carretera amplia y lisa. Las estructuras fabricadas, el equipo y las criaturas en la zona no cambian.<br><br>Las caracter\u00edsticas t\u00e1ctiles del terreno no cambian, por lo que es probable que las criaturas que entren en la zona descubran que es una ilusi\u00f3n. Si la diferencia no es obvia al tacto, cualquier criatura que examine la ilusi\u00f3n puede usar una acci\u00f3n de estudiar y hacer una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros para distinguirla. Si criatura percibe que es una ilusi\u00f3n, la ver\u00e1 como una imagen difusa y superpuesta al terreno de verdad.",
     "materiales": "Una seta."
+  },
+  {
+    "nombre": "Tormenta de hielo",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "300 pies",
+      "90 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Una granizada cae en un cilindro de 6 m de radio y 12 m de altura centrado en un punto dentro del alcance. Todas las criaturas situadas en el cilindro hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 2d10 de da\u00f1o contundente y 4d6 de da\u00f1o de fr\u00edo si la fallan o la mitad del da\u00f1o si la superan.<br><br>Las bolas de granizo convierten el suelo del cilindro en terreno dif\u00edcil hasta el final de tu siguiente turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o contundente aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": "Una manopla."
   }
 ]
