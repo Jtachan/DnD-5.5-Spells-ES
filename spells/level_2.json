@@ -1436,5 +1436,27 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que termine el conjuro, ves a las criaturas y objetos que tengan el estado de invisibles como si fueran visibles y puedes ver en el Plano Et\u00e9reo. Las criaturas y objetos que haya en \u00e9l tendr\u00e1n un aspecto fantasmal.",
     "materiales": "Una pizca de talco."
+  },
+  {
+    "nombre": "Vigor arcano",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Recurrres a tu fuerza vital para curarte. Tira uno o dos de tus dados de puntos de golpe no gastados para recuperar una cantidad de puntos de golpe igual al resultado total de la tirada m\u00e1s tu modificador por aptitud m\u00e1gica. Despu\u00e9s, los dados se consideran gastados.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La cantidad de dados de golpe no gastados que puedes tirar aumenta en uno por cada nivel por encima de 2 que tenga el espacio.",
+    "materiales": null
   }
 ]
