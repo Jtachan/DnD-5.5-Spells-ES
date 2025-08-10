@@ -884,5 +884,30 @@
     "requiere_ataque": false,
     "descripcion": "Te teletransportas a una ubicaci\u00f3n dentro del alcance y llegas exactamente al sitio deseado. Puede ser un lugar que tengas a la vista, uno que logres visualizar o uno que puedas describir indicando la distancia y la direcci\u00f3n, como \u201c60 m en l\u00ednea recta hacia abajo\u201d o \u201c90 m hacia arriba y hacia el noroeste en un \u00e1ngulo de 45 grados\u201d.<br><br>Tambi\u00e9n puedes teletransportar contigo a una criatura voluntaria. La criatura deber\u00e1 estar a 1,5 m o menos de ti cuando te teletransportes y aparecer\u00e1 en un espacio a 1,5 m o menos de tu espacio de destino.<br><br>Si la otra criatura, t\u00fa o los dos fuerais a llegar a un espacio ya ocupado por una criatura o totalmente ocupado por uno o m\u00e1s objetos, la criatura que viaje contigo y t\u00fa sufrir\u00e9is 4d6 de da\u00f1o de fuerza y la teletransportaci\u00f3n fallar\u00e1.",
     "materiales": null
+  },
+  {
+    "nombre": "Sanctasanct\u00f3rum privado de Mordenkainen",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Haces que una zona dentro del alcance sea m\u00e1gicamente segura. Esta zona es un cubo que puede tener un tama\u00f1o desde tan solo 1,5 m de lado a hasta 30 m y permanecer\u00e1 hasta que el conjuro termine.<br><br>Cuando lanzas el conjuro, decides el tipo de seguridad que proporciona eligiendo cualesquiera de las siguientes propiedades:<ul><li>El sonido no puede atravesar la barrera del per\u00edmetro de la zona protegida.</li><li>La barrera de la zona protegida parece oscura y con niebla, impidiendo ver a trav\u00e9s de ella (incluso a la visi\u00f3n en la oscuridad).</li><li>Dentro de la zona protegida no pueden aparecer sensores creados mediante conjuros de adivinaci\u00f3n, ni estos pueden atravesar la barrera del per\u00edmetro.</li><li>Las criaturas en la zona no pueden ser el objetivo de conjuros de adivinaci\u00f3n.</li><li>Nada puede teletransportarse ni al interior ni al exterior del \u00e1rea protegida.</li><li>El viaje interplanar est\u00e1 bloqueado dentro de la zona.</li></ul>Si este conjuro se lanza a diario en el mismo lugar durante 365 d\u00edas, durar\u00e1 hasta que sea disipado.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes aumentar el tama\u00f1o del cubo en 30 m por cada nivel por encima de 4 que tenga el espacio.",
+    "materiales": "Una l\u00e1mina fina de plomo."
   }
 ]
