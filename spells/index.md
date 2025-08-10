@@ -328,3 +328,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Resurrección                         | 7         |
 | Resurrección verdadera               | 9         |
 | Retirada expeditiva                  | 1         |
+| Revivir                              | 3         |
