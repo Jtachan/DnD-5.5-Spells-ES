@@ -107,7 +107,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "El objetivo recibir\u00e1 4d6 de da\u00f1o ps\u00edquico adicional del ataque y deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de aturdido hasta el final de tu siguiente turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o adicional aumenta en 1d6 por cada nivel por encima de 4 que tenga el espacio.",
+    "descripcion": "El objetivo recibe 4d6 de da\u00f1o ps\u00edquico adicional del ataque y debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, queda aturdido hasta el final de tu pr\u00f3ximo turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o adicional se incrementa en 1d6 por cada nivel del espacio empleado por encima de 4.\n",
     "materiales": null
   },
   {
