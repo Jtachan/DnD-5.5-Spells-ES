@@ -1313,5 +1313,32 @@
     "requiere_ataque": false,
     "descripcion": "Una criatura que puedas ver dentro del alcance deber\u00e1 superar una tirada de salvaci\u00f3n de Constituci\u00f3n o tendr\u00e1 el estado de cegada o ensordecida (a tu elecci\u00f3n) hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Sugesti\u00f3n",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 8 horas",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Sugieres un curso de acci\u00f3n (de no m\u00e1s de 25 palabras) a una criatura que puedas ver dentro del alcance y que te pueda o\u00edr y entender. La sugerencia tiene que parecer factible y no ser claramente da\u00f1ina para el objetivo o sus aliados. Por ejemplo, podr\u00edas decir: \u201cVe a por la llave de la c\u00e1mara del tesoro de la secta y tr\u00e1emela\u201d, o quiz\u00e1 \u201cdeja de luchar, vete pac\u00edficamente de la biblioteca y no vuelvas\u201d.<br><br>El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de hechizado hasta que termine el conjuro o hasta que tus aliados o t\u00fa le hag\u00e1is da\u00f1o. El objetivo hechizado llevar\u00e1 a cabo la sugerencia lo mejor que pueda. La actividad sugerida puede seguir hasta que termine el conjuro, pero si se puede completar en menos tiempo, el conjuro terminar\u00e1 sobre el objetivo cuando la complete.",
+    "materiales": "Una gota de miel."
   }
 ]

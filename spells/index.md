@@ -348,3 +348,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Simulacro                               | 7         |
 | Sirviente invisible                     | 1         |
 | Sordera/Ceguera                         | 2         |
+| Sugestión                               | 2         |
