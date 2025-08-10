@@ -389,5 +389,32 @@
     "requiere_ataque": false,
     "descripcion": "Creas un enlace telep\u00e1tico entre t\u00fa y una criatura voluntaria que conozcas. El objetivo puede estar en cualquier lugar del mismo plano de existencia que t\u00fa, pero el conjuro terminar\u00e1 si dej\u00e1is de estar en el mismo plano.<br><br>Hasta que el conjuro termine, el objetivo y t\u00fa pod\u00e9is compartir de forma instant\u00e1nea palabras, im\u00e1genes, sonidos y otros mensajes sensoriales mediante el enlace, y el objetivo te reconoce como la criatura con la que se est\u00e1 comunicando. El conjuro permite que una criatura comprenda el significado de tus palabras y cualquier mensaje sensorial que le env\u00edes.",
     "materiales": "Un par de anillos de plata enlazados."
+  },
+  {
+    "nombre": "Terremoto",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "500 pies",
+      "150 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Elige un punto del suelo que puedas ver dentro del alcance. Hasta que el conjuro termine, una intensa sacudida afecta al suelo en un c\u00edrculo de 30 m de radio centrado en ese punto. El suelo de la zona se considera terreno dif\u00edcil.<br><br>Cuando lances este conjuro y al final de cada uno de tus turnos hasta que termine, todas las criaturas que haya en el suelo en la zona deber\u00e1n hacer una tirada de salvaci\u00f3n de Destreza. Si la fallan, tendr\u00e1n el estado de derribadas y perder\u00e1n la concentraci\u00f3n.<br><br>Adem\u00e1s, podr\u00e1s provocar los siguientes efectos.<br><br><i>Grietas.</i> Se abren un total de 1d6 fisuras en la zona de alcance al final del turno en que lo lances. T\u00fa eliges la ubicaci\u00f3n de las grietas, que pueden estar debajo de estructuras. Cada una tiene una profundidad de 1d10 \u00d7 3 m y una anchura de 3 m y se extiende desde un borde del \u00e1rea del conjuro hasta otro borde. Una criatura que est\u00e9 en el mismo espacio que una grieta deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o caer\u00e1 en ella. Si la supera, la criatura se mover\u00e1 a la vez que se abre el borde de la grieta y se mantendr\u00e1 all\u00ed.<br><br><i>Estructuras.</i> El temblor causa 50 de da\u00f1o contundente a cualquier estructura que est\u00e9 en contacto con el suelo de la zona cuando lances el conjuro y al final de cada uno de tus turnos hasta que el conjuro termine. Si los puntos de golpe de una estructura se reducen a 0, se derrumbar\u00e1.<br><br>Una criatura que se encuentre a una distancia de una estructura que se derrumba igual a la mitad de su altura hace una tirada de salvaci\u00f3n de Destreza. Si la falla, sufrir\u00e1 12d6 de da\u00f1o contundente, tendr\u00e1 el estado de derribada y quedar\u00e1 enterrada entre los escombros. Para escapar, como acci\u00f3n tendr\u00e1 que superar una prueba de Fuerza (Atletismo) con CD 20. Si la supera, solo sufrir\u00e1 la mitad de ese da\u00f1o.",
+    "materiales": "Una piedra fracturada."
   }
 ]

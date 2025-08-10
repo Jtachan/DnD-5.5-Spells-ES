@@ -358,3 +358,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Telequinesis                            | 5         |
 | Teletransporte                          | 7         |
 | Tentáculos negros de Evard              | 4         |
+| Terremoto                               | 8         |
