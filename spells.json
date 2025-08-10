@@ -305,7 +305,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Emanas m\u00e1gicamente un sentimiento de amistad hacia una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de hechizado hasta que termine el conjuro. El objetivo la superar\u00e1 autom\u00e1ticamente si no es un humanoide, si est\u00e1s luchando contra \u00e9l o si le has lanzado este conjuro en las \u00faltimas 24 horas.<br><br>El conjuro termina antes de tiempo si el objetivo recibe da\u00f1o o si haces una tirada de ataque, causas da\u00f1o u obligas a cualquier criatura a hacer una tirada de salvaci\u00f3n. Cuando el conjuro termine, el objetivo sabr\u00e1 que lo hechizaste.",
+    "descripcion": "Emanas de forma m\u00e1gica una sensaci\u00f3n amistosa hacia una criatura que puedas ver dentro del alcance. Esta criatura debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 bajo el efecto de estar hechizada hasta que finalice la duraci\u00f3n del conjuro. Superar\u00e1 autom\u00e1ticamente esta tirada si no es un humanoide, si est\u00e1 en combate contigo o si le lanzaste este mismo conjuro en las \u00faltimas 24 horas.<br><br>El efecto termina antes de lo previsto si el objetivo recibe da\u00f1o, si realizas una tirada de ataque, infliges da\u00f1o o fuerzas a cualquier criatura a hacer una tirada de salvaci\u00f3n. Una vez finalizado el conjuro, la criatura sabr\u00e1 que fue objeto de tu magia.\n",
     "materiales": "Un poco de maquillaje.",
     "nivel": 0
   },
@@ -438,7 +438,7 @@
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Un arma no m\u00e1gica que toques se convierte en m\u00e1gica. Elige uno de los siguientes tipos de da\u00f1o: \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago o trueno. Mientras dure el conjuro, el arma tiene un bonificador de +1 a las tiradas de ataque y causa 1d4 de da\u00f1o adicional del tipo elegido cuando acierte.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Si usas un espacio de conjuro de nivel 5 o 6, el bonificador a las tiradas de ataque aumenta en +2 y el da\u00f1o adicional aumenta a 2d4. Si usas un espacio de nivel 7 o superior, el bonificador es +3 y el da\u00f1o adicional 3d4.",
+    "descripcion": "Un arma no m\u00e1gica que toques pasa a ser m\u00e1gica. Elige uno de los siguientes tipos de da\u00f1o: \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago o trueno. Mientras dure el conjuro, el arma obtiene un bonificador de +1 a las tiradas de ataque y provoca 1d4 de da\u00f1o adicional del tipo seleccionado cuando impacta.<br><br><b><i>Usando un espacio de conjuro de nivel superior.</i></b> Si empleas un espacio de nivel 5 o 6, el bonificador a las tiradas de ataque aumenta a +2 y el da\u00f1o adicional pasa a ser 2d4. Si utilizas un espacio de nivel 7 o m\u00e1s, el bonificador sube a +3 y el da\u00f1o adicional se incrementa a 3d4.\n",
     "materiales": null,
     "nivel": 3
   },
@@ -511,7 +511,7 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una escarcha m\u00e1gica protectora te rodea y ganas 5 puntos de golpe temporales. Si una criatura te acierta con una tirada de ataque cuerpo a cuerpo antes de que el conjuro termine, dicha criatura sufre 5 de da\u00f1o de fr\u00edo. El conjuro termina antes de tiempo si no tienes puntos de golpe temporales.<br><br><i><b>Con un espacio de conjuro de nivel superior.</b></i> Los puntos de golpe temporales y el da\u00f1o de fr\u00edo aumentan en 5 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Una capa m\u00e1gica de escarcha te envuelve, otorg\u00e1ndote 5 puntos de golpe temporales. Si una criatura te alcanza con un ataque cuerpo a cuerpo antes de que finalice el conjuro, esta recibe 5 puntos de da\u00f1o por fr\u00edo. El efecto termina antes de tiempo si pierdes todos los puntos de golpe temporales.<br><br><i><b>Usando un espacio de conjuro de nivel superior.</b></i> Tanto los puntos de golpe temporales como el da\u00f1o por fr\u00edo aumentan en 5 por cada nivel del espacio utilizado por encima de 1.\n",
     "materiales": "Un trozo de vidrio azul.",
     "nivel": 1
   },
@@ -663,7 +663,7 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Un aura surge de ti en una emanaci\u00f3n de 9 m hasta que el conjuro termine. Mientras permanezc\u00e1is dentro, tus aliados y t\u00fa ten\u00e9is resistencia al da\u00f1o de veneno y ventaja en las tiradas de salvaci\u00f3n para evitar o poner fin a efectos que provoquen los estados de asustado, aturdido, cegado, ensordecido, envenenado, hechizado o paralizado.",
+    "descripcion": "Un aura se expande desde ti en un radio de 9 m, permaneciendo activa hasta que el conjuro finalice. Mientras est\u00e9is dentro de su alcance, tanto t\u00fa como tus aliados obten\u00e9is resistencia al da\u00f1o por veneno y ventaja en las tiradas de salvaci\u00f3n destinadas a evitar o poner fin a los efectos que causen los estados de asustado, aturdido, cegado, ensordecido, envenenado, hechizado o paralizado.",
     "materiales": null,
     "nivel": 4
   },
@@ -685,7 +685,7 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Un aura surge de ti en una emanaci\u00f3n de 9 m hasta que el conjuro termine. Mientras permanezc\u00e1is dentro, tus aliados y t\u00fa ten\u00e9is resistencia al da\u00f1o necr\u00f3tico y no se podr\u00e1n reducir vuestros puntos de golpe m\u00e1ximos. Si un aliado con 0 puntos de golpe comienza su turno en el aura, recupera 1 punto de golpe.",
+    "descripcion": "Un aura se proyecta desde ti con un radio de 9 m y permanece activa hasta que el conjuro finaliza. Mientras permanezc\u00e1is en su interior, t\u00fa y tus aliados goz\u00e1is de resistencia al da\u00f1o necr\u00f3tico y vuestros puntos de golpe m\u00e1ximos no pueden disminuir. Si un aliado con 0 puntos de golpe comienza su turno dentro del aura, recupera 1 punto de golpe.",
     "materiales": null,
     "nivel": 4
   },
@@ -708,7 +708,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Un aura surge de ti en una emanaci\u00f3n de 9 m hasta que el conjuro termine. Cuando creas el aura y al principio de cada uno de tus turnos mientras dure, puedes restaurar 2d6 puntos de golpe a una criatura en su interior.",
+    "descripcion": "Un aura emana de ti en un radio de 9 m y permanece activa hasta que el conjuro finaliza. Al generarse el aura y al inicio de cada uno de tus turnos mientras est\u00e9 activa, puedes restaurar 2d6 puntos de golpe a una criatura que se encuentre dentro de ella.\n",
     "materiales": null,
     "nivel": 3
   },
@@ -964,7 +964,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "Hadar extiende brazos tenebrosos desde ti. Todas las criaturas en un radio de 3 m (10 pies) deben hacer una tirada de salvaci\u00f3n de Fuerza. Si fallan, sufren 2d6 de da\u00f1o necr\u00f3tico y no podr\u00e1n realizar reacciones hasta el siguiente turno. Si la superan, reciben la mitad de da\u00f1o.<br><br><i><b>Con un espacio de conjuro de nivel superior.</b></i> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1.",
+    "descripcion": "Hadar proyecta brazos sombr\u00edos desde tu posici\u00f3n. Todas las criaturas en un radio de 3 m deben efectuar una tirada de salvaci\u00f3n de Fuerza. Con una falla, reciben 2d6 de da\u00f1o necr\u00f3tico y no pueden realizar reacciones hasta el inicio de tu pr\u00f3ximo turno. Con una salvaci\u00f3n exitosa, reciben la mitad del da\u00f1o.<br><br><i><b>Con un espacio de conjuro de nivel superior.</b></i> El da\u00f1o se incrementa en 1d6 por cada nivel de conjuro usado por encima de 1.\n",
     "materiales": null,
     "nivel": 1
   },
@@ -1214,7 +1214,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Cuando lances el conjuro y como acci\u00f3n adicional hasta que termine, puedes realizar dos ataques con un arma que use flechas o virotes, como un arco largo o una ballesta ligera. El conjuro crea m\u00e1gicamente la munici\u00f3n necesaria para cada ataque. Cada flecha o virote que cree el conjuro inflige da\u00f1o como si fuera munici\u00f3n no m\u00e1gica de su tipo y se desintegra inmediatamente despu\u00e9s de acertar o fallar.",
+    "descripcion": "Al lanzar el conjuro y como acci\u00f3n adicional mientras permanezca activo, puedes efectuar dos ataques con un arma que utilice flechas o virotes, como un arco largo o una ballesta ligera. El conjuro genera de forma m\u00e1gica la munici\u00f3n necesaria para cada disparo. Cada flecha o virote creado inflige da\u00f1o como si fuera munici\u00f3n no m\u00e1gica de su tipo y se desintegra inmediatamente tras impactar o fallar.",
     "materiales": "Una aljaba que valga al menos 1 po.",
     "nivel": 5
   },
@@ -1235,7 +1235,7 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "El conjuro se realiza de inmediato tras acertar al objetivo con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>Al golpear al objetivo, sufre 1d6 de da\u00f1o de fuego adicional del ataque. Al principio de cada uno de sus turnos hasta que el conjuro termine, el objetivo sufrir\u00e1 1d6 de da\u00f1o de fuego y luego har\u00e1 una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, el conjuro seguir\u00e1 activo. Si la supera, el conjuro terminar\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Todo el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "El conjuro se realiza de inmediato tras acertar al objetivo con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>Al impactar contra el objetivo, este recibe 1d6 de da\u00f1o de fuego adicional del ataque. Al inicio de cada uno de sus turnos mientras el conjuro siga activo, el objetivo recibe 1d6 de da\u00f1o de fuego y luego debe realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Con una falla, el conjuro contin\u00faa; con una salvaci\u00f3n exitosa, el conjuro finaliza.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Todo el da\u00f1o se incrementa en 1d6 por cada nivel del espacio usado por encima de 1.\n",
     "materiales": null,
     "nivel": 1
   },
@@ -1256,7 +1256,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>El objetivo recibir\u00e1 4d6 de da\u00f1o ps\u00edquico adicional del ataque y deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de aturdido hasta el final de tu siguiente turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o adicional aumenta en 1d6 por cada nivel por encima de 4 que tenga el espacio.",
+    "descripcion": "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>El objetivo recibe 4d6 de da\u00f1o ps\u00edquico adicional del ataque y debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, queda aturdido hasta el final de tu pr\u00f3ximo turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o adicional se incrementa en 1d6 por cada nivel del espacio empleado por encima de 4.\n",
     "materiales": null,
     "nivel": 4
   },
@@ -1277,7 +1277,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "El conjuro se realiza de inmediato tras acertar al objetivo con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>Tu golpe resuena con un trueno audible a 90 m (300 pies) de ti y el objetivo sufre 2d6 de da\u00f1o de trueno adicional del ataque. Adem\u00e1s, si el objetivo es una criatura, deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o la empujar\u00e1s 3 m (10 pies) respecto a ti y tendr\u00e1 el estado de derribada.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "El conjuro se realiza de inmediato tras acertar al objetivo con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>Tu golpe emite un estruendo audible a 90 m de distancia y el objetivo recibe 2d6 de da\u00f1o de trueno adicional del ataque. Adem\u00e1s, si el objetivo es una criatura, debe superar una tirada de salvaci\u00f3n de Fuerza o ser\u00e1 empujado 3 m lejos de ti y quedar\u00e1 derribado.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o se incrementa en 1d6 por cada nivel del espacio usado por encima de 1.",
     "materiales": null,
     "nivel": 1
   },
@@ -1319,7 +1319,7 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>El objetivo del golpe sufrir\u00e1 3d8 de da\u00f1o radiante adicional del ataque y tendr\u00e1 el estado de cegado hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo cegado har\u00e1 una tirada de salvaci\u00f3n de Constituci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o adicional aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
+    "descripcion": "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>El objetivo impactado recibe 3d8 de da\u00f1o radiante adicional del ataque y queda cegado mientras el conjuro siga activo. Al final de cada uno de sus turnos, la criatura afectada realiza una tirada de salvaci\u00f3n de Constituci\u00f3n y, con una superaci\u00f3n, se libera del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o adicional se incrementa en 1d8 por cada nivel del espacio usado por encima de 3.",
     "materiales": null,
     "nivel": 3
   },
@@ -1340,7 +1340,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "CAR",
     "requiere_ataque": false,
-    "descripcion": "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>El objetivo de la tirada de ataque recibe 5d10 de da\u00f1o de fuerza adicional del ataque. Si el ataque reduce los puntos de golpe del objetivo a 50 o menos, deber\u00e1 superar una tirada de salvaci\u00f3n de Carisma o se teletransportar\u00e1 a un semiplano inofensivo hasta que termine el conjuro. Mientras permanezca all\u00ed, tendr\u00e1 el estado de incapacitado. Cuando el conjuro termine, el objetivo reaparecer\u00e1 en el espacio que abandon\u00f3 o en el espacio sin ocupar m\u00e1s cercano si dicho espacio est\u00e1 ocupado.",
+    "descripcion": "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>El objetivo alcanzado por la tirada de ataque recibe 5d10 de da\u00f1o de fuerza adicional del ataque. Si este reduce sus puntos de golpe a 50 o menos, debe realizar una tirada de salvaci\u00f3n de Carisma; con una falla, es teletransportado a un semiplano seguro hasta que el conjuro finalice. Mientras permanezca all\u00ed, se encuentra incapacitado. Al terminar el conjuro, el objetivo reaparece en el espacio que ocupaba originalmente o, si este est\u00e1 ocupado, en el espacio libre m\u00e1s cercano.",
     "materiales": null,
     "nivel": 5
   },
