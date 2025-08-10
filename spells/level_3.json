@@ -167,7 +167,7 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "El objetivo del golpe sufrir\u00e1 3d8 de da\u00f1o radiante adicional del ataque y tendr\u00e1 el estado de cegado hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo cegado har\u00e1 una tirada de salvaci\u00f3n de Constituci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o adicional aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
+    "descripcion": "El objetivo impactado recibe 3d8 de da\u00f1o radiante adicional del ataque y queda cegado mientras el conjuro siga activo. Al final de cada uno de sus turnos, la criatura afectada realiza una tirada de salvaci\u00f3n de Constituci\u00f3n y, con una superaci\u00f3n, se libera del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o adicional se incrementa en 1d8 por cada nivel del espacio usado por encima de 3.",
     "materiales": null
   },
   {
