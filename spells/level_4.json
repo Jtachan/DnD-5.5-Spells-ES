@@ -87,7 +87,7 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Un aura surge de ti en una emanaci\u00f3n de 9 m hasta que el conjuro termine. Mientras permanezc\u00e1is dentro, tus aliados y t\u00fa ten\u00e9is resistencia al da\u00f1o necr\u00f3tico y no se podr\u00e1n reducir vuestros puntos de golpe m\u00e1ximos. Si un aliado con 0 puntos de golpe comienza su turno en el aura, recupera 1 punto de golpe.",
+    "descripcion": "Un aura se extiende desde ti en un radio de 9 m y permanece activa hasta que el conjuro concluya. Mientras est\u00e9is dentro de ella, tanto t\u00fa como tus aliados obten\u00e9is resistencia al da\u00f1o necr\u00f3tico y vuestros puntos de golpe m\u00e1ximos no pueden verse reducidos. Si un aliado que tenga 0 puntos de golpe inicia su turno dentro del aura, recupera 1 punto de golpe.",
     "materiales": null
   },
   {
