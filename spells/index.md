@@ -363,3 +363,4 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Terror                                  | 3         |
 | Terror abyecto                          | 9         |
 | Texto ilusorio                          | 1         |
+| Toque helado                            | 0 (Truco) |
