@@ -176,7 +176,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Geas                                    | 5         | ✅            |
 | Glifo Custodio                          | 3         | ✅            |
 | Globo de Invulnerabilidad               | 6         | ✅            |
-| Golpe Apresador                         | 1         | ✅            |
+| Golpe apresador                         | 1         | ❌            |
 | Golpe de Viento Acerado                 | 5         | ✅            |
 | Golpe Flamígero                         | 5         | ✅            |
 | Grasa                                   | 1         | ✅            |
@@ -301,14 +301,14 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Proyección astral                       | 9         | ✅            |
 | Proyectar imagen                        | 7         | ✅            |
 | Proyectil mágico                        | 1         | ✅            |
-| Puerta arcana                           | 6         | ✅            |
+| Puerta arcana                           | 6         | ❌            |
 | Puerta dimensional                      | 4         | ✅            |
 | Purificar comida y bebida               | 1         | ✅            |
 | Ráfaga de viento                        | 2         | ✅            |
 | Ralentizar                              | 3         | ✅            |
 | Rayo abrasador                          | 2         | ✅            |
 | Rayo de escarcha                        | 0 (Truco) | ✅            |
-| Rayo de hechicería                      | 1         | ✅            |
+| Rayo de hechicería                      | 1         | ❌            |
 | Rayo de luna                            | 2         | ✅            |
 | Rayo debilitador                        | 2         | ✅            |
 | Rayo nauseabundo                        | 1         | ❌            |

@@ -662,7 +662,7 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas portales de teletransporte enlazados. Elige dos espacios Grandes sin ocupar en el suelo que puedas ver, uno dentro del alcance y el otro a 3 m o menos de ti. Un portal circular se abre en cada uno de dichos espacios y permanece hasta que el conjuro termine.<br><br>Los portales son anillos bidimensionales, brillantes y cubiertos de una niebla que tapa la vista, y levitan a pocos cent\u00edmetros del suelo, perpendiculares a \u00e9l.<br><br>Cada portal solo se abre por un lado (t\u00fa decides cu\u00e1l). Todo lo que entre por el lado abierto de un portal sale por el lado abierto del otro como si estuvieran adyacentes entre s\u00ed. Como acci\u00f3n adicional, puedes cambiar la orientaci\u00f3n de los lados abiertos.",
+    "descripcion": "Creas dos portales de teletransporte conectados entre sí. Elige dos espacios Grandes sin ocupar sobre el suelo que puedas ver: uno dentro del alcance y otro a 3 m o menos de ti. En cada espacio aparece un portal circular que permanece hasta que el conjuro finalice.<br><br>Los portales son anillos bidimensionales y luminosos, cubiertos por una neblina que bloquea la visión, y flotan a pocos centímetros del suelo, colocados de forma perpendicular a él.<br><br>Cada portal tiene un único lado activo (lo decides al crearlos). Cualquier cosa que entre por el lado activo de uno sale por el lado activo del otro, como si ambos estuvieran contiguos. Como acción adicional, puedes cambiar la orientación de los lados activos.",
     "materiales": null
   },
   {

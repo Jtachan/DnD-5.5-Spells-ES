@@ -715,7 +715,7 @@
     "materiales": null
   },
   {
-    "nombre": "Golpe Apresador",
+    "nombre": "Golpe apresador",
     "clases": [
       "Explorador"
     ],
@@ -731,7 +731,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "Al acertar al objetivo, unas enredaderas aparecer\u00e1n sobre \u00e9l y deber\u00e1 hacer una tirada de salvaci\u00f3n de Fuerza. Las criaturas Grandes o de mayor tama\u00f1o tienen ventaja en esta tirada. Si la falla, tendr\u00e1 el estado de apresado hasta que el conjuro termine. Si la supera, las enredaderas se marchitan y el conjuro termina.<br><br>Mientras est\u00e9 apresado, el objetivo sufrir\u00e1 1d6 de da\u00f1o perforante al principio de cada uno de sus turnos. El objetivo o una criatura a su alcance puede emplear una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, el conjuro termina.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Al impactar contra el objetivo, brotan enredaderas que lo envuelven, obligándolo a realizar una tirada de salvación de Fuerza. Las criaturas de tamaño Grande o superior tienen ventaja en esta tirada. Con una falla, queda apresado hasta que el conjuro finalice; con una superación, las enredaderas se marchitan y el conjuro termina.<br><br>Mientras esté apresado, el objetivo recibe 1d6 de daño perforante al inicio de cada uno de sus turnos. El objetivo, o una criatura a su alcance, puede usar una acción para realizar una prueba de Fuerza (Atletismo) contra tu CD de salvación de conjuros; si la supera, el conjuro finaliza.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El daño se incrementa en 1d6 por cada nivel del espacio usado por encima de 1.",
     "materiales": null
   },
   {
@@ -1230,7 +1230,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Un rayo de energ\u00eda chisporroteante sale disparado hacia una criatura dentro del alcance, formando un arco constante similar a un rel\u00e1mpago entre el objetivo y t\u00fa. Haz un ataque de conjuro a distancia contra \u00e9l. Si acierta, el objetivo sufre 2d12 de da\u00f1o de rel\u00e1mpago.<br><br>En cada uno de tus siguientes turnos, puedes emplear una acci\u00f3n adicional para causar 1d12 de da\u00f1o de rel\u00e1mpago al objetivo autom\u00e1ticamente, incluso si el primer ataque falla.<br><br>El conjuro termina si en alg\u00fan momento el objetivo queda fuera del alcance del conjuro o si consigue tener cobertura completa respecto a ti.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o inicial aumenta en 1d12 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Un rayo de energía chisporroteante se proyecta hacia una criatura dentro del alcance, creando un arco constante similar a un relámpago entre el objetivo y tú. Realiza un ataque de conjuro a distancia contra él; con un impacto, el objetivo recibe 2d12 de daño de relámpago.<br><br>En cada uno de tus turnos posteriores, puedes usar una acción adicional para infligir automáticamente 1d12 de daño de relámpago al objetivo, incluso si el ataque inicial falló.<br><br>El conjuro finaliza si el objetivo queda fuera del alcance o obtiene cobertura total respecto a ti.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El daño inicial se incrementa en 1d12 por cada nivel del espacio usado por encima de 1.",
     "materiales": "Una ramita golpeada por un rayo."
   },
   {
