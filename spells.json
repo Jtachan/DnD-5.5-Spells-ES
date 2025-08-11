@@ -4330,27 +4330,6 @@
     "nivel": 6
   },
   {
-    "nombre": "Golpe Apresador",
-    "clases": [
-      "Explorador"
-    ],
-    "escuela": "Conjuraci\u00f3n",
-    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
-    "ritual": false,
-    "alcance": "Lanzador",
-    "visible": true,
-    "componentes": [
-      "V"
-    ],
-    "concentracion": true,
-    "duracion": "Hasta 1 minuto",
-    "tirada_de_salvacion": "FUE",
-    "requiere_ataque": false,
-    "descripcion": "Al acertar al objetivo, unas enredaderas aparecer\u00e1n sobre \u00e9l y deber\u00e1 hacer una tirada de salvaci\u00f3n de Fuerza. Las criaturas Grandes o de mayor tama\u00f1o tienen ventaja en esta tirada. Si la falla, tendr\u00e1 el estado de apresado hasta que el conjuro termine. Si la supera, las enredaderas se marchitan y el conjuro termina.<br><br>Mientras est\u00e9 apresado, el objetivo sufrir\u00e1 1d6 de da\u00f1o perforante al principio de cada uno de sus turnos. El objetivo o una criatura a su alcance puede emplear una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, el conjuro termina.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
-    "materiales": null,
-    "nivel": 1
-  },
-  {
     "nombre": "Golpe Flam\u00edgero",
     "clases": [
       "Cl\u00e9rigo"
@@ -4375,6 +4354,27 @@
     "descripcion": "Una columna de fuego brillante ruge desde el cielo. Todas las criaturas en un cilindro de 3 m de radio y 12 m de altura centrado en un punto dentro del alcance realizan una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 5d6 de da\u00f1o de fuego y 5d6 de da\u00f1o radiante si la fallan o la mitad de da\u00f1o si la superan.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o de fuego y radiante aumentan en 1d6 por cada nivel por encima de 5 que tenga el espacio.",
     "materiales": "Una pizca de azufre.",
     "nivel": 5
+  },
+  {
+    "nombre": "Golpe apresador",
+    "clases": [
+      "Explorador"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "Al impactar contra el objetivo, brotan enredaderas que lo envuelven, oblig\u00e1ndolo a realizar una tirada de salvaci\u00f3n de Fuerza. Las criaturas de tama\u00f1o Grande o superior tienen ventaja en esta tirada. Con una falla, queda apresado hasta que el conjuro finalice; con una superaci\u00f3n, las enredaderas se marchitan y el conjuro termina.<br><br>Mientras est\u00e9 apresado, el objetivo recibe 1d6 de da\u00f1o perforante al inicio de cada uno de sus turnos. El objetivo, o una criatura a su alcance, puede usar una acci\u00f3n para realizar una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros; si la supera, el conjuro finaliza.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o se incrementa en 1d6 por cada nivel del espacio usado por encima de 1.",
+    "materiales": null,
+    "nivel": 1
   },
   {
     "nombre": "Golpe de Viento Acerado",
@@ -7698,7 +7698,7 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas portales de teletransporte enlazados. Elige dos espacios Grandes sin ocupar en el suelo que puedas ver, uno dentro del alcance y el otro a 3 m o menos de ti. Un portal circular se abre en cada uno de dichos espacios y permanece hasta que el conjuro termine.<br><br>Los portales son anillos bidimensionales, brillantes y cubiertos de una niebla que tapa la vista, y levitan a pocos cent\u00edmetros del suelo, perpendiculares a \u00e9l.<br><br>Cada portal solo se abre por un lado (t\u00fa decides cu\u00e1l). Todo lo que entre por el lado abierto de un portal sale por el lado abierto del otro como si estuvieran adyacentes entre s\u00ed. Como acci\u00f3n adicional, puedes cambiar la orientaci\u00f3n de los lados abiertos.",
+    "descripcion": "Creas dos portales de teletransporte conectados entre s\u00ed. Elige dos espacios Grandes sin ocupar sobre el suelo que puedas ver: uno dentro del alcance y otro a 3 m o menos de ti. En cada espacio aparece un portal circular que permanece hasta que el conjuro finalice.<br><br>Los portales son anillos bidimensionales y luminosos, cubiertos por una neblina que bloquea la visi\u00f3n, y flotan a pocos cent\u00edmetros del suelo, colocados de forma perpendicular a \u00e9l.<br><br>Cada portal tiene un \u00fanico lado activo (lo decides al crearlos). Cualquier cosa que entre por el lado activo de uno sale por el lado activo del otro, como si ambos estuvieran contiguos. Como acci\u00f3n adicional, puedes cambiar la orientaci\u00f3n de los lados activos.",
     "materiales": null,
     "nivel": 6
   },
@@ -7860,7 +7860,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Un rayo de energ\u00eda chisporroteante sale disparado hacia una criatura dentro del alcance, formando un arco constante similar a un rel\u00e1mpago entre el objetivo y t\u00fa. Haz un ataque de conjuro a distancia contra \u00e9l. Si acierta, el objetivo sufre 2d12 de da\u00f1o de rel\u00e1mpago.<br><br>En cada uno de tus siguientes turnos, puedes emplear una acci\u00f3n adicional para causar 1d12 de da\u00f1o de rel\u00e1mpago al objetivo autom\u00e1ticamente, incluso si el primer ataque falla.<br><br>El conjuro termina si en alg\u00fan momento el objetivo queda fuera del alcance del conjuro o si consigue tener cobertura completa respecto a ti.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o inicial aumenta en 1d12 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Un rayo de energ\u00eda chisporroteante se proyecta hacia una criatura dentro del alcance, creando un arco constante similar a un rel\u00e1mpago entre el objetivo y t\u00fa. Realiza un ataque de conjuro a distancia contra \u00e9l; con un impacto, el objetivo recibe 2d12 de da\u00f1o de rel\u00e1mpago.<br><br>En cada uno de tus turnos posteriores, puedes usar una acci\u00f3n adicional para infligir autom\u00e1ticamente 1d12 de da\u00f1o de rel\u00e1mpago al objetivo, incluso si el ataque inicial fall\u00f3.<br><br>El conjuro finaliza si el objetivo queda fuera del alcance o obtiene cobertura total respecto a ti.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o inicial se incrementa en 1d12 por cada nivel del espacio usado por encima de 1.",
     "materiales": "Una ramita golpeada por un rayo.",
     "nivel": 1
   },
