@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Conjuros</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    table { width: 100%; border-collapse: collapse; table-layout: auto; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; white-space: normal; word-wrap: break-word; }
+    th { background-color: #f2f2f2; }
+    th.sortable { cursor: pointer; position: relative; }
+    .sort-indicator { font-size: 0.6em; display: inline-block; vertical-align: middle; margin-left: 4px; }
+    .sort-indicator .asc, .sort-indicator .desc { display: block; line-height: 0.8em; color: #ccc; }
+    th.sortable.sorted-asc .sort-indicator .asc { color: #000; }
+    th.sortable.sorted-desc .sort-indicator .desc { color: #000; }
+    tr:hover { background-color: #f5f5f5; cursor: pointer; }
+    .controls { margin-bottom: 10px; }
+    .controls label, .controls input, .controls select { margin-right: 10px; }
+    .pagination { margin-top: 10px; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.4); }
+    .modal-content { background-color: #fff; margin: 10% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 500px; border-radius: 8px; }
+    .modal-close { float: right; font-size: 1.2em; font-weight: bold; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Conjuros</h1>
+  <div class="controls">
+    <label for="search">Buscar:</label>
+    <input type="text" id="search" placeholder="Buscar por nombre">
+    <label for="levelFilter">Nivel:</label>
+    <select id="levelFilter">
+      <option value="">Todos</option>
+      <option value="0">0 (Truco)</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
+    <label for="classFilter">Clase:</label>
+    <select id="classFilter">
+      <option value="">Todas</option>
+    </select>
+    <label for="schoolFilter">Escuela:</label>
+    <select id="schoolFilter">
+      <option value="">Todas</option>
+    </select>
+    <label for="pageSize">Mostrar:</label>
+    <select id="pageSize">
+      <option value="10">10</option>
+      <option value="25">25</option>
+      <option value="50">50</option>
+    </select>
+    <label for="rangeUnit">Unidad de alcance:</label>
+    <select id="rangeUnit">
+      <option value="metros">Metros</option>
+      <option value="pies">Pies</option>
+    </select>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th data-key="nombre" class="sortable">Nombre <span class="sort-indicator"><span class="asc">&#9650;</span><span class="desc">&#9660;</span></span></th>
+        <th>Clases</th>
+        <th data-key="escuela" class="sortable">Escuela <span class="sort-indicator"><span class="asc">&#9650;</span><span class="desc">&#9660;</span></span></th>
+        <th data-key="nivel" class="sortable">Nivel <span class="sort-indicator"><span class="asc">&#9650;</span><span class="desc">&#9660;</span></span></th>
+        <th>Tiempo de lanzamiento</th>
+        <th>Ritual</th>
+        <th>Alcance</th>
+        <th>Visible</th>
+        <th>Componentes</th>
+        <th>Concentración</th>
+        <th>Duración</th>
+        <th>Tirada de salvación</th>
+        <th>Requiere ataque</th>
+      </tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+  </table>
+
+  <div class="pagination">
+    <button id="prev">‹ Anterior</button>
+    <span id="page-info"></span>
+    <button id="next">Siguiente ›</button>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="modal-close" class="modal-close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <h3>Materiales</h3>
+      <p id="modal-materials"></p>
+      <h3>Descripción</h3>
+      <p id="modal-description"></p>
+    </div>
+  </div>
+
+  <script>
+    let spells = [];
+    let filtered = [];
+    let currentPage = 1;
+    let currentSortKey = null;
+    let currentSortDir = 0;
+
+    const searchInput = document.getElementById('search');
+    const levelFilter = document.getElementById('levelFilter');
+    const classFilter = document.getElementById('classFilter');
+    const schoolFilter = document.getElementById('schoolFilter');
+    const pageSizeSelect = document.getElementById('pageSize');
+    const rangeUnitSelect = document.getElementById('rangeUnit');
+    const tableBody = document.getElementById('table-body');
+    const prevBtn = document.getElementById('prev');
+    const nextBtn = document.getElementById('next');
+    const pageInfo = document.getElementById('page-info');
+    const modal = document.getElementById('modal');
+    const modalTitle = document.getElementById('modal-title');
+    const modalMaterials = document.getElementById('modal-materials');
+    const modalDescription = document.getElementById('modal-description');
+    const modalClose = document.getElementById('modal-close');
+
+    function normalize(str) {
+      return str.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    }
+
+    function applySort(arr) {
+      if (!currentSortKey || currentSortDir === 0) return arr;
+      return arr.slice().sort((a, b) => {
+        let valA = a[currentSortKey];
+        let valB = b[currentSortKey];
+        if (currentSortKey === 'nivel') {
+          return (valA - valB) * currentSortDir;
+        }
+        if (Array.isArray(valA)) valA = valA.join(', ');
+        if (Array.isArray(valB)) valB = valB.join(', ');
+        return valA.localeCompare(valB, 'es', { sensitivity: 'base' }) * currentSortDir;
+      });
+    }
+
+    function updateSortIndicators() {
+      document.querySelectorAll('th.sortable').forEach(th => {
+        th.classList.remove('sorted-asc', 'sorted-desc');
+        const key = th.getAttribute('data-key');
+        if (key === currentSortKey) {
+          if (currentSortDir === 1) th.classList.add('sorted-asc');
+          else if (currentSortDir === -1) th.classList.add('sorted-desc');
+        }
+      });
+    }
+
+    function renderTable() {
+      let data = filtered;
+      data = applySort(data);
+      const pageSize = parseInt(pageSizeSelect.value, 10);
+      const start = (currentPage - 1) * pageSize;
+      const end = start + pageSize;
+      const pageItems = data.slice(start, end);
+
+      tableBody.innerHTML = '';
+      pageItems.forEach(spell => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${spell.nombre}</td>
+          <td>${spell.clases.join(', ')}</td>
+          <td>${spell.escuela}</td>
+          <td>${spell.nivel}</td>
+          <td>${spell.tiempo_de_lanzamiento}</td>
+          <td>${spell.ritual ? 'Sí' : 'No'}</td>
+          <td>${Array.isArray(spell.alcance)
+            ? (rangeUnitSelect.value === 'pies'
+                ? spell.alcance[0]
+                : rangeUnitSelect.value === 'metros'
+                  ? spell.alcance[1]
+                  : spell.alcance.join(' / '))
+            : spell.alcance}</td>
+          <td>${spell.visible ? 'Sí' : 'No'}</td>
+          <td>${spell.componentes.join(', ')}</td>
+          <td>${spell.concentracion ? 'Sí' : 'No'}</td>
+          <td>${spell.duracion}</td>
+          <td>${spell.tirada_de_salvacion || '--'}</td>
+          <td>${spell.requiere_ataque ? 'Sí' : 'No'}</td>
+        `;
+        tr.addEventListener('click', () => {
+          modalTitle.textContent = spell.nombre;
+          modalMaterials.textContent = spell.materiales || 'Ninguno';
+          modalDescription.innerHTML = spell.descripcion;
+          modal.style.display = 'block';
+        });
+        tableBody.appendChild(tr);
+      });
+
+      const totalPages = Math.ceil(data.length / pageSize) || 1;
+      pageInfo.textContent = `Página ${currentPage} de ${totalPages}`;
+      prevBtn.disabled = currentPage === 1;
+      nextBtn.disabled = currentPage === totalPages;
+
+      updateSortIndicators();
+    }
+
+    function updateFilter() {
+      const nameQuery = normalize(searchInput.value);
+      let result = spells.filter(spell => normalize(spell.nombre).includes(nameQuery));
+      if (levelFilter.value) result = result.filter(spell => spell.nivel.toString() === levelFilter.value);
+      if (classFilter.value) result = result.filter(spell => spell.clases.includes(classFilter.value));
+      if (schoolFilter.value) result = result.filter(spell => spell.escuela === schoolFilter.value);
+      filtered = result;
+      currentPage = 1;
+      renderTable();
+    }
+
+    searchInput.addEventListener('input', updateFilter);
+    levelFilter.addEventListener('change', updateFilter);
+    classFilter.addEventListener('change', updateFilter);
+    schoolFilter.addEventListener('change', updateFilter);
+    rangeUnitSelect.addEventListener('change', renderTable);
+    pageSizeSelect.addEventListener('change', () => { currentPage = 1; renderTable(); });
+    prevBtn.addEventListener('click', () => { if (currentPage > 1) { currentPage--; renderTable(); } });
+    nextBtn.addEventListener('click', () => { const totalPages = Math.ceil(filtered.length / parseInt(pageSizeSelect.value, 10)) || 1; if (currentPage < totalPages) { currentPage++; renderTable(); } });
+
+    modalClose.addEventListener('click', () => { modal.style.display = 'none'; });
+    window.addEventListener('click', e => { if (e.target === modal) modal.style.display = 'none'; });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('th.sortable').forEach(th => {
+        th.addEventListener('click', () => {
+          const key = th.getAttribute('data-key');
+          if (currentSortKey !== key) { currentSortKey = key; currentSortDir = 1; }
+          else { currentSortDir = currentSortDir === 1 ? -1 : currentSortDir === -1 ? 0 : 1; }
+          updateFilter();
+        });
+      });
+    });
+
+    fetch('spells.json')
+      .then(response => response.json())
+      .then(data => {
+        spells = data;
+        spells.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es', { sensitivity: 'base' }));
+        const classesSet = new Set();
+        const schoolsSet = new Set();
+        spells.forEach(s => { s.clases.forEach(c => classesSet.add(c)); schoolsSet.add(s.escuela); });
+        Array.from(classesSet).sort().forEach(c => { const opt = document.createElement('option'); opt.value = c; opt.textContent = c; classFilter.appendChild(opt); });
+        Array.from(schoolsSet).sort().forEach(sch => { const opt = document.createElement('option'); opt.value = sch; opt.textContent = sch; schoolFilter.appendChild(opt); });
+        filtered = spells;
+        renderTable();
+      })
+      .catch(error => {
+        console.error('Error al cargar spells.json', error);
+        tableBody.innerHTML = '<tr><td colspan="13">No se pudieron cargar los datos.</td></tr>';
+      });
+  </script>
+</body>
+</html>
