@@ -233,12 +233,12 @@
       "V",
       "S"
     ],
-    "materiales": null,
     "concentracion": true,
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Siempre que una criatura haga una tirada de ataque contra ti antes de que el conjuro termine, el atacante restar\u00e1 1d4 a esa tirada."
+    "descripcion": "Mientras el conjuro esté activo, cada vez que una criatura realice una tirada de ataque contra ti, el atacante resta 1d4 al resultado de dicha tirada.",
+    "materiales": null
   },
   {
     "nombre": "Gu\u00eda",
@@ -335,7 +335,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Creas un l\u00e1tigo similar a una enredadera cubierta de espinas que fustiga bajo tus \u00f3rdenes a una criatura dentro del alcance. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si acierta, el objetivo sufre 1d6 de da\u00f1o perforante y, si es Grande o m\u00e1s peque\u00f1o, puedes arrastrarlo hasta 3 m hacia ti.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "descripcion": "Conjuras un látigo semejante a una enredadera con espinas que azota, bajo tus órdenes, a una criatura dentro del alcance. Realiza un ataque de conjuro cuerpo a cuerpo contra el objetivo; con un impacto, este recibe 1d6 de daño perforante y, si es de tamaño Grande o menor, puedes arrastrarlo hasta 3 m hacia ti.<br><br><b><i>Mejora de truco.</i></b> El daño aumenta en 1d6 al alcanzar los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
     "materiales": "El tallo de una planta con espinas."
   },
   {

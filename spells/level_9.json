@@ -165,7 +165,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una criatura que puedas ver dentro del alcance se ve envuelta por una oleada de energ\u00eda sanadora. El objetivo recupera todos sus puntos de golpe. Si la criatura tiene los estados de asustada, aturdida, envenenada, hechizada o paralizada, los estados terminan. Si la criatura tiene el estado de derribada, puede usar su reacci\u00f3n para levantarse.",
+    "descripcion": "Una criatura que puedas ver dentro del alcance es alcanzada por una oleada de energía curativa. El objetivo recupera todos sus puntos de golpe. Si está asustado, aturdido, envenenado, hechizado o paralizado, dichos estados finalizan. Si se encuentra derribado, puede usar su reacción para ponerse en pie.",
     "materiales": null
   },
   {

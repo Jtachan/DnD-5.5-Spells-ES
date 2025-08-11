@@ -332,7 +332,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Conjuras una enredadera que brota de una superficie en un espacio sin ocupar que puedas ver dentro del alcance y permanece hasta que el conjuro termine.<br><br>Haz un ataque de conjuro cuerpo a cuerpo contra una criatura a 9 m o menos de la enredadera. Si acierta, el objetivo sufrir\u00e1 4d8 de da\u00f1o contundente y ser\u00e1 arrastrado hasta 9 m hacia la enredadera. Si el objetivo es Enorme o m\u00e1s peque\u00f1o, tendr\u00e1 el estado de agarrado (CD para escapar igual a tu CD de salvaci\u00f3n de conjuros).<br><br>La enredadera solo puede agarrar a una criatura a la vez y puedes hacer que suelte a una criatura con este estado (no requiere acci\u00f3n). Como acci\u00f3n adicional en tus siguientes turnos, puedes repetir el ataque contra una criatura a 9 m o menos de la enredadera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La cantidad de criaturas que puede agarrar la enredadera aumenta en uno por cada nivel por encima de 4 que tenga el espacio.",
+    "descripcion": "Conjuras una enredadera que surge de una superficie en un espacio sin ocupar que puedas ver dentro del alcance y permanece activa hasta que el conjuro finalice.<br><br>Realiza un ataque de conjuro cuerpo a cuerpo contra una criatura situada a 9 m o menos de la enredadera. Si impacta, el objetivo recibe 4d8 de daño contundente y es arrastrado hasta 9 m hacia la enredadera. Si la criatura es de tamaño Enorme o menor, queda agarrada (CD de escape igual a tu CD de salvación de conjuros).<br><br>La enredadera solo puede mantener agarrada a una criatura a la vez, y puedes ordenarle que suelte a una criatura agarrada (no requiere acción). Como acción adicional en tus turnos posteriores, puedes repetir el ataque contra una criatura que esté a 9 m o menos de la enredadera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La cantidad de criaturas que la enredadera puede agarrar aumenta en una por cada nivel del espacio usado por encima de 4.",
     "materiales": null
   },
   {
@@ -360,7 +360,7 @@
     "materiales": "Una luci\u00e9rnaga o una pizca de f\u00f3sforo."
   },
   {
-    "nombre": "Esfera Vitri\u00f3lica",
+    "nombre": "Esfera vitri\u00f3lica",
     "clases": [
       "Hechicero",
       "Mago"

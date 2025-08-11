@@ -223,7 +223,7 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "El objetivo sufrir\u00e1 1d6 de da\u00f1o necr\u00f3tico adicional del ataque y deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de asustado hasta que el conjuro termine. Al final de cada uno de sus turnos, el objetivo asustado repite la tirada de salvaci\u00f3n y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "El objetivo recibe 1d6 de daño necrótico adicional del ataque y debe realizar una tirada de salvación de Sabiduría. Si falla, queda asustado mientras el conjuro siga activo. Al final de cada uno de sus turnos, la criatura afectada repite la tirada de salvación y, con una superación, se libera del conjuro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El daño se incrementa en 1d6 por cada nivel del espacio usado por encima de 1.",
     "materiales": null
   },
   {
@@ -493,7 +493,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Intentas forzar a una criatura a batirse en duelo. Una criatura que puedas ver dentro del alcance realiza una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, el objetivo tendr\u00e1 desventaja en las tiradas de ataque contra criaturas que no seas t\u00fa y no podr\u00e1 moverse voluntariamente a ning\u00fan espacio que se encuentre a m\u00e1s de 9 m de ti.<br><br>El conjuro termina si haces una tirada de ataque contra una criatura distinta al objetivo, si lanzas un conjuro contra un enemigo distinto a \u00e9l, si uno de tus aliados hace da\u00f1o al objetivo o si terminas tu turno a m\u00e1s de 9 m de \u00e9l.",
+    "descripcion": "Intentas obligar a una criatura a enfrentarte en un duelo. Una criatura que puedas ver dentro del alcance debe realizar una tirada de salvación de Sabiduría; si falla, tendrá desventaja en las tiradas de ataque contra cualquier criatura que no seas tú y no podrá desplazarse voluntariamente a más de 9 m de tu posición.<br><br>El conjuro finaliza si realizas una tirada de ataque contra una criatura distinta al objetivo, si lanzas un conjuro contra un enemigo diferente, si uno de tus aliados inflige daño al objetivo o si terminas tu turno a más de 9 m de él.",
     "materiales": null
   },
   {
@@ -927,7 +927,7 @@
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Impones una maldici\u00f3n a una criatura que puedas ver dentro del alcance. Hasta que el conjuro termine, infliges 1d6 de da\u00f1o necr\u00f3tico adicional al objetivo siempre que le aciertes con una tirada de ataque. Adem\u00e1s, elige una caracter\u00edstica cuando lances el conjuro. El objetivo tendr\u00e1 desventaja en las pruebas que haga con la caracter\u00edstica elegida.<br><br>Si los puntos de golpe del objetivo se reducen a 0 antes de que el conjuro termine, puedes usar una acci\u00f3n adicional en un turno posterior para maldecir a una nueva criatura.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Tu concentraci\u00f3n puede durar m\u00e1s si usas un espacio de conjuro de nivel 2 (hasta 4 horas), 3 o 4 (hasta 8 horas) o 5 o m\u00e1s (24 horas).",
+    "descripcion": "Lanzas una maldición sobre una criatura que puedas ver dentro del alcance. Mientras el conjuro esté activo, infliges 1d6 de daño necrótico adicional al objetivo cada vez que le impactes con una tirada de ataque. Además, al lanzar el conjuro, eliges una característica; el objetivo tiene desventaja en las pruebas que realice con dicha característica.<br><br>Si el objetivo es reducido a 0 puntos de golpe antes de que el conjuro finalice, puedes usar una acción adicional en un turno posterior para transferir la maldición a otra criatura.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La duración máxima de tu concentración aumenta si usas un espacio de conjuro de nivel 2 (hasta 4 horas), nivel 3 o 4 (hasta 8 horas), o nivel 5 o superior (hasta 24 horas).",
     "materiales": "El ojo petrificado de un trit\u00f3n."
   },
   {
@@ -1049,8 +1049,8 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Lanzas un orbe de energ\u00eda a un objetivo dentro del alcance. Elige entre \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago, trueno o veneno para el tipo de orbe creado y despu\u00e9s haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 3d8 de da\u00f1o del tipo elegido.<br><br>Si sacas el mismo n\u00famero en dos o m\u00e1s de los d8, el orbe salta a otro objetivo distinto de tu elecci\u00f3n que est\u00e9 a 9 m o menos del objetivo. Haz una tirada de ataque contra el nuevo objetivo y otra tirada de da\u00f1o. El orbe no puede volver a saltar, a menos que lances el conjuro con un espacio de nivel 2 o superior.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio. El orbe puede saltar un m\u00e1ximo de veces igual al nivel del espacio gastado. Una criatura solo puede ser el objetivo una vez por cada lanzamiento del conjuro.",
-    "materiales": "Un diamante que valga al menos 50 po."
+    "descripcion": "Proyectas un orbe de energía hacia un objetivo dentro del alcance. Elige ácido, frío, fuego, relámpago, trueno o veneno como tipo de orbe y realiza un ataque de conjuro a distancia contra el objetivo. Con un impacto, este recibe 3d8 de daño del tipo seleccionado.<br><br>Si obtienes el mismo resultado en dos o más de los d8, el orbe salta a otro objetivo de tu elección situado a 9 m o menos del objetivo inicial. Realiza una tirada de ataque y de daño contra el nuevo objetivo. El orbe no puede volver a saltar, salvo que lances el conjuro con un espacio de nivel 2 o superior.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El daño aumenta en 1d8 por cada nivel del espacio usado por encima de 1. El orbe puede saltar un número máximo de veces igual al nivel del espacio empleado. Una criatura solo puede ser objetivo una vez por lanzamiento del conjuro.",
+    "materiales": "Un diamante de valor 50 po o superior."
   },
   {
     "nombre": "Orden imperiosa",
@@ -1255,7 +1255,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Disparas un rayo verduzco hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo sufrir\u00e1 2d8 de da\u00f1o de veneno y tendr\u00e1 el estado de envenenado hasta el final de tu siguiente turno.",
+    "descripcion": "Lanzas un rayo verdoso hacia una criatura dentro del alcance. Realiza un ataque de conjuro a distancia contra el objetivo; con un impacto, este recibe 2d8 de daño de veneno y queda envenenado hasta el final de tu próximo turno.",
     "materiales": null
   },
   {
@@ -1477,7 +1477,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance oye una melod\u00eda discordante en su mente. El objetivo hace una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, recibir\u00e1 3d6 de da\u00f1o ps\u00edquico y deber\u00e1 utilizar su reacci\u00f3n inmediatamente, si es posible, para alejarse de ti tanto como pueda por la ruta m\u00e1s segura. Si supera la tirada, solo sufrir\u00e1 la mitad de ese da\u00f1o.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Elige una criatura que puedas ver dentro del alcance; esta oye en su mente una melodía disonante. El objetivo debe realizar una tirada de salvación de Sabiduría. Con una falla, recibe 3d6 de daño psíquico y, si puede, usa inmediatamente su reacción para alejarse de ti lo máximo posible por la ruta más segura. Con una salvación exitosa, solo recibe la mitad del daño.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El daño se incrementa en 1d6 por cada nivel del espacio usado por encima de 1.",
     "materiales": null
   },
   {
@@ -1521,7 +1521,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Al golpear a la criatura, el conjuro crea una lluvia de espinas que saldr\u00e1 disparada de tu arma a distancia o munici\u00f3n. El objetivo del ataque y todas las criaturas a 1,5 m o menos de \u00e9l hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 1d10 de da\u00f1o perforante si la fallan o la mitad del da\u00f1o si la superan.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "Al impactar contra la criatura, el conjuro genera una lluvia de espinas que se dispara desde tu arma a distancia o desde la munición empleada. El objetivo y todas las criaturas a 1,5 m o menos de él deben realizar una tirada de salvación de Destreza; con una falla, reciben 1d10 de daño perforante, o la mitad de ese daño si la superan.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El daño se incrementa en 1d10 por cada nivel del espacio usado por encima de 1.",
     "materiales": null
   },
   {

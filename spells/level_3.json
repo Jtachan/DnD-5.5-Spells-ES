@@ -270,7 +270,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Blandes el arma utilizada para lanzar el conjuro e invocas versiones espectrales parecidas (o munici\u00f3n para el tipo de arma correspondiente) que salen disparadas hacia adelante y luego desaparecen. Todas las criaturas de tu elecci\u00f3n que puedas ver en un cono de 18 m hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 5d8 de da\u00f1o de fuerza si fallan o la mitad del da\u00f1o si la superan.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
+    "descripcion": "Empuñas el arma usada para lanzar el conjuro e invocas réplicas espectrales similares (o munición acorde al tipo de arma) que se proyectan hacia adelante antes de desvanecerse. Todas las criaturas que elijas y puedas ver dentro de un cono de 18 m deben realizar una tirada de salvación de Destreza; con una falla, reciben 5d8 de daño de fuerza, o la mitad de ese daño si la superan.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El daño se incrementa en 1d8 por cada nivel del espacio usado por encima de 3.",
     "materiales": "Un arma cuerpo a cuerpo o a distancia que valga al menos 1 pc."
   },
   {
@@ -475,7 +475,7 @@
     "materiales": "Un pergamino de plegarias."
   },
   {
-    "nombre": "Fingir Muerte",
+    "nombre": "Fingir muerte",
     "clases": [
       "Bardo",
       "Cl\u00e9rigo",
@@ -496,11 +496,11 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tocas a una criatura voluntaria y la sumes en un estado catal\u00e9ptico que no se puede distinguir de la muerte.<br><br>Hasta que termine el conjuro, la criatura parecer\u00e1 muerta ante cualquier inspecci\u00f3n externa o conjuro que intente averiguar su estado. El objetivo tendr\u00e1 los estados de cegado e incapacitado y su velocidad ser\u00e1 0.<br><br>El objetivo tambi\u00e9n tendr\u00e1 resistencia a todo el da\u00f1o excepto el ps\u00edquico e inmunidad al estado de envenenado.",
+    "descripcion": "Tocas a una criatura voluntaria y la colocas en un estado cataléptico indistinguible de la muerte.<br><br>Mientras el conjuro esté activo, la criatura aparenta estar muerta ante cualquier inspección o conjuro que intente determinar su estado. El objetivo queda cegado, incapacitado y con velocidad 0.<br><br>Además, obtiene resistencia a todo el daño excepto el psíquico e inmunidad al estado de envenenado.",
     "materiales": "Una pizca de tierra de cementerio."
   },
   {
-    "nombre": "Flecha de Rel\u00e1mpago",
+    "nombre": "Flecha de rel\u00e1mpago",
     "clases": [
       "Explorador"
     ],
@@ -517,7 +517,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": true,
-    "descripcion": "Cuando tu ataque contra el objetivo acierte o falle, el arma o la munici\u00f3n que usas se transforma en un rel\u00e1mpago. En vez de sufrir da\u00f1o u otros efectos del ataque, el objetivo recibe 4d8 de da\u00f1o de rel\u00e1mpago si el ataque acierta o la mitad de da\u00f1o si falla. Todas las criaturas a 3 m o menos del objetivo har\u00e1n despu\u00e9s una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 2d8 de da\u00f1o de rel\u00e1mpago si la fallan o la mitad del da\u00f1o si la superan.<br><br>Luego, el arma o la munici\u00f3n vuelve a la normalidad.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o de los dos efectos del conjuro aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio.",
+    "descripcion": "Cuando tu ataque contra el objetivo impacta o falla, el arma o la munición utilizada se transforma en un relámpago. En lugar de aplicar el daño u otros efectos del ataque, el objetivo recibe 4d8 de daño de relámpago si el ataque acierta, o la mitad de ese daño si falla. Luego, todas las criaturas a 3 m o menos del objetivo deben realizar una tirada de salvación de Destreza; con una falla, reciben 2d8 de daño de relámpago, o la mitad si la superan.<br><br>Tras esto, el arma o la munición recupera su forma normal.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El daño de ambos efectos aumenta en 1d8 por cada nivel del espacio usado por encima de 3.",
     "materiales": null
   },
   {
@@ -660,7 +660,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Abres un portal al Reino Lejano, una regi\u00f3n infestada de horrores ignotos. Aparece una esfera de oscuridad de 6 m de radio centrada en un punto dentro del alcance y que permanece hasta que el conjuro termine. La esfera se considera terreno dif\u00edcil y est\u00e1 llena de susurros extra\u00f1os y sonidos de succi\u00f3n, audibles a 9 m de distancia. Ninguna luz m\u00e1gica u ordinaria puede iluminar la zona, y las criaturas completamente dentro de ella tendr\u00e1n el estado de cegadas.<br><br>Cualquier criatura que comience su turno dentro de la zona recibir\u00e1 2d6 de da\u00f1o de fr\u00edo. Cualquier criatura que termine su turno dentro deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o recibir\u00e1 2d6 de da\u00f1o de \u00e1cido de unos tent\u00e1culos sobrenaturales.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o de fr\u00edo o de \u00e1cido (a tu elecci\u00f3n) aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio.",
+    "descripcion": "Abres un portal hacia el Reino Lejano, un lugar plagado de horrores indescriptibles. Se forma una esfera de oscuridad de 6 m de radio centrada en un punto dentro del alcance, que persiste hasta que el conjuro finaliza. La zona es terreno difícil y está llena de susurros extraños y sonidos de succión audibles a 9 m. Ninguna luz, mágica o no, puede iluminarla, y las criaturas que se encuentren completamente dentro quedan cegadas.<br><br>Cualquier criatura que comience su turno dentro de la esfera recibe 2d6 de daño de frío. Además, toda criatura que termine su turno en la zona debe realizar una tirada de salvación de Destreza; con una falla, sufre 2d6 de daño de ácido causado por tentáculos antinaturales.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El daño de frío o de ácido (a tu elección) se incrementa en 1d6 por cada nivel del espacio usado por encima de 3.",
     "materiales": "Un tent\u00e1culo en salmuera."
   },
   {
@@ -885,7 +885,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Irradias un aura m\u00e1gica en una emanaci\u00f3n de 9 m. Mientras permanezc\u00e1is dentro, tus aliados y t\u00fa causar\u00e9is 1d4 de da\u00f1o radiante adicional cuando acert\u00e9is con un arma o un ataque sin armas.",
+    "descripcion": "Proyectas un aura mágica en un radio de 9 m. Mientras estéis dentro de ella, tú y tus aliados infligís 1d4 de daño radiante adicional al impactar con un arma o un ataque sin armas.",
     "materiales": null
   },
   {

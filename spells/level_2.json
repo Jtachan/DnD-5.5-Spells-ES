@@ -405,7 +405,7 @@
     "duracion": "8 horas",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Tocas hasta cuatro flechas o virotes no m\u00e1gicos y los clavas en el suelo dentro de tu espacio. Hasta que el conjuro termine, la munici\u00f3n no podr\u00e1 extraerse por la fuerza, y siempre que una criatura que no seas t\u00fa entre en un espacio a 9 m o menos de la munici\u00f3n por primera vez en un turno o termine su turno all\u00ed, uno de los proyectiles saldr\u00e1 volando para atacarla. La criatura deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1 2d4 de da\u00f1o perforante. A continuaci\u00f3n, el proyectil se destruye. El conjuro termina cuando no quede munici\u00f3n clavada en el suelo.<br><br>Cuando lanzas este conjuro, puedes designar criaturas de tu elecci\u00f3n para que el conjuro las ignore.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La cantidad de munici\u00f3n que puedes hechizar aumenta en 2 por cada nivel por encima de 2 que tenga el espacio.",
+    "descripcion": "Tocas hasta cuatro flechas o virotes no mágicos y los clavas en el suelo dentro de tu espacio. Mientras el conjuro permanezca activo, la munición no puede ser retirada por la fuerza y, cada vez que una criatura que no seas tú entre por primera vez en un turno o termine su turno a 9 m o menos de ella, uno de los proyectiles se dispara para atacarla. La criatura debe realizar una tirada de salvación de Destreza o recibe 2d4 de daño perforante. Tras el ataque, el proyectil se destruye. El conjuro finaliza cuando no queda munición clavada en el suelo.<br><br>Al lanzar este conjuro, puedes elegir criaturas para que no se vean afectadas por él.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La cantidad de munición que puedes imbuir aumenta en 2 por cada nivel del espacio usado por encima de 2.",
     "materiales": "Una trenza ornamental."
   },
   {
@@ -432,7 +432,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Una criatura que puedas ver dentro del alcance deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1 el estado de hechizada hasta que termine el conjuro. Si no es humanoide, la criatura tiene \u00e9xito autom\u00e1ticamente.<br><br>Una corona espectral aparece sobre la cabeza del objetivo hechizado, que debe usar su acci\u00f3n antes de moverse cada turno para realizar un ataque cuerpo a cuerpo contra una criatura que elijas mentalmente y que no sea \u00e9l mismo. El objetivo puede actuar con normalidad en su turno si no eliges ninguna criatura o no tiene ninguna a su alcance. El objetivo repetir\u00e1 la tirada de salvaci\u00f3n al final de cada uno de sus turnos y, si tiene \u00e9xito, se librar\u00e1 del conjuro.<br><br>En tus siguientes turnos, debes realizar la acci\u00f3n de magia para mantener el control sobre el objetivo o el conjuro terminar\u00e1.",
+    "descripcion": "Una criatura que puedas ver dentro del alcance debe realizar una tirada de salvación de Sabiduría o quedará hechizada hasta que el conjuro finalice. Si la criatura no es un humanoide, supera automáticamente la tirada.<br><br>Una corona espectral aparece sobre la cabeza del objetivo hechizado, el cual debe usar su acción antes de moverse en cada turno para efectuar un ataque cuerpo a cuerpo contra una criatura que indiques mentalmente y que no sea él mismo. Si no seleccionas un objetivo o no hay ninguno a su alcance, puede actuar con normalidad en su turno. Al final de cada uno de sus turnos, el objetivo repite la tirada de salvación y, si la supera, se libera del conjuro.<br><br>En tus turnos posteriores, debes usar la acción de magia para mantener el control sobre el objetivo; de lo contrario, el conjuro termina.",
     "materiales": null
   },
   {
@@ -609,7 +609,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "INT",
     "requiere_ataque": false,
-    "descripcion": "Intentas crear una ilusi\u00f3n en la mente de una criatura que puedas ver dentro del alcance. El objetivo hace una tirada de salvaci\u00f3n de Inteligencia. Si la falla, creas una forma encarnada fantasmal u otro fen\u00f3meno cuyas dimensiones no excedan las de un cubo de 3 m de lado y que solo puede percibir el objetivo hasta que el conjuro termine. El fantasma puede emitir sonidos, alterar la temperatura y producir otros est\u00edmulos.<br><br>El objetivo puede usar una acci\u00f3n de estudiar para examinar la imagen con una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, se da cuenta de que el fantasma es una ilusi\u00f3n y el conjuro termina.<br><br>Mientras est\u00e9 afectado por este conjuro, el objetivo tratar\u00e1 al fantasma como si fuera real y racionalizar\u00e1 cualquier resultado il\u00f3gico derivado de interactuar con \u00e9l. Por ejemplo, si el objetivo intenta caminar por un puente ilusorio y sobrevive a la ca\u00edda, creer\u00e1 que el puente existe y que otra cosa ha provocado su ca\u00edda.<br><br>Un objetivo afectado incluso puede recibir da\u00f1o de la ilusi\u00f3n si el fantasma se muestra como una amenaza o una criatura peligrosa. En cada uno de tus turnos, la forma fantasmal puede causar 2d8 de da\u00f1o ps\u00edquico al objetivo si est\u00e1 en el \u00e1rea que ocupa el fantasma o a 1,5 m de \u00e9l. El objetivo percibe el da\u00f1o como de un tipo apropiado para la ilusi\u00f3n.",
+    "descripcion": "Intentas implantar una ilusión en la mente de una criatura que puedas ver dentro del alcance. El objetivo realiza una tirada de salvación de Inteligencia; si falla, creas una figura fantasmal u otro fenómeno, con dimensiones de hasta un cubo de 3 m de lado, perceptible únicamente para él mientras el conjuro esté activo. La ilusión puede generar sonidos, modificar la temperatura y producir otros estímulos.<br><br>El objetivo puede gastar una acción para analizar la ilusión realizando una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Si la supera, reconoce que se trata de una ilusión y el conjuro termina.<br><br>Mientras esté bajo este efecto, el objetivo tratará la ilusión como real y justificará cualquier resultado ilógico que surja al interactuar con ella. Por ejemplo, si intenta cruzar un puente ilusorio y cae, interpretará que el puente existe y que otra causa provocó su caída.<br><br>Incluso puede recibir daño proveniente de la ilusión si esta se manifiesta como una amenaza o criatura hostil. En cada uno de tus turnos, la figura ilusoria puede infligir 2d8 de daño psíquico al objetivo si se encuentra en su área o a 1,5 m de ella. El objetivo percibe el daño como de un tipo coherente con la apariencia de la ilusión.",
     "materiales": "Un poco de vell\u00f3n."
   },
   {
@@ -944,7 +944,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Conjuras dagas giratorias en un cubo de 1,5 m centrado en un punto dentro del alcance. Todas las criaturas situadas en esa zona sufren 4d4 de da\u00f1o cortante. Una criatura tambi\u00e9n recibe da\u00f1o si entra en el cubo, si termina su turno en \u00e9l o si el cubo entra en su espacio. Una criatura solo sufre este da\u00f1o una vez por turno.<br><br>En tus siguientes turnos, puedes usar una acci\u00f3n de magia para teletransportar el cubo hasta 9 m.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 2d4 por cada nivel por encima de 2 que tenga el espacio.",
+    "descripcion": "Conjuras dagas giratorias dentro de un cubo de 1,5 m centrado en un punto dentro del alcance. Todas las criaturas en esa área reciben 4d4 de daño cortante. Una criatura también sufre este daño si entra en el cubo, si termina su turno en él o si el cubo se mueve a su espacio. Una criatura solo recibe este daño una vez por turno.<br><br>En tus turnos posteriores, puedes usar una acción de magia para teletransportar el cubo hasta 9 m.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El daño aumenta en 2d4 por cada nivel del espacio usado por encima de 2.",
     "materiales": "Un fragmento de cristal."
   },
   {
@@ -1062,7 +1062,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Hasta cinco criaturas de tu elecci\u00f3n que permanezcan dentro del alcance del conjuro durante todo su lanzamiento obtienen los beneficios de un descanso corto y tambi\u00e9n recuperan 2d8 puntos de golpe. Las criaturas no pueden volver a beneficiarse de este conjuro hasta que finalicen un descanso largo.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio.",
+    "descripcion": "Hasta cinco criaturas que elijas y que permanezcan dentro del alcance durante todo el lanzamiento del conjuro obtienen los beneficios de un descanso corto y recuperan además 2d8 puntos de golpe. Una criatura no puede beneficiarse de este conjuro nuevamente hasta que complete un descanso largo.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La cantidad de puntos de golpe recuperados aumenta en 1d8 por cada nivel del espacio usado por encima de 2.",
     "materiales": null
   },
   {
@@ -1259,7 +1259,7 @@
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tocas a una bestia voluntaria. Hasta que el conjuro termine, puedes percibir a trav\u00e9s de los sentidos de la bestia, as\u00ed como de los tuyos. Cuando percibes a trav\u00e9s de ella, te beneficias de cualquier sentido especial que tenga.",
+    "descripcion": "Tocas a una bestia voluntaria. Mientras el conjuro permanezca activo, puedes percibir tanto a través de sus sentidos como de los tuyos. Al hacerlo, obtienes los beneficios de cualquier sentido especial que posea.",
     "materiales": null
   },
   {

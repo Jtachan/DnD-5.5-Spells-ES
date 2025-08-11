@@ -152,9 +152,9 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Escudo de fuego                         | 4         | ✅            |
 | Escudriñar                              | 5         | ✅            |
 | Esfera congelante de Otiluke            | 6         | ✅            |
-| Esfera Vitriólica                       | 4         | ✅            |
+| Esfera vitriólica                       | 4         | ✅            |
 | Espada de Mordenkainen                  | 7         | ✅            |
-| Espejismo Arcano                        | 7         | ✅            |
+| Espejismo arcano                        | 7         | ✅            |
 | Espíritus Guardianes                    | 3         | ✅            |
 | Estallido Mágico                        | 0 (Truco) | ✅            |
 | Estática Sináptica                      | 5         | ✅            |
@@ -164,14 +164,14 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Falsa Vida                              | 1         | ✅            |
 | Favor Divino                            | 1         | ✅            |
 | Festín de Héroes                        | 6         | ✅            |
-| Fingir Muerte                           | 3         | ❌            |
-| Flecha Ácida de Melf                    | 2         | ✅            |
-| Flecha de Relámpago                     | 3         | ❌            |
-| Forma Gaseosa                           | 3         | ✅            |
-| Fragmento Mental                        | 0 (Truco) | ✅            |
-| Fuego Feérico                           | 1         | ✅            |
+| Fingir muerte                           | 3         | ❌            |
+| Flecha ácida de Melf                    | 2         | ✅            |
+| Flecha de relámpago                     | 3         | ❌            |
+| Forma gaseosa                           | 3         | ✅            |
+| Fragmento mental                        | 0 (Truco) | ✅            |
+| Fuego feérico                           | 1         | ✅            |
 | Fuente de Luz Lunar                     | 4         | ✅            |
-| Fuerza Fantasmal                        | 2         | ❌            |
+| Fuerza fantasmal                        | 2         | ❌            |
 | Fundirse con la Piedra                  | 3         | ✅            |
 | Geas                                    | 5         | ✅            |
 | Glifo Custodio                          | 3         | ✅            |
@@ -182,7 +182,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Grasa                                   | 1         | ✅            |
 | Guarda contra la Muerte                 | 4         | ✅            |
 | Guardas y Guardias                      | 6         | ✅            |
-| Guardia de Cuchillas                    | 0 (Truco) | ❌            |
+| Guardia de cuchillas                    | 0 (Truco) | ❌            |
 | Guardián de la Fe                       | 4         | ✅            |
 | Guía                                    | 0 (Truco) | ✅            |
 | Hablar con las Plantas                  | 3         | ✅            |
