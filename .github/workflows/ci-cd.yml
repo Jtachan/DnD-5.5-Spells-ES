@@ -16,34 +16,7 @@ permissions:
   id-token: write
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.x"
-
-      - name: Unify spell files
-        run: |
-          python spells/unify_spell_files.py
-
-      - name: Commit and push spells.json
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: GitHub Actions
-          author_email: actions@github.com
-          message: 'GH commit: Update spells.json with new spells'
-          add: 'spells.json'
-
   deploy:
-    needs: build
     runs-on: ubuntu-latest
     
     environment:

@@ -165,7 +165,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "La criatura objetivo que elijas que puedas ver y se encuentre dentro del alcance se ve envuelta por una energía sanadora, recuperando instantáneamente todos sus puntos de golpe. Se anulan los estado de asustada, aturdida, envenenada, hechizada o paralizada en caso de que la criatura padeciese alguno de ellos. Si la criatura tiene el estado de derribada puede usar su reacción para levantarse.",
+    "descripcion": "La criatura objetivo que elijas que puedas ver y se encuentre dentro del alcance se ve envuelta por una energ\u00eda sanadora, recuperando instant\u00e1neamente todos sus puntos de golpe. Se anulan los estado de asustada, aturdida, envenenada, hechizada o paralizada en caso de que la criatura padeciese alguno de ellos. Si la criatura tiene el estado de derribada puede usar su reacci\u00f3n para levantarse.",
     "materiales": null
   },
   {
