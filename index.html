@@ -24,6 +24,7 @@
     .modal-close { float: right; font-size: 1.2em; font-weight: bold; cursor: pointer; }
 
     blockquote { padding: 0.5em 1em; margin: 1em 0; color: #6a737d; background-color: #f6f8fa; }
+    #report-modal textarea { width: 100%; box-sizing: border-box; max-width: 100%; resize: vertical; }
   </style>
 </head>
 <body>
@@ -93,7 +94,7 @@
     <button id="next">Siguiente ›</button>
   </div>
 
-  <button class="report-error-button" onclick="window.open('https://github.com/Jtachan/DnD-5.5-Spells-ES/issues/new','_blank','noopener')" style="margin-top: 10px; background-color: khaki">
+  <button class="report-error-button" id="reportError" style="margin-top: 10px; background-color: khaki">
     Reportar un error
   </button>
 
@@ -112,6 +113,26 @@
       <p id="modal-materials"></p>
       <h3>Descripción</h3>
       <p id="modal-description"></p>
+    </div>
+  </div>
+
+  <div id="report-modal" class="modal">
+    <div class="modal-content">
+      <span id="report-modal-close" class="modal-close">&times;</span>
+      <h2>Reportar un error</h2>
+      <form id="report-form" action="https://formspree.io/f/xrblnzav" method="POST" data-formspree>
+        <input type="hidden" name="_subject" value="Reporte de error - Conjuros">
+        <label for="report-message">Describe el error:</label><br>
+        <textarea
+          id="report-message"
+          name="message"
+          rows="8"
+          required
+          placeholder="¿Qué no funciona? ¿Qué conjuro es incorrecto?"
+        ></textarea>
+        <br><br>
+        <button type="submit">Enviar reporte</button>
+      </form>
     </div>
   </div>
 
@@ -267,6 +288,22 @@
         console.error('Error al cargar spells.json', error);
         tableBody.innerHTML = '<tr><td colspan="13">No se pudieron cargar los datos.</td></tr>';
       });
+
+    //   Here is the code to report any error via mail.
+    const reportBtn       = document.getElementById('reportError');
+    const reportModal     = document.getElementById('report-modal');
+    const reportCloseBtn  = document.getElementById('report-modal-close');
+
+    reportBtn.addEventListener('click', () => {
+      reportModal.style.display = 'block';
+    });
+    reportCloseBtn.addEventListener('click', () => {
+      reportModal.style.display = 'none';
+    });
+    window.addEventListener('click', e => {
+      if (e.target === reportModal) reportModal.style.display = 'none';
+    });
+
   </script>
 </body>
 </html>
