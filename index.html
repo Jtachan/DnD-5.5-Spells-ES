@@ -94,9 +94,12 @@
     <button id="next">Siguiente ›</button>
   </div>
 
-  <button class="report-error-button" id="reportError" style="margin-top: 10px; background-color: khaki">
-    Reportar un error
-  </button>
+  <div class="contact">
+    <button class="report-error-button" id="reportError" style="margin-top: 10px; background-color: khaki">
+      Reportar un error
+    </button>
+    <button id="ghBtn" class="github-button">Ver en GitHub</button>
+  </div>
 
   <blockquote>
     <p id="attribution">
@@ -289,7 +292,7 @@
         tableBody.innerHTML = '<tr><td colspan="13">No se pudieron cargar los datos.</td></tr>';
       });
 
-    //   Here is the code to report any error via mail.
+    // Reporting an issue:
     const reportBtn       = document.getElementById('reportError');
     const reportModal     = document.getElementById('report-modal');
     const reportCloseBtn  = document.getElementById('report-modal-close');
@@ -302,6 +305,11 @@
     });
     window.addEventListener('click', e => {
       if (e.target === reportModal) reportModal.style.display = 'none';
+    });
+
+    // Access GitHub repository
+    document.getElementById('ghBtn').addEventListener('click', () => {
+      window.open('https://github.com/Jtachan/DnD-5.5-Spells-ES', '_blank', 'noopener');
     });
 
   </script>
