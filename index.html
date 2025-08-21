@@ -22,6 +22,9 @@
     .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.4); }
     .modal-content { background-color: #fff; margin: 10% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 500px; border-radius: 8px; }
     .modal-close { float: right; font-size: 1.2em; font-weight: bold; cursor: pointer; }
+
+    blockquote { padding: 0.5em 1em; margin: 1em 0; color: #6a737d; background-color: #f6f8fa; }
+    #report-modal textarea { width: 100%; box-sizing: border-box; max-width: 100%; resize: vertical; }
   </style>
 </head>
 <body>
@@ -91,6 +94,20 @@
     <button id="next">Siguiente ›</button>
   </div>
 
+  <div class="contact">
+    <button class="report-error-button" id="reportError" style="margin-top: 10px; background-color: khaki">
+      Reportar un error
+    </button>
+    <button id="ghBtn" class="github-button">Ver en GitHub</button>
+  </div>
+
+  <blockquote>
+    <p id="attribution">
+      Todos los hechizos contenidos en este proyecto pertenecen a <i>Wizards of the Coast</i> bajo licencia <b>Creative Commons Attribution 4.0 International (CC BY 4.0)</b>.
+      Aquellos conjuros que no se encuentran en el archivo <a href="https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf">SDR v5.2</a> han sido adaptados.
+    </p>
+  </blockquote>
+
   <div id="modal" class="modal">
     <div class="modal-content">
       <span id="modal-close" class="modal-close">&times;</span>
@@ -99,6 +116,26 @@
       <p id="modal-materials"></p>
       <h3>Descripción</h3>
       <p id="modal-description"></p>
+    </div>
+  </div>
+
+  <div id="report-modal" class="modal">
+    <div class="modal-content">
+      <span id="report-modal-close" class="modal-close">&times;</span>
+      <h2>Reportar un error</h2>
+      <form id="report-form" action="https://formspree.io/f/xrblnzav" method="POST" data-formspree>
+        <input type="hidden" name="_subject" value="Reporte de error - Conjuros">
+        <label for="report-message">Describe el error:</label><br>
+        <textarea
+          id="report-message"
+          name="message"
+          rows="8"
+          required
+          placeholder="¿Qué no funciona? ¿Qué conjuro es incorrecto?"
+        ></textarea>
+        <br><br>
+        <button type="submit">Enviar reporte</button>
+      </form>
     </div>
   </div>
 
@@ -254,6 +291,27 @@
         console.error('Error al cargar spells.json', error);
         tableBody.innerHTML = '<tr><td colspan="13">No se pudieron cargar los datos.</td></tr>';
       });
+
+    // Reporting an issue:
+    const reportBtn       = document.getElementById('reportError');
+    const reportModal     = document.getElementById('report-modal');
+    const reportCloseBtn  = document.getElementById('report-modal-close');
+
+    reportBtn.addEventListener('click', () => {
+      reportModal.style.display = 'block';
+    });
+    reportCloseBtn.addEventListener('click', () => {
+      reportModal.style.display = 'none';
+    });
+    window.addEventListener('click', e => {
+      if (e.target === reportModal) reportModal.style.display = 'none';
+    });
+
+    // Access GitHub repository
+    document.getElementById('ghBtn').addEventListener('click', () => {
+      window.open('https://github.com/Jtachan/DnD-5.5-Spells-ES', '_blank', 'noopener');
+    });
+
   </script>
 </body>
 </html>
