@@ -27,7 +27,10 @@ def unify_spells():
                     spell["tiempo_de_lanzamiento"] = spell[
                         "tiempo_de_lanzamiento"
                     ].split(",")[0]
-                    spell["descripcion"] = cond_desc + "<br><br>" + spell["descripcion"]
+                    if isinstance(spell["descripcion"], str):
+                        spell["descripcion"] = f"{cond_desc}<br><br>{spell['descripcion']}"
+                    else:
+                        spell["descripcion"] = [f"{cond_desc}<br><br>{d}" for d in spell["descripcion"]]
                     break
             spell["nivel"] = idx
             all_spells.append(spell)
