@@ -3,7 +3,7 @@
 Base de datos NoSQL de los conjuros de _Dungeons and Dragons_ (reglas básicas).
 
 Todos los hechizos contenidos en este proyecto pertenecen a _Wizards of the Coast_ bajo licencia **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
-Aquellos conjuros que no se encuentran en el archivo [SDR v5.2](https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf) han sido adaptados.
+Aquellos conjuros que no se encuentran en el archivo [SRD v5.2](https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf) han sido adaptados.
 
 > Nota:
 > La extracción de los datos se ha hecho con IA, aunque se han revisado manualmente.
@@ -14,7 +14,7 @@ Aquellos conjuros que no se encuentran en el archivo [SDR v5.2](https://media.dn
 Se han preparado las siguientes ayudas para el uso de los datos:
 
 - **Tabla HTML**: Ve a https://jtachan.github.io/DnD-5.5-Spells-ES/ para visualizar la tabla con todos los conjuros. Esta tabla permite buscar conjuros por su nombre.
-- **Índice de conjuros**: El archivo [spells/index.md](spells/index.md) contiene todos los conjuros registrados, indicando su nivel correspondiente y si se encuentran en el archivo [SDR v5.2](https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf).
+- **Índice de conjuros**: El archivo [spells/index.md](spells/index.md) contiene todos los conjuros registrados, indicando su nivel correspondiente y si se encuentran en el archivo [SRD v5.2](https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf).
 
 ## Estructura
 
