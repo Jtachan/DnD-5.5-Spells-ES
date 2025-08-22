@@ -89,7 +89,10 @@
     "duracion": "10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 6 m y luz tenue 6 m m\u00e1s all\u00e1. El conjuro termina si lo vuelves a lanzar.<br><br>Hasta que el conjuro termine, puedes usar una acci\u00f3n de magia para arrojar la llama a una criatura u objeto a 18 m o menos de ti. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d8 de da\u00f1o de fuego.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "descripcion": [
+      "En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 20 pies y luz tenue 20 pies m\u00e1s all\u00e1. El conjuro termina si lo vuelves a lanzar.<br><br>Hasta que el conjuro termine, puedes usar una acci\u00f3n de magia para arrojar la llama a una criatura u objeto a 60 pies o menos de ti. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d8 de da\u00f1o de fuego.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+      "En tu mano aparece una llama titilante, que permanece hasta que termine el conjuro. En tu mano, la llama no genera calor, no puede quemar nada y emite una luz brillante en un radio de 6 m y luz tenue 6 m m\u00e1s all\u00e1. El conjuro termina si lo vuelves a lanzar.<br><br>Hasta que el conjuro termine, puedes usar una acci\u00f3n de magia para arrojar la llama a una criatura u objeto a 18 m o menos de ti. Haz un ataque de conjuro a distancia. Si acierta, el objetivo recibe 1d8 de da\u00f1o de fuego.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8)."
+    ],
     "materiales": null
   },
   {
@@ -164,7 +167,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Controlas los elementos y creas uno de los siguientes efectos dentro del alcance:<br><br><b>Esculpir los elementos.</b> Haces que la tierra, arena, fuego, humo, niebla o agua que quepan en un cubo de 30 cm de lado adopten una forma tosca (como la de una criatura) durante 1 hora.<br><br><b>Invocar el agua.</b> Creas un roc\u00edo de fr\u00eda niebla que humedece ligeramente a las criaturas y objetos en un cubo de 1,5 m de lado. Como alternativa, creas una taza de agua limpia, ya sea en un recipiente abierto o sobre una superficie, y el agua se evapora al cabo de 1 minuto.<br><br><b>Invocar el aire.</b> Creas una brisa lo bastante fuerte como para ondear telas, remover polvo, agitar hojas y cerrar puertas y contraventanas abiertas en un cubo de 1,5 m de lado. Las puertas y contraventanas que algo o alguien mantenga abiertas no se ven afectadas.<br><br><b>Invocar el fuego.</b> Creas una fina nube de ascuas inofensivas y un humo de color perfumado en un cubo de 1,5 m de lado. T\u00fa eliges el color y el olor, y las ascuas pueden encender velas, antorchas o l\u00e1mparas dentro de la zona. El aroma del humo permanece durante 1 minuto.<br><br><b>Invocar la tierra.</b> Creas una fina capa de polvo o arena que cubre superficies en una zona de 1,5 m de lado o haces que aparezca una sola palabra escrita con tu letra en una superficie de tierra o arena.",
+    "descripcion": [
+      "Controlas los elementos y creas uno de los siguientes efectos dentro del alcance:<br><br><b>Esculpir los elementos.</b> Haces que la tierra, arena, fuego, humo, niebla o agua que quepan en un cubo de 12 pulgadas de lado adopten una forma tosca (como la de una criatura) durante 1 hora.<br><br><b>Invocar el agua.</b> Creas un roc\u00edo de fr\u00eda niebla que humedece ligeramente a las criaturas y objetos en un cubo de 5 pies de lado. Como alternativa, creas una taza de agua limpia, ya sea en un recipiente abierto o sobre una superficie, y el agua se evapora al cabo de 3 minutos.<br><br><b>Invocar el aire.</b> Creas una brisa lo bastante fuerte como para ondear telas, remover polvo, agitar hojas y cerrar puertas y contraventanas abiertas en un cubo de 5 pies de lado. Las puertas y contraventanas que algo o alguien mantenga abiertas no se ven afectadas.<br><br><b>Invocar el fuego.</b> Creas una fina nube de ascuas inofensivas y un humo de color perfumado en un cubo de 5 pies de lado. T\u00fa eliges el color y el olor, y las ascuas pueden encender velas, antorchas o l\u00e1mparas dentro de la zona. El aroma del humo permanece durante 3 minutos.<br><br><b>Invocar la tierra.</b> Creas una fina capa de polvo o arena que cubre superficies en una zona de 5 pies de lado o haces que aparezca una sola palabra escrita con tu letra en una superficie de tierra o arena.",
+      "Controlas los elementos y creas uno de los siguientes efectos dentro del alcance:<br><br><b>Esculpir los elementos.</b> Haces que la tierra, arena, fuego, humo, niebla o agua que quepan en un cubo de 30 cm de lado adopten una forma tosca (como la de una criatura) durante 1 hora.<br><br><b>Invocar el agua.</b> Creas un roc\u00edo de fr\u00eda niebla que humedece ligeramente a las criaturas y objetos en un cubo de 1,5 m de lado. Como alternativa, creas una taza de agua limpia, ya sea en un recipiente abierto o sobre una superficie, y el agua se evapora al cabo de 1 minuto.<br><br><b>Invocar el aire.</b> Creas una brisa lo bastante fuerte como para ondear telas, remover polvo, agitar hojas y cerrar puertas y contraventanas abiertas en un cubo de 1,5 m de lado. Las puertas y contraventanas que algo o alguien mantenga abiertas no se ven afectadas.<br><br><b>Invocar el fuego.</b> Creas una fina nube de ascuas inofensivas y un humo de color perfumado en un cubo de 1,5 m de lado. T\u00fa eliges el color y el olor, y las ascuas pueden encender velas, antorchas o l\u00e1mparas dentro de la zona. El aroma del humo permanece durante 1 minuto.<br><br><b>Invocar la tierra.</b> Creas una fina capa de polvo o arena que cubre superficies en una zona de 1,5 m de lado o haces que aparezca una sola palabra escrita con tu letra en una superficie de tierra o arena."
+    ],
     "materiales": null
   },
   {
@@ -286,7 +292,10 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas un sonido o una imagen de un objeto situado dentro del alcance que permanecer\u00e1 hasta que termine el conjuro. Consulta las descripciones a continuaci\u00f3n para conocer sus efectos. La ilusi\u00f3n termina si lanzas el conjuro de nuevo.<br><br>Si una criatura emplea su acci\u00f3n de estudiar para examinar la imagen o el sonido, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que se trata de una ilusi\u00f3n, esta se ir\u00e1 desvaneciendo para esa criatura.<br><br><b>Sonido.</b> Si creas un sonido, su volumen se situar\u00e1 entre el de un susurro y el de un grito. Puede ser tu voz, la de otra criatura, el rugido de un le\u00f3n, un redoblar de tambores o cualquier otro sonido que elijas. El sonido contin\u00faa incesante mientras dure el conjuro o puedes originar sonidos distintos en diferentes momentos antes del fin del conjuro.<br><br><b>Imagen.</b> Si creas la imagen de un objeto (como una silla, pisadas embarradas o un peque\u00f1o cofre), no podr\u00e1 ser mayor que un cubo de 1,5 m de lado. La imagen no puede generar sonido, luz, olor o cualquier otro efecto sensorial. La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla.",
+    "descripcion": [
+      "Creas un sonido o una imagen de un objeto situado dentro del alcance que permanecer\u00e1 hasta que termine el conjuro. Consulta las descripciones a continuaci\u00f3n para conocer sus efectos. La ilusi\u00f3n termina si lanzas el conjuro de nuevo.<br><br>Si una criatura emplea su acci\u00f3n de estudiar para examinar la imagen o el sonido, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que se trata de una ilusi\u00f3n, esta se ir\u00e1 desvaneciendo para esa criatura.<br><br><b>Sonido.</b> Si creas un sonido, su volumen se situar\u00e1 entre el de un susurro y el de un grito. Puede ser tu voz, la de otra criatura, el rugido de un le\u00f3n, un redoblar de tambores o cualquier otro sonido que elijas. El sonido contin\u00faa incesante mientras dure el conjuro o puedes originar sonidos distintos en diferentes momentos antes del fin del conjuro.<br><br><b>Imagen.</b> Si creas la imagen de un objeto (como una silla, pisadas embarradas o un peque\u00f1o cofre), no podr\u00e1 ser mayor que un cubo de 5 pies de lado. La imagen no puede generar sonido, luz, olor o cualquier otro efecto sensorial. La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla.",
+      "Creas un sonido o una imagen de un objeto situado dentro del alcance que permanecer\u00e1 hasta que termine el conjuro. Consulta las descripciones a continuaci\u00f3n para conocer sus efectos. La ilusi\u00f3n termina si lanzas el conjuro de nuevo.<br><br>Si una criatura emplea su acci\u00f3n de estudiar para examinar la imagen o el sonido, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que se trata de una ilusi\u00f3n, esta se ir\u00e1 desvaneciendo para esa criatura.<br><br><b>Sonido.</b> Si creas un sonido, su volumen se situar\u00e1 entre el de un susurro y el de un grito. Puede ser tu voz, la de otra criatura, el rugido de un le\u00f3n, un redoblar de tambores o cualquier otro sonido que elijas. El sonido contin\u00faa incesante mientras dure el conjuro o puedes originar sonidos distintos en diferentes momentos antes del fin del conjuro.<br><br><b>Imagen.</b> Si creas la imagen de un objeto (como una silla, pisadas embarradas o un peque\u00f1o cofre), no podr\u00e1 ser mayor que un cubo de 1,5 m de lado. La imagen no puede generar sonido, luz, olor o cualquier otro efecto sensorial. La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla."
+    ],
     "materiales": "Un poco de vell\u00f3n."
   },
   {
@@ -335,7 +344,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Invocas un l\u00e1tigo con forma de enredadera y cubierto de espinas. Este arma ataca cuerpo a cuerpo contra una criatura dentro del alcance. Si el ataque acierta se causan 1d6 de da\u00f1o perforante contra el objetivo, pudiendo arrastrarlo hacia ti hasta 3 m si el objetivo es de un tama\u00f1o m\u00e1ximo Grande.",
+    "descripcion": [
+      "Invocas un l\u00e1tigo con forma de enredadera y cubierto de espinas. Este arma ataca cuerpo a cuerpo contra una criatura dentro del alcance. Si el ataque acierta se causan 1d6 de da\u00f1o perforante contra el objetivo, pudiendo arrastrarlo hacia ti hasta 10 pies si el objetivo es de un tama\u00f1o m\u00e1ximo Grande.",
+      "Invocas un l\u00e1tigo con forma de enredadera y cubierto de espinas. Este arma ataca cuerpo a cuerpo contra una criatura dentro del alcance. Si el ataque acierta se causan 1d6 de da\u00f1o perforante contra el objetivo, pudiendo arrastrarlo hacia ti hasta 3 m si el objetivo es de un tama\u00f1o m\u00e1ximo Grande."
+    ],
     "materiales": "El tallo de una planta con espinas."
   },
   {
@@ -386,7 +398,10 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas hasta cuatro luces del tama\u00f1o de antorchas dentro del alcance. Puedes darles la apariencia de antorchas, linternas u orbes luminosos, y levitar\u00e1n hasta que el conjuro termine. Como alternativa, combinas las cuatro luces en una sola de tama\u00f1o Mediano y aspecto vagamente humanoide. En ambos casos, cada luz proyecta una luz tenue en un radio de 3 m.<br><br>Como acci\u00f3n adicional, puedes mover las luces hasta 18 m a otro espacio dentro del alcance. Cada luz debe estar a 6 m o menos de otra luz creada por este conjuro y se desvanecer\u00e1 si sale del alcance del mismo.",
+    "descripcion": [
+      "Creas hasta cuatro luces del tama\u00f1o de antorchas dentro del alcance. Puedes darles la apariencia de antorchas, linternas u orbes luminosos, y levitar\u00e1n hasta que el conjuro termine. Como alternativa, combinas las cuatro luces en una sola de tama\u00f1o Mediano y aspecto vagamente humanoide. En ambos casos, cada luz proyecta una luz tenue en un radio de 10 pies.<br><br>Como acci\u00f3n adicional, puedes mover las luces hasta 60 pies a otro espacio dentro del alcance. Cada luz debe estar a 20 pies o menos de otra luz creada por este conjuro y se desvanecer\u00e1 si sale del alcance del mismo.",
+      "Creas hasta cuatro luces del tama\u00f1o de antorchas dentro del alcance. Puedes darles la apariencia de antorchas, linternas u orbes luminosos, y levitar\u00e1n hasta que el conjuro termine. Como alternativa, combinas las cuatro luces en una sola de tama\u00f1o Mediano y aspecto vagamente humanoide. En ambos casos, cada luz proyecta una luz tenue en un radio de 3 m.<br><br>Como acci\u00f3n adicional, puedes mover las luces hasta 18 m a otro espacio dentro del alcance. Cada luz debe estar a 6 m o menos de otra luz creada por este conjuro y se desvanecer\u00e1 si sale del alcance del mismo."
+    ],
     "materiales": "Una pizca de f\u00f3sforo."
   },
   {
@@ -410,7 +425,10 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tocas un objeto Grande o m\u00e1s peque\u00f1o que nadie lleve o vista. Hasta que el conjuro termine, el objeto emitir\u00e1 luz brillante en un radio de 6 m y luz tenue otros 6 m m\u00e1s all\u00e1. La luz puede tener el color que desees.<br><br>Tapar completamente el objeto con un material opaco bloquea la luz. El conjuro termina si lo vuelves a lanzar.",
+    "descripcion": [
+      "Tocas un objeto Grande o m\u00e1s peque\u00f1o que nadie lleve o vista. Hasta que el conjuro termine, el objeto emitir\u00e1 luz brillante en un radio de 20 pies y luz tenue otros 20 pies m\u00e1s all\u00e1. La luz puede tener el color que desees.<br><br>Tapar completamente el objeto con un material opaco bloquea la luz. El conjuro termina si lo vuelves a lanzar.",
+      "Tocas un objeto Grande o m\u00e1s peque\u00f1o que nadie lleve o vista. Hasta que el conjuro termine, el objeto emitir\u00e1 luz brillante en un radio de 6 m y luz tenue otros 6 m m\u00e1s all\u00e1. La luz puede tener el color que desees.<br><br>Tapar completamente el objeto con un material opaco bloquea la luz. El conjuro termina si lo vuelves a lanzar."
+    ],
     "materiales": "Una luci\u00e9rnaga o musgo fosforescente."
   },
   {
@@ -437,7 +455,10 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Conjuras una mano espectral flotante en un punto de tu elecci\u00f3n dentro del alcance. La mano dura hasta que el conjuro termine. Adem\u00e1s, desaparecer\u00e1 si en alg\u00fan momento est\u00e1 a m\u00e1s de 9 m de ti o si vuelves a lanzar este conjuro.<br><br>Cuando lances este conjuro, puedes utilizar la mano para manipular un objeto, abrir una puerta o un recipiente que no est\u00e9n cerrados con llave, sacar un objeto de un recipiente abierto o guardarlo en \u00e9l o verter el contenido de un vial.<br><br>Como acci\u00f3n de magia en tus siguientes turnos, puedes volver a controlar la mano de esta forma. Como parte de la acci\u00f3n, puedes mover la mano hasta 9 m.<br><br>La mano no puede atacar, activar objetos m\u00e1gicos ni llevar m\u00e1s de 5 kg de peso.",
+    "descripcion": [
+      "Conjuras una mano espectral flotante en un punto de tu elecci\u00f3n dentro del alcance. La mano dura hasta que el conjuro termine. Adem\u00e1s, desaparecer\u00e1 si en alg\u00fan momento est\u00e1 a m\u00e1s de 30 pies de ti o si vuelves a lanzar este conjuro.<br><br>Cuando lances este conjuro, puedes utilizar la mano para manipular un objeto, abrir una puerta o un recipiente que no est\u00e9n cerrados con llave, sacar un objeto de un recipiente abierto o guardarlo en \u00e9l o verter el contenido de un vial.<br><br>Como acci\u00f3n de magia en tus siguientes turnos, puedes volver a controlar la mano de esta forma. Como parte de la acci\u00f3n, puedes mover la mano hasta 30 pies.<br><br>La mano no puede atacar, activar objetos m\u00e1gicos ni llevar m\u00e1s de 10 lb de peso.",
+      "Conjuras una mano espectral flotante en un punto de tu elecci\u00f3n dentro del alcance. La mano dura hasta que el conjuro termine. Adem\u00e1s, desaparecer\u00e1 si en alg\u00fan momento est\u00e1 a m\u00e1s de 9 m de ti o si vuelves a lanzar este conjuro.<br><br>Cuando lances este conjuro, puedes utilizar la mano para manipular un objeto, abrir una puerta o un recipiente que no est\u00e9n cerrados con llave, sacar un objeto de un recipiente abierto o guardarlo en \u00e9l o verter el contenido de un vial.<br><br>Como acci\u00f3n de magia en tus siguientes turnos, puedes volver a controlar la mano de esta forma. Como parte de la acci\u00f3n, puedes mover la mano hasta 9 m.<br><br>La mano no puede atacar, activar objetos m\u00e1gicos ni llevar m\u00e1s de 5 kg de peso."
+    ],
     "materiales": null
   },
   {
@@ -464,7 +485,10 @@
     "duracion": "1 asalto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Se\u00f1alas a una criatura dentro del alcance y susurras un mensaje. El objetivo (y \u00fanicamente el objetivo) escucha el mensaje y puede responder con un susurro que solamente t\u00fa puedes o\u00edr.<br><br>Puedes lanzar este conjuro a trav\u00e9s de objetos f\u00edsicos si conoces al objetivo y sabes que est\u00e1 detr\u00e1s de la barrera. El silencio m\u00e1gico, 30 cm de piedra, metal o madera o una l\u00e1mina fina de plomo bloquean el conjuro.",
+    "descripcion": [
+      "Se\u00f1alas a una criatura dentro del alcance y susurras un mensaje. El objetivo (y \u00fanicamente el objetivo) escucha el mensaje y puede responder con un susurro que solamente t\u00fa puedes o\u00edr.<br><br>Puedes lanzar este conjuro a trav\u00e9s de objetos f\u00edsicos si conoces al objetivo y sabes que est\u00e1 detr\u00e1s de la barrera. El silencio m\u00e1gico, 12 pulgadas de piedra, metal o madera o una l\u00e1mina fina de plomo bloquean el conjuro.",
+      "Se\u00f1alas a una criatura dentro del alcance y susurras un mensaje. El objetivo (y \u00fanicamente el objetivo) escucha el mensaje y puede responder con un susurro que solamente t\u00fa puedes o\u00edr.<br><br>Puedes lanzar este conjuro a trav\u00e9s de objetos f\u00edsicos si conoces al objetivo y sabes que est\u00e1 detr\u00e1s de la barrera. El silencio m\u00e1gico, 30 cm de piedra, metal o madera o una l\u00e1mina fina de plomo bloquean el conjuro."
+    ],
     "materiales": "Un alambre de cobre."
   },
   {
@@ -485,7 +509,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Un fulgor ardiente surge de ti en una emanaci\u00f3n de 1,5 m. Todas las criaturas de tu elecci\u00f3n que puedas ver en ella deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o radiante.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "descripcion": [
+      "Un fulgor ardiente surge de ti en una emanaci\u00f3n de 5 pies. Todas las criaturas de tu elecci\u00f3n que puedas ver en ella deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o radiante.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+      "Un fulgor ardiente surge de ti en una emanaci\u00f3n de 1,5 m. Todas las criaturas de tu elecci\u00f3n que puedas ver en ella deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o radiante.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6)."
+    ],
     "materiales": "Un s\u00edmbolo con forma de rayo."
   },
   {
@@ -510,7 +537,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Elige a una criatura dentro del alcance que tenga 0 puntos de golpe y no est\u00e9 muerta. La criatura pasa a estar estable.<br><br><b><i>Mejora de truco.</i></b> El alcance se duplica cuando alcanzas los niveles 5 (9 m), 11 (18 m) y 17 (36 m).",
+    "descripcion": [
+      "Elige a una criatura dentro del alcance que tenga 0 puntos de golpe y no est\u00e9 muerta. La criatura pasa a estar estable.<br><br><b><i>Mejora de truco.</i></b> El alcance se duplica cuando alcanzas los niveles 5 (30 pies), 11 (60 pies) y 17 (120 pies).",
+      "Elige a una criatura dentro del alcance que tenga 0 puntos de golpe y no est\u00e9 muerta. La criatura pasa a estar estable.<br><br><b><i>Mejora de truco.</i></b> El alcance se duplica cuando alcanzas los niveles 5 (9 m), 11 (18 m) y 17 (36 m)."
+    ],
     "materiales": null
   },
   {
@@ -535,7 +565,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Lanzas un rayo helado de luz blanquiazul hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de da\u00f1o de fr\u00edo y su velocidad se reduce en 3 m hasta el principio de tu siguiente turno.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "descripcion": [
+      "Lanzas un rayo helado de luz blanquiazul hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de da\u00f1o de fr\u00edo y su velocidad se reduce en 10 pies hasta el principio de tu siguiente turno.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+      "Lanzas un rayo helado de luz blanquiazul hacia una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d8 de da\u00f1o de fr\u00edo y su velocidad se reduce en 3 m hasta el principio de tu siguiente turno.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8)."
+    ],
     "materiales": null
   },
   {
@@ -561,7 +594,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Este conjuro repara una sola grieta o desgarr\u00f3n en un objeto que toques, como un eslab\u00f3n roto en una cadena, las dos mitades de una llave partida, una capa rasgada o una fuga en una bota de vino. Mientras la grieta o el desgarr\u00f3n no tenga m\u00e1s de 30 cm de tama\u00f1o en ninguna de sus dimensiones, lo arreglar\u00e1s sin dejar rastro del da\u00f1o.<br><br>Este conjuro puede reparar el componente f\u00edsico de un objeto m\u00e1gico, pero no puede restaurar su magia.",
+    "descripcion": [
+      "Este conjuro repara una sola grieta o desgarr\u00f3n en un objeto que toques, como un eslab\u00f3n roto en una cadena, las dos mitades de una llave partida, una capa rasgada o una fuga en una bota de vino. Mientras la grieta o el desgarr\u00f3n no tenga m\u00e1s de 12 pulgadas de tama\u00f1o en ninguna de sus dimensiones, lo arreglar\u00e1s sin dejar rastro del da\u00f1o.<br><br>Este conjuro puede reparar el componente f\u00edsico de un objeto m\u00e1gico, pero no puede restaurar su magia.",
+      "Este conjuro repara una sola grieta o desgarr\u00f3n en un objeto que toques, como un eslab\u00f3n roto en una cadena, las dos mitades de una llave partida, una capa rasgada o una fuga en una bota de vino. Mientras la grieta o el desgarr\u00f3n no tenga m\u00e1s de 30 cm de tama\u00f1o en ninguna de sus dimensiones, lo arreglar\u00e1s sin dejar rastro del da\u00f1o.<br><br>Este conjuro puede reparar el componente f\u00edsico de un objeto m\u00e1gico, pero no puede restaurar su magia."
+    ],
     "materiales": "Dos imanes naturales."
   },
   {
@@ -634,7 +670,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Susurras a los esp\u00edritus de la naturaleza y produces uno de los siguientes efectos dentro del alcance.<br><br><b>Sensor clim\u00e1tico.</b> Creas un efecto sensorial Diminuto e inofensivo que predice el clima que habr\u00e1 en tu ubicaci\u00f3n durante las siguientes 24 horas. El efecto se manifiesta como un orbe dorado para los cielos despejados, una nube para la lluvia, copos de nieve para la nieve, etc. Este efecto persiste durante 1 asalto.<br><br><b>Florecer.</b> Haces que, al instante, una flor florezca, una vaina de semillas se abra o el brote de una hoja germine.<br><br><b>Efecto sensorial.</b> Creas un efecto sensorial inofensivo, como hojas cayendo, hadas espectrales bailando, una suave brisa, el sonido de un animal o un leve olor a mofeta. El efecto debe caber en un cubo de 1,5 m de lado.<br><br><b>Jugar con fuego.</b> Enciendes o apagas una vela, una antorcha o una hoguera.",
+    "descripcion": [
+      "Susurras a los esp\u00edritus de la naturaleza y produces uno de los siguientes efectos dentro del alcance.<br><br><b>Sensor clim\u00e1tico.</b> Creas un efecto sensorial Diminuto e inofensivo que predice el clima que habr\u00e1 en tu ubicaci\u00f3n durante las siguientes 24 horas. El efecto se manifiesta como un orbe dorado para los cielos despejados, una nube para la lluvia, copos de nieve para la nieve, etc. Este efecto persiste durante 1 asalto.<br><br><b>Florecer.</b> Haces que, al instante, una flor florezca, una vaina de semillas se abra o el brote de una hoja germine.<br><br><b>Efecto sensorial.</b> Creas un efecto sensorial inofensivo, como hojas cayendo, hadas espectrales bailando, una suave brisa, el sonido de un animal o un leve olor a mofeta. El efecto debe caber en un cubo de 5 pies de lado.<br><br><b>Jugar con fuego.</b> Enciendes o apagas una vela, una antorcha o una hoguera.",
+      "Susurras a los esp\u00edritus de la naturaleza y produces uno de los siguientes efectos dentro del alcance.<br><br><b>Sensor clim\u00e1tico.</b> Creas un efecto sensorial Diminuto e inofensivo que predice el clima que habr\u00e1 en tu ubicaci\u00f3n durante las siguientes 24 horas. El efecto se manifiesta como un orbe dorado para los cielos despejados, una nube para la lluvia, copos de nieve para la nieve, etc. Este efecto persiste durante 1 asalto.<br><br><b>Florecer.</b> Haces que, al instante, una flor florezca, una vaina de semillas se abra o el brote de una hoja germine.<br><br><b>Efecto sensorial.</b> Creas un efecto sensorial inofensivo, como hojas cayendo, hadas espectrales bailando, una suave brisa, el sonido de un animal o un leve olor a mofeta. El efecto debe caber en un cubo de 1,5 m de lado.<br><br><b>Jugar con fuego.</b> Enciendes o apagas una vela, una antorcha o una hoguera."
+    ],
     "materiales": null
   },
   {
@@ -659,7 +698,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Creas una burbuja \u00e1cida en un punto dentro del alcance, donde explotar\u00e1 en una esfera de 1,5 m de radio. Todas las criaturas situadas en la esfera deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1n 1d6 de da\u00f1o de \u00e1cido.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "descripcion": [
+      "Creas una burbuja \u00e1cida en un punto dentro del alcance, donde explotar\u00e1 en una esfera de 5 pies de radio. Todas las criaturas situadas en la esfera deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1n 1d6 de da\u00f1o de \u00e1cido.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+      "Creas una burbuja \u00e1cida en un punto dentro del alcance, donde explotar\u00e1 en una esfera de 1,5 m de radio. Todas las criaturas situadas en la esfera deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1n 1d6 de da\u00f1o de \u00e1cido.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6)."
+    ],
     "materiales": null
   },
   {
@@ -707,7 +749,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Se\u00f1alas a una criatura que puedas ver dentro del alcance y el sonido de una campana funesta suena a 3 m o menos del objetivo. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir\u00e1 1d8 de da\u00f1o necr\u00f3tico. Si el objetivo no tiene todos sus puntos de golpe, el da\u00f1o necr\u00f3tico aumenta a 1d12.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en un dado cuando alcanzas los niveles 5 (2d8 o 2d12), 11 (3d8 o 3d12) y 17 (4d8 o 4d12).",
+    "descripcion": [
+      "Se\u00f1alas a una criatura que puedas ver dentro del alcance y el sonido de una campana funesta suena a 10 pies o menos del objetivo. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir\u00e1 1d8 de da\u00f1o necr\u00f3tico. Si el objetivo no tiene todos sus puntos de golpe, el da\u00f1o necr\u00f3tico aumenta a 1d12.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en un dado cuando alcanzas los niveles 5 (2d8 o 2d12), 11 (3d8 o 3d12) y 17 (4d8 o 4d12).",
+      "Se\u00f1alas a una criatura que puedas ver dentro del alcance y el sonido de una campana funesta suena a 3 m o menos del objetivo. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir\u00e1 1d8 de da\u00f1o necr\u00f3tico. Si el objetivo no tiene todos sus puntos de golpe, el da\u00f1o necr\u00f3tico aumenta a 1d12.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en un dado cuando alcanzas los niveles 5 (2d8 o 2d12), 11 (3d8 o 3d12) y 17 (4d8 o 4d12)."
+    ],
     "materiales": null
   },
   {
@@ -730,7 +775,10 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Manifiestas un peque\u00f1o milagro dentro del alcance y produces uno de los siguientes efectos m\u00e1gicos. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos de 1 minuto.<br><br><b>Jugar con fuego.</b> Haces que las llamas parpadeen, brillen m\u00e1s, se aten\u00faen o cambien de color durante 1 minuto.<br><br><b>Mano invisible.</b> Abres o cierras de golpe una puerta o ventana que no est\u00e9 cerrada con llave.<br><br><b>Ojos alterados.</b> Cambias el aspecto de tus ojos durante 1 minuto.<br><br><b>Sonido fantasmal.</b> Creas un sonido instant\u00e1neo que procede de un punto de tu elecci\u00f3n dentro del alcance. Por ejemplo, el retumbar de un trueno, el graznido de un cuervo o unos susurros de mal ag\u00fcero.<br><br><b>Temblor.</b> Provocas que la tierra tiemble sin causar da\u00f1os durante 1 minuto.<br><br><b>Voz atronadora.</b> Tu voz resuena hasta tres veces m\u00e1s alto de lo normal durante 1 minuto. Hasta que termine el conjuro, tienes ventaja en las pruebas de Carisma (Intimidaci\u00f3n).",
+    "descripcion": [
+      "Manifiestas un peque\u00f1o milagro dentro del alcance y produces uno de los siguientes efectos m\u00e1gicos. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos de 3 minutos.<br><br><b>Jugar con fuego.</b> Haces que las llamas parpadeen, brillen m\u00e1s, se aten\u00faen o cambien de color durante 3 minutos.<br><br><b>Mano invisible.</b> Abres o cierras de golpe una puerta o ventana que no est\u00e9 cerrada con llave.<br><br><b>Ojos alterados.</b> Cambias el aspecto de tus ojos durante 3 minutos.<br><br><b>Sonido fantasmal.</b> Creas un sonido instant\u00e1neo que procede de un punto de tu elecci\u00f3n dentro del alcance. Por ejemplo, el retumbar de un trueno, el graznido de un cuervo o unos susurros de mal ag\u00fcero.<br><br><b>Temblor.</b> Provocas que la tierra tiemble sin causar da\u00f1os durante 3 minutos.<br><br><b>Voz atronadora.</b> Tu voz resuena hasta tres veces m\u00e1s alto de lo normal durante 3 minutos. Hasta que termine el conjuro, tienes ventaja en las pruebas de Carisma (Intimidaci\u00f3n).",
+      "Manifiestas un peque\u00f1o milagro dentro del alcance y produces uno de los siguientes efectos m\u00e1gicos. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos de 1 minuto.<br><br><b>Jugar con fuego.</b> Haces que las llamas parpadeen, brillen m\u00e1s, se aten\u00faen o cambien de color durante 1 minuto.<br><br><b>Mano invisible.</b> Abres o cierras de golpe una puerta o ventana que no est\u00e9 cerrada con llave.<br><br><b>Ojos alterados.</b> Cambias el aspecto de tus ojos durante 1 minuto.<br><br><b>Sonido fantasmal.</b> Creas un sonido instant\u00e1neo que procede de un punto de tu elecci\u00f3n dentro del alcance. Por ejemplo, el retumbar de un trueno, el graznido de un cuervo o unos susurros de mal ag\u00fcero.<br><br><b>Temblor.</b> Provocas que la tierra tiemble sin causar da\u00f1os durante 1 minuto.<br><br><b>Voz atronadora.</b> Tu voz resuena hasta tres veces m\u00e1s alto de lo normal durante 1 minuto. Hasta que termine el conjuro, tienes ventaja en las pruebas de Carisma (Intimidaci\u00f3n)."
+    ],
     "materiales": null
   },
   {
@@ -777,7 +825,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Todas las criaturas situadas en una emanaci\u00f3n de 1,5 m que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o de trueno. El sonido atronador del conjuro se puede o\u00edr a una distancia de hasta 30 m.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "descripcion": [
+      "Todas las criaturas situadas en una emanaci\u00f3n de 5 pies que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o de trueno. El sonido atronador del conjuro se puede o\u00edr a una distancia de hasta 100 pies.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+      "Todas las criaturas situadas en una emanaci\u00f3n de 1,5 m que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o de trueno. El sonido atronador del conjuro se puede o\u00edr a una distancia de hasta 30 m.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6)."
+    ],
     "materiales": null
   },
   {
@@ -802,7 +853,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
-    "descripcion": "Lanzas una mota de luz contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibir\u00e1 1d8 de da\u00f1o radiante y, hasta el final de tu siguiente turno, emitir\u00e1 luz tenue en un radio de 3 m y no podr\u00e1 beneficiarse del estado de invisible.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+    "descripcion": [
+      "Lanzas una mota de luz contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibir\u00e1 1d8 de da\u00f1o radiante y, hasta el final de tu siguiente turno, emitir\u00e1 luz tenue en un radio de 10 pies y no podr\u00e1 beneficiarse del estado de invisible.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8).",
+      "Lanzas una mota de luz contra una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibir\u00e1 1d8 de da\u00f1o radiante y, hasta el final de tu siguiente turno, emitir\u00e1 luz tenue en un radio de 3 m y no podr\u00e1 beneficiarse del estado de invisible.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d8 cuando alcanzas los niveles 5 (2d8), 11 (3d8) y 17 (4d8)."
+    ],
     "materiales": null
   }
 ]

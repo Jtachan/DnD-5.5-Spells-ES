@@ -8,6 +8,8 @@ import re
 import json
 import os
 
+METRIC_DISTANCE_REGEX = r"((\d+,)?\d+) ([kmc]?m|kg|l)[\s.]"
+
 
 # ------ Field: 'descripcion' ------ #
 def _norm_new_lines(text: str) -> str:
@@ -30,11 +32,52 @@ def _norm_higher_level(text: str) -> str:
     return text
 
 
-def normalizar_descripcion(text: str) -> str:
+def normalizar_descripcion(text: str | list) -> str:
     """Main function to normalize the spell description."""
-    text = _norm_higher_level(text)
-    text = _norm_new_lines(text)
+    if isinstance(text, str):
+        text = _norm_new_lines(_norm_higher_level(text))
+    else:
+        text = [_norm_new_lines(_norm_higher_level(t)) for t in text]
     return text
+
+
+def expand_units_to_imperial(text: str) -> list[str]:
+    """Converting a description with the metric system into a list with imperial and metric.
+    This conversion consider only 'meters' -> 'feet'. Thus, all those other SI values (centimeters, kilograms, etc)
+    are not converted.
+    """
+    def meters_to_feet(re_match: re.Match) -> str:
+        meters = float(re_match.group(1).replace(",", "."))
+        feet = int(meters * 5 / 1.5)
+        return f"{feet} pies"
+
+    def cm_to_inches(re_match: re.Match) -> str:
+        centimeters = float(re_match.group(1).replace(",", "."))
+        inches = int(centimeters / 2.5)
+        return f"{inches} pulgada" if inches == 1 else f"{inches} pulgadas"
+
+    def km_to_miles(re_match: re.Match) -> str:
+        kilometers = float(re_match.group(1).replace(",", "."))
+        miles = int(kilometers / 1.5)
+        return f"{miles} millas" if miles > 1 else f"{miles} milla"
+
+    def kg_to_pounds(re_match: re.Match) -> str:
+        kilograms = float(re_match.group(1).replace(",", "."))
+        pounds = int(kilograms * 2)
+        return f"{pounds} lb"
+
+    def liters_to_gallons(re_match: re.Match) -> str:
+        liters = float(re_match.group(1).replace(",", "."))
+        gallons = int(liters / 4)
+        return f"{gallons} galón" if gallons == 1 else f"{gallons} galones"
+
+    imperial_text = re.sub(r"((\d+,)?\d+) m", meters_to_feet, text)
+    imperial_text = re.sub(r"((\d+,)?\d+) cm", cm_to_inches, imperial_text)
+    imperial_text = re.sub(r"((\d+,)?\d+) km", km_to_miles, imperial_text)
+    imperial_text = re.sub(r"((\d+,)?\d+) kg", kg_to_pounds, imperial_text)
+    imperial_text = re.sub(r"((\d+,)?\d+) l", liters_to_gallons, imperial_text)
+
+    return [imperial_text, text]
 
 
 # ------ Field: 'materiales' ------ #
@@ -71,6 +114,8 @@ if __name__ == "__main__":
 
         # Performing all corrections (one per spell):
         for spell in spells:
+            if isinstance(spell["descripcion"], str) and re.search(METRIC_DISTANCE_REGEX, spell["descripcion"]):
+                spell["descripcion"] = expand_units_to_imperial(spell["descripcion"])
             spell["descripcion"] = normalizar_descripcion(spell["descripcion"])
 
             if spell["materiales"]:

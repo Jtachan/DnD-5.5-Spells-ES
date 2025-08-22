@@ -60,10 +60,10 @@
       <option value="25">25</option>
       <option value="50">50</option>
     </select>
-    <label for="rangeUnit">Unidad de alcance:</label>
+    <label for="rangeUnit">Sistema de unidades:</label>
     <select id="rangeUnit">
-      <option value="metros">Metros</option>
-      <option value="pies">Pies</option>
+      <option value="metros">Métrico</option>
+      <option value="pies">Imperial</option>
     </select>
   </div>
 
@@ -104,7 +104,7 @@
   <blockquote>
     <p id="attribution">
       Todos los hechizos contenidos en este proyecto pertenecen a <i>Wizards of the Coast</i> bajo licencia <b>Creative Commons Attribution 4.0 International (CC BY 4.0)</b>.
-      Aquellos conjuros que no se encuentran en el archivo <a href="https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf">SDR v5.2</a> han sido adaptados.
+      Aquellos conjuros que no se encuentran en el archivo <a href="https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf">SRD v5.2</a> han sido adaptados.
     </p>
   </blockquote>
 
@@ -191,6 +191,14 @@
       });
     }
 
+    function formatByUnit(field) {
+      if (Array.isArray(field)) {
+        if (rangeUnitSelect.value === 'pies') return field[0];
+        if (rangeUnitSelect.value === 'metros') return field[1];
+      }
+      return field;
+    }
+
     function renderTable() {
       let data = filtered;
       data = applySort(data);
@@ -209,13 +217,7 @@
           <td>${spell.nivel}</td>
           <td>${spell.tiempo_de_lanzamiento}</td>
           <td>${spell.ritual ? 'Sí' : 'No'}</td>
-          <td>${Array.isArray(spell.alcance)
-            ? (rangeUnitSelect.value === 'pies'
-                ? spell.alcance[0]
-                : rangeUnitSelect.value === 'metros'
-                  ? spell.alcance[1]
-                  : spell.alcance.join(' / '))
-            : spell.alcance}</td>
+          <td>${formatByUnit(spell.alcance)}</td>
           <td>${spell.visible ? 'Sí' : 'No'}</td>
           <td>${spell.componentes.join(', ')}</td>
           <td>${spell.concentracion ? 'Sí' : 'No'}</td>
@@ -226,7 +228,7 @@
         tr.addEventListener('click', () => {
           modalTitle.textContent = spell.nombre;
           modalMaterials.textContent = spell.materiales || 'Ninguno';
-          modalDescription.innerHTML = spell.descripcion;
+          modalDescription.innerHTML = formatByUnit(spell.descripcion);
           modal.style.display = 'block';
         });
         tableBody.appendChild(tr);
