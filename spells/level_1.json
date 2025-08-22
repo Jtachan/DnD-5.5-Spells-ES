@@ -22,7 +22,10 @@
     "duracion": "8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Preparas una alarma contra los intrusos. Elige una puerta, una ventana o una zona dentro del alcance que no sea mayor que un cubo de 6 m  de lado. Hasta que el conjuro termine, una alarma te alertar\u00e1 siempre que una criatura toque la zona vigilada o entre en ella. Al lanzar el conjuro, puedes designar qu\u00e9 criaturas no activar\u00e1n la alarma, que puede ser mental o sonora.<br><br><b>Alarma mental.</b> La alarma te avisar\u00e1 con un sonido dentro de tu mente si est\u00e1s a 1.5 km (1 milla) o menos de la zona vigilada. Si est\u00e1s dormido, te despertar\u00e1.<br><br><b>Alarma sonora.</b> La alarma producir\u00e1 el sonido de una campanilla durante 10 segundos, que ser\u00e1 audible a 18 m  o menos de la zona vigilada.",
+    "descripcion": [
+      "Preparas una alarma contra los intrusos. Elige una puerta, una ventana o una zona dentro del alcance que no sea mayor que un cubo de 20 pies  de lado. Hasta que el conjuro termine, una alarma te alertar\u00e1 siempre que una criatura toque la zona vigilada o entre en ella. Al lanzar el conjuro, puedes designar qu\u00e9 criaturas no activar\u00e1n la alarma, que puede ser mental o sonora.<br><br><b>Alarma mental.</b> La alarma te avisar\u00e1 con un sonido dentro de tu mente si est\u00e1s a 1.5 km (3 piesilla) o menos de la zona vigilada. Si est\u00e1s dormido, te despertar\u00e1.<br><br><b>Alarma sonora.</b> La alarma producir\u00e1 el sonido de una campanilla durante 10 segundos, que ser\u00e1 audible a 60 pies  o menos de la zona vigilada.",
+      "Preparas una alarma contra los intrusos. Elige una puerta, una ventana o una zona dentro del alcance que no sea mayor que un cubo de 6 m  de lado. Hasta que el conjuro termine, una alarma te alertar\u00e1 siempre que una criatura toque la zona vigilada o entre en ella. Al lanzar el conjuro, puedes designar qu\u00e9 criaturas no activar\u00e1n la alarma, que puede ser mental o sonora.<br><br><b>Alarma mental.</b> La alarma te avisar\u00e1 con un sonido dentro de tu mente si est\u00e1s a 1.5 km (1 milla) o menos de la zona vigilada. Si est\u00e1s dormido, te despertar\u00e1.<br><br><b>Alarma sonora.</b> La alarma producir\u00e1 el sonido de una campanilla durante 10 segundos, que ser\u00e1 audible a 18 m  o menos de la zona vigilada."
+    ],
     "materiales": "Una campana de hilo de plata."
   },
   {
@@ -67,7 +70,10 @@
     "duracion": "8 horas",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tocas a una criatura voluntaria que no lleve armadura. Hasta que el conjuro termine, la CA base del objetivo pasa a ser de 13 m\u00e1s su modificador por Destreza. El conjuro termina antes si el objetivo se pone una armadura.",
+    "descripcion": [
+      "Tocas a una criatura voluntaria que no lleve armadura. Hasta que el conjuro termine, la CA base del objetivo pasa a ser de 43 pies\u00e1s su modificador por Destreza. El conjuro termina antes si el objetivo se pone una armadura.",
+      "Tocas a una criatura voluntaria que no lleve armadura. Hasta que el conjuro termine, la CA base del objetivo pasa a ser de 13 m\u00e1s su modificador por Destreza. El conjuro termina antes si el objetivo se pone una armadura."
+    ],
     "materiales": "Un trozo de piel curtida."
   },
   {
@@ -114,7 +120,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "Invocas a Hadar sobre tu cuerpo, permitiendo que unos brazos surjan de este. Toda criatura que se encuentre en un radio de 3 m de ti deber\u00e1 realizar una tirada de salvaci\u00f3n de Fuerza. Los objetivos que fallen la tirada recibir\u00e1n 2d6 de da\u00f1o necr\u00f3tico y no pueden llevar a cabo reacciones hasta el principio de su pr\u00f3ximo turno. Los que la superen solo recibir\u00e1n la mitad del da\u00f1o.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Incrementa el da\u00f1o en 1d6 por cada nivel del espacio de conjuro usado que sea superior a 1.",
+    "descripcion": [
+      "Invocas a Hadar sobre tu cuerpo, permitiendo que unos brazos surjan de este. Toda criatura que se encuentre en un radio de 10 pies de ti deber\u00e1 realizar una tirada de salvaci\u00f3n de Fuerza. Los objetivos que fallen la tirada recibir\u00e1n 2d6 de da\u00f1o necr\u00f3tico y no pueden llevar a cabo reacciones hasta el principio de su pr\u00f3ximo turno. Los que la superen solo recibir\u00e1n la mitad del da\u00f1o.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Incrementa el da\u00f1o en 1d6 por cada nivel del espacio de conjuro usado que sea superior a 1.",
+      "Invocas a Hadar sobre tu cuerpo, permitiendo que unos brazos surjan de este. Toda criatura que se encuentre en un radio de 3 m de ti deber\u00e1 realizar una tirada de salvaci\u00f3n de Fuerza. Los objetivos que fallen la tirada recibir\u00e1n 2d6 de da\u00f1o necr\u00f3tico y no pueden llevar a cabo reacciones hasta el principio de su pr\u00f3ximo turno. Los que la superen solo recibir\u00e1n la mitad del da\u00f1o.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Incrementa el da\u00f1o en 1d6 por cada nivel del espacio de conjuro usado que sea superior a 1."
+    ],
     "materiales": null
   },
   {
@@ -163,7 +172,10 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Elige hasta cinco criaturas dentro del alcance que est\u00e9n cayendo. La velocidad de descenso de cada objetivo se reduce a 18 m  por asalto hasta que el conjuro termine. Si una criatura aterriza antes de que el conjuro termine, no sufrir\u00e1 da\u00f1o de la ca\u00edda y el conjuro terminar\u00e1 para esa criatura.",
+    "descripcion": [
+      "Elige hasta cinco criaturas dentro del alcance que est\u00e9n cayendo. La velocidad de descenso de cada objetivo se reduce a 60 pies  por asalto hasta que el conjuro termine. Si una criatura aterriza antes de que el conjuro termine, no sufrir\u00e1 da\u00f1o de la ca\u00edda y el conjuro terminar\u00e1 para esa criatura.",
+      "Elige hasta cinco criaturas dentro del alcance que est\u00e9n cayendo. La velocidad de descenso de cada objetivo se reduce a 18 m  por asalto hasta que el conjuro termine. Si una criatura aterriza antes de que el conjuro termine, no sufrir\u00e1 da\u00f1o de la ca\u00edda y el conjuro terminar\u00e1 para esa criatura."
+    ],
     "materiales": "Una pluma peque\u00f1a o un poco de plum\u00f3n."
   },
   {
@@ -203,7 +215,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "El sonido de un trueno emana del golpe de tu arma, audible a 90 m de ti, y el objetivo sufre 2d6 de da\u00f1o de trueno adicionales. Si el objetivo es una criatura, esta ha de realizar una tirada de salvaci\u00f3n de Fuerza para evitar ser empujado 3 m con respecto a ti. Si la falla, la criatura sufre el estado de derribada.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o equivale a tantos d6 como el nivel del espacio usado.",
+    "descripcion": [
+      "El sonido de un trueno emana del golpe de tu arma, audible a 300 pies de ti, y el objetivo sufre 2d6 de da\u00f1o de trueno adicionales. Si el objetivo es una criatura, esta ha de realizar una tirada de salvaci\u00f3n de Fuerza para evitar ser empujado 10 pies con respecto a ti. Si la falla, la criatura sufre el estado de derribada.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o equivale a tantos d6 como el nivel del espacio usado.",
+      "El sonido de un trueno emana del golpe de tu arma, audible a 90 m de ti, y el objetivo sufre 2d6 de da\u00f1o de trueno adicionales. Si el objetivo es una criatura, esta ha de realizar una tirada de salvaci\u00f3n de Fuerza para evitar ser empujado 3 m con respecto a ti. Si la falla, la criatura sufre el estado de derribada.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o equivale a tantos d6 como el nivel del espacio usado."
+    ],
     "materiales": null
   },
   {
@@ -269,7 +284,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Produces uno de estos efectos:<br><br><b>Crear agua.</b> Creas hasta 40 l de agua limpia dentro del alcance en un recipiente abierto. Como alternativa, el agua cae en forma de lluvia en un cubo de 9 m de lado dentro del alcance y apaga las llamas abiertas de la zona.<br><br><b>Destruir agua.</b> Destruyes hasta 40 l de agua dentro del alcance o en un recipiente abierto. Como alternativa, puedes destruir niebla en un cubo de 9 m de lado dentro del alcance.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Creas o destruyes 40 l m\u00e1s de agua o el tama\u00f1o del cubo aumenta en 1,5 m por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": [
+      "Produces uno de estos efectos:<br><br><b>Crear agua.</b> Creas hasta 40 l de agua limpia dentro del alcance en un recipiente abierto. Como alternativa, el agua cae en forma de lluvia en un cubo de 30 pies de lado dentro del alcance y apaga las llamas abiertas de la zona.<br><br><b>Destruir agua.</b> Destruyes hasta 40 l de agua dentro del alcance o en un recipiente abierto. Como alternativa, puedes destruir niebla en un cubo de 30 pies de lado dentro del alcance.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Creas o destruyes 40 l m\u00e1s de agua o el tama\u00f1o del cubo aumenta en 5 pies por cada nivel por encima de 1 que tenga el espacio.",
+      "Produces uno de estos efectos:<br><br><b>Crear agua.</b> Creas hasta 40 l de agua limpia dentro del alcance en un recipiente abierto. Como alternativa, el agua cae en forma de lluvia en un cubo de 9 m de lado dentro del alcance y apaga las llamas abiertas de la zona.<br><br><b>Destruir agua.</b> Destruyes hasta 40 l de agua dentro del alcance o en un recipiente abierto. Como alternativa, puedes destruir niebla en un cubo de 9 m de lado dentro del alcance.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Creas o destruyes 40 l m\u00e1s de agua o el tama\u00f1o del cubo aumenta en 1,5 m por cada nivel por encima de 1 que tenga el espacio."
+    ],
     "materiales": "Una mezcla de agua y arena."
   },
   {
@@ -295,7 +313,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": true,
-    "descripcion": "Creas una esquirla de hielo y se la lanzas a una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de da\u00f1o perforante. Acierta o falle, el fragmento explotar\u00e1. El objetivo y todas las criaturas a 1,5 m menos de \u00e9l deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o recibir\u00e1n 2d6 de da\u00f1o de fr\u00edo.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o de fr\u00edo aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": [
+      "Creas una esquirla de hielo y se la lanzas a una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de da\u00f1o perforante. Acierta o falle, el fragmento explotar\u00e1. El objetivo y todas las criaturas a 5 pies menos de \u00e9l deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o recibir\u00e1n 2d6 de da\u00f1o de fr\u00edo.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o de fr\u00edo aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+      "Creas una esquirla de hielo y se la lanzas a una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si acierta, el objetivo recibe 1d10 de da\u00f1o perforante. Acierta o falle, el fragmento explotar\u00e1. El objetivo y todas las criaturas a 1,5 m menos de \u00e9l deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o recibir\u00e1n 2d6 de da\u00f1o de fr\u00edo.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o de fr\u00edo aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio."
+    ],
     "materiales": "Una gota de agua o un trozo de hielo."
   },
   {
@@ -320,7 +341,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d8 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": [
+      "Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d26 pies\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio.",
+      "Una criatura a la que toques recupera una cantidad de puntos de golpe igual a 2d8 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 2d8 por cada nivel por encima de 1 que tenga el espacio."
+    ],
     "materiales": null
   },
   {
@@ -342,7 +366,10 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Hasta que el conjuro termine, percibes la ubicaci\u00f3n de cualquier aberraci\u00f3n, celestial, elemental, fe\u00e9rico, infernal o muerto viviente a 9 m o menos de ti. Tambi\u00e9n percibes si hay un conjuro <i>consagrar</i> activo en el espacio y su ubicaci\u00f3n.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina fina de plomo.",
+    "descripcion": [
+      "Hasta que el conjuro termine, percibes la ubicaci\u00f3n de cualquier aberraci\u00f3n, celestial, elemental, fe\u00e9rico, infernal o muerto viviente a 30 pies o menos de ti. Tambi\u00e9n percibes si hay un conjuro <i>consagrar</i> activo en el espacio y su ubicaci\u00f3n.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina fina de plomo.",
+      "Hasta que el conjuro termine, percibes la ubicaci\u00f3n de cualquier aberraci\u00f3n, celestial, elemental, fe\u00e9rico, infernal o muerto viviente a 9 m o menos de ti. Tambi\u00e9n percibes si hay un conjuro <i>consagrar</i> activo en el espacio y su ubicaci\u00f3n.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina fina de plomo."
+    ],
     "materiales": null
   },
   {
@@ -370,7 +397,10 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Hasta que el conjuro termine, podr\u00e1s percibir la presencia de efectos m\u00e1gicos a 9 m o menos de ti. Si percibes alguno, puedes usar una acci\u00f3n de magia para ver una d\u00e9bil aura alrededor de cualquier objeto o criatura visible dentro de la zona que est\u00e9 afectada por la magia y, si el efecto lo cre\u00f3 un conjuro, distingues a qu\u00e9 escuela m\u00e1gica pertenece.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina de plomo.",
+    "descripcion": [
+      "Hasta que el conjuro termine, podr\u00e1s percibir la presencia de efectos m\u00e1gicos a 30 pies o menos de ti. Si percibes alguno, puedes usar una acci\u00f3n de magia para ver una d\u00e9bil aura alrededor de cualquier objeto o criatura visible dentro de la zona que est\u00e9 afectada por la magia y, si el efecto lo cre\u00f3 un conjuro, distingues a qu\u00e9 escuela m\u00e1gica pertenece.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina de plomo.",
+      "Hasta que el conjuro termine, podr\u00e1s percibir la presencia de efectos m\u00e1gicos a 9 m o menos de ti. Si percibes alguno, puedes usar una acci\u00f3n de magia para ver una d\u00e9bil aura alrededor de cualquier objeto o criatura visible dentro de la zona que est\u00e9 afectada por la magia y, si el efecto lo cre\u00f3 un conjuro, distingues a qu\u00e9 escuela m\u00e1gica pertenece.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina de plomo."
+    ],
     "materiales": null
   },
   {
@@ -395,7 +425,10 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Hasta que el conjuro termine, percibes la ubicaci\u00f3n de venenos, criaturas venenosas y enfermedades m\u00e1gicas a 9 m o menos de ti, e identificas el tipo de veneno, criatura o enfermedad en cada caso.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina fina de plomo.",
+    "descripcion": [
+      "Hasta que el conjuro termine, percibes la ubicaci\u00f3n de venenos, criaturas venenosas y enfermedades m\u00e1gicas a 30 pies o menos de ti, e identificas el tipo de veneno, criatura o enfermedad en cada caso.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina fina de plomo.",
+      "Hasta que el conjuro termine, percibes la ubicaci\u00f3n de venenos, criaturas venenosas y enfermedades m\u00e1gicas a 9 m o menos de ti, e identificas el tipo de veneno, criatura o enfermedad en cada caso.<br><br>El conjuro no puede atravesar 30 cm de piedra, tierra o madera, 2,5 cm de metal o una l\u00e1mina fina de plomo."
+    ],
     "materiales": "Una hoja de tejo."
   },
   {
@@ -420,7 +453,10 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Este conjuro crea un plano de fuerza horizontal de 90 cm de di\u00e1metro y 2,5 cm de grosor que flota 90 cm por encima del suelo en un espacio sin ocupar de tu elecci\u00f3n que puedas ver dentro del alcance. El disco dura hasta que termine el conjuro y puede soportar hasta un peso de 250 kg. Si se le coloca m\u00e1s peso sobre \u00e9l, el conjuro termina y todo lo que se apoyaba sobre el disco cae al suelo.<br><br>El disco se mueve con el objetivo a 6 m o menos de \u00e9l. Si te alejas a m\u00e1s de 6 m de \u00e9l, te seguir\u00e1 para mantenerse a 6 m de ti. Se puede mover por terreno irregular y subir y bajar escaleras, pendientes y similares, pero no puede superar un cambio de elevaci\u00f3n de 3 m o m\u00e1s. Por ejemplo, el disco no puede cruzar un pozo de 3 m de profundidad ni salir de \u00e9l si se crea en el fondo de este.<br><br>Si te alejas m\u00e1s de 30 m del disco (normalmente, porque no pueda superar un obst\u00e1culo para seguirte), el conjuro termina.",
+    "descripcion": [
+      "Este conjuro crea un plano de fuerza horizontal de 90 cm de di\u00e1metro y 2,5 cm de grosor que flota 90 cm por encima del suelo en un espacio sin ocupar de tu elecci\u00f3n que puedas ver dentro del alcance. El disco dura hasta que termine el conjuro y puede soportar hasta un peso de 250 kg. Si se le coloca m\u00e1s peso sobre \u00e9l, el conjuro termina y todo lo que se apoyaba sobre el disco cae al suelo.<br><br>El disco se mueve con el objetivo a 20 pies o menos de \u00e9l. Si te alejas a m\u00e1s de 20 pies de \u00e9l, te seguir\u00e1 para mantenerse a 20 pies de ti. Se puede mover por terreno irregular y subir y bajar escaleras, pendientes y similares, pero no puede superar un cambio de elevaci\u00f3n de 10 pies o m\u00e1s. Por ejemplo, el disco no puede cruzar un pozo de 10 pies de profundidad ni salir de \u00e9l si se crea en el fondo de este.<br><br>Si te alejas m\u00e1s de 100 pies del disco (normalmente, porque no pueda superar un obst\u00e1culo para seguirte), el conjuro termina.",
+      "Este conjuro crea un plano de fuerza horizontal de 90 cm de di\u00e1metro y 2,5 cm de grosor que flota 90 cm por encima del suelo en un espacio sin ocupar de tu elecci\u00f3n que puedas ver dentro del alcance. El disco dura hasta que termine el conjuro y puede soportar hasta un peso de 250 kg. Si se le coloca m\u00e1s peso sobre \u00e9l, el conjuro termina y todo lo que se apoyaba sobre el disco cae al suelo.<br><br>El disco se mueve con el objetivo a 6 m o menos de \u00e9l. Si te alejas a m\u00e1s de 6 m de \u00e9l, te seguir\u00e1 para mantenerse a 6 m de ti. Se puede mover por terreno irregular y subir y bajar escaleras, pendientes y similares, pero no puede superar un cambio de elevaci\u00f3n de 3 m o m\u00e1s. Por ejemplo, el disco no puede cruzar un pozo de 3 m de profundidad ni salir de \u00e9l si se crea en el fondo de este.<br><br>Si te alejas m\u00e1s de 30 m del disco (normalmente, porque no pueda superar un obst\u00e1culo para seguirte), el conjuro termina."
+    ],
     "materiales": "Una gota de mercurio."
   },
   {
@@ -470,7 +506,10 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Todas las criaturas de tu elecci\u00f3n en una esfera de 1,5 m de radio centrada en un punto del alcance se ver\u00e1n afectadas en funci\u00f3n del resultado de la tirada de dados de vida. Una criatura ser\u00e1 afectada si su salud es igual o menor que la cantidad restante de puntos del efecto. El conjuro termina sobre un objetivo si recibe da\u00f1o o si alguien, a 1,5 m o menos de \u00e9l, lo emplea una acci\u00f3n para zarandearlo y poner fin al efecto del conjuro.<br><br>Las criaturas que no duermen, como los elfos, o que tengan inmunidad al estado de cansancio superan autom\u00e1ticamente las tiradas de salvaci\u00f3n contra este conjuro.",
+    "descripcion": [
+      "Todas las criaturas de tu elecci\u00f3n en una esfera de 5 pies de radio centrada en un punto del alcance se ver\u00e1n afectadas en funci\u00f3n del resultado de la tirada de dados de vida. Una criatura ser\u00e1 afectada si su salud es igual o menor que la cantidad restante de puntos del efecto. El conjuro termina sobre un objetivo si recibe da\u00f1o o si alguien, a 5 pies o menos de \u00e9l, lo emplea una acci\u00f3n para zarandearlo y poner fin al efecto del conjuro.<br><br>Las criaturas que no duermen, como los elfos, o que tengan inmunidad al estado de cansancio superan autom\u00e1ticamente las tiradas de salvaci\u00f3n contra este conjuro.",
+      "Todas las criaturas de tu elecci\u00f3n en una esfera de 1,5 m de radio centrada en un punto del alcance se ver\u00e1n afectadas en funci\u00f3n del resultado de la tirada de dados de vida. Una criatura ser\u00e1 afectada si su salud es igual o menor que la cantidad restante de puntos del efecto. El conjuro termina sobre un objetivo si recibe da\u00f1o o si alguien, a 1,5 m o menos de \u00e9l, lo emplea una acci\u00f3n para zarandearlo y poner fin al efecto del conjuro.<br><br>Las criaturas que no duermen, como los elfos, o que tengan inmunidad al estado de cansancio superan autom\u00e1ticamente las tiradas de salvaci\u00f3n contra este conjuro."
+    ],
     "materiales": "Una pizca de arena o p\u00e9talos de rosa."
   },
   {
@@ -493,7 +532,10 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Intentar forzar a un duelo a una criatura que puedas ver y se encuentre dentro del alcance, oblig\u00e1ndole a realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Al fallar, el objetivo no podr\u00e1 alejarse a m\u00e1s de 9 m de ti y tendr\u00e1 desventaja en tiradas de ataque cuyo objetivo no seas t\u00fa. El conjuro termina si:<ul><li>Realizas un ataque o conjuro contra otro objetivo.</li><li>La criatura es da\u00f1ada por uno de tus aliados.</li><li>Acabas tu turno en una distancia superior a 9 m de la criatura.</li></ul>",
+    "descripcion": [
+      "Intentar forzar a un duelo a una criatura que puedas ver y se encuentre dentro del alcance, oblig\u00e1ndole a realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Al fallar, el objetivo no podr\u00e1 alejarse a m\u00e1s de 30 pies de ti y tendr\u00e1 desventaja en tiradas de ataque cuyo objetivo no seas t\u00fa. El conjuro termina si:<ul><li>Realizas un ataque o conjuro contra otro objetivo.</li><li>La criatura es da\u00f1ada por uno de tus aliados.</li><li>Acabas tu turno en una distancia superior a 30 pies de la criatura.</li></ul>",
+      "Intentar forzar a un duelo a una criatura que puedas ver y se encuentre dentro del alcance, oblig\u00e1ndole a realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Al fallar, el objetivo no podr\u00e1 alejarse a m\u00e1s de 9 m de ti y tendr\u00e1 desventaja en tiradas de ataque cuyo objetivo no seas t\u00fa. El conjuro termina si:<ul><li>Realizas un ataque o conjuro contra otro objetivo.</li><li>La criatura es da\u00f1ada por uno de tus aliados.</li><li>Acabas tu turno en una distancia superior a 9 m de la criatura.</li></ul>"
+    ],
     "materiales": null
   },
   {
@@ -545,7 +587,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Obtienes los servicios de un familiar, un esp\u00edritu que adopta forma animal. Puedes elegir: ara\u00f1a, b\u00faho, comadreja, cuervo, gato, halc\u00f3n, lagarto, murci\u00e9lago, pulpo, rana, rata o un pez con un valor de desaf\u00edo de 0. El familiar, que aparecer\u00e1 en un espacio sin ocupar dentro del alcance, tiene el perfil de la forma elegida (consulta el ap\u00e9ndice B), aunque es un celestial, un fe\u00e9rico o un infernal (a tu elecci\u00f3n) en vez de una bestia. Tu familiar act\u00faa con independencia de ti, pero obedece tus \u00f3rdenes.<br><br><b>Conexi\u00f3n telep\u00e1tica.</b> Mientras tu familiar est\u00e9 a 30 m o menos de ti, puedes comunicarte con \u00e9l telep\u00e1ticamente. Adem\u00e1s, como acci\u00f3n adicional, puedes ver a trav\u00e9s de sus ojos y escuchar lo que oiga hasta el principio de tu siguiente turno, y tambi\u00e9n obtienes los beneficios de cualquier sentido especial que tenga.<br><br>Por \u00faltimo, cuando lances un conjuro con un alcance de toque, puedes hacer que tu familiar sea quien toque al objetivo. Tu familiar debe estar a 30 m o menos de ti y debe usar una reacci\u00f3n para tocar al objetivo cuando lances el conjuro.<br><br><b>Combate.</b> El familiar se considera un aliado para tus aliados y para ti; tira su propia iniciativa y act\u00faa en su propio turno. Un familiar no puede atacar, pero puede realizar otras acciones de manera normal.<br><br><b>Desaparici\u00f3n del familiar.</b> Si los puntos de golpe del familiar se reducen a 0, desaparecer\u00e1 y reaparecer\u00e1 despu\u00e9s de que vuelvas a lanzar este conjuro. Como acci\u00f3n de magia, puedes hacer que el familiar se retire temporalmente a una dimensi\u00f3n de bolsillo. Como alternativa, puedes hacer que se desvanezca para siempre. Como acci\u00f3n de magia mientras est\u00e9 desaparecido temporalmente, puedes hacer que reaparezca en un espacio sin ocupar a 9 m o menos de ti. Siempre que sus puntos de golpe se reduzcan a 0 o que el familiar se retire a la dimensi\u00f3n de bolsillo, dejar\u00e1 de transportar o equipar cualquier cosa que estuviera usando o llevase.<br><br><b>Un solo familiar.</b> No puedes tener m\u00e1s de un familiar al mismo tiempo. Si lanzas este conjuro mientras tengas un familiar, har\u00e1s que adopte una nueva forma que cumpla los requisitos.",
+    "descripcion": [
+      "Obtienes los servicios de un familiar, un esp\u00edritu que adopta forma animal. Puedes elegir: ara\u00f1a, b\u00faho, comadreja, cuervo, gato, halc\u00f3n, lagarto, murci\u00e9lago, pulpo, rana, rata o un pez con un valor de desaf\u00edo de 0. El familiar, que aparecer\u00e1 en un espacio sin ocupar dentro del alcance, tiene el perfil de la forma elegida (consulta el ap\u00e9ndice B), aunque es un celestial, un fe\u00e9rico o un infernal (a tu elecci\u00f3n) en vez de una bestia. Tu familiar act\u00faa con independencia de ti, pero obedece tus \u00f3rdenes.<br><br><b>Conexi\u00f3n telep\u00e1tica.</b> Mientras tu familiar est\u00e9 a 100 pies o menos de ti, puedes comunicarte con \u00e9l telep\u00e1ticamente. Adem\u00e1s, como acci\u00f3n adicional, puedes ver a trav\u00e9s de sus ojos y escuchar lo que oiga hasta el principio de tu siguiente turno, y tambi\u00e9n obtienes los beneficios de cualquier sentido especial que tenga.<br><br>Por \u00faltimo, cuando lances un conjuro con un alcance de toque, puedes hacer que tu familiar sea quien toque al objetivo. Tu familiar debe estar a 100 pies o menos de ti y debe usar una reacci\u00f3n para tocar al objetivo cuando lances el conjuro.<br><br><b>Combate.</b> El familiar se considera un aliado para tus aliados y para ti; tira su propia iniciativa y act\u00faa en su propio turno. Un familiar no puede atacar, pero puede realizar otras acciones de manera normal.<br><br><b>Desaparici\u00f3n del familiar.</b> Si los puntos de golpe del familiar se reducen a 0, desaparecer\u00e1 y reaparecer\u00e1 despu\u00e9s de que vuelvas a lanzar este conjuro. Como acci\u00f3n de magia, puedes hacer que el familiar se retire temporalmente a una dimensi\u00f3n de bolsillo. Como alternativa, puedes hacer que se desvanezca para siempre. Como acci\u00f3n de magia mientras est\u00e9 desaparecido temporalmente, puedes hacer que reaparezca en un espacio sin ocupar a 30 pies o menos de ti. Siempre que sus puntos de golpe se reduzcan a 0 o que el familiar se retire a la dimensi\u00f3n de bolsillo, dejar\u00e1 de transportar o equipar cualquier cosa que estuviera usando o llevase.<br><br><b>Un solo familiar.</b> No puedes tener m\u00e1s de un familiar al mismo tiempo. Si lanzas este conjuro mientras tengas un familiar, har\u00e1s que adopte una nueva forma que cumpla los requisitos.",
+      "Obtienes los servicios de un familiar, un esp\u00edritu que adopta forma animal. Puedes elegir: ara\u00f1a, b\u00faho, comadreja, cuervo, gato, halc\u00f3n, lagarto, murci\u00e9lago, pulpo, rana, rata o un pez con un valor de desaf\u00edo de 0. El familiar, que aparecer\u00e1 en un espacio sin ocupar dentro del alcance, tiene el perfil de la forma elegida (consulta el ap\u00e9ndice B), aunque es un celestial, un fe\u00e9rico o un infernal (a tu elecci\u00f3n) en vez de una bestia. Tu familiar act\u00faa con independencia de ti, pero obedece tus \u00f3rdenes.<br><br><b>Conexi\u00f3n telep\u00e1tica.</b> Mientras tu familiar est\u00e9 a 30 m o menos de ti, puedes comunicarte con \u00e9l telep\u00e1ticamente. Adem\u00e1s, como acci\u00f3n adicional, puedes ver a trav\u00e9s de sus ojos y escuchar lo que oiga hasta el principio de tu siguiente turno, y tambi\u00e9n obtienes los beneficios de cualquier sentido especial que tenga.<br><br>Por \u00faltimo, cuando lances un conjuro con un alcance de toque, puedes hacer que tu familiar sea quien toque al objetivo. Tu familiar debe estar a 30 m o menos de ti y debe usar una reacci\u00f3n para tocar al objetivo cuando lances el conjuro.<br><br><b>Combate.</b> El familiar se considera un aliado para tus aliados y para ti; tira su propia iniciativa y act\u00faa en su propio turno. Un familiar no puede atacar, pero puede realizar otras acciones de manera normal.<br><br><b>Desaparici\u00f3n del familiar.</b> Si los puntos de golpe del familiar se reducen a 0, desaparecer\u00e1 y reaparecer\u00e1 despu\u00e9s de que vuelvas a lanzar este conjuro. Como acci\u00f3n de magia, puedes hacer que el familiar se retire temporalmente a una dimensi\u00f3n de bolsillo. Como alternativa, puedes hacer que se desvanezca para siempre. Como acci\u00f3n de magia mientras est\u00e9 desaparecido temporalmente, puedes hacer que reaparezca en un espacio sin ocupar a 9 m o menos de ti. Siempre que sus puntos de golpe se reduzcan a 0 o que el familiar se retire a la dimensi\u00f3n de bolsillo, dejar\u00e1 de transportar o equipar cualquier cosa que estuviera usando o llevase.<br><br><b>Un solo familiar.</b> No puedes tener m\u00e1s de un familiar al mismo tiempo. Si lanzas este conjuro mientras tengas un familiar, har\u00e1s que adopte una nueva forma que cumpla los requisitos."
+    ],
     "materiales": "Incienso para quemar que valga al menos 10 po, que se consume como parte del conjuro."
   },
   {
@@ -570,7 +615,10 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
-    "descripcion": "Unas plantas apresadoras surgen del suelo en un cuadrado de 6 m de lado dentro del alcance. Hasta que termine el conjuro, estas plantas convertir\u00e1n la zona en terreno dif\u00edcil y desaparecer\u00e1n cuando el conjuro termine.<br><br>Cada criatura (excepto t\u00fa) que est\u00e9 en la zona cuando lances el conjuro deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o tendr\u00e1 el estado de apresada hasta que el conjuro termine. Una criatura apresada puede emplear una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, se liberar\u00e1 de las plantas y dejar\u00e1 de estar apresada por ellas.",
+    "descripcion": [
+      "Unas plantas apresadoras surgen del suelo en un cuadrado de 20 pies de lado dentro del alcance. Hasta que termine el conjuro, estas plantas convertir\u00e1n la zona en terreno dif\u00edcil y desaparecer\u00e1n cuando el conjuro termine.<br><br>Cada criatura (excepto t\u00fa) que est\u00e9 en la zona cuando lances el conjuro deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o tendr\u00e1 el estado de apresada hasta que el conjuro termine. Una criatura apresada puede emplear una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, se liberar\u00e1 de las plantas y dejar\u00e1 de estar apresada por ellas.",
+      "Unas plantas apresadoras surgen del suelo en un cuadrado de 6 m de lado dentro del alcance. Hasta que termine el conjuro, estas plantas convertir\u00e1n la zona en terreno dif\u00edcil y desaparecer\u00e1n cuando el conjuro termine.<br><br>Cada criatura (excepto t\u00fa) que est\u00e9 en la zona cuando lances el conjuro deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o tendr\u00e1 el estado de apresada hasta que el conjuro termine. Una criatura apresada puede emplear una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros. Si la supera, se liberar\u00e1 de las plantas y dejar\u00e1 de estar apresada por ellas."
+    ],
     "materiales": null
   },
   {
@@ -595,7 +643,10 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Hasta que el conjuro termine, entiendes el significado literal de las palabras que escuches o veas signadas en cualquier idioma. Tambi\u00e9n comprendes todas las palabras escritas que ves, independientemente del idioma en el que est\u00e9n, pero debes tocar la superficie en la que est\u00e9n inscritas. Tardas aproximadamente 1 minuto en leer una p\u00e1gina. Este conjuro no descifra mensajes secretos ni s\u00edmbolos.",
+    "descripcion": [
+      "Hasta que el conjuro termine, entiendes el significado literal de las palabras que escuches o veas signadas en cualquier idioma. Tambi\u00e9n comprendes todas las palabras escritas que ves, independientemente del idioma en el que est\u00e9n, pero debes tocar la superficie en la que est\u00e9n inscritas. Tardas aproximadamente 3 piesinuto en leer una p\u00e1gina. Este conjuro no descifra mensajes secretos ni s\u00edmbolos.",
+      "Hasta que el conjuro termine, entiendes el significado literal de las palabras que escuches o veas signadas en cualquier idioma. Tambi\u00e9n comprendes todas las palabras escritas que ves, independientemente del idioma en el que est\u00e9n, pero debes tocar la superficie en la que est\u00e9n inscritas. Tardas aproximadamente 1 minuto en leer una p\u00e1gina. Este conjuro no descifra mensajes secretos ni s\u00edmbolos."
+    ],
     "materiales": "Una pizca de holl\u00edn y sal."
   },
   {
@@ -711,7 +762,10 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "El conjuro ilumina con luz azul, verde o violeta, a tu elecci\u00f3n, el contorno de los objetos en un cubo de 6 m de lado dentro del alcance. Tambi\u00e9n se ilumina el contorno de cualquier criatura dentro del cubo que falle una tirada de salvaci\u00f3n de Destreza. Hasta que termine el conjuro, los objetos y criaturas afectados emitir\u00e1n luz tenue en un radio de 3 m y no podr\u00e1n beneficiarse del estado de invisibles.<br><br>Las tiradas de ataque contra las criaturas u objetos afectados tendr\u00e1n ventaja si el atacante puede verlos.",
+    "descripcion": [
+      "El conjuro ilumina con luz azul, verde o violeta, a tu elecci\u00f3n, el contorno de los objetos en un cubo de 20 pies de lado dentro del alcance. Tambi\u00e9n se ilumina el contorno de cualquier criatura dentro del cubo que falle una tirada de salvaci\u00f3n de Destreza. Hasta que termine el conjuro, los objetos y criaturas afectados emitir\u00e1n luz tenue en un radio de 10 pies y no podr\u00e1n beneficiarse del estado de invisibles.<br><br>Las tiradas de ataque contra las criaturas u objetos afectados tendr\u00e1n ventaja si el atacante puede verlos.",
+      "El conjuro ilumina con luz azul, verde o violeta, a tu elecci\u00f3n, el contorno de los objetos en un cubo de 6 m de lado dentro del alcance. Tambi\u00e9n se ilumina el contorno de cualquier criatura dentro del cubo que falle una tirada de salvaci\u00f3n de Destreza. Hasta que termine el conjuro, los objetos y criaturas afectados emitir\u00e1n luz tenue en un radio de 3 m y no podr\u00e1n beneficiarse del estado de invisibles.<br><br>Las tiradas de ataque contra las criaturas u objetos afectados tendr\u00e1n ventaja si el atacante puede verlos."
+    ],
     "materiales": null
   },
   {
@@ -757,7 +811,10 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Una grasa no inflamable cubre una zona cuadrada del suelo de 3 m de lado centrada en un punto dentro del alcance y que la convierte en terreno dif\u00edcil hasta que termine el conjuro.<br><br>Cuando aparezca la grasa, las criaturas que haya en esa zona deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o tendr\u00e1n el estado de derribadas. Una criatura que entre en la zona o termine su turno ah\u00ed deber\u00e1 superar esa tirada de salvaci\u00f3n o caer\u00e1 derribada.",
+    "descripcion": [
+      "Una grasa no inflamable cubre una zona cuadrada del suelo de 10 pies de lado centrada en un punto dentro del alcance y que la convierte en terreno dif\u00edcil hasta que termine el conjuro.<br><br>Cuando aparezca la grasa, las criaturas que haya en esa zona deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o tendr\u00e1n el estado de derribadas. Una criatura que entre en la zona o termine su turno ah\u00ed deber\u00e1 superar esa tirada de salvaci\u00f3n o caer\u00e1 derribada.",
+      "Una grasa no inflamable cubre una zona cuadrada del suelo de 3 m de lado centrada en un punto dentro del alcance y que la convierte en terreno dif\u00edcil hasta que termine el conjuro.<br><br>Cuando aparezca la grasa, las criaturas que haya en esa zona deber\u00e1n superar una tirada de salvaci\u00f3n de Destreza o tendr\u00e1n el estado de derribadas. Una criatura que entre en la zona o termine su turno ah\u00ed deber\u00e1 superar esa tirada de salvaci\u00f3n o caer\u00e1 derribada."
+    ],
     "materiales": "Un poco de piel de cerdo o de mantequilla."
   },
   {
@@ -881,7 +938,10 @@
     "duracion": "Hasta 10 minutos",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas una imagen de un objeto, una criatura u otro tipo de fen\u00f3meno visible cuyas dimensiones no excedan las de un cubo de 4,5 m de lado. La imagen aparece en un sitio dentro del alcance y se mantiene hasta el final del conjuro. La imagen es solamente visual; no est\u00e1 acompa\u00f1ada de sonido, olor u otros efectos sensoriales.<br><br>Como acci\u00f3n de magia, puedes mover la imagen a cualquier sitio dentro del alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla. Si una criatura emplea una acci\u00f3n de estudiar para examinar la imagen, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, no se dejar\u00e1 enga\u00f1ar por ella.",
+    "descripcion": [
+      "Creas una imagen de un objeto, una criatura u otro tipo de fen\u00f3meno visible cuyas dimensiones no excedan las de un cubo de 15 pies de lado. La imagen aparece en un sitio dentro del alcance y se mantiene hasta el final del conjuro. La imagen es solamente visual; no est\u00e1 acompa\u00f1ada de sonido, olor u otros efectos sensoriales.<br><br>Como acci\u00f3n de magia, puedes mover la imagen a cualquier sitio dentro del alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla. Si una criatura emplea una acci\u00f3n de estudiar para examinar la imagen, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, no se dejar\u00e1 enga\u00f1ar por ella.",
+      "Creas una imagen de un objeto, una criatura u otro tipo de fen\u00f3meno visible cuyas dimensiones no excedan las de un cubo de 4,5 m de lado. La imagen aparece en un sitio dentro del alcance y se mantiene hasta el final del conjuro. La imagen es solamente visual; no est\u00e1 acompa\u00f1ada de sonido, olor u otros efectos sensoriales.<br><br>Como acci\u00f3n de magia, puedes mover la imagen a cualquier sitio dentro del alcance. Al cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales. Por ejemplo, si creas la imagen de una criatura y la mueves, puedes alterarla de forma que parezca estar andando.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas pueden atravesarla. Si una criatura emplea una acci\u00f3n de estudiar para examinar la imagen, puede determinar que es una ilusi\u00f3n si supera una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, no se dejar\u00e1 enga\u00f1ar por ella."
+    ],
     "materiales": "Un poco de vell\u00f3n."
   },
   {
@@ -949,7 +1009,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Una fina capa de llamas se proyecta desde ti. Todas las criaturas situadas en un cono de 4,5 m hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 3d6 de da\u00f1o de fuego si la fallan o la mitad del da\u00f1o si la superan.<br><br>Los objetos inflamables dentro del cono que no lleve o vista nadie empezar\u00e1n a arder.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": [
+      "Una fina capa de llamas se proyecta desde ti. Todas las criaturas situadas en un cono de 15 pies hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 3d6 de da\u00f1o de fuego si la fallan o la mitad del da\u00f1o si la superan.<br><br>Los objetos inflamables dentro del cono que no lleve o vista nadie empezar\u00e1n a arder.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio.",
+      "Una fina capa de llamas se proyecta desde ti. Todas las criaturas situadas en un cono de 4,5 m hacen una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1n 3d6 de da\u00f1o de fuego si la fallan o la mitad del da\u00f1o si la superan.<br><br>Los objetos inflamables dentro del cono que no lleve o vista nadie empezar\u00e1n a arder.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio."
+    ],
     "materiales": null
   },
   {
@@ -999,7 +1062,10 @@
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas una esfera de niebla de 6 m de radio centrada en un punto dentro del alcance. La esfera est\u00e1 muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea <i>r\u00e1faga de viento</i>).<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El radio de la niebla aumenta en 6 m por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": [
+      "Creas una esfera de niebla de 20 pies de radio centrada en un punto dentro del alcance. La esfera est\u00e1 muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea <i>r\u00e1faga de viento</i>).<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El radio de la niebla aumenta en 20 pies por cada nivel por encima de 1 que tenga el espacio.",
+      "Creas una esfera de niebla de 6 m de radio centrada en un punto dentro del alcance. La esfera est\u00e1 muy oscura y dura hasta que el conjuro termine o hasta que la disperse un viento fuerte (por ejemplo, el que crea <i>r\u00e1faga de viento</i>).<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El radio de la niebla aumenta en 6 m por cada nivel por encima de 1 que tenga el espacio."
+    ],
     "materiales": null
   },
   {
@@ -1023,7 +1089,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Desatas una ola de energ\u00eda atronadora. Todas las criaturas situadas en un cubo de 4,5 m de lado adyacente a ti har\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la fallan, recibir\u00e1n 2d8 de da\u00f1o de trueno y ser\u00e1n empujadas 3 m respecto a ti. Si la superan, solo sufrir\u00e1n la mitad de ese da\u00f1o.<br><br>Adem\u00e1s, a los objetos sueltos que est\u00e9n completamente dentro del cubo se les empujar\u00e1 3 m respecto a ti y la explosi\u00f3n atronadora podr\u00e1 o\u00edrse a 90 m de distancia.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": [
+      "Desatas una ola de energ\u00eda atronadora. Todas las criaturas situadas en un cubo de 15 pies de lado adyacente a ti har\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la fallan, recibir\u00e1n 2d8 de da\u00f1o de trueno y ser\u00e1n empujadas 10 pies respecto a ti. Si la superan, solo sufrir\u00e1n la mitad de ese da\u00f1o.<br><br>Adem\u00e1s, a los objetos sueltos que est\u00e9n completamente dentro del cubo se les empujar\u00e1 10 pies respecto a ti y la explosi\u00f3n atronadora podr\u00e1 o\u00edrse a 300 pies de distancia.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio.",
+      "Desatas una ola de energ\u00eda atronadora. Todas las criaturas situadas en un cubo de 4,5 m de lado adyacente a ti har\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la fallan, recibir\u00e1n 2d8 de da\u00f1o de trueno y ser\u00e1n empujadas 3 m respecto a ti. Si la superan, solo sufrir\u00e1n la mitad de ese da\u00f1o.<br><br>Adem\u00e1s, a los objetos sueltos que est\u00e9n completamente dentro del cubo se les empujar\u00e1 3 m respecto a ti y la explosi\u00f3n atronadora podr\u00e1 o\u00edrse a 90 m de distancia.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio."
+    ],
     "materiales": null
   },
   {
@@ -1074,7 +1143,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Das una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o verse obligado a obedecer la orden en su pr\u00f3ximo turno. Elige una de las siguientes \u00f3rdenes:<br><br><b>Ac\u00e9rcate.</b> El objetivo se acerca a ti por la ruta m\u00e1s corta y directa posible, y su turno acaba si se sit\u00faa a 1,5 m o menos de ti.<br><br><b>Detente.</b> En su turno, el objetivo no se mueve y no usa acciones ni acciones adicionales.<br><br><b>Huye.</b> El objetivo empieza su turno en alejarse de ti de la manera m\u00e1s r\u00e1pida posible.<br><br><b>P\u00f3strate.</b> El objetivo adopta el estado de derribado y termina su turno.<br><br><b>Suelta.</b> El objetivo deja lo que sea que est\u00e9 sujetando y acaba su turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": [
+      "Das una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o verse obligado a obedecer la orden en su pr\u00f3ximo turno. Elige una de las siguientes \u00f3rdenes:<br><br><b>Ac\u00e9rcate.</b> El objetivo se acerca a ti por la ruta m\u00e1s corta y directa posible, y su turno acaba si se sit\u00faa a 5 pies o menos de ti.<br><br><b>Detente.</b> En su turno, el objetivo no se mueve y no usa acciones ni acciones adicionales.<br><br><b>Huye.</b> El objetivo empieza su turno en alejarse de ti de la manera m\u00e1s r\u00e1pida posible.<br><br><b>P\u00f3strate.</b> El objetivo adopta el estado de derribado y termina su turno.<br><br><b>Suelta.</b> El objetivo deja lo que sea que est\u00e9 sujetando y acaba su turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+      "Das una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o verse obligado a obedecer la orden en su pr\u00f3ximo turno. Elige una de las siguientes \u00f3rdenes:<br><br><b>Ac\u00e9rcate.</b> El objetivo se acerca a ti por la ruta m\u00e1s corta y directa posible, y su turno acaba si se sit\u00faa a 1,5 m o menos de ti.<br><br><b>Detente.</b> En su turno, el objetivo no se mueve y no usa acciones ni acciones adicionales.<br><br><b>Huye.</b> El objetivo empieza su turno en alejarse de ti de la manera m\u00e1s r\u00e1pida posible.<br><br><b>P\u00f3strate.</b> El objetivo adopta el estado de derribado y termina su turno.<br><br><b>Suelta.</b> El objetivo deja lo que sea que est\u00e9 sujetando y acaba su turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes afectar a una criatura adicional por cada nivel por encima de 1 que tenga el espacio."
+    ],
     "materiales": null
   },
   {
@@ -1099,7 +1171,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance recupera una cantidad de puntos de golpe igual a 2d4 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 2d4 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": [
+      "Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance recupera una cantidad de puntos de golpe igual a 2d13 pies\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 2d4 por cada nivel por encima de 1 que tenga el espacio.",
+      "Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance recupera una cantidad de puntos de golpe igual a 2d4 m\u00e1s tu modificador por aptitud m\u00e1gica.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La curaci\u00f3n aumenta en 2d4 por cada nivel por encima de 1 que tenga el espacio."
+    ],
     "materiales": null
   },
   {
@@ -1203,7 +1278,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Eliminas el veneno y la podredumbre de la comida y bebida no m\u00e1gicas en una esfera de 1,5 m de radio centrada en un punto dentro del alcance.",
+    "descripcion": [
+      "Eliminas el veneno y la podredumbre de la comida y bebida no m\u00e1gicas en una esfera de 5 pies de radio centrada en un punto dentro del alcance.",
+      "Eliminas el veneno y la podredumbre de la comida y bebida no m\u00e1gicas en una esfera de 1,5 m de radio centrada en un punto dentro del alcance."
+    ],
     "materiales": null
   },
   {
@@ -1353,7 +1431,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Emite una r\u00e1faga de luces brillantes y parpadeantes de m\u00faltiples colores. Todas las criaturas situadas en un cono de 4,5 m que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o tendr\u00e1n el estado de cegadas hasta el final de tu siguiente turno.",
+    "descripcion": [
+      "Emite una r\u00e1faga de luces brillantes y parpadeantes de m\u00faltiples colores. Todas las criaturas situadas en un cono de 15 pies que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o tendr\u00e1n el estado de cegadas hasta el final de tu siguiente turno.",
+      "Emite una r\u00e1faga de luces brillantes y parpadeantes de m\u00faltiples colores. Todas las criaturas situadas en un cono de 4,5 m que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o tendr\u00e1n el estado de cegadas hasta el final de tu siguiente turno."
+    ],
     "materiales": "Una pizca de arena de colores."
   },
   {
@@ -1402,7 +1483,10 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tocas a una criatura voluntaria. Una vez en cada uno de sus turnos hasta que el conjuro termine, la criatura puede saltar hasta 9 m usando 3 m de movimiento.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": [
+      "Tocas a una criatura voluntaria. Una vez en cada uno de sus turnos hasta que el conjuro termine, la criatura puede saltar hasta 30 pies usando 10 pies de movimiento.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+      "Tocas a una criatura voluntaria. Una vez en cada uno de sus turnos hasta que el conjuro termine, la criatura puede saltar hasta 9 m usando 3 m de movimiento.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio."
+    ],
     "materiales": "La pata trasera de un saltamontes."
   },
   {
@@ -1454,7 +1538,10 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Este conjuro crea una fuerza invisible de tama\u00f1o Mediano, sin mente y sin forma, que realiza las tareas sencillas que le ordenes hasta que el conjuro termine. El sirviente surge en un espacio sin ocupar en el suelo dentro del alcance. Tiene una CA de 10, 1 punto de golpe, una Fuerza de 2 y no puede atacar. Si sus puntos de golpe se reducen a 0, el conjuro termina.<br><br>Una vez en cada uno de tus turnos como acci\u00f3n adicional, puedes ordenar mentalmente al sirviente que se mueva hasta 4,5 m y que interact\u00fae con un objeto. El sirviente puede realizar tareas sencillas que tambi\u00e9n podr\u00eda llevar a cabo un humano, como traer y llevar cosas, limpiar, remendar, plegar ropa, encender un fuego y servir comida o bebida. En cuanto das la orden, el sirviente realiza la tarea lo mejor que puede hasta que la completa y luego espera tu siguiente orden.<br><br>Si ordenas al sirviente que lleve a cabo una tarea que lo alejar\u00eda m\u00e1s de 18 m de ti, el conjuro termina.",
+    "descripcion": [
+      "Este conjuro crea una fuerza invisible de tama\u00f1o Mediano, sin mente y sin forma, que realiza las tareas sencillas que le ordenes hasta que el conjuro termine. El sirviente surge en un espacio sin ocupar en el suelo dentro del alcance. Tiene una CA de 10, 1 punto de golpe, una Fuerza de 2 y no puede atacar. Si sus puntos de golpe se reducen a 0, el conjuro termina.<br><br>Una vez en cada uno de tus turnos como acci\u00f3n adicional, puedes ordenar mentalmente al sirviente que se mueva hasta 15 pies y que interact\u00fae con un objeto. El sirviente puede realizar tareas sencillas que tambi\u00e9n podr\u00eda llevar a cabo un humano, como traer y llevar cosas, limpiar, remendar, plegar ropa, encender un fuego y servir comida o bebida. En cuanto das la orden, el sirviente realiza la tarea lo mejor que puede hasta que la completa y luego espera tu siguiente orden.<br><br>Si ordenas al sirviente que lleve a cabo una tarea que lo alejar\u00eda m\u00e1s de 60 pies de ti, el conjuro termina.",
+      "Este conjuro crea una fuerza invisible de tama\u00f1o Mediano, sin mente y sin forma, que realiza las tareas sencillas que le ordenes hasta que el conjuro termine. El sirviente surge en un espacio sin ocupar en el suelo dentro del alcance. Tiene una CA de 10, 1 punto de golpe, una Fuerza de 2 y no puede atacar. Si sus puntos de golpe se reducen a 0, el conjuro termina.<br><br>Una vez en cada uno de tus turnos como acci\u00f3n adicional, puedes ordenar mentalmente al sirviente que se mueva hasta 4,5 m y que interact\u00fae con un objeto. El sirviente puede realizar tareas sencillas que tambi\u00e9n podr\u00eda llevar a cabo un humano, como traer y llevar cosas, limpiar, remendar, plegar ropa, encender un fuego y servir comida o bebida. En cuanto das la orden, el sirviente realiza la tarea lo mejor que puede hasta que la completa y luego espera tu siguiente orden.<br><br>Si ordenas al sirviente que lleve a cabo una tarea que lo alejar\u00eda m\u00e1s de 18 m de ti, el conjuro termina."
+    ],
     "materiales": "Un trozo de cuerda y uno de madera."
   },
   {
@@ -1521,7 +1608,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Al impactar contra una criatura objetivo, una lluvia de espinas emana de tu arma o de su munici\u00f3n afectando a la criatura objetivo y a todas las criaturas en un rado de 1,5 m. Toda criatura que se encuentre dentro de la lluvia de espinas deber\u00e1 de superar una tirada de salvaci\u00f3n de destreza, recibiendo 1d10 de da\u00f1o perforante si la fallan y la mitad si la superan.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o producido aumenta en 1d10 por cada espacio de nivel utilizado superior a 1.",
+    "descripcion": [
+      "Al impactar contra una criatura objetivo, una lluvia de espinas emana de tu arma o de su munici\u00f3n afectando a la criatura objetivo y a todas las criaturas en un rado de 5 pies. Toda criatura que se encuentre dentro de la lluvia de espinas deber\u00e1 de superar una tirada de salvaci\u00f3n de destreza, recibiendo 1d10 de da\u00f1o perforante si la fallan y la mitad si la superan.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o producido aumenta en 1d10 por cada espacio de nivel utilizado superior a 1.",
+      "Al impactar contra una criatura objetivo, una lluvia de espinas emana de tu arma o de su munici\u00f3n afectando a la criatura objetivo y a todas las criaturas en un rado de 1,5 m. Toda criatura que se encuentre dentro de la lluvia de espinas deber\u00e1 de superar una tirada de salvaci\u00f3n de destreza, recibiendo 1d10 de da\u00f1o perforante si la fallan y la mitad si la superan.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o producido aumenta en 1d10 por cada espacio de nivel utilizado superior a 1."
+    ],
     "materiales": null
   },
   {
@@ -1546,7 +1636,10 @@
     "duracion": "1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Tocas a una criatura y su velocidad aumenta en 3 m hasta que el conjuro termine.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": [
+      "Tocas a una criatura y su velocidad aumenta en 10 pies hasta que el conjuro termine.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio.",
+      "Tocas a una criatura y su velocidad aumenta en 3 m hasta que el conjuro termine.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Puedes hacer objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio."
+    ],
     "materiales": "Una pizca de tierra."
   }
 ]
