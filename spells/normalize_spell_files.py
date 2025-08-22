@@ -32,6 +32,14 @@ def _norm_higher_level(text: str) -> str:
     return text
 
 
+def _convert_mass_to_imperial(text: str) -> str:
+    """Conversion from kg to lb."""
+    def convert_to_imperial(re_match: re.Match) -> str:
+        kilograms = float(re_match.group(1).replace(",", "."))
+        pounds = int(kilograms * 2)
+        return f"{pounds} lb"
+    return re.sub(r"((\d+[.,])?\d+) kg", convert_to_imperial, text)
+
 def _convert_large_distance_to_imperial(text: str) -> str:
     """Conversion from km to milla."""
     def convert_to_imperial(re_match: re.Match) -> str:
@@ -45,6 +53,8 @@ def normalizar_descripcion(text: str | list) -> str:
     if isinstance(text, str):
         text = _norm_new_lines(_norm_higher_level(text))
     else:
+        if " kg" in text[0]:
+            text[0] = _convert_mass_to_imperial(text[0])
         if " km" in text[0]:
             text[0] = _convert_large_distance_to_imperial(text[0])
         text = [_norm_new_lines(_norm_higher_level(t)) for t in text]
