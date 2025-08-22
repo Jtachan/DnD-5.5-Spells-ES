@@ -48,6 +48,14 @@ def _convert_large_distance_to_imperial(text: str) -> str:
         return f"{miles} millas" if miles > 1 else f"{miles} milla"
     return re.sub(r"((\d+[.,])?\d+) km", convert_to_imperial, text)
 
+def _convert_small_distance_to_imperial(text: str) -> str:
+    """Conversion from cm to in."""
+    def convert_to_imperial(re_match: re.Match) -> str:
+        centimeters = float(re_match.group(1).replace(",", "."))
+        inches = int(centimeters / 2.5)
+        return f"{inches} pulgada" if inches == 1 else f"{inches} pulgadas"
+    return re.sub(r"((\d+[.,])?\d+) cm", convert_to_imperial, text)
+
 def normalizar_descripcion(text: str | list) -> str:
     """Main function to normalize the spell description."""
     if isinstance(text, str):
@@ -57,6 +65,8 @@ def normalizar_descripcion(text: str | list) -> str:
             text[0] = _convert_mass_to_imperial(text[0])
         if " km" in text[0]:
             text[0] = _convert_large_distance_to_imperial(text[0])
+        if " cm" in text[0]:
+            text[0] = _convert_small_distance_to_imperial(text[0])
         text = [_norm_new_lines(_norm_higher_level(t)) for t in text]
     return text
 
