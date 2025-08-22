@@ -8,6 +8,8 @@ import re
 import json
 import os
 
+METRIC_DISTANCE_REGEX = r"((\d+,)?\d+) m( |.)"
+
 
 # ------ Field: 'descripcion' ------ #
 def _norm_new_lines(text: str) -> str:
@@ -30,11 +32,27 @@ def _norm_higher_level(text: str) -> str:
     return text
 
 
-def normalizar_descripcion(text: str) -> str:
+def normalizar_descripcion(text: str | list) -> str:
     """Main function to normalize the spell description."""
-    text = _norm_higher_level(text)
-    text = _norm_new_lines(text)
+    if isinstance(text, str):
+        text = _norm_new_lines(_norm_higher_level(text))
+    else:
+        text = [_norm_new_lines(_norm_higher_level(t)) for t in text]
     return text
+
+
+def expand_units_to_imperial(text: str) -> list[str]:
+    """Converting a description with the metric system into a list with imperial and metric.
+    This conversion consider only 'meters' -> 'feet'. Thus, all those other SI values (centimeters, kilograms, etc)
+    are not converted.
+    """
+    def convert_to_imperial(re_match: re.Match) -> str:
+        meters = float(re_match.group(1).replace(",", "."))
+        feet = int(meters * 5 / 1.5)
+        return f"{feet} pies" + re_match.group(len(re_match.groups()))
+
+    imperial_text = re.sub(METRIC_DISTANCE_REGEX, convert_to_imperial, text)
+    return [imperial_text, text]
 
 
 # ------ Field: 'materiales' ------ #
@@ -71,6 +89,8 @@ if __name__ == "__main__":
 
         # Performing all corrections (one per spell):
         for spell in spells:
+            if isinstance(spell["descripcion"], str) and re.search(METRIC_DISTANCE_REGEX, spell["descripcion"]):
+                spell["descripcion"] = expand_units_to_imperial(spell["descripcion"])
             spell["descripcion"] = normalizar_descripcion(spell["descripcion"])
 
             if spell["materiales"]:
