@@ -365,7 +365,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Creas 22,5 kg de comida y 120 l de agua potable en el suelo o en recipientes dentro del alcance, ideales para evitar los peligros de la desnutrici\u00f3n y la deshidrataci\u00f3n. La comida es sosa pero nutritiva y tiene el aspecto de una comida de tu elecci\u00f3n, mientras que el agua est\u00e1 limpia. La comida se estropea si no se consume en 24 horas.",
+    "descripcion": [
+      "Creas 11 galonesb de comida y 30 galones de agua potable en el suelo o en recipientes dentro del alcance, ideales para evitar los peligros de la desnutrici\u00f3n y la deshidrataci\u00f3n. La comida es sosa pero nutritiva y tiene el aspecto de una comida de tu elecci\u00f3n, mientras que el agua est\u00e1 limpia. La comida se estropea si no se consume en 24 horas.",
+      "Creas 22,5 kg de comida y 120 l de agua potable en el suelo o en recipientes dentro del alcance, ideales para evitar los peligros de la desnutrici\u00f3n y la deshidrataci\u00f3n. La comida es sosa pero nutritiva y tiene el aspecto de una comida de tu elecci\u00f3n, mientras que el agua est\u00e1 limpia. La comida se estropea si no se consume en 24 horas."
+    ],
     "materiales": null
   },
   {

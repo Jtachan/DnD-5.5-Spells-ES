@@ -485,7 +485,10 @@
     "duracion": "1 asalto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Se\u00f1alas a una criatura dentro del alcance y susurras un mensaje. El objetivo (y \u00fanicamente el objetivo) escucha el mensaje y puede responder con un susurro que solamente t\u00fa puedes o\u00edr.<br><br>Puedes lanzar este conjuro a trav\u00e9s de objetos f\u00edsicos si conoces al objetivo y sabes que est\u00e1 detr\u00e1s de la barrera. El silencio m\u00e1gico, 30 cm de piedra, metal o madera o una l\u00e1mina fina de plomo bloquean el conjuro.",
+    "descripcion": [
+      "Se\u00f1alas a una criatura dentro del alcance y susurras un mensaje. El objetivo (y \u00fanicamente el objetivo) escucha el mensaje y puede responder con un susurro que solamente t\u00fa puedes o\u00edr.<br><br>Puedes lanzar este conjuro a trav\u00e9s de objetos f\u00edsicos si conoces al objetivo y sabes que est\u00e1 detr\u00e1s de la barrera. El silencio m\u00e1gico, 12 pulgadas de piedra, metal o madera o una l\u00e1mina fina de plomo bloquean el conjuro.",
+      "Se\u00f1alas a una criatura dentro del alcance y susurras un mensaje. El objetivo (y \u00fanicamente el objetivo) escucha el mensaje y puede responder con un susurro que solamente t\u00fa puedes o\u00edr.<br><br>Puedes lanzar este conjuro a trav\u00e9s de objetos f\u00edsicos si conoces al objetivo y sabes que est\u00e1 detr\u00e1s de la barrera. El silencio m\u00e1gico, 30 cm de piedra, metal o madera o una l\u00e1mina fina de plomo bloquean el conjuro."
+    ],
     "materiales": "Un alambre de cobre."
   },
   {
@@ -591,7 +594,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Este conjuro repara una sola grieta o desgarr\u00f3n en un objeto que toques, como un eslab\u00f3n roto en una cadena, las dos mitades de una llave partida, una capa rasgada o una fuga en una bota de vino. Mientras la grieta o el desgarr\u00f3n no tenga m\u00e1s de 30 cm de tama\u00f1o en ninguna de sus dimensiones, lo arreglar\u00e1s sin dejar rastro del da\u00f1o.<br><br>Este conjuro puede reparar el componente f\u00edsico de un objeto m\u00e1gico, pero no puede restaurar su magia.",
+    "descripcion": [
+      "Este conjuro repara una sola grieta o desgarr\u00f3n en un objeto que toques, como un eslab\u00f3n roto en una cadena, las dos mitades de una llave partida, una capa rasgada o una fuga en una bota de vino. Mientras la grieta o el desgarr\u00f3n no tenga m\u00e1s de 12 pulgadas de tama\u00f1o en ninguna de sus dimensiones, lo arreglar\u00e1s sin dejar rastro del da\u00f1o.<br><br>Este conjuro puede reparar el componente f\u00edsico de un objeto m\u00e1gico, pero no puede restaurar su magia.",
+      "Este conjuro repara una sola grieta o desgarr\u00f3n en un objeto que toques, como un eslab\u00f3n roto en una cadena, las dos mitades de una llave partida, una capa rasgada o una fuga en una bota de vino. Mientras la grieta o el desgarr\u00f3n no tenga m\u00e1s de 30 cm de tama\u00f1o en ninguna de sus dimensiones, lo arreglar\u00e1s sin dejar rastro del da\u00f1o.<br><br>Este conjuro puede reparar el componente f\u00edsico de un objeto m\u00e1gico, pero no puede restaurar su magia."
+    ],
     "materiales": "Dos imanes naturales."
   },
   {

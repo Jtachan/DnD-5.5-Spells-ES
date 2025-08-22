@@ -8,7 +8,7 @@ import re
 import json
 import os
 
-METRIC_DISTANCE_REGEX = r"((\d+,)?\d+) m[\s.]"
+METRIC_DISTANCE_REGEX = r"((\d+,)?\d+) ([kmc]?m|kg|l)[\s.]"
 
 
 # ------ Field: 'descripcion' ------ #
@@ -32,41 +32,11 @@ def _norm_higher_level(text: str) -> str:
     return text
 
 
-def _convert_mass_to_imperial(text: str) -> str:
-    """Conversion from kg to lb."""
-    def convert_to_imperial(re_match: re.Match) -> str:
-        kilograms = float(re_match.group(1).replace(",", "."))
-        pounds = int(kilograms * 2)
-        return f"{pounds} lb"
-    return re.sub(r"((\d+[.,])?\d+) kg", convert_to_imperial, text)
-
-def _convert_large_distance_to_imperial(text: str) -> str:
-    """Conversion from km to milla."""
-    def convert_to_imperial(re_match: re.Match) -> str:
-        kilometers = float(re_match.group(1).replace(",", "."))
-        miles = int(kilometers / 1.5)
-        return f"{miles} millas" if miles > 1 else f"{miles} milla"
-    return re.sub(r"((\d+[.,])?\d+) km", convert_to_imperial, text)
-
-def _convert_small_distance_to_imperial(text: str) -> str:
-    """Conversion from cm to in."""
-    def convert_to_imperial(re_match: re.Match) -> str:
-        centimeters = float(re_match.group(1).replace(",", "."))
-        inches = int(centimeters / 2.5)
-        return f"{inches} pulgada" if inches == 1 else f"{inches} pulgadas"
-    return re.sub(r"((\d+[.,])?\d+) cm", convert_to_imperial, text)
-
 def normalizar_descripcion(text: str | list) -> str:
     """Main function to normalize the spell description."""
     if isinstance(text, str):
         text = _norm_new_lines(_norm_higher_level(text))
     else:
-        if " kg" in text[0]:
-            text[0] = _convert_mass_to_imperial(text[0])
-        if " km" in text[0]:
-            text[0] = _convert_large_distance_to_imperial(text[0])
-        if " cm" in text[0]:
-            text[0] = _convert_small_distance_to_imperial(text[0])
         text = [_norm_new_lines(_norm_higher_level(t)) for t in text]
     return text
 
@@ -76,12 +46,37 @@ def expand_units_to_imperial(text: str) -> list[str]:
     This conversion consider only 'meters' -> 'feet'. Thus, all those other SI values (centimeters, kilograms, etc)
     are not converted.
     """
-    def convert_to_imperial(re_match: re.Match) -> str:
+    def meters_to_feet(re_match: re.Match) -> str:
         meters = float(re_match.group(1).replace(",", "."))
         feet = int(meters * 5 / 1.5)
-        return f"{feet} pies" + re_match.group(len(re_match.groups()))
+        return f"{feet} pies"
 
-    imperial_text = re.sub(METRIC_DISTANCE_REGEX, convert_to_imperial, text)
+    def cm_to_inches(re_match: re.Match) -> str:
+        centimeters = float(re_match.group(1).replace(",", "."))
+        inches = int(centimeters / 2.5)
+        return f"{inches} pulgada" if inches == 1 else f"{inches} pulgadas"
+
+    def km_to_miles(re_match: re.Match) -> str:
+        kilometers = float(re_match.group(1).replace(",", "."))
+        miles = int(kilometers / 1.5)
+        return f"{miles} millas" if miles > 1 else f"{miles} milla"
+
+    def kg_to_pounds(re_match: re.Match) -> str:
+        kilograms = float(re_match.group(1).replace(",", "."))
+        pounds = int(kilograms * 2)
+        return f"{pounds} lb"
+
+    def liters_to_gallons(re_match: re.Match) -> str:
+        liters = float(re_match.group(1).replace(",", "."))
+        gallons = int(liters / 4)
+        return f"{gallons} galón" if gallons == 1 else f"{gallons} galones"
+
+    imperial_text = re.sub(r"((\d+,)?\d+) m", meters_to_feet, text)
+    imperial_text = re.sub(r"((\d+,)?\d+) cm", cm_to_inches, imperial_text)
+    imperial_text = re.sub(r"((\d+,)?\d+) km", km_to_miles, imperial_text)
+    imperial_text = re.sub(r"((\d+,)?\d+) kg", kg_to_pounds, imperial_text)
+    imperial_text = re.sub(r"((\d+,)?\d+) l", liters_to_gallons, imperial_text)
+
     return [imperial_text, text]
 
 
