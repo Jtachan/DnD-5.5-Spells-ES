@@ -8,7 +8,7 @@ import re
 import json
 import os
 
-METRIC_DISTANCE_REGEX = r"((\d+,)?\d+) m( |.)"
+METRIC_DISTANCE_REGEX = r"((\d+,)?\d+) m[\s.]"
 
 
 # ------ Field: 'descripcion' ------ #
