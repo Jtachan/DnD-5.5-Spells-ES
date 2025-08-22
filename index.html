@@ -191,6 +191,14 @@
       });
     }
 
+    function formatByUnit(field) {
+      if (Array.isArray(field)) {
+        if (rangeUnitSelect.value === 'pies') return field[0];
+        if (rangeUnitSelect.value === 'metros') return field[1];
+      }
+      return field;
+    }
+
     function renderTable() {
       let data = filtered;
       data = applySort(data);
@@ -209,13 +217,7 @@
           <td>${spell.nivel}</td>
           <td>${spell.tiempo_de_lanzamiento}</td>
           <td>${spell.ritual ? 'Sí' : 'No'}</td>
-          <td>${Array.isArray(spell.alcance)
-            ? (rangeUnitSelect.value === 'pies'
-                ? spell.alcance[0]
-                : rangeUnitSelect.value === 'metros'
-                  ? spell.alcance[1]
-                  : spell.alcance.join(' / '))
-            : spell.alcance}</td>
+          <td>${formatByUnit(spell.alcance)}</td>
           <td>${spell.visible ? 'Sí' : 'No'}</td>
           <td>${spell.componentes.join(', ')}</td>
           <td>${spell.concentracion ? 'Sí' : 'No'}</td>
@@ -226,7 +228,7 @@
         tr.addEventListener('click', () => {
           modalTitle.textContent = spell.nombre;
           modalMaterials.textContent = spell.materiales || 'Ninguno';
-          modalDescription.innerHTML = spell.descripcion;
+          modalDescription.innerHTML = formatByUnit(spell.descripcion);
           modal.style.display = 'block';
         });
         tableBody.appendChild(tr);
