@@ -3,29 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Lista de Conjuros</title>
-  <style>
-    body { font-family: sans-serif; margin: 20px; }
-    table { width: 100%; border-collapse: collapse; table-layout: auto; }
-    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; white-space: normal; word-wrap: break-word; }
-    th { background-color: #f2f2f2; }
-    th.sortable { cursor: pointer; position: relative; }
-    .sort-indicator { font-size: 0.6em; display: inline-block; vertical-align: middle; margin-left: 4px; }
-    .sort-indicator .asc, .sort-indicator .desc { display: block; line-height: 0.8em; color: #ccc; }
-    th.sortable.sorted-asc .sort-indicator .asc { color: #000; }
-    th.sortable.sorted-desc .sort-indicator .desc { color: #000; }
-    tr:hover { background-color: #f5f5f5; cursor: pointer; }
-    .controls { margin-bottom: 10px; }
-    .controls label, .controls input, .controls select { margin-right: 10px; }
-    .pagination { margin-top: 10px; }
-    button:disabled { opacity: 0.5; cursor: not-allowed; }
-
-    .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.4); }
-    .modal-content { background-color: #fff; margin: 10% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 500px; border-radius: 8px; }
-    .modal-close { float: right; font-size: 1.2em; font-weight: bold; cursor: pointer; }
-
-    blockquote { padding: 0.5em 1em; margin: 1em 0; color: #6a737d; background-color: #f6f8fa; }
-    #report-modal textarea { width: 100%; box-sizing: border-box; max-width: 100%; resize: vertical; }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>Conjuros</h1>
@@ -95,7 +73,7 @@
   </div>
 
   <div class="contact">
-    <button class="report-error-button" id="reportError" style="margin-top: 10px; background-color: khaki">
+    <button class="report-error-button" id="reportError">
       Reportar un error
     </button>
     <button id="ghBtn" class="github-button">Ver en GitHub</button>
