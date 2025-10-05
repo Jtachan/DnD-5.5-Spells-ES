@@ -102,7 +102,7 @@
       "Palad\u00edn"
     ],
     "escuela": "Encantamiento",
-    "tiempo_de_lanzamiento": "Acci\u00f3n adicional, que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -113,7 +113,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Se aplican 4d6 de da\u00f1o ps\u00edquico adicional junto con tu tirada de da\u00f1o correspondiente a tu ataque. La criatura que reciba el da\u00f1o deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o se le aplica el estado de aturdido hasta el final de tu siguiente turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Aumenta el da\u00f1o del conjuro en 1d4 por cada nivel superior al 4 correspondiente al espacio de conjuro utilizado.",
+    "descripcion": "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>Se aplican 4d6 de da\u00f1o ps\u00edquico adicional junto con tu tirada de da\u00f1o correspondiente a tu ataque. La criatura que reciba el da\u00f1o deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o se le aplica el estado de aturdido hasta el final de tu siguiente turno.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Aumenta el da\u00f1o del conjuro en 1d4 por cada nivel superior al 4 correspondiente al espacio de conjuro utilizado.",
     "materiales": null
   },
   {

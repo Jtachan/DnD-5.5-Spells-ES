@@ -157,7 +157,7 @@
       "Mago"
     ],
     "escuela": "Transmutaci\u00f3n",
-    "tiempo_de_lanzamiento": "Reacci\u00f3n, que llevas a cabo cuando t\u00fa o una criatura que puedes ver a 18 m o menos de ti caig\u00e1is",
+    "tiempo_de_lanzamiento": "Reacci\u00f3n",
     "ritual": false,
     "alcance": [
       "60 pies",
@@ -173,8 +173,8 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": [
-      "Elige hasta cinco criaturas dentro del alcance que est\u00e9n cayendo. La velocidad de descenso de cada objetivo se reduce a 60 pies  por asalto hasta que el conjuro termine. Si una criatura aterriza antes de que el conjuro termine, no sufrir\u00e1 da\u00f1o de la ca\u00edda y el conjuro terminar\u00e1 para esa criatura.",
-      "Elige hasta cinco criaturas dentro del alcance que est\u00e9n cayendo. La velocidad de descenso de cada objetivo se reduce a 18 m  por asalto hasta que el conjuro termine. Si una criatura aterriza antes de que el conjuro termine, no sufrir\u00e1 da\u00f1o de la ca\u00edda y el conjuro terminar\u00e1 para esa criatura."
+      "El conjuro se lleva a cabo cuando t\u00fa o una criatura que puedes ver a 18 m o menos de ti caig\u00e1is.<br><br>Elige hasta cinco criaturas dentro del alcance que est\u00e9n cayendo. La velocidad de descenso de cada objetivo se reduce a 60 pies  por asalto hasta que el conjuro termine. Si una criatura aterriza antes de que el conjuro termine, no sufrir\u00e1 da\u00f1o de la ca\u00edda y el conjuro terminar\u00e1 para esa criatura.",
+      "El conjuro se lleva a cabo cuando t\u00fa o una criatura que puedes ver a 18 m o menos de ti caig\u00e1is.<br><br>Elige hasta cinco criaturas dentro del alcance que est\u00e9n cayendo. La velocidad de descenso de cada objetivo se reduce a 18 m  por asalto hasta que el conjuro termine. Si una criatura aterriza antes de que el conjuro termine, no sufrir\u00e1 da\u00f1o de la ca\u00edda y el conjuro terminar\u00e1 para esa criatura."
     ],
     "materiales": "Una pluma peque\u00f1a o un poco de plum\u00f3n."
   },
@@ -184,7 +184,7 @@
       "Palad\u00edn"
     ],
     "escuela": "Evocaci\u00f3n",
-    "tiempo_de_lanzamiento": "Acci\u00f3n adicional, que realizas de inmediato tras acertar a un objetivo con un arma cuerpo a cuerpo o un ataque sin armas",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -195,7 +195,7 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "Se inflige 1d6 de da\u00f1o de fuego adicional al objetivo junto al da\u00f1o del ataque impactante. Durante cada uno de sus turnos, el objetivo ha de realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, el conjuro se mantiene activo y el objetivo sufre 1d6 de da\u00f1o de fuego. Si la supera, el conjuro se termina.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o equivale a tantos d6 como el nivel del espacio usado.",
+    "descripcion": "El conjuro se realiza de inmediato tras acertar al objetivo con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>Se inflige 1d6 de da\u00f1o de fuego adicional al objetivo junto al da\u00f1o del ataque impactante. Durante cada uno de sus turnos, el objetivo ha de realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, el conjuro se mantiene activo y el objetivo sufre 1d6 de da\u00f1o de fuego. Si la supera, el conjuro se termina.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o equivale a tantos d6 como el nivel del espacio usado.",
     "materiales": null
   },
   {
@@ -204,7 +204,7 @@
       "Palad\u00edn"
     ],
     "escuela": "Evocaci\u00f3n",
-    "tiempo_de_lanzamiento": "Acci\u00f3n adicional, que realizas de inmediato tras acertar a un objetivo con un arma cuerpo a cuerpo o un ataque sin armas",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -216,8 +216,8 @@
     "tirada_de_salvacion": "FUE",
     "requiere_ataque": false,
     "descripcion": [
-      "El sonido de un trueno emana del golpe de tu arma, audible a 300 pies de ti, y el objetivo sufre 2d6 de da\u00f1o de trueno adicionales. Si el objetivo es una criatura, esta ha de realizar una tirada de salvaci\u00f3n de Fuerza para evitar ser empujado 10 pies con respecto a ti. Si la falla, la criatura sufre el estado de derribada.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o equivale a tantos d6 como el nivel del espacio usado.",
-      "El sonido de un trueno emana del golpe de tu arma, audible a 90 m de ti, y el objetivo sufre 2d6 de da\u00f1o de trueno adicionales. Si el objetivo es una criatura, esta ha de realizar una tirada de salvaci\u00f3n de Fuerza para evitar ser empujado 3 m con respecto a ti. Si la falla, la criatura sufre el estado de derribada.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o equivale a tantos d6 como el nivel del espacio usado."
+      "El conjuro se realiza de inmediato tras acertar al objetivo con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>El sonido de un trueno emana del golpe de tu arma, audible a 300 pies de ti, y el objetivo sufre 2d6 de da\u00f1o de trueno adicionales. Si el objetivo es una criatura, esta ha de realizar una tirada de salvaci\u00f3n de Fuerza para evitar ser empujado 10 pies con respecto a ti. Si la falla, la criatura sufre el estado de derribada.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o equivale a tantos d6 como el nivel del espacio usado.",
+      "El conjuro se realiza de inmediato tras acertar al objetivo con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>El sonido de un trueno emana del golpe de tu arma, audible a 90 m de ti, y el objetivo sufre 2d6 de da\u00f1o de trueno adicionales. Si el objetivo es una criatura, esta ha de realizar una tirada de salvaci\u00f3n de Fuerza para evitar ser empujado 3 m con respecto a ti. Si la falla, la criatura sufre el estado de derribada.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o equivale a tantos d6 como el nivel del espacio usado."
     ],
     "materiales": null
   },
@@ -227,7 +227,7 @@
       "Palad\u00edn"
     ],
     "escuela": "Nigromancia",
-    "tiempo_de_lanzamiento": "Acci\u00f3n adicional, que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -238,7 +238,7 @@
     "duracion": "1 minuto",
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
-    "descripcion": "Se le aplican 1d6 de da\u00f1o necr\u00f3tico adicionales al objetivo y este ha de realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Mientras la tirada se falle, el objetivo sufre el estado de asustado hasta que supere la tirada en el principio de uno de sus turnos o hasta que el conjuro se acabe.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o equivale a tantos d6 como el nivel del espacio usado.",
+    "descripcion": "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>Se le aplican 1d6 de da\u00f1o necr\u00f3tico adicionales al objetivo y este ha de realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Mientras la tirada se falle, el objetivo sufre el estado de asustado hasta que supere la tirada en el principio de uno de sus turnos o hasta que el conjuro se acabe.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o equivale a tantos d6 como el nivel del espacio usado.",
     "materiales": null
   },
   {
@@ -247,7 +247,7 @@
       "Palad\u00edn"
     ],
     "escuela": "Evocaci\u00f3n",
-    "tiempo_de_lanzamiento": "Acci\u00f3n adicional, que realizas de inmediato tras acertar a un objetivo con un arma cuerpo a cuerpo o un ataque sin armas",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -258,7 +258,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "El objetivo sufre 2d8 de da\u00f1o radiante adicional del ataque. Este da\u00f1o aumenta en 1d8 si el objetivo es un infernal o un muerto viviente.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": "El conjuro se realiza de inmediato tras acertar al objetivo con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>El objetivo sufre 2d8 de da\u00f1o radiante adicional del ataque. Este da\u00f1o aumenta en 1d8 si el objetivo es un infernal o un muerto viviente.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio.",
     "materiales": null
   },
   {
