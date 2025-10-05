@@ -154,6 +154,14 @@ fetch('spells.json')
     tableBody.innerHTML = '<tr><td colspan="13">No se pudieron cargar los datos.</td></tr>';
   });
 
+fetch('./VERSION')
+  .then(response => response.text())
+  .then(ver_text =>{
+    const version = ver_text.trim();
+    document.querySelector('#app-version')?.replaceChildren(document.createTextNode(version));
+  } )
+  .catch(() => {});
+
 // Reporting an issue:
 const reportBtn       = document.getElementById('reportError');
 const reportModal     = document.getElementById('report-modal');
