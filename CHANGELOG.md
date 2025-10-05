@@ -2,14 +2,12 @@
 
 ## v1.1.1 - In development
 
-### Conjuros añadidos
-
-- Prestidigitación - N0 (Truco)
-- Presencia regia de Yolande - N5
-
 ### Nuevo
 
 - La página muestra la versión actual.
+- Conjuros añadidos:
+  - Prestidigitación - N0 (Truco)
+  - Presencia regia de Yolande - N5
 
 ---
 ## Release v1.1.0 
