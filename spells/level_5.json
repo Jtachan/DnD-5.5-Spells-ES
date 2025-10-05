@@ -1135,6 +1135,32 @@
     "materiales": "Una langosta."
   },
   {
+    "nombre": "Presencia regia de Yolande",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Emanas un aura majestuosa sobrenatural en una esfera de radio de 10 pies, cuyo epicentro eres t\u00fa y se mueve contigo. Siempre que una criatura que puedas ver entre o termine su turno dentro del aura, puedes obligar a la criatura a hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. La criatura sufre 4d6 de da\u00f1o ps\u00edquico si falla la tirada y la mitad si la supera, siendo derribada y pudiendo ser empujada a 10 pies de ti. Cada criatura puede ser afectada una vez por turno.",
+      "Emanas un aura majestuosa sobrenatural en una esfera de radio de 3 m, cuyo epicentro eres t\u00fa y se mueve contigo. Siempre que una criatura que puedas ver entre o termine su turno dentro del aura, puedes obligar a la criatura a hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. La criatura sufre 4d6 de da\u00f1o ps\u00edquico si falla la tirada y la mitad si la supera, siendo derribada y pudiendo ser empujada a 3 m de ti. Cada criatura puede ser afectada una vez por turno."
+    ],
+    "materiales": "Una tiara en miniatura."
+  },
+  {
     "nombre": "Reencarnar",
     "clases": [
       "Druida"
