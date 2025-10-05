@@ -544,6 +544,36 @@
     "materiales": null
   },
   {
+    "nombre": "Prestidigitacion",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas un efecto m\u00e1gico dentro del alcance, elegido de entre las opciones a continuaci\u00f3n. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos no instant\u00e1neos.<br><br><b>Efecto sensorial.</b> Creas un efecto sensorial instant\u00e1neo e inofensivo, como una lluvia de chispas, una ligera r\u00e1faga de viento, tenues notas musicales o un olor extra\u00f1o.<br><br><b>Jugar con fuego.</b> Enciendes o apagas al instante una vela, una antorcha o una hoguera peque\u00f1a.<br><br><b>Limpiar o ensuciar.</b> Limpias o ensucias al instante un objeto de hasta 1 pie c\u00fabico.<br><br><b>Sensaci\u00f3n menor.</b> Enfr\u00edas, calientas o das sabor a un material inerte de hasta 1 pie c\u00fabico durante 1 hora.<br><br><b>Marca m\u00e1gica.</b> Haces que aparezca una mancha de color, una peque\u00f1a marca o un s\u00edmbolo en un objeto o superficie durante 1 hora.<br><br><b>Creaci\u00f3n menor.</b> Creas un abalorio no m\u00e1gico o una imagen ilusoria que te cabe en la mano y dura hasta el final de tu siguiente turno. El abalorio no inflige da\u00f1o y no tiene valor monetario.",
+      "Creas un efecto m\u00e1gico dentro del alcance, elegido de entre las opciones a continuaci\u00f3n. Si lanzas este conjuro varias veces, puedes mantener activos a la vez hasta tres de sus efectos no instant\u00e1neos.<br><br><b>Efecto sensorial.</b> Creas un efecto sensorial instant\u00e1neo e inofensivo, como una lluvia de chispas, una ligera r\u00e1faga de viento, tenues notas musicales o un olor extra\u00f1o.<br><br><b>Jugar con fuego.</b> Enciendes o apagas al instante una vela, una antorcha o una hoguera peque\u00f1a.<br><br><b>Limpiar o ensuciar.</b> Limpias o ensucias al instante un objeto de hasta 0,03 m\u00b3.<br><br><b>Sensaci\u00f3n menor.</b> Enfr\u00edas, calientas o das sabor a un material inerte de hasta 0,03 m\u00b3 durante 1 hora.<br><br><b>Marca m\u00e1gica.</b> Haces que aparezca una mancha de color, una peque\u00f1a marca o un s\u00edmbolo en un objeto o superficie durante 1 hora.<br><br><b>Creaci\u00f3n menor.</b> Creas un abalorio no m\u00e1gico o una imagen ilusoria que te cabe en la mano y dura hasta el final de tu siguiente turno. El abalorio no inflige da\u00f1o y no tiene valor monetario."
+    ],
+    "materiales": null
+  },
+  {
     "nombre": "Rayo de escarcha",
     "clases": [
       "Hechicero",
