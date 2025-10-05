@@ -9,6 +9,10 @@
   - Prestidigitación - N0 (Truco)
   - Presencia regia de Yolande - N5
 
+### Corregido
+
+- Descripción de 'Represión infernal'.
+
 ---
 ## Release v1.1.0 
 22 August 2025
