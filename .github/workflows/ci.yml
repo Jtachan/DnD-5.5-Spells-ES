@@ -2,7 +2,7 @@ name: Unify spells into 'spells.json'
 on:
   push:
     branches:
-      - "main"
+      - "develop"
     paths:
       - "spells/*.json"
   workflow_dispatch:
