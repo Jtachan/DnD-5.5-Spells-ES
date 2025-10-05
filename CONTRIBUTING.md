@@ -33,4 +33,4 @@ Por eso mismo, es posible que haya errores o que ciertos aspectos puedan mejorar
 Una vez la PR se encuentre con los cambios necesarios, los revisaré y los integraré.
 Es posible que algunos cambios requieran de una discusión antes de que sean integrados.
 
-Todo cambio nuevo introducido en 'master' será publicado automáticamente en la página, aunque es posible que sea necesario esperar un tiempo para ver los nuevos cambios.
+Todo cambio nuevo introducido en 'main' será publicado automáticamente en la página, aunque es posible que sea necesario esperar un tiempo para ver los nuevos cambios.
