@@ -1,0 +1,45 @@
+name: Branch Policy
+
+on:
+  pull_request:
+    types: [ opened, reopened, synchronize, edited ]
+    branches: [ develop, master ]
+
+jobs:
+  validate-branch-policy:
+    name: Validate branch policy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Check base and head branches
+        run: |
+          BASE="${{ github.base_ref }}"   # target branch of the PR
+          HEAD="${{ github.head_ref }}"   # source branch of the PR
+
+          echo "Base (target): $BASE"
+          echo "Head (source): $HEAD"
+
+          case "$BASE" in
+            develop)
+              echo "✅ PR into 'develop' is allowed from any branch."
+              exit 0
+              ;;
+            master)
+              if [[ "$HEAD" == release/* ]]; then
+                echo "✅ PR into 'master' from 'release/*' is allowed."
+                exit 0
+              else
+                echo "❌ PR into 'master' is only allowed from 'release/*' branches."
+                echo "   Current source branch: '$HEAD'"
+                exit 1
+              fi
+              ;;
+            *)
+              # Shouldn't trigger because we limited branches above, but keep this safe-guard.
+              echo "❌ Policy only defined for PRs into 'develop' or 'master'."
+              exit 1
+              ;;
+          esac
+
