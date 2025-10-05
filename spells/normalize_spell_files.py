@@ -125,42 +125,43 @@ def normalizar_tiempo_de_lanzamiento(text: str) -> str:
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(__file__))
-    for idx in range(10):
-        file_name = f"level_{idx}.json"
-        # Loading all spells:
-        with open(file_name, "r", encoding="utf-8") as fh:
-            spells = json.load(fh)
+    for edition in ("5.5",):
+        for idx in range(10):
+            file_name = os.path.join(edition, f"level_{idx}.json")
+            # Loading all spells:
+            with open(file_name, "r", encoding="utf-8") as fh:
+                spells = json.load(fh)
 
-        # Performing all corrections (one per spell):
-        for spell in spells:
-            for ending, cond_desc in CONDITIONAL_ACTION_TEXT.items():
-                if spell["tiempo_de_lanzamiento"].endswith(ending):
-                    spell["tiempo_de_lanzamiento"] = spell[
-                        "tiempo_de_lanzamiento"
-                    ].split(",")[0]
-                    if isinstance(spell["descripcion"], str):
-                        spell["descripcion"] = (
-                            f"{cond_desc}<br><br>{spell['descripcion']}"
-                        )
-                    else:
-                        spell["descripcion"] = [
-                            f"{cond_desc}<br><br>{d}" for d in spell["descripcion"]
-                        ]
+            # Performing all corrections (one per spell):
+            for spell in spells:
+                for ending, cond_desc in CONDITIONAL_ACTION_TEXT.items():
+                    if spell["tiempo_de_lanzamiento"].endswith(ending):
+                        spell["tiempo_de_lanzamiento"] = spell[
+                            "tiempo_de_lanzamiento"
+                        ].split(",")[0]
+                        if isinstance(spell["descripcion"], str):
+                            spell["descripcion"] = (
+                                f"{cond_desc}<br><br>{spell['descripcion']}"
+                            )
+                        else:
+                            spell["descripcion"] = [
+                                f"{cond_desc}<br><br>{d}" for d in spell["descripcion"]
+                            ]
 
-            spell["descripcion"] = normalizar_descripcion(spell["descripcion"])
+                spell["descripcion"] = normalizar_descripcion(spell["descripcion"])
 
-            if spell["materiales"]:
-                spell["materiales"] = normalizar_materiales(spell["materiales"])
+                if spell["materiales"]:
+                    spell["materiales"] = normalizar_materiales(spell["materiales"])
 
-            if spell["concentracion"]:
-                spell["duracion"] = fix_concentration_duration_text(spell["duracion"])
+                if spell["concentracion"]:
+                    spell["duracion"] = fix_concentration_duration_text(spell["duracion"])
 
-            spell["tiempo_de_lanzamiento"] = normalizar_tiempo_de_lanzamiento(
-                spell["tiempo_de_lanzamiento"]
-            )
+                spell["tiempo_de_lanzamiento"] = normalizar_tiempo_de_lanzamiento(
+                    spell["tiempo_de_lanzamiento"]
+                )
 
-        # Overriding the data in the file:
-        # Warning, this will update all spanish special characters to unicode.
-        #  for example 'ó' -> '\u00f3'.
-        with open(file_name, "w", encoding="utf-8") as fh:
-            json.dump(spells, fh, indent=2)
+            # Overriding the data in the file:
+            # Warning, this will update all spanish special characters to unicode.
+            #  for example 'ó' -> '\u00f3'.
+            with open(file_name, "w", encoding="utf-8") as fh:
+                json.dump(spells, fh, indent=2)
