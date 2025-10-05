@@ -1345,7 +1345,7 @@
       "Brujo"
     ],
     "escuela": "Evocaci\u00f3n",
-    "tiempo_de_lanzamiento": "Reacci\u00f3n, que llevas a cabo en respuesta a recibir da\u00f1o de una criatura que puedas ver a 18 m o menos de ti",
+    "tiempo_de_lanzamiento": "Reacci\u00f3n",
     "ritual": false,
     "alcance": [
       "60 pies",
@@ -1360,7 +1360,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "La criatura que te ha da\u00f1ado se ve rodeada moment\u00e1neamente por unas llamas verdes y har\u00e1 una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 2d10 de da\u00f1o de fuego si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": [
+      "El conjuro se lleva a cabo en respuesta a recibir da\u00f1o de una criatura que puedas ver a 60 pies o menos de ti.<br><br>La criatura que te ha da\u00f1ado se ve rodeada moment\u00e1neamente por unas llamas verdes y har\u00e1 una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 2d10 de da\u00f1o de fuego si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
+      "El conjuro se lleva a cabo en respuesta a recibir da\u00f1o de una criatura que puedas ver a 18 m o menos de ti.<br><br>La criatura que te ha da\u00f1ado se ve rodeada moment\u00e1neamente por unas llamas verdes y har\u00e1 una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 2d10 de da\u00f1o de fuego si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio."
+    ],
     "materiales": null
   },
   {

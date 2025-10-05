@@ -17,6 +17,7 @@ CONDITIONAL_ACTION_TEXT = {
     "que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas": "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.",
     "que llevas a cabo cuando tú o una criatura que puedes ver a 18 m o menos de ti caigáis": "El conjuro se lleva a cabo cuando tú o una criatura que puedes ver a 18 m o menos de ti caigáis.",
     "que llevas a cabo cuando una criatura que puedas ver a 18 m o menos de ti lance un conjuro usando componentes verbales, somáticos o materiales": "El conjuro se lleva a cabo cuando una criatura que puedas ver a 18 m o menos de ti lance un conjuro usando componentes verbales, somáticos o materiales.",
+    "que llevas a cabo en respuesta a recibir daño de una criatura que puedas ver a 18 m o menos de ti": "El conjuro se lleva a cabo en respuesta a recibir daño de una criatura que puedas ver a 18 m o menos de ti.",
 }
 
 
