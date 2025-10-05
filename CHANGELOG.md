@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.2.0-dev
+
+### Nuevo
+
+- Botón para limpiar todos los filtros.
+
+---
 ## v1.1.1
 05 de octubre de 2025
 
