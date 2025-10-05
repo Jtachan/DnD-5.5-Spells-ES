@@ -9,13 +9,18 @@ import os
 
 def unify_spells():
     """Preparing the file 'spells.json' to be loaded by the HTML table."""
+    # todo:
+    #   - Update structure to have all the information based on the edition.
+
     all_spells = []
-    for idx in range(10):
-        with open(f"level_{idx}.json", "r", encoding="utf-8") as fh:
-            file_spells = json.load(fh)
-        for spell in file_spells:
-            spell["nivel"] = idx
-            all_spells.append(spell)
+    for edition in ("5.5",):
+        for idx in range(10):
+            file_name = os.path.join(edition, f"level_{idx}.json")
+            with open(file_name, "r", encoding="utf-8") as fh:
+                file_spells = json.load(fh)
+            for spell in file_spells:
+                spell["nivel"] = idx
+                all_spells.append(spell)
     all_spells.sort(key=lambda sp: sp["nombre"])
 
     out_path = os.path.join(os.path.dirname(__file__), "..", "spells.json")
