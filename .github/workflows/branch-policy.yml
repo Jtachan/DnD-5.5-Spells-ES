@@ -1,9 +1,9 @@
 name: Branch Policy
 
 on:
-  pull_request_target:
+  pull_request:
     types: [ opened, reopened, synchronize, edited ]
-    branches: [ develop, master ]
+    branches: [ develop, main ]
 
 jobs:
   validate-branch-policy:
@@ -26,19 +26,19 @@ jobs:
               echo "✅ PR into 'develop' is allowed from any branch."
               exit 0
               ;;
-            master)
+            main)
               if [[ "$HEAD" == release/* ]]; then
-                echo "✅ PR into 'master' from 'release/*' is allowed."
+                echo "✅ PR into 'main' from 'release/*' is allowed."
                 exit 0
               else
-                echo "❌ PR into 'master' is only allowed from 'release/*' branches."
+                echo "❌ PR into 'main' is only allowed from 'release/*' branches."
                 echo "   Current source branch: '$HEAD'"
                 exit 1
               fi
               ;;
             *)
               # Shouldn't trigger because we limited branches above, but keep this safe-guard.
-              echo "❌ Policy only defined for PRs into 'develop' or 'master'."
+              echo "❌ Policy only defined for PRs into 'develop' or 'main'."
               exit 1
               ;;
           esac
