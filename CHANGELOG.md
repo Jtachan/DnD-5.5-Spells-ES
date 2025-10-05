@@ -7,6 +7,10 @@
 - Prestidigitación - N0 (Truco)
 - Presencia regia de Yolande - N5
 
+### Nuevo
+
+- La página muestra la versión actual.
+
 ---
 ## Release v1.1.0 
 22 August 2025
