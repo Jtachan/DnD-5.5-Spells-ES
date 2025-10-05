@@ -2178,7 +2178,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
-    "descripcion": "El conjuro se lleva a cabo cuando una criatura que puedas ver a 18 m o menos de ti lance un conjuro usando componentes verbales, som\u00e1ticos o materiales.<br><br>Intentas interrumpir a una criatura que est\u00e9 lanzando un conjuro. La criatura hace una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, el conjuro se disipa sin causar efecto alguno y la acci\u00f3n, acci\u00f3n adicional o reacci\u00f3n empleada para lanzarlo se desperdiciar\u00e1. Si ese conjuro se lanz\u00f3 con un espacio de conjuro, dicho espacio no se gastar\u00e1.",
+    "descripcion": [
+      "El conjuro se lleva a cabo cuando una criatura que puedas ver a 60 pies o menos de ti lance un conjuro usando componentes verbales, som\u00e1ticos o materiales.<br><br>Intentas interrumpir a una criatura que est\u00e9 lanzando un conjuro. La criatura hace una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, el conjuro se disipa sin causar efecto alguno y la acci\u00f3n, acci\u00f3n adicional o reacci\u00f3n empleada para lanzarlo se desperdiciar\u00e1. Si ese conjuro se lanz\u00f3 con un espacio de conjuro, dicho espacio no se gastar\u00e1.",
+      "El conjuro se lleva a cabo cuando una criatura que puedas ver a 18 m o menos de ti lance un conjuro usando componentes verbales, som\u00e1ticos o materiales.<br><br>Intentas interrumpir a una criatura que est\u00e9 lanzando un conjuro. La criatura hace una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la falla, el conjuro se disipa sin causar efecto alguno y la acci\u00f3n, acci\u00f3n adicional o reacci\u00f3n empleada para lanzarlo se desperdiciar\u00e1. Si ese conjuro se lanz\u00f3 con un espacio de conjuro, dicho espacio no se gastar\u00e1."
+    ],
     "materiales": null,
     "nivel": 3
   },
@@ -8775,7 +8778,7 @@
       "Brujo"
     ],
     "escuela": "Evocaci\u00f3n",
-    "tiempo_de_lanzamiento": "Reacci\u00f3n, que llevas a cabo en respuesta a recibir da\u00f1o de una criatura que puedas ver a 18 m o menos de ti",
+    "tiempo_de_lanzamiento": "Reacci\u00f3n",
     "ritual": false,
     "alcance": [
       "60 pies",
@@ -8790,7 +8793,10 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "La criatura que te ha da\u00f1ado se ve rodeada moment\u00e1neamente por unas llamas verdes y har\u00e1 una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 2d10 de da\u00f1o de fuego si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
+    "descripcion": [
+      "El conjuro se lleva a cabo en respuesta a recibir da\u00f1o de una criatura que puedas ver a 60 pies o menos de ti.<br><br>La criatura que te ha da\u00f1ado se ve rodeada moment\u00e1neamente por unas llamas verdes y har\u00e1 una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 2d10 de da\u00f1o de fuego si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio.",
+      "El conjuro se lleva a cabo en respuesta a recibir da\u00f1o de una criatura que puedas ver a 18 m o menos de ti.<br><br>La criatura que te ha da\u00f1ado se ve rodeada moment\u00e1neamente por unas llamas verdes y har\u00e1 una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 2d10 de da\u00f1o de fuego si la falla o la mitad del da\u00f1o si la supera.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio."
+    ],
     "materiales": null,
     "nivel": 1
   },
