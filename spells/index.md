@@ -295,6 +295,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Portal                                  | 9         | ✅            |
 | Potenciar característica                | 2         | ✅            |
 | Presciencia                             | 9         | ✅            |
+| Presencia regia de Yolande              | 5         | ❌            |
 | Prohibición                             | 6         | ✅            |
 | Protección contra el bien y el mal      | 1         | ✅            |
 | Protección contra veneno                | 2         | ✅            |
