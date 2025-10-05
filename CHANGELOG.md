@@ -1,6 +1,7 @@
 # Changelog
 
-## v1.1.1 - In development
+## v1.1.1
+05 de octubre de 2025
 
 ### Nuevo
 
@@ -12,10 +13,11 @@
 ### Corregido
 
 - Descripción de 'Represión infernal'.
+- Protección contra cambios (GitHub).
 
 ---
 ## Release v1.1.0 
-22 August 2025
+22 de agosto de 2025
 
 ### Nuevo
 
