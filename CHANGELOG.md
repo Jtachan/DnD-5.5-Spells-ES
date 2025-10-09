@@ -1,10 +1,16 @@
 # Changelog
 
-## v1.2.0-dev
+## v1.2.0
 
 ### Nuevo
 
 - Botón para limpiar todos los filtros.
+
+### Corregido
+
+- Descripciones de los conjuros:
+  - 'Escudo'
+  - 'Tormenta de espinas'
 
 ---
 ## v1.1.1
