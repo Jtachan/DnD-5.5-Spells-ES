@@ -166,6 +166,7 @@ fetch('./VERSION')
 const reportBtn       = document.getElementById('reportError');
 const reportModal     = document.getElementById('report-modal');
 const reportCloseBtn  = document.getElementById('report-modal-close');
+const clearFiltersBtn = document.getElementById('clearFilters');
 
 reportBtn.addEventListener('click', () => {
   reportModal.style.display = 'block';
@@ -175,6 +176,13 @@ reportCloseBtn.addEventListener('click', () => {
 });
 window.addEventListener('click', e => {
   if (e.target === reportModal) reportModal.style.display = 'none';
+});
+clearFiltersBtn.addEventListener('click', () => {
+  levelFilter.value = '';
+  classFilter.value = '';
+  schoolFilter.value = '';
+  currentPage = 1;
+  updateFilter();
 });
 
 // Access GitHub repository
