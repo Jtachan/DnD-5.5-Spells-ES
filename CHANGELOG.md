@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.0.0-dev
+
+### Nuevo
+
+- Expansión de la base de datos con la version 5.0 de los conjuros:
+  - Reorganización de los conjuros en carpetas, nombradas como la versión.
+
+---
 ## v1.2.0
 
 ### Nuevo
