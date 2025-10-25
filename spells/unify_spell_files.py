@@ -10,7 +10,7 @@ import os
 def unify_spells():
     """Preparing the file 'spells.json' to be loaded by the HTML table."""
 
-    for edition in ("ed5_5",):
+    for edition in ("ed5_5", "ed5_0"):
         all_spells = []
         for idx in range(10):
             file_name = os.path.join(edition, f"level_{idx}.json")
