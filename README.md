@@ -1,4 +1,4 @@
-# DnD Conjuros (5.5 edición)
+# DnD Conjuros (5° edición)
 
 Base de datos NoSQL de los conjuros de _Dungeons and Dragons_ (reglas básicas).
 
@@ -9,16 +9,9 @@ Aquellos conjuros que no se encuentran en el archivo [SRD v5.2](https://media.dn
 > La extracción de los datos se ha hecho con IA, aunque se han revisado manualmente.
 > Puesto que hay errores que se me pueden escapar, por favor cread tickets si encontráis algún error.
 
-## Index
-
-Se han preparado las siguientes ayudas para el uso de los datos:
-
-- **Tabla HTML**: Ve a https://jtachan.github.io/DnD-5.5-Spells-ES/ para visualizar la tabla con todos los conjuros. Esta tabla permite buscar conjuros por su nombre.
-- **Índice de conjuros**: El archivo [spells/index.md](spells/index.md) contiene todos los conjuros registrados, indicando su nivel correspondiente y si se encuentran en el archivo [SRD v5.2](https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf).
-
 ## Estructura
 
-Los conjuros están registrados en archivos `spells/level_N.json`, donde N es el nivel del propio conjuro.
+Los conjuros están registrados en archivos `spells/ed/level_N.json`, donde `ed` corresponde a la edición (5.0 ó 5.5) y `N` es el nivel del propio conjuro.
 Dentro del archivo, los conjuros están organizados en un diccionario organizado por el nombre.
 
 En todas las entradas se han utilizado las siguientes reglas evitando caracteres españoles especiales:
