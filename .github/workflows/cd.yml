@@ -4,7 +4,7 @@ on:
     branches:
       - "main"
     paths:
-      - "spells.json"
+      - "spells_*.json"
       - "index.html"
       - "app.js"
       - "styles.css"
