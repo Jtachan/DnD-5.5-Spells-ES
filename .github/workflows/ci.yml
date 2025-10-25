@@ -34,5 +34,5 @@ jobs:
         with:
           author_name: GitHub Actions
           author_email: actions@github.com
-          message: 'GH commit: Update spells.json with new spells'
-          add: 'spells.json'
+          message: 'GH commit: Update spell files'
+          add: 'spells_*.json'
