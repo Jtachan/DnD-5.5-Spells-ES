@@ -4,8 +4,9 @@
 
 ### Nuevo
 
-- Expansión de la base de datos con la version 5.0 de los conjuros:
-  - Reorganización de los conjuros en carpetas, nombradas como la versión.
+- Reorganización de los conjuros en carpetas, nombradas por versión.
+- La tabla de índice de conjuros ahora muestra si el conjuro se encuentra en cada versión.
+- 
 
 ---
 ## v1.2.0
