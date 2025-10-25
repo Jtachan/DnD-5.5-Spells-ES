@@ -127,7 +127,7 @@ def normalizar_tiempo_de_lanzamiento(text: str) -> str:
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(__file__))
-    for edition in ("ed5_5",):
+    for edition in ("ed5_5", "ed5_0"):
         for idx in range(10):
             file_name = os.path.join(edition, f"level_{idx}.json")
             # Loading all spells:
