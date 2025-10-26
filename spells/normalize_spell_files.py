@@ -80,12 +80,12 @@ def expand_units_to_imperial(text: str) -> list[str]:
     def km_to_miles(re_match: re.Match) -> str:
         kilometers = float(re_match.group(1).replace(",", "."))
         miles = int(kilometers / 1.5)
-        return f"{miles} millas" if miles > 1 else f"{miles} milla"
+        return f"{miles} milla" if miles == 1 else f"{miles} millas"
 
     def kg_to_pounds(re_match: re.Match) -> str:
         kilograms = float(re_match.group(1).replace(",", "."))
         pounds = int(kilograms * 2)
-        return f"{pounds} lb"
+        return f"{pounds} libra" if pounds == 1 else f"{pounds} libras"
 
     def liters_to_gallons(re_match: re.Match) -> str:
         liters = float(re_match.group(1).replace(",", "."))
