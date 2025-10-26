@@ -27,8 +27,8 @@ jobs:
               exit 0
               ;;
             main)
-              if [[ "$HEAD" == release/* ]]; then
-                echo "✅ PR into 'main' from 'release/*' is allowed."
+              if [[ "$HEAD" == release/* || "$HEAD" == hotfix/* ]]; then
+                echo "✅ PR into 'main' from 'release/*' or 'hotfix/*' is allowed."
                 exit 0
               else
                 echo "❌ PR into 'main' is only allowed from 'release/*' branches."

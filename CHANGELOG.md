@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.2.1
+
+### Corregido
+
+- Descripción del conjuro "Crear comida y agua".
+- Uso de "libras" en vez de "lb" en las descripciones.
+
 ## v1.2.0
 
 ### Nuevo
