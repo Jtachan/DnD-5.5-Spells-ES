@@ -4,7 +4,7 @@ on:
     branches:
       - "develop"
     paths:
-      - "spells/*.json"
+      - "spells/**/*.json"
   workflow_dispatch:
 
 permissions:
