@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "nombre": "Acelerar",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Elige a una criatura voluntaria que puedas ver dentro del alcance. Hasta que el conjuro termine, la velocidad del objetivo se duplica, obtiene un bonificador de +2 a su Clase de Armadura, tiene ventaja en las tiradas de salvaci\u00f3n de Destreza y gana una acci\u00f3n adicional en cada uno de sus turnos. Esa acci\u00f3n solo puede usarse para realizar las acciones de Atacar (solo un ataque con un arma), Correr, Retirada, Esconderse o Usar un Objeto.<br><br>Cuando el conjuro termina, el objetivo no podr\u00e1 moverse ni realizar acciones hasta despu\u00e9s de su siguiente turno, a causa de una ola de somnolencia que lo afecta.",
+    "materiales": "Una ralladura de ra\u00edz de regaliz."
+  }
+]
