@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "nombre": "Alterar los recuerdos",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Intentas reformar las memorias de otra criatura. Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Si t\u00fa o alguna criatura amistosa hacia ti est\u00e1is luchando contra ella, tiene ventaja en esta tirada de salvaci\u00f3n. Si falla, queda hechizada hasta el final de la duraci\u00f3n del conjuro. El objetivo hechizado queda incapacitado y no es consciente de su entorno, aunque todav\u00eda puede o\u00edrte. Si recibe cualquier da\u00f1o o es objetivo de otro conjuro, <i>alterar los recuerdos</i> termina y no se cambia ninguno de sus recuerdos.<br><br>Mientras dura el conjuro, puedes afectar la memoria del objetivo en lo que respecta a un evento que haya experimentado en las \u00faltimas 24 horas y que no haya durado m\u00e1s de 10 minutos. Tambi\u00e9n eres capaz de eliminar permanentemente todos los recuerdos de ese evento, permitir al objetivo recordarlo con total claridad hasta el \u00faltimo detalle, cambiar su memoria de los detalles o crear un recuerdo de otro evento distinto.<br><br>Debes hablar al objetivo para describirle c\u00f3mo su memoria ha de alterarse y debe ser capaz de entender tu idioma para que los recuerdos modificados se asienten. Su mente llenar\u00e1 cualquier hueco que d\u00e9 tu descripci\u00f3n. Si el conjuro termina antes de que hayas acabado de describir los recuerdos modificados, la memoria de la criatura no se ve alterada. En caso contrario, los recuerdos se asentar\u00e1n cuando acabe el conjuro.<br><br>Un recuerdo modificado no afectar\u00e1 necesariamente al comportamiento de una criatura, especialmente si el recuerdo contradice sus inclinaciones naturales, su alineamiento o sus creencias. Un recuerdo modificado il\u00f3gico, como el de cu\u00e1nto disfrut\u00f3 el objetivo al ba\u00f1arse en \u00e1cido, es rechazado por su mente como si fuera un mal sue\u00f1o. El DM puede considerar que un recuerdo modificado es demasiado absurdo como para afectar a una criatura de manera significativa.<br><br>Un conjuro de <i>levantar maldici\u00f3n</i> o <i>restablecimiento mayor</i> lanzado sobre el objetivo recupera los verdaderos recuerdos de la criatura.<br><br><b><i>A niveles superiores.</i></b> Si lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, puedes alterar recuerdos del objetivo de un evento que ocurri\u00f3 hace 7 d\u00edas (nivel 6), 30 d\u00edas (nivel 7), 1 a\u00f1o (nivel 8) o en cualquier momento del pasado de la criatura (nivel 9).",
+    "materiales": null
+  }
+]
