@@ -52,5 +52,27 @@
     "requiere_ataque": false,
     "descripcion": "Haces que una criatura u objeto que puedas ver dentro del alcance crezca o se reduzca hasta el final de la duraci\u00f3n del conjuro. Elige una criatura o un objeto que nadie lleve o vista. Si el objetivo no es voluntario, puede hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la supera, el conjuro no tiene efecto.<br><br>Si el objetivo es una criatura, todo lo que vista y lleve cambia de tama\u00f1o con ella. Cualquier objeto que una criatura afectada deje caer vuelve a su tama\u00f1o normal inmediatamente.<br><br><i>Agrandar.</i> El tama\u00f1o del objetivo se duplica en todas las dimensiones y su peso se multiplica por ocho. El objetivo incrementa su tama\u00f1o en una categor\u00eda (de Mediano a Grande, por ejemplo). Si no hay sitio suficiente para que el objetivo duplique su tama\u00f1o, la criatura u objeto crece hasta el tama\u00f1o m\u00e1ximo posible en el espacio disponible. Hasta que el conjuro termine, el objetivo tiene ventaja en pruebas y tiradas de salvaci\u00f3n de Fuerza. Las armas del objetivo tambi\u00e9n crecen para ajustarse a su nuevo tama\u00f1o. Mientras permanezcan as\u00ed, los ataques del objetivo con ellas hacen 1d4 de da\u00f1o adicional.<br><br><i>Reducir.</i> El tama\u00f1o del objetivo se reduce a la mitad en todas las dimensiones y su peso se divide entre ocho. El objetivo disminuye su tama\u00f1o en una categor\u00eda (de Mediano a Peque\u00f1o, por ejemplo). Hasta que el conjuro termine, el objetivo tiene desventaja en pruebas y tiradas de salvaci\u00f3n de Fuerza. Las armas del objetivo tambi\u00e9n se reducen para ajustarse a su nuevo tama\u00f1o. Mientras permanezcan as\u00ed, los ataques del objetivo con ellas hacen 1d4 de da\u00f1o menos (esto no puede reducir el da\u00f1o por debajo de 1).",
     "materiales": "Una pizca de polvo de hierro."
+  },
+  {
+    "nombre": "Alterar el propio aspecto",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Asumes un aspecto distinto. Cuando lanzas el conjuro, elige una de las opciones siguientes. Los efectos duran hasta el final de la duraci\u00f3n del conjuro. Hasta ese momento, puedes dejar de usar una de las opciones para ganar los beneficios de otra.<br><br><i>Adaptaci\u00f3n acu\u00e1tica.</i> Adaptas tu cuerpo a un medio acu\u00e1tico. Te crecen branquias y membranas entre los dedos. Puedes respirar bajo el agua y ganas una velocidad nadando igual a tu velocidad caminando.<br><br><i>Cambiar de aspecto.</i> Transformas tu apariencia. Decide tu aspecto, especificando una altura, peso, rasgos faciales, timbre de voz, longitud del cabello, tono de piel y cualquier rasgo distintivo que quieras a\u00f1adir. Eres capaz de adoptar la apariencia de un miembro de otra raza, pero tu perfil no cambia. Tampoco puedes tomar el aspecto de una criatura de un tama\u00f1o que no sea el tuyo, ya que tu forma b\u00e1sica debe mantenerse; si eres b\u00edpedo, no puedes usar este conjuro para hacerte cuadr\u00fapedo, por ejemplo. En cualquier momento, hasta el final de la duraci\u00f3n del conjuro, puedes usar una acci\u00f3n para cambiar tu aspecto de nuevo mediante esta opci\u00f3n.<br><br><i>Armas naturales.</i> Te crecen garras, colmillos, pinchos, cuernos u otra arma natural de tu elecci\u00f3n. Tus ataques sin armas hacen 1d6 de da\u00f1o contundente, perforante o cortante, de acuerdo al arma natural que escojas. Eres competente con esta arma, que es m\u00e1gica y te proporciona un bonificador de +1 a las tiradas de ataque y de da\u00f1o que hagas con ella.",
+    "materiales": null
   }
 ]
