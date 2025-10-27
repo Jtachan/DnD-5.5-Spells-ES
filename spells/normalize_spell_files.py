@@ -8,7 +8,8 @@ import re
 import json
 import os
 
-METRIC_DISTANCE_REGEX = r"((\d+,)?\d+) ([kmc]?m|kg|l)[\s.]"
+METRIC_SYSTEM_REGEX = r"((\d+,)?\d+) ([kmc]?m|kg|l)[\s.]"
+IMPERIAL_SYSTEM_REGEX = r"((\d+,)?\d+) (pies?|pulgadas?|millas?|galón|galones|libras?)[\s.]"
 
 # Condiciones adicionales que aparecen en el campo de 'tiempo de lanzamiento'.
 # Estas descripciones se mueven directamente al campo de 'descripcion'.
@@ -46,8 +47,11 @@ def _norm_higher_level(text: str) -> str:
 
 def _norm_unit_systems(text: str | list[str]) -> str | list[str]:
     """Normalizing the description for both metric and imperial systems."""
-    if isinstance(text, str) and re.search(METRIC_DISTANCE_REGEX, text):
-        text = expand_units_to_imperial(text)
+    if isinstance(text, str):
+        if re.search(METRIC_SYSTEM_REGEX, text):
+            text = expand_units_to_imperial(text)
+        elif re.search(IMPERIAL_SYSTEM_REGEX, text):
+            text = expand_units_to_metric(text)
     return text
 
 
@@ -62,10 +66,7 @@ def normalizar_descripcion(text: str | list) -> str:
 
 
 def expand_units_to_imperial(text: str) -> list[str]:
-    """Converting a description with the metric system into a list with imperial and metric.
-    This conversion consider only 'meters' -> 'feet'. Thus, all those other SI values (centimeters, kilograms, etc)
-    are not converted.
-    """
+    """Converting a description with the metric system into a list with imperial and metric."""
 
     def meters_to_feet(re_match: re.Match) -> str:
         meters = float(re_match.group(1).replace(",", "."))
@@ -99,6 +100,42 @@ def expand_units_to_imperial(text: str) -> list[str]:
     imperial_text = re.sub(r"((\d+,)?\d+) l", liters_to_gallons, imperial_text)
 
     return [imperial_text, text]
+
+def expand_units_to_metric(text: str) -> list[str]:
+    """Converting a description with the imperial system into a list with imperial and metric."""
+
+    def feet_to_meters(re_match: re.Match) -> str:
+        feet = float(re_match.group(1).replace(",", "."))
+        meters = int(feet / 5 * 1.5)
+        return f"{meters} m"
+
+    def inches_to_cm(re_match: re.Match) -> str:
+        inches = float(re_match.group(1).replace(",", "."))
+        centimeters = inches * 2.5
+        return f"{int(centimeters)} cm" if int(centimeters) == centimeters else f"{centimeters:.2f} cm"
+
+    def miles_to_km(re_match: re.Match) -> str:
+        miles = float(re_match.group(1).replace(",", "."))
+        kilometers = miles * 1.5
+        return f"{int(kilometers)} km" if int(kilometers) == kilometers else f"{kilometers:.2f} km"
+
+    def pounds_to_kg(re_match: re.Match) -> str:
+        pounds = float(re_match.group(1).replace(",", "."))
+        kilograms = pounds / 2
+        return f"{int(kilograms)} kg" if int(kilograms) == kilograms else f"{kilograms:.2f} kg"
+
+    def liters_to_gallons(re_match: re.Match) -> str:
+        gallons = float(re_match.group(1).replace(",", "."))
+        liters = gallons * 4
+        return f"{int(liters)} l" if int(liters) == liters else f"{liters:.2f} l"
+
+    metric_text = re.sub(r"((\d+,)?\d+) pies?", feet_to_meters, text)
+    metric_text = re.sub(r"((\d+,)?\d+) pulgadas?", inches_to_cm, metric_text)
+    metric_text = re.sub(r"((\d+,)?\d+) millas?", miles_to_km, metric_text)
+    metric_text = re.sub(r"((\d+,)?\d+) libras?", pounds_to_kg, metric_text)
+    metric_text = re.sub(r"((\d+,)?\d+) (galón|galones)", liters_to_gallons, metric_text)
+
+    return [text, metric_text]
 
 
 # ------ Field: 'materiales' ------ #
