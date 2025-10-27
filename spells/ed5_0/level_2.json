@@ -26,5 +26,31 @@
       "Elige un objeto que puedas ver dentro del alcance. Este puede ser una puerta, una caja, un cofre, unas esposas, un candado o cualquier otro objeto que posea alguna manera, magica o mundana, de impedir el acceso.<br><br>Un objetivo que este cerrado mediante una cerradura normal o que este atascado o atrancado se abre, desatasca o desatranca. Si el objeto tenia varios cerrojos, solo se desbloquea uno de ellos.<br><br>Si eliges un objetivo que esta cerrado mediante <i>cerradura arcana</i>, este conjuro queda anulado durante 10 minutos, y durante este tiempo el objeto se puede abrir y cerrar con normalidad.<br><br>Cuando lanzas este conjuro, un fuerte golpe suena desde el objeto, audible desde 90 m de distancia."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Agrandar/Reducir",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Haces que una criatura u objeto que puedas ver dentro del alcance crezca o se reduzca hasta el final de la duraci\u00f3n del conjuro. Elige una criatura o un objeto que nadie lleve o vista. Si el objetivo no es voluntario, puede hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si la supera, el conjuro no tiene efecto.<br><br>Si el objetivo es una criatura, todo lo que vista y lleve cambia de tama\u00f1o con ella. Cualquier objeto que una criatura afectada deje caer vuelve a su tama\u00f1o normal inmediatamente.<br><br><i>Agrandar.</i> El tama\u00f1o del objetivo se duplica en todas las dimensiones y su peso se multiplica por ocho. El objetivo incrementa su tama\u00f1o en una categor\u00eda (de Mediano a Grande, por ejemplo). Si no hay sitio suficiente para que el objetivo duplique su tama\u00f1o, la criatura u objeto crece hasta el tama\u00f1o m\u00e1ximo posible en el espacio disponible. Hasta que el conjuro termine, el objetivo tiene ventaja en pruebas y tiradas de salvaci\u00f3n de Fuerza. Las armas del objetivo tambi\u00e9n crecen para ajustarse a su nuevo tama\u00f1o. Mientras permanezcan as\u00ed, los ataques del objetivo con ellas hacen 1d4 de da\u00f1o adicional.<br><br><i>Reducir.</i> El tama\u00f1o del objetivo se reduce a la mitad en todas las dimensiones y su peso se divide entre ocho. El objetivo disminuye su tama\u00f1o en una categor\u00eda (de Mediano a Peque\u00f1o, por ejemplo). Hasta que el conjuro termine, el objetivo tiene desventaja en pruebas y tiradas de salvaci\u00f3n de Fuerza. Las armas del objetivo tambi\u00e9n se reducen para ajustarse a su nuevo tama\u00f1o. Mientras permanezcan as\u00ed, los ataques del objetivo con ellas hacen 1d4 de da\u00f1o menos (esto no puede reducir el da\u00f1o por debajo de 1).",
+    "materiales": "Una pizca de polvo de hierro."
   }
 ]
