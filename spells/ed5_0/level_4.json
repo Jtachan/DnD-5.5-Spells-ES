@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "nombre": "Adivinaci\u00f3n",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tu magia y la ofrenda te ponen en contacto con un dios o sus sirvientes. Puedes hacer una sola pregunta sobre una meta, evento o actividad espec\u00edfica que ocurrir\u00e1 en los pr\u00f3ximos 7 d\u00edas. El DM te dar\u00e1 una respuesta verdadera, que puede ser una frase corta, una rima cr\u00edptica o un augurio.<br><br>Este conjuro no tiene en cuenta ninguna circunstancia que pueda alterar los resultados, como por ejemplo el lanzamiento de otros conjuros o la p\u00e9rdida o encuentro con un compa\u00f1ero.<br><br>Si se lanza dos veces o m\u00e1s antes del pr\u00f3ximo descanso largo, hay una posibilidad acumulativa del 25 % por cada lanzamiento despu\u00e9s del primero de recibir un presagio aleatorio. El DM realiza esta tirada en secreto.",
+    "materiales": "Incienso y una ofrenda ritual apropiada a tu religi\u00f3n, en conjunto con valor de 25 po y que son consumidos por el conjuro."
+  }
+]
