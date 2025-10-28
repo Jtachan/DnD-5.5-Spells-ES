@@ -23,5 +23,29 @@
     "requiere_ataque": false,
     "descripcion": "Intentas reformar las memorias de otra criatura. Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Si t\u00fa o alguna criatura amistosa hacia ti est\u00e1is luchando contra ella, tiene ventaja en esta tirada de salvaci\u00f3n. Si falla, queda hechizada hasta el final de la duraci\u00f3n del conjuro. El objetivo hechizado queda incapacitado y no es consciente de su entorno, aunque todav\u00eda puede o\u00edrte. Si recibe cualquier da\u00f1o o es objetivo de otro conjuro, <i>alterar los recuerdos</i> termina y no se cambia ninguno de sus recuerdos.<br><br>Mientras dura el conjuro, puedes afectar la memoria del objetivo en lo que respecta a un evento que haya experimentado en las \u00faltimas 24 horas y que no haya durado m\u00e1s de 10 minutos. Tambi\u00e9n eres capaz de eliminar permanentemente todos los recuerdos de ese evento, permitir al objetivo recordarlo con total claridad hasta el \u00faltimo detalle, cambiar su memoria de los detalles o crear un recuerdo de otro evento distinto.<br><br>Debes hablar al objetivo para describirle c\u00f3mo su memoria ha de alterarse y debe ser capaz de entender tu idioma para que los recuerdos modificados se asienten. Su mente llenar\u00e1 cualquier hueco que d\u00e9 tu descripci\u00f3n. Si el conjuro termina antes de que hayas acabado de describir los recuerdos modificados, la memoria de la criatura no se ve alterada. En caso contrario, los recuerdos se asentar\u00e1n cuando acabe el conjuro.<br><br>Un recuerdo modificado no afectar\u00e1 necesariamente al comportamiento de una criatura, especialmente si el recuerdo contradice sus inclinaciones naturales, su alineamiento o sus creencias. Un recuerdo modificado il\u00f3gico, como el de cu\u00e1nto disfrut\u00f3 el objetivo al ba\u00f1arse en \u00e1cido, es rechazado por su mente como si fuera un mal sue\u00f1o. El DM puede considerar que un recuerdo modificado es demasiado absurdo como para afectar a una criatura de manera significativa.<br><br>Un conjuro de <i>levantar maldici\u00f3n</i> o <i>restablecimiento mayor</i> lanzado sobre el objetivo recupera los verdaderos recuerdos de la criatura.<br><br><b><i>A niveles superiores.</i></b> Si lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, puedes alterar recuerdos del objetivo de un evento que ocurri\u00f3 hace 7 d\u00edas (nivel 6), 30 d\u00edas (nivel 7), 1 a\u00f1o (nivel 8) o en cualquier momento del pasado de la criatura (nivel 9).",
     "materiales": null
+  },
+  {
+    "nombre": "Alzar a los muertos",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Devuelves a una criatura fallecida a la vida, siempre y cuando no haya estado muerta m\u00e1s de 10 d\u00edas. Si el alma de la criatura tiene la libertad y la voluntad de reunirse con su cuerpo, vuelve a la vida con 1 punto de golpe.<br><br>Este conjuro tambi\u00e9n neutraliza cualquier veneno y cura cualquier enfermedad no m\u00e1gica que afligiera a la criatura en el momento de su muerte. Sin embargo, este conjuro no elimina enfermedades m\u00e1gicas, maldiciones o efectos similares; si no se eliminan antes del lanzamiento de este conjuro, entrar\u00e1n en acci\u00f3n cuando la criatura vuelva a la vida. El conjuro no puede devolver a la vida a un muerto viviente.<br><br>Todas las heridas leves quedar\u00e1n cerradas, pero no se restablecen miembros o partes del cuerpo que falten. Si la criatura carece de \u00f3rganos vitales o de partes necesarias para su supervivencia (como su cabeza, por ejemplo) el conjuro fallar\u00e1 autom\u00e1ticamente.<br><br>Volver de los muertos es una dura experiencia. El objetivo tendr\u00e1 un penalizador de -4 a todas las tiradas de ataque, tiradas de salvaci\u00f3n y pruebas de caracter\u00edstica. Cada vez que termine un descanso largo, ese penalizador se reducir\u00e1 en 1, hasta que desaparezca al llegar a 0.",
+    "materiales": "Un diamante con un valor de, al menos, 500 po, que es consumido como parte del conjuro."
   }
 ]
