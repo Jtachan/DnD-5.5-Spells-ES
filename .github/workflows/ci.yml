@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - "develop"
-    paths:
-      - "spells/*.json"
   workflow_dispatch:
 
 permissions:
