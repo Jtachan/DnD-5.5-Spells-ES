@@ -21,13 +21,13 @@ En todas las entradas se han utilizado las siguientes reglas evitando caracteres
 Cada conjuro contiene las siguientes entradas:
 
 - **nombre** `str`:<br>Nombre del conjuro.
-- **clases** `list[str]`:<br>Todas las clases (organizadas alfa) que pueden aprender el conjuro. Ej.: ["Clérigo", "Bardo", "Brujo"]
+- **clases** `list[str]`:<br>Todas las clases (organizadas alfabéticamente) que pueden aprender el conjuro. Ej.: ["Clérigo", "Bardo", "Brujo"]
 - **escuela** `str`:<br>Escuela del conjuro. Ej.: "Transmutación", "Evocación", "Conjuración".
 - **tiempo_de_lanzamiento** `str`:<br>El tiempo requerido para lanzar el conjuro.
 - **ritual** `bool`:<br>Flag indicando si el conjuro puede ser lanzado como un ritual.
 - **alcance** `str | list[str]`:<br>Información sobre a qué objetivos puede afectar el conjuro. Las distancias se almacenan en pies y metros. Ej.: ["60 pies", "18 m"]
 - **visible** `bool`:<br>Flag indicando si el objetivo ha de estar a la vista del lanzador.
-- **componentes** `list[str]`:<br>Los componentes necesarios para lanzar el conjuro. "V" = verbal, "S" = somático, "M" = material. Los componentes materiales viene explicados entre paréntesis.
+- **componentes** `list[str]`:<br>Los componentes necesarios para lanzar el conjuro. "V" = verbal, "S" = somático, "M" = material.
 - **concentracion** `bool`:<br>Flag indicando si el conjuro requiere que el lanzador mantenga su concentración durante la duración del mismo.
 - **duracion** `str`:<br>El tiempo que el efecto del conjuro se mantiene activo.
 - **tirada_de_salvacion** `str | None`:<br>Atributo requerido para la tirada de salvación contra el conjuro. Toma el valor de `null` si no requiere ninguna tirada.
