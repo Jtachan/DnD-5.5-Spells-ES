@@ -107,27 +107,32 @@ def expand_units_to_metric(text: str) -> list[str]:
     def feet_to_meters(re_match: re.Match) -> str:
         feet = float(re_match.group(1).replace(",", "."))
         meters = int(feet / 5 * 1.5)
+        meters = int(meters) if int(meters) == meters else str(round(meters, 2)).replace(".", ",")
         return f"{meters} m"
 
     def inches_to_cm(re_match: re.Match) -> str:
         inches = float(re_match.group(1).replace(",", "."))
         centimeters = inches * 2.5
-        return f"{int(centimeters)} cm" if int(centimeters) == centimeters else f"{centimeters:.2f} cm"
+        centimeters = int(centimeters) if int(centimeters) == centimeters else str(round(centimeters, 2)).replace(".", ",")
+        return f"{centimeters} cm"
 
     def miles_to_km(re_match: re.Match) -> str:
         miles = float(re_match.group(1).replace(",", "."))
         kilometers = miles * 1.5
-        return f"{int(kilometers)} km" if int(kilometers) == kilometers else f"{kilometers:.2f} km"
+        kilometers = int(kilometers) if int(kilometers) == kilometers else str(round(kilometers, 2)).replace(".", ",")
+        return f"{kilometers} km"
 
     def pounds_to_kg(re_match: re.Match) -> str:
         pounds = float(re_match.group(1).replace(",", "."))
         kilograms = pounds / 2
-        return f"{int(kilograms)} kg" if int(kilograms) == kilograms else f"{kilograms:.2f} kg"
+        kilograms = int(kilograms) if int(kilograms) == kilograms else str(round(kilograms, 2)).replace(".", ",")
+        return f"{kilograms} kg"
 
     def liters_to_gallons(re_match: re.Match) -> str:
         gallons = float(re_match.group(1).replace(",", "."))
         liters = gallons * 4
-        return f"{int(liters)} l" if int(liters) == liters else f"{liters:.2f} l"
+        liters = int(liters) if int(liters) == liters else str(round(liters, 2)).replace(".", ",")
+        return f"{liters} l"
 
     metric_text = re.sub(r"((\d+,)?\d+) pies?", feet_to_meters, text)
     metric_text = re.sub(r"((\d+,)?\d+) pulgadas?", inches_to_cm, metric_text)
