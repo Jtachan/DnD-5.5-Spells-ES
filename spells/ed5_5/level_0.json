@@ -219,7 +219,7 @@
     "duracion": "1 asalto",
     "tirada_de_salvacion": "INT",
     "requiere_ataque": false,
-    "descripcion": "Intentas fragmentar de forma temporal la mente de una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Inteligencia o recibir\u00e1 1d6 de da\u00f1o ps\u00edquico y restar\u00e1 1d4 en la siguiente tirada de salvaci\u00f3n que haga antes del final de tu siguiente turno.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "descripcion": "Eliges a un objetivo que puedas ver dentro de tu alcance, al cual le intentas fragmentar la mente temporalmente. El objetivo se librar\u00e1 de cualquier efecto si supera una tirada de salvaci\u00f3n de Inteligencia, de lo contrario recibir\u00e1 1d6 de da\u00f1o ps\u00edquico y se le restar\u00e1 1d4 en la siguiente tirada de salvaci\u00f3n que se vea obligado a lanzar antes del final de tu siguiente turno.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
     "materiales": null
   },
   {
