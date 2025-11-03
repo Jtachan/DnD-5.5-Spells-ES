@@ -4,7 +4,7 @@ on:
     branches:
       - "main"
     paths:
-      - "spells.json"
+      - "spells_*.json"
       - "index.html"
       - "app.js"
       - "styles.css"
@@ -27,13 +27,13 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
       - name: Upload pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./
           retention-days: 32

@@ -1,5 +1,14 @@
 # Changelog
 
+## v2.0.0-dev
+
+### Nuevo
+
+- Reorganización de los conjuros en carpetas, nombradas por versión.
+- La tabla de índice de conjuros ahora muestra si el conjuro se encuentra en cada versión.
+- 
+
+---
 ## v1.2.1
 
 ### Corregido
@@ -7,6 +16,7 @@
 - Descripción del conjuro "Crear comida y agua".
 - Uso de "libras" en vez de "lb" en las descripciones.
 
+---
 ## v1.2.0
 
 ### Nuevo

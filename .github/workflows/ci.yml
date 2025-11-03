@@ -1,10 +1,8 @@
-name: Unify spells into 'spells.json'
+name: Unify spells
 on:
   push:
     branches:
       - "develop"
-    paths:
-      - "spells/*.json"
   workflow_dispatch:
 
 permissions:
@@ -16,12 +14,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           persist-credentials: true
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: "3.x"
 
@@ -34,5 +32,5 @@ jobs:
         with:
           author_name: GitHub Actions
           author_email: actions@github.com
-          message: 'GH commit: Update spells.json with new spells'
-          add: 'spells.json'
+          message: 'GH commit: Update spell files'
+          add: 'spells/**/all.json'

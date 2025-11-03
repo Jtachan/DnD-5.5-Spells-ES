@@ -22,6 +22,16 @@ const modalMaterials = document.getElementById('modal-materials');
 const modalDescription = document.getElementById('modal-description');
 const modalClose = document.getElementById('modal-close');
 
+function getSelectedEdition() {
+  const el = document.querySelector('input[name="edition"]:checked');
+  return el ? el.value : '5.5';
+}
+
+function getSpellDataPath() {
+  const ed = getSelectedEdition();
+  return ed === '5.0' ? 'spells/ed5_0/all.json' : 'spells/ed5_5/all.json';
+}
+
 function normalize(str) {
   return str.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 }
@@ -125,7 +135,34 @@ nextBtn.addEventListener('click', () => { const totalPages = Math.ceil(filtered.
 modalClose.addEventListener('click', () => { modal.style.display = 'none'; });
 window.addEventListener('click', e => { if (e.target === modal) modal.style.display = 'none'; });
 
+async function loadData() {
+  const filePath = getSpellDataPath();
+  try {
+    fetch(filePath)
+      .then(response => response.json())
+      .then(data => {
+        spells = data;
+        spells.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es', { sensitivity: 'base' }));
+        const classesSet = new Set();
+        const schoolsSet = new Set();
+        spells.forEach(s => { s.clases.forEach(c => classesSet.add(c)); schoolsSet.add(s.escuela); });
+        Array.from(classesSet).sort().forEach(c => { const opt = document.createElement('option'); opt.value = c; opt.textContent = c; classFilter.appendChild(opt); });
+        Array.from(schoolsSet).sort().forEach(sch => { const opt = document.createElement('option'); opt.value = sch; opt.textContent = sch; schoolFilter.appendChild(opt); });
+        filtered = spells;
+        renderTable();
+      })
+      .catch(error => {
+        console.error('Error al cargar spells.json', error);
+        tableBody.innerHTML = '<tr><td colspan="13">No se pudieron cargar los datos.</td></tr>';
+  });
+
+  } catch (err) {
+    console.error(err);
+  }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+  loadData();
   document.querySelectorAll('th.sortable').forEach(th => {
     th.addEventListener('click', () => {
       const key = th.getAttribute('data-key');
@@ -134,25 +171,13 @@ document.addEventListener('DOMContentLoaded', () => {
       updateFilter();
     });
   });
+  document.querySelectorAll('input[name="edition"]').forEach(radio => {
+    radio.addEventListener('change', () => {
+      loadData(); // sin botones extra: cambia el radio y listo
+    });
+  });
 });
 
-fetch('spells.json')
-  .then(response => response.json())
-  .then(data => {
-    spells = data;
-    spells.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es', { sensitivity: 'base' }));
-    const classesSet = new Set();
-    const schoolsSet = new Set();
-    spells.forEach(s => { s.clases.forEach(c => classesSet.add(c)); schoolsSet.add(s.escuela); });
-    Array.from(classesSet).sort().forEach(c => { const opt = document.createElement('option'); opt.value = c; opt.textContent = c; classFilter.appendChild(opt); });
-    Array.from(schoolsSet).sort().forEach(sch => { const opt = document.createElement('option'); opt.value = sch; opt.textContent = sch; schoolFilter.appendChild(opt); });
-    filtered = spells;
-    renderTable();
-  })
-  .catch(error => {
-    console.error('Error al cargar spells.json', error);
-    tableBody.innerHTML = '<tr><td colspan="13">No se pudieron cargar los datos.</td></tr>';
-  });
 
 fetch('./VERSION')
   .then(response => response.text())
