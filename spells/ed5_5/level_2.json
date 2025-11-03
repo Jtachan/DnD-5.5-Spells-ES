@@ -597,6 +597,36 @@
     "materiales": null
   },
   {
+    "nombre": "Esfera de llamas",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas una esfera de fuego de 5 pies de di\u00e1metro en un espacio sin ocupar del suelo dentro del alcance, y durar\u00e1 hasta que termine el conjuro. Cualquier criatura que termine su turno a 5 pies o menos de ella har\u00e1 una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 2d6 de da\u00f1o de fuego si falla o la mitad de da\u00f1o si la supera.<br><br>Como acci\u00f3n adicional puedes mover la esfera hasta 30 pies haci\u00e9ndola rodar. Si mueves la esfera al espacio de una criatura, esta har\u00e1 la tirada de salvaci\u00f3n contra la esfera, que ya no podr\u00e1 moverse m\u00e1s durante el turno.<br><br>Cuando mueves la esfera, puedes llevarla por encima de barreras de hasta 5 pies de alto y hacer que salte huecos de hasta 10 pies de ancho. La esfera prende los objetos inflamables que toque y no lleve o vista nadie y emite luz brillante en un radio de 20 pies y luz tenue otros 20 pies m\u00e1s all\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.",
+      "Creas una esfera de fuego de 1,5 m de di\u00e1metro en un espacio sin ocupar del suelo dentro del alcance, y durar\u00e1 hasta que termine el conjuro. Cualquier criatura que termine su turno a 1,5 m o menos de ella har\u00e1 una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 2d6 de da\u00f1o de fuego si falla o la mitad de da\u00f1o si la supera.<br><br>Como acci\u00f3n adicional puedes mover la esfera hasta 9 m haci\u00e9ndola rodar. Si mueves la esfera al espacio de una criatura, esta har\u00e1 la tirada de salvaci\u00f3n contra la esfera, que ya no podr\u00e1 moverse m\u00e1s durante el turno.<br><br>Cuando mueves la esfera, puedes llevarla por encima de barreras de hasta 1,5 m de alto y hacer que salte huecos de hasta 3 m de ancho. La esfera prende los objetos inflamables que toque y no lleve o vista nadie y emite luz brillante en un radio de 6 m y luz tenue otros 6 m m\u00e1s all\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio."
+    ],
+    "materiales": "Una bola de cera."
+  },
+  {
     "nombre": "Flecha \u00c1cida de Melf",
     "clases": [
       "Mago"
