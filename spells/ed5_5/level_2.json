@@ -337,8 +337,8 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": [
-      "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>El objetivo del golpe recibe 2d6 de da\u00f1o radiante adicional del ataque. Hasta que el conjuro termine, el objetivo emitir\u00e1 luz brillante en un radio de 5 pies, las tiradas de ataque contra \u00e9l tendr\u00e1n ventaja y no podr\u00e1 beneficiarse del estado de invisible.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.",
-      "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>El objetivo del golpe recibe 2d6 de da\u00f1o radiante adicional del ataque. Hasta que el conjuro termine, el objetivo emitir\u00e1 luz brillante en un radio de 1,5 m, las tiradas de ataque contra \u00e9l tendr\u00e1n ventaja y no podr\u00e1 beneficiarse del estado de invisible.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio."
+      "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>Tu golpe aplica 2d6 de da\u00f1o radiante adicional al objetivo y le hace emitir una luz brillante iluminando en un radio de 5 pies hasta que el conjuro termine. El objetivo no puede hacerse invisible y todas las tiradas de ataque tienen ventaja contra el mismo.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.",
+      "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.<br><br>Tu golpe aplica 2d6 de da\u00f1o radiante adicional al objetivo y le hace emitir una luz brillante iluminando en un radio de 1,5 m hasta que el conjuro termine. El objetivo no puede hacerse invisible y todas las tiradas de ataque tienen ventaja contra el mismo.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio."
     ],
     "materiales": null
   },
@@ -597,6 +597,36 @@
     "materiales": null
   },
   {
+    "nombre": "Esfera de llamas",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas una esfera de fuego de 5 pies de di\u00e1metro en un espacio sin ocupar del suelo dentro del alcance, y durar\u00e1 hasta que termine el conjuro. Cualquier criatura que termine su turno a 5 pies o menos de ella har\u00e1 una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 2d6 de da\u00f1o de fuego si falla o la mitad de da\u00f1o si la supera.<br><br>Como acci\u00f3n adicional puedes mover la esfera hasta 30 pies haci\u00e9ndola rodar. Si mueves la esfera al espacio de una criatura, esta har\u00e1 la tirada de salvaci\u00f3n contra la esfera, que ya no podr\u00e1 moverse m\u00e1s durante el turno.<br><br>Cuando mueves la esfera, puedes llevarla por encima de barreras de hasta 5 pies de alto y hacer que salte huecos de hasta 10 pies de ancho. La esfera prende los objetos inflamables que toque y no lleve o vista nadie y emite luz brillante en un radio de 20 pies y luz tenue otros 20 pies m\u00e1s all\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio.",
+      "Creas una esfera de fuego de 1,5 m de di\u00e1metro en un espacio sin ocupar del suelo dentro del alcance, y durar\u00e1 hasta que termine el conjuro. Cualquier criatura que termine su turno a 1,5 m o menos de ella har\u00e1 una tirada de salvaci\u00f3n de Destreza; sufrir\u00e1 2d6 de da\u00f1o de fuego si falla o la mitad de da\u00f1o si la supera.<br><br>Como acci\u00f3n adicional puedes mover la esfera hasta 9 m haci\u00e9ndola rodar. Si mueves la esfera al espacio de una criatura, esta har\u00e1 la tirada de salvaci\u00f3n contra la esfera, que ya no podr\u00e1 moverse m\u00e1s durante el turno.<br><br>Cuando mueves la esfera, puedes llevarla por encima de barreras de hasta 1,5 m de alto y hacer que salte huecos de hasta 3 m de ancho. La esfera prende los objetos inflamables que toque y no lleve o vista nadie y emite luz brillante en un radio de 6 m y luz tenue otros 6 m m\u00e1s all\u00e1.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio."
+    ],
+    "materiales": "Una bola de cera."
+  },
+  {
     "nombre": "Flecha \u00c1cida de Melf",
     "clases": [
       "Mago"
@@ -833,7 +863,7 @@
     "duracion": "Hasta 1 hora",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Invocas un esp\u00edritu bestial que se manifiesta en un espacio sin ocupar que puedas ver dentro del alcance y usa el perfil del <i>esp\u00edritu bestial</i>. Cuando lances el conjuro, elige un h\u00e1bitat: tierra, mar o aire. La criatura se parecer\u00e1 a un animal de tu elecci\u00f3n de ese h\u00e1bitat, lo que determinar\u00e1 ciertos detalles de su perfil. La criatura desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o si el conjuro termina.<br><br>La criatura se considera un aliado para tus aliados y para ti. En combate, la criatura comparte tu orden de iniciativa, pero su turno va justo despu\u00e9s del tuyo, obedece tus \u00f3rdenes verbales (no requiere acci\u00f3n) y, si no le das ninguna, realiza la acci\u00f3n de esquivar y usa su movimiento para evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
+    "descripcion": "Elige un espacio sin ocupar que puedas ver para invocar en \u00e9l a un esp\u00edritu bestial. El esp\u00edritu toma la forma de un animal de un h\u00e1bitat a tu elecci\u00f3n entre mar, tierra o aire al ser invocado, definiendo as\u00ed ciertos aspectos del perfil de <i>esp\u00edritu bestial</i>. Si los puntos de golpe de la criatura llegan a 0 o la duraci\u00f3n del conjuro llega a su l\u00edmite, la criatura desaparece.<br><br>Tu invocaci\u00f3n se considera un aliado, tanto para t\u00ed como para tus aliados. En combate comparte tu misma iniciativa, actuando inmediatamente al final de tu turno y realizando la \u00f3rden verbal que le hayas dado. Puedes definir tus \u00f3rdenes sin necesidad de gastar ning\u00fan tipo de acci\u00f3n. Cuando la criatura carece de \u00f3rdenes de las que seguir, se centra en esquivar y evitar el peligro.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> Usa el nivel del espacio de conjuro para determinar el nivel del conjuro en el perfil.",
     "materiales": "Una pluma, un poco de pelaje y cola de pez dentro de una bellota ba\u00f1ada en oro que valga al menos 200 po."
   },
   {
@@ -1543,7 +1573,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Recurrres a tu fuerza vital para curarte. Tira uno o dos de tus dados de puntos de golpe no gastados para recuperar una cantidad de puntos de golpe igual al resultado total de la tirada m\u00e1s tu modificador por aptitud m\u00e1gica. Despu\u00e9s, los dados se consideran gastados.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La cantidad de dados de golpe no gastados que puedes tirar aumenta en uno por cada nivel por encima de 2 que tenga el espacio.",
+    "descripcion": "El hechizo solo puede lanzarse si tienes dados de golpe no gastados, cur\u00e1ndote usando parte de tu fuerza vital. Tira tantos dados de golpe como desees para recuperar puntos de golpe en un total del resultado de la tirada m\u00e1s tu modificador por aptitud m\u00e1gica. Los dados utilizados se consideran gastados hasta el siguiente descanso largo.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La cantidad de dados de golpe no gastados que puedes tirar aumenta en uno por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": null
   },
   {

@@ -300,7 +300,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Refuerzas a hasta seis criaturas que puedas ver dentro del alcance. El conjuro proporciona 120 puntos de golpe temporales, que divides entre los objetivos.",
+    "descripcion": "Elige hasta seis criaturas objetivos que puedas ver dentro de tu alcance. Al lanzar el hechizo, eliges c\u00f3mo repartir 120 puntos de golpe temporales entre todos los objetivos.",
     "materiales": null
   },
   {

@@ -21,7 +21,7 @@ def unify_spells():
                 all_spells.append(spell)
         all_spells.sort(key=lambda sp: sp["nombre"])
 
-        out_path = os.path.join(os.path.dirname(__file__), "..", f"spells_{edition}.json")
+        out_path = os.path.join(os.path.dirname(__file__), edition, "all.json")
         with open(out_path, "w", encoding="utf-8") as fh:
             json.dump(all_spells, fh, indent=2)
 
