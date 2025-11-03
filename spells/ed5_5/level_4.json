@@ -393,6 +393,31 @@
     "materiales": "Una luci\u00e9rnaga o una pizca de f\u00f3sforo."
   },
   {
+    "nombre": "Esfera el\u00e1stica de Otiluke",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una esfera destellante encierra a una criatura u objeto Grande o m\u00e1s peque\u00f1o dentro del alcance. Una criatura no voluntaria deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o quedar\u00e1 encerrada hasta que el conjuro termine.<br><br>Nada (ni objetos f\u00edsicos ni energ\u00eda ni los efectos de otros conjuros) puede atravesar la barrera en ninguna de sus direcciones, aunque una criatura que est\u00e9 en la esfera puede respirar en su interior. La esfera es inmune a todo el da\u00f1o y una criatura o un objeto en su interior no puede sufrir da\u00f1o por ataques o efectos que se originen en el exterior y tampoco puede da\u00f1ar a nada que haya fuera de la esfera.<br><br>La esfera no pesa nada y tiene un tama\u00f1o justo como para contener a la criatura o al objeto de su interior. Una criatura encerrada puede utilizar una acci\u00f3n para empujar las paredes de la esfera y hacerla rodar a hasta la mitad de su velocidad. De forma similar, otras criaturas pueden recoger la esfera y moverla.<br><br>Un conjuro <i>desintegrar</i> que haga objetivo a la esfera la destruir\u00e1, pero no da\u00f1ar\u00e1 nada que haya dentro.",
+    "materiales": "Una esfera de cristal."
+  },
+  {
     "nombre": "Esfera Vitri\u00f3lica",
     "clases": [
       "Hechicero",
