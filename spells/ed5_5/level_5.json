@@ -801,8 +801,8 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": true,
     "descripcion": [
-      "Blandes el arma utilizada al lanzar el conjuro y luego desapareces para golpear como el viento. Elige hasta cinco criaturas que puedas ver dentro del alcance. Haz un ataque de conjuro cuerpo a cuerpo contra cada objetivo. Si acierta, el objetivo recibe 6d10 de da\u00f1o de fuerza.<br><br>A continuaci\u00f3n, te teletransportas a un espacio sin ocupar que puedas ver a 5 pies de uno de los objetivos.",
-      "Blandes el arma utilizada al lanzar el conjuro y luego desapareces para golpear como el viento. Elige hasta cinco criaturas que puedas ver dentro del alcance. Haz un ataque de conjuro cuerpo a cuerpo contra cada objetivo. Si acierta, el objetivo recibe 6d10 de da\u00f1o de fuerza.<br><br>A continuaci\u00f3n, te teletransportas a un espacio sin ocupar que puedas ver a 1,5 m de uno de los objetivos."
+      "Elige hasta cinco criaturas objetivo dentro de tu alcance que puedas ver. Blandes tu arma para lanzar el conjuro y acto seguido desapareces para atacar a tus objetivos. Realizas un solo ataque cuerpo a cuerpo con cada uno de los objetivos, haciendo 6d10 de da\u00f1o de fuerza si el ataque acierta.<br><br>Cuando tu ataque finaliza, apareces de nuevo en un espacio sin ocupar a 5 pies de uno de los objetivos.",
+      "Elige hasta cinco criaturas objetivo dentro de tu alcance que puedas ver. Blandes tu arma para lanzar el conjuro y acto seguido desapareces para atacar a tus objetivos. Realizas un solo ataque cuerpo a cuerpo con cada uno de los objetivos, haciendo 6d10 de da\u00f1o de fuerza si el ataque acierta.<br><br>Cuando tu ataque finaliza, apareces de nuevo en un espacio sin ocupar a 1,5 m de uno de los objetivos."
     ],
     "materiales": "Un arma cuerpo a cuerpo que valga al menos 1 pp."
   },
