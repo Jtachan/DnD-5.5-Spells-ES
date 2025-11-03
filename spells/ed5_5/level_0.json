@@ -856,8 +856,8 @@
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
     "descripcion": [
-      "Todas las criaturas situadas en una emanaci\u00f3n de 5 pies que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o de trueno. El sonido atronador del conjuro se puede o\u00edr a una distancia de hasta 100 pies.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
-      "Todas las criaturas situadas en una emanaci\u00f3n de 1,5 m que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o de trueno. El sonido atronador del conjuro se puede o\u00edr a una distancia de hasta 30 m.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6)."
+      "Una onda el\u00e9ctrica surge de tu cuerpo, afectando a toda criatura que se encuentre en un \u00e1rea de 5 pies de t\u00ed. Las criaturas afectadas han de realizar una tirada de salvaci\u00f3n de Constituci\u00f3n recibiendo 1d6 de da\u00f1o de trueno si fallan. Esta explosi\u00f3n el\u00e9ctrica produce el sonido de un trueno audible en una distancia de hasta 100 pies.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+      "Una onda el\u00e9ctrica surge de tu cuerpo, afectando a toda criatura que se encuentre en un \u00e1rea de 1,5 m de t\u00ed. Las criaturas afectadas han de realizar una tirada de salvaci\u00f3n de Constituci\u00f3n recibiendo 1d6 de da\u00f1o de trueno si fallan. Esta explosi\u00f3n el\u00e9ctrica produce el sonido de un trueno audible en una distancia de hasta 30 m.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6)."
     ],
     "materiales": null
   },
