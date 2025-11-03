@@ -351,6 +351,35 @@
       "300 pies",
       "90 m"
     ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Un globo glacial surge de ti y golpea un punto de tu elecci\u00f3n dentro del alcance, donde explota en una esfera de 60 pies de radio. Todas las criaturas situadas en la zona realizan una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 10d6 de da\u00f1o de fr\u00edo si la fallan o la mitad de da\u00f1o si la superan.<br><br>Si el globo golpea una masa de agua, la congelar\u00e1 hasta una profundidad de 6 pulgadas en un \u00e1rea cuadrada de 30 pies de lado. El hielo dura 3 piesinuto. Las criaturas que estuvieran nadando en la superficie del agua congelada quedar\u00e1n atrapadas en el hielo y tendr\u00e1n el estado de apresadas. Una criatura atrapada puede utilizar una acci\u00f3n para hacer una prueba dee Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros para liberarse.<br><br>Puedes renunciar a lanzar el globo tras completar el conjuro. En ese caso, en tu mano aparecer\u00e1 un globo de tama\u00f1o similar a un proyectil de honda que resulta fr\u00edo al tacto. En cualquier momento, t\u00fa o una criatura a la que le entregues el orbe pod\u00e9is lanzarlo con la mano (hasta un alcance de 40 pies) o arrojarlo con una honda (hasta el alcance normal de la honda). Se har\u00e1 a\u00f1icos al impactar y causar\u00e1 el mismo efecto que el uso normal del conjuro. Tambi\u00e9n puedes dejar el orbe en el suelo sin hacerlo pedazos y, tras 3 piesinuto, explotar\u00e1 si nadie lo ha hecho estallar.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio.",
+      "Un globo glacial surge de ti y golpea un punto de tu elecci\u00f3n dentro del alcance, donde explota en una esfera de 18 m de radio. Todas las criaturas situadas en la zona realizan una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 10d6 de da\u00f1o de fr\u00edo si la fallan o la mitad de da\u00f1o si la superan.<br><br>Si el globo golpea una masa de agua, la congelar\u00e1 hasta una profundidad de 15 cm en un \u00e1rea cuadrada de 9 m de lado. El hielo dura 1 minuto. Las criaturas que estuvieran nadando en la superficie del agua congelada quedar\u00e1n atrapadas en el hielo y tendr\u00e1n el estado de apresadas. Una criatura atrapada puede utilizar una acci\u00f3n para hacer una prueba dee Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros para liberarse.<br><br>Puedes renunciar a lanzar el globo tras completar el conjuro. En ese caso, en tu mano aparecer\u00e1 un globo de tama\u00f1o similar a un proyectil de honda que resulta fr\u00edo al tacto. En cualquier momento, t\u00fa o una criatura a la que le entregues el orbe pod\u00e9is lanzarlo con la mano (hasta un alcance de 12 m) o arrojarlo con una honda (hasta el alcance normal de la honda). Se har\u00e1 a\u00f1icos al impactar y causar\u00e1 el mismo efecto que el uso normal del conjuro. Tambi\u00e9n puedes dejar el orbe en el suelo sin hacerlo pedazos y, tras 1 minuto, explotar\u00e1 si nadie lo ha hecho estallar.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio."
+    ],
+    "materiales": "Una esfera de cristal en miniatura."
+  },
+  {
+    "nombre": "Esfera congelante de Otiluke",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "300 pies",
+      "90 m"
+    ],
     "visible": true,
     "componentes": [
       "V",
