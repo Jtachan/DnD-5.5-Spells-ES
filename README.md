@@ -51,7 +51,7 @@ Cada conjuro contiene las siguientes entradas:
       "Mago"
     ],
     "escuela": "Transmutación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
     "alcance": [
       "60 pies",
@@ -75,7 +75,7 @@ Cada conjuro contiene las siguientes entradas:
       "Mago"
     ],
     "escuela": "Evocación",
-    "tiempo_de_lanzamiento": "1 acción",
+    "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
     "alcance": "Toque",
     "visible": false,
