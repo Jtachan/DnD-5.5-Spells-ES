@@ -1543,7 +1543,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Recurrres a tu fuerza vital para curarte. Tira uno o dos de tus dados de puntos de golpe no gastados para recuperar una cantidad de puntos de golpe igual al resultado total de la tirada m\u00e1s tu modificador por aptitud m\u00e1gica. Despu\u00e9s, los dados se consideran gastados.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La cantidad de dados de golpe no gastados que puedes tirar aumenta en uno por cada nivel por encima de 2 que tenga el espacio.",
+    "descripcion": "El hechizo solo puede lanzarse si tienes dados de golpe no gastados, cur\u00e1ndote usando parte de tu fuerza vital. Tira tantos dados de golpe como desees para recuperar puntos de golpe en un total del resultado de la tirada m\u00e1s tu modificador por aptitud m\u00e1gica. Los dados utilizados se consideran gastados hasta el siguiente descanso largo.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> La cantidad de dados de golpe no gastados que puedes tirar aumenta en uno por cada nivel por encima de 2 que tenga el espacio.",
     "materiales": null
   },
   {
