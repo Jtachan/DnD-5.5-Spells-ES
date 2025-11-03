@@ -1,4 +1,4 @@
-name: Unify spells into 'spells.json'
+name: Unify spells
 on:
   push:
     branches:
@@ -33,4 +33,4 @@ jobs:
           author_name: GitHub Actions
           author_email: actions@github.com
           message: 'GH commit: Update spell files'
-          add: 'spells_*.json'
+          add: 'spells/**/all.json'

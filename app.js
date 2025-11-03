@@ -29,7 +29,7 @@ function getSelectedEdition() {
 
 function getSpellDataPath() {
   const ed = getSelectedEdition();
-  return ed === '5.0' ? 'spells_ed5_0.json' : 'spells_ed5_5.json';
+  return ed === '5.0' ? 'spells/ed5_0/all.json' : 'spells/ed5_5/all.json';
 }
 
 function normalize(str) {
