@@ -4013,36 +4013,6 @@
     "nivel": 6
   },
   {
-    "nombre": "Esfera congelante de Otiluke",
-    "clases": [
-      "Hechicero",
-      "Mago"
-    ],
-    "escuela": "Evocaci\u00f3n",
-    "tiempo_de_lanzamiento": "Acci\u00f3n",
-    "ritual": false,
-    "alcance": [
-      "300 pies",
-      "90 m"
-    ],
-    "visible": true,
-    "componentes": [
-      "V",
-      "S",
-      "M"
-    ],
-    "concentracion": false,
-    "duracion": "Instant\u00e1neo",
-    "tirada_de_salvacion": "CON",
-    "requiere_ataque": false,
-    "descripcion": [
-      "Un globo glacial surge de ti y golpea un punto de tu elecci\u00f3n dentro del alcance, donde explota en una esfera de 60 pies de radio. Todas las criaturas situadas en la zona realizar\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 10d6 de da\u00f1o fr\u00edo si la fallan o la mitad del da\u00f1o si la superan.<br><br>Si el globo golpea una masa de agua, la congelar\u00e1 hasta una profundidad de 6 pulgadas en un \u00e1rea cuadrada de 30 pies de lado. El hielo dura 3 minutos. Las criaturas que estuvieran nadando en la superficie del agua congelada quedar\u00e1n atrapadas en el hielo y tendr\u00e1n el estado de apresadas. Una criatura atrapada puede utilizar una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros para liberarse.<br><br>Puedes renunciar a lanzar el globo tras completar el conjuro. En ese caso, un temno aparecer\u00e1 un globo del tama\u00f1o similar a un proyectil de honda que resulta fr\u00edo al tacto. En cualquier momento, t\u00fa o una criatura a la que le entregues el orbe pod\u00e9is lanzarlo con la mano (hasta un alcance de 40 pies) o arrojarlo con una honda (hasta el alcance normal de la honda). Se har\u00e1 a\u00f1icos al impactar y causar\u00e1 el mismo efecto que el uso normal del conjuro. Tambi\u00e9n puedes dejar el orbe en el suelo sin hacerlo pedazos y, tras 3 minutos, explotar\u00e1 si nadie lo ha hecho estallar.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio.",
-      "Un globo glacial surge de ti y golpea un punto de tu elecci\u00f3n dentro del alcance, donde explota en una esfera de 18 m de radio. Todas las criaturas situadas en la zona realizar\u00e1n una tirada de salvaci\u00f3n de Constituci\u00f3n; sufrir\u00e1n 10d6 de da\u00f1o fr\u00edo si la fallan o la mitad del da\u00f1o si la superan.<br><br>Si el globo golpea una masa de agua, la congelar\u00e1 hasta una profundidad de 15 cm en un \u00e1rea cuadrada de 9 m de lado. El hielo dura 1 minuto. Las criaturas que estuvieran nadando en la superficie del agua congelada quedar\u00e1n atrapadas en el hielo y tendr\u00e1n el estado de apresadas. Una criatura atrapada puede utilizar una acci\u00f3n para hacer una prueba de Fuerza (Atletismo) contra tu CD de salvaci\u00f3n de conjuros para liberarse.<br><br>Puedes renunciar a lanzar el globo tras completar el conjuro. En ese caso, un temno aparecer\u00e1 un globo del tama\u00f1o similar a un proyectil de honda que resulta fr\u00edo al tacto. En cualquier momento, t\u00fa o una criatura a la que le entregues el orbe pod\u00e9is lanzarlo con la mano (hasta un alcance de 12 m) o arrojarlo con una honda (hasta el alcance normal de la honda). Se har\u00e1 a\u00f1icos al impactar y causar\u00e1 el mismo efecto que el uso normal del conjuro. Tambi\u00e9n puedes dejar el orbe en el suelo sin hacerlo pedazos y, tras 1 minuto, explotar\u00e1 si nadie lo ha hecho estallar.<br><br><b><i>Con un espacio de conjuro de nivel superior.</i></b> El da\u00f1o aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio."
-    ],
-    "materiales": "Una esfera de cristal en miniatura.",
-    "nivel": 6
-  },
-  {
     "nombre": "Esfera de llamas",
     "clases": [
       "Druida",
@@ -4072,6 +4042,32 @@
     ],
     "materiales": "Una bola de cera.",
     "nivel": 2
+  },
+  {
+    "nombre": "Esfera el\u00e1stica de Otiluke",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Una esfera destellante encierra a una criatura u objeto Grande o m\u00e1s peque\u00f1o dentro del alcance. Una criatura no voluntaria deber\u00e1 superar una tirada de salvaci\u00f3n de Destreza o quedar\u00e1 encerrada hasta que el conjuro termine.<br><br>Nada (ni objetos f\u00edsicos ni energ\u00eda ni los efectos de otros conjuros) puede atravesar la barrera en ninguna de sus direcciones, aunque una criatura que est\u00e9 en la esfera puede respirar en su interior. La esfera es inmune a todo el da\u00f1o y una criatura o un objeto en su interior no puede sufrir da\u00f1o por ataques o efectos que se originen en el exterior y tampoco puede da\u00f1ar a nada que haya fuera de la esfera.<br><br>La esfera no pesa nada y tiene un tama\u00f1o justo como para contener a la criatura o al objeto de su interior. Una criatura encerrada puede utilizar una acci\u00f3n para empujar las paredes de la esfera y hacerla rodar a hasta la mitad de su velocidad. De forma similar, otras criaturas pueden recoger la esfera y moverla.<br><br>Un conjuro <i>desintegrar</i> que haga objetivo a la esfera la destruir\u00e1, pero no da\u00f1ar\u00e1 nada que haya dentro.",
+    "materiales": "Una esfera de cristal.",
+    "nivel": 4
   },
   {
     "nombre": "Espada de Mordenkainen",
