@@ -468,8 +468,8 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": [
-      "Mientras dure el efecto, una luz fr\u00eda envuelve tu cuerpo y emite luz brillante en un radio de 20 pies y luz tenue 20 pies m\u00e1s all\u00e1.",
-      "Mientras dure el efecto, una luz fr\u00eda envuelve tu cuerpo y emite luz brillante en un radio de 6 m y luz tenue 6 m m\u00e1s all\u00e1."
+      "Tu cuerpo se ve envuelto por una luz que se asimila a la luz lunar. Mientras el conjuro se mantenga activo, tu cuerpo emite una luz brillante en un radio de 20 pies y una luz tenue en los siguientes 20 pies.",
+      "Tu cuerpo se ve envuelto por una luz que se asimila a la luz lunar. Mientras el conjuro se mantenga activo, tu cuerpo emite una luz brillante en un radio de 6 m y una luz tenue en los siguientes 6 m."
     ],
     "materiales": null
   },
