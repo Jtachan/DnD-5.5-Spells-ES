@@ -219,7 +219,7 @@
     "duracion": "1 asalto",
     "tirada_de_salvacion": "INT",
     "requiere_ataque": false,
-    "descripcion": "Intentas fragmentar de forma temporal la mente de una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Inteligencia o recibir\u00e1 1d6 de da\u00f1o ps\u00edquico y restar\u00e1 1d4 en la siguiente tirada de salvaci\u00f3n que haga antes del final de tu siguiente turno.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+    "descripcion": "Eliges a un objetivo que puedas ver dentro de tu alcance, al cual le intentas fragmentar la mente temporalmente. El objetivo se librar\u00e1 de cualquier efecto si supera una tirada de salvaci\u00f3n de Inteligencia, de lo contrario recibir\u00e1 1d6 de da\u00f1o ps\u00edquico y se le restar\u00e1 1d4 en la siguiente tirada de salvaci\u00f3n que se vea obligado a lanzar antes del final de tu siguiente turno.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
     "materiales": null
   },
   {
@@ -510,8 +510,8 @@
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
     "descripcion": [
-      "Un fulgor ardiente surge de ti en una emanaci\u00f3n de 5 pies. Todas las criaturas de tu elecci\u00f3n que puedas ver en ella deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o radiante.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
-      "Un fulgor ardiente surge de ti en una emanaci\u00f3n de 1,5 m. Todas las criaturas de tu elecci\u00f3n que puedas ver en ella deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o radiante.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6)."
+      "Emanas un fulgor ardiente de tu cuerpo en un radio de 5 pies. Elige a todas las criaturas objetivo que desees y puedas ver para que el fulgor les afecte. Las criaturas deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o radiante.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+      "Emanas un fulgor ardiente de tu cuerpo en un radio de 1,5 m. Elige a todas las criaturas objetivo que desees y puedas ver para que el fulgor les afecte. Las criaturas deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o radiante.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6)."
     ],
     "materiales": "Un s\u00edmbolo con forma de rayo."
   },
@@ -780,8 +780,8 @@
     "tirada_de_salvacion": "SAB",
     "requiere_ataque": false,
     "descripcion": [
-      "Se\u00f1alas a una criatura que puedas ver dentro del alcance y el sonido de una campana funesta suena a 10 pies o menos del objetivo. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir\u00e1 1d8 de da\u00f1o necr\u00f3tico. Si el objetivo no tiene todos sus puntos de golpe, el da\u00f1o necr\u00f3tico aumenta a 1d12.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en un dado cuando alcanzas los niveles 5 (2d8 o 2d12), 11 (3d8 o 3d12) y 17 (4d8 o 4d12).",
-      "Se\u00f1alas a una criatura que puedas ver dentro del alcance y el sonido de una campana funesta suena a 3 m o menos del objetivo. El objetivo deber\u00e1 superar una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir\u00e1 1d8 de da\u00f1o necr\u00f3tico. Si el objetivo no tiene todos sus puntos de golpe, el da\u00f1o necr\u00f3tico aumenta a 1d12.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en un dado cuando alcanzas los niveles 5 (2d8 o 2d12), 11 (3d8 o 3d12) y 17 (4d8 o 4d12)."
+      "Haces objetivo a una criatura que puedas ver se\u00f1al\u00e1ndola con el dedo. El conjuro produce que suene una campana funesta a 10 pies o menos del objetivo. El objetivo se ve obligado a realizar una tirada de salvaci\u00f3n de Sabidur\u00eda, sufriendo 1d8 de da\u00f1o necr\u00f3tico si la falla. En caso de que el objetivo no tenda todos los puntos de golpe, el da\u00f1o aumenta a 1d12.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en un dado cuando alcanzas los niveles 5 (2d8 o 2d12), 11 (3d8 o 3d12) y 17 (4d8 o 4d12).",
+      "Haces objetivo a una criatura que puedas ver se\u00f1al\u00e1ndola con el dedo. El conjuro produce que suene una campana funesta a 3 m o menos del objetivo. El objetivo se ve obligado a realizar una tirada de salvaci\u00f3n de Sabidur\u00eda, sufriendo 1d8 de da\u00f1o necr\u00f3tico si la falla. En caso de que el objetivo no tenda todos los puntos de golpe, el da\u00f1o aumenta a 1d12.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en un dado cuando alcanzas los niveles 5 (2d8 o 2d12), 11 (3d8 o 3d12) y 17 (4d8 o 4d12)."
     ],
     "materiales": null
   },
@@ -856,8 +856,8 @@
     "tirada_de_salvacion": "CON",
     "requiere_ataque": false,
     "descripcion": [
-      "Todas las criaturas situadas en una emanaci\u00f3n de 5 pies que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o de trueno. El sonido atronador del conjuro se puede o\u00edr a una distancia de hasta 100 pies.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
-      "Todas las criaturas situadas en una emanaci\u00f3n de 1,5 m que se origina en ti deber\u00e1n superar una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1n 1d6 de da\u00f1o de trueno. El sonido atronador del conjuro se puede o\u00edr a una distancia de hasta 30 m.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6)."
+      "Una onda el\u00e9ctrica surge de tu cuerpo, afectando a toda criatura que se encuentre en un \u00e1rea de 5 pies de t\u00ed. Las criaturas afectadas han de realizar una tirada de salvaci\u00f3n de Constituci\u00f3n recibiendo 1d6 de da\u00f1o de trueno si fallan. Esta explosi\u00f3n el\u00e9ctrica produce el sonido de un trueno audible en una distancia de hasta 100 pies.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6).",
+      "Una onda el\u00e9ctrica surge de tu cuerpo, afectando a toda criatura que se encuentre en un \u00e1rea de 1,5 m de t\u00ed. Las criaturas afectadas han de realizar una tirada de salvaci\u00f3n de Constituci\u00f3n recibiendo 1d6 de da\u00f1o de trueno si fallan. Esta explosi\u00f3n el\u00e9ctrica produce el sonido de un trueno audible en una distancia de hasta 30 m.<br><br><b><i>Mejora de truco.</i></b> El da\u00f1o aumenta en 1d6 cuando alcanzas los niveles 5 (2d6), 11 (3d6) y 17 (4d6)."
     ],
     "materiales": null
   },
