@@ -44,5 +44,28 @@
     "requiere_ataque": false,
     "descripcion": "Accedes a las pesadillas de una criatura que puedas ver dentro del alcance para crear una manifestaci\u00f3n ilusoria de sus m\u00e1s profundos miedos, que solo ser\u00e1 visible para esa criatura. El objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, queda asustado hasta el final de la duraci\u00f3n del conjuro. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir 4d10 de da\u00f1o ps\u00edquico. Si supera la tirada, el conjuro termina inmediatamente.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el da\u00f1o aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
     "materiales": null
+  },
+  {
+    "nombre": "Aura de pureza",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Emanas un aura de energ\u00eda purificante de radio de 30 pies, la cual se desplaza contigo y se mantiene centrada en t\u00ed hasta que el conjuro se termine. El aura proporciona resistencia al veneno a todas las criaturas no hostiles dentro del aura, incluy\u00e9ndote a ti. Estas criaturas no pueden enfermar y tienen ventaja en tiradas de salvacion frente a efectos que causen cualquiera de los siguientes estados: cegado, aturdido, ensordecido, paralizado, hechizado, asustado o envenenado.",
+      "Emanas un aura de energ\u00eda purificante de radio de 9 m, la cual se desplaza contigo y se mantiene centrada en t\u00ed hasta que el conjuro se termine. El aura proporciona resistencia al veneno a todas las criaturas no hostiles dentro del aura, incluy\u00e9ndote a ti. Estas criaturas no pueden enfermar y tienen ventaja en tiradas de salvacion frente a efectos que causen cualquiera de los siguientes estados: cegado, aturdido, ensordecido, paralizado, hechizado, asustado o envenenado."
+    ],
+    "materiales": null
   }
 ]
