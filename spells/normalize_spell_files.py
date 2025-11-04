@@ -161,7 +161,7 @@ def fix_concentration_duration_text(text: str) -> str:
 # ------ Field: 'tiempo_de_lanzamiento' ------ #
 def normalizar_tiempo_de_lanzamiento(text: str) -> str:
     """Normalizing the specified action of the spell."""
-    text = text.replace("1 acción", "Acción")
+    text = text.replace("1 acción", "Acción").replace("1 reacción", "Reacción")
     if text.endswith(("o ritual", "o un ritual", "o 1 ritual")):
         text = text.split(" o ")[0]
     return text
