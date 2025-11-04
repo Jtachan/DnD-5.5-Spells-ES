@@ -42,7 +42,7 @@
     "duracion": "Hasta 1 minuto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "...",
+    "descripcion": "Tienes ventaja en todas las tiradas de Carisma relacionadas con una criatura no hostil para ti mientras el conjuro se mantenga activo. Una vez el conjuro termine, la criatura se dar\u00e1 cuenta de que ha sido hechizada y se volver\u00e1 hostil hacia ti. El DM elige c\u00f3mo esta criatura se vuelve hostil hacia ti, ya sea con un ataque instant\u00e1neo o con una planificada venganza.",
     "materiales": "Una peque\u00f1a cantidad de maquillaje aplicada sobre la cara al lanzar el conjuro."
   }
 ]
