@@ -214,3 +214,7 @@ clearFiltersBtn.addEventListener('click', () => {
 document.getElementById('ghBtn').addEventListener('click', () => {
   window.open('https://github.com/Jtachan/DnD-5.5-Spells-ES', '_blank', 'noopener');
 });
+
+document.getElementById('support_me').addEventListener('click', () => {
+  window.open('https://paypal.me/jimtachan', '_blank', 'noopener');
+});
