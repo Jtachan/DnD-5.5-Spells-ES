@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "nombre": "Antipat\u00eda/Simpat\u00eda",
+    "clases": [
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "10 d\u00edas",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Este conjuro atrae o repele a criaturas de tu elecci\u00f3n. Elige a un objetivo dentro del alcance: un objeto, una criatura de tama\u00f1o Enorme o m\u00e1s peque\u00f1a, o un lugar o un objeto no mayor que un cubo de 200 pies. Una vez hecho esto, deber\u00e1s especificar tambi\u00e9n un tipo de criatura inteligente, como dragones rojos, goblins o vampiros. Imbuyes en el objetivo un aura que o bien atraer\u00e1 o repele a las criaturas elegidas hasta el final de la duraci\u00f3n del conjuro. El aura podr\u00e1 causar antipat\u00eda o simpat\u00eda a tu elecci\u00f3n.<br><br><b>Antipat\u00eda.</b> El encantamiento hace que las criaturas del tipo elegido sientan una fuerte necesidad de abandonar el \u00e1rea y evitar al objetivo. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 60 pies del mismo, deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 asustada. La criatura permanecer\u00e1 asustada mientras pueda ver al objetivo o se mantenga a 60 pies de \u00e9l. Mientras est\u00e9 asustada, la criatura debe usar su movimiento para dirigirse al lugar m\u00e1s cercano donde sepa que no puede ver al objetivo. Si la criatura se aleja m\u00e1s de 60 pies del objetivo y no puede verlo, ya no estar\u00e1 asustada, pero volver\u00e1 a estarlo de nuevo si vuelve a ver el objetivo o se acerca 60 pies o menos de \u00e9l.<br><br><b>Simpat\u00eda.</b> El encantamiento hace que las criaturas del tipo elegido a 60 pies o menos del objetivo sientan una fuerte necesidad de acercarse a \u00e9l. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 60 pies del mismo, deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o utilizar\u00e1 su movimiento en cada turno para acercarse a \u00e9l hasta que entre en el \u00e1rea o quede adyacente al objetivo. Una vez hecho esto, no podr\u00e1 alejarse voluntariamente.<br><br>Si el objetivo da\u00f1a o lastima de alguna manera a una criatura afectada, esta podr\u00e1 realizar una tirada de salvaci\u00f3n de Sabidur\u00eda para terminar el efecto, como se describe m\u00e1s abajo.<br><br><b>Terminar el efecto.</b> Si una criatura afectada por el conjuro termina su turno a m\u00e1s de 60 pies del objetivo o no es capaz de verlo, puede hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito, la criatura ya no estar\u00e1 afectada por el conjuro e identificar\u00e1 la naturaleza m\u00e1gica del sentimiento de atracci\u00f3n o repulsi\u00f3n. Adem\u00e1s, una criatura afectada por este conjuro podr\u00e1 realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda cada 24 horas mientras este efecto persista.<br><br>Una criatura que tiene \u00e9xito en la tirada de salvaci\u00f3n contra este efecto es inmune al conjuro durante 1 minuto, tiempo tras el cual podr\u00e1 verse afectada de nuevo.",
+      "Este conjuro atrae o repele a criaturas de tu elecci\u00f3n. Elige a un objetivo dentro del alcance: un objeto, una criatura de tama\u00f1o Enorme o m\u00e1s peque\u00f1a, o un lugar o un objeto no mayor que un cubo de 60 m. Una vez hecho esto, deber\u00e1s especificar tambi\u00e9n un tipo de criatura inteligente, como dragones rojos, goblins o vampiros. Imbuyes en el objetivo un aura que o bien atraer\u00e1 o repele a las criaturas elegidas hasta el final de la duraci\u00f3n del conjuro. El aura podr\u00e1 causar antipat\u00eda o simpat\u00eda a tu elecci\u00f3n.<br><br><b>Antipat\u00eda.</b> El encantamiento hace que las criaturas del tipo elegido sientan una fuerte necesidad de abandonar el \u00e1rea y evitar al objetivo. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 18 m del mismo, deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 asustada. La criatura permanecer\u00e1 asustada mientras pueda ver al objetivo o se mantenga a 18 m de \u00e9l. Mientras est\u00e9 asustada, la criatura debe usar su movimiento para dirigirse al lugar m\u00e1s cercano donde sepa que no puede ver al objetivo. Si la criatura se aleja m\u00e1s de 18 m del objetivo y no puede verlo, ya no estar\u00e1 asustada, pero volver\u00e1 a estarlo de nuevo si vuelve a ver el objetivo o se acerca 18 m o menos de \u00e9l.<br><br><b>Simpat\u00eda.</b> El encantamiento hace que las criaturas del tipo elegido a 18 m o menos del objetivo sientan una fuerte necesidad de acercarse a \u00e9l. Cuando una de estas criaturas vea al objetivo o se acerque a menos de 18 m del mismo, deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o utilizar\u00e1 su movimiento en cada turno para acercarse a \u00e9l hasta que entre en el \u00e1rea o quede adyacente al objetivo. Una vez hecho esto, no podr\u00e1 alejarse voluntariamente.<br><br>Si el objetivo da\u00f1a o lastima de alguna manera a una criatura afectada, esta podr\u00e1 realizar una tirada de salvaci\u00f3n de Sabidur\u00eda para terminar el efecto, como se describe m\u00e1s abajo.<br><br><b>Terminar el efecto.</b> Si una criatura afectada por el conjuro termina su turno a m\u00e1s de 18 m del objetivo o no es capaz de verlo, puede hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito, la criatura ya no estar\u00e1 afectada por el conjuro e identificar\u00e1 la naturaleza m\u00e1gica del sentimiento de atracci\u00f3n o repulsi\u00f3n. Adem\u00e1s, una criatura afectada por este conjuro podr\u00e1 realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda cada 24 horas mientras este efecto persista.<br><br>Una criatura que tiene \u00e9xito en la tirada de salvaci\u00f3n contra este efecto es inmune al conjuro durante 1 minuto, tiempo tras el cual podr\u00e1 verse afectada de nuevo."
+    ],
+    "materiales": "Un pedazo de alumbre empapado en vinagre para el efecto de antipat\u00eda o una gota de miel para el efecto de simpat\u00eda."
+  }
+]
