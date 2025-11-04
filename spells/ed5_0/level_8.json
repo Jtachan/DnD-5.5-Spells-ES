@@ -51,5 +51,30 @@
     "requiere_ataque": false,
     "descripcion": "Tu magia convierte a otros en bestias. Elige a cualquier n\u00famero de criaturas voluntarias que puedas ver dentro del alcance. Transformas a cada objetivo en una bestia Grande o m\u00e1s peque\u00f1a con un valor de desaf\u00edo igual o inferior a 4. En los siguientes turnos puedes usar una acci\u00f3n para transformar a las criaturas afectadas en bestias distintas.<br><br>La transformaci\u00f3n dura hasta el final de la duraci\u00f3n del conjuro o hasta que el objetivo muera o sea reducido a 0 puntos de golpe. Puedes elegir una forma distinta para cada objetivo. Reemplaza el perfil del objetivo por el perfil de la bestia elegida, aunque el objetivo mantiene su alineamiento y sus puntuaciones de Inteligencia, Sabidur\u00eda y Carisma. El objetivo pasa a tener los puntos de golpe de su nueva forma y, cuando revierta a su forma normal, vuelve a poseer los puntos de golpe que tuviera antes de la transformaci\u00f3n. La transformaci\u00f3n se rompe si la forma de bestia es reducida a 0 puntos de golpe, y cualquier da\u00f1o sobrante se aplica a la forma normal. Si este da\u00f1o sobrante no reduce la forma normal de la criatura a 0 puntos de vida, esta no cae inconsciente. Las acciones de la criatura quedan limitadas por la naturaleza de su nueva forma, y tampoco puede hablar ni lanzar conjuros.<br><br>El equipamiento del objetivo se funde con la nueva forma, de modo que no puede utilizar, blandir o beneficiarse de su equipamiento de ninguna manera.",
     "materiales": null
+  },
+  {
+    "nombre": "Aura sagrada",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una luz divina ba\u00f1a suavemente tus alrededores, en un radio de 30 pies. Las criaturas de tu elecci\u00f3n que se encuentren en el \u00e1rea cuando lanzas este conjuro emiten luz tenue en un radio de 5 pies y tienen ventaja en todas las tiradas de salvaci\u00f3n. El resto de criaturas tienen desventaja en las tiradas de ataque contra las criaturas que elegiste hasta el final de la duraci\u00f3n del conjuro. Adem\u00e1s, cuando un infernal o un muerto viviente impacte a una criatura afectada con un ataque cuerpo a cuerpo, el aura brillar\u00e1 con un fogonazo. Debido a ello, el atacante debe tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o quedar\u00e1 cegado hasta el final de la duraci\u00f3n del conjuro.",
+      "Una luz divina ba\u00f1a suavemente tus alrededores, en un radio de 9 m. Las criaturas de tu elecci\u00f3n que se encuentren en el \u00e1rea cuando lanzas este conjuro emiten luz tenue en un radio de 1 m y tienen ventaja en todas las tiradas de salvaci\u00f3n. El resto de criaturas tienen desventaja en las tiradas de ataque contra las criaturas que elegiste hasta el final de la duraci\u00f3n del conjuro. Adem\u00e1s, cuando un infernal o un muerto viviente impacte a una criatura afectada con un ataque cuerpo a cuerpo, el aura brillar\u00e1 con un fogonazo. Debido a ello, el atacante debe tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o quedar\u00e1 cegado hasta el final de la duraci\u00f3n del conjuro."
+    ],
+    "materiales": "Un peque\u00f1o relicario que valga, al menos, 1.000 po y que contenga una reliquia sagrada, como un jir\u00f3n de ropa de la t\u00fanica de un santo o un pedazo de pergamino de un texto religioso."
   }
 ]
