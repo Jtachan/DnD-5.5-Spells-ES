@@ -8,8 +8,8 @@ import re
 import json
 import os
 
-METRIC_SYSTEM_REGEX = r"((\d+,)?\d+) ([kmc]?m|kg|l)[\s.]"
-IMPERIAL_SYSTEM_REGEX = r"((\d+,)?\d+) (pies?|pulgadas?|millas?|galón|galones|libras?)[\s.]"
+METRIC_SYSTEM_REGEX = r"((\d+,)?\d+) ([kmc]?m|kg|l)[\s.,]"
+IMPERIAL_SYSTEM_REGEX = r"((\d+,)?\d+) (pies?|pulgadas?|millas?|galón|galones|libras?)[\s.,]"
 
 # Condiciones adicionales que aparecen en el campo de 'tiempo de lanzamiento'.
 # Estas descripciones se mueven directamente al campo de 'descripcion'.
