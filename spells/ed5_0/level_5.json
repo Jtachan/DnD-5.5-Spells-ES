@@ -104,5 +104,32 @@
       "Este conjuro te permite cambiar la apariencia de cualquier n\u00famero de criaturas que puedas ver dentro del alcance. Le das a cada una de ellas una apariencia ilusoria nueva. Un objetivo no voluntario puede realizar una tirada de salvaci\u00f3n de Carisma, y si tiene \u00e9xito no se ver\u00e1 afectado por el conjuro.<br><br>El conjuro disfraza la apariencia f\u00edsica, as\u00ed como la vestimenta, armas, armadura y equipo. Puedes hacer que cada criatura parezca 0 m m\u00e1s alta o m\u00e1s baja y de complexi\u00f3n delgada, gorda o intermedia. No puedes cambiar el tipo de su cuerpo, as\u00ed que debes elegir una forma que tenga la misma configuraci\u00f3n de miembros. En el resto de aspectos, la ilusi\u00f3n queda a tu elecci\u00f3n. Esta permanece hasta el final de la duraci\u00f3n del conjuro o hasta que utilices una acci\u00f3n para finalizarla.<br><br>Los cambios realizados por este conjuro no aguantan una inspecci\u00f3n f\u00edsica. Por ejemplo, si usas este conjuro para a\u00f1adir un sombrero a la vestimenta de una criatura, los objetos atravesar\u00edan el sombrero y cualquiera que lo toque no sentir\u00eda nada, o sencillamente notar\u00eda la piel o la cabeza. Si utilizas este conjuro para parecer m\u00e1s delgado, la mano de cualquiera que intente tocarte se chocar\u00e1 contra el cuerpo aunque parezca tener espacio libre.<br><br>Si una criatura emplea su acci\u00f3n para examinar a un objetivo, podr\u00e1 hacer una prueba de Inteligencia (Investigaci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si tiene \u00e9xito, se dar\u00e1 cuenta de que el objetivo est\u00e1 disfrazado."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Atadura planar",
+    "clases": [
+      "Brujo",
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Con este conjuro, intentas obligar a un celestial, elemental, fe\u00e9rico o infernal a servirte. La criatura debe estar dentro del alcance durante toda la duraci\u00f3n del lanzamiento del conjuro (t\u00edpicamente se invoca a la criatura en el centro de un c\u00edrculo m\u00e1gico invertido para evitar que escape mientras se lanza el conjuro). Al finalizar el lanzamiento, el objetivo debe hacer una tirada de salvaci\u00f3n de Carisma. Si falla, queda atado, obligado a servirte hasta el final de la duraci\u00f3n del conjuro. Si la criatura fue invocada o creada por otro conjuro, la duraci\u00f3n de este \u00faltimo se extiende hasta igualar la de este conjuro.<br><br>El objetivo atado debe obedecer tus \u00f3rdenes de la mejor que pueda. Puedes pedirle que te acompa\u00f1e en una aventura, que vigile un sitio o que entregue un mensaje. La criatura seguir\u00e1 las instrucciones al pie de la letra, pero si es hostil hacia ti, intentar\u00e1 torcer tus palabras para conseguir sus propios objetivos. Si cumple totalmente tus \u00f3rdenes antes de que acabe el conjuro, viajar\u00e1 hasta donde est\u00e9s para informarte, siempre y cuando est\u00e9s en el mismo plano de existencia. Si est\u00e1s en otro plano, volver\u00e1 al sitio donde la ataste y se quedar\u00e1 ah\u00ed hasta que el conjuro termine.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de un nivel superior, la duraci\u00f3n aumenta a 30 d\u00edas con un espacio de nivel 6, de 180 d\u00edas con uno de nivel 7, a 1 a\u00f1o y 1 d\u00eda con un espacio de conjuro de nivel 9.",
+    "materiales": "Una joya con un valor de, al menos, 1.000 po, que es consumida como parte del conjuro."
   }
 ]
