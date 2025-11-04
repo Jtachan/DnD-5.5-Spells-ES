@@ -123,5 +123,27 @@
     "requiere_ataque": false,
     "descripcion": "Tocas un arma no m\u00e1gica. Hasta el final del conjuro, esa arma se convierte en un arma m\u00e1gica con un bonificador de +1 a las tiradas de ataque y de da\u00f1o.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, los bonificadores aumentan a +2. Cuando usas un espacio de conjuro de nivel 6 o m\u00e1s, los modificadores aumentan a +3.",
     "materiales": null
+  },
+  {
+    "nombre": "Augurio",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Lanzando huesos de drag\u00f3n, tirando palitos con gemas incrustadas, echando las cartas o mediante otro m\u00e9todo de adivinaci\u00f3n, consigues que una entidad de otro mundo te otorgue un presagio sobre los resultados de una acci\u00f3n concreta que planees llevar a cabo en los pr\u00f3ximos 30 minutos. El DM elige de entre los siguientes presagios:<ul><li><i>Fortuna</i>, para resultados buenos.</li><li><i>Desdicha</i>, para resultados malos.</li><li><i>Fortuna y desdicha</i>, para resultados a la vez buenos y malos.</li><li><i>Nada</i>, para resultados que no son particularmente buenos ni malos.</li></ul>Este conjuro no tiene en cuenta ninguna circunstancia que pueda alterar los resultados como, por ejemplo, el lanzamiento de otros conjuros, o la p\u00e9rdida o encuentro de un compa\u00f1ero.<br><br>Si se lanza dos veces o m\u00e1s antes del pr\u00f3ximo descanso largo, hay una posibilidad acumulativa del 25% por cada lanzamiento despu\u00e9s del primero de recibir un presagio aleatorio. El DM realiza esta tirada en secreto.",
+    "materiales": "Palitos, huesos o abalorios marcados de forma especial y valorados en, al menos, 25 po."
   }
 ]
