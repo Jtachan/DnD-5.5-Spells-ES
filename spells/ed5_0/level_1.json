@@ -121,5 +121,28 @@
       "Invocas el poder de Hadar, produciendo que surjan brazos de energ\u00eda oscura de tu cuerpo. Estos brazos atacan a todas las criaturas posicionadas a 3 m o menos de ti, oblig\u00e1ndoles a lanzar una tirada de salvaci\u00f3n de Fuerza. Si falla, sufrir\u00e1 2d6 de da\u00f1o necr\u00f3tico y no podr\u00e1 llevar a cabo reacciones hasta el comienzo de su pr\u00f3ximo turno. Si supera la tirada, recibir\u00e1 la mitad de da\u00f1o sin aplicarse ning\u00fan otro efecto.<br><br><i>A niveles superiores.</i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Buenas bayas",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Aparecen en tu mano un m\u00e1ximo de diez bayas infundidas con magia hasta el final de la duraci\u00f3n del conjuro. Una criatura puede utilizar su acci\u00f3n para comerse una baya. Comer una baya har\u00e1 que recupere 1 punto de golpe y tendr\u00e1 sustento para todo el d\u00eda.<br><br>Las bayas pierden su poder si no son consumidas dentro de las 24 horas siguientes al lanzamiento del conjuro.",
+    "materiales": "Un ramito de mu\u00e9rdago."
   }
 ]
