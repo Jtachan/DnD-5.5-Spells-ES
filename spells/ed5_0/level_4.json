@@ -20,5 +20,29 @@
     "requiere_ataque": false,
     "descripcion": "Tu magia y la ofrenda te ponen en contacto con un dios o sus sirvientes. Puedes hacer una sola pregunta sobre una meta, evento o actividad espec\u00edfica que ocurrir\u00e1 en los pr\u00f3ximos 7 d\u00edas. El DM te dar\u00e1 una respuesta verdadera, que puede ser una frase corta, una rima cr\u00edptica o un augurio.<br><br>Este conjuro no tiene en cuenta ninguna circunstancia que pueda alterar los resultados, como por ejemplo el lanzamiento de otros conjuros o la p\u00e9rdida o encuentro con un compa\u00f1ero.<br><br>Si se lanza dos veces o m\u00e1s antes del pr\u00f3ximo descanso largo, hay una posibilidad acumulativa del 25 % por cada lanzamiento despu\u00e9s del primero de recibir un presagio aleatorio. El DM realiza esta tirada en secreto.",
     "materiales": "Incienso y una ofrenda ritual apropiada a tu religi\u00f3n, en conjunto con valor de 25 po y que son consumidos por el conjuro."
+  },
+  {
+    "nombre": "Asesino fantasmal",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Accedes a las pesadillas de una criatura que puedas ver dentro del alcance para crear una manifestaci\u00f3n ilusoria de sus m\u00e1s profundos miedos, que solo ser\u00e1 visible para esa criatura. El objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, queda asustado hasta el final de la duraci\u00f3n del conjuro. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir 4d10 de da\u00f1o ps\u00edquico. Si supera la tirada, el conjuro termina inmediatamente.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el da\u00f1o aumenta en 1d10 por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
+    "materiales": null
   }
 ]
