@@ -53,5 +53,27 @@
       "Este conjuro crea un siervo muerto viviente. Elige un mont\u00f3n de huesos o un cad\u00e1ver de un humanoide de tama\u00f1o Mediano o Peque\u00f1o. Debe estar dentro del alcance. El conjuro insufla en el objetivo una burda semblanza de vida, alz\u00e1ndolo como una criatura muerta viviente. El objetivo se convierte en un esqueleto, si eliges un mont\u00f3n de huesos, o en un zombi, si eliges un cad\u00e1ver. El DM tiene el perfil de la criatura.<br><br>En cada turno, puedes usar una acci\u00f3n adicional para dar una orden mental a cualquier criatura creada mediante este conjuro que est\u00e9 a 18 m o menos de ti (si controlas varias criaturas, puedes dirigir a una o m\u00e1s de ellas utilizando la misma orden). Decides qu\u00e9 acci\u00f3n va a tomar la criatura y d\u00f3nde se mover\u00e1 durante su pr\u00f3ximo turno. Tambi\u00e9n puedes dar una orden general, como vigilar un camino o pasillo en concreto. Si no das ninguna orden, la criatura se limitar\u00e1 a defenderse de otras criaturas hostiles. Una vez recibida una orden, la sigue hasta cumplirla.<br><br>La criatura permanece bajo tu control durante 24 horas, despu\u00e9s de las cuales abandonar\u00e1 cualquier orden que hayas dado. Para mantener el control de la criatura durante otras 24 horas, debes lanzar este conjuro de nuevo sobre ella antes de que el periodo actual de 24 horas termine. Puedes usar este conjuro para reafirmar tu control sobre hasta cuatro criaturas que hayas animado previamente con este conjuro o para reanimar a una nueva.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, reanimas o reafirmas el control de dos criaturas adicionales por cada nivel por encima de nivel 3. Cada una debe tener el objetivo de reanimar un mont\u00f3n de huesos o un cad\u00e1ver de tama\u00f1o Mediano o Peque\u00f1o (o cuatro criaturas muertas vivas que provienen de un cad\u00e1ver o mont\u00f3n de huesos diferente)."
     ],
     "materiales": "Una gota de sangre, un pedazo de carne y una pizca de polvo de hueso."
+  },
+  {
+    "nombre": "Arma elemental",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Encantas un arma no m\u00e1gica al tocarla, convirti\u00e9ndola en un arma m\u00e1gica y d\u00e1ndole da\u00f1o elemental de uno de los siguientes elementos: \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago o trueno. Mientras el conjuro se mantenga activo, las tiradas de ataque usando este arma obtienen un bonificador de +1 y hace 1d4 de da\u00f1o adicional del elemento elegido.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o 6, el bonificador a tiradas de ataque aumenta a +2 y el da\u00f1o adicional a 2d4. Cuando utilizas un espacio de conjuro de nivel 7 o mayor, el modificador aumenta a +3 y el da\u00f1o adicional a 3d4.",
+    "materiales": null
   }
 ]
