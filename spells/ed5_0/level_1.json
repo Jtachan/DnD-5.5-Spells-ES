@@ -97,5 +97,29 @@
     "requiere_ataque": false,
     "descripcion": "Bendices hasta tres criaturas de tu elecci\u00f3n dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, cuando uno de los objetivos haga una tirada de ataque o una tirada de salvaci\u00f3n, puede tirar 1d4 y a\u00f1adir el resultado a esa tirada.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
     "materiales": "Unas gotas de agua bendita."
+  },
+  {
+    "nombre": "Brazos de Hadar",
+    "clases": [
+      "Brujo"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador (radio de 10 pies)",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Invocas el poder de Hadar, produciendo que surjan brazos de energ\u00eda oscura de tu cuerpo. Estos brazos atacan a todas las criaturas posicionadas a 10 pies o menos de ti, oblig\u00e1ndoles a lanzar una tirada de salvaci\u00f3n de Fuerza. Si falla, sufrir\u00e1 2d6 de da\u00f1o necr\u00f3tico y no podr\u00e1 llevar a cabo reacciones hasta el comienzo de su pr\u00f3ximo turno. Si supera la tirada, recibir\u00e1 la mitad de da\u00f1o sin aplicarse ning\u00fan otro efecto.<br><br><i>A niveles superiores.</i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+      "Invocas el poder de Hadar, produciendo que surjan brazos de energ\u00eda oscura de tu cuerpo. Estos brazos atacan a todas las criaturas posicionadas a 3 m o menos de ti, oblig\u00e1ndoles a lanzar una tirada de salvaci\u00f3n de Fuerza. Si falla, sufrir\u00e1 2d6 de da\u00f1o necr\u00f3tico y no podr\u00e1 llevar a cabo reacciones hasta el comienzo de su pr\u00f3ximo turno. Si supera la tirada, recibir\u00e1 la mitad de da\u00f1o sin aplicarse ning\u00fan otro efecto.<br><br><i>A niveles superiores.</i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": null
   }
 ]
