@@ -75,5 +75,28 @@
     "requiere_ataque": false,
     "descripcion": "Encantas un arma no m\u00e1gica al tocarla, convirti\u00e9ndola en un arma m\u00e1gica y d\u00e1ndole da\u00f1o elemental de uno de los siguientes elementos: \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago o trueno. Mientras el conjuro se mantenga activo, las tiradas de ataque usando este arma obtienen un bonificador de +1 y hace 1d4 de da\u00f1o adicional del elemento elegido.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o 6, el bonificador a tiradas de ataque aumenta a +2 y el da\u00f1o adicional a 2d4. Cuando utilizas un espacio de conjuro de nivel 7 o mayor, el modificador aumenta a +3 y el da\u00f1o adicional a 3d4.",
     "materiales": null
+  },
+  {
+    "nombre": "Aura de vitalidad",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una energ\u00eda sanadora emana de ti con alcance de 30 pies de radio, siendo t\u00fa el epicentro del aura y movi\u00e9ndose esta contigo. Mientras se mantenga el aura, puedes usar una acci\u00f3n adicional para elegir a una criatura objetivo y que recupere 2d6 de puntos de golpe. Puedes ser la criatura elegida.",
+      "Una energ\u00eda sanadora emana de ti con alcance de 9 m de radio, siendo t\u00fa el epicentro del aura y movi\u00e9ndose esta contigo. Mientras se mantenga el aura, puedes usar una acci\u00f3n adicional para elegir a una criatura objetivo y que recupere 2d6 de puntos de golpe. Puedes ser la criatura elegida."
+    ],
+    "materiales": null
   }
 ]
