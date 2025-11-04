@@ -144,5 +144,35 @@
     "requiere_ataque": false,
     "descripcion": "Aparecen en tu mano un m\u00e1ximo de diez bayas infundidas con magia hasta el final de la duraci\u00f3n del conjuro. Una criatura puede utilizar su acci\u00f3n para comerse una baya. Comer una baya har\u00e1 que recupere 1 punto de golpe y tendr\u00e1 sustento para todo el d\u00eda.<br><br>Las bayas pierden su poder si no son consumidas dentro de las 24 horas siguientes al lanzamiento del conjuro.",
     "materiales": "Un ramito de mu\u00e9rdago."
+  },
+  {
+    "nombre": "Ca\u00edda de pluma",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Reacci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Realiza el hechizo cuando t\u00fa o una criatura a 60 pies o menos caiga.<br><br>Elige un m\u00e1ximo de cinco criaturas dentro del alcance que est\u00e9n cayendo. La velocidad de ca\u00edda de cada objetivo se reduce a 60 pies por asalto hasta que el conjuro termine. Si la criatura aterriza antes de que el conjuro acabe, no sufrir\u00e1 da\u00f1o por ca\u00edda y podr\u00e1 aterrizar de pie, y el conjuro acaba para ese objetivo.",
+      "Realiza el hechizo cuando t\u00fa o una criatura a 18 m o menos caiga.<br><br>Elige un m\u00e1ximo de cinco criaturas dentro del alcance que est\u00e9n cayendo. La velocidad de ca\u00edda de cada objetivo se reduce a 18 m por asalto hasta que el conjuro termine. Si la criatura aterriza antes de que el conjuro acabe, no sufrir\u00e1 da\u00f1o por ca\u00edda y podr\u00e1 aterrizar de pie, y el conjuro acaba para ese objetivo."
+    ],
+    "materiales": "Una pluma peque\u00f1a o un poco de plum\u00f3n."
   }
 ]
