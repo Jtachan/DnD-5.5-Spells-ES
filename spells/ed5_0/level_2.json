@@ -101,5 +101,27 @@
       "Creas un arma espectral flotante dentro del alcance, que permanece hasta el final de la duraci\u00f3n del conjuro o hasta que lo utilices de nuevo. Cuando lanzas este conjuro, puedes hacer un ataque de conjuro cuerpo a cuerpo contra una criatura que se encuentre a 1 m o menos del arma. Si impactas, la criatura recibe tanto da\u00f1o como 1d8 + tu modificador de aptitud m\u00e1gica.<br><br>Como acci\u00f3n adicional puedes mover el arma hasta 6 m y repetir el ataque contra una criatura que se encuentre a 1 m o menos de ella.<br><br>El arma puede tener la forma que desees. Los cl\u00e9rigos cuyas deidades est\u00e9n asociadas con un arma en particular (como San Cuthbert, conocido por su maza, o Thor, famoso por su martillo) utilizan esa arma como aspecto visual del conjuro.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada dos niveles por encima de 2 que tenga el espacio que hayas empleado."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Arma m\u00e1gica",
+    "clases": [
+      "Palad\u00edn",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas un arma no m\u00e1gica. Hasta el final del conjuro, esa arma se convierte en un arma m\u00e1gica con un bonificador de +1 a las tiradas de ataque y de da\u00f1o.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, los bonificadores aumentan a +2. Cuando usas un espacio de conjuro de nivel 6 o m\u00e1s, los modificadores aumentan a +3.",
+    "materiales": null
   }
 ]
