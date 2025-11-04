@@ -167,5 +167,31 @@
     "requiere_ataque": false,
     "descripcion": "Implantas una ilusi\u00f3n en una criatura u objeto que toques, de tal manera que los conjuros de adivinaci\u00f3n proporcionan informaci\u00f3n falsa sobre este. El objetivo puede ser una criatura voluntaria u un objeto que puedas ver y que no lleva o vista otra criatura.<br><br>Cuando lanzas este conjuro, elige uno u los dos efectos siguientes. Permanecer\u00e1n hasta el final de la duraci\u00f3n del conjuro. Si lanzas este conjuro sobre la misma criatura u objeto cada d\u00eda durante 30 d\u00edas, eligiendo el mismo efecto cada vez, la ilusi\u00f3n durar\u00e1 hasta que sea disipada.<br><br><b>Aura falsa.</b> Cambias el modo en que el objetivo se muestra a conjuros y efectos m\u00e1gicos que detectan magia, que perciben auras m\u00e1gicas. Puedes hacer que un objeto no m\u00e1gico parezca m\u00e1gico, que un objeto m\u00e1gico parezca no m\u00e1gico u ocultar la escuela de magia de un objeto para que parezca pertenecer a una escuela de magia espec\u00edfica. De manera similar, puedes utilizar este efecto en un objeto, puedes hacer que resulte obvio que est\u00e1 imbuido de magia y emplear tu ilusi\u00f3n para que su escuela m\u00e1gica sea falsa.<br><br><b>Enmascarar.</b> Cambias c\u00f3mo el objetivo se muestra a conjuros y efectos m\u00e1gicos que detectan tipos de criatura tales como Los Sentidos Divinos del palad\u00edn o un conjuro s\u00edmbolo. Eliges un tipo de criatura o un alineamiento. El resto de los conjuros y efectos m\u00e1gico har\u00e1n que la criatura o el objeto se muestre como si fuera una criatura de ese tipo o alineamiento.",
     "materiales": "Un peque\u00f1o cuadrado de seda."
+  },
+  {
+    "nombre": "Auxilio",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro refuerza la resistencia y decisi\u00f3n de tus aliados. Elige hasta tres criaturas dentro del alcance: sus puntos de golpe m\u00e1ximos y actuales aumentan en 5 hasta el final de la duraci\u00f3n del conjuro.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, los puntos de golpe del objetivo aumentan en 5 m\u00e1s por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+    "materiales": "Una peque\u00f1a tira de tela blanca."
   }
 ]
