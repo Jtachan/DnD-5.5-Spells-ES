@@ -67,5 +67,28 @@
       "Emanas un aura de energ\u00eda purificante de radio de 9 m, la cual se desplaza contigo y se mantiene centrada en t\u00ed hasta que el conjuro se termine. El aura proporciona resistencia al veneno a todas las criaturas no hostiles dentro del aura, incluy\u00e9ndote a ti. Estas criaturas no pueden enfermar y tienen ventaja en tiradas de salvacion frente a efectos que causen cualquiera de los siguientes estados: cegado, aturdido, ensordecido, paralizado, hechizado, asustado o envenenado."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Aura de vida",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Radias una energ\u00eda preservadora de vida en forma de aura de 30 pies de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Todas las criaturas no hostiles en el aura (incluido t\u00fa) tienen resistencia al da\u00f1o necr\u00f3tico y sus puntos de golpe m\u00e1ximos no pueden ser reducidos. Adem\u00e1s, todas las criaturas vivas y no hostiles recuperan 1 punto de golpe al principio de su turno si est\u00e1n en el aura y tienen 0 puntos de golpe.",
+      "Radias una energ\u00eda preservadora de vida en forma de aura de 9 m de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Todas las criaturas no hostiles en el aura (incluido t\u00fa) tienen resistencia al da\u00f1o necr\u00f3tico y sus puntos de golpe m\u00e1ximos no pueden ser reducidos. Adem\u00e1s, todas las criaturas vivas y no hostiles recuperan 1 punto de golpe al principio de su turno si est\u00e1n en el aura y tienen 0 puntos de golpe."
+    ],
+    "materiales": null
   }
 ]
