@@ -22,5 +22,30 @@
     "requiere_ataque": false,
     "descripcion": "Suplicas la ayuda de una entidad de otro mundo. Debe ser una entidad que conozcas: un dios, un primordial, un pr\u00edncipe demonio u otro ser de poderes c\u00f3smicos. Para ayudarte, enviar\u00e1 un celestial, elemental o infernal leal a ti, haciendo que aparezca en un espacio desocupado dentro del alcance. Si conoces el nombre espec\u00edfico de una criatura, puedes pronunciar su nombre al lanzar el conjuro para solicitar a esa criatura en concreto, aunque a\u00fan as\u00ed podr\u00edas recibir otra criatura diferente (a elecci\u00f3n del DM).<br><br>Cuando la criatura se presenta no est\u00e1 bajo los efectos de ninguna obligaci\u00f3n que le haga comportarse de una manera determinada. Puedes pedirle que lleve a cabo un servicio a cambio de un pago, pero no est\u00e1 obligada a hacerlo. La tarea solicitada puede ser simple (como \u201cll\u00e9vanos volando a trav\u00e9s del abismo\u201d o \u201cay\u00fadanos en una batalla\u201d) o compleja (como \u201cesp\u00eda a nuestros enemigos\u201d o \u201cprot\u00e9genos durante nuestra incursi\u00f3n en la mazmorra\u201d). Debes ser capaz de comunicarte con la criatura para contratar sus servicios.<br><br>El pago puede tomar formas muy variadas. Un celestial podr\u00eda requerir una cuantiosa donaci\u00f3n de oro u objetos m\u00e1gicos a un templo aliado, mientras que un infernal podr\u00eda requerir un sacrificio de un ser vivo o cierto tipo de regalo. Algunas criaturas podr\u00edan pedirte que lleves a cabo una misi\u00f3n a cambio de sus servicios.<br><br>Como regla general, una tarea que puede medirse en minutos cuesta 100 po por minuto. Una tarea medida en horas cuesta 1.000 po por hora. Finalmente, una tarea medida en d\u00edas (hasta) cuesta 10.000 po por d\u00eda. El DM puede ajustar estos precios en funci\u00f3n de las circunstancias en que se lance el conjuro. Si la tarea se realiza en l\u00ednea con la \u00e9tica de la criatura, el pago podr\u00eda ser reducido o incluso condonado. Las tareas que se alejen de su naturaleza podr\u00edan requerir una mayor compensaci\u00f3n.<br><br>Despu\u00e9s de completar su misi\u00f3n, o cuando se acabe el tiempo de servicio contratado, la criatura volver\u00e1 a su plano nativo tras informarte, si esto es posible y apropiado a la tarea. Si sois incapaces de alcanzar un acuerdo por el servicio, la criatura vuelve inmediatamente a su plano natal.<br><br>Una criatura reclutada para unirse a tu grupo cuenta como un miembro m\u00e1s, recibiendo su parte completa de los puntos de experiencia.",
     "materiales": null
+  },
+  {
+    "nombre": "Baile irresistible de Otto",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Elige a una criatura que puedas ver dentro del alcance. Comenzar\u00e1 a ejecutar una danza c\u00f3mica en el lugar en el que se encuentre: arrastrando los pies, taconeando y haciendo cabriolas hasta el final de la duraci\u00f3n del conjuro. Las criaturas inmunes a ser hechizadas no se ven afectadas por este conjuro.<br><br>El objetivo debe utilizar todo su movimiento en bailar y no puede moverse de donde est\u00e9. Tendr\u00e1 desventaja en tiradas de salvaci\u00f3n de Destreza y en tiradas de ataque. Mientras siga afectado por el conjuro, las tiradas de ataque de otras criaturas contra \u00e9l tendr\u00e1n ventaja. Como acci\u00f3n, la criatura bailarina puede hacer una tirada de salvaci\u00f3n de Sabidur\u00eda para intentar recuperar el control. Si tiene \u00e9xito en la tirada, el conjuro termina inmediatamente.",
+    "materiales": null
   }
 ]
