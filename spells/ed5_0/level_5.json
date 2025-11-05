@@ -272,5 +272,30 @@
     "requiere_ataque": false,
     "descripcion": "Entras en contacto con tu deidad o representante divino y haces tres preguntas que puedan ser respondidas con s\u00ed o no. Debes realizar las preguntas antes de que el conjuro termine y recibes una respuesta correcta para cada una.<br><br>Un ser divino no es necesariamente omnisciente, as\u00ed que puedes recibir \"incierto\" como respuesta si la pregunta se refiere a informaci\u00f3n m\u00e1s all\u00e1 del conocimiento de la deidad. En el caso de que una respuesta de una sola palabra pueda indicar o error o sea contraria a los intereses de la deidad, el DM puede ofrecer una frase corta en su lugar.<br><br>Si se lanza dos veces o m\u00e1s antes del pr\u00f3ximo descanso largo, hay una posibilidad acumulativa del 25% por cada lanzamiento despu\u00e9s del primero de no recibir respuesta. El DM realiza esta tirada en secreto.",
     "materiales": "Incienso y un vial de agua sagrada o imp\u00eda."
+  },
+  {
+    "nombre": "Comuni\u00f3n con la naturaleza",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Realizas una breve comuni\u00f3n con la naturaleza que te otorga cierto conocimiento sobre el terreno circundante. En exteriores, el conjuro te proporciona informaci\u00f3n sobre el terreno en 3 millas a tu alrededor. En una cueva u otra localizaci\u00f3n subterr\u00e1nea natural, el alcance se limita a 300 pies. Este conjuro no tiene efecto si la naturaleza ha sido sustituida por una construcci\u00f3n, como en una mazmorra o pueblo.<br><br>Conoces de forma inmediata tres hechos de tu elecci\u00f3n sobre cualquiera de los siguientes elementos relacionados con el terreno:<ul><li>Terreno y masas de agua.</li><li>Plantas, minerales, animales y gentes comunes.</li><li>Seres poderosos de origen celestial, fe\u00e9rico, demon\u00edaco, elemental o muertos vivientes.</li><li>Influencia de otros planos de existencia.</li><li>Edificios.</li></ul>Por ejemplo, podr\u00edas determinar la localizaci\u00f3n de muertos vivientes poderosos en el \u00e1rea, de masas de agua potable cercanas y de cualquier pueblo en los alrededores.",
+      "Realizas una breve comuni\u00f3n con la naturaleza que te otorga cierto conocimiento sobre el terreno circundante. En exteriores, el conjuro te proporciona informaci\u00f3n sobre el terreno en 4,5 km a tu alrededor. En una cueva u otra localizaci\u00f3n subterr\u00e1nea natural, el alcance se limita a 90 m. Este conjuro no tiene efecto si la naturaleza ha sido sustituida por una construcci\u00f3n, como en una mazmorra o pueblo.<br><br>Conoces de forma inmediata tres hechos de tu elecci\u00f3n sobre cualquiera de los siguientes elementos relacionados con el terreno:<ul><li>Terreno y masas de agua.</li><li>Plantas, minerales, animales y gentes comunes.</li><li>Seres poderosos de origen celestial, fe\u00e9rico, demon\u00edaco, elemental o muertos vivientes.</li><li>Influencia de otros planos de existencia.</li><li>Edificios.</li></ul>Por ejemplo, podr\u00edas determinar la localizaci\u00f3n de muertos vivientes poderosos en el \u00e1rea, de masas de agua potable cercanas y de cualquier pueblo en los alrededores."
+    ],
+    "materiales": null
   }
 ]
