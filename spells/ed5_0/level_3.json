@@ -127,5 +127,35 @@
       "Una r\u00e1faga brillante surge de tu dedo hacia un punto de tu elecci\u00f3n dentro del alcance y despu\u00e9s crece con un rugido sordo hasta convertirse en una explosi\u00f3n ardiente. Todas las criaturas en una esfera de 6 m centrada en el punto deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 8d6 de da\u00f1o de fuego si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>El fuego se extiende m\u00e1s all\u00e1 de las esquinas. Los objetos inflamables que se encuentren en el \u00e1rea que no lleve o vista alguien arder\u00e1n.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Una pelotita de guano de murci\u00e9lago y azufre."
+  },
+  {
+    "nombre": "Caminar sobre el agua",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Este conjuro proporciona la capacidad de moverse a trav\u00e9s de cualquier superficie l\u00edquida, como agua, \u00e1cido, barro, nieve, arenas movedizas o lava, como si fuera un terreno s\u00f3lido inofensivo (aunque las criaturas que crucen lava fundida podr\u00edan recibir da\u00f1o del intenso calor). Un m\u00e1ximo de diez criaturas que puedas ver dentro del alcance recibir\u00e1n esta capacidad hasta que el conjuro termine.<br><br>Si eliges como objetivo a una criatura sumergida en un l\u00edquido, el conjuro la elevar\u00e1 a la superficie del mismo a una velocidad de 60 pies por asalto.",
+      "Este conjuro proporciona la capacidad de moverse a trav\u00e9s de cualquier superficie l\u00edquida, como agua, \u00e1cido, barro, nieve, arenas movedizas o lava, como si fuera un terreno s\u00f3lido inofensivo (aunque las criaturas que crucen lava fundida podr\u00edan recibir da\u00f1o del intenso calor). Un m\u00e1ximo de diez criaturas que puedas ver dentro del alcance recibir\u00e1n esta capacidad hasta que el conjuro termine.<br><br>Si eliges como objetivo a una criatura sumergida en un l\u00edquido, el conjuro la elevar\u00e1 a la superficie del mismo a una velocidad de 18 m por asalto."
+    ],
+    "materiales": "Un trozo de corcho."
   }
 ]
