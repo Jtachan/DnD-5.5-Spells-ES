@@ -155,5 +155,27 @@
       "Una barrera rutilante se extiende alrededor de ti en un radio de 3 m. Permanece centrada en ti y se mueve contigo, manteniendo a raya a todas las criaturas que no sean muertos vivientes o aut\u00f3matas. La barrera persiste hasta el final de la duraci\u00f3n del conjuro.<br><br>Las criaturas afectadas no pueden penetrar en el interior de la barrera, ni parcialmente ni por completo. No obstante, son capaces de lanzar conjuros o realizar ataques con armas de gran alcance o a distancia a trav\u00e9s de la barrera.<br><br>Si tu movimiento obliga a una criatura afectada a atravesar la barrera, el conjuro termina."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Carcaj veloz",
+    "clases": [
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Transmutas tu aljaba para que produzca una reserva infinita de munici\u00f3n no m\u00e1gica, que parece saltar a tu mano cuando vas a cogerla.<br><br>En cada uno de tus turnos hasta el final del conjuro puedes utilizar una acci\u00f3n adicional para realizar dos ataques con un arma que use munici\u00f3n de la aljaba. Cada vez que realices uno de estos ataques a distancia, la munici\u00f3n aparece m\u00e1gicamente de la unidad de munici\u00f3n empleada por una unidad de munici\u00f3n no m\u00e1gica similar. Cualquier unidad de munici\u00f3n creada por este conjuro se desvanece cuando el conjuro acaba. Si la aljaba deja de estar en tu posesi\u00f3n, el conjuro termina.",
+    "materiales": "Una aljaba con al menos una unidad de munici\u00f3n."
   }
 ]
