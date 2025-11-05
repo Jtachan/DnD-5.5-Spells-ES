@@ -135,5 +135,31 @@
       "Ocultas un cofre y todos sus contenidos en el Plano Et\u00e9reo. Debes tocar el cofre y la r\u00e9plica en miniatura que sirven de componentes materiales para el conjuro. El cofre puede alojar hasta 3,6 m c\u00fabicos de materiales inertes (0,9 m por 0,6 m por 0,6 m).<br><br>Mientras permanezca en el Plano Et\u00e9reo, puedes utilizar una acci\u00f3n y tocar la r\u00e9plica para convocarlo. Aparecer\u00e1 en un espacio desocupado del suelo a 1,5 m de ti. Puedes volver a mandarlo al Plano Et\u00e9reo empleando una acci\u00f3n y tocando tanto la r\u00e9plica como el propio cofre.<br><br>Despu\u00e9s de 60 d\u00edas, hay una posibilidad acumulativa de 5% por d\u00eda de que los efectos del conjuro terminen. Tambi\u00e9n lo har\u00e1n si lanzas el conjuro de nuevo, si la r\u00e9plica del cofre es destruida o si decides finalizar el conjuro con una acci\u00f3n. Si el conjuro termina y el cofre grande est\u00e1 en el Plano Et\u00e9reo, se pierde irremediablemente."
     ],
     "materiales": "Un cofre de manufactura exquisita, cuyas dimensiones sean de 3 pies por 2 pies por 2 pies, construido de materiales ex\u00f3ticos con un valor de, al menos, 5.000 po, as\u00ed como una r\u00e9plica diminuta hecha de los mismos materiales y con un valor de, al menos, 50 po."
+  },
+  {
+    "nombre": "Compulsi\u00f3n",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Una o m\u00e1s criaturas de tu elecci\u00f3n que puedas ver, dentro del alcance y que puedan o\u00edrte deben realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Las criaturas inmunes a ser hechizadas tienen \u00e9xito autom\u00e1ticamente. Aquellas que fallen la tirada quedan afectadas por el conjuro.<br><br>Hasta el final del conjuro puedes usar una acci\u00f3n adicional en cada uno de tus turnos para designar una direcci\u00f3n horizontal respecto a ti. Cada criatura afectada debe usar todo el movimiento del que disponga para avanzar en esa direcci\u00f3n durante su pr\u00f3ximo turno. Puede realizar una acci\u00f3n antes de mover. Adem\u00e1s, despu\u00e9s de moverse puede hacer otra tirada de salvaci\u00f3n para intentar terminar el efecto.<br><br>Una criatura afectada no est\u00e1 obligada a moverse dentro de un peligro mortal y obvio, como una hoguera o un pozo, pero provocar\u00e1 ataques de oportunidad al moverse en la direcci\u00f3n se\u00f1alada.",
+    "materiales": null
   }
 ]
