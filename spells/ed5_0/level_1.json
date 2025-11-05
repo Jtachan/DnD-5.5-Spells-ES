@@ -197,5 +197,28 @@
       "La pr\u00f3xima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duraci\u00f3n del conjuro, tu arma se calienta hasta el rojo vivo y el ataque inflige 1d6 de da\u00f1o de fuego adicional al objetivo, haciendo que comience a arder. Al inicio de cada uno de sus turnos, el objetivo debe de realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Si falla, recibe 1d6 de da\u00f1o de fuego. Si tiene \u00e9xito en la tirada, el conjuro termina inmediatamente. Si el objetivo o una criatura a 1 m de este utiliza una acci\u00f3n para apagar las llamas, o si otro efecto las sofoca (como sumergir al objetivo en el agua), el conjuro termina.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o adicional que inflige aumenta en 1d6 por cada nivel por encima de 1 del espacio."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Castigo atronador",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": true,
+    "descripcion": [
+      "La pr\u00f3xima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duraci\u00f3n del conjuro, tu arma suena como un trueno al hacer contacto, y el ataque inflige 2d6 de da\u00f1o de trueno adicional al objetivo. Si el objetivo es una criatura, deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o ser\u00e1 empujado 10 pies en direcci\u00f3n opuesta a ti y ser\u00e1 derribada.",
+      "La pr\u00f3xima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duraci\u00f3n del conjuro, tu arma suena como un trueno al hacer contacto, y el ataque inflige 2d6 de da\u00f1o de trueno adicional al objetivo. Si el objetivo es una criatura, deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o ser\u00e1 empujado 3 m en direcci\u00f3n opuesta a ti y ser\u00e1 derribada."
+    ],
+    "materiales": null
   }
 ]
