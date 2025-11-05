@@ -276,5 +276,28 @@
       "Intentas suprimir emociones fuertes en un grupo de gente. Cada humanoide en una esfera de 6 m de radio centrada en un punto de tu elecci\u00f3n dentro del alcance debe realizar una tirada de salvaci\u00f3n de Carisma. Cualquiera de ellos puede elegir fallar la tirada voluntariamente si as\u00ed lo desea. Si una criatura falla la tirada, elige uno de los dos efectos siguientes:<br><br>Puedes suprimir cualquier efecto que mantenga al objetivo hechizado o asustado. Sin embargo, cuando este conjuro acabe, los efectos suprimidos vuelven a funcionar, siempre que su duraci\u00f3n no haya acabado.<br><br>De modo alternativo, puedes hacer que un objetivo se vuelva indiferente hacia criaturas de tu elecci\u00f3n con las que previamente era hostil. Esta indiferencia termina si el objetivo es atacado o da\u00f1ado por un conjuro o si alguno de sus amigos es da\u00f1ado. Cuando el conjuro acaba, la criatura se vuelve hostil de nuevo, a menos que el DM decida otra cosa."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Castigo marcador",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": [
+      "Mientras el conjuro se mantenga activo, tu arma brilla con un resplandor astral y tus ataques cuerpo a cuerpo con la misma infligen 2d6 de da\u00f1o adicional, tornando visible a cualquier objetivo invisible al que impacte. Al impactar el ataque, una luz tenue astral emana del cuerpo del objetivo, iluminando sus alrededores en un radio de 5 pies. Esta luz tambi\u00e9n le impide volverse invisible hasta que el conjuro deje de estar activo.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+      "Mientras el conjuro se mantenga activo, tu arma brilla con un resplandor astral y tus ataques cuerpo a cuerpo con la misma infligen 2d6 de da\u00f1o adicional, tornando visible a cualquier objetivo invisible al que impacte. Al impactar el ataque, una luz tenue astral emana del cuerpo del objetivo, iluminando sus alrededores en un radio de 1 m. Esta luz tambi\u00e9n le impide volverse invisible hasta que el conjuro deje de estar activo.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": null
   }
 ]

@@ -62,6 +62,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Castigo desterrador                     | 5         | ❌                             |
 | Castigo divino                          | 1         | Divine Smite                  |
 | Castigo furioso                         | 1         | ❌                             |
+| Castigo marcador                        | 2         | ❌                             |
 | Cautiverio                              | 9         | Imprisonment                  |
 | Cerradura arcana                        | 2         | Arcane Lock                   |
 | Círculo de muerte                       | 6         | Circle of Death               |
