@@ -90,5 +90,25 @@
       "Radias una energ\u00eda preservadora de vida en forma de aura de 9 m de radio. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Todas las criaturas no hostiles en el aura (incluido t\u00fa) tienen resistencia al da\u00f1o necr\u00f3tico y sus puntos de golpe m\u00e1ximos no pueden ser reducidos. Adem\u00e1s, todas las criaturas vivas y no hostiles recuperan 1 punto de golpe al principio de su turno si est\u00e1n en el aura y tienen 0 puntos de golpe."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Castigo abrumador",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": true,
+    "descripcion": "Mientras el conjuro se mantenga activo, tus ataques cuerpo a cuerpo hacen da\u00f1o f\u00edsica- y ps\u00edquicamente. Tu ataque inflige 4d6 de da\u00f1o ps\u00edquico adicionales y obliga a la criatura a hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si fracasa, hasta el comienzo de su pr\u00f3ximo turno tiene desventaja en tiradas de ataque y pruebas de caracter\u00edstica y no podr\u00e1 llevar a cabo reacciones.",
+    "materiales": null
   }
 ]
