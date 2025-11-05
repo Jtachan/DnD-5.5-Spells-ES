@@ -192,5 +192,29 @@
       "Este conjuro ataca y retuerce la mente, creando ilusiones y provocando acciones incontroladas. Cada criatura en una esfera de 3 m de radio centrada en un punto de tu elecci\u00f3n dentro del alcance debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o ser\u00e1 afectada por el conjuro.<br><br>Una criatura afectada no puede llevar a cabo reacciones y debe tirar 1d10 al principio de cada uno de sus turnos para determinar c\u00f3mo se comporta ese turno:<br><br><table><tr><th>d10</th><th>Comportamiento</th></tr><tr><td>1</td><td>La criatura emplea todo su movimiento en avanzar en una direcci\u00f3n aleatoria. Para determinar la direcci\u00f3n, lanza 1d8 asignando una direcci\u00f3n a cada cara del dado. La criatura no realiza acciones este turno.</td></tr><tr><td>2\u20136</td><td>La criatura no se mueve o realiza acciones este turno.</td></tr><tr><td>7\u20138</td><td>La criatura usa su acci\u00f3n para hacer un ataque cuerpo a cuerpo contra una criatura determinada aleatoriamente dentro de su alcance. Si no hay ninguna criatura dentro del alcance, no hace nada este turno.</td></tr><tr><td>9\u201310</td><td>La criatura puede actuar y moverse con normalidad.</td></tr></table><br><br>Al final de cada uno de sus turnos, el objetivo puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda; si tiene \u00e9xito, el conjuro termina para \u00e9l.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el radio de la esfera aumenta en 1,5 m por cada nivel por encima de 4 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Tres c\u00e1scaras de nuez."
+  },
+  {
+    "nombre": "Conjurar elementales menores",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Convocas elementales en espacios desocupados que puedas ver dentro del alcance. Elige una de las siguientes opciones para lo que convocas:<ul><li>Un elemental con valor de desaf\u00edo 2 o menos.</li><li>Dos elementales con valor de desaf\u00edo 1 o menos.</li><li>Cuatro elementales con valor de desaf\u00edo 1/2 o menos.</li><li>Ocho elementales con valor de desaf\u00edo 1/4 o menos.</li></ul>Los elementales desaparecen si llegan a 0 puntos de golpe o el conjuro termina.<br><br>Las criaturas invocadas son amistosas hacia ti y tus compa\u00f1eros. Las criaturas act\u00faan como un grupo con sus propios turnos, con una sola de tirada de iniciativa com\u00fan. Obedecen cualquier mandato verbal tuyo (no requiere acci\u00f3n). Si no les das ninguna orden, se defender\u00e1n de criaturas hostiles, pero no realizar\u00e1n ninguna otra acci\u00f3n.<br><br>El DM tiene el perfil de las criaturas.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de determinados niveles superiores, el n\u00famero de criaturas que puedes elegir aumenta: el doble si usas un espacio de conjuro de nivel 6 y el triple si es de nivel 8.",
+    "materiales": null
   }
 ]
