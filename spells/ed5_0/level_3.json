@@ -261,5 +261,31 @@
     "requiere_ataque": false,
     "descripcion": "Convocas esp\u00edritus fe\u00e9ricos que toman la forma de bestias en espacios desocupados que puedas ver dentro del alcance. Elige una de las siguientes opciones para lo que convocas:<ul><li>Una bestia con valor de desaf\u00edo 2 o menos.</li><li>Dos bestias con valor de desaf\u00edo 1 o menos.</li><li>Cuatro bestias con valor de desaf\u00edo 1/2 o menos.</li><li>Ocho bestias con valor de desaf\u00edo 1/4 o menos.</li></ul>Cada bestia se considera fe\u00e9rica y desaparece cuando sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Las bestias convocadas son amistosas hacia ti y tus compa\u00f1eros. Las criaturas act\u00faan como un grupo en sus propios turnos, con una sola de tirada de iniciativa com\u00fan. Obedecen tus comandos verbales (no requieren acci\u00f3n). Si no les das ninguna orden, se defender\u00e1n de criaturas hostiles, pero no realizar\u00e1n ninguna otra acci\u00f3n.<br><br>El DM tiene el perfil de las criaturas.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de determinados niveles superiores, el n\u00famero de bestias se incrementa: el doble si usas un espacio de conjuro de nivel 5, el triple si es de nivel 7 y cuatro veces m\u00e1s si es de nivel 9.",
     "materiales": null
+  },
+  {
+    "nombre": "Conjurar descarga de proyectiles",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Selecciona un arma arrojadiza o tipo de munici\u00f3n que tengas en tu inventario. Creas copias id\u00e9nticas que salen disparadas en un cono de 60 pies. Todas las criaturas en este \u00e1rea han de realizar una tirada de salvaci\u00f3n de Destreza, sufriendo 3d8 de da\u00f1o si fallan o la mitad si la superan. Al ser copias id\u00e9nticas, el tipo de da\u00f1o es el mismo que el de arma o munici\u00f3n utilizada.",
+      "Selecciona un arma arrojadiza o tipo de munici\u00f3n que tengas en tu inventario. Creas copias id\u00e9nticas que salen disparadas en un cono de 18 m. Todas las criaturas en este \u00e1rea han de realizar una tirada de salvaci\u00f3n de Destreza, sufriendo 3d8 de da\u00f1o si fallan o la mitad si la superan. Al ser copias id\u00e9nticas, el tipo de da\u00f1o es el mismo que el de arma o munici\u00f3n utilizada."
+    ],
+    "materiales": "Una unidad de munici\u00f3n o un arma arrojadiza."
   }
 ]
