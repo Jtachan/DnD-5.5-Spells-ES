@@ -27,5 +27,29 @@
       "Un rayo de luz amarilla se proyecta desde tu \u00edndice y se condensa, quedando latente con la forma de una cuenta brillante en un punto dentro del alcance. Cuando el conjuro termina, ya sea porque se rompe tu concentraci\u00f3n o porque decides terminarlo, la cuenta se transforma con un rugido sordo en una explosi\u00f3n ardiente que se extiende m\u00e1s all\u00e1 de las esquinas. Todas las criaturas en una esfera de 6 m centrada en el punto deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n da\u00f1o de fuego igual al da\u00f1o acumulado si fallan la tirada o la mitad del da\u00f1o si lo superan.<br><br>El da\u00f1o base del conjuro es 12d6. Si al final de tu turno la cuenta a\u00fan no ha explotado, este da\u00f1o se incrementa en 1d6.<br><br>Si se toca la cuenta antes de que termine el tiempo, la criatura que lo haga debe realizar una tirada de salvaci\u00f3n de Destreza. Si falla, el conjuro termina inmediatamente, haciendo que la cuenta explote. Si tiene \u00e9xito, la criatura puede lanzar la cuenta hasta 12 m de distancia. Cuando esta golpea a una criatura u objeto s\u00f3lido, el conjuro termina y la cuenta explota.<br><br>El fuego da\u00f1a los objetos que se encuentren en el \u00e1rea, haciendo arder los que sean inflamables y no los lleve o vista alguien.<br><br><i>A niveles superiores.</i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 8 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 7 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Una pelotita de guano de murci\u00e9lago y azufre."
+  },
+  {
+    "nombre": "Conjurar celestial",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un celestial con valor de desaf\u00edo 4 o menos en un espacio desocupado que puedas ver dentro del alcance. El celestial desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Es amistoso hacia ti y tus compa\u00f1eros hasta el final de la duraci\u00f3n del conjuro. Haz una tirada de iniciativa para el celestial, que tiene sus propios turnos. Obedecer\u00e1 cualquier mandato verbal tuyo (no requiere acci\u00f3n) que no viole su alineamiento. Si no le das ninguna orden, se defender\u00e1 de criaturas hostiles, pero no realizar\u00e1 ninguna otra acci\u00f3n.<br><br>El DM tiene el perfil del celestial.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 9, invocas a un celestial con valor de desaf\u00edo 5 o menos.",
+    "materiales": null
   }
 ]
