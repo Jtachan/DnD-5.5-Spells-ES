@@ -177,5 +177,36 @@
     "requiere_ataque": true,
     "descripcion": "Mientras el conjuro se mantenga activo, tu arma se vuelve fulgurante y tus ataques cuerpo a cuerpo con la misma infligen 3d8 de da\u00f1o radiante adicionales al objetivo. La criatura objetivo se ve obligada sa realizar una tirada de salvaci\u00f3n de Constituci\u00f3n para no quedar cegado; si falla mantiene el estado de cegado hasta que el conjuro deje de estar activo o hasta que supere la tirada de salvaci\u00f3n al final de cada uno de sus turnos.",
     "materiales": null
+  },
+  {
+    "nombre": "C\u00edrculo m\u00e1gico",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas un cilindro de energ\u00eda m\u00e1gica de 10 pies de radio y 20 pies de alto, centrado en un punto del suelo que puedas ver dentro del alcance. Las intersecciones del cilindro con suelos o paredes quedan marcadas por una l\u00ednea de runas brillantes.<br><br>Elige uno o m\u00e1s de los siguientes tipos de criatura: celestiales, elementales, fe\u00e9ricos, infernales o muertos vivientes. El c\u00edrculo afecta a las criaturas del tipo o tipos escogidos de las siguientes maneras:<ul><li>Las criaturas de los tipos elegidos no pueden entrar en el cilindro mediante medios no m\u00e1gicos. Si intentan usar teletransportaci\u00f3n o viaje interplanar para entrar, primero deben realizar una tirada de salvaci\u00f3n de Carisma.</li><li>Las criaturas de los tipos elegidos tienen desventaja en las tiradas de ataque contra objetivos dentro del cilindro.</li><li>Las criaturas dentro del cilindro no pueden ser hechizadas, asustadas o pose\u00eddas por las criaturas de los tipos elegidos.<br><br>Cuando lanzas este conjuro puedes elegir que la magia funcione de forma inversa. Es decir, evitando que las criaturas de los tipos escogidos salgan del cilindro y protegiendo a las que est\u00e1n fuera del mismo.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, la duraci\u00f3n aumenta en 1 hora por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
+      "Creas un cilindro de energ\u00eda m\u00e1gica de 3 m de radio y 6 m de alto, centrado en un punto del suelo que puedas ver dentro del alcance. Las intersecciones del cilindro con suelos o paredes quedan marcadas por una l\u00ednea de runas brillantes.<br><br>Elige uno o m\u00e1s de los siguientes tipos de criatura: celestiales, elementales, fe\u00e9ricos, infernales o muertos vivientes. El c\u00edrculo afecta a las criaturas del tipo o tipos escogidos de las siguientes maneras:<ul><li>Las criaturas de los tipos elegidos no pueden entrar en el cilindro mediante medios no m\u00e1gicos. Si intentan usar teletransportaci\u00f3n o viaje interplanar para entrar, primero deben realizar una tirada de salvaci\u00f3n de Carisma.</li><li>Las criaturas de los tipos elegidos tienen desventaja en las tiradas de ataque contra objetivos dentro del cilindro.</li><li>Las criaturas dentro del cilindro no pueden ser hechizadas, asustadas o pose\u00eddas por las criaturas de los tipos elegidos.<br><br>Cuando lanzas este conjuro puedes elegir que la magia funcione de forma inversa. Es decir, evitando que las criaturas de los tipos escogidos salgan del cilindro y protegiendo a las que est\u00e1n fuera del mismo.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, la duraci\u00f3n aumenta en 1 hora por cada nivel por encima de 3 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Agua bendita o plata y hierro pulverizados con un valor de, al menos, 100 po, que son consumidos como parte del conjuro."
   }
 ]
