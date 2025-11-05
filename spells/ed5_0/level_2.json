@@ -248,5 +248,33 @@
     "requiere_ataque": false,
     "descripcion": "Elige un objeto manufacturado de metal, como un arma de metal o una armadura media o pesada de metal que puedas ver dentro del alcance. Haces que dicho objeto se ponga al rojo vivo. Cualquier criatura en contacto f\u00edsico con el objeto recibe 2d8 de da\u00f1o de fuego cuando lanzas el conjuro. Hasta el final del conjuro, puedes usar una acci\u00f3n en cada uno de tus turnos para causar este da\u00f1o de nuevo.<br><br>Si una criatura est\u00e1 vestida con o porta el objeto y sufre el da\u00f1o, deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o soltarlo, si es que puede. Si no lo suelta, tendr\u00e1 desventaja en tiradas de ataque y pruebas de caracter\u00edstica hasta el comienzo de tu pr\u00f3ximo turno.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
     "materiales": "Un trozo de hierro y una llama."
+  },
+  {
+    "nombre": "Calmar emociones",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Intentas suprimir emociones fuertes en un grupo de gente. Cada humanoide en una esfera de 20 pies de radio centrada en un punto de tu elecci\u00f3n dentro del alcance debe realizar una tirada de salvaci\u00f3n de Carisma. Cualquiera de ellos puede elegir fallar la tirada voluntariamente si as\u00ed lo desea. Si una criatura falla la tirada, elige uno de los dos efectos siguientes:<br><br>Puedes suprimir cualquier efecto que mantenga al objetivo hechizado o asustado. Sin embargo, cuando este conjuro acabe, los efectos suprimidos vuelven a funcionar, siempre que su duraci\u00f3n no haya acabado.<br><br>De modo alternativo, puedes hacer que un objetivo se vuelva indiferente hacia criaturas de tu elecci\u00f3n con las que previamente era hostil. Esta indiferencia termina si el objetivo es atacado o da\u00f1ado por un conjuro o si alguno de sus amigos es da\u00f1ado. Cuando el conjuro acaba, la criatura se vuelve hostil de nuevo, a menos que el DM decida otra cosa.",
+      "Intentas suprimir emociones fuertes en un grupo de gente. Cada humanoide en una esfera de 6 m de radio centrada en un punto de tu elecci\u00f3n dentro del alcance debe realizar una tirada de salvaci\u00f3n de Carisma. Cualquiera de ellos puede elegir fallar la tirada voluntariamente si as\u00ed lo desea. Si una criatura falla la tirada, elige uno de los dos efectos siguientes:<br><br>Puedes suprimir cualquier efecto que mantenga al objetivo hechizado o asustado. Sin embargo, cuando este conjuro acabe, los efectos suprimidos vuelven a funcionar, siempre que su duraci\u00f3n no haya acabado.<br><br>De modo alternativo, puedes hacer que un objetivo se vuelva indiferente hacia criaturas de tu elecci\u00f3n con las que previamente era hostil. Esta indiferencia termina si el objetivo es atacado o da\u00f1ado por un conjuro o si alguno de sus amigos es da\u00f1ado. Cuando el conjuro acaba, la criatura se vuelve hostil de nuevo, a menos que el DM decida otra cosa."
+    ],
+    "materiales": null
   }
 ]
