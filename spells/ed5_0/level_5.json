@@ -197,5 +197,28 @@
     "requiere_ataque": true,
     "descripcion": "Mientras el conjuro se mantenga activo, cada vez que ataques con un arma cuerpo a cuerpo y esta impacte, tu arma restallar\u00e1 con violencia proporcionando una fuerza adicional al ataque e infligiendo 5d10 de da\u00f1o de fuerza adicionales. Si este ataque reduce los puntos de golpe de la criatura a 50 o menos, el ataque desterrar\u00e1 a la criatura a un semiplano inofensivo (si la criatura es nativa del plano actual) o a su plano natal. La criatura desterrada permanece incapacitada mientras permanezca en el plano desterrado, y volver\u00e1 a aparecer al acabar el conjuro en el lugar que se encontraba o el espacio m\u00e1s cercano si el lugar se encuentra ocupado.",
     "materiales": null
+  },
+  {
+    "nombre": "C\u00edrculo de poder",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Radias una energ\u00eda divina, distorsionando y diseminando la energ\u00eda m\u00e1gica en una esfera de 30 pies a tu alrededor. La esfera se mueve contigo, centrada en ti, hasta el final del conjuro. Hasta ese momento, cada criatura amistosa en el \u00e1rea (incluido t\u00fa) tiene ventaja en las tiradas de salvaci\u00f3n contra conjuros y otros efectos m\u00e1gicos. Adem\u00e1s, una criatura afectada no recibir\u00e1 ning\u00fan da\u00f1o si tiene \u00e9xito en una tirada de salvaci\u00f3n contra un conjuro o efecto m\u00e1gico que permite hacer una tirada de salvaci\u00f3n para recibir solo la mitad del da\u00f1o.",
+      "Radias una energ\u00eda divina, distorsionando y diseminando la energ\u00eda m\u00e1gica en una esfera de 9 m a tu alrededor. La esfera se mueve contigo, centrada en ti, hasta el final del conjuro. Hasta ese momento, cada criatura amistosa en el \u00e1rea (incluido t\u00fa) tiene ventaja en las tiradas de salvaci\u00f3n contra conjuros y otros efectos m\u00e1gicos. Adem\u00e1s, una criatura afectada no recibir\u00e1 ning\u00fan da\u00f1o si tiene \u00e9xito en una tirada de salvaci\u00f3n contra un conjuro o efecto m\u00e1gico que permite hacer una tirada de salvaci\u00f3n para recibir solo la mitad del da\u00f1o."
+    ],
+    "materiales": null
   }
 ]
