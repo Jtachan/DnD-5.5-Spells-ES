@@ -110,5 +110,30 @@
     "requiere_ataque": true,
     "descripcion": "Mientras el conjuro se mantenga activo, tus ataques cuerpo a cuerpo hacen da\u00f1o f\u00edsica- y ps\u00edquicamente. Tu ataque inflige 4d6 de da\u00f1o ps\u00edquico adicionales y obliga a la criatura a hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si fracasa, hasta el comienzo de su pr\u00f3ximo turno tiene desventaja en tiradas de ataque y pruebas de caracter\u00edstica y no podr\u00e1 llevar a cabo reacciones.",
     "materiales": null
+  },
+  {
+    "nombre": "Cofre oculto de Leomund",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Ocultas un cofre y todos sus contenidos en el Plano Et\u00e9reo. Debes tocar el cofre y la r\u00e9plica en miniatura que sirven de componentes materiales para el conjuro. El cofre puede alojar hasta 12 pies c\u00fabicos de materiales inertes (3 pies por 2 pies por 2 pies).<br><br>Mientras permanezca en el Plano Et\u00e9reo, puedes utilizar una acci\u00f3n y tocar la r\u00e9plica para convocarlo. Aparecer\u00e1 en un espacio desocupado del suelo a 5 pies de ti. Puedes volver a mandarlo al Plano Et\u00e9reo empleando una acci\u00f3n y tocando tanto la r\u00e9plica como el propio cofre.<br><br>Despu\u00e9s de 60 d\u00edas, hay una posibilidad acumulativa de 5% por d\u00eda de que los efectos del conjuro terminen. Tambi\u00e9n lo har\u00e1n si lanzas el conjuro de nuevo, si la r\u00e9plica del cofre es destruida o si decides finalizar el conjuro con una acci\u00f3n. Si el conjuro termina y el cofre grande est\u00e1 en el Plano Et\u00e9reo, se pierde irremediablemente.",
+      "Ocultas un cofre y todos sus contenidos en el Plano Et\u00e9reo. Debes tocar el cofre y la r\u00e9plica en miniatura que sirven de componentes materiales para el conjuro. El cofre puede alojar hasta 3,6 m c\u00fabicos de materiales inertes (0,9 m por 0,6 m por 0,6 m).<br><br>Mientras permanezca en el Plano Et\u00e9reo, puedes utilizar una acci\u00f3n y tocar la r\u00e9plica para convocarlo. Aparecer\u00e1 en un espacio desocupado del suelo a 1,5 m de ti. Puedes volver a mandarlo al Plano Et\u00e9reo empleando una acci\u00f3n y tocando tanto la r\u00e9plica como el propio cofre.<br><br>Despu\u00e9s de 60 d\u00edas, hay una posibilidad acumulativa de 5% por d\u00eda de que los efectos del conjuro terminen. Tambi\u00e9n lo har\u00e1n si lanzas el conjuro de nuevo, si la r\u00e9plica del cofre es destruida o si decides finalizar el conjuro con una acci\u00f3n. Si el conjuro termina y el cofre grande est\u00e1 en el Plano Et\u00e9reo, se pierde irremediablemente."
+    ],
+    "materiales": "Un cofre de manufactura exquisita, cuyas dimensiones sean de 3 pies por 2 pies por 2 pies, construido de materiales ex\u00f3ticos con un valor de, al menos, 5.000 po, as\u00ed como una r\u00e9plica diminuta hecha de los mismos materiales y con un valor de, al menos, 50 po."
   }
 ]
