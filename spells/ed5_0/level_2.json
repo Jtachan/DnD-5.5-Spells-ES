@@ -299,5 +299,30 @@
       "Mientras el conjuro se mantenga activo, tu arma brilla con un resplandor astral y tus ataques cuerpo a cuerpo con la misma infligen 2d6 de da\u00f1o adicional, tornando visible a cualquier objetivo invisible al que impacte. Al impactar el ataque, una luz tenue astral emana del cuerpo del objetivo, iluminando sus alrededores en un radio de 1 m. Esta luz tambi\u00e9n le impide volverse invisible hasta que el conjuro deje de estar activo.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Cerradura arcana",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Tocas una puerta, ventana, port\u00f3n, cofre o entrada que est\u00e9 cerrado con llave o pestillo. Queda cerrado completamente, como con llave, hasta el final de la duraci\u00f3n del conjuro. Al lanzarlo puedes decidir qu\u00e9 criaturas podr\u00e1n abrir el objeto con normalidad. Tambi\u00e9n puedes elegir una contrase\u00f1a, que dicha en voz alta a 5 pies o menos del objeto suprime el conjuro durante 1 minuto. En cualquier otro caso, el objeto no se puede abrir a menos que sea destruido o se suprima o disipe el conjuro. Lanzar abrir  en el objeto suprime cerradura arcana durante 10 minutos.<br><br>Mientras permanezca afectado por este conjuro, el objeto es m\u00e1s dif\u00edcil de romper o forzar; la CD para romperlo o forzar la cerradura aumenta en 10.",
+      "Tocas una puerta, ventana, port\u00f3n, cofre o entrada que est\u00e9 cerrado con llave o pestillo. Queda cerrado completamente, como con llave, hasta el final de la duraci\u00f3n del conjuro. Al lanzarlo puedes decidir qu\u00e9 criaturas podr\u00e1n abrir el objeto con normalidad. Tambi\u00e9n puedes elegir una contrase\u00f1a, que dicha en voz alta a 1 m o menos del objeto suprime el conjuro durante 1 minuto. En cualquier otro caso, el objeto no se puede abrir a menos que sea destruido o se suprima o disipe el conjuro. Lanzar abrir  en el objeto suprime cerradura arcana durante 10 minutos.<br><br>Mientras permanezca afectado por este conjuro, el objeto es m\u00e1s dif\u00edcil de romper o forzar; la CD para romperlo o forzar la cerradura aumenta en 10."
+    ],
+    "materiales": "Polvo de oro con un valor de 25 po, que es consumido como parte del conjuro."
   }
 ]
