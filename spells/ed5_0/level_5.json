@@ -177,5 +177,25 @@
     "requiere_ataque": false,
     "descripcion": "Transmutas tu aljaba para que produzca una reserva infinita de munici\u00f3n no m\u00e1gica, que parece saltar a tu mano cuando vas a cogerla.<br><br>En cada uno de tus turnos hasta el final del conjuro puedes utilizar una acci\u00f3n adicional para realizar dos ataques con un arma que use munici\u00f3n de la aljaba. Cada vez que realices uno de estos ataques a distancia, la munici\u00f3n aparece m\u00e1gicamente de la unidad de munici\u00f3n empleada por una unidad de munici\u00f3n no m\u00e1gica similar. Cualquier unidad de munici\u00f3n creada por este conjuro se desvanece cuando el conjuro acaba. Si la aljaba deja de estar en tu posesi\u00f3n, el conjuro termina.",
     "materiales": "Una aljaba con al menos una unidad de munici\u00f3n."
+  },
+  {
+    "nombre": "Castigo desterrador",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Mientras el conjuro se mantenga activo, cada vez que ataques con un arma cuerpo a cuerpo y esta impacte, tu arma restallar\u00e1 con violencia proporcionando una fuerza adicional al ataque e infligiendo 5d10 de da\u00f1o de fuerza adicionales. Si este ataque reduce los puntos de golpe de la criatura a 50 o menos, el ataque desterrar\u00e1 a la criatura a un semiplano inofensivo (si la criatura es nativa del plano actual) o a su plano natal. La criatura desterrada permanece incapacitada mientras permanezca en el plano desterrado, y volver\u00e1 a aparecer al acabar el conjuro en el lugar que se encontraba o el espacio m\u00e1s cercano si el lugar se encuentra ocupado.",
+    "materiales": null
   }
 ]
