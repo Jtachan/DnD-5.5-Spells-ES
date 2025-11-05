@@ -157,5 +157,25 @@
       "Este conjuro proporciona la capacidad de moverse a trav\u00e9s de cualquier superficie l\u00edquida, como agua, \u00e1cido, barro, nieve, arenas movedizas o lava, como si fuera un terreno s\u00f3lido inofensivo (aunque las criaturas que crucen lava fundida podr\u00edan recibir da\u00f1o del intenso calor). Un m\u00e1ximo de diez criaturas que puedas ver dentro del alcance recibir\u00e1n esta capacidad hasta que el conjuro termine.<br><br>Si eliges como objetivo a una criatura sumergida en un l\u00edquido, el conjuro la elevar\u00e1 a la superficie del mismo a una velocidad de 18 m por asalto."
     ],
     "materiales": "Un trozo de corcho."
+  },
+  {
+    "nombre": "Castigo cegador",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": true,
+    "descripcion": "Mientras el conjuro se mantenga activo, tu arma se vuelve fulgurante y tus ataques cuerpo a cuerpo con la misma infligen 3d8 de da\u00f1o radiante adicionales al objetivo. La criatura objetivo se ve obligada sa realizar una tirada de salvaci\u00f3n de Constituci\u00f3n para no quedar cegado; si falla mantiene el estado de cegado hasta que el conjuro deje de estar activo o hasta que supere la tirada de salvaci\u00f3n al final de cada uno de sus turnos.",
+    "materiales": null
   }
 ]
