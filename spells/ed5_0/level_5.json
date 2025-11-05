@@ -220,5 +220,34 @@
       "Radias una energ\u00eda divina, distorsionando y diseminando la energ\u00eda m\u00e1gica en una esfera de 9 m a tu alrededor. La esfera se mueve contigo, centrada en ti, hasta el final del conjuro. Hasta ese momento, cada criatura amistosa en el \u00e1rea (incluido t\u00fa) tiene ventaja en las tiradas de salvaci\u00f3n contra conjuros y otros efectos m\u00e1gicos. Adem\u00e1s, una criatura afectada no recibir\u00e1 ning\u00fan da\u00f1o si tiene \u00e9xito en una tirada de salvaci\u00f3n contra un conjuro o efecto m\u00e1gico que permite hacer una tirada de salvaci\u00f3n para recibir solo la mitad del da\u00f1o."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "C\u00edrculo de teletransportaci\u00f3n",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Al lanzar el conjuro, dibujas un c\u00edrculo de 10 pies de di\u00e1metro en el suelo, inscrito con sellos que enlazan tu localizaci\u00f3n a un c\u00edrculo de teletransportaci\u00f3n permanente de tu elecci\u00f3n cuya secuencia de sellos conozcas y que est\u00e9 en tu mismo plano de existencia. Un portal reluciente se abre dentro del c\u00edrculo dibujado y permanece abierto hasta el final de tu pr\u00f3ximo turno. Cualquier criatura que atraviese el portal aparecer\u00e1 a 5 pies del c\u00edrculo destino o en el espacio desocupado m\u00e1s cercano.<br><br>Muchos grandes templos, gremios y otros sitios importantes tienen c\u00edrculos de teletransportaci\u00f3n permanentes inscritos en alguna parte de sus dominios. Cada c\u00edrculo incluye una secuencia de sellos \u00fanica, una ristra de runas m\u00e1gicas colocadas siguiendo un patr\u00f3n espec\u00edfico. Cuando aprendes a lanzar este conjuro, tambi\u00e9n conoces las secuencias de sellos de dos destinos del plano material, a determinar por el DM. Puedes aprender nuevas secuencias de s\u00edmbolos durante tus aventuras. Memorizar\u00e1s de forma permanente una de estas secuencias si la estudias durante 1 minuto.<br><br>Puedes crear un c\u00edrculo de teletransportaci\u00f3n permanente si lanzas este conjuro en el mismo sitio todos los d\u00edas durante un a\u00f1o. No necesitas teletransportarte usando el c\u00edrculo cuando lo lanzas de este modo.",
+      "Al lanzar el conjuro, dibujas un c\u00edrculo de 3 m de di\u00e1metro en el suelo, inscrito con sellos que enlazan tu localizaci\u00f3n a un c\u00edrculo de teletransportaci\u00f3n permanente de tu elecci\u00f3n cuya secuencia de sellos conozcas y que est\u00e9 en tu mismo plano de existencia. Un portal reluciente se abre dentro del c\u00edrculo dibujado y permanece abierto hasta el final de tu pr\u00f3ximo turno. Cualquier criatura que atraviese el portal aparecer\u00e1 a 1 m del c\u00edrculo destino o en el espacio desocupado m\u00e1s cercano.<br><br>Muchos grandes templos, gremios y otros sitios importantes tienen c\u00edrculos de teletransportaci\u00f3n permanentes inscritos en alguna parte de sus dominios. Cada c\u00edrculo incluye una secuencia de sellos \u00fanica, una ristra de runas m\u00e1gicas colocadas siguiendo un patr\u00f3n espec\u00edfico. Cuando aprendes a lanzar este conjuro, tambi\u00e9n conoces las secuencias de sellos de dos destinos del plano material, a determinar por el DM. Puedes aprender nuevas secuencias de s\u00edmbolos durante tus aventuras. Memorizar\u00e1s de forma permanente una de estas secuencias si la estudias durante 1 minuto.<br><br>Puedes crear un c\u00edrculo de teletransportaci\u00f3n permanente si lanzas este conjuro en el mismo sitio todos los d\u00edas durante un a\u00f1o. No necesitas teletransportarte usando el c\u00edrculo cuando lo lanzas de este modo."
+    ],
+    "materiales": "Tizas y tintas raras, infundidas con gemas preciosas con un valor de, al menos, 50 po, y que son consumidas por el conjuro."
   }
 ]
