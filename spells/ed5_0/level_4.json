@@ -161,5 +161,36 @@
     "requiere_ataque": false,
     "descripcion": "Una o m\u00e1s criaturas de tu elecci\u00f3n que puedas ver, dentro del alcance y que puedan o\u00edrte deben realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Las criaturas inmunes a ser hechizadas tienen \u00e9xito autom\u00e1ticamente. Aquellas que fallen la tirada quedan afectadas por el conjuro.<br><br>Hasta el final del conjuro puedes usar una acci\u00f3n adicional en cada uno de tus turnos para designar una direcci\u00f3n horizontal respecto a ti. Cada criatura afectada debe usar todo el movimiento del que disponga para avanzar en esa direcci\u00f3n durante su pr\u00f3ximo turno. Puede realizar una acci\u00f3n antes de mover. Adem\u00e1s, despu\u00e9s de moverse puede hacer otra tirada de salvaci\u00f3n para intentar terminar el efecto.<br><br>Una criatura afectada no est\u00e1 obligada a moverse dentro de un peligro mortal y obvio, como una hoguera o un pozo, pero provocar\u00e1 ataques de oportunidad al moverse en la direcci\u00f3n se\u00f1alada.",
     "materiales": null
+  },
+  {
+    "nombre": "Confusi\u00f3n",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Este conjuro ataca y retuerce la mente, creando ilusiones y provocando acciones incontroladas. Cada criatura en una esfera de 10 pies de radio centrada en un punto de tu elecci\u00f3n dentro del alcance debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o ser\u00e1 afectada por el conjuro.<br><br>Una criatura afectada no puede llevar a cabo reacciones y debe tirar 1d10 al principio de cada uno de sus turnos para determinar c\u00f3mo se comporta ese turno:<br><br><table><tr><th>d10</th><th>Comportamiento</th></tr><tr><td>1</td><td>La criatura emplea todo su movimiento en avanzar en una direcci\u00f3n aleatoria. Para determinar la direcci\u00f3n, lanza 1d8 asignando una direcci\u00f3n a cada cara del dado. La criatura no realiza acciones este turno.</td></tr><tr><td>2\u20136</td><td>La criatura no se mueve o realiza acciones este turno.</td></tr><tr><td>7\u20138</td><td>La criatura usa su acci\u00f3n para hacer un ataque cuerpo a cuerpo contra una criatura determinada aleatoriamente dentro de su alcance. Si no hay ninguna criatura dentro del alcance, no hace nada este turno.</td></tr><tr><td>9\u201310</td><td>La criatura puede actuar y moverse con normalidad.</td></tr></table><br><br>Al final de cada uno de sus turnos, el objetivo puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda; si tiene \u00e9xito, el conjuro termina para \u00e9l.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el radio de la esfera aumenta en 5 pies por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
+      "Este conjuro ataca y retuerce la mente, creando ilusiones y provocando acciones incontroladas. Cada criatura en una esfera de 3 m de radio centrada en un punto de tu elecci\u00f3n dentro del alcance debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o ser\u00e1 afectada por el conjuro.<br><br>Una criatura afectada no puede llevar a cabo reacciones y debe tirar 1d10 al principio de cada uno de sus turnos para determinar c\u00f3mo se comporta ese turno:<br><br><table><tr><th>d10</th><th>Comportamiento</th></tr><tr><td>1</td><td>La criatura emplea todo su movimiento en avanzar en una direcci\u00f3n aleatoria. Para determinar la direcci\u00f3n, lanza 1d8 asignando una direcci\u00f3n a cada cara del dado. La criatura no realiza acciones este turno.</td></tr><tr><td>2\u20136</td><td>La criatura no se mueve o realiza acciones este turno.</td></tr><tr><td>7\u20138</td><td>La criatura usa su acci\u00f3n para hacer un ataque cuerpo a cuerpo contra una criatura determinada aleatoriamente dentro de su alcance. Si no hay ninguna criatura dentro del alcance, no hace nada este turno.</td></tr><tr><td>9\u201310</td><td>La criatura puede actuar y moverse con normalidad.</td></tr></table><br><br>Al final de cada uno de sus turnos, el objetivo puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda; si tiene \u00e9xito, el conjuro termina para \u00e9l.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el radio de la esfera aumenta en 1,5 m por cada nivel por encima de 4 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Tres c\u00e1scaras de nuez."
   }
 ]
