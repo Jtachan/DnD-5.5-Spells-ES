@@ -249,5 +249,28 @@
       "Al lanzar el conjuro, dibujas un c\u00edrculo de 3 m de di\u00e1metro en el suelo, inscrito con sellos que enlazan tu localizaci\u00f3n a un c\u00edrculo de teletransportaci\u00f3n permanente de tu elecci\u00f3n cuya secuencia de sellos conozcas y que est\u00e9 en tu mismo plano de existencia. Un portal reluciente se abre dentro del c\u00edrculo dibujado y permanece abierto hasta el final de tu pr\u00f3ximo turno. Cualquier criatura que atraviese el portal aparecer\u00e1 a 1 m del c\u00edrculo destino o en el espacio desocupado m\u00e1s cercano.<br><br>Muchos grandes templos, gremios y otros sitios importantes tienen c\u00edrculos de teletransportaci\u00f3n permanentes inscritos en alguna parte de sus dominios. Cada c\u00edrculo incluye una secuencia de sellos \u00fanica, una ristra de runas m\u00e1gicas colocadas siguiendo un patr\u00f3n espec\u00edfico. Cuando aprendes a lanzar este conjuro, tambi\u00e9n conoces las secuencias de sellos de dos destinos del plano material, a determinar por el DM. Puedes aprender nuevas secuencias de s\u00edmbolos durante tus aventuras. Memorizar\u00e1s de forma permanente una de estas secuencias si la estudias durante 1 minuto.<br><br>Puedes crear un c\u00edrculo de teletransportaci\u00f3n permanente si lanzas este conjuro en el mismo sitio todos los d\u00edas durante un a\u00f1o. No necesitas teletransportarte usando el c\u00edrculo cuando lo lanzas de este modo."
     ],
     "materiales": "Tizas y tintas raras, infundidas con gemas preciosas con un valor de, al menos, 50 po, y que son consumidas por el conjuro."
+  },
+  {
+    "nombre": "Comuni\u00f3n",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Entras en contacto con tu deidad o representante divino y haces tres preguntas que puedan ser respondidas con s\u00ed o no. Debes realizar las preguntas antes de que el conjuro termine y recibes una respuesta correcta para cada una.<br><br>Un ser divino no es necesariamente omnisciente, as\u00ed que puedes recibir \"incierto\" como respuesta si la pregunta se refiere a informaci\u00f3n m\u00e1s all\u00e1 del conocimiento de la deidad. En el caso de que una respuesta de una sola palabra pueda indicar o error o sea contraria a los intereses de la deidad, el DM puede ofrecer una frase corta en su lugar.<br><br>Si se lanza dos veces o m\u00e1s antes del pr\u00f3ximo descanso largo, hay una posibilidad acumulativa del 25% por cada lanzamiento despu\u00e9s del primero de no recibir respuesta. El DM realiza esta tirada en secreto.",
+    "materiales": "Incienso y un vial de agua sagrada o imp\u00eda."
   }
 ]
