@@ -222,5 +222,31 @@
       "Implantas un mensaje en un objeto dentro del alcance, que ser\u00e1 pronunciado en voz alta cuando se cumpla la condici\u00f3n de activaci\u00f3n. Eliges un objeto que puedas ver y que no lleva o vista otra criatura. Despu\u00e9s dices el mensaje, que debe estar formado por 25 palabras o menos, aunque puede ser retransmitido durante, como mucho, 10 minutos. Por \u00faltimo, determinas las circunstancias que activar\u00e1n el conjuro para entregar tu mensaje.<br><br>Cuando se den estas circunstancias, una boca m\u00e1gica aparecer\u00e1 en el objeto y recitar\u00e1 el mensaje, con tu voz y con el mismo volumen que utilizaste. Si el objeto que eliges tiene una boca o algo que parezca una boca (como la cara de una estatua, por ejemplo), la boca m\u00e1gica aparecer\u00e1 en \u00e9l, con lo que parecer\u00e1 que las palabras son pronunciadas por la boca del objeto. Cuando lanzas este conjuro, puedes hacer que el objetivo deba entregar el mensaje o que el conjuro permanezca hasta que el mensaje se haya repetido cada vez que se dan las circunstancias que lo activan.<br><br>Estas circunstancias pueden estar tan generales o detalladas como desees, pero deben estar basadas en condiciones visuales o auditivas que ocurran a 9 m o menos del objeto. Por ejemplo, puedes hacer que la boca hable cuando una criatura se acerque a menos de 9 m o cuando suene una campana plateada dentro de esa distancia."
     ],
     "materiales": "Un trocito de panal de abeja y polvo de jade con un valor de, al menos, 10 po, que es consumido como parte del conjuro."
+  },
+  {
+    "nombre": "Calentar metal",
+    "clases": [
+      "Bardo",
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Elige un objeto manufacturado de metal, como un arma de metal o una armadura media o pesada de metal que puedas ver dentro del alcance. Haces que dicho objeto se ponga al rojo vivo. Cualquier criatura en contacto f\u00edsico con el objeto recibe 2d8 de da\u00f1o de fuego cuando lanzas el conjuro. Hasta el final del conjuro, puedes usar una acci\u00f3n en cada uno de tus turnos para causar este da\u00f1o de nuevo.<br><br>Si una criatura est\u00e1 vestida con o porta el objeto y sufre el da\u00f1o, deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o soltarlo, si es que puede. Si no lo suelta, tendr\u00e1 desventaja en tiradas de ataque y pruebas de caracter\u00edstica hasta el comienzo de tu pr\u00f3ximo turno.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+    "materiales": "Un trozo de hierro y una llama."
   }
 ]
