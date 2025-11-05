@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "nombre": "Cambiar de forma",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Asumes la forma de una criatura diferente hasta el final del conjuro. La nueva forma puede ser la de cualquier criatura con un valor de desaf\u00edo igual o menor a tu nivel. La criatura no puede ser un aut\u00f3mata o muerto viviente, y debes haber visto a ese tipo de criatura al menos una vez. Te transformas en un ejemplar normal de esa criatura, sin niveles en ninguna clase y sin el atributo Lanzamiento de Conjuros.<br><br>Tu perfil queda reemplazado por el de la criatura, excepto tu alineamiento y tus puntuaciones de Inteligencia, Sabidur\u00eda y Carisma. Tambi\u00e9n retienes todas tus competencias en habilidades y tiradas de salvaci\u00f3n, adem\u00e1s de ganar las que tenga la criatura. Si las dos tienen las mismas competencias que t\u00fa y el bonificador de ataque o de prueba de caracter\u00edstica del objetivo, se utiliza el de la criatura. No puedes usar ninguna acci\u00f3n legendaria o acci\u00f3n en guardia de la criatura.<br><br>Pasar\u00e1s a tener los puntos y dados de golpe de la criatura nueva. Cuando reviertas a tu forma normal vuelves a tener los puntos de golpe que tuvieras antes de la transformaci\u00f3n. No obstante, si recibes da\u00f1o mientras est\u00e1s en la forma nueva y ese da\u00f1o reduce la forma a 0 puntos de golpe, el exceso de da\u00f1o se aplicar\u00e1 a la forma normal. Si esto reduce tu forma normal a 0 puntos de vida, no caer\u00e1s inconsciente.<br><br>Mantendr\u00e1s los beneficios de cualquier rasgo de tu clase, raza u otra fuente y podr\u00e1s usarlos, siempre que tu nueva forma sea f\u00edsicamente capaz de hacerlo. No podr\u00e1s utilizar ning\u00fan sentido especial que tengas (como visi\u00f3n en la oscuridad) a menos que tu nueva forma tambi\u00e9n lo posea. Solo podr\u00e1s hablar si la criatura puede hacerlo normalmente.<br><br>Cuando te transformas, eliges si tu equipo cae al suelo, se funde con la nueva forma o lo sigues llevando puesto. Si decides llevarlo se comportar\u00e1 de forma normal. El DM determinar\u00e1 si es factible que la nueva forma lleve cada uno de los objetos de tu equipo, bas\u00e1ndose en la forma y tama\u00f1o de la criatura. Tu equipo no cambia de forma o tama\u00f1o para adaptarse a esta nueva forma y cualquier equipo que no pueda llevar deber\u00e1 caer al suelo o fundirse con la forma nueva. Si eliges que se funda, no tendr\u00e1 ning\u00fan efecto mientras permanezca en ese estado.<br><br>Durante el curso de este conjuro, puedes usar tu acci\u00f3n para asumir una nueva forma, siguiendo las mismas restricciones y reglas que para la forma original, con una excepci\u00f3n: si tu nueva forma tiene m\u00e1s puntos de golpe que la presente no recibir\u00e1s m\u00e1s, su valor actual no aumentar\u00e1.",
+    "materiales": "Una diadema de jade con un valor de, al menos, 1.500 po, que debes poner en tu cabeza antes de lanzar el conjuro."
+  }
+]
