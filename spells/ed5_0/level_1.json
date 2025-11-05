@@ -220,5 +220,25 @@
       "La pr\u00f3xima vez que impactes a una criatura con un ataque con arma cuerpo a cuerpo antes del final de la duraci\u00f3n del conjuro, tu arma suena como un trueno al hacer contacto, y el ataque inflige 2d6 de da\u00f1o de trueno adicional al objetivo. Si el objetivo es una criatura, deber\u00e1 superar una tirada de salvaci\u00f3n de Fuerza o ser\u00e1 empujado 3 m en direcci\u00f3n opuesta a ti y ser\u00e1 derribada."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Castigo furioso",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": true,
+    "descripcion": "Mientras el conjuro se mantenga activo, los ataques cuerpo a cuerpo con tu arma infligen 1d6 de da\u00f1o ps\u00edquico adicional. Si el ataque impacta, la criatura objetivo debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda para no quedar asustada. Una criatura asustada por este conjuro puede utilizar su acci\u00f3n para realizar una tirada de salvaci\u00f3n de Sabidur\u00eda contra tu CD de salvaci\u00f3n de conjuros para dejar de estar asustada y terminar el conjuro.",
+    "materiales": null
   }
 ]
