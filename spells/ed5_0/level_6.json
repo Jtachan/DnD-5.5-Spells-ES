@@ -74,5 +74,35 @@
       "Creas un muro vertical de cuchillas giratorias, afiladas y hechas de energ\u00eda m\u00e1gica. Este aparece dentro del alcance y permanecer\u00e1 hasta el final de la duraci\u00f3n del conjuro. Puedes crear un muro recto de hasta 30 m de largo, 6 m de alto y 5 de ancho o un muro en forma de anillo de 18 m de di\u00e1metro, 20 de alto y 5 de ancho. En cualquier caso, proporciona cobertura tres cuartos a las criaturas detr\u00e1s de \u00e9l y su espacio se considera terreno dif\u00edcil.<br><br>Cuando una criatura entre en el \u00e1rea del muro por primera vez en un turno o empiece su turno all\u00ed, deber\u00e1 realizar una tirada de salvaci\u00f3n de Destreza. Si falla, sufrir\u00e1 6d10 de da\u00f1o cortante. Si tiene \u00e9xito, recibir\u00e1 la mitad del da\u00f1o."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "C\u00edrculo de muerte",
+    "clases": [
+      "Hechicero",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una esfera de energ\u00eda negativa se expande hasta cubrir una esfera de 60 pies de radio alrededor de un punto dentro del alcance. Cada criatura en el \u00e1rea debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 8d6 de da\u00f1o necr\u00f3tico si falla la tirada o la mitad del da\u00f1o si la supera.<br><br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, el da\u00f1o aumenta en 2d6 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
+      "Una esfera de energ\u00eda negativa se expande hasta cubrir una esfera de 18 m de radio alrededor de un punto dentro del alcance. Cada criatura en el \u00e1rea debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 8d6 de da\u00f1o necr\u00f3tico si falla la tirada o la mitad del da\u00f1o si la supera.<br><br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, el da\u00f1o aumenta en 2d6 por cada nivel por encima de 6 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Una perla negra pulverizada que valga, al menos, 500 po."
   }
 ]
