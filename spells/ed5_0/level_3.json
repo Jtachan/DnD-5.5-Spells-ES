@@ -208,5 +208,33 @@
       "Creas un cilindro de energ\u00eda m\u00e1gica de 3 m de radio y 6 m de alto, centrado en un punto del suelo que puedas ver dentro del alcance. Las intersecciones del cilindro con suelos o paredes quedan marcadas por una l\u00ednea de runas brillantes.<br><br>Elige uno o m\u00e1s de los siguientes tipos de criatura: celestiales, elementales, fe\u00e9ricos, infernales o muertos vivientes. El c\u00edrculo afecta a las criaturas del tipo o tipos escogidos de las siguientes maneras:<ul><li>Las criaturas de los tipos elegidos no pueden entrar en el cilindro mediante medios no m\u00e1gicos. Si intentan usar teletransportaci\u00f3n o viaje interplanar para entrar, primero deben realizar una tirada de salvaci\u00f3n de Carisma.</li><li>Las criaturas de los tipos elegidos tienen desventaja en las tiradas de ataque contra objetivos dentro del cilindro.</li><li>Las criaturas dentro del cilindro no pueden ser hechizadas, asustadas o pose\u00eddas por las criaturas de los tipos elegidos.<br><br>Cuando lanzas este conjuro puedes elegir que la magia funcione de forma inversa. Es decir, evitando que las criaturas de los tipos escogidos salgan del cilindro y protegiendo a las que est\u00e1n fuera del mismo.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, la duraci\u00f3n aumenta en 1 hora por cada nivel por encima de 3 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Agua bendita o plata y hierro pulverizados con un valor de, al menos, 100 po, que son consumidos como parte del conjuro."
+  },
+  {
+    "nombre": "Clarividencia",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": [
+      "1 milla",
+      "1,6 km"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas un sensor invisible dentro del alcance, en una localizaci\u00f3n familiar (que hayas visitado o visto antes) o en una ubicaci\u00f3n obvia que no te resulte familiar (por ejemplo, detr\u00e1s de una puerta, a la vuelta de una esquina o en una arboleda). El sensor se mantiene en el sitio hasta el final de la duraci\u00f3n del conjuro, y no puede ser atacado ni interactuarse con \u00e9l.<br><br>Cuando lanzas el conjuro, elige vista u o\u00eddo. Puedes usar el sentido escogido a trav\u00e9s del sensor como si estuvieras en su espacio. Utilizando una acci\u00f3n puedes cambiar entre vista y o\u00eddo.<br><br>Una criatura que pueda ver el sensor (porque se beneficie de un conjuro de <i>ver invisibilidad</i> o posea visi\u00f3n verdadera, por ejemplo) contempla un orbe luminoso e intangible del tama\u00f1o de tu pu\u00f1o.",
+    "materiales": "Una trompetilla enojada y un ojo de cristal con un valor de 100 m.o. m\u00e1s o, como foco."
   }
 ]
