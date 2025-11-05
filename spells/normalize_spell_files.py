@@ -93,7 +93,7 @@ def expand_units_to_metric(text: str) -> list[str]:
 
     def feet_to_meters(re_match: re.Match) -> str:
         feet = float(re_match.group(1).replace(",", "."))
-        meters = int(feet / 5 * 1.5)
+        meters = feet / 5 * 1.5
         meters = int(meters) if int(meters) == meters else str(round(meters, 2)).replace(".", ",")
         return f"{meters} m"
 
