@@ -216,5 +216,31 @@
     "requiere_ataque": false,
     "descripcion": "Convocas elementales en espacios desocupados que puedas ver dentro del alcance. Elige una de las siguientes opciones para lo que convocas:<ul><li>Un elemental con valor de desaf\u00edo 2 o menos.</li><li>Dos elementales con valor de desaf\u00edo 1 o menos.</li><li>Cuatro elementales con valor de desaf\u00edo 1/2 o menos.</li><li>Ocho elementales con valor de desaf\u00edo 1/4 o menos.</li></ul>Los elementales desaparecen si llegan a 0 puntos de golpe o el conjuro termina.<br><br>Las criaturas invocadas son amistosas hacia ti y tus compa\u00f1eros. Las criaturas act\u00faan como un grupo con sus propios turnos, con una sola de tirada de iniciativa com\u00fan. Obedecen cualquier mandato verbal tuyo (no requiere acci\u00f3n). Si no les das ninguna orden, se defender\u00e1n de criaturas hostiles, pero no realizar\u00e1n ninguna otra acci\u00f3n.<br><br>El DM tiene el perfil de las criaturas.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de determinados niveles superiores, el n\u00famero de criaturas que puedes elegir aumenta: el doble si usas un espacio de conjuro de nivel 6 y el triple si es de nivel 8.",
     "materiales": null
+  },
+  {
+    "nombre": "Conjurar seres del bosque",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Convocas criaturas fe\u00e9ricas en espacios desocupados que puedas ver dentro del alcance. Elige una de las siguientes opciones para lo que convocas:<ul><li>\u2022 Un fe\u00e9rico con valor de desaf\u00edo 2 o menos.</li><li>\u2022 Dos fe\u00e9ricos con valor de desaf\u00edo 1 o menos.</li><li>\u2022 Cuatro fe\u00e9ricos con valor de desaf\u00edo 1/2 o menos.</li><li>\u2022 Ocho fe\u00e9ricos con valor de desaf\u00edo 1/4 o menos.</li></ul>Una criatura invocada desaparece si sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Las criaturas invocadas son amistosas hacia ti y tus compa\u00f1eros. Las criaturas act\u00faan como un grupo con sus propios turnos, con una sola de tirada de iniciativa com\u00fan. Obedecen cualquier mandato verbal tuyo (no requiere acci\u00f3n). Si no les das ninguna orden, se defender\u00e1n de criaturas hostiles, pero no realizar\u00e1n ninguna otra acci\u00f3n.<br><br>El DM tiene el perfil de las criaturas.<br><br><i>A niveles superiores.</i> Cuando lanzas este conjuro utilizando un espacio de conjuro de determinados niveles superiores, el n\u00famero de criaturas de la opci\u00f3n elegida aumenta: el doble si usas un espacio de conjuro de nivel 6 y el triple si es de nivel 8.",
+    "materiales": "Una baya de acebo por cada criatura convocada."
   }
 ]
