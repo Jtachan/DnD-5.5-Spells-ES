@@ -354,5 +354,34 @@
       "Elige un tipo de arma arrojadiza o munici\u00f3n que tengas en tu inventario y elige un punto dentro del alcance. Al lanzar tu elecci\u00f3n al cielo, tu arma o munici\u00f3n se duplica cientos de veces y caen en vertical en un \u00e1rea de radio de 12 m centrado en tu punto elegido. Todas las criaturas que se encuentren en el cilindro de base el \u00e1rea mencionada y altura 6 m han de realizar una tirada de salvaci\u00f3n de Destreza para evitar el da\u00f1o, sufriendo 8d8 de da\u00f1o si fallan o la mitad si la superan. El tipo de da\u00f1o es el mismo que el del arma o munici\u00f3n seleccionada."
     ],
     "materiales": "Una unidad de munici\u00f3n o un arma arrojadiza."
+  },
+  {
+    "nombre": "Cono de fr\u00edo",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "Lanzador (cono de 60 pies)",
+      "Lanzador (cono de 18 m)"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una r\u00e1faga de aire helado surge de tus manos. Cada criatura en un cono de 60 pies debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 8d8 de da\u00f1o de fr\u00edo si falla la tirada o la mitad del da\u00f1o si la supera.<br><br>Una criatura muerta que falle esta tirada se convertir\u00e1 en una estatua helada hasta que se descongele.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el da\u00f1o aumenta en 1d8 por nivel por encima de 5 que tenga el espacio que hayas empleado.",
+      "Una r\u00e1faga de aire helado surge de tus manos. Cada criatura en un cono de 18 m debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 8d8 de da\u00f1o de fr\u00edo si falla la tirada o la mitad del da\u00f1o si la supera.<br><br>Una criatura muerta que falle esta tirada se convertir\u00e1 en una estatua helada hasta que se descongele.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el da\u00f1o aumenta en 1d8 por nivel por encima de 5 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Un cristal peque\u00f1o o un cono de cristal."
   }
 ]
