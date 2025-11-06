@@ -433,5 +433,28 @@
       "Tocas un punto e infundes la zona que lo rodea con poder sagrado (o imp\u00edo). El \u00e1rea afectada puede tener un radio de hasta 18 m y el conjuro falla si el radio incluye una zona que ya est\u00e1 bajo el efecto del conjuro consagrar. La zona afectada queda sujeta a los siguientes efectos.<br><br>Primero, los celestiales, elementales, fe\u00e9ricos, infernales y muertos vivientes no pueden entrar en la zona ni hechizar, asustar o poseer a criaturas que est\u00e9n dentro de ella. Cualquier criatura hechizada, asustada o pose\u00edda por tales criaturas deja de estarlo al entrar en la zona. Puedes excluir a uno o m\u00e1s de estos tipos de criaturas de este efecto.<br><br>Segundo, puedes asociar un efecto adicional a la zona. Elige de la siguiente lista o escoge uno ofrecido por el DM. Algunos de estos efectos se aplican a criaturas en la zona; puedes elegir si el efecto se aplica a todas las criaturas, a aquellas que sigan a una deidad o l\u00edder espec\u00edfico o a criaturas de un tipo determinado, como orcos o trolls. Cuando una criatura que fuera a ser afectada entra en la zona del conjuro por primera vez en un turno, o empiece su turno en ella, puede realizar una tirada de salvaci\u00f3n de Carisma. Si tiene \u00e9xito, ignora el efecto adicional hasta que abandone la zona.<br><br><b>Coraje.</b> Las criaturas afectadas no pueden ser asustadas dentro de la zona.<br><br><b>Oscuridad.</b> La oscuridad cubre la zona. La luz normal, as\u00ed como la luz m\u00e1gica creada por conjuros de un nivel menor que el espacio de conjuro que utilizaste para lanzar este conjuro, no pueden iluminar esta zona.<br><br><b>Luz del d\u00eda.</b> Una luz brillante inunda la zona. La oscuridad m\u00e1gica creada por conjuros de un nivel menor que el espacio de conjuro que utilizaste para lanzar este conjuro no puede disipar la iluminaci\u00f3n de esta zona.<br><br><b>Protecci\u00f3n contra energ\u00eda.</b> Las criaturas afectadas dentro de la zona tienen resistencia a un tipo de da\u00f1o de tu elecci\u00f3n, excepto contundente, cortante o penetrante.<br><br><b>Vulnerabilidad a la energ\u00eda.</b> Las criaturas afectadas dentro de la zona son vulnerables a un tipo de da\u00f1o de tu elecci\u00f3n, excepto contundente, cortante o penetrante.<br><br><b>Descanso eterno.</b> Los cad\u00e1veres enterrados en esta zona no pueden ser convertidos en muertos vivientes.<br><br><b>Intromisi\u00f3n extradimensional.</b> Las criaturas afectadas no pueden moverse o viajar utilizando teletransportaci\u00f3n o medios extradimensionales o interplanares.<br><br><b>Terror.</b> Las criaturas afectadas est\u00e1n asustadas mientras permanezcan dentro de la zona.<br><br><b>Silencio.</b> Ning\u00fan sonido puede salir de la zona ni penetrar dentro de ella.<br><br><b>Lenguas.</b> Las criaturas afectadas pueden comunicarse con cualquier otra criatura en el \u00e1rea, incluso si no comparten un lenguaje com\u00fan."
     ],
     "materiales": "Incienso, hierbas y aceites con un valor de, al menos, 1.000 po, que son consumidos como parte del conjuro."
+  },
+  {
+    "nombre": "Contactar con otro plano",
+    "clases": [
+      "Hechicero",
+      "Mago",
+      "Brujo",
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": "Contactas mentalmente con un semidi\u00f3s, el esp\u00edritu de un sabio muerto hace tiempo u otra entidad misteriosa de otro plano. Establecer comunicaci\u00f3n con estas inteligencias extraplanares puede causar estragos o incluso destruir tu mente. Cuando lances este conjuro, haz una tirada de salvaci\u00f3n de Inteligencia CD 15. Si fallas, recibes 6d6 de da\u00f1o ps\u00edquico y quedas enloquecido hasta que termines un descanso largo. Mientras est\u00e1s enloquecido no puedes realizar acciones, no entiendes lo que otras criaturas dicen, no lees y solo dices jerigonzas. Un conjuro <i>restablecimiento mayor</i> lanzado sobre ti termina este efecto.<br><br>Si pasas la tirada de salvaci\u00f3n puedes hacer cinco preguntas a la entidad. Debes realizar las preguntas antes de que el conjuro termine. El DM responde a las preguntas con una palabra, como \"s\u00ed\", \"no\", \"quiz\u00e1\", \"nunca\", \"irrelevante\" o \"incierto\" (si la entidad no conoce la respuesta a la pregunta). En el caso de que una respuesta de una sola palabra pueda inducir a error, el DM puede ofrecer una frase corta en su lugar.",
+    "materiales": null
   }
 ]
