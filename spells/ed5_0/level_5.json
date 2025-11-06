@@ -383,5 +383,29 @@
       "Una r\u00e1faga de aire helado surge de tus manos. Cada criatura en un cono de 18 m debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 8d8 de da\u00f1o de fr\u00edo si falla la tirada o la mitad del da\u00f1o si la supera.<br><br>Una criatura muerta que falle esta tirada se convertir\u00e1 en una estatua helada hasta que se descongele.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el da\u00f1o aumenta en 1d8 por nivel por encima de 5 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Un cristal peque\u00f1o o un cono de cristal."
+  },
+  {
+    "nombre": "Conocer las leyendas",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Nombra o describe a una persona, lugar u objeto. El conjuro te proporciona un breve resumen del conocimiento m\u00e1s significativo sobre lo nombrado. Puede ser en forma de cuentos actuales, historias olvidadas o incluso informaci\u00f3n secreta nunca antes dicha p\u00fablicamente. Si lo nombrado no es digno de haber formado parte de una leyenda, no consigues ninguna informaci\u00f3n. Cuanta m\u00e1s informaci\u00f3n tuvieras antes, m\u00e1s precisa y detallada ser\u00e1 la nueva informaci\u00f3n que recibas.<br><br>La informaci\u00f3n obtenida ser\u00e1 cierta, pero puede estar disimulada bajo un lenguaje metaf\u00f3rico. Por ejemplo, si tienes una misteriosa hacha m\u00e1gica en la mano, el conjuro podr\u00eda proporcionarte la siguiente informaci\u00f3n: \"As\u00ed el \u00fanico hijo del malvado cuya mano toqu\u00e9 este hacha, con su sangre derramada rajar\u00e1 la mano del malintencionado. \u00danicamente un verdadero Hijo de la Piedra, devoto y amparado por la fe, comprender\u00e1 los verdaderos poderes del arma, y solo si la palabra sagrada <i>Rudnogg</i> brota de sus labios\".",
+    "materiales": "Incienso con un valor de, al menos, 250 po, que es consumido como parte del conjuro, y cuatro tiras de marfil con un valor de, al menos, 50 po cada una."
   }
 ]
