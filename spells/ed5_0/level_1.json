@@ -240,5 +240,34 @@
     "requiere_ataque": true,
     "descripcion": "Mientras el conjuro se mantenga activo, los ataques cuerpo a cuerpo con tu arma infligen 1d6 de da\u00f1o ps\u00edquico adicional. Si el ataque impacta, la criatura objetivo debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda para no quedar asustada. Una criatura asustada por este conjuro puede utilizar su acci\u00f3n para realizar una tirada de salvaci\u00f3n de Sabidur\u00eda contra tu CD de salvaci\u00f3n de conjuros para dejar de estar asustada y terminar el conjuro.",
     "materiales": null
+  },
+  {
+    "nombre": "Crear o destruir agua",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas o destruyes agua.<br><br><b>Crear agua.</b> Creas hasta 10 galones de agua limpia en un recipiente dentro del alcance. Alternativamente, el agua llueve en un cubo de 30 pies de lado dentro del alcance, apagando cualquier llama expuesta dentro del \u00e1rea.<br><br><b>Destruir agua.</b> Destruyes hasta 10 galones de agua limpia de un recipiente dentro del alcance. Alternativamente, deshaces la niebla en un cubo de 30 pies de lado dentro del alcance.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, por cada nivel por encima de 1 del espacio creas o destruyes 10 galones adicionales de agua o el lado del cubo aumenta en 5 pies.",
+      "Creas o destruyes agua.<br><br><b>Crear agua.</b> Creas hasta 40 l de agua limpia en un recipiente dentro del alcance. Alternativamente, el agua llueve en un cubo de 9 m de lado dentro del alcance, apagando cualquier llama expuesta dentro del \u00e1rea.<br><br><b>Destruir agua.</b> Destruyes hasta 40 l de agua limpia de un recipiente dentro del alcance. Alternativamente, deshaces la niebla en un cubo de 9 m de lado dentro del alcance.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, por cada nivel por encima de 1 del espacio creas o destruyes 40 l adicionales de agua o el lado del cubo aumenta en 1,5 m."
+    ],
+    "materiales": "Una gota de agua si est\u00e1s cre\u00e1ndola o unos granos de arena si la est\u00e1s destruyendo."
   }
 ]
