@@ -459,5 +459,31 @@
       "Puedes leer los pensamientos de algunas criaturas hasta que termine el conjuro. Cuando lanzas el conjuro y como acci\u00f3n en los turnos siguientes hasta que el conjuro termine, puedes concentrar tu mente en una criatura que puedas ver a 9 m o menos de ti. Si el objetivo elegido tiene Inteligencia 3 o menos o no habla ning\u00fan idioma, no se ver\u00e1 afectado.<br><br>De entrada, conoces los pensamientos superficiales de la criatura: lo que ocupa su mente en ese momento. Como acci\u00f3n, puedes concentrar tu voluntad en los pensamientos de otro objetivo o intentar sondear en profundidad los de la misma criatura. Si sondeas, el objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si fracasa, obtienes conocimientos sobre sus pensamientos, su estado emocional o algo que ocupe un lugar importante en su mente (una preocupaci\u00f3n, o algo que ame u odie). Si tiene \u00e9xito, el conjuro termina. En cualquier caso, el objetivo sabe que est\u00e1s sondeando su mente y, a menos que tu atenci\u00f3n se centre en otra mente, podr\u00e1 utilizar su acci\u00f3n en su turno para realizar una tirada enfrentada de Inteligencia; si tiene \u00e9xito, el conjuro termina.<br><br>Las preguntas hechas verbalmente al objetivo afectan a sus pensamientos, por lo que este conjuro es especialmente efectivo como parte de un interrogatorio.<br><br>Tambi\u00e9n puedes emplear el conjuro para detectar la presencia de criaturas pensantes que puedas ver dentro de 9 m cuando lo lanzas el conjuro, o como una acci\u00f3n antes del final de la duraci\u00f3n del mismo, puedes buscar pensamientos en un radio de 9 m a tu alrededor. Este efecto es capaz de atravesar la mayor\u00eda de las barreras, pero se ve bloqueado por 0,6 m de piedra, 5 cm de cualquier metal que no sea plomo y una fina l\u00e1mina de plomo. Si la criatura elegida tiene Inteligencia 3 o menos o no habla ning\u00fan idioma, no se ver\u00e1 afectada.<br><br>Una vez detectas su presencia de esta manera, puedes leer los pensamientos de la criatura hasta el final de la duraci\u00f3n aunque no puedas verla, pero tiene que permanecer dentro del alcance."
     ],
     "materiales": "Una pieza de cobre."
+  },
+  {
+    "nombre": "Detectar trampas",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Puedes sentir la presencia de cualquier trampa dentro del alcance que est\u00e9 en tu l\u00ednea de visi\u00f3n. En lo que a este conjuro respecta, una trampa incluye cualquier objeto que fuera a causar un efecto s\u00fabito e inesperado que t\u00fa consideres da\u00f1ino o indeseable, y que fuera creado con ese prop\u00f3sito. Por tanto, el conjuro detectar\u00e1 un \u00e1rea afectada por el conjuro alarma, un glifo custodio o una trampa mec\u00e1nica como un pozo, pero no revelar\u00e1 una zona endeble del suelo, un techo inestable o un socav\u00f3n oculto.<br><br>Este conjuro simplemente alerta de la existencia de una trampa. No te transmite la localizaci\u00f3n de cada trampa, pero s\u00ed la \u00edndole general del peligro potencial.",
+    "materiales": null
   }
 ]
