@@ -401,5 +401,35 @@
     "requiere_ataque": false,
     "descripcion": "Selecciona a un humanoide que puedas ver dentro de tu alcance como objetivo, el cual queda hechizado si no supera una tirada de salvaci\u00f3n de Sabidur\u00eda. Mientras el objetivo se encuentre hechizado por tu conjuro, una retorcida corona de hierro aparece sobre su cabeza. La corona obliga al objetivo a utilizar su acci\u00f3n para realizar un ataque cuerpo a cuerpo contra otra criatura a tu elecci\u00f3n que no sea ella misma y que est\u00e9 a su alcance antes de moverse.<br><br>La criatura hechizada puede actuar con normalidad si ninguna criatura es seleccionada o si no tiene ninguna criatura al alcance.<br><br>En turnos siguientes debes usar tu acci\u00f3n para mantener el control del objetivo o el conjuro termina. Al final de cada uno de sus turnos, el objetivo puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito, el efecto del conjuro termina.",
     "materiales": null
+  },
+  {
+    "nombre": "Crecimiento espinoso",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Con un temblor, surgen espinas y pinchos del suelo en un radio de 20 pies alrededor de un punto dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, el suelo del \u00e1rea es terreno dif\u00edcil. Cuando una criatura entra o se mueve a trav\u00e9s del \u00e1rea, recibe 2d4 de da\u00f1o perforante por cada 5 pies que se desplace.<br><br>La transformaci\u00f3n del suelo queda camuflada de manera que parece natural. Cualquier criatura que no pueda ver el \u00e1rea en el momento en que se lanza el conjuro debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda (Percepci\u00f3n) con CD igual a tu salvaci\u00f3n de conjuros para darse cuenta de que el terreno es peligroso antes de entrar en \u00e9l.",
+      "Con un temblor, surgen espinas y pinchos del suelo en un radio de 6 m alrededor de un punto dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, el suelo del \u00e1rea es terreno dif\u00edcil. Cuando una criatura entra o se mueve a trav\u00e9s del \u00e1rea, recibe 2d4 de da\u00f1o perforante por cada 1,5 m que se desplace.<br><br>La transformaci\u00f3n del suelo queda camuflada de manera que parece natural. Cualquier criatura que no pueda ver el \u00e1rea en el momento en que se lanza el conjuro debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda (Percepci\u00f3n) con CD igual a tu salvaci\u00f3n de conjuros para darse cuenta de que el terreno es peligroso antes de entrar en \u00e9l."
+    ],
+    "materiales": "Siete espinas agudas o siete ramitas afiladas hasta tener punta."
   }
 ]
