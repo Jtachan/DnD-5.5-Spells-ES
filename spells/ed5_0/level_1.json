@@ -319,5 +319,36 @@
       "Hasta el final del conjuro, sabes si hay aberraciones, celestiales, elementales, fe\u00e9ricos, demonios o muertos vivientes dentro de 9 m a tu alrededor; as\u00ed como su ubicaci\u00f3n exacta. De forma similar, percibes si hay un lugar u objeto a 9 m de ti que est\u00e9 consagrado o desacralizado m\u00e1gicamente.<br><br>Este conjuro es capaz de atravesar la mayor\u00eda de las barreras, pero se ve bloqueado por 0,3 m de piedra, 2,5 cm de metal com\u00fan, una fina l\u00e1mina de plomo o 0,9 m de madera o tierra."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Detectar magia",
+    "clases": [
+      "B\u00e1rbaro",
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Mago",
+      "Palad\u00edn"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Hasta que termine la duraci\u00f3n del conjuro podr\u00e1s percibir la presencia de magia a 30 pies o menos de ti. Si la detectas de esta manera, puedes usar tu acci\u00f3n para ver una d\u00e9bil aura alrededor de cualquier objeto o criatura visible que est\u00e9 afectada por la magia, y adem\u00e1s podr\u00e1s distinguir a qu\u00e9 escuela pertenece, si es que pertenece a alguna.<br><br>Este conjuro es capaz de atravesar la mayor\u00eda de las barreras, pero se ve bloqueado por 1 pie de piedra, 1 pulgada de cualquier metal com\u00fan, una l\u00e1mina fina de plomo o 3 pies de madera o tierra.",
+      "Hasta que termine la duraci\u00f3n del conjuro podr\u00e1s percibir la presencia de magia a 9 m o menos de ti. Si la detectas de esta manera, puedes usar tu acci\u00f3n para ver una d\u00e9bil aura alrededor de cualquier objeto o criatura visible que est\u00e9 afectada por la magia, y adem\u00e1s podr\u00e1s distinguir a qu\u00e9 escuela pertenece, si es que pertenece a alguna.<br><br>Este conjuro es capaz de atravesar la mayor\u00eda de las barreras, pero se ve bloqueado por 0,3 m de piedra, 2,5 cm de cualquier metal com\u00fan, una l\u00e1mina fina de plomo o 0,9 m de madera o tierra."
+    ],
+    "materiales": null
   }
 ]
