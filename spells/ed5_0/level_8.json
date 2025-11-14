@@ -124,5 +124,31 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro crea un duplicado inerte de una criatura viva como salvaguarda contra la muerte. El clon se forma dentro del recipiente cerrado y crece hasta la madurez en 120 d\u00edas; tambi\u00e9n puedes elegir que el clon sea una versi\u00f3n m\u00e1s joven de la misma criatura. Se mantiene inerte y aguanta indefinidamente mientras el recipiente se mantenga intacto.<br><br>Si, en cualquier momento despu\u00e9s de que el clon haya madurado, la criatura original muere, su alma se transferir\u00e1 al clon. Suponiendo que el alma sea libre y quiera volver, claro est\u00e1. El clon es f\u00edsicamente id\u00e9ntico al original y tiene su misma personalidad, memoria y habilidades, pero no conserva su equipo. Los restos mortales de la criatura original, si existen, se volver\u00e1n inertes y no podr\u00e1n ser devueltos a la vida, ya que el alma de la criatura ha pasado a otro cuerpo.",
     "materiales": "Un diamante con valor de, al menos, 1.000 po, 1 pulgada c\u00fabica de carne de la criatura a clonar, consumida en el lanzamiento, y un recipiente con valor de, al menos, 2.000 po que tenga una tapa sellable y de tama\u00f1o suficiente para alojar a una criatura mediana, como una urna grande, un f\u00e9retro, una zanja llena de barro en el suelo o un contenedor de cristal lleno de agua salada."
+  },
+  {
+    "nombre": "Controlar el clima",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Tomas el control del tiempo atmosf\u00e9rico en un radio de 5 millas alrededor de ti hasta el final de la duraci\u00f3n del conjuro. Debes estar al aire libre para poder lanzar este conjuro. Si te mueves a un sitio donde no puedas ver el cielo, el conjuro termina antes de tiempo.<br><br>Cuando lanzas el conjuro, cambias las condiciones atmosf\u00e9ricas actuales determinadas por el DM de acuerdo al clima y la estaci\u00f3n. Puedes modificar las precipitaciones, temperatura y viento. Tardas 1d4 \u00d7 10 minutos en llevar este cambio a t\u00e9rmino. Cuando termines, puedes cambiar las condiciones de nuevo si as\u00ed lo quieres. Al terminar el conjuro, el tiempo vuelve a la normalidad gradualmente.<br><br>Cuando manipules las condiciones atmosf\u00e9ricas, encuentra el estado actual en las siguientes tablas y c\u00e1mbialo un nivel, hacia arriba o hacia abajo. Cuando act\u00faas sobre el viento, puedes modificar su direcci\u00f3n.<br><br><b>PRECIPITACIONES</b><br><br><table><tr><th>Nivel</th><th>Estado</th></tr><tr><td>1</td><td>Despejado</td></tr><tr><td>2</td><td>Nubes escasas</td></tr><tr><td>3</td><td>Cielo cubierto o niebla de superficie</td></tr><tr><td>4</td><td>Lluvia, granizo o nieve</td></tr><tr><td>5</td><td>Lluvia torrencial, tormenta de granizo o ventisca</td></tr></table><br><br><b>TEMPERATURA</b><br><br><table><tr><th>Nivel</th><th>Estado</th></tr><tr><td>1</td><td>Calor insoportable</td></tr><tr><td>2</td><td>Caliente</td></tr><tr><td>3</td><td>Templado</td></tr><tr><td>4</td><td>Fresco</td></tr><tr><td>5</td><td>Fr\u00edo</td></tr><tr><td>6</td><td>Fr\u00edo polar</td></tr></table><br><br><b>VIENTO</b><br><br><table><tr><th>Nivel</th><th>Estado</th></tr><tr><td>1</td><td>Calmo</td></tr><tr><td>2</td><td>Viento moderado</td></tr><tr><td>3</td><td>Viento fuerte</td></tr><tr><td>4</td><td>Galernas</td></tr><tr><td>5</td><td>Tempestad</td></tr></table>",
+      "Tomas el control del tiempo atmosf\u00e9rico en un radio de 7,5 km alrededor de ti hasta el final de la duraci\u00f3n del conjuro. Debes estar al aire libre para poder lanzar este conjuro. Si te mueves a un sitio donde no puedas ver el cielo, el conjuro termina antes de tiempo.<br><br>Cuando lanzas el conjuro, cambias las condiciones atmosf\u00e9ricas actuales determinadas por el DM de acuerdo al clima y la estaci\u00f3n. Puedes modificar las precipitaciones, temperatura y viento. Tardas 1d4 \u00d7 10 minutos en llevar este cambio a t\u00e9rmino. Cuando termines, puedes cambiar las condiciones de nuevo si as\u00ed lo quieres. Al terminar el conjuro, el tiempo vuelve a la normalidad gradualmente.<br><br>Cuando manipules las condiciones atmosf\u00e9ricas, encuentra el estado actual en las siguientes tablas y c\u00e1mbialo un nivel, hacia arriba o hacia abajo. Cuando act\u00faas sobre el viento, puedes modificar su direcci\u00f3n.<br><br><b>PRECIPITACIONES</b><br><br><table><tr><th>Nivel</th><th>Estado</th></tr><tr><td>1</td><td>Despejado</td></tr><tr><td>2</td><td>Nubes escasas</td></tr><tr><td>3</td><td>Cielo cubierto o niebla de superficie</td></tr><tr><td>4</td><td>Lluvia, granizo o nieve</td></tr><tr><td>5</td><td>Lluvia torrencial, tormenta de granizo o ventisca</td></tr></table><br><br><b>TEMPERATURA</b><br><br><table><tr><th>Nivel</th><th>Estado</th></tr><tr><td>1</td><td>Calor insoportable</td></tr><tr><td>2</td><td>Caliente</td></tr><tr><td>3</td><td>Templado</td></tr><tr><td>4</td><td>Fresco</td></tr><tr><td>5</td><td>Fr\u00edo</td></tr><tr><td>6</td><td>Fr\u00edo polar</td></tr></table><br><br><b>VIENTO</b><br><br><table><tr><th>Nivel</th><th>Estado</th></tr><tr><td>1</td><td>Calmo</td></tr><tr><td>2</td><td>Viento moderado</td></tr><tr><td>3</td><td>Viento fuerte</td></tr><tr><td>4</td><td>Galernas</td></tr><tr><td>5</td><td>Tempestad</td></tr></table>"
+    ],
+    "materiales": "Incienso y pedacitos de tierra y madera mezclados en agua."
   }
 ]
