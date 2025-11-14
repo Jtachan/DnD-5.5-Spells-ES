@@ -557,5 +557,28 @@
     "requiere_ataque": false,
     "descripcion": "Despu\u00e9s de emplear el tiempo de lanzamiento en trazar dibujos m\u00e1gicos en el interior de la piedra preciosa, tocas a una bestia o planta de tama\u00f1o Enorme o menor. El objetivo debe tener una puntuaci\u00f3n de Inteligencia de 3 o menos (o incluso no tener puntuaci\u00f3n de Inteligencia). La puntuaci\u00f3n de Inteligencia del objetivo pasa a ser 10. Adem\u00e1s, gana la capacidad de hablar un idioma que t\u00fa le conozcas. Si el objetivo es una planta, obtiene la capacidad de mover sus miembros, ra\u00edces, vides, enredaderas, etc. y gana sentidos parecidos a los humanos. Tu DM elige un perfil adecuado a la planta que has despertado, como por ejemplo el de un arbusto despertado o un \u00e1rbol despertado.<br><br>El objetivo despertado permanece hechizado por ti durante 30 d\u00edas o hasta que t\u00fa o tus compa\u00f1eros le caus\u00e9is da\u00f1o. Cuando el estado \u201chechizado\u201d termina, la criatura despertada decide si sigue siendo amistosa hacia ti o no, dependiendo de c\u00f3mo la trataras cuando estaba hechizada.",
     "materiales": "Un \u00e1gata con un valor de, al menos, 1.000 po, que es consumida como parte del conjuro."
+  },
+  {
+    "nombre": "Disipar el bien y el mal",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una energ\u00eda reluciente te rodea y te protege de criaturas fe\u00e9ricas, muertos vivientes y aquellos seres nativos de m\u00e1s all\u00e1 del Plano Material. Hasta el final de la duraci\u00f3n del conjuro, celestiales, elementales, fe\u00e9ricos, infernales y muertos vivientes tienen desventaja en las tiradas de ataque contra ti.<br><br>Puedes terminar el conjuro antes de tiempo utilizando alguna de las siguientes funciones especiales:<br><br><b>Romper encantamiento.</b> Como acci\u00f3n, toca a una criatura a tu alcance que est\u00e9 hechizada, asustada o pose\u00edda por un celestial, elemental, fe\u00e9rico, infernal o muerto viviente. La criatura que tocas ya no estar\u00e1 hechizada, asustada o pose\u00edda por dichas criaturas.<br><br><b>Despido.</b> Como acci\u00f3n, realiza un ataque de conjuro cuerpo a cuerpo contra un celestial, elemental, fe\u00e9rico, infernal o muerto viviente a tu alcance. Si impactas, intentas enviar a la criatura de vuelta a su plano natal. El objetivo realiza una tirada de salvaci\u00f3n de Carisma o ser\u00e1 devuelto de inmediato a su plano natal si est\u00e1 en su plano natal, o quedar\u00e1 desterrado si no lo est\u00e1. Si no est\u00e1 en su plano natal, los muertos vivientes son enviados al Shadowfell y los fe\u00e9ricos son enviados al Feywild.",
+    "materiales": "Agua bendita o polvo de plata y hierro."
   }
 ]
