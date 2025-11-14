@@ -17,5 +17,8 @@ CONDITIONAL_ACTION_TEXT = {
     "que llevas a cabo cuando te acierta una tirada de ataque o eres el objetivo del conjuro proyectil mágico": "El conjuro se lleva a cabo en respuesta al ser acertado por una tirada de ataque o ser objetivo del conjuro <i>proyectil mágico</i>.",
 }
 
+# Valores del campo de 'alcance' que no deberían estar en una lista:
+NO_LIST_VALS_ALCANCE = ["Lanzador", "Toque", "Especial", "Vista", "Ilimitado"]
+
 # Nombres de las carpetas conteniendo las distintas ediciones
 FOLDER_EDITIONS = ("ed5_0", "ed5_5")
