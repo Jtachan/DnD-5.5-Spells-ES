@@ -432,5 +432,35 @@
       "Haces que t\u00fa (incluyendo tu vestimenta, armadura, armas y otras posesiones que lleves contigo) parezcas diferente hasta que el conjuro finalice o utilices tu acci\u00f3n para terminarlo. Puedes parecer 0,3 m m\u00e1s alto o m\u00e1s bajo y de complexi\u00f3n delgada, gorda o intermedia. No puedes cambiar el tipo de tu cuerpo, as\u00ed que debes adoptar una forma que tenga la misma configuraci\u00f3n de miembros. El resto de aspectos pueden ser afectados por la ilusi\u00f3n.<br><br>Los cambios realizados por este conjuro no aguantan una inspecci\u00f3n f\u00edsica. Por ejemplo, si usas este conjuro para a\u00f1adir un sombrero a tu vestimenta, los objetos atravesar\u00e1n el sombrero y cualquiera que lo toque no se sentir\u00e1 nada, o sencillamente notar\u00e1 tu pelo y cabeza. Si utilizas este conjuro para parecer m\u00e1s delgado, la mano de cualquiera que intente tocarte se chocar\u00e1 contigo en lo que parece ser espacio libre.<br><br>Para darse cuenta de que est\u00e1s disfrazado, una criatura puede emplear su acci\u00f3n en inspeccionar tu apariencia y debe tener \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) con CD igual a tu salvaci\u00f3n de conjuros."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Dormir",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Este conjuro sume a criaturas en un sue\u00f1o m\u00e1gico. Tira 5d8; podr\u00e1s afectar a criaturas cuyo total combinado de puntos de golpe sea menor o igual al resultado. Las criaturas a 20 pies de un punto de tu elecci\u00f3n dentro del alcance son afectadas en orden ascendente de sus puntos de golpe actuales. Ignora a las criaturas inconscientes.<br><br>Empezando por la criatura que tenga el menor n\u00famero de puntos de golpe actuales, cada criatura afectada por este conjuro cae inconsciente hasta el final del conjuro, hasta recibir da\u00f1o o hasta que alguien utilice su acci\u00f3n para despertarla. Resta del total los puntos de golpe de cada criatura a la que duermas antes de continuar con la siguiente. Una criatura solo se ver\u00e1 afectada si sus puntos de golpe actuales son menores o iguales al total restante.<br><br>Los muertos vivientes y las criaturas inmunes a ser hechizadas no se ven afectadas por este conjuro.<br><br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, tira 2d8 adicionales por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+      "Este conjuro sume a criaturas en un sue\u00f1o m\u00e1gico. Tira 5d8; podr\u00e1s afectar a criaturas cuyo total combinado de puntos de golpe sea menor o igual al resultado. Las criaturas a 6 m de un punto de tu elecci\u00f3n dentro del alcance son afectadas en orden ascendente de sus puntos de golpe actuales. Ignora a las criaturas inconscientes.<br><br>Empezando por la criatura que tenga el menor n\u00famero de puntos de golpe actuales, cada criatura afectada por este conjuro cae inconsciente hasta el final del conjuro, hasta recibir da\u00f1o o hasta que alguien utilice su acci\u00f3n para despertarla. Resta del total los puntos de golpe de cada criatura a la que duermas antes de continuar con la siguiente. Una criatura solo se ver\u00e1 afectada si sus puntos de golpe actuales son menores o iguales al total restante.<br><br>Los muertos vivientes y las criaturas inmunes a ser hechizadas no se ven afectadas por este conjuro.<br><br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, tira 2d8 adicionales por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Una pizca de arena fina, p\u00e9talos de rosa o un grillo."
   }
 ]
