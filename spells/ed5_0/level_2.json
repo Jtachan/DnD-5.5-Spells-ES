@@ -345,5 +345,35 @@
     "requiere_ataque": false,
     "descripcion": "El contorno de tu cuerpo se vuelve borroso, cambiando y oscilando a la vista de todos. Hasta el final de la duraci\u00f3n del conjuro, las criaturas que hagan tiradas de ataque contra ti tienen desventaja. El atacante es inmune a este efecto si puede verte claramente, como con visi\u00f3n verdadera, o a trav\u00e9s de las ilusiones.",
     "materiales": null
+  },
+  {
+    "nombre": "Cord\u00f3n de flechas",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "5 pies",
+      "1,5 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Elige cuatro o m\u00e1s unidades de una munici\u00f3n no m\u00e1gica de da\u00f1o perforante, las cuales encantas y clavas en el suelo. Mientras el conjuro est\u00e9 activo, el \u00e1rea creada dentro de las flechas o virotes actuar\u00e1 como una protecci\u00f3n contra toda criatura hostil hacia ti o tus aliados. Cuando esta criatura se acerque a 30 pies o menos de la munici\u00f3n, una de estas saldr\u00e1 volando para atacarla infringiendo 1d6 de da\u00f1o perforante. Si la criatura consigue superar una tirada de salvaci\u00f3n de destreza, esquiva la flecha. Acto seguido, la munici\u00f3n se destruye (haya o no impactado), poniendo fin al conjuro cuando no queden m\u00e1s proyectiles.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, la cantidad de flechas que puedes encantar se incrementa en dos por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+      "Elige cuatro o m\u00e1s unidades de una munici\u00f3n no m\u00e1gica de da\u00f1o perforante, las cuales encantas y clavas en el suelo. Mientras el conjuro est\u00e9 activo, el \u00e1rea creada dentro de las flechas o virotes actuar\u00e1 como una protecci\u00f3n contra toda criatura hostil hacia ti o tus aliados. Cuando esta criatura se acerque a 9 m o menos de la munici\u00f3n, una de estas saldr\u00e1 volando para atacarla infringiendo 1d6 de da\u00f1o perforante. Si la criatura consigue superar una tirada de salvaci\u00f3n de destreza, esquiva la flecha. Acto seguido, la munici\u00f3n se destruye (haya o no impactado), poniendo fin al conjuro cuando no queden m\u00e1s proyectiles.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, la cantidad de flechas que puedes encantar se incrementa en dos por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Cuatro o m\u00e1s flechas o virotes."
   }
 ]
