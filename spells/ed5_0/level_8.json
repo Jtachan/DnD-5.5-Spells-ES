@@ -150,5 +150,33 @@
       "Tomas el control del tiempo atmosf\u00e9rico en un radio de 7,5 km alrededor de ti hasta el final de la duraci\u00f3n del conjuro. Debes estar al aire libre para poder lanzar este conjuro. Si te mueves a un sitio donde no puedas ver el cielo, el conjuro termina antes de tiempo.<br><br>Cuando lanzas el conjuro, cambias las condiciones atmosf\u00e9ricas actuales determinadas por el DM de acuerdo al clima y la estaci\u00f3n. Puedes modificar las precipitaciones, temperatura y viento. Tardas 1d4 \u00d7 10 minutos en llevar este cambio a t\u00e9rmino. Cuando termines, puedes cambiar las condiciones de nuevo si as\u00ed lo quieres. Al terminar el conjuro, el tiempo vuelve a la normalidad gradualmente.<br><br>Cuando manipules las condiciones atmosf\u00e9ricas, encuentra el estado actual en las siguientes tablas y c\u00e1mbialo un nivel, hacia arriba o hacia abajo. Cuando act\u00faas sobre el viento, puedes modificar su direcci\u00f3n.<br><br><b>PRECIPITACIONES</b><br><br><table><tr><th>Nivel</th><th>Estado</th></tr><tr><td>1</td><td>Despejado</td></tr><tr><td>2</td><td>Nubes escasas</td></tr><tr><td>3</td><td>Cielo cubierto o niebla de superficie</td></tr><tr><td>4</td><td>Lluvia, granizo o nieve</td></tr><tr><td>5</td><td>Lluvia torrencial, tormenta de granizo o ventisca</td></tr></table><br><br><b>TEMPERATURA</b><br><br><table><tr><th>Nivel</th><th>Estado</th></tr><tr><td>1</td><td>Calor insoportable</td></tr><tr><td>2</td><td>Caliente</td></tr><tr><td>3</td><td>Templado</td></tr><tr><td>4</td><td>Fresco</td></tr><tr><td>5</td><td>Fr\u00edo</td></tr><tr><td>6</td><td>Fr\u00edo polar</td></tr></table><br><br><b>VIENTO</b><br><br><table><tr><th>Nivel</th><th>Estado</th></tr><tr><td>1</td><td>Calmo</td></tr><tr><td>2</td><td>Viento moderado</td></tr><tr><td>3</td><td>Viento fuerte</td></tr><tr><td>4</td><td>Galernas</td></tr><tr><td>5</td><td>Tempestad</td></tr></table>"
     ],
     "materiales": "Incienso y pedacitos de tierra y madera mezclados en agua."
+  },
+  {
+    "nombre": "Dominar monstruo",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Hechicero",
+      "Mago",
+      "Brujo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Intentas encantar a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizado por ti hasta el final de la duraci\u00f3n del conjuro. Tiene ventaja en esta tirada de salvaci\u00f3n si t\u00fa o alguna criatura amistosa hacia ti est\u00e1is luchando contra \u00e9l.<br><br>Mientras la criatura est\u00e1 hechizada, posees un enlace telep\u00e1tico con ella siempre y cuando ambos os hall\u00e9is en el mismo plano de existencia. Puedes usar este enlace para enviar \u00f3rdenes al objetivo mientras est\u00e9 consciente (no requiere acci\u00f3n) y este har\u00e1 todo lo que est\u00e9 en su poder para obedecer. Puedes especificar un procedimiento simple, como \"ataca a esa criatura\", \"corre hasta all\u00ed\" o \"tr\u00e1eme ese objeto\". Si la criatura cumple su orden y no recibe m\u00e1s mandatos de ti, se defiende y protege en la medida de sus posibilidades.<br><br>Puedes utilizar tu acci\u00f3n para tomar un control total y preciso del objetivo. Hasta el final de tu pr\u00f3ximo turno, la criatura solo realizar\u00e1 las acciones que elijas y no har\u00e1 nada que no le permitas. Durante este tiempo tambi\u00e9n podr\u00e1s hacer que el objetivo lleve a cabo reacciones, pero eso har\u00e1 que emplees tambi\u00e9n tu propia reacci\u00f3n.<br><br>Cada vez que recibe da\u00f1o, la criatura hace una nueva tirada de salvaci\u00f3n contra el conjuro. Si tiene \u00e9xito, el efecto del conjuro termina.<br><br><i><b>A niveles superiores.</b></i> Si utilizas un espacio de conjuro de nivel 9, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 8 horas.",
+    "materiales": null
   }
 ]
