@@ -340,5 +340,33 @@
       "Una criatura de tama\u00f1o Grande, con aspecto equino, aparece en el suelo en un espacio libre de tu elecci\u00f3n que puedas ver dentro del alcance. T\u00fa decides la apariencia de la criatura, pero estar\u00e1 equipada con silla de montar, bocado y bridas. Cualquier equipo creado por el conjuro se desvanecer\u00e1 si se aleja m\u00e1s de 3 m de ella.<br><br>Hasta el final de la duraci\u00f3n del conjuro, t\u00fa o una criatura de tu elecci\u00f3n pod\u00e9is montar el corcel. Este tiene el perfil de un caballo de monta, excepto que su velocidad es de 30 m y puede viajar 15 km en una hora, 13 a ritmo r\u00e1pido. Cuando el conjuro acaba, el corcel se desvanece gradualmente, dando al jinete 1 minuto para desmontar. El conjuro acaba si la criatura recibe cualquier tipo de da\u00f1o o si utilizas una acci\u00f3n para terminar el conjuro."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Crear comida y agua",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas 45 libras de comida y 30 galones de agua en el suelo o en recipientes dentro del alcance, lo suficiente para mantener a quince humanoides o cinco corceles durante 24 horas. La comida es sosa, aunque nutritiva, y se estropear\u00e1 si no se la consume en 24 horas. En cambio, el agua est\u00e1 limpia y no se estropea.",
+      "Creas 22,5 kg de comida y 120 l de agua en el suelo o en recipientes dentro del alcance, lo suficiente para mantener a quince humanoides o cinco corceles durante 24 horas. La comida es sosa, aunque nutritiva, y se estropear\u00e1 si no se la consume en 24 horas. En cambio, el agua est\u00e1 limpia y no se estropea."
+    ],
+    "materiales": null
   }
 ]
