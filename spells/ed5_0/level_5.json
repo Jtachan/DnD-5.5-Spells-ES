@@ -456,5 +456,28 @@
     "requiere_ataque": false,
     "descripcion": "Contactas mentalmente con un semidi\u00f3s, el esp\u00edritu de un sabio muerto hace tiempo u otra entidad misteriosa de otro plano. Establecer comunicaci\u00f3n con estas inteligencias extraplanares puede causar estragos o incluso destruir tu mente. Cuando lances este conjuro, haz una tirada de salvaci\u00f3n de Inteligencia CD 15. Si fallas, recibes 6d6 de da\u00f1o ps\u00edquico y quedas enloquecido hasta que termines un descanso largo. Mientras est\u00e1s enloquecido no puedes realizar acciones, no entiendes lo que otras criaturas dicen, no lees y solo dices jerigonzas. Un conjuro <i>restablecimiento mayor</i> lanzado sobre ti termina este efecto.<br><br>Si pasas la tirada de salvaci\u00f3n puedes hacer cinco preguntas a la entidad. Debes realizar las preguntas antes de que el conjuro termine. El DM responde a las preguntas con una palabra, como \"s\u00ed\", \"no\", \"quiz\u00e1\", \"nunca\", \"irrelevante\" o \"incierto\" (si la entidad no conoce la respuesta a la pregunta). En el caso de que una respuesta de una sola palabra pueda inducir a error, el DM puede ofrecer una frase corta en su lugar.",
     "materiales": null
+  },
+  {
+    "nombre": "Contagio",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Palad\u00edn"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "7 d\u00edas",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": true,
+    "descripcion": "Tu toque causa enfermedades. Haz un ataque de conjuro cuerpo a cuerpo contra una criatura dentro del alcance. Si impactas, infliges al objetivo una dolencia de entre las descritas debajo.<br><br>Al final de cada uno de sus turnos, el objetivo debe realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Si falla tres tiradas, la enfermedad permanecer\u00e1 hasta el final de la duraci\u00f3n del conjuro y la criatura dejar\u00e1 de hacer estas tiradas. Si supera tres tiradas, el objetivo se recuperar\u00e1 de la enfermedad y el conjuro terminar\u00e1.<br><br>La enfermedad inducida por este conjuro es natural, por lo que cualquier efecto que elimine o reduzca los efectos de una dolencia se aplica a este caso.<br><br><b>Enfermedad cegadora.</b> El dolor atenaza la mente de la criatura mientras sus ojos se vuelven de color blanco lechoso. Queda cegada y tiene desventaja en las tiradas de salvaci\u00f3n y pruebas de Sabidur\u00eda.<br><br><b>Fiebre inmunda.</b> Una fiebre rabiosa barre el cuerpo de la criatura. Tiene desventaja en pruebas y tiradas de salvaci\u00f3n de Fuerza y tiradas de ataque que utilicen Fuerza como caracter\u00edstica.<br><br><b>Putrefacci\u00f3n de la carne.</b> La carne de la criatura comienza a descomponerse. Tiene desventaja en pruebas de Carisma y es vulnerable a todo tipo de da\u00f1o.<br><br><b>Mente en llamas.</b> La mente de la criatura se vuelve febril. La criatura tiene desventaja en pruebas y tiradas de salvaci\u00f3n de Inteligencia, adem\u00e1s de comportarse como si estuviera bajo los efectos del conjuro <i>confusi\u00f3n</i>.<br><br><b>Convulsiones.</b> La criatura se ve afligida por horribles temblores. Tiene desventaja en pruebas y tiradas de salvaci\u00f3n de Destreza y tiradas de ataque que utilicen Destreza como caracter\u00edstica.<br><br><b>Maldici\u00f3n legamosa.</b> La criatura empieza a sangrar sin control. Tiene desventaja en las tiradas de salvaci\u00f3n y pruebas de Constituci\u00f3n. Adem\u00e1s, si recibe da\u00f1o quedar\u00e1 aturdida hasta el final de su siguiente turno.",
+    "materiales": null
   }
 ]
