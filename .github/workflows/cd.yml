@@ -3,11 +3,6 @@ on:
   push:
     branches:
       - "main"
-    paths:
-      - "spells\**\all.json"
-      - "index.html"
-      - "app.js"
-      - "styles.css"
   schedule:
     - cron: "0 5 1 * *"  # 05:00 UTC, 1st day of every month
   workflow_dispatch:
