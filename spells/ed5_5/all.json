@@ -2712,9 +2712,7 @@
     "escuela": "Abjuraci\u00f3n",
     "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": [
-      "Lanzador"
-    ],
+    "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V"
