@@ -167,6 +167,14 @@ def normalizar_tiempo_de_lanzamiento(text: str) -> str:
     return text
 
 
+def normalizar_alcance(text: str | list[str]) -> str | list[str]:
+    """Normalizing the field 'alcance'."""
+    no_list_values = ["Lanzador", "Toque", "Especial", "Vista", "Ilimitado"]
+    if isinstance(text, list) and all(any(t.startswith(v) for v in no_list_values) for t in text):
+        text = "Lanzador"
+    return text
+
+
 if __name__ == "__main__":
     os.chdir(os.path.dirname(__file__))
     for edition in ("ed5_5", "ed5_0"):
@@ -193,6 +201,7 @@ if __name__ == "__main__":
                             ]
 
                 spell["descripcion"] = normalizar_descripcion(spell["descripcion"])
+                spell["alcance"] = normalizar_alcance(spell["alcance"])
 
                 if spell["materiales"]:
                     spell["materiales"] = normalizar_materiales(spell["materiales"])
