@@ -312,5 +312,33 @@
     "requiere_ataque": false,
     "descripcion": "Intentas interrumpir a una criatura mientras lanza un conjuro. Si este \u00faltimo es de nivel 3 o menor, lo logras autom\u00e1ticamente y el conjuro no tiene efecto alguno. Sin embargo, para cada conjuro de nivel 4 o m\u00e1s, realiza una prueba de caracter\u00edstica usando tu aptitud m\u00e1gica. La CD es 10 + el nivel del conjuro. Si tienes \u00e9xito, el conjuro de la criatura falla y no tiene efecto.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, cancelas autom\u00e1ticamente aquellos conjuros cuyo nivel sea menor o igual al nivel del espacio de conjuro utilizado.",
     "materiales": null
+  },
+  {
+    "nombre": "Corcel fantasma",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una criatura de tama\u00f1o Grande, con aspecto equino, aparece en el suelo en un espacio libre de tu elecci\u00f3n que puedas ver dentro del alcance. T\u00fa decides la apariencia de la criatura, pero estar\u00e1 equipada con silla de montar, bocado y bridas. Cualquier equipo creado por el conjuro se desvanecer\u00e1 si se aleja m\u00e1s de 10 pies de ella.<br><br>Hasta el final de la duraci\u00f3n del conjuro, t\u00fa o una criatura de tu elecci\u00f3n pod\u00e9is montar el corcel. Este tiene el perfil de un caballo de monta, excepto que su velocidad es de 100 pies y puede viajar 10 millas en una hora, 13 a ritmo r\u00e1pido. Cuando el conjuro acaba, el corcel se desvanece gradualmente, dando al jinete 1 minuto para desmontar. El conjuro acaba si la criatura recibe cualquier tipo de da\u00f1o o si utilizas una acci\u00f3n para terminar el conjuro.",
+      "Una criatura de tama\u00f1o Grande, con aspecto equino, aparece en el suelo en un espacio libre de tu elecci\u00f3n que puedas ver dentro del alcance. T\u00fa decides la apariencia de la criatura, pero estar\u00e1 equipada con silla de montar, bocado y bridas. Cualquier equipo creado por el conjuro se desvanecer\u00e1 si se aleja m\u00e1s de 3 m de ella.<br><br>Hasta el final de la duraci\u00f3n del conjuro, t\u00fa o una criatura de tu elecci\u00f3n pod\u00e9is montar el corcel. Este tiene el perfil de un caballo de monta, excepto que su velocidad es de 30 m y puede viajar 15 km en una hora, 13 a ritmo r\u00e1pido. Cuando el conjuro acaba, el corcel se desvanece gradualmente, dando al jinete 1 minuto para desmontar. El conjuro acaba si la criatura recibe cualquier tipo de da\u00f1o o si utilizas una acci\u00f3n para terminar el conjuro."
+    ],
+    "materiales": null
   }
 ]
