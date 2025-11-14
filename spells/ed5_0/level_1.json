@@ -378,5 +378,33 @@
       "Puedes percibir la presencia de venenos, criaturas venenosas y enfermedades en un radio de 9 m a tu alrededor hasta que termine la duraci\u00f3n del conjuro. Adem\u00e1s, tambi\u00e9n puedes identificar el tipo de veneno, criatura venenosa o enfermedad.<br><br>Este conjuro es capaz de atravesar la mayor\u00eda de las barreras, pero se ve bloqueado por 0,3 m de piedra, 2,5 cm de cualquier metal com\u00fan, una fina l\u00e1mina de plomo o 0,9 m de madera o tierra."
     ],
     "materiales": "Una hoja de tejo."
+  },
+  {
+    "nombre": "Disco flotante de Tenser",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Este conjuro crea un plano circular y horizontal de fuerza, de 3 pies de di\u00e1metro y 1 pulgada de espesor, que flota a 3 pies del suelo en un espacio desocupado de tu elecci\u00f3n que puedas ver dentro del alcance. El disco permanece hasta el final de la duraci\u00f3n del conjuro y puede cargar hasta 500 libras. Si se pone m\u00e1s peso encima, el conjuro termina y todo lo que hubiera en el disco cae al suelo.<br><br>El disco permanecer\u00e1 inm\u00f3vil mientras est\u00e9s a 20 pies o menos de \u00e9l. Si te alejas m\u00e1s de 20 pies, te seguir\u00e1 para mantenerse a esa distancia. Puede moverse sobre terreno llano, subir o bajar escaleras, cuestas y similares, y no puede cruzar un cambio de elevaci\u00f3n de 10 o m\u00e1s pies. Por ejemplo, no puede moverse por encima de un muro de 10 pies de profundidad, ni podr\u00e1 salir de un pozo si supera esa profundidad.<br><br>Si te alejas m\u00e1s de 100 pies del disco (normalmente porque rodeas un obst\u00e1culo para seguirte), el conjuro termina.",
+      "Este conjuro crea un plano circular y horizontal de fuerza, de 0,9 m de di\u00e1metro y 2,5 cm de espesor, que flota a 0,9 m del suelo en un espacio desocupado de tu elecci\u00f3n que puedas ver dentro del alcance. El disco permanece hasta el final de la duraci\u00f3n del conjuro y puede cargar hasta 250 kg. Si se pone m\u00e1s peso encima, el conjuro termina y todo lo que hubiera en el disco cae al suelo.<br><br>El disco permanecer\u00e1 inm\u00f3vil mientras est\u00e9s a 6 m o menos de \u00e9l. Si te alejas m\u00e1s de 6 m, te seguir\u00e1 para mantenerse a esa distancia. Puede moverse sobre terreno llano, subir o bajar escaleras, cuestas y similares, y no puede cruzar un cambio de elevaci\u00f3n de 10 o m\u00e1s pies. Por ejemplo, no puede moverse por encima de un muro de 3 m de profundidad, ni podr\u00e1 salir de un pozo si supera esa profundidad.<br><br>Si te alejas m\u00e1s de 30 m del disco (normalmente porque rodeas un obst\u00e1culo para seguirte), el conjuro termina."
+    ],
+    "materiales": "Una gota de mercurio."
   }
 ]
