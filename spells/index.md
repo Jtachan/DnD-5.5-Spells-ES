@@ -3,6 +3,8 @@
 Cada conjuro está organizado en su correspondiente archivo `level_N.json`, donde 'N' es el nivel del conjuro.
 En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha sido registrados seguidos de su nivel.
 
+> Los hechizos que tienen un asterisco (*) no se encuentran en la versión de 2024/2025.
+
 | **Conjuro**                             | **Nivel** | **SRD v5.2**                  |
 |-----------------------------------------|-----------|-------------------------------|
 | Abrir                                   | 2         | Knock                         |
@@ -62,7 +64,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Castigo desterrador                     | 5         | ❌                             |
 | Castigo divino                          | 1         | Divine Smite                  |
 | Castigo furioso                         | 1         | ❌                             |
-| Castigo marcador                        | 2         | ❌                             |
+| Castigo marcador*                       | 2         | ❌                             |
 | Cautiverio                              | 9         | Imprisonment                  |
 | Cerradura arcana                        | 2         | Arcane Lock                   |
 | Círculo de muerte                       | 6         | Circle of Death               |
