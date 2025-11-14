@@ -476,5 +476,34 @@
     "requiere_ataque": true,
     "descripcion": "Tu toque causa enfermedades. Haz un ataque de conjuro cuerpo a cuerpo contra una criatura dentro del alcance. Si impactas, infliges al objetivo una dolencia de entre las descritas debajo.<br><br>Al final de cada uno de sus turnos, el objetivo debe realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Si falla tres tiradas, la enfermedad permanecer\u00e1 hasta el final de la duraci\u00f3n del conjuro y la criatura dejar\u00e1 de hacer estas tiradas. Si supera tres tiradas, el objetivo se recuperar\u00e1 de la enfermedad y el conjuro terminar\u00e1.<br><br>La enfermedad inducida por este conjuro es natural, por lo que cualquier efecto que elimine o reduzca los efectos de una dolencia se aplica a este caso.<br><br><b>Enfermedad cegadora.</b> El dolor atenaza la mente de la criatura mientras sus ojos se vuelven de color blanco lechoso. Queda cegada y tiene desventaja en las tiradas de salvaci\u00f3n y pruebas de Sabidur\u00eda.<br><br><b>Fiebre inmunda.</b> Una fiebre rabiosa barre el cuerpo de la criatura. Tiene desventaja en pruebas y tiradas de salvaci\u00f3n de Fuerza y tiradas de ataque que utilicen Fuerza como caracter\u00edstica.<br><br><b>Putrefacci\u00f3n de la carne.</b> La carne de la criatura comienza a descomponerse. Tiene desventaja en pruebas de Carisma y es vulnerable a todo tipo de da\u00f1o.<br><br><b>Mente en llamas.</b> La mente de la criatura se vuelve febril. La criatura tiene desventaja en pruebas y tiradas de salvaci\u00f3n de Inteligencia, adem\u00e1s de comportarse como si estuviera bajo los efectos del conjuro <i>confusi\u00f3n</i>.<br><br><b>Convulsiones.</b> La criatura se ve afligida por horribles temblores. Tiene desventaja en pruebas y tiradas de salvaci\u00f3n de Destreza y tiradas de ataque que utilicen Destreza como caracter\u00edstica.<br><br><b>Maldici\u00f3n legamosa.</b> La criatura empieza a sangrar sin control. Tiene desventaja en las tiradas de salvaci\u00f3n y pruebas de Constituci\u00f3n. Adem\u00e1s, si recibe da\u00f1o quedar\u00e1 aturdida hasta el final de su siguiente turno.",
     "materiales": null
+  },
+  {
+    "nombre": "Creaci\u00f3n",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Especial",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Utilizando hebras de sombras sacadas del Shadowfell, creas un objeto de material vegetal dentro del alcance: tela, cuerda, madera o similar. Tambi\u00e9n puedes usar este conjuro para crear objetos hechos de materia inorg\u00e1nica como piedra, cristal o metal. El objeto creado no puede ser mayor que un cubo de 5 pies de lado y tienes que haber visto antes tanto la forma como el material que lo compone.<br><br>La duraci\u00f3n depende del material del objeto. Si est\u00e1 compuesto de varios materiales, usa la duraci\u00f3n m\u00e1s breve.<br><br><table><tr><th>Material</th><th>Duraci\u00f3n</th></tr><tr><td>Material vegetal</td><td>1 d\u00eda</td></tr><tr><td>Cristal o piedra</td><td>12 horas</td></tr><tr><td>Metales preciosos</td><td>1 hora</td></tr><tr><td>Gemas</td><td>10 minutos</td></tr><tr><td>Adamantina o mithral</td><td>1 minuto</td></tr></table><br><br>Utilizar un material creado por este conjuro como componente material de otro conjuro har\u00e1 que este \u00faltimo falle.<br><br><i>A niveles superiores.</i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el lado del cubo aumenta en 5 pies por cada nivel por encima de 5 que tenga el espacio que hayas empleado.",
+      "Utilizando hebras de sombras sacadas del Shadowfell, creas un objeto de material vegetal dentro del alcance: tela, cuerda, madera o similar. Tambi\u00e9n puedes usar este conjuro para crear objetos hechos de materia inorg\u00e1nica como piedra, cristal o metal. El objeto creado no puede ser mayor que un cubo de 1,5 m de lado y tienes que haber visto antes tanto la forma como el material que lo compone.<br><br>La duraci\u00f3n depende del material del objeto. Si est\u00e1 compuesto de varios materiales, usa la duraci\u00f3n m\u00e1s breve.<br><br><table><tr><th>Material</th><th>Duraci\u00f3n</th></tr><tr><td>Material vegetal</td><td>1 d\u00eda</td></tr><tr><td>Cristal o piedra</td><td>12 horas</td></tr><tr><td>Metales preciosos</td><td>1 hora</td></tr><tr><td>Gemas</td><td>10 minutos</td></tr><tr><td>Adamantina o mithral</td><td>1 minuto</td></tr></table><br><br>Utilizar un material creado por este conjuro como componente material de otro conjuro har\u00e1 que este \u00faltimo falle.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el lado del cubo aumenta en 1,5 m por cada nivel por encima de 5 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Un trocito del mismo material que forma el objeto que planeas crear."
   }
 ]
