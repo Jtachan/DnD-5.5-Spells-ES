@@ -294,5 +294,30 @@
     "requiere_ataque": false,
     "descripcion": "Una criatura a la que toques recupera tantos puntos de golpe como 1d8 + tu modificador por aptitud m\u00e1gica. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, la curaci\u00f3n aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
     "materiales": null
+  },
+  {
+    "nombre": "Detectar el bien y el mal",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Hasta el final del conjuro, sabes si hay aberraciones, celestiales, elementales, fe\u00e9ricos, demonios o muertos vivientes dentro de 30 pies a tu alrededor; as\u00ed como su ubicaci\u00f3n exacta. De forma similar, percibes si hay un lugar u objeto a 30 pies de ti que est\u00e9 consagrado o desacralizado m\u00e1gicamente.<br><br>Este conjuro es capaz de atravesar la mayor\u00eda de las barreras, pero se ve bloqueado por 1 pie de piedra, 1 pulgada de metal com\u00fan, una fina l\u00e1mina de plomo o 3 pies de madera o tierra.",
+      "Hasta el final del conjuro, sabes si hay aberraciones, celestiales, elementales, fe\u00e9ricos, demonios o muertos vivientes dentro de 9 m a tu alrededor; as\u00ed como su ubicaci\u00f3n exacta. De forma similar, percibes si hay un lugar u objeto a 9 m de ti que est\u00e9 consagrado o desacralizado m\u00e1gicamente.<br><br>Este conjuro es capaz de atravesar la mayor\u00eda de las barreras, pero se ve bloqueado por 0,3 m de piedra, 2,5 cm de metal com\u00fan, una fina l\u00e1mina de plomo o 0,9 m de madera o tierra."
+    ],
+    "materiales": null
   }
 ]
