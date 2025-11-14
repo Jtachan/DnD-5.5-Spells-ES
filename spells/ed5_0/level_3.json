@@ -397,5 +397,30 @@
       "Este conjuro infunde vitalidad en las plantas de un \u00e1rea determinada. Hay dos posibles maneras de emplear este conjuro, que proporcionar\u00e1 beneficios a corto o a largo plazo.<br><br>Si lanzas el conjuro utilizando 1 acci\u00f3n, elige un punto que puedas ver dentro del alcance. Todas las plantas en un radio de 30 m centrado en ese punto se vuelven gruesas y muy frondosas. Cualquier criatura que atraviese esa zona debe demorar 1,2 m de movimiento por cada pie que quiera moverse. Puedes excluir una o m\u00e1s \u00e1reas de cualquier tama\u00f1o de la zona afectada por el conjuro.<br><br>Si lanzas este conjuro durante 8 horas, enriquecer\u00e1s la tierra. Todas las plantas en un c\u00edrculo de media milla de radio centrado en un punto dentro del alcance quedar\u00e1n enriquecidas durante un a\u00f1o. Producir\u00e1n el doble de comida cuando la pr\u00f3xima cosecha."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Desplazamiento",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Lanza 1d20 al final de cada uno de tus turnos hasta el final de la duraci\u00f3n del conjuro. Si el resultado es 11 o m\u00e1s, desapareces de tu plano de existencia actual y apareces en el Plano Et\u00e9reo (el conjuro falla y el espacio se pierde si ya estabas en ese plano). Al principio de tu siguiente turno y (si el conjuro acaba mientras est\u00e1s en el Plano Et\u00e9reo) vuelves a un espacio de tu elecci\u00f3n que puedas ver a 10 pies del espacio del que desapareciste. Si no hay ning\u00fan espacio libre dentro del alcance, apareces en el espacio desocupado m\u00e1s pr\u00f3ximo (el DM puede elegir al azar si hay m\u00e1s de un espacio a la misma distancia). Puedes terminar tu turno usando una acci\u00f3n.<br><br>Mientras est\u00e1s en el Plano Et\u00e9reo, eres capaz de ver y o\u00edr todo lo que sucede en el plano del que partiste, pero no puedes afectar nada en \u00e9l. \u00danicamente puedes afectar y ser afectado por criaturas y objetos en el Plano Et\u00e9reo. Las criaturas que no est\u00e1n en dicho plano no pueden percibirte ni hacerte objetivo f\u00e1cilmente, a menos que tengan una habilidad espec\u00edfica para ello.",
+      "Lanza 1d20 al final de cada uno de tus turnos hasta el final de la duraci\u00f3n del conjuro. Si el resultado es 11 o m\u00e1s, desapareces de tu plano de existencia actual y apareces en el Plano Et\u00e9reo (el conjuro falla y el espacio se pierde si ya estabas en ese plano). Al principio de tu siguiente turno y (si el conjuro acaba mientras est\u00e1s en el Plano Et\u00e9reo) vuelves a un espacio de tu elecci\u00f3n que puedas ver a 3 m del espacio del que desapareciste. Si no hay ning\u00fan espacio libre dentro del alcance, apareces en el espacio desocupado m\u00e1s pr\u00f3ximo (el DM puede elegir al azar si hay m\u00e1s de un espacio a la misma distancia). Puedes terminar tu turno usando una acci\u00f3n.<br><br>Mientras est\u00e1s en el Plano Et\u00e9reo, eres capaz de ver y o\u00edr todo lo que sucede en el plano del que partiste, pero no puedes afectar nada en \u00e9l. \u00danicamente puedes afectar y ser afectado por criaturas y objetos en el Plano Et\u00e9reo. Las criaturas que no est\u00e1n en dicho plano no pueden percibirte ni hacerte objetivo f\u00e1cilmente, a menos que tengan una habilidad espec\u00edfica para ello."
+    ],
+    "materiales": null
   }
 ]
