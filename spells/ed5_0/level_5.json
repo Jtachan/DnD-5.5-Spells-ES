@@ -505,5 +505,34 @@
       "Utilizando hebras de sombras sacadas del Shadowfell, creas un objeto de material vegetal dentro del alcance: tela, cuerda, madera o similar. Tambi\u00e9n puedes usar este conjuro para crear objetos hechos de materia inorg\u00e1nica como piedra, cristal o metal. El objeto creado no puede ser mayor que un cubo de 1,5 m de lado y tienes que haber visto antes tanto la forma como el material que lo compone.<br><br>La duraci\u00f3n depende del material del objeto. Si est\u00e1 compuesto de varios materiales, usa la duraci\u00f3n m\u00e1s breve.<br><br><table><tr><th>Material</th><th>Duraci\u00f3n</th></tr><tr><td>Material vegetal</td><td>1 d\u00eda</td></tr><tr><td>Cristal o piedra</td><td>12 horas</td></tr><tr><td>Metales preciosos</td><td>1 hora</td></tr><tr><td>Gemas</td><td>10 minutos</td></tr><tr><td>Adamantina o mithral</td><td>1 minuto</td></tr></table><br><br>Utilizar un material creado por este conjuro como componente material de otro conjuro har\u00e1 que este \u00faltimo falle.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el lado del cubo aumenta en 1,5 m por cada nivel por encima de 5 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Un trocito del mismo material que forma el objeto que planeas crear."
+  },
+  {
+    "nombre": "Curar heridas en masa",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una ola de curaci\u00f3n emana desde un punto de tu elecci\u00f3n dentro del alcance. Elige hasta 6 criaturas dentro de una esfera de 30 pies centrada en ese punto. Cada una recupera tantos puntos de golpe como 3d8 + tu modificador por aptitud m\u00e1gica. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, la curaci\u00f3n aumenta en 1d8 por cada nivel por encima de 5 que tenga el espacio que hayas empleado.",
+      "Una ola de curaci\u00f3n emana desde un punto de tu elecci\u00f3n dentro del alcance. Elige hasta 6 criaturas dentro de una esfera de 9 m centrada en ese punto. Cada una recupera tantos puntos de golpe como 3d8 + tu modificador por aptitud m\u00e1gica. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, la curaci\u00f3n aumenta en 1d8 por cada nivel por encima de 5 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": null
   }
 ]
