@@ -180,5 +180,30 @@
       "Este conjuro solo puede lanzarse de noche. Elige hasta tres cad\u00e1veres de humanoide de tama\u00f1o Mediano o Peque\u00f1o. Deben estar dentro del alcance. Cada uno de ellos se convierte en un gul bajo tu control (el DM tiene los perfiles de estas criaturas).<br><br>En cada turno, puedes usar una acci\u00f3n adicional para dar una orden mental a cualquier criatura creada mediante este conjuro si est\u00e1 a 36 m o menos de ti (si controlas varias criaturas, puedes dirigir a una o m\u00e1s de ellas utilizando la misma orden). Decides qu\u00e9 acci\u00f3n va a tomar la criatura y d\u00f3nde se mover\u00e1 durante su pr\u00f3ximo turno. Tambi\u00e9n puedes dar una orden general, como vigilar una c\u00e1mara o pasillo en concreto. Si no indicas ninguna orden, la criatura se limitar\u00e1 a defenderse de otras criaturas hostiles. Una vez que recibe una orden, la sigue hasta cumplirla.<br><br>La criatura se mantiene bajo tu control durante 24 horas, despu\u00e9s de las cuales abandonar\u00e1 cualquier orden que hayas dado. Para mantener el control sobre ella durante otras 24 horas, debes lanzar este conjuro de nuevo sobre ella antes de que el periodo actual de 24 horas termine. Puedes usar este conjuro para reafirmar tu control sobre hasta tres criaturas que hayas animado previamente con este conjuro o con el de <i>reanimar muertos</i>.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7, reanimas o reafirmas tu control sobre cuatro gules. Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 8, reanimas o reafirmas tu control sobre cinco gules o dos espectros u omnimuertos. Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 9, reanimas o reafirmas tu control sobre seis gules, tres ghasts o tumularios, o dos momias."
     ],
     "materiales": "Una maceta de arcilla llena de tierra de una tumba, una maceta de arcilla llena de agua salobre y un \u00f3nice negro de 150 po por cada cad\u00e1ver."
+  },
+  {
+    "nombre": "Curar",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Elige a una criatura que puedas ver dentro del alcance. Una r\u00e1faga de energ\u00eda positiva cubre al objetivo, haciendo que recupere 70 puntos de golpe. El conjuro tambi\u00e9n termina cualquier efecto de ceguera, sordera o enfermedad que aflija a la criatura. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, la curaci\u00f3n aumenta en 10 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
+    "materiales": null
   }
 ]
