@@ -368,5 +368,34 @@
       "Creas 22,5 kg de comida y 120 l de agua en el suelo o en recipientes dentro del alcance, lo suficiente para mantener a quince humanoides o cinco corceles durante 24 horas. La comida es sosa, aunque nutritiva, y se estropear\u00e1 si no se la consume en 24 horas. En cambio, el agua est\u00e1 limpia y no se estropea."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Crecimiento vegetal",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n / 8 horas",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Este conjuro infunde vitalidad en las plantas de un \u00e1rea determinada. Hay dos posibles maneras de emplear este conjuro, que proporcionar\u00e1 beneficios a corto o a largo plazo.<br><br>Si lanzas el conjuro utilizando 1 acci\u00f3n, elige un punto que puedas ver dentro del alcance. Todas las plantas en un radio de 100 pies centrado en ese punto se vuelven gruesas y muy frondosas. Cualquier criatura que atraviese esa zona debe demorar 4 pies de movimiento por cada pie que quiera moverse. Puedes excluir una o m\u00e1s \u00e1reas de cualquier tama\u00f1o de la zona afectada por el conjuro.<br><br>Si lanzas este conjuro durante 8 horas, enriquecer\u00e1s la tierra. Todas las plantas en un c\u00edrculo de media milla de radio centrado en un punto dentro del alcance quedar\u00e1n enriquecidas durante un a\u00f1o. Producir\u00e1n el doble de comida cuando la pr\u00f3xima cosecha.",
+      "Este conjuro infunde vitalidad en las plantas de un \u00e1rea determinada. Hay dos posibles maneras de emplear este conjuro, que proporcionar\u00e1 beneficios a corto o a largo plazo.<br><br>Si lanzas el conjuro utilizando 1 acci\u00f3n, elige un punto que puedas ver dentro del alcance. Todas las plantas en un radio de 30 m centrado en ese punto se vuelven gruesas y muy frondosas. Cualquier criatura que atraviese esa zona debe demorar 1,2 m de movimiento por cada pie que quiera moverse. Puedes excluir una o m\u00e1s \u00e1reas de cualquier tama\u00f1o de la zona afectada por el conjuro.<br><br>Si lanzas este conjuro durante 8 horas, enriquecer\u00e1s la tierra. Todas las plantas en un c\u00edrculo de media milla de radio centrado en un punto dentro del alcance quedar\u00e1n enriquecidas durante un a\u00f1o. Producir\u00e1n el doble de comida cuando la pr\u00f3xima cosecha."
+    ],
+    "materiales": null
   }
 ]
