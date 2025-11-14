@@ -534,5 +534,28 @@
       "Una ola de curaci\u00f3n emana desde un punto de tu elecci\u00f3n dentro del alcance. Elige hasta 6 criaturas dentro de una esfera de 9 m centrada en ese punto. Cada una recupera tantos puntos de golpe como 3d8 + tu modificador por aptitud m\u00e1gica. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, la curaci\u00f3n aumenta en 1d8 por cada nivel por encima de 5 que tenga el espacio que hayas empleado."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Despertar",
+    "clases": [
+      "Bardo",
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "8 horas",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Despu\u00e9s de emplear el tiempo de lanzamiento en trazar dibujos m\u00e1gicos en el interior de la piedra preciosa, tocas a una bestia o planta de tama\u00f1o Enorme o menor. El objetivo debe tener una puntuaci\u00f3n de Inteligencia de 3 o menos (o incluso no tener puntuaci\u00f3n de Inteligencia). La puntuaci\u00f3n de Inteligencia del objetivo pasa a ser 10. Adem\u00e1s, gana la capacidad de hablar un idioma que t\u00fa le conozcas. Si el objetivo es una planta, obtiene la capacidad de mover sus miembros, ra\u00edces, vides, enredaderas, etc. y gana sentidos parecidos a los humanos. Tu DM elige un perfil adecuado a la planta que has despertado, como por ejemplo el de un arbusto despertado o un \u00e1rbol despertado.<br><br>El objetivo despertado permanece hechizado por ti durante 30 d\u00edas o hasta que t\u00fa o tus compa\u00f1eros le caus\u00e9is da\u00f1o. Cuando el estado \u201chechizado\u201d termina, la criatura despertada decide si sigue siendo amistosa hacia ti o no, dependiendo de c\u00f3mo la trataras cuando estaba hechizada.",
+    "materiales": "Un \u00e1gata con un valor de, al menos, 1.000 po, que es consumida como parte del conjuro."
   }
 ]
