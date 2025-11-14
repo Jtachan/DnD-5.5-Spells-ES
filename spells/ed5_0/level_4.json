@@ -272,5 +272,34 @@
       "Hasta el final de la duraci\u00f3n del conjuro, controlas cualquier masa de agua que no est\u00e9 en movimiento dentro de un \u00e1rea de tu elecci\u00f3n con forma de cubo de hasta 30 m de lado. Cuando lanzas este conjuro, elige uno de los siguientes efectos. Como una acci\u00f3n, en tu turno, puedes repetir el mismo efecto o elegir uno nuevo.<br><br><b>Inundaci\u00f3n.</b> Haces que el nivel de toda el agua estancada en el \u00e1rea suba hasta 6 m. Si esta \u00e1rea incluye una orilla, el agua inunda la tierra seca circundante.<br><br>Si eliges un \u00e1rea en una masa de agua, en vez de eso creas una ola de 6 m de altura que viaja de un lado de la masa de agua al otro y despu\u00e9s rompe. Cualquier veh\u00edculo de tama\u00f1o Enorme o menor en el camino de la ola es transportado al otro lado. Adem\u00e1s, tienen un 25 % de posibilidades de volcar.<br><br>El nivel del agua se mantiene elevado hasta que termine el conjuro o elijas un efecto diferente. Si este efecto ha creado una ola, esta se repite al principio de tu pr\u00f3ximo turno mientras el efecto de la inundaci\u00f3n permanezca.<br><br><b>Abrir las aguas.</b> Haces que el agua del \u00e1rea se aparte, creando una zanja. Se extiende a lo largo del \u00e1rea del conjuro, con el agua separada formando un muro a cada lado. La zanja permanece hasta que el conjuro termine o elijas un efecto diferente. En ese caso, el agua llena lentamente la zanja durante el transcurso del siguiente asalto hasta que el nivel normal del agua se haya restablecido.<br><br><b>Redirigir caudal.</b> Obligas a un flujo de agua que est\u00e9 en el \u00e1rea a moverse en la direcci\u00f3n de tu elecci\u00f3n, incluso si tiene que forzar a trav\u00e9s de obst\u00e1culos, escalar muros o moverse en direcciones improbables. El agua del \u00e1rea se mover\u00e1 como lo ordenes, pero una vez que salga del \u00e1rea del conjuro volver\u00e1 a fluir de forma natural, de acuerdo con las con tendencias y limitaciones f\u00edsicas del lugar o la criatura por la que fluye. El canal permanecer\u00e1 hasta que el conjuro termine o elijas un efecto diferente.<br><br><b>Remolino.</b> Este efecto necesita que la masa de agua sea de, al menos, 15 m cuadrados y tenga 7,5 m de profundidad. Creas un remolino en el centro del \u00e1rea. Esto produce un v\u00f3rtice de 1,5 m de ancho en la base, hasta 15 m de ancho en la parte m\u00e1s alta y hasta 7,5 m de profundidad. Cualquier objeto o criatura en el agua y a 7,5 m o menos del remolino se ve atra\u00eddo 3 m hacia \u00e9l. Una criatura puede alejarse nadando del v\u00f3rtice mediante una prueba de Fuerza (Atletismo) con CD igual a tu salvaci\u00f3n de conjuros.<br><br>Cuando una criatura entra en el \u00e1rea del remolino por primera vez en un turno, o cuando empieza su turno en ella, debe realizar una tirada de salvaci\u00f3n de Fuerza. Si fracasa, la criatura recibe 2d8 de da\u00f1o contundente y queda atrapada en el v\u00f3rtice hasta que el conjuro termine. Si la supera, recibe la mitad del da\u00f1o y no queda atrapada. Una criatura atrapada en el remolino puede usar su acci\u00f3n para intentar alejarse de \u00e9l de la manera descrita m\u00e1s arriba, pero tiene desventaja en la prueba de Fuerza (Atletismo) necesaria.<br><br>La primera vez que un objeto entre en el v\u00f3rtice cada turno recibe 2d8 de da\u00f1o contundente. Este da\u00f1o ocurre cada asalto que permanezca dentro."
     ],
     "materiales": "Una gota de agua y una pizca de polvo."
+  },
+  {
+    "nombre": "Destierro",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn",
+      "Hechicero",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Intentas enviar a otro plano de existencia a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvaci\u00f3n de Carisma o ser desterrado.<br><br>Si el objetivo es nativo del plano en que est\u00e1s, la criatura se desvanece a un semiplano inofensivo. Estar\u00e1 incapacitada mientras se encuentre en \u00e9l y permanecer\u00e1 en dicho semiplano hasta el final del conjuro, momento en el cual reaparecer\u00e1 en el espacio que ocupaba antes o en el m\u00e1s cercano disponible si ese ya est\u00e1 ocupado.<br><br>Si el objetivo es nativo de un plano diferente al que est\u00e1s, desaparece y vuelve a su plano natal. Si el conjuro termina antes de que pase 1 minuto, el objetivo reaparecer\u00e1 en el espacio que ocupaba antes o en el m\u00e1s cercano disponible si ese ya est\u00e1 ocupado. Si no, el objetivo no vuelve.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
+    "materiales": "Un objeto desagradable para el objetivo."
   }
 ]
