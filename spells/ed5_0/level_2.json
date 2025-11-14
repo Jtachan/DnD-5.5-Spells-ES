@@ -431,5 +431,33 @@
       "Con un temblor, surgen espinas y pinchos del suelo en un radio de 6 m alrededor de un punto dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, el suelo del \u00e1rea es terreno dif\u00edcil. Cuando una criatura entra o se mueve a trav\u00e9s del \u00e1rea, recibe 2d4 de da\u00f1o perforante por cada 1,5 m que se desplace.<br><br>La transformaci\u00f3n del suelo queda camuflada de manera que parece natural. Cualquier criatura que no pueda ver el \u00e1rea en el momento en que se lanza el conjuro debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda (Percepci\u00f3n) con CD igual a tu salvaci\u00f3n de conjuros para darse cuenta de que el terreno es peligroso antes de entrar en \u00e9l."
     ],
     "materiales": "Siete espinas agudas o siete ramitas afiladas hasta tener punta."
+  },
+  {
+    "nombre": "Detectar pensamientos",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Puedes leer los pensamientos de algunas criaturas hasta que termine el conjuro. Cuando lanzas el conjuro y como acci\u00f3n en los turnos siguientes hasta que el conjuro termine, puedes concentrar tu mente en una criatura que puedas ver a 30 pies o menos de ti. Si el objetivo elegido tiene Inteligencia 3 o menos o no habla ning\u00fan idioma, no se ver\u00e1 afectado.<br><br>De entrada, conoces los pensamientos superficiales de la criatura: lo que ocupa su mente en ese momento. Como acci\u00f3n, puedes concentrar tu voluntad en los pensamientos de otro objetivo o intentar sondear en profundidad los de la misma criatura. Si sondeas, el objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si fracasa, obtienes conocimientos sobre sus pensamientos, su estado emocional o algo que ocupe un lugar importante en su mente (una preocupaci\u00f3n, o algo que ame u odie). Si tiene \u00e9xito, el conjuro termina. En cualquier caso, el objetivo sabe que est\u00e1s sondeando su mente y, a menos que tu atenci\u00f3n se centre en otra mente, podr\u00e1 utilizar su acci\u00f3n en su turno para realizar una tirada enfrentada de Inteligencia; si tiene \u00e9xito, el conjuro termina.<br><br>Las preguntas hechas verbalmente al objetivo afectan a sus pensamientos, por lo que este conjuro es especialmente efectivo como parte de un interrogatorio.<br><br>Tambi\u00e9n puedes emplear el conjuro para detectar la presencia de criaturas pensantes que puedas ver dentro de 30 pies cuando lo lanzas el conjuro, o como una acci\u00f3n antes del final de la duraci\u00f3n del mismo, puedes buscar pensamientos en un radio de 30 pies a tu alrededor. Este efecto es capaz de atravesar la mayor\u00eda de las barreras, pero se ve bloqueado por 2 pies de piedra, 2 pulgadas de cualquier metal que no sea plomo y una fina l\u00e1mina de plomo. Si la criatura elegida tiene Inteligencia 3 o menos o no habla ning\u00fan idioma, no se ver\u00e1 afectada.<br><br>Una vez detectas su presencia de esta manera, puedes leer los pensamientos de la criatura hasta el final de la duraci\u00f3n aunque no puedas verla, pero tiene que permanecer dentro del alcance.",
+      "Puedes leer los pensamientos de algunas criaturas hasta que termine el conjuro. Cuando lanzas el conjuro y como acci\u00f3n en los turnos siguientes hasta que el conjuro termine, puedes concentrar tu mente en una criatura que puedas ver a 9 m o menos de ti. Si el objetivo elegido tiene Inteligencia 3 o menos o no habla ning\u00fan idioma, no se ver\u00e1 afectado.<br><br>De entrada, conoces los pensamientos superficiales de la criatura: lo que ocupa su mente en ese momento. Como acci\u00f3n, puedes concentrar tu voluntad en los pensamientos de otro objetivo o intentar sondear en profundidad los de la misma criatura. Si sondeas, el objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si fracasa, obtienes conocimientos sobre sus pensamientos, su estado emocional o algo que ocupe un lugar importante en su mente (una preocupaci\u00f3n, o algo que ame u odie). Si tiene \u00e9xito, el conjuro termina. En cualquier caso, el objetivo sabe que est\u00e1s sondeando su mente y, a menos que tu atenci\u00f3n se centre en otra mente, podr\u00e1 utilizar su acci\u00f3n en su turno para realizar una tirada enfrentada de Inteligencia; si tiene \u00e9xito, el conjuro termina.<br><br>Las preguntas hechas verbalmente al objetivo afectan a sus pensamientos, por lo que este conjuro es especialmente efectivo como parte de un interrogatorio.<br><br>Tambi\u00e9n puedes emplear el conjuro para detectar la presencia de criaturas pensantes que puedas ver dentro de 9 m cuando lo lanzas el conjuro, o como una acci\u00f3n antes del final de la duraci\u00f3n del mismo, puedes buscar pensamientos en un radio de 9 m a tu alrededor. Este efecto es capaz de atravesar la mayor\u00eda de las barreras, pero se ve bloqueado por 0,6 m de piedra, 5 cm de cualquier metal que no sea plomo y una fina l\u00e1mina de plomo. Si la criatura elegida tiene Inteligencia 3 o menos o no habla ning\u00fan idioma, no se ver\u00e1 afectada.<br><br>Una vez detectas su presencia de esta manera, puedes leer los pensamientos de la criatura hasta el final de la duraci\u00f3n aunque no puedas verla, pero tiene que permanecer dentro del alcance."
+    ],
+    "materiales": "Una pieza de cobre."
   }
 ]
