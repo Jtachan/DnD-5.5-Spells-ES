@@ -301,5 +301,30 @@
     "requiere_ataque": false,
     "descripcion": "Intentas enviar a otro plano de existencia a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvaci\u00f3n de Carisma o ser desterrado.<br><br>Si el objetivo es nativo del plano en que est\u00e1s, la criatura se desvanece a un semiplano inofensivo. Estar\u00e1 incapacitada mientras se encuentre en \u00e9l y permanecer\u00e1 en dicho semiplano hasta el final del conjuro, momento en el cual reaparecer\u00e1 en el espacio que ocupaba antes o en el m\u00e1s cercano disponible si ese ya est\u00e1 ocupado.<br><br>Si el objetivo es nativo de un plano diferente al que est\u00e1s, desaparece y vuelve a su plano natal. Si el conjuro termina antes de que pase 1 minuto, el objetivo reaparecer\u00e1 en el espacio que ocupaba antes o en el m\u00e1s cercano disponible si ese ya est\u00e1 ocupado. Si no, el objetivo no vuelve.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
     "materiales": "Un objeto desagradable para el objetivo."
+  },
+  {
+    "nombre": "Dominar bestia",
+    "clases": [
+      "Druida",
+      "Hechicero"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Intentas encantar a una bestia que puedas ver dentro del alcance. La criatura debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizada por ti hasta el final de la duraci\u00f3n del conjuro. Tiene ventaja en esta tirada de salvaci\u00f3n si t\u00fa o una criatura amistosa hacia ti est\u00e1is luchando contra ella.<br><br>Mientras la bestia est\u00e1 hechizada, posees un enlace telep\u00e1tico con ella siempre y cuando ambos os hall\u00e9is en el mismo plano de existencia. Puedes usar este enlace para enviar \u00f3rdenes a la criatura mientras est\u00e9 consciente (no requiere acci\u00f3n) y estar\u00e1 todo lo dispuesta que est\u00e9 en su poder para obedecer. Puedes especificar un procedimiento simple, como \"ataca a esa criatura\", \"corre hasta all\u00ed\" o \"tr\u00e1eme ese objeto\". Si la criatura cumple su orden y no recibe m\u00e1s mandatos de ti, se defiende y protege en la medida de sus posibilidades.<br><br>Puedes utilizar tu acci\u00f3n para tomar un control total y preciso de la bestia. Hasta el final de tu pr\u00f3ximo turno, la criatura solo realizar\u00e1 las acciones que elijas y no har\u00e1 nada que t\u00fa no lo permitas. Durante este tiempo tambi\u00e9n podr\u00e1s hacer que la bestia lleve a cabo reacciones, pero eso har\u00e1 que emplees tambi\u00e9n tu propia reacci\u00f3n.<br><br>Cada vez que reciba da\u00f1o, la criatura hace una nueva tirada de salvaci\u00f3n contra el conjuro. Si tiene \u00e9xito, el efecto del conjuro termina.<br><br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 10 minutos. Si usas un espacio de conjuro de nivel 6, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 1 hora. Si empleas un espacio de conjuro de nivel 7 o m\u00e1s, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 8 horas.",
+    "materiales": null
   }
 ]
