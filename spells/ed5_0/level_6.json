@@ -229,5 +229,31 @@
     "requiere_ataque": false,
     "descripcion": "Haces brotar una virulenta enfermedad en una criatura que puedas ver dentro del alcance. El objetivo debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 14d6 de da\u00f1o necr\u00f3tico si falla la tirada o la mitad del da\u00f1o si la supera. El da\u00f1o no puede reducir los puntos de golpe del objetivo por debajo de 1. Adem\u00e1s, si falla la tirada de salvaci\u00f3n, los puntos de golpe m\u00e1ximos del objetivo se reducen durante una hora en la cantidad de da\u00f1o recibida. Cualquier efecto que cure una enfermedad puede evitar que los puntos de golpe m\u00e1ximos del objetivo vuelvan a la normalidad antes del tiempo se\u00f1alado.",
     "materiales": null
+  },
+  {
+    "nombre": "De la carne a la piedra",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Intentas convertir en piedra a una criatura que puedas ver dentro del alcance. Si su cuerpo est\u00e1 hecho de carne, debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fracasa, queda apresada mientras su carne comienza a endurecerse. Si tiene \u00e9xito, no se ve afectada.<br><br>Una criatura apresada por este conjuro realiza otra tirada de salvaci\u00f3n de Constituci\u00f3n al final de cada uno de sus turnos. El conjuro termina si la criatura tiene \u00e9xito tres veces en esta tirada. Si fracasa tres veces, queda convertida en piedra y, por tanto, bajo el estado \u201cpetrificado\u201d hasta el final de la duraci\u00f3n del conjuro. Los \u00e9xitos y fallos no tienen por qu\u00e9 ser consecutivos. Lleva la cuenta de ambos hasta que tenga tres del mismo tipo.<br><br>Si se rompe f\u00edsicamente a la criatura mientras est\u00e1 petrificada, sufrir\u00e1 deformaciones an\u00e1logas en su cuerpo cuando vuelva a su estado original.<br><br>Si mantienes tu concentraci\u00f3n en este conjuro durante toda la duraci\u00f3n posible, la criatura se convertir\u00e1 en piedra hasta que el efecto sea anulado.",
+    "materiales": "Una pizca de cal, agua y tierra."
   }
 ]
