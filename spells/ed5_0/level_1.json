@@ -406,5 +406,31 @@
       "Este conjuro crea un plano circular y horizontal de fuerza, de 0,9 m de di\u00e1metro y 2,5 cm de espesor, que flota a 0,9 m del suelo en un espacio desocupado de tu elecci\u00f3n que puedas ver dentro del alcance. El disco permanece hasta el final de la duraci\u00f3n del conjuro y puede cargar hasta 250 kg. Si se pone m\u00e1s peso encima, el conjuro termina y todo lo que hubiera en el disco cae al suelo.<br><br>El disco permanecer\u00e1 inm\u00f3vil mientras est\u00e9s a 6 m o menos de \u00e9l. Si te alejas m\u00e1s de 6 m, te seguir\u00e1 para mantenerse a esa distancia. Puede moverse sobre terreno llano, subir o bajar escaleras, cuestas y similares, y no puede cruzar un cambio de elevaci\u00f3n de 10 o m\u00e1s pies. Por ejemplo, no puede moverse por encima de un muro de 3 m de profundidad, ni podr\u00e1 salir de un pozo si supera esa profundidad.<br><br>Si te alejas m\u00e1s de 30 m del disco (normalmente porque rodeas un obst\u00e1culo para seguirte), el conjuro termina."
     ],
     "materiales": "Una gota de mercurio."
+  },
+  {
+    "nombre": "Disfrazarse",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Haces que t\u00fa (incluyendo tu vestimenta, armadura, armas y otras posesiones que lleves contigo) parezcas diferente hasta que el conjuro finalice o utilices tu acci\u00f3n para terminarlo. Puedes parecer 1 pie m\u00e1s alto o m\u00e1s bajo y de complexi\u00f3n delgada, gorda o intermedia. No puedes cambiar el tipo de tu cuerpo, as\u00ed que debes adoptar una forma que tenga la misma configuraci\u00f3n de miembros. El resto de aspectos pueden ser afectados por la ilusi\u00f3n.<br><br>Los cambios realizados por este conjuro no aguantan una inspecci\u00f3n f\u00edsica. Por ejemplo, si usas este conjuro para a\u00f1adir un sombrero a tu vestimenta, los objetos atravesar\u00e1n el sombrero y cualquiera que lo toque no se sentir\u00e1 nada, o sencillamente notar\u00e1 tu pelo y cabeza. Si utilizas este conjuro para parecer m\u00e1s delgado, la mano de cualquiera que intente tocarte se chocar\u00e1 contigo en lo que parece ser espacio libre.<br><br>Para darse cuenta de que est\u00e1s disfrazado, una criatura puede emplear su acci\u00f3n en inspeccionar tu apariencia y debe tener \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) con CD igual a tu salvaci\u00f3n de conjuros.",
+      "Haces que t\u00fa (incluyendo tu vestimenta, armadura, armas y otras posesiones que lleves contigo) parezcas diferente hasta que el conjuro finalice o utilices tu acci\u00f3n para terminarlo. Puedes parecer 0,3 m m\u00e1s alto o m\u00e1s bajo y de complexi\u00f3n delgada, gorda o intermedia. No puedes cambiar el tipo de tu cuerpo, as\u00ed que debes adoptar una forma que tenga la misma configuraci\u00f3n de miembros. El resto de aspectos pueden ser afectados por la ilusi\u00f3n.<br><br>Los cambios realizados por este conjuro no aguantan una inspecci\u00f3n f\u00edsica. Por ejemplo, si usas este conjuro para a\u00f1adir un sombrero a tu vestimenta, los objetos atravesar\u00e1n el sombrero y cualquiera que lo toque no se sentir\u00e1 nada, o sencillamente notar\u00e1 tu pelo y cabeza. Si utilizas este conjuro para parecer m\u00e1s delgado, la mano de cualquiera que intente tocarte se chocar\u00e1 contigo en lo que parece ser espacio libre.<br><br>Para darse cuenta de que est\u00e1s disfrazado, una criatura puede emplear su acci\u00f3n en inspeccionar tu apariencia y debe tener \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) con CD igual a tu salvaci\u00f3n de conjuros."
+    ],
+    "materiales": null
   }
 ]
