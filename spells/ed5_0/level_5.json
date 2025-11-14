@@ -580,5 +580,34 @@
     "requiere_ataque": false,
     "descripcion": "Una energ\u00eda reluciente te rodea y te protege de criaturas fe\u00e9ricas, muertos vivientes y aquellos seres nativos de m\u00e1s all\u00e1 del Plano Material. Hasta el final de la duraci\u00f3n del conjuro, celestiales, elementales, fe\u00e9ricos, infernales y muertos vivientes tienen desventaja en las tiradas de ataque contra ti.<br><br>Puedes terminar el conjuro antes de tiempo utilizando alguna de las siguientes funciones especiales:<br><br><b>Romper encantamiento.</b> Como acci\u00f3n, toca a una criatura a tu alcance que est\u00e9 hechizada, asustada o pose\u00edda por un celestial, elemental, fe\u00e9rico, infernal o muerto viviente. La criatura que tocas ya no estar\u00e1 hechizada, asustada o pose\u00edda por dichas criaturas.<br><br><b>Despido.</b> Como acci\u00f3n, realiza un ataque de conjuro cuerpo a cuerpo contra un celestial, elemental, fe\u00e9rico, infernal o muerto viviente a tu alcance. Si impactas, intentas enviar a la criatura de vuelta a su plano natal. El objetivo realiza una tirada de salvaci\u00f3n de Carisma o ser\u00e1 devuelto de inmediato a su plano natal si est\u00e1 en su plano natal, o quedar\u00e1 desterrado si no lo est\u00e1. Si no est\u00e1 en su plano natal, los muertos vivientes son enviados al Shadowfell y los fe\u00e9ricos son enviados al Feywild.",
     "materiales": "Agua bendita o polvo de plata y hierro."
+  },
+  {
+    "nombre": "Dominar persona",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero",
+      "Mago",
+      "Brujo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Intentas encantar a un humanoide que puedas ver dentro del alcance. La criatura debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizada por ti hasta el final de la duraci\u00f3n del conjuro. Este tiene ventaja en la tirada de salvaci\u00f3n si t\u00fa o alguna criatura amistosa hacia ti est\u00e1is luchando contra el objetivo.<br><br>Mientras la criatura est\u00e1 hechizada, posees un enlace telep\u00e1tico con ella siempre y cuando ambos os hall\u00e9is en el mismo plano de existencia. Puedes usar este enlace para enviar \u00f3rdenes al objetivo mientras est\u00e9 consciente (no requiere acci\u00f3n) y este har\u00e1 todo lo que est\u00e9 en su poder para obedecer. Puedes especificar un procedimiento simple, como \u201cataca a esa criatura\u201d, \u201ccorre hasta all\u00ed\u201d o \u201ctr\u00e1eme ese objeto\u201d. Si la criatura cumple su orden y no recibe m\u00e1s mandatos de ti, se defiende y protege en la medida de sus posibilidades.<br><br>Puedes utilizar tu acci\u00f3n para tomar un control total y preciso del objetivo. Hasta el final de tu pr\u00f3ximo turno, la criatura solo realizar\u00e1 las acciones que elijas y no har\u00e1 nada que t\u00fa no le permitas. Durante este tiempo tambi\u00e9n podr\u00e1s hacer que el objetivo lleve a cabo reacciones, pero eso har\u00e1 que emplees tambi\u00e9n tu propia reacci\u00f3n.<br><br>Cada vez que recibe da\u00f1o, la criatura hace una nueva tirada de salvaci\u00f3n contra el conjuro. Si tiene \u00e9xito, el efecto del conjuro termina.<br><br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 10 minutos. Si usas un espacio de conjuro de nivel 7, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 1 hora. Si empleas un espacio de conjuro de nivel 8 o m\u00e1s, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 8 horas.",
+    "materiales": null
   }
 ]
