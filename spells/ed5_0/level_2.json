@@ -375,5 +375,31 @@
       "Elige cuatro o m\u00e1s unidades de una munici\u00f3n no m\u00e1gica de da\u00f1o perforante, las cuales encantas y clavas en el suelo. Mientras el conjuro est\u00e9 activo, el \u00e1rea creada dentro de las flechas o virotes actuar\u00e1 como una protecci\u00f3n contra toda criatura hostil hacia ti o tus aliados. Cuando esta criatura se acerque a 9 m o menos de la munici\u00f3n, una de estas saldr\u00e1 volando para atacarla infringiendo 1d6 de da\u00f1o perforante. Si la criatura consigue superar una tirada de salvaci\u00f3n de destreza, esquiva la flecha. Acto seguido, la munici\u00f3n se destruye (haya o no impactado), poniendo fin al conjuro cuando no queden m\u00e1s proyectiles.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, la cantidad de flechas que puedes encantar se incrementa en dos por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Cuatro o m\u00e1s flechas o virotes."
+  },
+  {
+    "nombre": "Corona de la locura",
+    "clases": [
+      "Hechicero",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Selecciona a un humanoide que puedas ver dentro de tu alcance como objetivo, el cual queda hechizado si no supera una tirada de salvaci\u00f3n de Sabidur\u00eda. Mientras el objetivo se encuentre hechizado por tu conjuro, una retorcida corona de hierro aparece sobre su cabeza. La corona obliga al objetivo a utilizar su acci\u00f3n para realizar un ataque cuerpo a cuerpo contra otra criatura a tu elecci\u00f3n que no sea ella misma y que est\u00e9 a su alcance antes de moverse.<br><br>La criatura hechizada puede actuar con normalidad si ninguna criatura es seleccionada o si no tiene ninguna criatura al alcance.<br><br>En turnos siguientes debes usar tu acci\u00f3n para mantener el control del objetivo o el conjuro termina. Al final de cada uno de sus turnos, el objetivo puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito, el efecto del conjuro termina.",
+    "materiales": null
   }
 ]
