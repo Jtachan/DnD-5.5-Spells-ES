@@ -67,5 +67,29 @@
     "requiere_ataque": false,
     "descripcion": "Profieres una sarta de improperios entremezclados con sutiles encantamientos hacia una criatura que puedas ver dentro del alcance. Si el objetivo puede o\u00edrte (aunque no necesita entenderte), debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o recibir\u00e1 1d4 de da\u00f1o ps\u00edquico y sufrir\u00e1 desventaja en la siguiente tirada de ataque que realice antes del final de su pr\u00f3ximo turno.<br><br><b><i>A niveles superiores.</i></b> El da\u00f1o del conjuro aumenta en 1d4 cuando alcanzas nivel 5 (2d4), nivel 11 (3d4) y nivel 17 (4d4).",
     "materiales": null
+  },
+  {
+    "nombre": "Crear llama",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": [
+      "Aparece en tu mano una llama parpadeante. Esta permanece hasta el final de la duraci\u00f3n del conjuro y no te da\u00f1a ni a ti ni a tu equipo. La llama emite luz brillante en un radio de 10 pies y luz tenue 10 pies m\u00e1s all\u00e1. El conjuro termina si lo lanzas de nuevo o si utilizas una acci\u00f3n para finalizarlo.<br><br>Tambi\u00e9n puedes atacar con la llama, pero esto termina el conjuro. Cuando lanzas este conjuro, o como acci\u00f3n en un turno posterior, puedes arrojar la llama a una criatura hasta a 30 pies de ti. Haz un ataque de conjuro a distancia. Si impactas, el objetivo recibe 1d8 de da\u00f1o de fuego.<br><br>El da\u00f1o del conjuro aumenta en 1d8 cuando alcanzas nivel 5 (2d8), nivel 11 (3d8) y nivel 17 (4d8).",
+      "Aparece en tu mano una llama parpadeante. Esta permanece hasta el final de la duraci\u00f3n del conjuro y no te da\u00f1a ni a ti ni a tu equipo. La llama emite luz brillante en un radio de 3 m y luz tenue 3 m m\u00e1s all\u00e1. El conjuro termina si lo lanzas de nuevo o si utilizas una acci\u00f3n para finalizarlo.<br><br>Tambi\u00e9n puedes atacar con la llama, pero esto termina el conjuro. Cuando lanzas este conjuro, o como acci\u00f3n en un turno posterior, puedes arrojar la llama a una criatura hasta a 9 m de ti. Haz un ataque de conjuro a distancia. Si impactas, el objetivo recibe 1d8 de da\u00f1o de fuego.<br><br>El da\u00f1o del conjuro aumenta en 1d8 cuando alcanzas nivel 5 (2d8), nivel 11 (3d8) y nivel 17 (4d8)."
+    ],
+    "materiales": null
   }
 ]
