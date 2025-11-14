@@ -255,5 +255,34 @@
     "requiere_ataque": false,
     "descripcion": "Intentas convertir en piedra a una criatura que puedas ver dentro del alcance. Si su cuerpo est\u00e1 hecho de carne, debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fracasa, queda apresada mientras su carne comienza a endurecerse. Si tiene \u00e9xito, no se ve afectada.<br><br>Una criatura apresada por este conjuro realiza otra tirada de salvaci\u00f3n de Constituci\u00f3n al final de cada uno de sus turnos. El conjuro termina si la criatura tiene \u00e9xito tres veces en esta tirada. Si fracasa tres veces, queda convertida en piedra y, por tanto, bajo el estado \u201cpetrificado\u201d hasta el final de la duraci\u00f3n del conjuro. Los \u00e9xitos y fallos no tienen por qu\u00e9 ser consecutivos. Lleva la cuenta de ambos hasta que tenga tres del mismo tipo.<br><br>Si se rompe f\u00edsicamente a la criatura mientras est\u00e1 petrificada, sufrir\u00e1 deformaciones an\u00e1logas en su cuerpo cuando vuelva a su estado original.<br><br>Si mantienes tu concentraci\u00f3n en este conjuro durante toda la duraci\u00f3n posible, la criatura se convertir\u00e1 en piedra hasta que el efecto sea anulado.",
     "materiales": "Una pizca de cal, agua y tierra."
+  },
+  {
+    "nombre": "Desintegrar",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Un fino rayo verde surge de tu dedo hacia un objetivo que puedas ver dentro del alcance. El objetivo puede ser una criatura, un objeto o una creaci\u00f3n de fuerza m\u00e1gica, como el muro creado por <i>muro de fuerza</i>.<br><br>Si el objetivo es una criatura debe hacer una tirada de salvaci\u00f3n de Destreza. Si falla, recibe 10d6 + 40 de da\u00f1o de fuerza. Si este ataque reduce los puntos de golpe del objetivo a 0, ser\u00e1 desintegrado.<br><br>Una criatura desintegrada y todo lo que vista o lleve, excepto objetos m\u00e1gicos, quedan reducidos a un montoncito de polvo gris. La criatura solo puede ser devuelta a la vida mediante un conjuro de <i>deseo</i> o de <i>resurrecci\u00f3n verdadera</i>.<br><br>Este conjuro desintegra autom\u00e1ticamente un objeto no m\u00e1gico o una creaci\u00f3n de fuerza m\u00e1gica de tama\u00f1o Grande o menor. Si el objetivo es un objeto o creaci\u00f3n de fuerza m\u00e1gica de tama\u00f1o Enorme o mayor, este conjuro desintegra una zona equivalente a un cubo de 10 pies de lado. Un objeto desintegrado no se ve afectado por este conjuro.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, el da\u00f1o aumenta en 3d6 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
+      "Un fino rayo verde surge de tu dedo hacia un objetivo que puedas ver dentro del alcance. El objetivo puede ser una criatura, un objeto o una creaci\u00f3n de fuerza m\u00e1gica, como el muro creado por <i>muro de fuerza</i>.<br><br>Si el objetivo es una criatura debe hacer una tirada de salvaci\u00f3n de Destreza. Si falla, recibe 10d6 + 40 de da\u00f1o de fuerza. Si este ataque reduce los puntos de golpe del objetivo a 0, ser\u00e1 desintegrado.<br><br>Una criatura desintegrada y todo lo que vista o lleve, excepto objetos m\u00e1gicos, quedan reducidos a un montoncito de polvo gris. La criatura solo puede ser devuelta a la vida mediante un conjuro de <i>deseo</i> o de <i>resurrecci\u00f3n verdadera</i>.<br><br>Este conjuro desintegra autom\u00e1ticamente un objeto no m\u00e1gico o una creaci\u00f3n de fuerza m\u00e1gica de tama\u00f1o Grande o menor. Si el objetivo es un objeto o creaci\u00f3n de fuerza m\u00e1gica de tama\u00f1o Enorme o mayor, este conjuro desintegra una zona equivalente a un cubo de 3 m de lado. Un objeto desintegrado no se ve afectado por este conjuro.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, el da\u00f1o aumenta en 3d6 por cada nivel por encima de 6 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Un im\u00e1n natural y una pizca de polvo."
   }
 ]
