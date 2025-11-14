@@ -91,5 +91,30 @@
       "Aparece en tu mano una llama parpadeante. Esta permanece hasta el final de la duraci\u00f3n del conjuro y no te da\u00f1a ni a ti ni a tu equipo. La llama emite luz brillante en un radio de 3 m y luz tenue 3 m m\u00e1s all\u00e1. El conjuro termina si lo lanzas de nuevo o si utilizas una acci\u00f3n para finalizarlo.<br><br>Tambi\u00e9n puedes atacar con la llama, pero esto termina el conjuro. Cuando lanzas este conjuro, o como acci\u00f3n en un turno posterior, puedes arrojar la llama a una criatura hasta a 9 m de ti. Haz un ataque de conjuro a distancia. Si impactas, el objetivo recibe 1d8 de da\u00f1o de fuego.<br><br>El da\u00f1o del conjuro aumenta en 1d8 cuando alcanzas nivel 5 (2d8), nivel 11 (3d8) y nivel 17 (4d8)."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Descarga de fuego",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Arrojas una mota de fuego a una criatura u objeto dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si impactas, el objetivo recibe 1d10 de da\u00f1o de fuego. Los objetos inflamables que se encuentren en el \u00e1rea que no lleve o vista nadie arder\u00e1n.<br><br>El da\u00f1o del conjuro aumenta en 1d10 cuando alcanzas nivel 5 (2d10), nivel 11 (3d10) y nivel 17 (4d10).",
+    "materiales": null
   }
 ]
