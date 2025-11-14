@@ -422,5 +422,35 @@
       "Lanza 1d20 al final de cada uno de tus turnos hasta el final de la duraci\u00f3n del conjuro. Si el resultado es 11 o m\u00e1s, desapareces de tu plano de existencia actual y apareces en el Plano Et\u00e9reo (el conjuro falla y el espacio se pierde si ya estabas en ese plano). Al principio de tu siguiente turno y (si el conjuro acaba mientras est\u00e1s en el Plano Et\u00e9reo) vuelves a un espacio de tu elecci\u00f3n que puedas ver a 3 m del espacio del que desapareciste. Si no hay ning\u00fan espacio libre dentro del alcance, apareces en el espacio desocupado m\u00e1s pr\u00f3ximo (el DM puede elegir al azar si hay m\u00e1s de un espacio a la misma distancia). Puedes terminar tu turno usando una acci\u00f3n.<br><br>Mientras est\u00e1s en el Plano Et\u00e9reo, eres capaz de ver y o\u00edr todo lo que sucede en el plano del que partiste, pero no puedes afectar nada en \u00e9l. \u00danicamente puedes afectar y ser afectado por criaturas y objetos en el Plano Et\u00e9reo. Las criaturas que no est\u00e1n en dicho plano no pueden percibirte ni hacerte objetivo f\u00e1cilmente, a menos que tengan una habilidad espec\u00edfica para ello."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Disipar magia",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero",
+      "Mago",
+      "Palad\u00edn",
+      "Explorador"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Elige una criatura, objeto o efecto m\u00e1gico dentro del alcance. Cualquier conjuro de nivel 3 o menor presente en el objetivo termina inmediatamente. Para cada conjuro de nivel 4 o m\u00e1s, realiza una prueba de caracter\u00edstica usando tu aptitud m\u00e1gica. La CD es 10 + el nivel del conjuro. Si tienes \u00e9xito en la tirada, el conjuro termina inmediatamente.<br><br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, disipar\u00e1s autom\u00e1ticamente aquellos conjuros cuyo nivel sea menor o igual al nivel del espacio de conjuro utilizado.",
+    "materiales": null
   }
 ]
