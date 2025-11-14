@@ -93,7 +93,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Contingencia                            | 6         | Contingency                   |
 | Contorno borroso                        | 2         | Blur                          |
 | Contrahechizo                           | 3         | Counterspell                  |
-| Controlar el agua                       | 4         | Control Water                 |
+| Controlar agua                          | 4         | Control Water                 |
 | Controlar el clima                      | 8         | Control Weather               |
 | Corcel fantasmal                        | 3         | Phantom Steed                 |
 | Cordón de flechas                       | 2         | ❌                             |
