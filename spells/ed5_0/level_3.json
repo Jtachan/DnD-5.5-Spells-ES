@@ -287,5 +287,30 @@
       "Selecciona un arma arrojadiza o tipo de munici\u00f3n que tengas en tu inventario. Creas copias id\u00e9nticas que salen disparadas en un cono de 18 m. Todas las criaturas en este \u00e1rea han de realizar una tirada de salvaci\u00f3n de Destreza, sufriendo 3d8 de da\u00f1o si fallan o la mitad si la superan. Al ser copias id\u00e9nticas, el tipo de da\u00f1o es el mismo que el de arma o munici\u00f3n utilizada."
     ],
     "materiales": "Una unidad de munici\u00f3n o un arma arrojadiza."
+  },
+  {
+    "nombre": "Contrahechizo",
+    "clases": [
+      "Hechicero",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Reacci\u00f3n, que llevas a cabo cuando una criatura que puedas ver a 60 pies o menos lance un conjuro",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Intentas interrumpir a una criatura mientras lanza un conjuro. Si este \u00faltimo es de nivel 3 o menor, lo logras autom\u00e1ticamente y el conjuro no tiene efecto alguno. Sin embargo, para cada conjuro de nivel 4 o m\u00e1s, realiza una prueba de caracter\u00edstica usando tu aptitud m\u00e1gica. La CD es 10 + el nivel del conjuro. Si tienes \u00e9xito, el conjuro de la criatura falla y no tiene efecto.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, cancelas autom\u00e1ticamente aquellos conjuros cuyo nivel sea menor o igual al nivel del espacio de conjuro utilizado.",
+    "materiales": null
   }
 ]
