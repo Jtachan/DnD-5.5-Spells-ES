@@ -708,5 +708,31 @@
       "Puedes ver y o\u00edr a una criatura concreta que elijas y est\u00e9 en tu mismo plano de existencia. El objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda, modificada seg\u00fan lo bien que conozcas a la criatura y el tipo de conexi\u00f3n f\u00edsica que tengas con ella. Si el objetivo sabe que est\u00e1s lanzando este conjuro y desea ser observado, puede fallar la tirada de salvaci\u00f3n voluntariamente. <table><tr><th>Conocimiento</th><th>Modificador</th></tr><tr><td>De o\u00eddas (has o\u00eddo hablar del objetivo)</td><td>+5</td></tr><tr><td>De primera mano (te han presentado o has hablado con el objetivo)</td><td>+0</td></tr><tr><td>\u00cdntimo (conoces muy bien al objetivo)</td><td>\u20135</td></table> <table><tr><th>Conexi\u00f3n</th><th>Modificador</th></tr><tr><td>Dibujo o retrato</td><td>\u20132</td></tr><tr><td>Posesi\u00f3n o prenda</td><td>\u20134</td></tr><tr><td>Parte del cuerpo, mech\u00f3n de cabello, trozo de u\u00f1a o similar</td><td>\u201310</td></tr></table> Si la tirada de salvaci\u00f3n tiene \u00e9xito, la criatura no se ver\u00e1 afectada y no podr\u00e1s utilizar este conjuro contra ella de nuevo durante 24 horas.<br><br>Si la tirada fracasa, el conjuro crea un sensor invisible a 3 m del objetivo. Puedes ver y o\u00edr a trav\u00e9s del sensor como si estuvieras all\u00ed. El sensor se desplaza con el objetivo para mantenerse a 3 m de \u00e9l hasta el final de la duraci\u00f3n del conjuro. Una criatura que pueda ver el sensor (porque posee <i>ver invisibilidad</i> o <i>visi\u00f3n verdadera</i>, por ejemplo) observar\u00e1 un orbe luminoso e intangible del tama\u00f1o de tu pu\u00f1o.<br><br>En vez de elegir como objetivo a una criatura, puedes escoger una localizaci\u00f3n que hayas visto antes. En ese caso, el sensor aparece en la localizaci\u00f3n y no se mueve."
     ],
     "materiales": "Un canalizador con un valor de, al menos, 1.000 po, como una bola de cristal, un espejo de plata o una pila llena de agua bendita."
+  },
+  {
+    "nombre": "Geas",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Palad\u00edn"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "30 d\u00edas",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Impones una orden m\u00e1gica a una criatura que puedas ver dentro del alcance, oblig\u00e1ndola a llevar a t\u00e9rmino una misi\u00f3n o impidi\u00e9ndole realizar una acci\u00f3n o actividad, seg\u00fan desees. El objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizado por ti hasta el final de la duraci\u00f3n del conjuro. Mientras permanezca hechizado, sufrir\u00e1 5d10 de da\u00f1o ps\u00edquico cada vez que act\u00fae de manera contraria a tus instrucciones, con un l\u00edmite de una vez al d\u00eda. Una criatura que no pueda comprenderte no se ver\u00e1 afectada por el conjuro.<br><br>Puedes dar la orden de que la criatura se autolesione o de que desarrolle una lucha a muerte seria. Si la instrucci\u00f3n es as\u00ed de extrema, el conjuro termina inmediatamente.<br><br>Tambi\u00e9n puedes terminar el conjuro antes de tiempo si utilizas una acci\u00f3n para finalizarlo. Un conjuro de <i>levantar maldici\u00f3n</i>, <i>restablecimiento mayor</i> o <i>deseo</i> tambi\u00e9n lo termina.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 u 8, la duraci\u00f3n pasa a ser de 1 a\u00f1o. Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 9, la duraci\u00f3n pasa a ser hasta que lo termines t\u00fa, y hasta que se cancele por uno de los conjuros mencionados m\u00e1s arriba.",
+    "materiales": null
   }
 ]
