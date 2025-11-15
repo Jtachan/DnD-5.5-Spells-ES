@@ -609,5 +609,26 @@
     "requiere_ataque": false,
     "descripcion": "Intentas encantar a un humanoide que puedas ver dentro del alcance. La criatura debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizada por ti hasta el final de la duraci\u00f3n del conjuro. Este tiene ventaja en la tirada de salvaci\u00f3n si t\u00fa o alguna criatura amistosa hacia ti est\u00e1is luchando contra el objetivo.<br><br>Mientras la criatura est\u00e1 hechizada, posees un enlace telep\u00e1tico con ella siempre y cuando ambos os hall\u00e9is en el mismo plano de existencia. Puedes usar este enlace para enviar \u00f3rdenes al objetivo mientras est\u00e9 consciente (no requiere acci\u00f3n) y este har\u00e1 todo lo que est\u00e9 en su poder para obedecer. Puedes especificar un procedimiento simple, como \u201cataca a esa criatura\u201d, \u201ccorre hasta all\u00ed\u201d o \u201ctr\u00e1eme ese objeto\u201d. Si la criatura cumple su orden y no recibe m\u00e1s mandatos de ti, se defiende y protege en la medida de sus posibilidades.<br><br>Puedes utilizar tu acci\u00f3n para tomar un control total y preciso del objetivo. Hasta el final de tu pr\u00f3ximo turno, la criatura solo realizar\u00e1 las acciones que elijas y no har\u00e1 nada que t\u00fa no le permitas. Durante este tiempo tambi\u00e9n podr\u00e1s hacer que el objetivo lleve a cabo reacciones, pero eso har\u00e1 que emplees tambi\u00e9n tu propia reacci\u00f3n.<br><br>Cada vez que recibe da\u00f1o, la criatura hace una nueva tirada de salvaci\u00f3n contra el conjuro. Si tiene \u00e9xito, el efecto del conjuro termina.<br><br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 10 minutos. Si usas un espacio de conjuro de nivel 7, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 1 hora. Si empleas un espacio de conjuro de nivel 8 o m\u00e1s, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 8 horas.",
     "materiales": null
+  },
+  {
+    "nombre": "Enga\u00f1ar",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Te vuelves invisible a la vez que un doble ilusorio de ti aparece donde est\u00e1s. El doble permanece hasta el final de la duraci\u00f3n del conjuro, pero la invisibilidad acaba si atacas o lanzas un conjuro.<br><br>Puedes utilizar tu acci\u00f3n para mover a tu doble ilusorio hasta dos veces tu velocidad y hacer que hable, haga gestos o se comporte como quieras.<br><br>Eres capaz de ver a trav\u00e9s de sus ojos y o\u00edr a trav\u00e9s de sus o\u00eddos como si estuvieras donde est\u00e1 \u00e9l. En cada uno de tus turnos, como acci\u00f3n adicional, puedes pasar de sus sentidos a los tuyos o viceversa. Mientras est\u00e9s usando sus sentidos, quedas cegado y ensordecido respecto a tus propios sentidos.",
+    "materiales": null
   }
 ]
