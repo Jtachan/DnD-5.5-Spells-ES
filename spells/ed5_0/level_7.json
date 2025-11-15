@@ -1,1 +1,185 @@
-[]
+[
+  {
+    "nombre": "Bola de fuego de explosi\u00f3n retardada",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Un rayo de luz amarilla se proyecta desde tu \u00edndice y se condensa, quedando latente con la forma de una cuenta brillante en un punto dentro del alcance. Cuando el conjuro termina, ya sea porque se rompe tu concentraci\u00f3n o porque decides terminarlo, la cuenta se transforma con un rugido sordo en una explosi\u00f3n ardiente que se extiende m\u00e1s all\u00e1 de las esquinas. Todas las criaturas en una esfera de 20 pies centrada en el punto deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n da\u00f1o de fuego igual al da\u00f1o acumulado si fallan la tirada o la mitad del da\u00f1o si lo superan.<br><br>El da\u00f1o base del conjuro es 12d6. Si al final de tu turno la cuenta a\u00fan no ha explotado, este da\u00f1o se incrementa en 1d6.<br><br>Si se toca la cuenta antes de que termine el tiempo, la criatura que lo haga debe realizar una tirada de salvaci\u00f3n de Destreza. Si falla, el conjuro termina inmediatamente, haciendo que la cuenta explote. Si tiene \u00e9xito, la criatura puede lanzar la cuenta hasta 40 pies de distancia. Cuando esta golpea a una criatura u objeto s\u00f3lido, el conjuro termina y la cuenta explota.<br><br>El fuego da\u00f1a los objetos que se encuentren en el \u00e1rea, haciendo arder los que sean inflamables y no los lleve o vista alguien.<br><br><i>A niveles superiores.</i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 8 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 7 que tenga el espacio que hayas empleado.",
+      "Un rayo de luz amarilla se proyecta desde tu \u00edndice y se condensa, quedando latente con la forma de una cuenta brillante en un punto dentro del alcance. Cuando el conjuro termina, ya sea porque se rompe tu concentraci\u00f3n o porque decides terminarlo, la cuenta se transforma con un rugido sordo en una explosi\u00f3n ardiente que se extiende m\u00e1s all\u00e1 de las esquinas. Todas las criaturas en una esfera de 6 m centrada en el punto deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n da\u00f1o de fuego igual al da\u00f1o acumulado si fallan la tirada o la mitad del da\u00f1o si lo superan.<br><br>El da\u00f1o base del conjuro es 12d6. Si al final de tu turno la cuenta a\u00fan no ha explotado, este da\u00f1o se incrementa en 1d6.<br><br>Si se toca la cuenta antes de que termine el tiempo, la criatura que lo haga debe realizar una tirada de salvaci\u00f3n de Destreza. Si falla, el conjuro termina inmediatamente, haciendo que la cuenta explote. Si tiene \u00e9xito, la criatura puede lanzar la cuenta hasta 12 m de distancia. Cuando esta golpea a una criatura u objeto s\u00f3lido, el conjuro termina y la cuenta explota.<br><br>El fuego da\u00f1a los objetos que se encuentren en el \u00e1rea, haciendo arder los que sean inflamables y no los lleve o vista alguien.<br><br><i>A niveles superiores.</i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 8 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 7 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Una pelotita de guano de murci\u00e9lago y azufre."
+  },
+  {
+    "nombre": "Conjurar celestial",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Invocas un celestial con valor de desaf\u00edo 4 o menos en un espacio desocupado que puedas ver dentro del alcance. El celestial desaparecer\u00e1 si sus puntos de golpe se reducen a 0 o el conjuro termina.<br><br>Es amistoso hacia ti y tus compa\u00f1eros hasta el final de la duraci\u00f3n del conjuro. Haz una tirada de iniciativa para el celestial, que tiene sus propios turnos. Obedecer\u00e1 cualquier mandato verbal tuyo (no requiere acci\u00f3n) que no viole su alineamiento. Si no le das ninguna orden, se defender\u00e1 de criaturas hostiles, pero no realizar\u00e1 ninguna otra acci\u00f3n.<br><br>El DM tiene el perfil del celestial.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 9, invocas a un celestial con valor de desaf\u00edo 5 o menos.",
+    "materiales": null
+  },
+  {
+    "nombre": "Dedo de la muerte",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Emites energ\u00eda negativa hacia una criatura que puedas ver dentro del alcance, atravesando su cuerpo y provoc\u00e1ndole un dolor abrasador. El objetivo debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 7d8 + 30 de da\u00f1o necr\u00f3tico si falla la tirada o la mitad del da\u00f1o si la supera.<br><br>Un humanoide muerto a causa de este conjuro se alza inmediatamente con un zombi en tu pr\u00f3ximo turno, bajo tu control permanente. Intentar\u00e1 seguir tus \u00f3rdenes verbales lo mejor que pueda.",
+    "materiales": null
+  },
+  {
+    "nombre": "Desplazamiento entre planos",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "T\u00fa y hasta ocho criaturas voluntarias os tom\u00e1is las manos en c\u00edrculo y sois transportados a un plano de existencia diferente. Puedes especificar el destino deseado en t\u00e9rminos generales, como la Ciudad de Bronce en el Plano Elemental de Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecer\u00e9is en esa localizaci\u00f3n o en un lugar pr\u00f3ximo a ella. Si est\u00e1s intentando llegar a la Ciudad de Bronce, por ejemplo, podr\u00edas aparecer en la calle de Acero, delante de la Puerta de las Cenizas o al otro lado del Mar de Fuego, mirando a la ciudad, seg\u00fan decida el DM.<br><br>De modo alternativo, si conoces la secuencia de sellos de un c\u00edrculo de teletransportaci\u00f3n en otro plano de existencia, este conjuro puede llevarte hasta \u00e9l. Si en el c\u00edrculo de teletransportaci\u00f3n no caben todas las criaturas que has transportado, aparecer\u00e1n en los espacios desocupados m\u00e1s cercanos a dicho c\u00edrculo.<br><br>Puedes usar este conjuro para exiliar a una criatura no voluntaria a otro plano. Haz un ataque de conjuro cuerpo a cuerpo contra la criatura de tu elecci\u00f3n dentro de tu alcance. Si impactas, el objetivo debe hacer una tirada de salvaci\u00f3n de Carisma. Si fracasa, es transportada a una localizaci\u00f3n aleatoria del plano de existencia que elijas. Una criatura transportada de este modo debe encontrar por su propio camino de vuelta a tu plano actual.",
+    "materiales": "Una vara de metal bifurcada en forma de horquilla, con un valor de, al menos, 250 po y sintonizada a un plano de existencia concreto."
+  },
+  {
+    "nombre": "Espada de Mordenkainen",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": [
+      "Creas un plano de fuerza en forma de espada que levita cerca del alcance y permanece hasta el final de la duraci\u00f3n del conjuro.<br><br>Cuando haces aparecer la espada, puedes realizar un ataque de conjuro cuerpo a cuerpo contra una criatura que se encuentre a 5 pies del arma. Si impactas, el objetivo recibe 3d10 de da\u00f1o de fuerza.<br><br>Hasta el final del conjuro puedes usar una acci\u00f3n adicional en cada uno de tus turnos para mover la espada hasta 20 pies a un punto que puedas ver y repetir este ataque, contra el mismo objetivo o uno nuevo.",
+      "Creas un plano de fuerza en forma de espada que levita cerca del alcance y permanece hasta el final de la duraci\u00f3n del conjuro.<br><br>Cuando haces aparecer la espada, puedes realizar un ataque de conjuro cuerpo a cuerpo contra una criatura que se encuentre a 1,5 m del arma. Si impactas, el objetivo recibe 3d10 de da\u00f1o de fuerza.<br><br>Hasta el final del conjuro puedes usar una acci\u00f3n adicional en cada uno de tus turnos para mover la espada hasta 6 m a un punto que puedas ver y repetir este ataque, contra el mismo objetivo o uno nuevo."
+    ],
+    "materiales": "Una espada en miniatura de platino, con empu\u00f1adura y pomo de cobre y zinc, con un valor de 250 po."
+  },
+  {
+    "nombre": "Espejismo arcano",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": "Vista",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "10 d\u00edas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Cambias la apariencia del terreno en una zona de hasta 1 milla cuadrada, haciendo que se vea, suene y huela como otro tipo de terreno natural, aunque la forma general del terreno sigue pareciendo la misma. Puedes hacer que un campo abierto o una carretera parezcan un pantano, una colina, una fisura u otro tipo de terreno dif\u00edcil o infranqueable. Una charca puede parecer una pradera de hierba, un precipicio una suave ladera o un barranco lleno de rocas una carretera ancha y lisa.<br><br>De forma similar, puedes alterar la apariencia de una estructura, o a\u00f1adir otras donde antes no las hubiera. El conjuro no disfraza, oculta o altera criaturas.<br><br>La ilusi\u00f3n incluye elementos auditivos, visuales, t\u00e1ctiles y olfativos, y es capaz de convertir terreno abierto en terreno dif\u00edcil (o viceversa) o impedir el movimiento a trav\u00e9s de la zona a alguna otra manera. Cualquier elemento creado por tu ilusi\u00f3n sonoro (como el fluir del agua) se oir\u00e1 en terreno ilusionado por un o\u00eddo normal. Cualquier que sea llevado fuera del \u00e1rea del conjuro desaparecer\u00e1 como la ilusi\u00f3n.<br><br>Las criaturas con visi\u00f3n verdadera pueden ver la forma real del terreno a trav\u00e9s de la ilusi\u00f3n; sin embargo, si est\u00e1n dentro del \u00e1rea a trav\u00e9s de la ilusi\u00f3n, pueden ver la criatura o el objeto real que est\u00e1 detr\u00e1s de la ilusi\u00f3n, porque seguir interactuando f\u00edsicamente con la ilusi\u00f3n.",
+      "Cambias la apariencia del terreno en una zona de hasta 1,5 km cuadrada, haciendo que se vea, suene y huela como otro tipo de terreno natural, aunque la forma general del terreno sigue pareciendo la misma. Puedes hacer que un campo abierto o una carretera parezcan un pantano, una colina, una fisura u otro tipo de terreno dif\u00edcil o infranqueable. Una charca puede parecer una pradera de hierba, un precipicio una suave ladera o un barranco lleno de rocas una carretera ancha y lisa.<br><br>De forma similar, puedes alterar la apariencia de una estructura, o a\u00f1adir otras donde antes no las hubiera. El conjuro no disfraza, oculta o altera criaturas.<br><br>La ilusi\u00f3n incluye elementos auditivos, visuales, t\u00e1ctiles y olfativos, y es capaz de convertir terreno abierto en terreno dif\u00edcil (o viceversa) o impedir el movimiento a trav\u00e9s de la zona a alguna otra manera. Cualquier elemento creado por tu ilusi\u00f3n sonoro (como el fluir del agua) se oir\u00e1 en terreno ilusionado por un o\u00eddo normal. Cualquier que sea llevado fuera del \u00e1rea del conjuro desaparecer\u00e1 como la ilusi\u00f3n.<br><br>Las criaturas con visi\u00f3n verdadera pueden ver la forma real del terreno a trav\u00e9s de la ilusi\u00f3n; sin embargo, si est\u00e1n dentro del \u00e1rea a trav\u00e9s de la ilusi\u00f3n, pueden ver la criatura o el objeto real que est\u00e1 detr\u00e1s de la ilusi\u00f3n, porque seguir interactuando f\u00edsicamente con la ilusi\u00f3n."
+    ],
+    "materiales": null
+  },
+  {
+    "nombre": "Excursi\u00f3n et\u00e9rea",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta 8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Viajas a las regiones exteriores del Plano Et\u00e9reo, en el \u00e1rea donde se superpone con tu plano actual. Permaneces en la Frontera Et\u00e9rea hasta el final de la duraci\u00f3n del conjuro o hasta que utilices tu acci\u00f3n para terminarlo. Mientras tanto, puedes moverte en cualquier direcci\u00f3n. Si te desplazas hacia arriba o hacia abajo, cada pie movido te cuesta 1 pie adicional. Mientras est\u00e9s en el Plano Et\u00e9reo, puedes ver y o\u00edr lo que ocurre en el plano del que vienes, aunque lo percibes en tonos de gris y solo puedes ver a 60 pies de distancia.<br><br>\u00danicamente puedes afectar y ser afectado por otras criaturas en el Plano Et\u00e9reo. Las criaturas que no est\u00e1n en \u00e9l no pueden percibirte ni interactuar contigo, a menos que alg\u00fan tipo de magia o una habilidad especial se lo permita.<br><br>Ignoras todos los objetos y efectos que no est\u00e9n en el Plano Et\u00e9reo, lo que te permite moverte a trav\u00e9s de objetos en tu plano original que puedes percibir.<br><br>Cuando el conjuro termina, vuelves inmediatamente al plano del que viniste, pero en el lugar en el que te encuentras actualmente. Si ocupas el mismo sitio que un objeto s\u00f3lido o una criatura en ese momento, ser\u00e1s desplazado al espacio desocupado m\u00e1s cercano y recibir\u00e1s tanto da\u00f1o de fuerza como el doble de pies que hayas sido desplazado.<br><br>Este conjuro no tiene efecto alguno si lo lanzas mientras est\u00e1s en el Plano Et\u00e9reo o en un plano con el que no tenga frontera, como uno de los Planos Exteriores.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 8 o m\u00e1s, puedes elegir como objetivo una criatura m\u00e1s por cada nivel del espacio por encima de 7 (que est\u00e9n a 10 pies de ti cuando lanzas el conjuro). Las criaturas deben estar a 10 pies de ti cuando lanzas el conjuro.",
+      "Viajas a las regiones exteriores del Plano Et\u00e9reo, en el \u00e1rea donde se superpone con tu plano actual. Permaneces en la Frontera Et\u00e9rea hasta el final de la duraci\u00f3n del conjuro o hasta que utilices tu acci\u00f3n para terminarlo. Mientras tanto, puedes moverte en cualquier direcci\u00f3n. Si te desplazas hacia arriba o hacia abajo, cada pie movido te cuesta 0,3 m adicional. Mientras est\u00e9s en el Plano Et\u00e9reo, puedes ver y o\u00edr lo que ocurre en el plano del que vienes, aunque lo percibes en tonos de gris y solo puedes ver a 18 m de distancia.<br><br>\u00danicamente puedes afectar y ser afectado por otras criaturas en el Plano Et\u00e9reo. Las criaturas que no est\u00e1n en \u00e9l no pueden percibirte ni interactuar contigo, a menos que alg\u00fan tipo de magia o una habilidad especial se lo permita.<br><br>Ignoras todos los objetos y efectos que no est\u00e9n en el Plano Et\u00e9reo, lo que te permite moverte a trav\u00e9s de objetos en tu plano original que puedes percibir.<br><br>Cuando el conjuro termina, vuelves inmediatamente al plano del que viniste, pero en el lugar en el que te encuentras actualmente. Si ocupas el mismo sitio que un objeto s\u00f3lido o una criatura en ese momento, ser\u00e1s desplazado al espacio desocupado m\u00e1s cercano y recibir\u00e1s tanto da\u00f1o de fuerza como el doble de pies que hayas sido desplazado.<br><br>Este conjuro no tiene efecto alguno si lo lanzas mientras est\u00e1s en el Plano Et\u00e9reo o en un plano con el que no tenga frontera, como uno de los Planos Exteriores.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 8 o m\u00e1s, puedes elegir como objetivo una criatura m\u00e1s por cada nivel del espacio por encima de 7 (que est\u00e9n a 3 m de ti cuando lanzas el conjuro). Las criaturas deben estar a 3 m de ti cuando lanzas el conjuro."
+    ],
+    "materiales": null
+  }
+]

@@ -8,20 +8,7 @@ import re
 import json
 import os
 
-METRIC_SYSTEM_REGEX = r"((\d+,)?\d+) ([kmc]?m|kg|l)[\s.]"
-IMPERIAL_SYSTEM_REGEX = r"((\d+,)?\d+) (pies?|pulgadas?|millas?|galón|galones|libras?)[\s.]"
-
-# Condiciones adicionales que aparecen en el campo de 'tiempo de lanzamiento'.
-# Estas descripciones se mueven directamente al campo de 'descripcion'.
-CONDITIONAL_ACTION_TEXT = {
-    "que realizas de inmediato tras acertar a un objetivo con un arma cuerpo a cuerpo o un ataque sin armas": "El conjuro se realiza de inmediato tras acertar al objetivo con un arma cuerpo a cuerpo o un ataque sin armas.",
-    "que realizas de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas": "El conjuro se realiza de inmediato tras acertar a una criatura con un arma cuerpo a cuerpo o un ataque sin armas.",
-    "que realizas de inmediato tras acertar a una criatura con un arma a distancia": "El conjuro se realiza de inmediato tras acertar a una criatura con un arma a distancia.",
-    "que llevas a cabo cuando tú o una criatura que puedes ver a 18 m o menos de ti caigáis": "El conjuro se lleva a cabo cuando tú o una criatura que puedes ver a 18 m o menos de ti caigáis.",
-    "que llevas a cabo cuando una criatura que puedas ver a 18 m o menos de ti lance un conjuro usando componentes verbales, somáticos o materiales": "El conjuro se lleva a cabo cuando una criatura que puedas ver a 18 m o menos de ti lance un conjuro usando componentes verbales, somáticos o materiales.",
-    "que llevas a cabo en respuesta a recibir daño de una criatura que puedas ver a 18 m o menos de ti": "El conjuro se lleva a cabo en respuesta a recibir daño de una criatura que puedas ver a 18 m o menos de ti.",
-    "que llevas a cabo cuando te acierta una tirada de ataque o eres el objetivo del conjuro proyectil mágico": "El conjuro se lleva a cabo en respuesta al ser acertado por una tirada de ataque o ser objetivo del conjuro <i>proyectil mágico</i>.",
-}
+from _utils import *
 
 
 # ------ Field: 'descripcion' ------ #
@@ -106,7 +93,7 @@ def expand_units_to_metric(text: str) -> list[str]:
 
     def feet_to_meters(re_match: re.Match) -> str:
         feet = float(re_match.group(1).replace(",", "."))
-        meters = int(feet / 5 * 1.5)
+        meters = feet / 5 * 1.5
         meters = int(meters) if int(meters) == meters else str(round(meters, 2)).replace(".", ",")
         return f"{meters} m"
 
@@ -161,7 +148,7 @@ def fix_concentration_duration_text(text: str) -> str:
 # ------ Field: 'tiempo_de_lanzamiento' ------ #
 def normalizar_tiempo_de_lanzamiento(text: str) -> str:
     """Normalizing the specified action of the spell."""
-    text = text.replace("1 acción", "Acción")
+    text = text.replace("1 acción", "Acción").replace("1 reacción", "Reacción")
     if text.endswith(("o ritual", "o un ritual", "o 1 ritual")):
         text = text.split(" o ")[0]
     return text
@@ -169,15 +156,19 @@ def normalizar_tiempo_de_lanzamiento(text: str) -> str:
 
 def normalizar_alcance(text: str | list[str]) -> str | list[str]:
     """Normalizing the field 'alcance'."""
-    no_list_values = ["Lanzador", "Toque", "Especial", "Vista", "Ilimitado"]
-    if isinstance(text, list) and all(any(t.startswith(v) for v in no_list_values) for t in text):
-        text = "Lanzador"
+    if isinstance(text, list) and all(any(t.startswith(v) for v in NO_LIST_VALS_ALCANCE) for t in text):
+        text = text[0]
+    if not isinstance(text, list):
+        for val in NO_LIST_VALS_ALCANCE:
+            if text.startswith(val):
+                text = val
+                break
     return text
 
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(__file__))
-    for edition in ("ed5_5", "ed5_0"):
+    for edition in FOLDER_EDITIONS:
         for idx in range(10):
             file_name = os.path.join(edition, f"level_{idx}.json")
             # Loading all spells:
