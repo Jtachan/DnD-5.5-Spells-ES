@@ -488,5 +488,32 @@
       "Seleccionas a una criatura objetivo que puedas ver dentro del alcance y la intentas forzar a un duelo. La criatura ha de realizar una tirada de salvaci\u00f3n de Sabidur\u00eda, vi\u00e9ndose atra\u00edda de forma hostil hacia ti si la falla. Mientras el conjuro est\u00e9 activo, la criatura afectada tiene desventaja en las tiradas de ataque que no est\u00e9n dirigidas a t\u00ed y ha de realizar una tirada de salvaci\u00f3n de Sabidur\u00eda si intenta alejarse a m\u00e1s de 9 m de t\u00ed.<br><br>El conjuro termina si atacas a otra criatura, si lanzas un conjuro que tenga como objetivo a una criatura distinta al objetivo, si una criatura amistosa hacia ti ataca al objetivo o le inflige da\u00f1o, o si acabas tu turno a m\u00e1s de 9 m del objetivo."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Encantar animal",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro te permite convencer a una bestia de que no quieres hacerle da\u00f1o. Elige una bestia que puedas ver dentro del alcance. Debe ser capaz de verte y o\u00edrte. Si su inteligencia es 4 o m\u00e1s, el conjuro falla. En caso contrario, el objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizado por ti hasta el final de la duraci\u00f3n del conjuro. Si t\u00fa o cualquiera de tus compa\u00f1eros da\u00f1\u00e1is al objetivo, el conjuro termina.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, puedes elegir como objetivo una bestia adicional por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "materiales": "Unas migajas de comida."
   }
 ]
