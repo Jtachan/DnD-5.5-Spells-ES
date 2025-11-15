@@ -362,5 +362,31 @@
     "requiere_ataque": false,
     "descripcion": "Haces aparecer un gran fest\u00edn, incluyendo magn\u00edfica comida y bebida. Se tarda 1 hora en consumir el fest\u00edn, que desaparece al cabo de ese tiempo. Los efectos beneficiosos no tienen lugar hasta que ha pasado esa hora. Hasta doce criaturas (adem\u00e1s de ti) pueden participar en el fest\u00edn.<br><br>Cualquier criatura que participe obtiene varios beneficios: queda curada de todas las enfermedades y veneno que la aflijan, es inmune al veneno y a ser asustada y tiene ventaja en todas sus tiradas de salvaci\u00f3n de Sabidur\u00eda. Adem\u00e1s, sus puntos de golpe m\u00e1ximos aumentan en 2d10 y recupera la misma cantidad de puntos de golpe. Estos beneficios duran 24 horas.",
     "materiales": "Un cuenco incrustado de gemas, con un valor de, al menos, 1.000 po, que es consumido como parte del conjuro."
+  },
+  {
+    "nombre": "Globo de invulnerabilidad",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una barrera inm\u00f3vil y de d\u00e9bil brillo surge en un radio de 10 pies alrededor de ti y permanece hasta el final de la duraci\u00f3n del conjuro.<br><br>Cualquier conjuro de nivel 5 o inferior que sea lanzado desde fuera de la barrera no puede afectar a las criaturas y objetos dentro de la misma, incluso si el conjuro se lanza utilizando un espacio de conjuro superior. Estos conjuros pueden elegir como objetivo a criaturas y objetos dentro de la barrera, pero no tienen efecto en ellos. De forma similar, el \u00e1rea dentro de la barrera queda excluida de las zonas afectadas por esos conjuros.<br><br><i>A niveles superiores.</i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, la barrera bloquea conjuros de un nivel m\u00e1s por cada nivel por encima de 6 del espacio de conjuro que utilices.",
+      "Una barrera inm\u00f3vil y de d\u00e9bil brillo surge en un radio de 3 m alrededor de ti y permanece hasta el final de la duraci\u00f3n del conjuro.<br><br>Cualquier conjuro de nivel 5 o inferior que sea lanzado desde fuera de la barrera no puede afectar a las criaturas y objetos dentro de la misma, incluso si el conjuro se lanza utilizando un espacio de conjuro superior. Estos conjuros pueden elegir como objetivo a criaturas y objetos dentro de la barrera, pero no tienen efecto en ellos. De forma similar, el \u00e1rea dentro de la barrera queda excluida de las zonas afectadas por esos conjuros.<br><br><i>A niveles superiores.</i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, la barrera bloquea conjuros de un nivel m\u00e1s por cada nivel por encima de 6 del espacio de conjuro que utilices."
+    ],
+    "materiales": "Una cuenta de cristal o de vidrio, que se rompe al acabar el conjuro."
   }
 ]

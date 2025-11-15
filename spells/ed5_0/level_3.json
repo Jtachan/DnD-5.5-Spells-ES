@@ -510,7 +510,7 @@
     "escuela": "Conjuraci\u00f3n",
     "tiempo_de_lanzamiento": "Acci\u00f3n",
     "ritual": false,
-    "alcance": "Lanzador (radio de 15 pies)",
+    "alcance": "Lanzador",
     "visible": false,
     "componentes": [
       "V",
