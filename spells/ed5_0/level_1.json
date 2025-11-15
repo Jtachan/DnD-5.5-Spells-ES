@@ -716,5 +716,26 @@
       "El conjuro ilumina con luz azul, verde o violeta, a tu elecci\u00f3n, el contorno de todos los objetos en un cubo de 6 m dentro del alcance. Se ilumina tambi\u00e9n el contorno de cualquier criatura dentro del \u00e1rea que falle una tirada de salvaci\u00f3n de Destreza. Hasta el final de la duraci\u00f3n del conjuro, los objetos y criaturas afectadas emiten luz tenue en un radio de 3 m.<br><br>Todas las tiradas de ataque contra una criatura u objeto afectado tienen ventaja si el atacante puede ver a su objetivo. Adem\u00e1s, aunque sean invisibles no recibir\u00e1n ninguno de los beneficios de ese estado mientras sigan afectados por fuego fe\u00e9rico."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Golpe apresador",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": "La pr\u00f3xima vez que impactes a una criatura con un ataque con arma antes del final del conjuro, una masa de enredaderas aparece en el punto de impacto. El objetivo deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Fuerza o quedar\u00e1 apresado por las enredaderas m\u00e1gicas hasta el final del conjuro. Las criaturas Grandes o de tama\u00f1o mayor tienen ventaja en la tirada de salvaci\u00f3n. Si el objetivo tiene \u00e9xito en la tirada, las enredaderas se marchitan y se secan.<br><br>Mientras siga apresado por este conjuro, el objetivo sufre 1d6 de da\u00f1o perforante al principio de cada turno. Una criatura apresada por las enredaderas puede utilizar su acci\u00f3n para hacer una prueba de Fuerza con CD igual a tu salvaci\u00f3n de conjuros. Si tiene \u00e9xito, queda libre.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "materiales": null
   }
 ]
