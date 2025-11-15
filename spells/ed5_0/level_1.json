@@ -544,5 +544,32 @@
       "Obtienes los servicios de un familiar, un esp\u00edritu que adopta una forma animal de tu elecci\u00f3n: ara\u00f1a, comadreja, b\u00faho, caballito de mar, cangrejo, cuervo, gato, halc\u00f3n, lagarto, murci\u00e9lago, pez (mordedor), pulpo, rana (sapo), rata o serpiente venenosa. Aparece en un espacio libre dentro del alcance y tiene el perfil de la forma elegida, aunque su tipo es celestial, fe\u00e9rico o infernal (a tu elecci\u00f3n) en vez de bestia.<br><br>Tu familiar act\u00faa de forma independiente, pero siempre obedece tus \u00f3rdenes. En combate hace su propia tirada de iniciativa y act\u00faa en su propio turno. Tu familiar no puede atacar, pero puede realizar otras acciones con normalidad.<br><br>Si sus puntos de golpe se reducen a 0 desaparece sin dejar rastro f\u00edsico alguno. Reaparecer\u00e1 cuando lances el conjuro de nuevo. Mientras tu familiar est\u00e9 a 30 m de ti, puedes comunicarte con \u00e9l telep\u00e1ticamente. Adem\u00e1s, puedes usar tu acci\u00f3n para ver a trav\u00e9s de los ojos del familiar y/o lo que \u00e9l oiga hasta el comienzo de tu pr\u00f3ximo turno, ganando los beneficios de cualquier sentido especial que posea. Durante este tiempo, permanecer\u00e1s sordo y ciego respecto a tus propios sentidos.<br><br>Puedes usar tu acci\u00f3n para desconvocar temporalmente tu familiar. Se retira a una dimensi\u00f3n de bolsillo, donde espera a ser convocado de nuevo. Tambi\u00e9n puedes desconvocarlo para siempre. Mientras se encuentre temporalmente desconvocado, puedes usar una acci\u00f3n para hacer que reaparezca en un espacio desocupado a 9 m o menos de ti.<br><br>No puedes tener m\u00e1s de un familiar al mismo tiempo. Si lanzas este conjuro cuando ya tienes uno haces que adopte una nueva forma. Elige de la lista anterior.<br><br>Tu familiar se transforma en la criatura elegida.<br><br>Por \u00faltimo, cuando lanzas un conjuro con un alcance de toque, puedes hacer que tu familiar sea el que toque al objetivo, con independencia de lo lejos que est\u00e9 de ti, siempre que est\u00e9 a 30 m o menos de ti y le uses tu acci\u00f3n para entregarle el conjuro, el cual lo lanza \u00e9l en tu lugar. Tu familiar debe reaccionar para lanzar el conjuro al objetivo cuando le llegue el turno. Si el conjuro requiere una tirada de ataque, usa tu modificador de ataque para la tirada."
     ],
     "materiales": "10 po de carb\u00f3n, incienso y hierbas que deben ser consumidas en el fuego de un brasero de bronce."
+  },
+  {
+    "nombre": "Enmara\u00f1ar",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Ra\u00edces, vides y malas hierbas brotan del suelo, intentando agarrar a las criaturas en un cuadrado de 20 pies de lado situado en un punto dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, estas plantas transforman el suelo del \u00e1rea en terreno dif\u00edcil.<br><br>Cualquier criatura que se encuentre en dicho espacio cuando lanzas el conjuro debe tener \u00e9xito en una tirada de salvaci\u00f3n de Fuerza o quedar apresada por las plantas enredaderas hasta el final del conjuro. Una criatura apresada puede utilizar su acci\u00f3n para hacer una prueba de Fuerza con CD igual a tu salvaci\u00f3n de conjuro. Si la supera, queda libre.<br><br>Cuando el conjuro termina, las plantas conjuradas se marchitan y se secan.",
+      "Ra\u00edces, vides y malas hierbas brotan del suelo, intentando agarrar a las criaturas en un cuadrado de 6 m de lado situado en un punto dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, estas plantas transforman el suelo del \u00e1rea en terreno dif\u00edcil.<br><br>Cualquier criatura que se encuentre en dicho espacio cuando lanzas el conjuro debe tener \u00e9xito en una tirada de salvaci\u00f3n de Fuerza o quedar apresada por las plantas enredaderas hasta el final del conjuro. Una criatura apresada puede utilizar su acci\u00f3n para hacer una prueba de Fuerza con CD igual a tu salvaci\u00f3n de conjuro. Si la supera, queda libre.<br><br>Cuando el conjuro termina, las plantas conjuradas se marchitan y se secan."
+    ],
+    "materiales": null
   }
 ]
