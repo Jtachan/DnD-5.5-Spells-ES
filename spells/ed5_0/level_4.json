@@ -379,5 +379,30 @@
       "Llamas delgadas y delicadas envuelven tu cuerpo hasta el final de la duraci\u00f3n del conjuro, emitiendo luz brillante en un radio de 3 m y luz tenue 3 m m\u00e1s all\u00e1. Puedes terminar el conjuro antes de tiempo si utilizas una acci\u00f3n para finalizarlo.<br><br>Las llamas te proporcionan un escudo c\u00e1lido o fr\u00edo, a tu elecci\u00f3n. El escudo c\u00e1lido te aporta resistencia al da\u00f1o de fr\u00edo; en cambio, el escudo fr\u00edo te provee de resistencia al da\u00f1o de fuego.<br><br>Adem\u00e1s, cuando una criatura que se encuentre a 1,5 m de ti te golpee con un ataque cuerpo a cuerpo, el escudo que elijas le infringe 2d8 de da\u00f1o de fuego si es un escudo c\u00e1lido o 2d8 de da\u00f1o de fr\u00edo de un escudo fr\u00edo."
     ],
     "materiales": "Una luci\u00e9rnaga y un poco de f\u00f3sforo."
+  },
+  {
+    "nombre": "Esfera el\u00e1stica de Otiluke",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": "Una esfera de fuerza destellante encierra a una criatura u objeto de tama\u00f1o Grande o menor dentro del alcance. Una criatura no voluntaria puede hacer una tirada de salvaci\u00f3n de Destreza. Si falla, quedar\u00e1 encerrada hasta el final de la duraci\u00f3n del conjuro.<br><br>Nada (ni objetos f\u00edsicos, energ\u00eda u otros efectos de conjuro) puede atravesar la barrera, hacia dentro o hacia fuera, pero una criatura que est\u00e9 dentro de la esfera puede respirar con normalidad. La esfera es inmune a todo el da\u00f1o. Adem\u00e1s, una criatura u objeto albergada en su interior no puede ser da\u00f1ada por ataques o efectos cuyo origen sea externo a la esfera, como tampoco puede una criatura situada dentro de la esfera da\u00f1ar algo en el exterior.<br><br>La esfera no pesa nada y es del tama\u00f1o justo para contener a la criatura u objeto. Una criatura encerrada puede utilizar su acci\u00f3n para empujar la esfera desde dentro, haci\u00e9ndola rodar a una velocidad m\u00e1xima que ser\u00e1 la mitad de la velocidad de la criatura. De la misma forma, el globo puede ser levantado y movido por otras criaturas.<br><br>Un conjuro de <i>desintegrar</i> que tenga como objetivo el globo lo destruir\u00e1 sin da\u00f1ar nada albergado dentro del mismo.",
+    "materiales": "Una pieza semiesf\u00e9rica de cristal transparente y una pieza semiesf\u00e9rica de goma ar\u00e1biga que encaje con la anterior."
   }
 ]
