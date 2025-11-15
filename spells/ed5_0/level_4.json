@@ -326,5 +326,32 @@
     "requiere_ataque": false,
     "descripcion": "Intentas encantar a una bestia que puedas ver dentro del alcance. La criatura debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizada por ti hasta el final de la duraci\u00f3n del conjuro. Tiene ventaja en esta tirada de salvaci\u00f3n si t\u00fa o una criatura amistosa hacia ti est\u00e1is luchando contra ella.<br><br>Mientras la bestia est\u00e1 hechizada, posees un enlace telep\u00e1tico con ella siempre y cuando ambos os hall\u00e9is en el mismo plano de existencia. Puedes usar este enlace para enviar \u00f3rdenes a la criatura mientras est\u00e9 consciente (no requiere acci\u00f3n) y estar\u00e1 todo lo dispuesta que est\u00e9 en su poder para obedecer. Puedes especificar un procedimiento simple, como \"ataca a esa criatura\", \"corre hasta all\u00ed\" o \"tr\u00e1eme ese objeto\". Si la criatura cumple su orden y no recibe m\u00e1s mandatos de ti, se defiende y protege en la medida de sus posibilidades.<br><br>Puedes utilizar tu acci\u00f3n para tomar un control total y preciso de la bestia. Hasta el final de tu pr\u00f3ximo turno, la criatura solo realizar\u00e1 las acciones que elijas y no har\u00e1 nada que t\u00fa no lo permitas. Durante este tiempo tambi\u00e9n podr\u00e1s hacer que la bestia lleve a cabo reacciones, pero eso har\u00e1 que emplees tambi\u00e9n tu propia reacci\u00f3n.<br><br>Cada vez que reciba da\u00f1o, la criatura hace una nueva tirada de salvaci\u00f3n contra el conjuro. Si tiene \u00e9xito, el efecto del conjuro termina.<br><br><i><b>A niveles superiores.</b></i> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 10 minutos. Si usas un espacio de conjuro de nivel 6, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 1 hora. Si empleas un espacio de conjuro de nivel 7 o m\u00e1s, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 8 horas.",
     "materiales": null
+  },
+  {
+    "nombre": "Enredadera",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Conjuras una enredadera que brota del suelo en un espacio desocupado de tu elecci\u00f3n que puedas ver dentro del alcance. Cuando lanzas este conjuro, puedes indicar a la planta que atrape a una criatura a 30 pies o menos de ella misma y que puedas ver. El objetivo debe tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o ser\u00e1 arrastrado 20 pies hacia la enredadera.<br><br>Hasta el final del conjuro, puedes usar una acci\u00f3n adicional en cada uno de tus turnos para ordenar a la planta que atrape a la misma criatura o a una distinta.",
+      "Conjuras una enredadera que brota del suelo en un espacio desocupado de tu elecci\u00f3n que puedas ver dentro del alcance. Cuando lanzas este conjuro, puedes indicar a la planta que atrape a una criatura a 9 m o menos de ella misma y que puedas ver. El objetivo debe tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o ser\u00e1 arrastrado 6 m hacia la enredadera.<br><br>Hasta el final del conjuro, puedes usar una acci\u00f3n adicional en cada uno de tus turnos para ordenar a la planta que atrape a la misma criatura o a una distinta."
+    ],
+    "materiales": null
   }
 ]
