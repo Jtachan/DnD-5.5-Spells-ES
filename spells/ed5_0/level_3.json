@@ -501,5 +501,30 @@
       "Emanas un poder divino a tu alrededor en un radio de 9 m, despertando el coraje de criaturas amistosas. El aura se mueve contigo, centrada en ti, hasta el final del conjuro. Mientras permanezcan en el aura, todas las criaturas no hostiles (incluido t\u00fa) infligen 1d4 de da\u00f1o radiante adicionales cuando impactan con un ataque con arma."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Esp\u00edritus guardianes",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador (radio de 15 pies)",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Llamas a los esp\u00edritus para que acudan en tu auxilio. Hasta el final de la duraci\u00f3n del conjuro, estos esp\u00edritus revolotean a tu alrededor, movi\u00e9ndose en un radio de 15 pies. Si eres bueno o neutral, su forma espectral es angelical o fe\u00e9rica, a tu elecci\u00f3n. Si eres malvado, su forma es infernal.<br><br>Cuando lanzas este conjuro, puedes elegir cualquier n\u00famero de criaturas que puedas ver, que no ser\u00e1n afectadas. La velocidad de una criatura afectada se reduce a la mitad mientras permanezca en el \u00e1rea. Cuando una criatura entre o comience su turno en el \u00e1rea, debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, recibir\u00e1 3d8 de da\u00f1o radiante (si eres bueno o neutral) o 3d8 de da\u00f1o necr\u00f3tico (si eres malvado). Si la supera, recibir\u00e1 la mitad de da\u00f1o.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
+      "Llamas a los esp\u00edritus para que acudan en tu auxilio. Hasta el final de la duraci\u00f3n del conjuro, estos esp\u00edritus revolotean a tu alrededor, movi\u00e9ndose en un radio de 4,5 m. Si eres bueno o neutral, su forma espectral es angelical o fe\u00e9rica, a tu elecci\u00f3n. Si eres malvado, su forma es infernal.<br><br>Cuando lanzas este conjuro, puedes elegir cualquier n\u00famero de criaturas que puedas ver, que no ser\u00e1n afectadas. La velocidad de una criatura afectada se reduce a la mitad mientras permanezca en el \u00e1rea. Cuando una criatura entre o comience su turno en el \u00e1rea, debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, recibir\u00e1 3d8 de da\u00f1o radiante (si eres bueno o neutral) o 3d8 de da\u00f1o necr\u00f3tico (si eres malvado). Si la supera, recibir\u00e1 la mitad de da\u00f1o.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Un s\u00edmbolo sagrado."
   }
 ]
