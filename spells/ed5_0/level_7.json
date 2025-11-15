@@ -155,5 +155,31 @@
       "Cambias la apariencia del terreno en una zona de hasta 1,5 km cuadrada, haciendo que se vea, suene y huela como otro tipo de terreno natural, aunque la forma general del terreno sigue pareciendo la misma. Puedes hacer que un campo abierto o una carretera parezcan un pantano, una colina, una fisura u otro tipo de terreno dif\u00edcil o infranqueable. Una charca puede parecer una pradera de hierba, un precipicio una suave ladera o un barranco lleno de rocas una carretera ancha y lisa.<br><br>De forma similar, puedes alterar la apariencia de una estructura, o a\u00f1adir otras donde antes no las hubiera. El conjuro no disfraza, oculta o altera criaturas.<br><br>La ilusi\u00f3n incluye elementos auditivos, visuales, t\u00e1ctiles y olfativos, y es capaz de convertir terreno abierto en terreno dif\u00edcil (o viceversa) o impedir el movimiento a trav\u00e9s de la zona a alguna otra manera. Cualquier elemento creado por tu ilusi\u00f3n sonoro (como el fluir del agua) se oir\u00e1 en terreno ilusionado por un o\u00eddo normal. Cualquier que sea llevado fuera del \u00e1rea del conjuro desaparecer\u00e1 como la ilusi\u00f3n.<br><br>Las criaturas con visi\u00f3n verdadera pueden ver la forma real del terreno a trav\u00e9s de la ilusi\u00f3n; sin embargo, si est\u00e1n dentro del \u00e1rea a trav\u00e9s de la ilusi\u00f3n, pueden ver la criatura o el objeto real que est\u00e1 detr\u00e1s de la ilusi\u00f3n, porque seguir interactuando f\u00edsicamente con la ilusi\u00f3n."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Excursi\u00f3n et\u00e9rea",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta 8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Viajas a las regiones exteriores del Plano Et\u00e9reo, en el \u00e1rea donde se superpone con tu plano actual. Permaneces en la Frontera Et\u00e9rea hasta el final de la duraci\u00f3n del conjuro o hasta que utilices tu acci\u00f3n para terminarlo. Mientras tanto, puedes moverte en cualquier direcci\u00f3n. Si te desplazas hacia arriba o hacia abajo, cada pie movido te cuesta 1 pie adicional. Mientras est\u00e9s en el Plano Et\u00e9reo, puedes ver y o\u00edr lo que ocurre en el plano del que vienes, aunque lo percibes en tonos de gris y solo puedes ver a 60 pies de distancia.<br><br>\u00danicamente puedes afectar y ser afectado por otras criaturas en el Plano Et\u00e9reo. Las criaturas que no est\u00e1n en \u00e9l no pueden percibirte ni interactuar contigo, a menos que alg\u00fan tipo de magia o una habilidad especial se lo permita.<br><br>Ignoras todos los objetos y efectos que no est\u00e9n en el Plano Et\u00e9reo, lo que te permite moverte a trav\u00e9s de objetos en tu plano original que puedes percibir.<br><br>Cuando el conjuro termina, vuelves inmediatamente al plano del que viniste, pero en el lugar en el que te encuentras actualmente. Si ocupas el mismo sitio que un objeto s\u00f3lido o una criatura en ese momento, ser\u00e1s desplazado al espacio desocupado m\u00e1s cercano y recibir\u00e1s tanto da\u00f1o de fuerza como el doble de pies que hayas sido desplazado.<br><br>Este conjuro no tiene efecto alguno si lo lanzas mientras est\u00e1s en el Plano Et\u00e9reo o en un plano con el que no tenga frontera, como uno de los Planos Exteriores.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 8 o m\u00e1s, puedes elegir como objetivo una criatura m\u00e1s por cada nivel del espacio por encima de 7 (que est\u00e9n a 10 pies de ti cuando lanzas el conjuro). Las criaturas deben estar a 10 pies de ti cuando lanzas el conjuro.",
+      "Viajas a las regiones exteriores del Plano Et\u00e9reo, en el \u00e1rea donde se superpone con tu plano actual. Permaneces en la Frontera Et\u00e9rea hasta el final de la duraci\u00f3n del conjuro o hasta que utilices tu acci\u00f3n para terminarlo. Mientras tanto, puedes moverte en cualquier direcci\u00f3n. Si te desplazas hacia arriba o hacia abajo, cada pie movido te cuesta 0,3 m adicional. Mientras est\u00e9s en el Plano Et\u00e9reo, puedes ver y o\u00edr lo que ocurre en el plano del que vienes, aunque lo percibes en tonos de gris y solo puedes ver a 18 m de distancia.<br><br>\u00danicamente puedes afectar y ser afectado por otras criaturas en el Plano Et\u00e9reo. Las criaturas que no est\u00e1n en \u00e9l no pueden percibirte ni interactuar contigo, a menos que alg\u00fan tipo de magia o una habilidad especial se lo permita.<br><br>Ignoras todos los objetos y efectos que no est\u00e9n en el Plano Et\u00e9reo, lo que te permite moverte a trav\u00e9s de objetos en tu plano original que puedes percibir.<br><br>Cuando el conjuro termina, vuelves inmediatamente al plano del que viniste, pero en el lugar en el que te encuentras actualmente. Si ocupas el mismo sitio que un objeto s\u00f3lido o una criatura en ese momento, ser\u00e1s desplazado al espacio desocupado m\u00e1s cercano y recibir\u00e1s tanto da\u00f1o de fuerza como el doble de pies que hayas sido desplazado.<br><br>Este conjuro no tiene efecto alguno si lo lanzas mientras est\u00e1s en el Plano Et\u00e9reo o en un plano con el que no tenga frontera, como uno de los Planos Exteriores.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 8 o m\u00e1s, puedes elegir como objetivo una criatura m\u00e1s por cada nivel del espacio por encima de 7 (que est\u00e9n a 3 m de ti cuando lanzas el conjuro). Las criaturas deben estar a 3 m de ti cuando lanzas el conjuro."
+    ],
+    "materiales": null
   }
 ]
