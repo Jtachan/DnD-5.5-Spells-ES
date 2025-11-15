@@ -404,5 +404,33 @@
     "requiere_ataque": false,
     "descripcion": "Una esfera de fuerza destellante encierra a una criatura u objeto de tama\u00f1o Grande o menor dentro del alcance. Una criatura no voluntaria puede hacer una tirada de salvaci\u00f3n de Destreza. Si falla, quedar\u00e1 encerrada hasta el final de la duraci\u00f3n del conjuro.<br><br>Nada (ni objetos f\u00edsicos, energ\u00eda u otros efectos de conjuro) puede atravesar la barrera, hacia dentro o hacia fuera, pero una criatura que est\u00e9 dentro de la esfera puede respirar con normalidad. La esfera es inmune a todo el da\u00f1o. Adem\u00e1s, una criatura u objeto albergada en su interior no puede ser da\u00f1ada por ataques o efectos cuyo origen sea externo a la esfera, como tampoco puede una criatura situada dentro de la esfera da\u00f1ar algo en el exterior.<br><br>La esfera no pesa nada y es del tama\u00f1o justo para contener a la criatura u objeto. Una criatura encerrada puede utilizar su acci\u00f3n para empujar la esfera desde dentro, haci\u00e9ndola rodar a una velocidad m\u00e1xima que ser\u00e1 la mitad de la velocidad de la criatura. De la misma forma, el globo puede ser levantado y movido por otras criaturas.<br><br>Un conjuro de <i>desintegrar</i> que tenga como objetivo el globo lo destruir\u00e1 sin da\u00f1ar nada albergado dentro del mismo.",
     "materiales": "Una pieza semiesf\u00e9rica de cristal transparente y una pieza semiesf\u00e9rica de goma ar\u00e1biga que encaje con la anterior."
+  },
+  {
+    "nombre": "Fabricar",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Conviertes materia prima en productos de ese mismo material. Por ejemplo, puedes fabricar un puente de madera a partir de un grupo de \u00e1rboles, una cuerda usando unas plantas de c\u00e1\u00f1amo o ropas partiendo de lino o lana.<br><br>Elige una materia prima que puedas ver dentro del alcance. Puedes fabricar un objeto de tama\u00f1o Grande o menor (contenido en un cubo de 10 pies de lado u ocho cubos de 5 pies conectados), siempre que tengas suficiente material disponible. Sin embargo, si trabajas con metal, piedra u otra sustancia mineral el objeto fabricado no puede ser de un tama\u00f1o mayor a Mediano (limitado a un cubo de 5 pies de lado). La calidad de los objetos creados mediante este conjuro es proporcional a la calidad de la materia prima.<br><br>No se pueden crear o transmutar criaturas u objetos m\u00e1gicos mediante este conjuro. Tampoco puedes usarlo para fabricar objetos que necesiten de gran habilidad, como joyas, armas o armadura, a menos que tengas competencia con el tipo de herramientas de artesano necesarias para elaborar esa clase de objetos.",
+      "Conviertes materia prima en productos de ese mismo material. Por ejemplo, puedes fabricar un puente de madera a partir de un grupo de \u00e1rboles, una cuerda usando unas plantas de c\u00e1\u00f1amo o ropas partiendo de lino o lana.<br><br>Elige una materia prima que puedas ver dentro del alcance. Puedes fabricar un objeto de tama\u00f1o Grande o menor (contenido en un cubo de 3 m de lado u ocho cubos de 1,5 m conectados), siempre que tengas suficiente material disponible. Sin embargo, si trabajas con metal, piedra u otra sustancia mineral el objeto fabricado no puede ser de un tama\u00f1o mayor a Mediano (limitado a un cubo de 1,5 m de lado). La calidad de los objetos creados mediante este conjuro es proporcional a la calidad de la materia prima.<br><br>No se pueden crear o transmutar criaturas u objetos m\u00e1gicos mediante este conjuro. Tampoco puedes usarlo para fabricar objetos que necesiten de gran habilidad, como joyas, armas o armadura, a menos que tengas competencia con el tipo de herramientas de artesano necesarias para elaborar esa clase de objetos."
+    ],
+    "materiales": null
   }
 ]
