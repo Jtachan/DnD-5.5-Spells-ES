@@ -157,7 +157,12 @@ def normalizar_tiempo_de_lanzamiento(text: str) -> str:
 def normalizar_alcance(text: str | list[str]) -> str | list[str]:
     """Normalizing the field 'alcance'."""
     if isinstance(text, list) and all(any(t.startswith(v) for v in NO_LIST_VALS_ALCANCE) for t in text):
-        text = "Lanzador"
+        text = text[0]
+    if not isinstance(text, list):
+        for val in NO_LIST_VALS_ALCANCE:
+            if text.startswith(val):
+                text = val
+                break
     return text
 
 
