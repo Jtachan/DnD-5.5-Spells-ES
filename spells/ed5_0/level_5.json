@@ -655,5 +655,29 @@
     "requiere_ataque": false,
     "descripcion": "Forjas un enlace telep\u00e1tico entre hasta ocho criaturas voluntarias de tu elecci\u00f3n dentro del alcance. Cada uno de los objetivos queda unido ps\u00edquicamente a los dem\u00e1s hasta el final del conjuro. Las criaturas con puntuaciones de Inteligencia de 2 o menos no se ven afectadas por este conjuro.<br><br>Hasta que finalice el conjuro, los objetivos pueden comunicarse telep\u00e1ticamente a trav\u00e9s del enlace, tengan o no un lenguaje en com\u00fan. La comunicaci\u00f3n es capaz de cubrir cualquier distancia, pero no se extiende a otros planos de existencia.",
     "materiales": "Trozos de c\u00e1scara de huevo de dos tipos distintos de criaturas."
+  },
+  {
+    "nombre": "Ensue\u00f1o",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Druida"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Especial",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro da forma a los sue\u00f1os de una criatura. Elige como objetivo de este conjuro a una criatura que conozcas. Esta criatura debe estar en tu mismo plano de existencia. Las criaturas que no duermen, como los elfos, no pueden ser contactadas por medio de este conjuro. A continuaci\u00f3n, una criatura voluntaria que toques (o t\u00fa mismo) entra en estado de trance, actuando de mensajero. Mientras est\u00e1 en trance, el mensajero es consciente de su entorno, pero no puede realizar acciones o moverse.<br><br>Si el objetivo est\u00e1 dormido, el mensajero aparecer\u00e1 en los sue\u00f1os del objetivo y podr\u00e1 conversar con \u00e9l mientras siga durmiendo, pero, como m\u00e1ximo hasta el final de la duraci\u00f3n del conjuro. El mensajero puede manipular el entorno del sue\u00f1o, creando paisajes, objetos u otras im\u00e1genes. Adem\u00e1s, es capaz de salir del trance en cualquier momento, terminando el efecto del conjuro. Por su parte, el objetivo recordar\u00e1 el sue\u00f1o con total claridad al levantarse.<br><br>Si el objetivo est\u00e1 despierto cuando lanzas el conjuro, el mensajero lo percibe y puede salir del trance (terminando el conjuro) o esperar a que el objetivo se duerma, momento en el que aparece en sus sue\u00f1os.<br><br>Puedes hacer que el mensaje parezca monstruoso y terror\u00edfico para el objetivo. Si haces esto, el mensajero puede entregar un mensaje de hasta diez palabras, pero despu\u00e9s el objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, ecos de la monstruosidad fantasmal engendran una pesadilla que dura todo el tiempo de sue\u00f1o restante del objetivo y le impide ganar beneficio alguno de su descanso. Adem\u00e1s, cuando el objetivo despierte recibir\u00e1 3d6 de da\u00f1o ps\u00edquico.<br><br>Si posees alguna parte del cuerpo del objetivo, como un mech\u00f3n de cabello, una u\u00f1a cortada o algo similar, este hace su tirada de salvaci\u00f3n con desventaja.",
+    "materiales": "Un pu\u00f1ado de arena, una pincelada de tinta y una pluma fuerte arrancada de un p\u00e1jaro dormido."
   }
 ]
