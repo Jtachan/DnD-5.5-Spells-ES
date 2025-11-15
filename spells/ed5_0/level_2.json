@@ -510,5 +510,31 @@
     "requiere_ataque": false,
     "descripcion": "Tocas un cad\u00e1ver u otro tipo de restos mortales. Hasta el final de la duraci\u00f3n del conjuro, el objetivo queda protegido de la descomposici\u00f3n y no podr\u00e1 convertirse en muerto viviente.<br><br>Los d\u00edas pasados bajo la influencia de este conjuro no cuentan respecto al l\u00edmite m\u00e1ximo para poder traer al objetivo de entre los muertos, con lo que el efecto extiende el l\u00edmite de tiempo de conjuros como levantar a los muertos.",
     "materiales": "Una pizca de sal y una pieza de cobre en cada uno de los ojos del cad\u00e1ver, ambos deben permanecer ah\u00ed hasta el final de la duraci\u00f3n del conjuro."
+  },
+  {
+    "nombre": "Embelesar",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Brujo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Creas una serie de palabras con gran poder de distracci\u00f3n. Las criaturas de tu elecci\u00f3n que puedas ver, dentro del alcance y que puedan o\u00edrte deben realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Cualquier objetivo que no pueda ser hechizado tiene \u00e9xito en esta tirada de salvaci\u00f3n autom\u00e1ticamente. Si t\u00fa o tus compa\u00f1eros est\u00e1is luchando contra alguna de las criaturas, estas tienen ventaja en la tirada. Si falla, el objetivo sufre desventaja en las pruebas de Sabidur\u00eda (Percepci\u00f3n) para percibir a otra criatura que no seas t\u00fa hasta el final del conjuro o hasta que deje de poder o\u00edrte. El conjuro termina si quedas incapacitado o no puedes hablar.",
+    "materiales": null
   }
 ]
