@@ -353,5 +353,31 @@
       "Conjuras una enredadera que brota del suelo en un espacio desocupado de tu elecci\u00f3n que puedas ver dentro del alcance. Cuando lanzas este conjuro, puedes indicar a la planta que atrape a una criatura a 9 m o menos de ella misma y que puedas ver. El objetivo debe tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o ser\u00e1 arrastrado 6 m hacia la enredadera.<br><br>Hasta el final del conjuro, puedes usar una acci\u00f3n adicional en cada uno de tus turnos para ordenar a la planta que atrape a la misma criatura o a una distinta."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Escudo de fuego",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Llamas delgadas y delicadas envuelven tu cuerpo hasta el final de la duraci\u00f3n del conjuro, emitiendo luz brillante en un radio de 10 pies y luz tenue 10 pies m\u00e1s all\u00e1. Puedes terminar el conjuro antes de tiempo si utilizas una acci\u00f3n para finalizarlo.<br><br>Las llamas te proporcionan un escudo c\u00e1lido o fr\u00edo, a tu elecci\u00f3n. El escudo c\u00e1lido te aporta resistencia al da\u00f1o de fr\u00edo; en cambio, el escudo fr\u00edo te provee de resistencia al da\u00f1o de fuego.<br><br>Adem\u00e1s, cuando una criatura que se encuentre a 5 pies de ti te golpee con un ataque cuerpo a cuerpo, el escudo que elijas le infringe 2d8 de da\u00f1o de fuego si es un escudo c\u00e1lido o 2d8 de da\u00f1o de fr\u00edo de un escudo fr\u00edo.",
+      "Llamas delgadas y delicadas envuelven tu cuerpo hasta el final de la duraci\u00f3n del conjuro, emitiendo luz brillante en un radio de 3 m y luz tenue 3 m m\u00e1s all\u00e1. Puedes terminar el conjuro antes de tiempo si utilizas una acci\u00f3n para finalizarlo.<br><br>Las llamas te proporcionan un escudo c\u00e1lido o fr\u00edo, a tu elecci\u00f3n. El escudo c\u00e1lido te aporta resistencia al da\u00f1o de fr\u00edo; en cambio, el escudo fr\u00edo te provee de resistencia al da\u00f1o de fuego.<br><br>Adem\u00e1s, cuando una criatura que se encuentre a 1,5 m de ti te golpee con un ataque cuerpo a cuerpo, el escudo que elijas le infringe 2d8 de da\u00f1o de fuego si es un escudo c\u00e1lido o 2d8 de da\u00f1o de fr\u00edo de un escudo fr\u00edo."
+    ],
+    "materiales": "Una luci\u00e9rnaga y un poco de f\u00f3sforo."
   }
 ]
