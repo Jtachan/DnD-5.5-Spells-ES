@@ -485,5 +485,30 @@
     "requiere_ataque": false,
     "descripcion": "Puedes sentir la presencia de cualquier trampa dentro del alcance que est\u00e9 en tu l\u00ednea de visi\u00f3n. En lo que a este conjuro respecta, una trampa incluye cualquier objeto que fuera a causar un efecto s\u00fabito e inesperado que t\u00fa consideres da\u00f1ino o indeseable, y que fuera creado con ese prop\u00f3sito. Por tanto, el conjuro detectar\u00e1 un \u00e1rea afectada por el conjuro alarma, un glifo custodio o una trampa mec\u00e1nica como un pozo, pero no revelar\u00e1 una zona endeble del suelo, un techo inestable o un socav\u00f3n oculto.<br><br>Este conjuro simplemente alerta de la existencia de una trampa. No te transmite la localizaci\u00f3n de cada trampa, pero s\u00ed la \u00edndole general del peligro potencial.",
     "materiales": null
+  },
+  {
+    "nombre": "Dulce descanso",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "10 d\u00edas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas un cad\u00e1ver u otro tipo de restos mortales. Hasta el final de la duraci\u00f3n del conjuro, el objetivo queda protegido de la descomposici\u00f3n y no podr\u00e1 convertirse en muerto viviente.<br><br>Los d\u00edas pasados bajo la influencia de este conjuro no cuentan respecto al l\u00edmite m\u00e1ximo para poder traer al objetivo de entre los muertos, con lo que el efecto extiende el l\u00edmite de tiempo de conjuros como levantar a los muertos.",
+    "materiales": "Una pizca de sal y una pieza de cobre en cada uno de los ojos del cad\u00e1ver, ambos deben permanecer ah\u00ed hasta el final de la duraci\u00f3n del conjuro."
   }
 ]
