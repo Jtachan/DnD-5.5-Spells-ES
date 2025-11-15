@@ -679,5 +679,34 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro da forma a los sue\u00f1os de una criatura. Elige como objetivo de este conjuro a una criatura que conozcas. Esta criatura debe estar en tu mismo plano de existencia. Las criaturas que no duermen, como los elfos, no pueden ser contactadas por medio de este conjuro. A continuaci\u00f3n, una criatura voluntaria que toques (o t\u00fa mismo) entra en estado de trance, actuando de mensajero. Mientras est\u00e1 en trance, el mensajero es consciente de su entorno, pero no puede realizar acciones o moverse.<br><br>Si el objetivo est\u00e1 dormido, el mensajero aparecer\u00e1 en los sue\u00f1os del objetivo y podr\u00e1 conversar con \u00e9l mientras siga durmiendo, pero, como m\u00e1ximo hasta el final de la duraci\u00f3n del conjuro. El mensajero puede manipular el entorno del sue\u00f1o, creando paisajes, objetos u otras im\u00e1genes. Adem\u00e1s, es capaz de salir del trance en cualquier momento, terminando el efecto del conjuro. Por su parte, el objetivo recordar\u00e1 el sue\u00f1o con total claridad al levantarse.<br><br>Si el objetivo est\u00e1 despierto cuando lanzas el conjuro, el mensajero lo percibe y puede salir del trance (terminando el conjuro) o esperar a que el objetivo se duerma, momento en el que aparece en sus sue\u00f1os.<br><br>Puedes hacer que el mensaje parezca monstruoso y terror\u00edfico para el objetivo. Si haces esto, el mensajero puede entregar un mensaje de hasta diez palabras, pero despu\u00e9s el objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, ecos de la monstruosidad fantasmal engendran una pesadilla que dura todo el tiempo de sue\u00f1o restante del objetivo y le impide ganar beneficio alguno de su descanso. Adem\u00e1s, cuando el objetivo despierte recibir\u00e1 3d6 de da\u00f1o ps\u00edquico.<br><br>Si posees alguna parte del cuerpo del objetivo, como un mech\u00f3n de cabello, una u\u00f1a cortada o algo similar, este hace su tirada de salvaci\u00f3n con desventaja.",
     "materiales": "Un pu\u00f1ado de arena, una pincelada de tinta y una pluma fuerte arrancada de un p\u00e1jaro dormido."
+  },
+  {
+    "nombre": "Escudri\u00f1ar",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Puedes ver y o\u00edr a una criatura concreta que elijas y est\u00e9 en tu mismo plano de existencia. El objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda, modificada seg\u00fan lo bien que conozcas a la criatura y el tipo de conexi\u00f3n f\u00edsica que tengas con ella. Si el objetivo sabe que est\u00e1s lanzando este conjuro y desea ser observado, puede fallar la tirada de salvaci\u00f3n voluntariamente. <table><tr><th>Conocimiento</th><th>Modificador</th></tr><tr><td>De o\u00eddas (has o\u00eddo hablar del objetivo)</td><td>+5</td></tr><tr><td>De primera mano (te han presentado o has hablado con el objetivo)</td><td>+0</td></tr><tr><td>\u00cdntimo (conoces muy bien al objetivo)</td><td>\u20135</td></table> <table><tr><th>Conexi\u00f3n</th><th>Modificador</th></tr><tr><td>Dibujo o retrato</td><td>\u20132</td></tr><tr><td>Posesi\u00f3n o prenda</td><td>\u20134</td></tr><tr><td>Parte del cuerpo, mech\u00f3n de cabello, trozo de u\u00f1a o similar</td><td>\u201310</td></tr></table> Si la tirada de salvaci\u00f3n tiene \u00e9xito, la criatura no se ver\u00e1 afectada y no podr\u00e1s utilizar este conjuro contra ella de nuevo durante 24 horas.<br><br>Si la tirada fracasa, el conjuro crea un sensor invisible a 10 pies del objetivo. Puedes ver y o\u00edr a trav\u00e9s del sensor como si estuvieras all\u00ed. El sensor se desplaza con el objetivo para mantenerse a 10 pies de \u00e9l hasta el final de la duraci\u00f3n del conjuro. Una criatura que pueda ver el sensor (porque posee <i>ver invisibilidad</i> o <i>visi\u00f3n verdadera</i>, por ejemplo) observar\u00e1 un orbe luminoso e intangible del tama\u00f1o de tu pu\u00f1o.<br><br>En vez de elegir como objetivo a una criatura, puedes escoger una localizaci\u00f3n que hayas visto antes. En ese caso, el sensor aparece en la localizaci\u00f3n y no se mueve.",
+      "Puedes ver y o\u00edr a una criatura concreta que elijas y est\u00e9 en tu mismo plano de existencia. El objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda, modificada seg\u00fan lo bien que conozcas a la criatura y el tipo de conexi\u00f3n f\u00edsica que tengas con ella. Si el objetivo sabe que est\u00e1s lanzando este conjuro y desea ser observado, puede fallar la tirada de salvaci\u00f3n voluntariamente. <table><tr><th>Conocimiento</th><th>Modificador</th></tr><tr><td>De o\u00eddas (has o\u00eddo hablar del objetivo)</td><td>+5</td></tr><tr><td>De primera mano (te han presentado o has hablado con el objetivo)</td><td>+0</td></tr><tr><td>\u00cdntimo (conoces muy bien al objetivo)</td><td>\u20135</td></table> <table><tr><th>Conexi\u00f3n</th><th>Modificador</th></tr><tr><td>Dibujo o retrato</td><td>\u20132</td></tr><tr><td>Posesi\u00f3n o prenda</td><td>\u20134</td></tr><tr><td>Parte del cuerpo, mech\u00f3n de cabello, trozo de u\u00f1a o similar</td><td>\u201310</td></tr></table> Si la tirada de salvaci\u00f3n tiene \u00e9xito, la criatura no se ver\u00e1 afectada y no podr\u00e1s utilizar este conjuro contra ella de nuevo durante 24 horas.<br><br>Si la tirada fracasa, el conjuro crea un sensor invisible a 3 m del objetivo. Puedes ver y o\u00edr a trav\u00e9s del sensor como si estuvieras all\u00ed. El sensor se desplaza con el objetivo para mantenerse a 3 m de \u00e9l hasta el final de la duraci\u00f3n del conjuro. Una criatura que pueda ver el sensor (porque posee <i>ver invisibilidad</i> o <i>visi\u00f3n verdadera</i>, por ejemplo) observar\u00e1 un orbe luminoso e intangible del tama\u00f1o de tu pu\u00f1o.<br><br>En vez de elegir como objetivo a una criatura, puedes escoger una localizaci\u00f3n que hayas visto antes. En ese caso, el sensor aparece en la localizaci\u00f3n y no se mueve."
+    ],
+    "materiales": "Un canalizador con un valor de, al menos, 1.000 po, como una bola de cristal, un espejo de plata o una pila llena de agua bendita."
   }
 ]
