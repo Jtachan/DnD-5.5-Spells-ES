@@ -308,5 +308,33 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro te permite buscar el camino m\u00e1s corto y directo a una localizaci\u00f3n fija y concreta del plano en el que te encuentras con la que est\u00e9s familiarizado. Si nombras un destino en otro plano de existencia, un destino que se mueva (como una fortaleza m\u00f3vil) o un destino no espec\u00edfico (como \u201cla guarida de un drag\u00f3n verde\u201d), el conjuro falla.<br><br>Hasta el final de la duraci\u00f3n del conjuro, y mientras te mantengas en el mismo plano de existencia que el destino, sabr\u00e1s la distancia y direcci\u00f3n hacia \u00e9l. Si mientras viajas hacia \u00e9l te presenta una bifurcaci\u00f3n, siempre sabr\u00e1s cu\u00e1l es el camino que debes tomar (pero no necesariamente el m\u00e1s seguro).",
     "materiales": "Un juego de herramientas de adivinaci\u00f3n (como huesos, palitos de marfil, cartas, dientes o runas grabadas) con un valor de 100 po y un objeto del sitio que quieres hallar."
+  },
+  {
+    "nombre": "Esfera congelante de Otiluke",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "300 pies",
+      "90 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Un globo fr\u00edgido de energ\u00eda glacial brota de tus dedos hacia un punto de tu elecci\u00f3n dentro del alcance, donde explota en un \u00e1rea esf\u00e9rica de 60 pies de radio. Cada criatura en la zona debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si falla, sufrir\u00e1 10d6 de da\u00f1o de fr\u00edo. Si tiene \u00e9xito, recibir\u00e1 la mitad de da\u00f1o.<br><br>Si el globo golpea una masa de agua o un l\u00edquido que sea sobre todo agua (pero no a criaturas hechas principalmente de agua), lo congelar\u00e1 hasta una profundidad de 6 pulgadas en un \u00e1rea cuadrada de 30 pies de lado. El hielo dura 1 minuto y las criaturas que estuvieran nadando en la superficie del agua congelada quedan atrapadas en \u00e9l. Una criatura atrapada puede utilizar su acci\u00f3n para liberarse si supera una prueba de Fuerza con CD igual a tu salvaci\u00f3n de conjuros.<br><br>Puedes no arrojar el orbe al completar el lanzamiento del conjuro. En ese caso, un peque\u00f1o globo del tama\u00f1o de una piedra de honda, fr\u00edo al tacto, aparece en tu mano. En cualquier momento, t\u00fa o una criatura a la que entregues el globo, puede lanzarlo con la mano (hasta a 40 pies de distancia) o con una honda (hasta el alcance normal de la honda). Se har\u00e1 a\u00f1icos al hacer impacto, con el mismo efecto que lanzar el conjuro de forma normal. Tambi\u00e9n puedes depositar el globo en el suelo sin que estalle. Despu\u00e9s de 1 minuto, si todav\u00eda no lo has hecho, explotar\u00e1.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
+      "Un globo fr\u00edgido de energ\u00eda glacial brota de tus dedos hacia un punto de tu elecci\u00f3n dentro del alcance, donde explota en un \u00e1rea esf\u00e9rica de 18 m de radio. Cada criatura en la zona debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si falla, sufrir\u00e1 10d6 de da\u00f1o de fr\u00edo. Si tiene \u00e9xito, recibir\u00e1 la mitad de da\u00f1o.<br><br>Si el globo golpea una masa de agua o un l\u00edquido que sea sobre todo agua (pero no a criaturas hechas principalmente de agua), lo congelar\u00e1 hasta una profundidad de 15 cm en un \u00e1rea cuadrada de 9 m de lado. El hielo dura 1 minuto y las criaturas que estuvieran nadando en la superficie del agua congelada quedan atrapadas en \u00e9l. Una criatura atrapada puede utilizar su acci\u00f3n para liberarse si supera una prueba de Fuerza con CD igual a tu salvaci\u00f3n de conjuros.<br><br>Puedes no arrojar el orbe al completar el lanzamiento del conjuro. En ese caso, un peque\u00f1o globo del tama\u00f1o de una piedra de honda, fr\u00edo al tacto, aparece en tu mano. En cualquier momento, t\u00fa o una criatura a la que entregues el globo, puede lanzarlo con la mano (hasta a 12 m de distancia) o con una honda (hasta el alcance normal de la honda). Se har\u00e1 a\u00f1icos al hacer impacto, con el mismo efecto que lanzar el conjuro de forma normal. Tambi\u00e9n puedes depositar el globo en el suelo sin que estalle. Despu\u00e9s de 1 minuto, si todav\u00eda no lo has hecho, explotar\u00e1.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Una peque\u00f1a esfera de cristal."
   }
 ]
