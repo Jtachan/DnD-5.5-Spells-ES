@@ -550,5 +550,30 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura voluntaria y la sumes en un estado catat\u00f3nico indistinguible de la muerte. Hasta el final de la duraci\u00f3n del conjuro o hasta que uses una acci\u00f3n para tocar al objetivo y finalizar el conjuro, la criatura parecer\u00e1 muerta ante cualquier inspecci\u00f3n externa o conjuro que intentara averiguar su estado. La criatura queda cegada e incapacitada y su velocidad baja a 0. El objetivo tiene resistencia al da\u00f1o cortante, de veneno y de ps\u00edquico. Si la criatura es objetivo de da\u00f1o necrotico o radiante mientras esta en this state, or si es objetivo del conjuro levantar a los muertos, la criatura tendr\u00e1 desventaja en todas las tiradas de ataque y pruebas de caracter\u00edstica mientras no tenga los beneficios de este conjuro.",
     "materiales": "Una pizca de tierra de cementerio."
+  },
+  {
+    "nombre": "Flecha de rel\u00e1mpago",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "La pr\u00f3xima vez que realices un ataque con arma a distancia antes del final de la duraci\u00f3n del conjuro, la munici\u00f3n del arma, o el arma misma si es arrojadiza, se transforman en un rel\u00e1mpago. Haz la tirada de ataque de forma normal. El objetivo sufrir\u00e1 4d8 de da\u00f1o de rel\u00e1mpago si impactas o la mitad del da\u00f1o si no, en vez del da\u00f1o normal del arma.<br><br>Impactes o falles, cada criatura que se encuentre a 10 pies o menos del objetivo debe hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 2d8 de da\u00f1o de rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>La unidad de munici\u00f3n o el arma vuelve a la normalidad inmediatamente despu\u00e9s.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o para ambos efectos del conjuro aumenta en 1d8 por cada nivel por encima de 3 del espacio que hayas empleado.",
+      "La pr\u00f3xima vez que realices un ataque con arma a distancia antes del final de la duraci\u00f3n del conjuro, la munici\u00f3n del arma, o el arma misma si es arrojadiza, se transforman en un rel\u00e1mpago. Haz la tirada de ataque de forma normal. El objetivo sufrir\u00e1 4d8 de da\u00f1o de rel\u00e1mpago si impactas o la mitad del da\u00f1o si no, en vez del da\u00f1o normal del arma.<br><br>Impactes o falles, cada criatura que se encuentre a 3 m o menos del objetivo debe hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 2d8 de da\u00f1o de rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>La unidad de munici\u00f3n o el arma vuelve a la normalidad inmediatamente despu\u00e9s.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o para ambos efectos del conjuro aumenta en 1d8 por cada nivel por encima de 3 del espacio que hayas empleado."
+    ],
+    "materiales": null
   }
 ]
