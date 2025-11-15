@@ -515,5 +515,34 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro te permite convencer a una bestia de que no quieres hacerle da\u00f1o. Elige una bestia que puedas ver dentro del alcance. Debe ser capaz de verte y o\u00edrte. Si su inteligencia es 4 o m\u00e1s, el conjuro falla. En caso contrario, el objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizado por ti hasta el final de la duraci\u00f3n del conjuro. Si t\u00fa o cualquiera de tus compa\u00f1eros da\u00f1\u00e1is al objetivo, el conjuro termina.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, puedes elegir como objetivo una bestia adicional por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
     "materiales": "Unas migajas de comida."
+  },
+  {
+    "nombre": "Encontrar familiar",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": true,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Obtienes los servicios de un familiar, un esp\u00edritu que adopta una forma animal de tu elecci\u00f3n: ara\u00f1a, comadreja, b\u00faho, caballito de mar, cangrejo, cuervo, gato, halc\u00f3n, lagarto, murci\u00e9lago, pez (mordedor), pulpo, rana (sapo), rata o serpiente venenosa. Aparece en un espacio libre dentro del alcance y tiene el perfil de la forma elegida, aunque su tipo es celestial, fe\u00e9rico o infernal (a tu elecci\u00f3n) en vez de bestia.<br><br>Tu familiar act\u00faa de forma independiente, pero siempre obedece tus \u00f3rdenes. En combate hace su propia tirada de iniciativa y act\u00faa en su propio turno. Tu familiar no puede atacar, pero puede realizar otras acciones con normalidad.<br><br>Si sus puntos de golpe se reducen a 0 desaparece sin dejar rastro f\u00edsico alguno. Reaparecer\u00e1 cuando lances el conjuro de nuevo. Mientras tu familiar est\u00e9 a 100 pies de ti, puedes comunicarte con \u00e9l telep\u00e1ticamente. Adem\u00e1s, puedes usar tu acci\u00f3n para ver a trav\u00e9s de los ojos del familiar y/o lo que \u00e9l oiga hasta el comienzo de tu pr\u00f3ximo turno, ganando los beneficios de cualquier sentido especial que posea. Durante este tiempo, permanecer\u00e1s sordo y ciego respecto a tus propios sentidos.<br><br>Puedes usar tu acci\u00f3n para desconvocar temporalmente tu familiar. Se retira a una dimensi\u00f3n de bolsillo, donde espera a ser convocado de nuevo. Tambi\u00e9n puedes desconvocarlo para siempre. Mientras se encuentre temporalmente desconvocado, puedes usar una acci\u00f3n para hacer que reaparezca en un espacio desocupado a 30 pies o menos de ti.<br><br>No puedes tener m\u00e1s de un familiar al mismo tiempo. Si lanzas este conjuro cuando ya tienes uno haces que adopte una nueva forma. Elige de la lista anterior.<br><br>Tu familiar se transforma en la criatura elegida.<br><br>Por \u00faltimo, cuando lanzas un conjuro con un alcance de toque, puedes hacer que tu familiar sea el que toque al objetivo, con independencia de lo lejos que est\u00e9 de ti, siempre que est\u00e9 a 100 pies o menos de ti y le uses tu acci\u00f3n para entregarle el conjuro, el cual lo lanza \u00e9l en tu lugar. Tu familiar debe reaccionar para lanzar el conjuro al objetivo cuando le llegue el turno. Si el conjuro requiere una tirada de ataque, usa tu modificador de ataque para la tirada.",
+      "Obtienes los servicios de un familiar, un esp\u00edritu que adopta una forma animal de tu elecci\u00f3n: ara\u00f1a, comadreja, b\u00faho, caballito de mar, cangrejo, cuervo, gato, halc\u00f3n, lagarto, murci\u00e9lago, pez (mordedor), pulpo, rana (sapo), rata o serpiente venenosa. Aparece en un espacio libre dentro del alcance y tiene el perfil de la forma elegida, aunque su tipo es celestial, fe\u00e9rico o infernal (a tu elecci\u00f3n) en vez de bestia.<br><br>Tu familiar act\u00faa de forma independiente, pero siempre obedece tus \u00f3rdenes. En combate hace su propia tirada de iniciativa y act\u00faa en su propio turno. Tu familiar no puede atacar, pero puede realizar otras acciones con normalidad.<br><br>Si sus puntos de golpe se reducen a 0 desaparece sin dejar rastro f\u00edsico alguno. Reaparecer\u00e1 cuando lances el conjuro de nuevo. Mientras tu familiar est\u00e9 a 30 m de ti, puedes comunicarte con \u00e9l telep\u00e1ticamente. Adem\u00e1s, puedes usar tu acci\u00f3n para ver a trav\u00e9s de los ojos del familiar y/o lo que \u00e9l oiga hasta el comienzo de tu pr\u00f3ximo turno, ganando los beneficios de cualquier sentido especial que posea. Durante este tiempo, permanecer\u00e1s sordo y ciego respecto a tus propios sentidos.<br><br>Puedes usar tu acci\u00f3n para desconvocar temporalmente tu familiar. Se retira a una dimensi\u00f3n de bolsillo, donde espera a ser convocado de nuevo. Tambi\u00e9n puedes desconvocarlo para siempre. Mientras se encuentre temporalmente desconvocado, puedes usar una acci\u00f3n para hacer que reaparezca en un espacio desocupado a 9 m o menos de ti.<br><br>No puedes tener m\u00e1s de un familiar al mismo tiempo. Si lanzas este conjuro cuando ya tienes uno haces que adopte una nueva forma. Elige de la lista anterior.<br><br>Tu familiar se transforma en la criatura elegida.<br><br>Por \u00faltimo, cuando lanzas un conjuro con un alcance de toque, puedes hacer que tu familiar sea el que toque al objetivo, con independencia de lo lejos que est\u00e9 de ti, siempre que est\u00e9 a 30 m o menos de ti y le uses tu acci\u00f3n para entregarle el conjuro, el cual lo lanza \u00e9l en tu lugar. Tu familiar debe reaccionar para lanzar el conjuro al objetivo cuando le llegue el turno. Si el conjuro requiere una tirada de ataque, usa tu modificador de ataque para la tirada."
+    ],
+    "materiales": "10 po de carb\u00f3n, incienso y hierbas que deben ser consumidas en el fuego de un brasero de bronce."
   }
 ]
