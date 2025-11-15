@@ -734,5 +734,34 @@
     "requiere_ataque": false,
     "descripcion": "Impones una orden m\u00e1gica a una criatura que puedas ver dentro del alcance, oblig\u00e1ndola a llevar a t\u00e9rmino una misi\u00f3n o impidi\u00e9ndole realizar una acci\u00f3n o actividad, seg\u00fan desees. El objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizado por ti hasta el final de la duraci\u00f3n del conjuro. Mientras permanezca hechizado, sufrir\u00e1 5d10 de da\u00f1o ps\u00edquico cada vez que act\u00fae de manera contraria a tus instrucciones, con un l\u00edmite de una vez al d\u00eda. Una criatura que no pueda comprenderte no se ver\u00e1 afectada por el conjuro.<br><br>Puedes dar la orden de que la criatura se autolesione o de que desarrolle una lucha a muerte seria. Si la instrucci\u00f3n es as\u00ed de extrema, el conjuro termina inmediatamente.<br><br>Tambi\u00e9n puedes terminar el conjuro antes de tiempo si utilizas una acci\u00f3n para finalizarlo. Un conjuro de <i>levantar maldici\u00f3n</i>, <i>restablecimiento mayor</i> o <i>deseo</i> tambi\u00e9n lo termina.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 u 8, la duraci\u00f3n pasa a ser de 1 a\u00f1o. Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 9, la duraci\u00f3n pasa a ser hasta que lo termines t\u00fa, y hasta que se cancele por uno de los conjuros mencionados m\u00e1s arriba.",
     "materiales": null
+  },
+  {
+    "nombre": "Golpe flam\u00edgero",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una columna de fuego divino ruge desde el cielo y cae sobre una localizaci\u00f3n de tu elecci\u00f3n. Todas las criaturas en un cilindro de 10 pies de radio y 40 pies de altura centrado en un punto dentro del alcance deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 4d6 de da\u00f1o de fuego y 4d6 de da\u00f1o radiante si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o superior, el da\u00f1o de fuego y el radiante (a tu elecci\u00f3n) aumentan en 1d6 por cada nivel por encima de 5 que tenga el espacio que hayas empleado.",
+      "Una columna de fuego divino ruge desde el cielo y cae sobre una localizaci\u00f3n de tu elecci\u00f3n. Todas las criaturas en un cilindro de 3 m de radio y 12 m de altura centrado en un punto dentro del alcance deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 4d6 de da\u00f1o de fuego y 4d6 de da\u00f1o radiante si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o superior, el da\u00f1o de fuego y el radiante (a tu elecci\u00f3n) aumentan en 1d6 por cada nivel por encima de 5 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Una pizca de azufre."
   }
 ]
