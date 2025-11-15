@@ -630,5 +630,30 @@
     "requiere_ataque": false,
     "descripcion": "Te vuelves invisible a la vez que un doble ilusorio de ti aparece donde est\u00e1s. El doble permanece hasta el final de la duraci\u00f3n del conjuro, pero la invisibilidad acaba si atacas o lanzas un conjuro.<br><br>Puedes utilizar tu acci\u00f3n para mover a tu doble ilusorio hasta dos veces tu velocidad y hacer que hable, haga gestos o se comporte como quieras.<br><br>Eres capaz de ver a trav\u00e9s de sus ojos y o\u00edr a trav\u00e9s de sus o\u00eddos como si estuvieras donde est\u00e1 \u00e9l. En cada uno de tus turnos, como acci\u00f3n adicional, puedes pasar de sus sentidos a los tuyos o viceversa. Mientras est\u00e9s usando sus sentidos, quedas cegado y ensordecido respecto a tus propios sentidos.",
     "materiales": null
+  },
+  {
+    "nombre": "Enlace telep\u00e1tico de Rary",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Forjas un enlace telep\u00e1tico entre hasta ocho criaturas voluntarias de tu elecci\u00f3n dentro del alcance. Cada uno de los objetivos queda unido ps\u00edquicamente a los dem\u00e1s hasta el final del conjuro. Las criaturas con puntuaciones de Inteligencia de 2 o menos no se ven afectadas por este conjuro.<br><br>Hasta que finalice el conjuro, los objetivos pueden comunicarse telep\u00e1ticamente a trav\u00e9s del enlace, tengan o no un lenguaje en com\u00fan. La comunicaci\u00f3n es capaz de cubrir cualquier distancia, pero no se extiende a otros planos de existencia.",
+    "materiales": "Trozos de c\u00e1scara de huevo de dos tipos distintos de criaturas."
   }
 ]
