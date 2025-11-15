@@ -178,5 +178,36 @@
     "requiere_ataque": false,
     "descripcion": "Intentas encantar a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 hechizado por ti hasta el final de la duraci\u00f3n del conjuro. Tiene ventaja en esta tirada de salvaci\u00f3n si t\u00fa o alguna criatura amistosa hacia ti est\u00e1is luchando contra \u00e9l.<br><br>Mientras la criatura est\u00e1 hechizada, posees un enlace telep\u00e1tico con ella siempre y cuando ambos os hall\u00e9is en el mismo plano de existencia. Puedes usar este enlace para enviar \u00f3rdenes al objetivo mientras est\u00e9 consciente (no requiere acci\u00f3n) y este har\u00e1 todo lo que est\u00e9 en su poder para obedecer. Puedes especificar un procedimiento simple, como \"ataca a esa criatura\", \"corre hasta all\u00ed\" o \"tr\u00e1eme ese objeto\". Si la criatura cumple su orden y no recibe m\u00e1s mandatos de ti, se defiende y protege en la medida de sus posibilidades.<br><br>Puedes utilizar tu acci\u00f3n para tomar un control total y preciso del objetivo. Hasta el final de tu pr\u00f3ximo turno, la criatura solo realizar\u00e1 las acciones que elijas y no har\u00e1 nada que no le permitas. Durante este tiempo tambi\u00e9n podr\u00e1s hacer que el objetivo lleve a cabo reacciones, pero eso har\u00e1 que emplees tambi\u00e9n tu propia reacci\u00f3n.<br><br>Cada vez que recibe da\u00f1o, la criatura hace una nueva tirada de salvaci\u00f3n contra el conjuro. Si tiene \u00e9xito, el efecto del conjuro termina.<br><br><i><b>A niveles superiores.</b></i> Si utilizas un espacio de conjuro de nivel 9, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 8 horas.",
     "materiales": null
+  },
+  {
+    "nombre": "Explosi\u00f3n solar",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Llenas de deslumbrante luz del sol una zona esf\u00e9rica de 60 pies de radio alrededor de un punto de tu elecci\u00f3n. Cada criatura en el \u00e1rea debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fracasa, recibir\u00e1 12d6 de da\u00f1o radiante y quedar\u00e1 cegada durante 1 minuto. Si la supera, recibir\u00e1 la mitad del da\u00f1o y no quedar\u00e1 cegada. Los muertos vivientes y los c\u00edclopes tienen desventaja en esta tirada de salvaci\u00f3n.<br><br>Una criatura cegada por este conjuro puede realizar otra tirada de salvaci\u00f3n de Constituci\u00f3n al final de cada uno de sus turnos. Si tiene \u00e9xito, dejar\u00e1 de estar cegada.<br><br>Este conjuro disipa cualquier oscuridad en el \u00e1rea que fuera producto de un conjuro.",
+      "Llenas de deslumbrante luz del sol una zona esf\u00e9rica de 18 m de radio alrededor de un punto de tu elecci\u00f3n. Cada criatura en el \u00e1rea debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fracasa, recibir\u00e1 12d6 de da\u00f1o radiante y quedar\u00e1 cegada durante 1 minuto. Si la supera, recibir\u00e1 la mitad del da\u00f1o y no quedar\u00e1 cegada. Los muertos vivientes y los c\u00edclopes tienen desventaja en esta tirada de salvaci\u00f3n.<br><br>Una criatura cegada por este conjuro puede realizar otra tirada de salvaci\u00f3n de Constituci\u00f3n al final de cada uno de sus turnos. Si tiene \u00e9xito, dejar\u00e1 de estar cegada.<br><br>Este conjuro disipa cualquier oscuridad en el \u00e1rea que fuera producto de un conjuro."
+    ],
+    "materiales": "Fuego y un pedazo de heliolita."
   }
 ]
