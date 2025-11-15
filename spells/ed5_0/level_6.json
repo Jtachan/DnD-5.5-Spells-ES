@@ -336,5 +336,31 @@
       "Un globo fr\u00edgido de energ\u00eda glacial brota de tus dedos hacia un punto de tu elecci\u00f3n dentro del alcance, donde explota en un \u00e1rea esf\u00e9rica de 18 m de radio. Cada criatura en la zona debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si falla, sufrir\u00e1 10d6 de da\u00f1o de fr\u00edo. Si tiene \u00e9xito, recibir\u00e1 la mitad de da\u00f1o.<br><br>Si el globo golpea una masa de agua o un l\u00edquido que sea sobre todo agua (pero no a criaturas hechas principalmente de agua), lo congelar\u00e1 hasta una profundidad de 15 cm en un \u00e1rea cuadrada de 9 m de lado. El hielo dura 1 minuto y las criaturas que estuvieran nadando en la superficie del agua congelada quedan atrapadas en \u00e9l. Una criatura atrapada puede utilizar su acci\u00f3n para liberarse si supera una prueba de Fuerza con CD igual a tu salvaci\u00f3n de conjuros.<br><br>Puedes no arrojar el orbe al completar el lanzamiento del conjuro. En ese caso, un peque\u00f1o globo del tama\u00f1o de una piedra de honda, fr\u00edo al tacto, aparece en tu mano. En cualquier momento, t\u00fa o una criatura a la que entregues el globo, puede lanzarlo con la mano (hasta a 12 m de distancia) o con una honda (hasta el alcance normal de la honda). Se har\u00e1 a\u00f1icos al hacer impacto, con el mismo efecto que lanzar el conjuro de forma normal. Tambi\u00e9n puedes depositar el globo en el suelo sin que estalle. Despu\u00e9s de 1 minuto, si todav\u00eda no lo has hecho, explotar\u00e1.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 6 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Una peque\u00f1a esfera de cristal."
+  },
+  {
+    "nombre": "Fest\u00edn de h\u00e9roes",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Haces aparecer un gran fest\u00edn, incluyendo magn\u00edfica comida y bebida. Se tarda 1 hora en consumir el fest\u00edn, que desaparece al cabo de ese tiempo. Los efectos beneficiosos no tienen lugar hasta que ha pasado esa hora. Hasta doce criaturas (adem\u00e1s de ti) pueden participar en el fest\u00edn.<br><br>Cualquier criatura que participe obtiene varios beneficios: queda curada de todas las enfermedades y veneno que la aflijan, es inmune al veneno y a ser asustada y tiene ventaja en todas sus tiradas de salvaci\u00f3n de Sabidur\u00eda. Adem\u00e1s, sus puntos de golpe m\u00e1ximos aumentan en 2d10 y recupera la misma cantidad de puntos de golpe. Estos beneficios duran 24 horas.",
+    "materiales": "Un cuenco incrustado de gemas, con un valor de, al menos, 1.000 po, que es consumido como parte del conjuro."
   }
 ]
