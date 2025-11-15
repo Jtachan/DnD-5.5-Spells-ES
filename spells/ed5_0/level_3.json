@@ -602,5 +602,27 @@
       "Transformas en una fina niebla a una criatura voluntaria a la que toques, incluyendo todo el equipo que vista o porte, hasta el final de la duraci\u00f3n del conjuro. El conjuro termina si sus puntos de golpe se reducen a 0. Las criaturas incorp\u00f3reas no se ven afectadas por la transformaci\u00f3n.<br><br>Mientras mantenga esta forma, el \u00fanico m\u00e9todo de movimiento del objetivo es una velocidad volando de 3 m. Adem\u00e1s, podr\u00e1 entrar en el espacio de otra criatura y ocuparlo. El objetivo tiene resistencia al da\u00f1o no m\u00e1gico y ventaja en las tiradas de salvaci\u00f3n de Fuerza, Destreza y Constituci\u00f3n. Tambi\u00e9n podr\u00e1 pasar a trav\u00e9s de agujeros peque\u00f1os, hendiduras estrechas o incluso grietas, pero los l\u00edquidos le bloquear\u00e1n el paso como si fueran superficies s\u00f3lidas. No podr\u00e1 volar hacia arriba a trav\u00e9s de ellos si son demasiado estrechos.<br><br>Mientras mantenga la forma de niebla, la criatura no podr\u00e1 atacar ni lanzar conjuros, ni tampoco dejarlos caer o utilizarlos, incluidas armas que llevara encima. Adem\u00e1s, no podr\u00e1 atacar o lanzar conjuros."
     ],
     "materiales": "Un poco de gasa y un jir\u00f3n de humo."
+  },
+  {
+    "nombre": "Fundirse con la piedra",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Entras en un objeto o superficie de piedra lo suficientemente grande como para contenerte. Tu cuerpo y tu equipo se funden con la piedra hasta el final de la duraci\u00f3n del conjuro. Utilizando tu movimiento, entras en la piedra a partir de un punto que puedas tocar. No ser\u00e1s visible o detectable mediante ning\u00fan medio no m\u00e1gico.<br><br>Mientras est\u00e1s fundido con la piedra no puedes ver lo que ocurre fuera y cualquier prueba de Sabidur\u00eda (Percepci\u00f3n) que realices para escuchar se hace con desventaja.<br><br>Sin embargo, todav\u00eda eres consciente del paso del tiempo y puedes lanzar conjuros sobre ti mismo mientras est\u00e1s fundido en la piedra. Eres capaz de usar tu movimiento para abandonar la piedra por donde entraste, pero esto finaliza el conjuro. No te puedes mover de ning\u00fan otro modo.<br><br>El da\u00f1o f\u00edsico superficial a la piedra no te afecta, pero su destrucci\u00f3n parcial o un cambio en su forma (tal que ya no pueda contenerte) te expulsa y sufres 6d6 de da\u00f1o contundente. La destrucci\u00f3n completa de la piedra (o su transmutaci\u00f3n a una sustancia distinta) tambi\u00e9n te expulsa, infligi\u00e9ndote 50 de da\u00f1o contundente en el proceso. Si eres expulsado, quedas derribado en el espacio desocupado m\u00e1s cercano al de tu entrada.",
+    "materiales": null
   }
 ]
