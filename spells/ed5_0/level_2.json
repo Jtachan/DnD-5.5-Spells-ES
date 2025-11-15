@@ -536,5 +536,33 @@
     "requiere_ataque": false,
     "descripcion": "Creas una serie de palabras con gran poder de distracci\u00f3n. Las criaturas de tu elecci\u00f3n que puedas ver, dentro del alcance y que puedan o\u00edrte deben realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Cualquier objetivo que no pueda ser hechizado tiene \u00e9xito en esta tirada de salvaci\u00f3n autom\u00e1ticamente. Si t\u00fa o tus compa\u00f1eros est\u00e1is luchando contra alguna de las criaturas, estas tienen ventaja en la tirada. Si falla, el objetivo sufre desventaja en las pruebas de Sabidur\u00eda (Percepci\u00f3n) para percibir a otra criatura que no seas t\u00fa hasta el final del conjuro o hasta que deje de poder o\u00edrte. El conjuro termina si quedas incapacitado o no puedes hablar.",
     "materiales": null
+  },
+  {
+    "nombre": "Esfera de llamas",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una esfera de fuego de 5 pies de di\u00e1metro aparece en un espacio desocupado que elijas dentro del alcance y se mantiene hasta el final de la duraci\u00f3n del conjuro. Cualquier criatura que empiece su turno a 5 pies o menos de la esfera debe hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1 2d6 de da\u00f1o de fuego si falla la tirada o la mitad del da\u00f1o si la supera.<br><br>Como acci\u00f3n adicional, puedes mover la esfera hasta 30 pies a una nueva localizaci\u00f3n dentro del alcance. Si embistes con la esfera a una criatura, esta debe hacer la tirada de salvaci\u00f3n contra el da\u00f1o de la esfera, que ya no podr\u00e1 moverse m\u00e1s durante este turno.<br><br>Cuando desplazas la esfera, puedes moverla por encima de barreras de hasta 5 pies de alto y hacer que salte hoyos de hasta 10 pies de ancho. Adem\u00e1s, la esfera prende cualquier objeto inflamable que no vista o lleve alguien, y emite luz brillante en un radio de 20 pies y luz tenue en un radio de 20 pies m\u00e1s.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o superior, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+      "Una esfera de fuego de 1,5 m de di\u00e1metro aparece en un espacio desocupado que elijas dentro del alcance y se mantiene hasta el final de la duraci\u00f3n del conjuro. Cualquier criatura que empiece su turno a 1,5 m o menos de la esfera debe hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1 2d6 de da\u00f1o de fuego si falla la tirada o la mitad del da\u00f1o si la supera.<br><br>Como acci\u00f3n adicional, puedes mover la esfera hasta 9 m a una nueva localizaci\u00f3n dentro del alcance. Si embistes con la esfera a una criatura, esta debe hacer la tirada de salvaci\u00f3n contra el da\u00f1o de la esfera, que ya no podr\u00e1 moverse m\u00e1s durante este turno.<br><br>Cuando desplazas la esfera, puedes moverla por encima de barreras de hasta 1,5 m de alto y hacer que salte hoyos de hasta 3 m de ancho. Adem\u00e1s, la esfera prende cualquier objeto inflamable que no vista o lleve alguien, y emite luz brillante en un radio de 6 m y luz tenue en un radio de 6 m m\u00e1s.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o superior, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Un pedazo de sebo, una pizca de azufre y un poco de hierro en polvo."
   }
 ]
