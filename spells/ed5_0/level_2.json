@@ -564,5 +564,31 @@
       "Una esfera de fuego de 1,5 m de di\u00e1metro aparece en un espacio desocupado que elijas dentro del alcance y se mantiene hasta el final de la duraci\u00f3n del conjuro. Cualquier criatura que empiece su turno a 1,5 m o menos de la esfera debe hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1 2d6 de da\u00f1o de fuego si falla la tirada o la mitad del da\u00f1o si la supera.<br><br>Como acci\u00f3n adicional, puedes mover la esfera hasta 9 m a una nueva localizaci\u00f3n dentro del alcance. Si embistes con la esfera a una criatura, esta debe hacer la tirada de salvaci\u00f3n contra el da\u00f1o de la esfera, que ya no podr\u00e1 moverse m\u00e1s durante este turno.<br><br>Cuando desplazas la esfera, puedes moverla por encima de barreras de hasta 1,5 m de alto y hacer que salte hoyos de hasta 3 m de ancho. Adem\u00e1s, la esfera prende cualquier objeto inflamable que no vista o lleve alguien, y emite luz brillante en un radio de 6 m y luz tenue en un radio de 6 m m\u00e1s.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o superior, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Un pedazo de sebo, una pizca de azufre y un poco de hierro en polvo."
+  },
+  {
+    "nombre": "Flecha \u00e1cida de Melf",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Una reluciente flecha verde sale como un rayo hacia un objetivo dentro del alcance y explota en una rociada de \u00e1cido. Haz un ataque de conjuro a distancia contra el objetivo. Si tienes \u00e9xito, este recibe 4d4 de da\u00f1o de \u00e1cido inmediatamente y 2d4 m\u00e1s al final de su siguiente turno. Si falla, la flecha salpica al objetivo de \u00e1cido, haci\u00e9ndole la mitad del da\u00f1o inicial y ning\u00fan da\u00f1o al final de su siguiente turno.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, el da\u00f1o (tanto el inicial como el posterior) aumenta en 1d4 por cada nivel por encima de 2 del espacio.",
+    "materiales": "Ruibarbo en polvo y el est\u00f3mago de una culebra."
   }
 ]
