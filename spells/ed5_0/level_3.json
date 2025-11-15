@@ -526,5 +526,29 @@
       "Llamas a los esp\u00edritus para que acudan en tu auxilio. Hasta el final de la duraci\u00f3n del conjuro, estos esp\u00edritus revolotean a tu alrededor, movi\u00e9ndose en un radio de 4,5 m. Si eres bueno o neutral, su forma espectral es angelical o fe\u00e9rica, a tu elecci\u00f3n. Si eres malvado, su forma es infernal.<br><br>Cuando lanzas este conjuro, puedes elegir cualquier n\u00famero de criaturas que puedas ver, que no ser\u00e1n afectadas. La velocidad de una criatura afectada se reduce a la mitad mientras permanezca en el \u00e1rea. Cuando una criatura entre o comience su turno en el \u00e1rea, debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, recibir\u00e1 3d8 de da\u00f1o radiante (si eres bueno o neutral) o 3d8 de da\u00f1o necr\u00f3tico (si eres malvado). Si la supera, recibir\u00e1 la mitad de da\u00f1o.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 3 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Un s\u00edmbolo sagrado."
+  },
+  {
+    "nombre": "Fingir muerte",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria y la sumes en un estado catat\u00f3nico indistinguible de la muerte. Hasta el final de la duraci\u00f3n del conjuro o hasta que uses una acci\u00f3n para tocar al objetivo y finalizar el conjuro, la criatura parecer\u00e1 muerta ante cualquier inspecci\u00f3n externa o conjuro que intentara averiguar su estado. La criatura queda cegada e incapacitada y su velocidad baja a 0. El objetivo tiene resistencia al da\u00f1o cortante, de veneno y de ps\u00edquico. Si la criatura es objetivo de da\u00f1o necrotico o radiante mientras esta en this state, or si es objetivo del conjuro levantar a los muertos, la criatura tendr\u00e1 desventaja en todas las tiradas de ataque y pruebas de caracter\u00edstica mientras no tenga los beneficios de este conjuro.",
+    "materiales": "Una pizca de tierra de cementerio."
   }
 ]
