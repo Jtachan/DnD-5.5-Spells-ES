@@ -284,5 +284,29 @@
       "Un fino rayo verde surge de tu dedo hacia un objetivo que puedas ver dentro del alcance. El objetivo puede ser una criatura, un objeto o una creaci\u00f3n de fuerza m\u00e1gica, como el muro creado por <i>muro de fuerza</i>.<br><br>Si el objetivo es una criatura debe hacer una tirada de salvaci\u00f3n de Destreza. Si falla, recibe 10d6 + 40 de da\u00f1o de fuerza. Si este ataque reduce los puntos de golpe del objetivo a 0, ser\u00e1 desintegrado.<br><br>Una criatura desintegrada y todo lo que vista o lleve, excepto objetos m\u00e1gicos, quedan reducidos a un montoncito de polvo gris. La criatura solo puede ser devuelta a la vida mediante un conjuro de <i>deseo</i> o de <i>resurrecci\u00f3n verdadera</i>.<br><br>Este conjuro desintegra autom\u00e1ticamente un objeto no m\u00e1gico o una creaci\u00f3n de fuerza m\u00e1gica de tama\u00f1o Grande o menor. Si el objetivo es un objeto o creaci\u00f3n de fuerza m\u00e1gica de tama\u00f1o Enorme o mayor, este conjuro desintegra una zona equivalente a un cubo de 3 m de lado. Un objeto desintegrado no se ve afectado por este conjuro.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, el da\u00f1o aumenta en 3d6 por cada nivel por encima de 6 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Un im\u00e1n natural y una pizca de polvo."
+  },
+  {
+    "nombre": "Encontrar el camino",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 d\u00eda",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro te permite buscar el camino m\u00e1s corto y directo a una localizaci\u00f3n fija y concreta del plano en el que te encuentras con la que est\u00e9s familiarizado. Si nombras un destino en otro plano de existencia, un destino que se mueva (como una fortaleza m\u00f3vil) o un destino no espec\u00edfico (como \u201cla guarida de un drag\u00f3n verde\u201d), el conjuro falla.<br><br>Hasta el final de la duraci\u00f3n del conjuro, y mientras te mantengas en el mismo plano de existencia que el destino, sabr\u00e1s la distancia y direcci\u00f3n hacia \u00e9l. Si mientras viajas hacia \u00e9l te presenta una bifurcaci\u00f3n, siempre sabr\u00e1s cu\u00e1l es el camino que debes tomar (pero no necesariamente el m\u00e1s seguro).",
+    "materiales": "Un juego de herramientas de adivinaci\u00f3n (como huesos, palitos de marfil, cartas, dientes o runas grabadas) con un valor de 100 po y un objeto del sitio que quieres hallar."
   }
 ]
