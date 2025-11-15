@@ -101,5 +101,34 @@
     "requiere_ataque": false,
     "descripcion": "T\u00fa y hasta ocho criaturas voluntarias os tom\u00e1is las manos en c\u00edrculo y sois transportados a un plano de existencia diferente. Puedes especificar el destino deseado en t\u00e9rminos generales, como la Ciudad de Bronce en el Plano Elemental de Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecer\u00e9is en esa localizaci\u00f3n o en un lugar pr\u00f3ximo a ella. Si est\u00e1s intentando llegar a la Ciudad de Bronce, por ejemplo, podr\u00edas aparecer en la calle de Acero, delante de la Puerta de las Cenizas o al otro lado del Mar de Fuego, mirando a la ciudad, seg\u00fan decida el DM.<br><br>De modo alternativo, si conoces la secuencia de sellos de un c\u00edrculo de teletransportaci\u00f3n en otro plano de existencia, este conjuro puede llevarte hasta \u00e9l. Si en el c\u00edrculo de teletransportaci\u00f3n no caben todas las criaturas que has transportado, aparecer\u00e1n en los espacios desocupados m\u00e1s cercanos a dicho c\u00edrculo.<br><br>Puedes usar este conjuro para exiliar a una criatura no voluntaria a otro plano. Haz un ataque de conjuro cuerpo a cuerpo contra la criatura de tu elecci\u00f3n dentro de tu alcance. Si impactas, el objetivo debe hacer una tirada de salvaci\u00f3n de Carisma. Si fracasa, es transportada a una localizaci\u00f3n aleatoria del plano de existencia que elijas. Una criatura transportada de este modo debe encontrar por su propio camino de vuelta a tu plano actual.",
     "materiales": "Una vara de metal bifurcada en forma de horquilla, con un valor de, al menos, 250 po y sintonizada a un plano de existencia concreto."
+  },
+  {
+    "nombre": "Espada de Mordenkainen",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": [
+      "Creas un plano de fuerza en forma de espada que levita cerca del alcance y permanece hasta el final de la duraci\u00f3n del conjuro.<br><br>Cuando haces aparecer la espada, puedes realizar un ataque de conjuro cuerpo a cuerpo contra una criatura que se encuentre a 5 pies del arma. Si impactas, el objetivo recibe 3d10 de da\u00f1o de fuerza.<br><br>Hasta el final del conjuro puedes usar una acci\u00f3n adicional en cada uno de tus turnos para mover la espada hasta 20 pies a un punto que puedas ver y repetir este ataque, contra el mismo objetivo o uno nuevo.",
+      "Creas un plano de fuerza en forma de espada que levita cerca del alcance y permanece hasta el final de la duraci\u00f3n del conjuro.<br><br>Cuando haces aparecer la espada, puedes realizar un ataque de conjuro cuerpo a cuerpo contra una criatura que se encuentre a 1,5 m del arma. Si impactas, el objetivo recibe 3d10 de da\u00f1o de fuerza.<br><br>Hasta el final del conjuro puedes usar una acci\u00f3n adicional en cada uno de tus turnos para mover la espada hasta 6 m a un punto que puedas ver y repetir este ataque, contra el mismo objetivo o uno nuevo."
+    ],
+    "materiales": "Una espada en miniatura de platino, con empu\u00f1adura y pomo de cobre y zinc, con un valor de 250 po."
   }
 ]
