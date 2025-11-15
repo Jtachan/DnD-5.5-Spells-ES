@@ -597,5 +597,27 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que termine la duraci\u00f3n del conjuro, entiendes el significado literal de las palabras que escuches en cualquier idioma. Tambi\u00e9n comprendes todos los textos escritos que veas, independientemente del lenguaje, pero debes poder tocar la superficie en la que est\u00e1n escritos. Tardar\u00e1s aproximadamente un minuto en leer una p\u00e1gina.<br><br>Este conjuro no descifra mensajes secretos de un texto o glifo, como un sello arcano, que no forme parte de un lenguaje escrito.",
     "materiales": "Una pizca de holl\u00edn y sal."
+  },
+  {
+    "nombre": "Escudo",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Reacci\u00f3n, que llevas a cabo cuando eres impactado por un ataque o eres objetivo del conjuro proyectil m\u00e1gico",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Aparece una barrera invisible de fuerza que te protege. Hasta el principio de tu siguiente turno, tienes un bonificador de +5 a tu CA, que tambi\u00e9n afecta al ataque que ha activado el conjuro y, adem\u00e1s, no recibes ning\u00fan da\u00f1o del conjuro proyectil m\u00e1gico.",
+    "materiales": null
   }
 ]
