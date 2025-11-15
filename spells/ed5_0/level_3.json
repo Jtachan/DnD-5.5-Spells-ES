@@ -575,5 +575,32 @@
       "La pr\u00f3xima vez que realices un ataque con arma a distancia antes del final de la duraci\u00f3n del conjuro, la munici\u00f3n del arma, o el arma misma si es arrojadiza, se transforman en un rel\u00e1mpago. Haz la tirada de ataque de forma normal. El objetivo sufrir\u00e1 4d8 de da\u00f1o de rel\u00e1mpago si impactas o la mitad del da\u00f1o si no, en vez del da\u00f1o normal del arma.<br><br>Impactes o falles, cada criatura que se encuentre a 3 m o menos del objetivo debe hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 2d8 de da\u00f1o de rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>La unidad de munici\u00f3n o el arma vuelve a la normalidad inmediatamente despu\u00e9s.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o para ambos efectos del conjuro aumenta en 1d8 por cada nivel por encima de 3 del espacio que hayas empleado."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Forma gaseosa",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Transformas en una fina niebla a una criatura voluntaria a la que toques, incluyendo todo el equipo que vista o porte, hasta el final de la duraci\u00f3n del conjuro. El conjuro termina si sus puntos de golpe se reducen a 0. Las criaturas incorp\u00f3reas no se ven afectadas por la transformaci\u00f3n.<br><br>Mientras mantenga esta forma, el \u00fanico m\u00e9todo de movimiento del objetivo es una velocidad volando de 10 pies. Adem\u00e1s, podr\u00e1 entrar en el espacio de otra criatura y ocuparlo. El objetivo tiene resistencia al da\u00f1o no m\u00e1gico y ventaja en las tiradas de salvaci\u00f3n de Fuerza, Destreza y Constituci\u00f3n. Tambi\u00e9n podr\u00e1 pasar a trav\u00e9s de agujeros peque\u00f1os, hendiduras estrechas o incluso grietas, pero los l\u00edquidos le bloquear\u00e1n el paso como si fueran superficies s\u00f3lidas. No podr\u00e1 volar hacia arriba a trav\u00e9s de ellos si son demasiado estrechos.<br><br>Mientras mantenga la forma de niebla, la criatura no podr\u00e1 atacar ni lanzar conjuros, ni tampoco dejarlos caer o utilizarlos, incluidas armas que llevara encima. Adem\u00e1s, no podr\u00e1 atacar o lanzar conjuros.",
+      "Transformas en una fina niebla a una criatura voluntaria a la que toques, incluyendo todo el equipo que vista o porte, hasta el final de la duraci\u00f3n del conjuro. El conjuro termina si sus puntos de golpe se reducen a 0. Las criaturas incorp\u00f3reas no se ven afectadas por la transformaci\u00f3n.<br><br>Mientras mantenga esta forma, el \u00fanico m\u00e9todo de movimiento del objetivo es una velocidad volando de 3 m. Adem\u00e1s, podr\u00e1 entrar en el espacio de otra criatura y ocuparlo. El objetivo tiene resistencia al da\u00f1o no m\u00e1gico y ventaja en las tiradas de salvaci\u00f3n de Fuerza, Destreza y Constituci\u00f3n. Tambi\u00e9n podr\u00e1 pasar a trav\u00e9s de agujeros peque\u00f1os, hendiduras estrechas o incluso grietas, pero los l\u00edquidos le bloquear\u00e1n el paso como si fueran superficies s\u00f3lidas. No podr\u00e1 volar hacia arriba a trav\u00e9s de ellos si son demasiado estrechos.<br><br>Mientras mantenga la forma de niebla, la criatura no podr\u00e1 atacar ni lanzar conjuros, ni tampoco dejarlos caer o utilizarlos, incluidas armas que llevara encima. Adem\u00e1s, no podr\u00e1 atacar o lanzar conjuros."
+    ],
+    "materiales": "Un poco de gasa y un jir\u00f3n de humo."
   }
 ]
