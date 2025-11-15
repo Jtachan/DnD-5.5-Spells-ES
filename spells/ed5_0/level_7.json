@@ -130,5 +130,30 @@
       "Creas un plano de fuerza en forma de espada que levita cerca del alcance y permanece hasta el final de la duraci\u00f3n del conjuro.<br><br>Cuando haces aparecer la espada, puedes realizar un ataque de conjuro cuerpo a cuerpo contra una criatura que se encuentre a 1,5 m del arma. Si impactas, el objetivo recibe 3d10 de da\u00f1o de fuerza.<br><br>Hasta el final del conjuro puedes usar una acci\u00f3n adicional en cada uno de tus turnos para mover la espada hasta 6 m a un punto que puedas ver y repetir este ataque, contra el mismo objetivo o uno nuevo."
     ],
     "materiales": "Una espada en miniatura de platino, con empu\u00f1adura y pomo de cobre y zinc, con un valor de 250 po."
+  },
+  {
+    "nombre": "Espejismo arcano",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": "Vista",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "10 d\u00edas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Cambias la apariencia del terreno en una zona de hasta 1 milla cuadrada, haciendo que se vea, suene y huela como otro tipo de terreno natural, aunque la forma general del terreno sigue pareciendo la misma. Puedes hacer que un campo abierto o una carretera parezcan un pantano, una colina, una fisura u otro tipo de terreno dif\u00edcil o infranqueable. Una charca puede parecer una pradera de hierba, un precipicio una suave ladera o un barranco lleno de rocas una carretera ancha y lisa.<br><br>De forma similar, puedes alterar la apariencia de una estructura, o a\u00f1adir otras donde antes no las hubiera. El conjuro no disfraza, oculta o altera criaturas.<br><br>La ilusi\u00f3n incluye elementos auditivos, visuales, t\u00e1ctiles y olfativos, y es capaz de convertir terreno abierto en terreno dif\u00edcil (o viceversa) o impedir el movimiento a trav\u00e9s de la zona a alguna otra manera. Cualquier elemento creado por tu ilusi\u00f3n sonoro (como el fluir del agua) se oir\u00e1 en terreno ilusionado por un o\u00eddo normal. Cualquier que sea llevado fuera del \u00e1rea del conjuro desaparecer\u00e1 como la ilusi\u00f3n.<br><br>Las criaturas con visi\u00f3n verdadera pueden ver la forma real del terreno a trav\u00e9s de la ilusi\u00f3n; sin embargo, si est\u00e1n dentro del \u00e1rea a trav\u00e9s de la ilusi\u00f3n, pueden ver la criatura o el objeto real que est\u00e1 detr\u00e1s de la ilusi\u00f3n, porque seguir interactuando f\u00edsicamente con la ilusi\u00f3n.",
+      "Cambias la apariencia del terreno en una zona de hasta 1,5 km cuadrada, haciendo que se vea, suene y huela como otro tipo de terreno natural, aunque la forma general del terreno sigue pareciendo la misma. Puedes hacer que un campo abierto o una carretera parezcan un pantano, una colina, una fisura u otro tipo de terreno dif\u00edcil o infranqueable. Una charca puede parecer una pradera de hierba, un precipicio una suave ladera o un barranco lleno de rocas una carretera ancha y lisa.<br><br>De forma similar, puedes alterar la apariencia de una estructura, o a\u00f1adir otras donde antes no las hubiera. El conjuro no disfraza, oculta o altera criaturas.<br><br>La ilusi\u00f3n incluye elementos auditivos, visuales, t\u00e1ctiles y olfativos, y es capaz de convertir terreno abierto en terreno dif\u00edcil (o viceversa) o impedir el movimiento a trav\u00e9s de la zona a alguna otra manera. Cualquier elemento creado por tu ilusi\u00f3n sonoro (como el fluir del agua) se oir\u00e1 en terreno ilusionado por un o\u00eddo normal. Cualquier que sea llevado fuera del \u00e1rea del conjuro desaparecer\u00e1 como la ilusi\u00f3n.<br><br>Las criaturas con visi\u00f3n verdadera pueden ver la forma real del terreno a trav\u00e9s de la ilusi\u00f3n; sin embargo, si est\u00e1n dentro del \u00e1rea a trav\u00e9s de la ilusi\u00f3n, pueden ver la criatura o el objeto real que est\u00e1 detr\u00e1s de la ilusi\u00f3n, porque seguir interactuando f\u00edsicamente con la ilusi\u00f3n."
+    ],
+    "materiales": null
   }
 ]
