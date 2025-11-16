@@ -302,7 +302,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Polimorfar verdadero                    | 9         | True Polymorph                |
 | Portal                                  | 9         | Gate                          |
 | Potenciar característica                | 2         | Enhance Ability               |
-| Presciencia                             | 9         | Foresight                     |
+| Presciencia (Presagio)                  | 9         | Foresight                     |
 | Presencia regia de Yolande              | 5         | ❌                             |
 | Prestidigitación                        | 0 (Truco) | Prestidigitation              |
 | Prohibición                             | 6         | Forbiddance                   |

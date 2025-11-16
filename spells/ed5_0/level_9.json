@@ -248,5 +248,28 @@
       "Conjuras un portal que enlaza un espacio desocupado que puedas ver dentro del alcance, con una localizaci\u00f3n precisa en otro plano de existencia. El portal es una apertura circular de entre 5 y 6 m, a tu elecci\u00f3n. Puedes orientar el portal en la direcci\u00f3n que desees y se mantendr\u00e1 hasta el final de la duraci\u00f3n del conjuro.<br><br>El portal tiene un anverso y un reverso en cada plano que conecta. Viajar solo es posible movi\u00e9ndose a trav\u00e9s del anverso. Cualquier cosa que lo haga es transportada instant\u00e1neamente al otro plano, apareciendo en el espacio desocupado m\u00e1s cercano al portal.<br><br>Deidades y otros gobernantes de los planos pueden evitar que se abran los portales creados por este conjuro, en su presencia o en cualquier parte de sus dominios.<br><br>Cuando lanzas este conjuro, puedes decir el nombre de una criatura espec\u00edfica (un pseud\u00f3nimo, t\u00edtulo o apodo no es suficiente). Si esa criatura est\u00e1 en un plano diferente al tuyo, el portal se abrir\u00e1 al lado de ella y la transportar\u00e1 a tu plano, dej\u00e1ndola en el espacio desocupado m\u00e1s cercano al portal. No tienes ning\u00fan poder especial sobre la criatura y es libre de actuar de modo que el DM considere apropiado. Puede irse, atacarte o ayudarte."
     ],
     "materiales": "Un diamante que valga, al menos, 5.000 po."
+  },
+  {
+    "nombre": "Presagio",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria, a la que otorgas una habilidad limitada para ver el futuro inmediato. Hasta el final de la duraci\u00f3n del conjuro, el objetivo no puede ser sorprendido y tiene ventaja en tiradas de ataque, pruebas de caracter\u00edsticas y tiradas de salvaci\u00f3n. Adem\u00e1s, las otras criaturas tienen desventaja en tiradas de ataque contra el objetivo.<br><br>El conjuro termina inmediatamente si lo lanzas de nuevo antes de que termine.",
+    "materiales": "Una pluma de colibr\u00ed."
   }
 ]
