@@ -648,5 +648,32 @@
       "Un s\u00fabito y fuerte ta\u00f1ido, de una intensidad dolorosa, brota de un punto de tu elecci\u00f3n que se encuentre dentro del alcance. Todas las criaturas en una esfera de 3 m centrada en el punto deben hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1n 3d8 de da\u00f1o de trueno si fallan la tirada o la mitad del da\u00f1o si la superan. Una criatura hecha de un material inorg\u00e1nico, como piedra, cristal o metal, tiene desventaja en esta tirada de salvaci\u00f3n.<br><br>Un objeto no m\u00e1gico que no lleve o vista alguien tambi\u00e9n recibir\u00e1 el da\u00f1o si se encuentra dentro del \u00e1rea afectada.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o mayor, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Una lasca de mica."
+  },
+  {
+    "nombre": "Hallar corcel",
+    "clases": [
+      "Palad\u00edn"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Invocas un esp\u00edritu que asume la forma de un corcel especialmente inteligente, fuerte y leal, creando un v\u00ednculo duradero con \u00e9l. Aparece en un espacio libre dentro del alcance y toma una forma de tu elecci\u00f3n entre las siguientes: un caballo de batalla, un poni, un camello, un alce o un mast\u00edn (tu DM puede permitir que otros animales sean invocados como corceles). Aparece en un espacio libre dentro del alcance y tiene el perfil de la forma elegida, aunque su tipo es celestial, fe\u00e9rico o infernal (a tu elecci\u00f3n) en vez de bestia. Adem\u00e1s, si tu corcel tiene Inteligencia 5 o menos, esta pasa a ser 6 y podr\u00e1 entender un idioma de tu elecci\u00f3n que hables.<br><br>El corcel te sirve como montura, tanto dentro como fuera del combate, y ten\u00e9is un v\u00ednculo instintivo que os permite luchar como si fuerais uno. Mientras est\u00e9s cabalgando sobre \u00e9l, puedes elegir que cualquier conjuro que lances que te afecte solo a ti afecte tambi\u00e9n a tu corcel.<br><br>Si sus puntos de golpe se reducen a 0, desaparece sin dejar rastro f\u00edsico alguno. Puedes desconvocarlo en cualquier momento como acci\u00f3n, haciendo que desaparezca. Sea cual sea el caso, lanzar este conjuro de nuevo recupera al mismo corcel, devolvi\u00e9ndolo a sus puntos de golpe m\u00e1ximos.<br><br>Mientras tu corcel est\u00e9 a 1 milla de ti, puedes comunicarte con \u00e9l telep\u00e1ticamente.<br><br>No puedes estar atado mediante este conjuro a m\u00e1s de un corcel a la vez.",
+      "Invocas un esp\u00edritu que asume la forma de un corcel especialmente inteligente, fuerte y leal, creando un v\u00ednculo duradero con \u00e9l. Aparece en un espacio libre dentro del alcance y toma una forma de tu elecci\u00f3n entre las siguientes: un caballo de batalla, un poni, un camello, un alce o un mast\u00edn (tu DM puede permitir que otros animales sean invocados como corceles). Aparece en un espacio libre dentro del alcance y tiene el perfil de la forma elegida, aunque su tipo es celestial, fe\u00e9rico o infernal (a tu elecci\u00f3n) en vez de bestia. Adem\u00e1s, si tu corcel tiene Inteligencia 5 o menos, esta pasa a ser 6 y podr\u00e1 entender un idioma de tu elecci\u00f3n que hables.<br><br>El corcel te sirve como montura, tanto dentro como fuera del combate, y ten\u00e9is un v\u00ednculo instintivo que os permite luchar como si fuerais uno. Mientras est\u00e9s cabalgando sobre \u00e9l, puedes elegir que cualquier conjuro que lances que te afecte solo a ti afecte tambi\u00e9n a tu corcel.<br><br>Si sus puntos de golpe se reducen a 0, desaparece sin dejar rastro f\u00edsico alguno. Puedes desconvocarlo en cualquier momento como acci\u00f3n, haciendo que desaparezca. Sea cual sea el caso, lanzar este conjuro de nuevo recupera al mismo corcel, devolvi\u00e9ndolo a sus puntos de golpe m\u00e1ximos.<br><br>Mientras tu corcel est\u00e9 a 1,5 km de ti, puedes comunicarte con \u00e9l telep\u00e1ticamente.<br><br>No puedes estar atado mediante este conjuro a m\u00e1s de un corcel a la vez."
+    ],
+    "materiales": null
   }
 ]
