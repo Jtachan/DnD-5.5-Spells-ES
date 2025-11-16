@@ -676,5 +676,31 @@
       "Imbuyes todas las plantas a 9 m o menos de ti con vivacidad y una conciencia limitada, permiti\u00e9ndoles comunicarse contigo y seguir \u00f3rdenes simples. Puedes preguntar a las plantas sobre eventos que han ocurrido en el \u00e1rea del conjuro en el \u00faltimo d\u00eda, como por ejemplo las criaturas que han pasado por all\u00ed, el clima u otras circunstancias.<br><br>Si dentro del alcance hay terreno que es dif\u00edcil a causa de la vegetaci\u00f3n (como matorrales o sotobosque), puedes convertirlo en terreno ordinario hasta el final del conjuro. Alternativamente, puedes convertir en terreno dif\u00edcil una zona de terreno ordinario que tenga plantas para, por ejemplo, hacer que tus perseguidores sean entorpecidos por enredaderas y ramas bajas.<br><br>Las plantas tambi\u00e9n pueden ser capaces de llevar a cabo otras tareas, a discreci\u00f3n del DM. Este conjuro no permite que se desarraiguen y se desplacen, pero podr\u00e1n moverse libremente sus ramas, zarzillos y tallos.<br><br>Si una criatura planta est\u00e1 en el \u00e1rea, puedes comunicarte con ella si compart\u00eds un idioma com\u00fan, pero no consigues ninguna forma m\u00e1gica de influenciarla.<br><br>Este conjuro puede hacer que las plantas creadas por el conjuro <i>enmara\u00f1ar</i> suelten a una criatura apresada."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Hablar con los muertos",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Otorgas una sombra de vida e inteligencia a un cad\u00e1ver de tu elecci\u00f3n que se encuentre dentro del alcance, permiti\u00e9ndole contestar a tus preguntas. El cad\u00e1ver debe conservar su boca y no ser un muerto viviente. El conjuro fallar\u00e1 si ese cad\u00e1ver ha sido objetivo del mismo conjuro en los \u00faltimos 10 d\u00edas.<br><br>Puedes hacer hasta cinco preguntas antes del final del conjuro. El cad\u00e1ver solo poseer\u00e1 los mismos conocimientos que ten\u00eda, incluyendo idiomas. Las respuestas suelen ser breves, cr\u00edpticas o repetitivas, y el cad\u00e1ver no tiene obligaci\u00f3n de proporcionarte una respuesta veraz si es hostil hacia ti o te reconoce como enemigo. Este conjuro no devuelve el alma de una criatura a la vida, solo el esp\u00edritu que la anima. Por tanto, el cad\u00e1ver no puede adquirir nueva informaci\u00f3n, entender nada que haya ocurrido desde que muri\u00f3 o especular sobre eventos futuros.",
+    "materiales": "Incienso para quemar."
   }
 ]
