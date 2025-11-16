@@ -774,5 +774,34 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro transforma a una criatura que puedas ver dentro del alcance en una nueva forma. Una criatura no voluntaria puede hacer una tirada de salvaci\u00f3n de Sabidur\u00eda para evitar la transformaci\u00f3n. El conjuro no tendr\u00e1 efecto en un cambiaformas o en una criatura con 0 puntos de golpe.<br><br>La transformaci\u00f3n se mantiene hasta el final de la duraci\u00f3n del conjuro o hasta que el objetivo muera o sea reducido a 0 puntos de golpe. La nueva forma puede ser la de cualquier bestia cuyo valor de desaf\u00edo sea igual o menor que el del objetivo (o igual o menor que 1 si el objetivo no tiene un valor de desaf\u00edo). Reemplaza el perfil del objetivo por el perfil de la bestia elegida, incluyendo las puntuaciones de caracter\u00edsticas mentales. \u00danicamente mantendr\u00e1 su alineamiento y personalidad.<br><br>Tambi\u00e9n pasar\u00e1 a tener los puntos de golpe de su nueva forma. Cuando revierta a su forma normal volver\u00e1 a poseer los puntos de golpe que tuviera antes de la transformaci\u00f3n. Si la transformaci\u00f3n se rompe al quedar su nueva forma reducida a 0 puntos de golpe, cualquier da\u00f1o sobrante se aplica a la forma normal. Si este da\u00f1o sobrante no reduce la forma normal de la criatura a 0 puntos de vida, no cae inconsciente.<br><br>Las acciones de la criatura quedan limitadas por la naturaleza de su nueva forma, y tampoco puede hablar, lanzar conjuros o realizar cualquier acci\u00f3n que requiera del habla o uso de las manos.<br><br>El equipamiento del objetivo se funde con la nueva forma. El objetivo no puede activar, blandir o beneficiarse de su equipamiento de ninguna manera.",
     "materiales": "Un capullo de oruga."
+  },
+  {
+    "nombre": "Puerta dimensional",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "500 pies",
+      "150 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Te teletransportas de tu localizaci\u00f3n actual a cualquier otro punto dentro del alcance. Llegas de forma precisa al lugar elegido. Puede ser un lugar que veas, uno que puedas visualizar o uno que puedas describir mediante distancia y direcci\u00f3n, como \"200 pies directamente hacia abajo\" o \"hacia arriba al noroeste en un \u00e1ngulo de 45 grados, 300 pies\".<br><br>Eres capaz de llevar objetos contigo mientras su peso no supere tu capacidad de carga. Tambi\u00e9n puedes llevar a una criatura voluntaria a tu tama\u00f1o o menor que lleve una cantidad de equipo que pueda cargar normalmente. Esa criatura debe estar a 5 pies de ti cuando lances el conjuro.<br><br>Si llegas a un lugar que ya estuviera ocupado por otra criatura, t\u00fa y cualquier criatura viajando contigo recib\u00eds 4d6 de da\u00f1o de fuerza y el conjuro no consigue teletransportaros.",
+      "Te teletransportas de tu localizaci\u00f3n actual a cualquier otro punto dentro del alcance. Llegas de forma precisa al lugar elegido. Puede ser un lugar que veas, uno que puedas visualizar o uno que puedas describir mediante distancia y direcci\u00f3n, como \"60 m directamente hacia abajo\" o \"hacia arriba al noroeste en un \u00e1ngulo de 45 grados, 90 m\".<br><br>Eres capaz de llevar objetos contigo mientras su peso no supere tu capacidad de carga. Tambi\u00e9n puedes llevar a una criatura voluntaria a tu tama\u00f1o o menor que lleve una cantidad de equipo que pueda cargar normalmente. Esa criatura debe estar a 1,5 m de ti cuando lances el conjuro.<br><br>Si llegas a un lugar que ya estuviera ocupado por otra criatura, t\u00fa y cualquier criatura viajando contigo recib\u00eds 4d6 de da\u00f1o de fuerza y el conjuro no consigue teletransportaros."
+    ],
+    "materiales": null
   }
 ]
