@@ -493,5 +493,34 @@
       "Hasta el final de la duraci\u00f3n del conjuro tus ojos se convierten en un vac\u00edo oscuro imbuido de un poder terrible. Una criatura de tu elecci\u00f3n que puedas ver a 18 m de ti debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda o verse afectada por uno de los siguientes efectos hasta que el conjuro termine. En cada uno de tus turnos, hasta que el conjuro termine, puedes usar tu acci\u00f3n para elegir como objetivo a otra criatura, pero no podr\u00e1s volver a dirigirlo contra una que haya superado una tirada de salvaci\u00f3n contra este lanzamiento de mal de ojo.<br><br><b>Sue\u00f1o.</b> El objetivo cae inconsciente. Se despierta si recibe alg\u00fan da\u00f1o o si otra criatura emplea su acci\u00f3n en despertarle.<br><br><b>P\u00e1nico.</b> El objetivo queda asustado por ti. En cada uno de sus turnos, la criatura asustada debe utilizar la acci\u00f3n Correr para alejarse de ti por la ruta m\u00e1s corta y segura, a menos que no haya d\u00f3nde huir. Si el objetivo se mueve a un punto a 60 o m\u00e1s pies de ti y donde no pueda verte, el efecto termina.<br><br><b>N\u00e1useas.</b> El objetivo tiene desventaja en las tiradas de ataque y pruebas de caracter\u00edstica. Al final de cada uno de sus turnos, puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito, el efecto del conjuro termina."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Mover la tierra",
+    "clases": [
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 2 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Elige una zona de terreno cuadrada de hasta 40 pies de lado dentro del alcance. Eres capaz de cambiar la forma de la tierra, arena o arcilla en la zona como desees, hasta el final de la duraci\u00f3n del conjuro. Puedes subir o bajar la elevaci\u00f3n de la zona, crear o llenar una zanja, construir o derribar un muro o crear un pilar. La magnitud de estos cambios no puede exceder la mitad de la mayor de las dimensiones del \u00e1rea. De esta manera, si afectas a un cuadrado de 40 pies de lado, podr\u00edas crear un pilar de hasta 20 pies de altura, subir o bajar la elevaci\u00f3n del cuadrado hasta 20 pies, cavar una zanja de 20 pies de profundidad, etc. Estos cambios tardan 10 minutos en completarse.<br><br>Cada 10 minutos que te concentras en el conjuro puedes elegir una nueva zona de terreno a la que afectar.<br><br>Debido a que la transformaci\u00f3n ocurre lentamente, las criaturas que estuvieran en el \u00e1rea no se ver\u00e1n atrapadas o heridas por el movimiento de tierras.<br><br>Este conjuro no puede manipular la piedra, ya sea natural o en forma de estructura. Las rocas y construcciones se mueven para adaptarse al nuevo terreno. Si la manera en que modificas el terreno hace inestable una construcci\u00f3n, esta podr\u00eda derrumbarse.<br><br>De igual forma, este conjuro tampoco afecta el crecimiento de la vegetaci\u00f3n. Pero la tierra desplazada arrastra consigo cualquier planta con ella.",
+      "Elige una zona de terreno cuadrada de hasta 12 m de lado dentro del alcance. Eres capaz de cambiar la forma de la tierra, arena o arcilla en la zona como desees, hasta el final de la duraci\u00f3n del conjuro. Puedes subir o bajar la elevaci\u00f3n de la zona, crear o llenar una zanja, construir o derribar un muro o crear un pilar. La magnitud de estos cambios no puede exceder la mitad de la mayor de las dimensiones del \u00e1rea. De esta manera, si afectas a un cuadrado de 12 m de lado, podr\u00edas crear un pilar de hasta 6 m de altura, subir o bajar la elevaci\u00f3n del cuadrado hasta 6 m, cavar una zanja de 6 m de profundidad, etc. Estos cambios tardan 10 minutos en completarse.<br><br>Cada 10 minutos que te concentras en el conjuro puedes elegir una nueva zona de terreno a la que afectar.<br><br>Debido a que la transformaci\u00f3n ocurre lentamente, las criaturas que estuvieran en el \u00e1rea no se ver\u00e1n atrapadas o heridas por el movimiento de tierras.<br><br>Este conjuro no puede manipular la piedra, ya sea natural o en forma de estructura. Las rocas y construcciones se mueven para adaptarse al nuevo terreno. Si la manera en que modificas el terreno hace inestable una construcci\u00f3n, esta podr\u00eda derrumbarse.<br><br>De igual forma, este conjuro tampoco afecta el crecimiento de la vegetaci\u00f3n. Pero la tierra desplazada arrastra consigo cualquier planta con ella."
+    ],
+    "materiales": "Una hoja de hierro y una peque\u00f1a bolsa con una mezcla de tierras (arcilla, marga y arena."
   }
 ]
