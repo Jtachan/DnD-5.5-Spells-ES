@@ -977,5 +977,34 @@
     "requiere_ataque": false,
     "descripcion": "Formulando palabras de sanaci\u00f3n, haces que hasta seis criaturas de tu elecci\u00f3n que puedas ver dentro del alcance recuperen cada una tantos puntos de golpe como 1d4 + tu modificador por aptitud m\u00e1gica. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, la curaci\u00f3n aumenta en 1d4 por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
     "materiales": null
+  },
+  {
+    "nombre": "Patr\u00f3n hipn\u00f3tico",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Tejes en el aire un patr\u00f3n tortuoso de colores que llena un cubo de 30 pies de lado dentro del alcance. El patr\u00f3n aparece un momento y despu\u00e9s desaparece. Todas las criaturas en el \u00e1rea que vean el patr\u00f3n deben hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si fallan, quedar\u00e1n hechizadas hasta el final de la duraci\u00f3n del conjuro. Mientras una criatura siga hechizada, estar\u00e1 incapacitada y su velocidad ser\u00e1 0.<br><br>El conjuro termina para una criatura afectada si recibe cualquier tipo de da\u00f1o o si alguien utiliza una acci\u00f3n para sacarla de su estupor.",
+      "Tejes en el aire un patr\u00f3n tortuoso de colores que llena un cubo de 9 m de lado dentro del alcance. El patr\u00f3n aparece un momento y despu\u00e9s desaparece. Todas las criaturas en el \u00e1rea que vean el patr\u00f3n deben hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si fallan, quedar\u00e1n hechizadas hasta el final de la duraci\u00f3n del conjuro. Mientras una criatura siga hechizada, estar\u00e1 incapacitada y su velocidad ser\u00e1 0.<br><br>El conjuro termina para una criatura afectada si recibe cualquier tipo de da\u00f1o o si alguien utiliza una acci\u00f3n para sacarla de su estupor."
+    ],
+    "materiales": "Un palo de incienso encendido o un vial de cristal lleno de material fosforescente."
   }
 ]
