@@ -605,7 +605,7 @@
       "Mago"
     ],
     "escuela": "Abjuraci\u00f3n",
-    "tiempo_de_lanzamiento": "Reacci\u00f3n, que llevas a cabo cuando eres impactado por un ataque o eres objetivo del conjuro proyectil m\u00e1gico",
+    "tiempo_de_lanzamiento": "Reacci\u00f3n",
     "ritual": false,
     "alcance": "Lanzador",
     "visible": false,
@@ -617,7 +617,7 @@
     "duracion": "1 asalto",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Aparece una barrera invisible de fuerza que te protege. Hasta el principio de tu siguiente turno, tienes un bonificador de +5 a tu CA, que tambi\u00e9n afecta al ataque que ha activado el conjuro y, adem\u00e1s, no recibes ning\u00fan da\u00f1o del conjuro proyectil m\u00e1gico.",
+    "descripcion": "En el momento en el que un ataque, conjuro o proyectil m\u00e1gico te impacta, aparece una barrera invisible de fuerza que te protege. Hasta el principio de tu siguiente turno, tienes un bonificador de +5 a tu CA, que tambi\u00e9n afecta al ataque que ha activado el conjuro y, adem\u00e1s, no recibes ning\u00fan da\u00f1o del conjuro proyectil m\u00e1gico.",
     "materiales": null
   },
   {
