@@ -1072,5 +1072,34 @@
     "requiere_ataque": false,
     "descripcion": "Hasta seis criaturas de tu elecci\u00f3n que puedas ver dentro del alcance recuperan cada una tantos puntos de golpe como 2d8 + tu modificador por aptitud m\u00e1gica. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, la curaci\u00f3n aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
     "materiales": null
+  },
+  {
+    "nombre": "Potenciar caracter\u00edstica",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Mago",
+      "Hechicero"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Tocas a una criatura y le confieres una mejora de origen m\u00e1gico. Elige uno de los siguientes efectos; el objetivo gana ese efecto hasta que el conjuro termine.<br><br><b>Resistencia de oso.</b> El objetivo tiene ventaja en pruebas de Constituci\u00f3n. Tambi\u00e9n gana 2d6 puntos de golpe temporales, que se pierden al acabar el conjuro.<br><br><b>Fuerza de toro.</b> El objetivo tiene ventaja en pruebas de Fuerza y su capacidad de carga se dobla.<br><br><b>Agilidad de gato.</b> El objetivo tiene ventaja en pruebas de Destreza. Adem\u00e1s, si no est\u00e1 incapacitado, no recibe da\u00f1o en ca\u00eddas de 20 pies o menos.<br><br><b>Esplendor de \u00e1guila.</b> El objetivo tiene ventaja en pruebas de Carisma.<br><br><b>Astucia de zorro.</b> El objetivo tiene ventaja en pruebas de Inteligencia.<br><br><b>Sabidur\u00eda de b\u00faho.</b> El objetivo tiene ventaja en pruebas de Sabidur\u00eda.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+      "Tocas a una criatura y le confieres una mejora de origen m\u00e1gico. Elige uno de los siguientes efectos; el objetivo gana ese efecto hasta que el conjuro termine.<br><br><b>Resistencia de oso.</b> El objetivo tiene ventaja en pruebas de Constituci\u00f3n. Tambi\u00e9n gana 2d6 puntos de golpe temporales, que se pierden al acabar el conjuro.<br><br><b>Fuerza de toro.</b> El objetivo tiene ventaja en pruebas de Fuerza y su capacidad de carga se dobla.<br><br><b>Agilidad de gato.</b> El objetivo tiene ventaja en pruebas de Destreza. Adem\u00e1s, si no est\u00e1 incapacitado, no recibe da\u00f1o en ca\u00eddas de 6 m o menos.<br><br><b>Esplendor de \u00e1guila.</b> El objetivo tiene ventaja en pruebas de Carisma.<br><br><b>Astucia de zorro.</b> El objetivo tiene ventaja en pruebas de Inteligencia.<br><br><b>Sabidur\u00eda de b\u00faho.</b> El objetivo tiene ventaja en pruebas de Sabidur\u00eda.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Una pezu\u00f1a o pluma de una bestia."
   }
 ]
