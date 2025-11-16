@@ -428,5 +428,36 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura viva con 0 puntos de golpe. El objetivo se estabiliza. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.",
     "materiales": null
+  },
+  {
+    "nombre": "Prestidigitaci\u00f3n",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago",
+      "Brujo"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Este conjuro es un truco m\u00e1gico menor con el que practican los lanzadores de conjuros inexpertos. Produces uno de los siguientes efectos m\u00e1gicos, dentro del alcance:<ul><li>Creas un efecto sensorial instant\u00e1neo e inofensivo, como una lluvia de chispas, una sutil r\u00e1faga de viento, leves notas musicales o un olor extra\u00f1o.</li><li>Apagas o enciendes de forma instant\u00e1nea una vela, antorcha o hoguera peque\u00f1a.</li><li>Limpias o ensucias de forma instant\u00e1nea un objeto de hasta 1 pie c\u00fabico.</li><li>Enfr\u00edas, calientas o das sabor a un material inerte de hasta 1 pie c\u00fabico durante 1 hora.</li><li>Haces aparecer una mancha de color, una peque\u00f1a marca o un s\u00edmbolo en un objeto o superficie durante 1 hora.</li><li>Creas un abalorio o un objeto ilusorio que cabe en tu mano y que dura hasta el final de tu pr\u00f3ximo turno.</li></ul>Si lanzas este conjuro varias veces, puedes mantener hasta tres de sus efectos no instant\u00e1neos activos a la vez. Para finalizar cualquiera de ellos deber\u00e1s emplear una acci\u00f3n.",
+      "Este conjuro es un truco m\u00e1gico menor con el que practican los lanzadores de conjuros inexpertos. Produces uno de los siguientes efectos m\u00e1gicos, dentro del alcance:<ul><li>Creas un efecto sensorial instant\u00e1neo e inofensivo, como una lluvia de chispas, una sutil r\u00e1faga de viento, leves notas musicales o un olor extra\u00f1o.</li><li>Apagas o enciendes de forma instant\u00e1nea una vela, antorcha o hoguera peque\u00f1a.</li><li>Limpias o ensucias de forma instant\u00e1nea un objeto de hasta 0,3 m c\u00fabico.</li><li>Enfr\u00edas, calientas o das sabor a un material inerte de hasta 0,3 m c\u00fabico durante 1 hora.</li><li>Haces aparecer una mancha de color, una peque\u00f1a marca o un s\u00edmbolo en un objeto o superficie durante 1 hora.</li><li>Creas un abalorio o un objeto ilusorio que cabe en tu mano y que dura hasta el final de tu pr\u00f3ximo turno.</li></ul>Si lanzas este conjuro varias veces, puedes mantener hasta tres de sus efectos no instant\u00e1neos activos a la vez. Para finalizar cualquiera de ellos deber\u00e1s emplear una acci\u00f3n."
+    ],
+    "materiales": null
   }
 ]
