@@ -664,5 +664,35 @@
       "Tocas un objeto de piedra de tama\u00f1o Mediano o m\u00e1s peque\u00f1o o una secci\u00f3n de piedra de no m\u00e1s de 1,5 m en todas sus dimensiones y le das la forma que desees. Por ejemplo, podr\u00edas convertir una roca grande en un arma, un \u00eddolo o un ata\u00fad y crear un pasadizo a trav\u00e9s de un muro, siempre que este no tenga m\u00e1s de 1,5 m de grosor. Tambi\u00e9n puedes transformar una puerta en un muro para bloquearla. El objeto que crees puede tener hasta dos bisagras y un pestillo, pero cualquier construcci\u00f3n mec\u00e1nica m\u00e1s precisa es imposible."
     ],
     "materiales": "Arcilla blanda, que debe ser moldeada con la forma deseada para el objeto de piedra."
+  },
+  {
+    "nombre": "Muro de fuego",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas un muro de fuego en una superficie s\u00f3lida que puedas ver dentro del alcance. Puedes crear un muro recto de hasta 60 pies de largo, 20 de alto y 1 pie de ancho o un muro en forma de anillo de 20 pies de di\u00e1metro, 20 de alto y 1 de grosor. El muro es opaco y permanecer\u00e1 hasta el final de la duraci\u00f3n del conjuro.<br><br>Cuando el muro aparece, todas las criaturas en la zona deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 5d8 de da\u00f1o de fuego si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>Un lado del muro, elegido por ti al lanzar el conjuro, infligir\u00e1 5d8 de da\u00f1o de fuego a cada criatura que termine su turno a 10 pies o menos de ese lado o dentro del muro. Tambi\u00e9n recibir\u00e1n ese da\u00f1o las criaturas que entren en el muro por primera vez en un turno o que acaben su turno en \u00e9l. El otro lado del muro no causa da\u00f1o.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
+      "Creas un muro de fuego en una superficie s\u00f3lida que puedas ver dentro del alcance. Puedes crear un muro recto de hasta 18 m de largo, 20 de alto y 0,3 m de ancho o un muro en forma de anillo de 6 m de di\u00e1metro, 20 de alto y 1 de grosor. El muro es opaco y permanecer\u00e1 hasta el final de la duraci\u00f3n del conjuro.<br><br>Cuando el muro aparece, todas las criaturas en la zona deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 5d8 de da\u00f1o de fuego si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>Un lado del muro, elegido por ti al lanzar el conjuro, infligir\u00e1 5d8 de da\u00f1o de fuego a cada criatura que termine su turno a 3 m o menos de ese lado o dentro del muro. Tambi\u00e9n recibir\u00e1n ese da\u00f1o las criaturas que entren en el muro por primera vez en un turno o que acaben su turno en \u00e9l. El otro lado del muro no causa da\u00f1o.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Un pedacito de f\u00f3sforo."
   }
 ]
