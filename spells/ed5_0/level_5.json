@@ -908,5 +908,29 @@
       "Creas una nube venenosa de niebla amarillo-verdosa que cubre un \u00e1rea esf\u00e9rica de 6 m de radio alrededor de un punto de tu elecci\u00f3n. La niebla se extiende m\u00e1s all\u00e1 de las esquinas. Se mantiene hasta el final de la duraci\u00f3n del conjuro o hasta que un viento fuerte la disperse, terminando el conjuro. El \u00e1rea se considera muy oscura.<br><br>Cuando una criatura entre en el \u00e1rea del conjuro por primera vez en un turno, o cuando empiece su turno en ella, debe realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 5d8 de da\u00f1o de veneno si falla la tirada o la mitad del da\u00f1o si la supera. La niebla afecta incluso a las criaturas que aguantan la respiraci\u00f3n o que no necesiten respirar.<br><br>La niebla se aleja 3 m de ti al principio de cada uno de tus turnos, siguiendo la superficie del terreno. Al ser m\u00e1s densa que el aire, se desplazar\u00e1 hacia las cotas m\u00e1s bajas, derram\u00e1ndose por las aperturas que encuentre.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 5 que tenga el espacio que hayas empleado."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Ola destructora",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Golpeas el suelo, creando una descarga de energ\u00eda divina que forma ondas que se alejan de ti. Cada criatura que elijas en un radio de 30 pies debe tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o recibir\u00e1 5d6 de da\u00f1o de trueno, 5d6 de da\u00f1o radiante o necr\u00f3tico (tu elecci\u00f3n) y quedar\u00e1 derribada. Una criatura que tenga \u00e9xito en la tirada de salvaci\u00f3n solo recibe la mitad del da\u00f1o y no queda derribada.",
+      "Golpeas el suelo, creando una descarga de energ\u00eda divina que forma ondas que se alejan de ti. Cada criatura que elijas en un radio de 9 m debe tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o recibir\u00e1 5d6 de da\u00f1o de trueno, 5d6 de da\u00f1o radiante o necr\u00f3tico (tu elecci\u00f3n) y quedar\u00e1 derribada. Una criatura que tenga \u00e9xito en la tirada de salvaci\u00f3n solo recibe la mitad del da\u00f1o y no queda derribada."
+    ],
+    "materiales": null
   }
 ]
