@@ -240,5 +240,33 @@
       "Creas una prisi\u00f3n invisible e inm\u00f3vil, en forma de cubo y compuesta de fuerza m\u00e1gica, alrededor de un \u00e1rea de tu elecci\u00f3n. Puede ser una jaula o una caja de paredes s\u00f3lidas, lo que prefieras.<br><br>Si eliges la forma de jaula, puede tener hasta 6 m de lado y estar\u00e1 formada por barras de 1/5 cm de di\u00e1metro separadas 1/5 cm. La forma de caja puede tener hasta 3 m de lado y crea una barrera s\u00f3lida que impide el paso de cualquier material y bloquea el lanzamiento de conjuros hacia dentro o fuera del \u00e1rea.<br><br>Cualquier criatura completamente dentro del \u00e1rea cuando lances el conjuro queda atrapada. La caja solo es parcialmente densa para efectos como niebla o gases. La teleportaci\u00f3n y el viaje interplanar no funcionan para abandonar la jaula a menos que la criatura supere una tirada de salvaci\u00f3n de Carisma. Si tiene \u00e9xito, la criatura puede usar la magia para salir. Si fracasa, la criatura no es capaz de salir y el conjuro la mantiene atrapada. La jaula tambi\u00e9n se extiende al Plano Et\u00e9reo, bloqueando los viajes et\u00e9reos.<br><br>Este conjuro no puede ser disipado mediante <i>disipar magia</i>."
     ],
     "materiales": "Polvo de rub\u00ed con un valor de 1.500 po."
+  },
+  {
+    "nombre": "Mansi\u00f3n magn\u00edfica de Mordenkainen",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "300 pies",
+      "90 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Conjuras una morada de otro plano dentro del alcance hasta el final de la duraci\u00f3n del conjuro. Eliges donde est\u00e1 localizada una de las entradas. Brilla d\u00e9bilmente y tiene 5 pies de ancho y 10 de alto. T\u00fa y cualquier otra criatura que designes al lanzar el conjuro pod\u00e9is entrar en la morada mientras el portal de entrada siga abierto. Puedes abrirlo o cerrarlo si est\u00e1s a 30 pies de \u00e9l. Mientras permanezca cerrado, es invisible.<br><br>A trav\u00e9s del portal se llega a un fastuoso recibidor que da paso a numerosas habitaciones. La atm\u00f3sfera es limpia, despejada y c\u00e1lida.<br><br>Puedes crear cualquier configuraci\u00f3n de planta que quieras, pero el espacio no puede tener m\u00e1s de 50 cubos, cada uno de 10 pies de lado. La mansi\u00f3n est\u00e1 decorada y equipada como desees. Hay suficiente comida para un banquete de nueve platos para 100 personas. El servicio est\u00e1 compuesto por 100 sirvientes cuasi transparentes que atienden todas las necesidades de la casa; su presencia es totalmente silenciosa. T\u00fa decides la apariencia y vestimenta de estos criados. Obedecen completamente tus \u00f3rdenes.<br><br>Pueden llevar a cabo cualquier tarea que pudiera realizar un sirviente humano normal, pero no pueden atacar o realizar acciones que da\u00f1en directamente a otra criatura. Por ejemplo, pueden traer y llevar cosas, limpiar, remendar, doblar la ropa, encender el fuego, servir comida o vino, calentar ba\u00f1os, arreglar una herida en lo que puedan y realizar otra clase de servicio no probara abandonarlos. Los muebles y adornos de la mansi\u00f3n son creaciones m\u00e1gicas que no pueden retirarse de la mansi\u00f3n ni que los sirvientes saquen comida u objetos de la morada.<br><br>Cuando el conjuro termina, todas las criaturas son expulsadas expeditivamente, llev\u00e1ndose aquello que llevasen con ellas. Todas las dem\u00e1s cosas creadas por el conjuro desaparecen. Si eres expulsado en una briasa cerca a la puerta, quedar\u00e1s expuesto a un espacio libre cercano a la morada.",
+      "Conjuras una morada de otro plano dentro del alcance hasta el final de la duraci\u00f3n del conjuro. Eliges donde est\u00e1 localizada una de las entradas. Brilla d\u00e9bilmente y tiene 1,5 m de ancho y 10 de alto. T\u00fa y cualquier otra criatura que designes al lanzar el conjuro pod\u00e9is entrar en la morada mientras el portal de entrada siga abierto. Puedes abrirlo o cerrarlo si est\u00e1s a 9 m de \u00e9l. Mientras permanezca cerrado, es invisible.<br><br>A trav\u00e9s del portal se llega a un fastuoso recibidor que da paso a numerosas habitaciones. La atm\u00f3sfera es limpia, despejada y c\u00e1lida.<br><br>Puedes crear cualquier configuraci\u00f3n de planta que quieras, pero el espacio no puede tener m\u00e1s de 50 cubos, cada uno de 3 m de lado. La mansi\u00f3n est\u00e1 decorada y equipada como desees. Hay suficiente comida para un banquete de nueve platos para 100 personas. El servicio est\u00e1 compuesto por 100 sirvientes cuasi transparentes que atienden todas las necesidades de la casa; su presencia es totalmente silenciosa. T\u00fa decides la apariencia y vestimenta de estos criados. Obedecen completamente tus \u00f3rdenes.<br><br>Pueden llevar a cabo cualquier tarea que pudiera realizar un sirviente humano normal, pero no pueden atacar o realizar acciones que da\u00f1en directamente a otra criatura. Por ejemplo, pueden traer y llevar cosas, limpiar, remendar, doblar la ropa, encender el fuego, servir comida o vino, calentar ba\u00f1os, arreglar una herida en lo que puedan y realizar otra clase de servicio no probara abandonarlos. Los muebles y adornos de la mansi\u00f3n son creaciones m\u00e1gicas que no pueden retirarse de la mansi\u00f3n ni que los sirvientes saquen comida u objetos de la morada.<br><br>Cuando el conjuro termina, todas las criaturas son expulsadas expeditivamente, llev\u00e1ndose aquello que llevasen con ellas. Todas las dem\u00e1s cosas creadas por el conjuro desaparecen. Si eres expulsado en una briasa cerca a la puerta, quedar\u00e1s expuesto a un espacio libre cercano a la morada."
+    ],
+    "materiales": "Un portal en miniatura tallado en marfil, un trozo peque\u00f1o de m\u00e1rmol pulido y una cucharita de plata, cada objeto con un valor de, al menos, 5 po."
   }
 ]
