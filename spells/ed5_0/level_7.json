@@ -344,5 +344,29 @@
       "Hasta el final de su duraci\u00f3n, este conjuro permite que un objeto o criatura voluntaria pueda ser escondido, a salvo de cualquier detecci\u00f3n. Cuando lanzas el conjuro y tocas al objetivo, este se vuelve invisible y no puede ser objetivo de conjuros de adivinaci\u00f3n ni percibido mediante sensores de escrutinamiento creados por conjuros de esta escuela.<br><br>Si el objetivo es una criatura, esta cae en un estado de magia suspendida. El tiempo deja de pasar para ella y no envejece.<br><br>Puedes escoger una condici\u00f3n para que el conjuro acabe. Esta puede ser la que t\u00fa quieras, pero debe tener lugar o ser visible a 1,5 km del objetivo. Algunos ejemplos ser\u00edan \"despu\u00e9s de 1.000 a\u00f1os\" o \"cuando la tarasca despierte\". El conjuro tambi\u00e9n termina si el objetivo recibe cualquier tipo de da\u00f1o."
     ],
     "materiales": "Polvo de diamante, esmeralda, rub\u00ed y zafiro con un valor de, al menos, 5.000 po, que es consumido como parte del conjuro."
+  },
+  {
+    "nombre": "Regenerar",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura, estimulando su capacidad de curaci\u00f3n natural. Recupera 4d8+15 puntos de golpe. Adem\u00e1s, recuperar\u00e1 1 punto de golpe al principio de cada uno de sus turnos (10 puntos de golpe por minuto) hasta el final de la duraci\u00f3n del conjuro.<br><br>Los miembros cercenados del objetivo (dedos, piernas, cola, etc.), si los tuviera, crecen de nuevo en 2 minutos. Si tienes el miembro separado y lo presionas contra el mu\u00f1\u00f3n, el conjuro hace que se reintegre inmediatamente.",
+    "materiales": "Una rueda de plegarias y agua bendita."
   }
 ]
