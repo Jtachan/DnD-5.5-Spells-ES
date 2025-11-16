@@ -685,5 +685,34 @@
       "Un rayo de luz brillante surge de tu mano en una l\u00ednea de 1,5 m de ancho y 18 m de largo. Cada criatura que se encuentre en el haz debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fracasa, recibir\u00e1 6d8 de da\u00f1o radiante y quedar\u00e1 cegada hasta tu pr\u00f3ximo turno. Si la supera, recibir\u00e1 la mitad del da\u00f1o y no quedar\u00e1 cegada. Los muertos vivientes y los \u00ednferos tienen desventaja en esta tirada de salvaci\u00f3n.<br><br>En cada turno, antes de que termine el conjuro, puedes crear una nueva l\u00ednea de luz radiante utilizando una acci\u00f3n.<br><br>Hasta el final de la duraci\u00f3n del conjuro, una mota de luz pura brilla en tu mano. Emite luz tenue en un radio de 9 m y luz tenue 9 m m\u00e1s all\u00e1. Esta luz se considera luz del sol."
     ],
     "materiales": "Una lupa."
+  },
+  {
+    "nombre": "Rel\u00e1mpago en cadena",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas un rel\u00e1mpago que se dirige a un objetivo de tu elecci\u00f3n que puedas ver dentro del alcance. De este objetivo saltan otros tres rel\u00e1mpagos hasta otros tres objetivos, cada uno a 30 pies o menos del objetivo original. Cualquiera de los objetivos tiene que ser una criatura u un objeto y solo puede recibir uno de los rel\u00e1mpagos.<br><br>Todos los objetivos deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 10d8 de da\u00f1o de rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, un rel\u00e1mpago adicional salta del objetivo original a otro objetivo por cada nivel por encima de 6 que tenga el espacio que hayas empleado.",
+      "Creas un rel\u00e1mpago que se dirige a un objetivo de tu elecci\u00f3n que puedas ver dentro del alcance. De este objetivo saltan otros tres rel\u00e1mpagos hasta otros tres objetivos, cada uno a 9 m o menos del objetivo original. Cualquiera de los objetivos tiene que ser una criatura u un objeto y solo puede recibir uno de los rel\u00e1mpagos.<br><br>Todos los objetivos deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 10d8 de da\u00f1o de rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, un rel\u00e1mpago adicional salta del objetivo original a otro objetivo por cada nivel por encima de 6 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Un poco de pelaje; una vara de \u00e1mbar, cristal o vidrio; tres alfileres de plata."
   }
 ]
