@@ -1327,5 +1327,32 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro te permite moverte a una velocidad incre\u00edble. Puedes realizar la acci\u00f3n de Correr cuando lanzas este conjuro y posteriormente como acci\u00f3n adicional en cada uno de tus turnos hasta el final del conjuro.",
     "materiales": null
+  },
+  {
+    "nombre": "Risa horrible de Tasha",
+    "clases": [
+      "Hechicero",
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Si una criatura de tu elecci\u00f3n que puedas ver dentro del alcance se ve afectada por el conjuro, comenzar\u00e1 a percibir todo como hilarantemente divertido, cayendo en un ataque de risa incontrolable. El objetivo debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o caer\u00e1 derribado, quedando incapacitado y no pudiendo levantarse hasta el final de la duraci\u00f3n del conjuro. Las criaturas con puntuaciones de Inteligencia de 4 o menos no se ven afectadas por este conjuro.<br><br>Al final de cada uno de sus turnos, y cada vez que reciba da\u00f1o, el objetivo puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda. Tiene ventaja en esta tirada si est\u00e1 causada por haber recibido da\u00f1o. Si la supera, el efecto del conjuro termina.",
+    "materiales": "Tartas en miniatura y una pluma que agitas en el aire."
   }
 ]
