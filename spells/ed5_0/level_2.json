@@ -916,5 +916,34 @@
       "Mediante este conjuro consigues que un animal entregue un mensaje. Elige a una bestia Diminuta, como una ardilla, un arrendajo azul o un mirlo. Escoge una localizaci\u00f3n, que debes haber visitado, y un destinatario que corresponda a una descripci\u00f3n general, como \u201cun hombre o una mujer con el uniforme de la guardia de la ciudad\u201d o \u201cun enano pelirrojo con un sombrero puntiagudo\u201d. Despu\u00e9s, di al animal un mensaje de hasta veinticinco palabras. La bestia objetivo viaja hasta el final de la duraci\u00f3n del conjuro hacia la localizaci\u00f3n elegida. Los animales son capaces de recorrer hasta 75 km en 24 horas si puede volar y 37,5 km en caso contrario.<br><br>Cuando el mensajero llegue, entrega tu mensaje a la criatura descrita, reproduciendo el sonido de tu voz. El animal solo hablar\u00e1 a una criatura que encaje con la descripci\u00f3n dada. Si el mensajero no alcanza su destino antes del final de la duraci\u00f3n del conjuro, el mensaje se pierde y la bestia vuelve a donde lanzaste el conjuro.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, la duraci\u00f3n aumenta en 48 horas por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Unas migas de comida."
+  },
+  {
+    "nombre": "Nube de dagas",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Llenas de dagas giratorias el aire de un cubo de 5 pies de lado centrado en un punto de tu elecci\u00f3n dentro del alcance. Las criaturas reciben 4d4 de da\u00f1o cortante si comienzan su turno en el \u00e1rea del conjuro o cuando entran por primera vez.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, el da\u00f1o aumenta en 2d4 por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+      "Llenas de dagas giratorias el aire de un cubo de 1,5 m de lado centrado en un punto de tu elecci\u00f3n dentro del alcance. Las criaturas reciben 4d4 de da\u00f1o cortante si comienzan su turno en el \u00e1rea del conjuro o cuando entran por primera vez.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, el da\u00f1o aumenta en 2d4 por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Una astilla de cristal."
   }
 ]
