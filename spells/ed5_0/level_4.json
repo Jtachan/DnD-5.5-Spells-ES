@@ -638,5 +638,31 @@
       "Conjuras un perro guardi\u00e1n fantasmal en un espacio desocupado que puedas ver dentro del alcance, donde permanece hasta el final de la duraci\u00f3n del conjuro, hasta que finalices el conjuro usando una acci\u00f3n o hasta que te alejes m\u00e1s de 30 m de \u00e9l.<br><br>El mast\u00edn es invisible para todas las criaturas excepto para ti y no puede ser da\u00f1ado. Cuando una criatura Peque\u00f1a o mayor llega a 9 m de \u00e9l sin haber dicho una contrase\u00f1a que especificas al lanzar el conjuro, el mast\u00edn comienza a ladrar ruidosamente. El mast\u00edn puede ver criaturas invisibles e incluso ver en el Plano Et\u00e9reo. Puede ver a trav\u00e9s de las ilusiones.<br><br>Al principio de cada uno de tus turnos, el mast\u00edn intenta morder a una criatura que se encuentre a 1,5 m de distancia o menos y sea hostil hacia ti. Su bonificaci\u00f3n a la tirada de ataque es igual tu modificador por aptitud m\u00e1gica + tu bonificador por competencia. Si impacta, hace 4d8 de da\u00f1o perforante."
     ],
     "materiales": "Un peque\u00f1o silbato plateado, un trozo de hueso y un hilo."
+  },
+  {
+    "nombre": "Moldear la piedra",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Tocas un objeto de piedra de tama\u00f1o Mediano o m\u00e1s peque\u00f1o o una secci\u00f3n de piedra de no m\u00e1s de 5 pies en todas sus dimensiones y le das la forma que desees. Por ejemplo, podr\u00edas convertir una roca grande en un arma, un \u00eddolo o un ata\u00fad y crear un pasadizo a trav\u00e9s de un muro, siempre que este no tenga m\u00e1s de 5 pies de grosor. Tambi\u00e9n puedes transformar una puerta en un muro para bloquearla. El objeto que crees puede tener hasta dos bisagras y un pestillo, pero cualquier construcci\u00f3n mec\u00e1nica m\u00e1s precisa es imposible.",
+      "Tocas un objeto de piedra de tama\u00f1o Mediano o m\u00e1s peque\u00f1o o una secci\u00f3n de piedra de no m\u00e1s de 1,5 m en todas sus dimensiones y le das la forma que desees. Por ejemplo, podr\u00edas convertir una roca grande en un arma, un \u00eddolo o un ata\u00fad y crear un pasadizo a trav\u00e9s de un muro, siempre que este no tenga m\u00e1s de 1,5 m de grosor. Tambi\u00e9n puedes transformar una puerta en un muro para bloquearla. El objeto que crees puede tener hasta dos bisagras y un pestillo, pero cualquier construcci\u00f3n mec\u00e1nica m\u00e1s precisa es imposible."
+    ],
+    "materiales": "Arcilla blanda, que debe ser moldeada con la forma deseada para el objeto de piedra."
   }
 ]
