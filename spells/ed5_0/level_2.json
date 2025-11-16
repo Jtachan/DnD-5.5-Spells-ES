@@ -886,5 +886,35 @@
       "Describe o nombra un objeto con el que est\u00e9s familiarizado. Puedes sentir la direcci\u00f3n hacia la localizaci\u00f3n del objeto, mientras est\u00e9 a 1.0 m o menos de ti. Si el objeto se est\u00e1 moviendo, sabes en qu\u00e9 direcci\u00f3n.<br><br>El conjuro puede localizar un objeto concreto que conozcas, siempre que hayas visto un objeto de este tipo de cerca al menos una vez (a menos de 9 m). Alternativamente, el conjuro puede localizar el objeto m\u00e1s cercano de un tipo particular, como una clase de prenda, joyer\u00eda, muebles, herramientas o armas.<br><br>No ser\u00e1s capaz de encontrarlo si cualquier grosor de plomo, incluso una l\u00e1mina fina, bloquea el camino directo entre t\u00fa y el objeto."
     ],
     "materiales": "Una ramita bifurcada en forma de horquilla."
+  },
+  {
+    "nombre": "Mensajero animal",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Mediante este conjuro consigues que un animal entregue un mensaje. Elige a una bestia Diminuta, como una ardilla, un arrendajo azul o un mirlo. Escoge una localizaci\u00f3n, que debes haber visitado, y un destinatario que corresponda a una descripci\u00f3n general, como \u201cun hombre o una mujer con el uniforme de la guardia de la ciudad\u201d o \u201cun enano pelirrojo con un sombrero puntiagudo\u201d. Despu\u00e9s, di al animal un mensaje de hasta veinticinco palabras. La bestia objetivo viaja hasta el final de la duraci\u00f3n del conjuro hacia la localizaci\u00f3n elegida. Los animales son capaces de recorrer hasta 50 millas en 24 horas si puede volar y 25 millas en caso contrario.<br><br>Cuando el mensajero llegue, entrega tu mensaje a la criatura descrita, reproduciendo el sonido de tu voz. El animal solo hablar\u00e1 a una criatura que encaje con la descripci\u00f3n dada. Si el mensajero no alcanza su destino antes del final de la duraci\u00f3n del conjuro, el mensaje se pierde y la bestia vuelve a donde lanzaste el conjuro.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, la duraci\u00f3n aumenta en 48 horas por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+      "Mediante este conjuro consigues que un animal entregue un mensaje. Elige a una bestia Diminuta, como una ardilla, un arrendajo azul o un mirlo. Escoge una localizaci\u00f3n, que debes haber visitado, y un destinatario que corresponda a una descripci\u00f3n general, como \u201cun hombre o una mujer con el uniforme de la guardia de la ciudad\u201d o \u201cun enano pelirrojo con un sombrero puntiagudo\u201d. Despu\u00e9s, di al animal un mensaje de hasta veinticinco palabras. La bestia objetivo viaja hasta el final de la duraci\u00f3n del conjuro hacia la localizaci\u00f3n elegida. Los animales son capaces de recorrer hasta 75 km en 24 horas si puede volar y 37,5 km en caso contrario.<br><br>Cuando el mensajero llegue, entrega tu mensaje a la criatura descrita, reproduciendo el sonido de tu voz. El animal solo hablar\u00e1 a una criatura que encaje con la descripci\u00f3n dada. Si el mensajero no alcanza su destino antes del final de la duraci\u00f3n del conjuro, el mensaje se pierde y la bestia vuelve a donde lanzaste el conjuro.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, la duraci\u00f3n aumenta en 48 horas por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Unas migas de comida."
   }
 ]
