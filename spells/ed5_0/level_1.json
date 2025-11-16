@@ -965,5 +965,28 @@
       "Juntas las manos con los pulgares toc\u00e1ndose y los dedos extendidos, creando una fina capa de llamas que se proyecta desde la punta de tus dedos. Todas las criaturas en un cono de 4,5 m deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 3d6 de da\u00f1o de fuego si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>Los objetos inflamables que se encuentren en el \u00e1rea que no lleves o vistas arder\u00e1n instant\u00e1neamente.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Marca del cazador",
+    "clases": [
+      "Explorador"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Eliges una criatura que puedas ver dentro del alcance y la marcas, de manera m\u00edstica, como tu presa. Hasta que el conjuro termine, la criatura sufrir\u00e1 1d6 de da\u00f1o adicional cuando la impactes con un ataque con arma y tendr\u00e1s ventaja en cualquier prueba de Sabidur\u00eda (Percepci\u00f3n) o Sabidur\u00eda (Supervivencia) realizada para encontrarla. Si los puntos de golpe del objetivo se reducen a 0 antes del final de la duraci\u00f3n del conjuro, puedes utilizar una acci\u00f3n adicional en un turno posterior para transferir la marca a una nueva criatura.<br><br><b><i>A niveles superiores.</i></b> Si empleas un espacio de conjuro de nivel 3 o 4, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 8 horas. Si usas un espacio de conjuro de nivel 5 o m\u00e1s, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 24 horas.",
+    "materiales": null
   }
 ]
