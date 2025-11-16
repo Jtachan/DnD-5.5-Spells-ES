@@ -865,5 +865,34 @@
     "requiere_ataque": false,
     "descripcion": "Elige un objeto o criatura, que deber\u00e1s tocar durante el lanzamiento del conjuro. Si es un objeto m\u00e1gico o un objeto imbuido de magia, averiguar\u00e1s sus propiedades y c\u00f3mo usarlas, si hace falta sintonizarse con \u00e9l para utilizarlo y cu\u00e1ntas cargas tiene, si es el caso. Si hay conjuros afectados o la magia del objeto, sabr\u00e1s cu\u00e1les son. Si el objeto fue creado con un conjuro, tambi\u00e9n averiguar\u00e1s cu\u00e1l es.<br><br>Si tocas una criatura en lugar de un objeto, averiguar\u00e1s qu\u00e9 conjuros le est\u00e1n afectando.",
     "materiales": "Una perla que valga, al menos, 100 po y una pluma de b\u00faho."
+  },
+  {
+    "nombre": "Imagen silenciosa",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas una imagen de un objeto, una criatura u otro tipo de fen\u00f3meno visible, cuyas dimensiones no exceden las de un cubo de 15 pies de lado. La imagen aparece en un sitio que puedas ver dentro del alcance y se mantiene hasta el final de la duraci\u00f3n del conjuro. La imagen es totalmente visual; no est\u00e1 acompa\u00f1ada de sonido, olor u otros efectos sensoriales.<br><br>Mientras est\u00e9s dentro del alcance de la ilusi\u00f3n, puedes utilizar tu acci\u00f3n para moverla a otro sitio dentro del alcance. Al cambiarla de lugar, sus movimientos deben parecer naturales.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n. Si una criatura examina la ilusi\u00f3n utilizando su acci\u00f3n, puede determinar que es una ilusi\u00f3n con una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros. Si reconoce la ilusi\u00f3n, podr\u00e1 ver a trav\u00e9s de ella.",
+      "Creas una imagen de un objeto, una criatura u otro tipo de fen\u00f3meno visible, cuyas dimensiones no exceden las de un cubo de 4,5 m de lado. La imagen aparece en un sitio que puedas ver dentro del alcance y se mantiene hasta el final de la duraci\u00f3n del conjuro. La imagen es totalmente visual; no est\u00e1 acompa\u00f1ada de sonido, olor u otros efectos sensoriales.<br><br>Mientras est\u00e9s dentro del alcance de la ilusi\u00f3n, puedes utilizar tu acci\u00f3n para moverla a otro sitio dentro del alcance. Al cambiarla de lugar, sus movimientos deben parecer naturales.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n. Si una criatura examina la ilusi\u00f3n utilizando su acci\u00f3n, puede determinar que es una ilusi\u00f3n con una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros. Si reconoce la ilusi\u00f3n, podr\u00e1 ver a trav\u00e9s de ella."
+    ],
+    "materiales": "Un poco de vell\u00f3n."
   }
 ]
