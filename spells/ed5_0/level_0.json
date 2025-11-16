@@ -666,5 +666,30 @@
     "requiere_ataque": false,
     "descripcion": "Manifiestas un peque\u00f1o milagro o se\u00f1al de poder sobrenatural dentro del alcance. Produces uno de los siguientes efectos m\u00e1gicos:<ul><li>Tu voz resuena hasta tres veces m\u00e1s fuerte de lo normal durante 1 minuto.</li><li>Haces que una llama titile, cambie la intensidad de su brillo o modifiques su color durante 1 minuto.</li><li>Haces que la tierra tiemble inofensivamente durante 1 minuto.</li><li>Creas un sonido instant\u00e1neo, que tiene como origen un punto de tu elecci\u00f3n dentro del alcance. Por ejemplo, el retumbe de un trueno, el graznido de un cuervo o unos susurros de un maligno.</li><li>Haces que una puerta o ventana que no est\u00e9 cerrada con llave se abra o cierre de golpe.</li><li>Cambias el aspecto de tus ojos durante 1 minuto.</li></ul>Si lanzas este conjuro varias veces, puedes mantener hasta tres de sus efectos no instant\u00e1neos activos a la vez. Para finalizar cualquiera de ellos deber\u00e1s emplear una acci\u00f3n.",
     "materiales": null
+  },
+  {
+    "nombre": "Toque helado",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Creas una mano fantasmag\u00f3rica en el espacio de una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si impactas, el objetivo sufre 1d8 de da\u00f1o necr\u00f3tico y no podr\u00e1 recuperar puntos de golpe hasta el comienzo de tu pr\u00f3ximo turno. Hasta ese momento, la mano se aferra al objetivo.<br><br>Si, adem\u00e1s, el objetivo impactado es un muerto viviente, tendr\u00e1 desventaja en sus tiradas de ataque contra ti hasta el final de tu pr\u00f3ximo turno.<br><br><b><i>A niveles superiores.</i></b> El da\u00f1o del conjuro aumenta en 1d8 cuando alcanzas nivel 5 (2d8), nivel 11 (3d8) y nivel 17 (4d8).",
+    "materiales": null
   }
 ]
