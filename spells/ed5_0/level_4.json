@@ -694,5 +694,33 @@
       "Creas un muro de fuego en una superficie s\u00f3lida que puedas ver dentro del alcance. Puedes crear un muro recto de hasta 18 m de largo, 20 de alto y 0,3 m de ancho o un muro en forma de anillo de 6 m de di\u00e1metro, 20 de alto y 1 de grosor. El muro es opaco y permanecer\u00e1 hasta el final de la duraci\u00f3n del conjuro.<br><br>Cuando el muro aparece, todas las criaturas en la zona deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 5d8 de da\u00f1o de fuego si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>Un lado del muro, elegido por ti al lanzar el conjuro, infligir\u00e1 5d8 de da\u00f1o de fuego a cada criatura que termine su turno a 3 m o menos de ese lado o dentro del muro. Tambi\u00e9n recibir\u00e1n ese da\u00f1o las criaturas que entren en el muro por primera vez en un turno o que acaben su turno en \u00e9l. El otro lado del muro no causa da\u00f1o.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Un pedacito de f\u00f3sforo."
+  },
+  {
+    "nombre": "Ojo arcano",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas un ojo m\u00e1gico invisible, capaz de levitar y que permanece hasta el final de la duraci\u00f3n del conjuro.<br><br>Recibes mentalmente informaci\u00f3n visual del ojo, que posee visi\u00f3n normal y visi\u00f3n en la oscuridad hasta 30 pies. El ojo es capaz de mirar en cualquier direcci\u00f3n.<br><br>Como acci\u00f3n, puedes mover el ojo hasta 30 pies a una nueva localizaci\u00f3n. No hay un l\u00edmite de distancia mientras se mantenga la concentraci\u00f3n, pero no puede pasar a otro plano de existencia. Si una barrera s\u00f3lida bloquea el movimiento del ojo, puedes moverlo de otra forma a trav\u00e9s de orificios de un di\u00e1metro m\u00ednimo de, al menos, 1 pulgada.",
+      "Creas un ojo m\u00e1gico invisible, capaz de levitar y que permanece hasta el final de la duraci\u00f3n del conjuro.<br><br>Recibes mentalmente informaci\u00f3n visual del ojo, que posee visi\u00f3n normal y visi\u00f3n en la oscuridad hasta 9 m. El ojo es capaz de mirar en cualquier direcci\u00f3n.<br><br>Como acci\u00f3n, puedes mover el ojo hasta 9 m a una nueva localizaci\u00f3n. No hay un l\u00edmite de distancia mientras se mantenga la concentraci\u00f3n, pero no puede pasar a otro plano de existencia. Si una barrera s\u00f3lida bloquea el movimiento del ojo, puedes moverlo de otra forma a trav\u00e9s de orificios de un di\u00e1metro m\u00ednimo de, al menos, 2,5 cm."
+    ],
+    "materiales": "Un poco de pelo de murci\u00e9lago."
   }
 ]
