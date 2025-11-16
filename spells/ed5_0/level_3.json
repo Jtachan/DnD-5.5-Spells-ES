@@ -1165,5 +1165,28 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro proporciona a un m\u00e1ximo de diez criaturas que puedas ver dentro del alcance la habilidad de respirar bajo el agua hasta el final del conjuro. Las criaturas afectadas tambi\u00e9n retienen su modo de respiraci\u00f3n normal.",
     "materiales": "Un junco corto o una pajita."
+  },
+  {
+    "nombre": "Revivir",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura que haya muerto en el \u00faltimo minuto y esta vuelve a la vida con 1 punto de golpe. Este conjuro no puede devolver a la vida a una criatura que haya muerto de edad avanzada ni puede recuperar miembros perdidos.",
+    "materiales": "Diamantes con un valor de 300 po, que son consumidos como parte del conjuro."
   }
 ]
