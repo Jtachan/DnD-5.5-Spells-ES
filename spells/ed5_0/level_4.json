@@ -831,5 +831,34 @@
       "Aseguras m\u00e1gicamente una zona dentro del alcance. Su volumen es el de un cubo de entre 5 y 30 m de lado. La protecci\u00f3n permanece hasta el final de la duraci\u00f3n del conjuro o hasta que utilices una acci\u00f3n para finalizarlo.<br><br>Cuando lanzas este conjuro, decides qu\u00e9 tipo de cobertura, eligiendo cualquiera o todas de las siguientes propiedades:<ul><li>El sonido no puede atravesar la barrera situada en el per\u00edmetro de la zona.</li><li>La barrera forma una apariencia de niebla oscura, impidiendo ver a trav\u00e9s de ella (incluyendo visi\u00f3n en la oscuridad).</li><li>Los sensores creados por conjuros de adivinaci\u00f3n no pueden ser creados dentro de la zona protegida ni pasar a trav\u00e9s de la barrera del per\u00edmetro.</li><li>Las criaturas en la zona no pueden ser objetivo de conjuros de adivinaci\u00f3n.</li><li>Nadie puede entrar o salir de la zona mediante teletransportaci\u00f3n.</li><li>El viaje interplanar est\u00e1 bloqueado en la zona.</li></ul>Lanzar este conjuro en el mismo lugar todos los d\u00edas durante un a\u00f1o, hace que el efecto sea permanente.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el lado m\u00e1ximo del cubo aumenta en 30 m por cada nivel por encima de 4 del espacio. Por tanto, utilizando un espacio de conjuro de nivel 5 puedes proteger una zona equivalente a un cubo de hasta 60 m de lado."
     ],
     "materiales": "Una fina l\u00e1mina de plomo, una pieza de cristal opaco, un fajo de algod\u00f3n y la crisolita en polvo."
+  },
+  {
+    "nombre": "Tent\u00e1culos negros de Evard",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una masa de tent\u00e1culos del color del \u00e9bano que se retuercen cubre un cuadrado de 20 pies que puedas ver dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, estos tent\u00e1culos transforman el suelo del \u00e1rea en terreno dif\u00edcil.<br><br>Cuando una criatura afectada entra en el \u00e1rea por primera vez en un turno o comienza su turno en ella, deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o recibir\u00e1 3d6 de da\u00f1o contundente y quedar\u00e1 apresada por los tent\u00e1culos hasta el final del conjuro. Una criatura que comience su turno en el aire y que ya estuviera apresada por los tent\u00e1culos recibe 3d6 de da\u00f1o contundente.<br><br>Una criatura apresada puede utilizar su acci\u00f3n para hacer una prueba de Fuerza o Destreza (a su elecci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si tiene \u00e9xito, queda libre.",
+      "Una masa de tent\u00e1culos del color del \u00e9bano que se retuercen cubre un cuadrado de 6 m que puedas ver dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, estos tent\u00e1culos transforman el suelo del \u00e1rea en terreno dif\u00edcil.<br><br>Cuando una criatura afectada entra en el \u00e1rea por primera vez en un turno o comienza su turno en ella, deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o recibir\u00e1 3d6 de da\u00f1o contundente y quedar\u00e1 apresada por los tent\u00e1culos hasta el final del conjuro. Una criatura que comience su turno en el aire y que ya estuviera apresada por los tent\u00e1culos recibe 3d6 de da\u00f1o contundente.<br><br>Una criatura apresada puede utilizar su acci\u00f3n para hacer una prueba de Fuerza o Destreza (a su elecci\u00f3n) contra tu CD de salvaci\u00f3n de conjuros. Si tiene \u00e9xito, queda libre."
+    ],
+    "materiales": "Un trozo de tent\u00e1culo de un pulpo gigante o un calamar gigante."
   }
 ]
