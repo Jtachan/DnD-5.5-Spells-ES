@@ -1101,5 +1101,29 @@
       "Tocas a una criatura y le confieres una mejora de origen m\u00e1gico. Elige uno de los siguientes efectos; el objetivo gana ese efecto hasta que el conjuro termine.<br><br><b>Resistencia de oso.</b> El objetivo tiene ventaja en pruebas de Constituci\u00f3n. Tambi\u00e9n gana 2d6 puntos de golpe temporales, que se pierden al acabar el conjuro.<br><br><b>Fuerza de toro.</b> El objetivo tiene ventaja en pruebas de Fuerza y su capacidad de carga se dobla.<br><br><b>Agilidad de gato.</b> El objetivo tiene ventaja en pruebas de Destreza. Adem\u00e1s, si no est\u00e1 incapacitado, no recibe da\u00f1o en ca\u00eddas de 6 m o menos.<br><br><b>Esplendor de \u00e1guila.</b> El objetivo tiene ventaja en pruebas de Carisma.<br><br><b>Astucia de zorro.</b> El objetivo tiene ventaja en pruebas de Inteligencia.<br><br><b>Sabidur\u00eda de b\u00faho.</b> El objetivo tiene ventaja en pruebas de Sabidur\u00eda.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Una pezu\u00f1a o pluma de una bestia."
+  },
+  {
+    "nombre": "Protecci\u00f3n contra veneno",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Palad\u00edn",
+      "Explorador"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura. Si est\u00e1 envenenada, neutralizas el veneno. Si est\u00e1 afectada por varios venenos distintos, neutralizas uno que sepas que est\u00e1 activo o uno al azar.<br><br>Hasta el final de la duraci\u00f3n del conjuro, el objetivo tiene ventaja en tiradas de salvaci\u00f3n para evitar ser envenenado y resistencia al da\u00f1o de veneno.",
+    "materiales": null
   }
 ]
