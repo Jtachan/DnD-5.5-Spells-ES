@@ -618,5 +618,35 @@
       "Creas un fantasma ilusorio que se asienta en la mente de una criatura que puedas ver dentro del alcance. El objetivo debe hacer una tirada de salvaci\u00f3n de Inteligencia. Si fracasa, creas hasta el final de la duraci\u00f3n del conjuro un objeto, criatura u otro fen\u00f3meno visible de tu elecci\u00f3n que solo el objetivo podr\u00e1 ver. Tiene un aspecto fantasmal y su tama\u00f1o no puede ser mayor que un cubo de 3 m de lado. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br>El fantasma puede emitir sonidos, alterar la temperatura y producir otros est\u00edmulos, todos ellos visibles \u00fanicamente para el objetivo.<br><br>Si la criatura utiliza su acci\u00f3n para examinar la imagen, podr\u00e1 determinar que es una ilusi\u00f3n si tiene \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros. Si tiene \u00e9xito en la prueba, el objetivo se da cuenta de que el fantasma es una ilusi\u00f3n y el conjuro termina.<br><br>Mientras el objetivo permanezca afectado por el conjuro, tratar\u00e1 al fantasma como si fuera real. Racionalizar\u00e1 cualquier resultado il\u00f3gico producto de interactuar con el fantasma. Por ejemplo, un objetivo de este conjuro que camine sobre un puente ilusorio que cruza un abismo, caer\u00e1 en cuanto d\u00e9 el primer paso. Pero si el objetivo sobrevive a la ca\u00edda, todav\u00eda creer\u00e1 que el puente existe e inventar\u00e1 una explicaci\u00f3n para su ca\u00edda (fue empujado, se resbal\u00f3 o quiz\u00e1 un fuerte viento lo arroj\u00f3 al vac\u00edo).<br><br>El objetivo afectado est\u00e1 tan convencido de la existencia real de la ilusi\u00f3n que incluso puede llegar a sufrir da\u00f1o ps\u00edquico. Un fantasma creado para parecer una criatura puede atacar al objetivo. De forma similar, un fantasma creado para parecer fuego, un charco de \u00e1cido o una bola de fuego puede infligir da\u00f1o. Cada asalto, en tu turno, el fantasma puede infligir 1d6 de da\u00f1o ps\u00edquico al objetivo si este se encuentra a 1,5 m del mismo. Para ello, usar\u00e1 tu modificador de ataque de conjuro para golpear al objetivo. Si lo golpea, el objetivo interpretar\u00e1 el da\u00f1o como provocado por la ilusi\u00f3n. Si no, describir\u00e1 el da\u00f1o como de un tipo apropiado a la ilusi\u00f3n."
     ],
     "materiales": "Un poco de vell\u00f3n."
+  },
+  {
+    "nombre": "Hacer a\u00f1icos",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Un s\u00fabito y fuerte ta\u00f1ido, de una intensidad dolorosa, brota de un punto de tu elecci\u00f3n que se encuentre dentro del alcance. Todas las criaturas en una esfera de 10 pies centrada en el punto deben hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1n 3d8 de da\u00f1o de trueno si fallan la tirada o la mitad del da\u00f1o si la superan. Una criatura hecha de un material inorg\u00e1nico, como piedra, cristal o metal, tiene desventaja en esta tirada de salvaci\u00f3n.<br><br>Un objeto no m\u00e1gico que no lleve o vista alguien tambi\u00e9n recibir\u00e1 el da\u00f1o si se encuentra dentro del \u00e1rea afectada.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o mayor, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+      "Un s\u00fabito y fuerte ta\u00f1ido, de una intensidad dolorosa, brota de un punto de tu elecci\u00f3n que se encuentre dentro del alcance. Todas las criaturas en una esfera de 3 m centrada en el punto deben hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1n 3d8 de da\u00f1o de trueno si fallan la tirada o la mitad del da\u00f1o si la superan. Una criatura hecha de un material inorg\u00e1nico, como piedra, cristal o metal, tiene desventaja en esta tirada de salvaci\u00f3n.<br><br>Un objeto no m\u00e1gico que no lleve o vista alguien tambi\u00e9n recibir\u00e1 el da\u00f1o si se encuentra dentro del \u00e1rea afectada.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o mayor, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Una lasca de mica."
   }
 ]
