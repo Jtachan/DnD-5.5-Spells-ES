@@ -890,5 +890,37 @@
       "Una esfera brillante ilumina una zona de 18 m de radio alrededor de un punto dentro del alcance. La esfera emite luz brillante y proporciona luz tenue a otros 18 m de distancia.<br><br>Si el conjuro se dirige a un objeto que t\u00fa sujetas o no lleve vista nadie, la luz se extender\u00e1 desde el objeto y se desplazar\u00e1 con \u00e9l. Cubrir completamente la fuente de luz con un objeto opaco, como una cazuela o una cesta, la bloquea.<br><br>Si cualquier parte del \u00e1rea de este conjuro se superpone con el \u00e1rea de oscuridad creada por un conjuro de nivel 3 o menos, el conjuro que cre\u00f3 esa oscuridad es disipado."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Muro de viento",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "FUE",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Un muro de fuerte viento surge desde el suelo en un punto de tu elecci\u00f3n dentro del alcance. Puedes crearlo con hasta 50 pies de longitud, 15 de altura y 1 de grosor. El muro puede tener la forma que desees mientras constituya un camino continuo a lo largo del suelo. Permanecer\u00e1 hasta el final de la duraci\u00f3n del conjuro.<br><br>Cuando el muro aparece, todas las criaturas dentro de la zona limitada por el muro deben hacer una tirada de salvaci\u00f3n de Fuerza. Sufrir\u00e1n 3d8 de da\u00f1o contundente si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>El fuerte viento mantiene a raya nieblas, humos y otros gases. Las criaturas voladoras u objetos de tama\u00f1o Peque\u00f1o o menor no podr\u00e1n atravesar el muro. Los materiales libres y ligeros que sean acercados al muro volar\u00e1n hacia arriba. Las flechas, virotes y otros proyectiles normales dirigidos a trav\u00e9s del muro ser\u00e1n desviados hacia arriba y fallar\u00e1n autom\u00e1ticamente (las armas arrojadizas, como lanzas o armas de aseo, as\u00ed como virotes y proyectiles similares, no se ver\u00e1n afectadas). Las criaturas con forma gaseosa tampoco podr\u00e1n atravesar el muro.",
+      "Un muro de fuerte viento surge desde el suelo en un punto de tu elecci\u00f3n dentro del alcance. Puedes crearlo con hasta 15 m de longitud, 15 de altura y 1 de grosor. El muro puede tener la forma que desees mientras constituya un camino continuo a lo largo del suelo. Permanecer\u00e1 hasta el final de la duraci\u00f3n del conjuro.<br><br>Cuando el muro aparece, todas las criaturas dentro de la zona limitada por el muro deben hacer una tirada de salvaci\u00f3n de Fuerza. Sufrir\u00e1n 3d8 de da\u00f1o contundente si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>El fuerte viento mantiene a raya nieblas, humos y otros gases. Las criaturas voladoras u objetos de tama\u00f1o Peque\u00f1o o menor no podr\u00e1n atravesar el muro. Los materiales libres y ligeros que sean acercados al muro volar\u00e1n hacia arriba. Las flechas, virotes y otros proyectiles normales dirigidos a trav\u00e9s del muro ser\u00e1n desviados hacia arriba y fallar\u00e1n autom\u00e1ticamente (las armas arrojadizas, como lanzas o armas de aseo, as\u00ed como virotes y proyectiles similares, no se ver\u00e1n afectadas). Las criaturas con forma gaseosa tampoco podr\u00e1n atravesar el muro."
+    ],
+    "materiales": "Un peque\u00f1o abanico y una pluma de origen ex\u00f3tico."
   }
 ]
