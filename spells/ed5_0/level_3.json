@@ -1242,5 +1242,28 @@
       "Proyectas una visi\u00f3n fantasmal que encarna los peores miedos de tus enemigos. Cada criatura en un cono de 9 m debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o se asustar\u00e1 y quedar\u00e1 asustada hasta el final de la duraci\u00f3n del conjuro.<br><br>Mientras permanezca asustada, en cada uno de sus turnos, cada criatura deber\u00e1 utilizar una acci\u00f3n de Correr para alejarse de ti por la ruta m\u00e1s corta y segura, a menos que no haya d\u00f3nde huir. Si acaba su turno en un punto desde el cual no tiene l\u00ednea de visi\u00f3n hacia ti, podr\u00e1 hacer otra tirada de salvaci\u00f3n. Si tiene \u00e9xito, el conjuro acaba para esa criatura."
     ],
     "materiales": "Una pluma blanca o el coraz\u00f3n de una gallina."
+  },
+  {
+    "nombre": "Toque vamp\u00edrico",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "El toque de tu mano envuelta en sombras puede absorber la fuerza vital de otros para curar tus heridas. Haz un ataque de conjuro cuerpo a cuerpo contra una criatura dentro del alcance. Si impactas, el objetivo sufre 3d6 de da\u00f1o necr\u00f3tico y t\u00fa recuperas tantos puntos de golpe como la mitad del da\u00f1o necr\u00f3tico infligido. Hasta el final del conjuro puedes usar una acci\u00f3n en cada uno de tus turnos para atacar de nuevo.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
+    "materiales": null
   }
 ]
