@@ -1032,5 +1032,31 @@
       "Una c\u00fapula inm\u00f3vil de fuerza surge en un radio de 3 m alrededor de ti y permanece est\u00e1tica hasta el final de la duraci\u00f3n del conjuro. Este termina inmediatamente si sales de la zona.<br><br>Hasta nueve criaturas de tama\u00f1o Mediano o menor caben dentro de la c\u00fapula contigo. El conjuro falla si su zona incluye a una criatura de mayor tama\u00f1o o a m\u00e1s de nueve. Las criaturas y los objetos dentro de la c\u00fapula cuando lanzas el conjuro pueden atravesarla con libertad. Todas las dem\u00e1s criaturas y objetos no podr\u00e1n entrar.<br><br>Los conjuros y otros efectos m\u00e1gicos no pueden extender sus efectos dentro de la c\u00fapula o ser lanzados con su origen dentro. La atm\u00f3sfera dentro de este espacio es confortable y seca, independientemente del tiempo en el exterior.<br><br>Hasta que acabe el conjuro, puedes hacer que el interior est\u00e9 iluminado con luz tenue o a oscuras. La c\u00fapula es opaca desde fuera, del color que elijas, pero transparente desde dentro."
     ],
     "materiales": "Una peque\u00f1a cuenta de cristal."
+  },
+  {
+    "nombre": "Protecci\u00f3n contra energ\u00eda",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria. Hasta el final de la duraci\u00f3n del conjuro, esa criatura tiene resistencia a un tipo de da\u00f1o de tu elecci\u00f3n: \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago o trueno.",
+    "materiales": null
   }
 ]
