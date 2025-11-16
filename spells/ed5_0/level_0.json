@@ -140,5 +140,28 @@
     "requiere_ataque": true,
     "descripcion": "Lanzas un rayo de energ\u00eda chisporroteante hacia una criatura de tu elecci\u00f3n dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si impactas, el objetivo recibe 1d10 de da\u00f1o de fuerza.<br><br><b><i>A niveles superiores.</i></b> Este conjuro crea dos rayos a nivel 5, tres rayos a nivel 11 y cuatro rayos a nivel 17. Puedes dirigir los rayos al mismo o a distintos objetivos. Haz una tirada de ataque separada para cada rayo.",
     "materiales": null
+  },
+  {
+    "nombre": "Guardia de cuchillas",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Extiendes tu mano y trazas un sello de guarda en el aire. Hasta el final de tu pr\u00f3ximo turno, tienes resistencia contra el da\u00f1o contundente, perforante y cortante que provenga de ataques con armas.",
+    "materiales": null
   }
 ]
