@@ -517,5 +517,28 @@
       "Este conjuro repara una sola grieta o ruptura en un objeto que toques, como un eslab\u00f3n roto en una cadena, las dos mitades de una llave partida, una capa rasgada o una fuga en una bota de vino. Mientras la grieta o desgarro no sea de m\u00e1s de 0,3 m en alguna dimensi\u00f3n, lo arreglar\u00e1s sin dejar rastro del da\u00f1o.<br><br>Este conjuro puede reparar el componente f\u00edsico de un objeto m\u00e1gico o de un aut\u00f3mata, pero no puede restaurar su magia."
     ],
     "materiales": "Dos imanes naturales."
+  },
+  {
+    "nombre": "Resistencia",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria. Una sola vez, antes de que termine el conjuro, el objetivo puede tirar 1d4 y a\u00f1adir el resultado a una tirada de salvaci\u00f3n de su elecci\u00f3n. Puede tirar del dado antes o despu\u00e9s de conocer el resultado de la tirada. Hacer esto da por finalizado el conjuro.",
+    "materiales": "Una capa en miniatura."
   }
 ]
