@@ -584,5 +584,31 @@
       "Describe o nombra a una criatura con la que est\u00e9s familiarizado. Puedes sentir la direcci\u00f3n hacia la localizaci\u00f3n del objetivo, mientras est\u00e9 a 1.0 m o menos de ti. Si la criatura se est\u00e1 moviendo, sabes en qu\u00e9 direcci\u00f3n.<br><br>El conjuro puede localizar a una criatura en particular que conoces o la criatura m\u00e1s cercana de un tipo concreto (como humano o unicornio), siempre que hayas visto al menos una vez una criatura de ese tipo de cerca (a menos de 9 m). Si la criatura que describes o nombras tiene una forma distinta (si est\u00e1, por poner un ejemplo, bajo los efectos del conjuro polimorfar) este conjuro no es capaz de localizarla.<br><br>Tampoco podr\u00e1 localizar a una criatura si el camino directo hasta ella est\u00e1 bloqueado por una corriente de agua de al menos 3 m de ancho."
     ],
     "materiales": "Un poco de pelaje de un sabueso."
+  },
+  {
+    "nombre": "Marchitar",
+    "clases": [
+      "Druida",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "La energ\u00eda nigrom\u00e1ntica ba\u00f1a a una criatura de tu elecci\u00f3n que puedas ver dentro del alcance, drenando sus fluidos y energ\u00edas vitales. El objetivo debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 8d8 de da\u00f1o necr\u00f3tico si falla la tirada o la mitad del da\u00f1o si la supera. Este conjuro no afecta a muertos vivientes o aut\u00f3matas. Si eliges como objetivo a una criatura de tipo \u201cplanta\u201d o a una planta m\u00e1gica, esta realiza la tirada con desventaja y el conjuro le hace el m\u00e1ximo da\u00f1o.<br><br>Si eliges a una planta no m\u00e1gica que no sea una criatura, como un \u00e1rbol o un arbusto, no hace falta una tirada de salvaci\u00f3n; simplemente se marchitar\u00e1 y morir\u00e1.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
+    "materiales": null
   }
 ]
