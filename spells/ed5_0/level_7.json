@@ -368,5 +368,28 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura, estimulando su capacidad de curaci\u00f3n natural. Recupera 4d8+15 puntos de golpe. Adem\u00e1s, recuperar\u00e1 1 punto de golpe al principio de cada uno de sus turnos (10 puntos de golpe por minuto) hasta el final de la duraci\u00f3n del conjuro.<br><br>Los miembros cercenados del objetivo (dedos, piernas, cola, etc.), si los tuviera, crecen de nuevo en 2 minutos. Si tienes el miembro separado y lo presionas contra el mu\u00f1\u00f3n, el conjuro hace que se reintegre inmediatamente.",
     "materiales": "Una rueda de plegarias y agua bendita."
+  },
+  {
+    "nombre": "Resurrecci\u00f3n",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura que lleve muerta menos de un siglo, que no haya fallecido de edad avanzada y que no sea un muerto viviente. Si su alma es libre y lo desea, el objetivo vuelve a la vida con todos sus puntos de golpe.<br><br>Este conjuro tambi\u00e9n neutraliza cualquier veneno y cura cualquier enfermedad no m\u00e1gica que afligiera a la criatura en el momento de su muerte. Sin embargo, no elimina enfermedades m\u00e1gicas, maldiciones o efectos similares. Si estos no se eliminan antes del lanzamiento de este conjuro, retrasar\u00e1n en acci\u00f3n cuando la criatura vuelva a la vida.<br><br>Todas las heridas letales quedar\u00e1n cerradas, pero no se restablecen miembros o partes del cuerpo que falten.<br><br>Volver de entre los muertos es una experiencia terrible. El objetivo tendr\u00e1 un penalizador de \u20134 a todas las tiradas de ataque, tiradas de salvaci\u00f3n y pruebas de caracter\u00edstica. Cada vez que complete un descanso largo, este penalizador se reducir\u00e1 en 1, hasta que desaparezca al llegar a 0.<br><br>Lanzar este conjuro para devolver la vida a una criatura que ha estado muerta durante un a\u00f1o o m\u00e1s es un gran esfuerzo. Hasta que completes un descanso largo, no podr\u00e1s lanzar m\u00e1s conjuros y tendr\u00e1s desventaja en todas las tiradas de ataque, pruebas de caracter\u00edstica y tiradas de salvaci\u00f3n.",
+    "materiales": "Diamante con un valor de, al menos, 1.000 po, que es consumido como parte del conjuro."
   }
 ]
