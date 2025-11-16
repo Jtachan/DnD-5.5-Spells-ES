@@ -233,5 +233,28 @@
     "requiere_ataque": false,
     "descripcion": "Exilias a una criatura que puedas ver dentro del alcance a un semiplano laber\u00edntico. Permanecer\u00e1 en su interior hasta el final de la duraci\u00f3n del conjuro o hasta que escape del laberinto.<br><br>Una criatura puede utilizar su acci\u00f3n para intentar escapar. Para ello, realizar\u00e1 una prueba de Inteligencia CD 20. Si tiene \u00e9xito, escapar\u00e1 y el conjuro termina (los minotauros y los demonios goristro tienen \u00e9xito autom\u00e1ticamente).<br><br>Cuando el conjuro termine, el objetivo reaparecer\u00e1 en el espacio que ocupaba antes o en el m\u00e1s cercano disponible si ese est\u00e1 ocupado.",
     "materiales": null
+  },
+  {
+    "nombre": "Labia",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta que el conjuro termine, cada vez que hagas una prueba de Carisma, puedes cambiar el resultado de la tirada por un 15. Adem\u00e1s, independientemente de si lo que dices es cierto, cualquier magia que determine si dices la verdad indica que est\u00e1s siendo sincero.",
+    "materiales": null
   }
 ]
