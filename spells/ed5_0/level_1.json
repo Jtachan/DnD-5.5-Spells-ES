@@ -841,5 +841,29 @@
     "requiere_ataque": false,
     "descripcion": "Infundes valor en una criatura voluntaria a la que toques. Hasta el final de la duraci\u00f3n, no puede ser asustada y gana tantos puntos de golpe temporales como tu modificador por aptitud m\u00e1gica al principio de cada uno de sus turnos. Cuando el conjuro termina, pierde todos los puntos de golpe temporales restantes que provengan de este conjuro.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
     "materiales": null
+  },
+  {
+    "nombre": "Identificar",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Elige un objeto o criatura, que deber\u00e1s tocar durante el lanzamiento del conjuro. Si es un objeto m\u00e1gico o un objeto imbuido de magia, averiguar\u00e1s sus propiedades y c\u00f3mo usarlas, si hace falta sintonizarse con \u00e9l para utilizarlo y cu\u00e1ntas cargas tiene, si es el caso. Si hay conjuros afectados o la magia del objeto, sabr\u00e1s cu\u00e1les son. Si el objeto fue creado con un conjuro, tambi\u00e9n averiguar\u00e1s cu\u00e1l es.<br><br>Si tocas una criatura en lugar de un objeto, averiguar\u00e1s qu\u00e9 conjuros le est\u00e1n afectando.",
+    "materiales": "Una perla que valga, al menos, 100 po y una pluma de b\u00faho."
   }
 ]
