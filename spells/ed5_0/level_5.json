@@ -763,5 +763,35 @@
       "Una columna de fuego divino ruge desde el cielo y cae sobre una localizaci\u00f3n de tu elecci\u00f3n. Todas las criaturas en un cilindro de 3 m de radio y 12 m de altura centrado en un punto dentro del alcance deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 4d6 de da\u00f1o de fuego y 4d6 de da\u00f1o radiante si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o superior, el da\u00f1o de fuego y el radiante (a tu elecci\u00f3n) aumentan en 1d6 por cada nivel por encima de 5 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Una pizca de azufre."
+  },
+  {
+    "nombre": "Inmovilizar monstruo",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Elige a una criatura que puedas ver dentro del alcance. El objetivo debe pasar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 paralizado hasta el final de la duraci\u00f3n del conjuro. Este conjuro no afecta a muertos vivientes. Al final de cada uno de sus turnos, la criatura puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito, el conjuro termina para ese objetivo.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 5 que tenga el espacio que hayas empleado. En el momento de elegirlos como objetivo, todas las criaturas deben estar a 30 pies o menos de todas las dem\u00e1s.",
+      "Elige a una criatura que puedas ver dentro del alcance. El objetivo debe pasar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 paralizado hasta el final de la duraci\u00f3n del conjuro. Este conjuro no afecta a muertos vivientes. Al final de cada uno de sus turnos, la criatura puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito, el conjuro termina para ese objetivo.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 5 que tenga el espacio que hayas empleado. En el momento de elegirlos como objetivo, todas las criaturas deben estar a 9 m o menos de todas las dem\u00e1s."
+    ],
+    "materiales": "Un pedazo de hierro, peque\u00f1o y recto."
   }
 ]
