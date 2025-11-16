@@ -1481,5 +1481,28 @@
       "Este conjuro crea una fuerza invisible, sin mente y sin forma, que realiza tareas simples bajo tus \u00f3rdenes hasta el final de la duraci\u00f3n del conjuro. El sirviente surge del suelo de la nada en un espacio desocupado del suelo en tu alcance. Tiene CA 10, 1 punto de golpe, su Fuerza es 2 y no puede atacar. Si sus puntos de golpe se reducen a 0, el conjuro termina.<br><br>Una vez por turno, como acci\u00f3n adicional, puedes dar una orden mental al sirviente para que se mueva 4,5 m e interact\u00fae con un objeto. El sirviente es capaz de realizar tareas simples, que un siervo humano podr\u00eda hacer, como traer y llevar cosas, limpiar, remendar, doblar la ropa, encender el fuego, servir comida o escanciar vino. Una vez le das una orden, el sirviente lleva a cabo la tarea lo mejor posible hasta terminarla, momento en el cual queda a la espera de tu siguiente orden.<br><br>Si ordenas al sirviente realizar una tarea que lo alejar\u00eda m\u00e1s de 18 m de ti, el conjuro termina."
     ],
     "materiales": "Un pedazo de cuerda y un trocito de madera."
+  },
+  {
+    "nombre": "Susurros discordantes",
+    "clases": [
+      "Bardo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Susurras una melod\u00eda discordante que solo una criatura de tu elecci\u00f3n dentro del alcance puede o\u00edr, inund\u00e1ndola con un terrible dolor. El objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, sufre 3d6 de da\u00f1o ps\u00edquico y debe utilizar su reacci\u00f3n inmediatamente, si es posible, para moverse tan lejos de ti como le permita su velocidad. Eso s\u00ed, la criatura no entrar\u00e1 en un terreno peligroso, como un fuego o un pozo. En cambio, si supera la tirada, recibir\u00e1 la mitad del da\u00f1o y no necesitar\u00e1 alejarse. Una criatura ensordecida tiene \u00e9xito autom\u00e1ticamente en la prueba.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "materiales": null
   }
 ]
