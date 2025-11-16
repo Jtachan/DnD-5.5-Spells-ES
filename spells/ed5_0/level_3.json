@@ -1215,5 +1215,32 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro proporciona esperanza y vitalidad. Elige cualquier n\u00famero de criaturas dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, todos los objetivos tienen ventaja en sus tiradas de salvaci\u00f3n de Sabidur\u00eda y sus tiradas de salvaci\u00f3n contra muerte. Adem\u00e1s, al recibir cualquier tipo de curaci\u00f3n recuperan la cantidad m\u00e1xima posible de puntos de golpe.",
     "materiales": null
+  },
+  {
+    "nombre": "Terror",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Proyectas una visi\u00f3n fantasmal que encarna los peores miedos de tus enemigos. Cada criatura en un cono de 30 pies debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o se asustar\u00e1 y quedar\u00e1 asustada hasta el final de la duraci\u00f3n del conjuro.<br><br>Mientras permanezca asustada, en cada uno de sus turnos, cada criatura deber\u00e1 utilizar una acci\u00f3n de Correr para alejarse de ti por la ruta m\u00e1s corta y segura, a menos que no haya d\u00f3nde huir. Si acaba su turno en un punto desde el cual no tiene l\u00ednea de visi\u00f3n hacia ti, podr\u00e1 hacer otra tirada de salvaci\u00f3n. Si tiene \u00e9xito, el conjuro acaba para esa criatura.",
+      "Proyectas una visi\u00f3n fantasmal que encarna los peores miedos de tus enemigos. Cada criatura en un cono de 9 m debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o se asustar\u00e1 y quedar\u00e1 asustada hasta el final de la duraci\u00f3n del conjuro.<br><br>Mientras permanezca asustada, en cada uno de sus turnos, cada criatura deber\u00e1 utilizar una acci\u00f3n de Correr para alejarse de ti por la ruta m\u00e1s corta y segura, a menos que no haya d\u00f3nde huir. Si acaba su turno en un punto desde el cual no tiene l\u00ednea de visi\u00f3n hacia ti, podr\u00e1 hacer otra tirada de salvaci\u00f3n. Si tiene \u00e9xito, el conjuro acaba para esa criatura."
+    ],
+    "materiales": "Una pluma blanca o el coraz\u00f3n de una gallina."
   }
 ]
