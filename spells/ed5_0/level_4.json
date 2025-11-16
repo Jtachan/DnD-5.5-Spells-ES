@@ -610,5 +610,33 @@
     "requiere_ataque": false,
     "descripcion": "La energ\u00eda nigrom\u00e1ntica ba\u00f1a a una criatura de tu elecci\u00f3n que puedas ver dentro del alcance, drenando sus fluidos y energ\u00edas vitales. El objetivo debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 8d8 de da\u00f1o necr\u00f3tico si falla la tirada o la mitad del da\u00f1o si la supera. Este conjuro no afecta a muertos vivientes o aut\u00f3matas. Si eliges como objetivo a una criatura de tipo \u201cplanta\u201d o a una planta m\u00e1gica, esta realiza la tirada con desventaja y el conjuro le hace el m\u00e1ximo da\u00f1o.<br><br>Si eliges a una planta no m\u00e1gica que no sea una criatura, como un \u00e1rbol o un arbusto, no hace falta una tirada de salvaci\u00f3n; simplemente se marchitar\u00e1 y morir\u00e1.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
     "materiales": null
+  },
+  {
+    "nombre": "Mast\u00edn fiel de Mordenkainen",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": [
+      "Conjuras un perro guardi\u00e1n fantasmal en un espacio desocupado que puedas ver dentro del alcance, donde permanece hasta el final de la duraci\u00f3n del conjuro, hasta que finalices el conjuro usando una acci\u00f3n o hasta que te alejes m\u00e1s de 100 pies de \u00e9l.<br><br>El mast\u00edn es invisible para todas las criaturas excepto para ti y no puede ser da\u00f1ado. Cuando una criatura Peque\u00f1a o mayor llega a 30 pies de \u00e9l sin haber dicho una contrase\u00f1a que especificas al lanzar el conjuro, el mast\u00edn comienza a ladrar ruidosamente. El mast\u00edn puede ver criaturas invisibles e incluso ver en el Plano Et\u00e9reo. Puede ver a trav\u00e9s de las ilusiones.<br><br>Al principio de cada uno de tus turnos, el mast\u00edn intenta morder a una criatura que se encuentre a 5 pies de distancia o menos y sea hostil hacia ti. Su bonificaci\u00f3n a la tirada de ataque es igual tu modificador por aptitud m\u00e1gica + tu bonificador por competencia. Si impacta, hace 4d8 de da\u00f1o perforante.",
+      "Conjuras un perro guardi\u00e1n fantasmal en un espacio desocupado que puedas ver dentro del alcance, donde permanece hasta el final de la duraci\u00f3n del conjuro, hasta que finalices el conjuro usando una acci\u00f3n o hasta que te alejes m\u00e1s de 30 m de \u00e9l.<br><br>El mast\u00edn es invisible para todas las criaturas excepto para ti y no puede ser da\u00f1ado. Cuando una criatura Peque\u00f1a o mayor llega a 9 m de \u00e9l sin haber dicho una contrase\u00f1a que especificas al lanzar el conjuro, el mast\u00edn comienza a ladrar ruidosamente. El mast\u00edn puede ver criaturas invisibles e incluso ver en el Plano Et\u00e9reo. Puede ver a trav\u00e9s de las ilusiones.<br><br>Al principio de cada uno de tus turnos, el mast\u00edn intenta morder a una criatura que se encuentre a 1,5 m de distancia o menos y sea hostil hacia ti. Su bonificaci\u00f3n a la tirada de ataque es igual tu modificador por aptitud m\u00e1gica + tu bonificador por competencia. Si impacta, hace 4d8 de da\u00f1o perforante."
+    ],
+    "materiales": "Un peque\u00f1o silbato plateado, un trozo de hueso y un hilo."
   }
 ]
