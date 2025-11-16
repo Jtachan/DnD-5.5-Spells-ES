@@ -722,5 +722,29 @@
       "Creas un ojo m\u00e1gico invisible, capaz de levitar y que permanece hasta el final de la duraci\u00f3n del conjuro.<br><br>Recibes mentalmente informaci\u00f3n visual del ojo, que posee visi\u00f3n normal y visi\u00f3n en la oscuridad hasta 9 m. El ojo es capaz de mirar en cualquier direcci\u00f3n.<br><br>Como acci\u00f3n, puedes mover el ojo hasta 9 m a una nueva localizaci\u00f3n. No hay un l\u00edmite de distancia mientras se mantenga la concentraci\u00f3n, pero no puede pasar a otro plano de existencia. Si una barrera s\u00f3lida bloquea el movimiento del ojo, puedes moverlo de otra forma a trav\u00e9s de orificios de un di\u00e1metro m\u00ednimo de, al menos, 2,5 cm."
     ],
     "materiales": "Un poco de pelo de murci\u00e9lago."
+  },
+  {
+    "nombre": "Piel p\u00e9trea",
+    "clases": [
+      "Druida",
+      "Mago",
+      "Explorador"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro vuelve p\u00e9trea la carne de una criatura voluntaria a la que toques. Hasta el final del conjuro, el objetivo tiene resistencia al da\u00f1o contundente, cortante y perforante que no sea m\u00e1gico.",
+    "materiales": "Polvo de diamante con un valor de, al menos, 100 po, que es consumido como parte del conjuro."
   }
 ]
