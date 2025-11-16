@@ -1358,5 +1358,34 @@
     "requiere_ataque": false,
     "descripcion": "Influencias m\u00e1gicamente a una criatura a la que puedas ver dentro del alcance y que pueda o\u00edrte y comprenderte. Sugieres al objetivo un curso de acci\u00f3n (limitado a una o dos frases), pero siempre expresado de tal forma que parezca razonable. Pedirle a la criatura que se apu\u00f1ale, se empale en una lanza, se inmole o realice cualquier otra actividad claramente da\u00f1ina termina el conjuro. Las criaturas que no puedan ser hechizadas no se ven afectadas por este conjuro.<br><br>El objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, llevar\u00e1 a cabo la acci\u00f3n que le sugeriste hasta donde le permitan sus capacidades. Esta acci\u00f3n puede continuar hasta el final de la duraci\u00f3n del conjuro. Si la sugerencia puede ser llevada a cabo en menos tiempo, el conjuro terminar\u00e1 cuando el objetivo complete la tarea encomendada.<br><br>Puedes especificar que ciertas condiciones dispersen una actividad espec\u00edfica mientras el conjuro siga activo. Por ejemplo, puedes sugerir a un caballero que entregue su caballo al primer mendigo que vea. Si la condici\u00f3n no se cumple al primer mendigo que vea, entonces la actividad no se lleva a cabo.<br><br>Si t\u00fa o cualquiera de tus compa\u00f1eros da\u00f1a al objetivo, el conjuro termina.",
     "materiales": "La lengua de una serpiente y un trozo de panal o una gota de aceite dulce."
+  },
+  {
+    "nombre": "Telara\u00f1a",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Conjuras una masa de telara\u00f1as densa y pegajosa en un punto de tu elecci\u00f3n dentro del alcance. Las telara\u00f1as ocupan un cubo de 20 pies de lado desde su punto de origen hasta el final de la duraci\u00f3n del conjuro. La zona cubierta es considerada ligeramente oscura y terreno dif\u00edcil.<br><br>Si las telara\u00f1as no est\u00e1n ancladas entre dos objetos s\u00f3lidos (como muros o \u00e1rboles) o extendidas sobre un suelo, muro o techo, se colapsar\u00e1n sobre s\u00ed mismas y el conjuro terminar\u00e1 al final de tu pr\u00f3ximo turno. Las telara\u00f1as dispuestas sobre una superficie plana tienen una profundidad de 5 pies.<br><br>Cualquier criatura que comience su turno en las telara\u00f1as o que entre en ellas durante el mismo, debe hacer una tirada de salvaci\u00f3n de Destreza. Si la falla, quedar\u00e1 apresada mientras siga en las telara\u00f1as o hasta que se libere. Una criatura apresada puede utilizar su acci\u00f3n para hacer una prueba de Fuerza contra tu CD de salvaci\u00f3n de conjuros. Si la supera, dejar\u00e1 de estar apresada.<br><br>Las telara\u00f1as son inflamables. Cualquier cubo de 5 pies de lado expuesto al fuego se quema por completo en 1 asalto, causando 2d4 de da\u00f1o de fuego a la criatura o criatura que comience su turno en el incendio.",
+      "Conjuras una masa de telara\u00f1as densa y pegajosa en un punto de tu elecci\u00f3n dentro del alcance. Las telara\u00f1as ocupan un cubo de 6 m de lado desde su punto de origen hasta el final de la duraci\u00f3n del conjuro. La zona cubierta es considerada ligeramente oscura y terreno dif\u00edcil.<br><br>Si las telara\u00f1as no est\u00e1n ancladas entre dos objetos s\u00f3lidos (como muros o \u00e1rboles) o extendidas sobre un suelo, muro o techo, se colapsar\u00e1n sobre s\u00ed mismas y el conjuro terminar\u00e1 al final de tu pr\u00f3ximo turno. Las telara\u00f1as dispuestas sobre una superficie plana tienen una profundidad de 1,5 m.<br><br>Cualquier criatura que comience su turno en las telara\u00f1as o que entre en ellas durante el mismo, debe hacer una tirada de salvaci\u00f3n de Destreza. Si la falla, quedar\u00e1 apresada mientras siga en las telara\u00f1as o hasta que se libere. Una criatura apresada puede utilizar su acci\u00f3n para hacer una prueba de Fuerza contra tu CD de salvaci\u00f3n de conjuros. Si la supera, dejar\u00e1 de estar apresada.<br><br>Las telara\u00f1as son inflamables. Cualquier cubo de 1,5 m de lado expuesto al fuego se quema por completo en 1 asalto, causando 2d4 de da\u00f1o de fuego a la criatura o criatura que comience su turno en el incendio."
+    ],
+    "materiales": "Un poco de telara\u00f1a de ara\u00f1a."
   }
 ]
