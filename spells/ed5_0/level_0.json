@@ -212,5 +212,30 @@
       "Creas un sonido o una imagen de un objeto, situado dentro del alcance y que permanece hasta el final de la duraci\u00f3n del conjuro. La ilusi\u00f3n tambi\u00e9n termina si lanzas un conjuro nuevo o si utilizas una acci\u00f3n para finalizarla.<br><br>Si creas un sonido, puedes hacer que sea el de un susurro y el de un grito. Puede ser tu voz, la de otra criatura, el rugido de un le\u00f3n, el rechinar de tambores o cualquier sonido de tu elecci\u00f3n. Podr\u00e1 sonar en momentos concretos o continuamente hasta que termine el conjuro, a tu preferencia.<br><br>Si creas la imagen de un objeto (como una silla, pisapapeles o un bulto) no debe ser mayor que un cubo de 1,5 m de lado. La imagen no puede generar sonido, luz, olor o cualquier otro efecto sensorial. La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas la atraviesan.<br><br>Si una criatura utiliza su acci\u00f3n para examinar la imagen o el sonido, puede determinar que es una ilusi\u00f3n si tiene \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros. Si averigua que es una ilusi\u00f3n, su aspecto se vuelve tenue para esa criatura."
     ],
     "materiales": "Un poco de vell\u00f3n."
+  },
+  {
+    "nombre": "Impacto certero",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 asalto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Extiendes tu mano y se\u00f1alas con el dedo a un objetivo dentro del alcance. Tu magia te da un moment\u00e1neo entendimiento de las defensas del objetivo. En tu pr\u00f3ximo turno, ganas ventaja en tu primera tirada de ataque contra el objetivo, suponiendo que este conjuro no haya terminado.",
+    "materiales": null
   }
 ]
