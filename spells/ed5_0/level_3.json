@@ -1058,5 +1058,34 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura voluntaria. Hasta el final de la duraci\u00f3n del conjuro, esa criatura tiene resistencia a un tipo de da\u00f1o de tu elecci\u00f3n: \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago o trueno.",
     "materiales": null
+  },
+  {
+    "nombre": "Ralentizar",
+    "clases": [
+      "Mago",
+      "Hechicero"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Alteras el tiempo en torno a hasta seis criaturas de tu elecci\u00f3n situadas en un cubo de 40 pies de lado dentro del alcance. Cada una de ellas debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 afectada hasta el final de la duraci\u00f3n del conjuro.<br><br>La velocidad de una criatura afectada se reduce a la mitad, recibe un penalizador de \u22122 a la CA y a las tiradas de salvaci\u00f3n y no puede llevar a cabo reacciones. En su turno, podr\u00e1 usar una acci\u00f3n o una acci\u00f3n adicional, pero no ambas. Independientemente de sus habilidades u objetos m\u00e1gicos, no podr\u00e1 hacer m\u00e1s de un ataque cuerpo a cuerpo o a distancia durante su turno.<br><br>Si la criatura intenta lanzar un conjuro con un tiempo de lanzamiento de 1 acci\u00f3n, tira 1d20. Con un resultado de 11 o m\u00e1s, el conjuro no tiene efecto hasta el pr\u00f3ximo turno de la criatura, que debe utilizar la acci\u00f3n de ese turno para completar el conjuro. Si no puede, el conjuro se pierde.<br><br>Una criatura afectada por este conjuro realiza otra tirada de salvaci\u00f3n de Sabidur\u00eda al final de cada uno de sus turnos. Si tiene \u00e9xito, el efecto termina para ella inmediatamente.",
+      "Alteras el tiempo en torno a hasta seis criaturas de tu elecci\u00f3n situadas en un cubo de 12 m de lado dentro del alcance. Cada una de ellas debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 afectada hasta el final de la duraci\u00f3n del conjuro.<br><br>La velocidad de una criatura afectada se reduce a la mitad, recibe un penalizador de \u22122 a la CA y a las tiradas de salvaci\u00f3n y no puede llevar a cabo reacciones. En su turno, podr\u00e1 usar una acci\u00f3n o una acci\u00f3n adicional, pero no ambas. Independientemente de sus habilidades u objetos m\u00e1gicos, no podr\u00e1 hacer m\u00e1s de un ataque cuerpo a cuerpo o a distancia durante su turno.<br><br>Si la criatura intenta lanzar un conjuro con un tiempo de lanzamiento de 1 acci\u00f3n, tira 1d20. Con un resultado de 11 o m\u00e1s, el conjuro no tiene efecto hasta el pr\u00f3ximo turno de la criatura, que debe utilizar la acci\u00f3n de ese turno para completar el conjuro. Si no puede, el conjuro se pierde.<br><br>Una criatura afectada por este conjuro realiza otra tirada de salvaci\u00f3n de Sabidur\u00eda al final de cada uno de sus turnos. Si tiene \u00e9xito, el efecto termina para ella inmediatamente."
+    ],
+    "materiales": "Una gota de melaza."
   }
 ]
