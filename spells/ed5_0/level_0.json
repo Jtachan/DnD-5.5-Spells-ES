@@ -237,5 +237,34 @@
     "requiere_ataque": false,
     "descripcion": "Extiendes tu mano y se\u00f1alas con el dedo a un objetivo dentro del alcance. Tu magia te da un moment\u00e1neo entendimiento de las defensas del objetivo. En tu pr\u00f3ximo turno, ganas ventaja en tu primera tirada de ataque contra el objetivo, suponiendo que este conjuro no haya terminado.",
     "materiales": null
+  },
+  {
+    "nombre": "L\u00e1tigo de espinas",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": [
+      "Creas un l\u00e1tigo largo, similar a una enredadera cubierta de espinas, que fustiga bajo tus \u00f3rdenes a una criatura dentro del alcance. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si el ataque impacta, la criatura sufre 1d6 de da\u00f1o perforante. Adem\u00e1s, si el objetivo es de tama\u00f1o Grande o menor, tiras de \u00e9l 10 pies hacia ti.<br><br><b><i>A niveles superiores.</i></b> El da\u00f1o del conjuro aumenta en 1d6 cuando alcanzas nivel 5 (2d6), nivel 11 (3d6) y nivel 17 (4d6).",
+      "Creas un l\u00e1tigo largo, similar a una enredadera cubierta de espinas, que fustiga bajo tus \u00f3rdenes a una criatura dentro del alcance. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Si el ataque impacta, la criatura sufre 1d6 de da\u00f1o perforante. Adem\u00e1s, si el objetivo es de tama\u00f1o Grande o menor, tiras de \u00e9l 3 m hacia ti.<br><br><b><i>A niveles superiores.</i></b> El da\u00f1o del conjuro aumenta en 1d6 cuando alcanzas nivel 5 (2d6), nivel 11 (3d6) y nivel 17 (4d6)."
+    ],
+    "materiales": "El tallo de una planta con espinas."
   }
 ]
