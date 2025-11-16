@@ -1176,5 +1176,33 @@
     "requiere_ataque": true,
     "descripcion": "Creas tres rayos de fuego y los diriges contra uno o varios objetivos que se encuentren dentro del alcance. Haz un ataque de conjuro a distancia para cada rayo. Si impactas, el objetivo recibe 2d6 de da\u00f1o de fuego.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, creas un rayo adicional por cada nivel por encima de 2 del espacio.",
     "materiales": null
+  },
+  {
+    "nombre": "Rayo de luna",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Un rayo plateado de luz p\u00e1lida ilumina una zona limitada por un cilindro de 5 pies de radio y 40 pies de altura centrado en un punto dentro del alcance. Hasta el final del conjuro, una luz tenue llena el cilindro.<br><br>Cuando una criatura entra en el \u00e1rea del conjuro por primera vez en un turno, o cuando empieza su turno en ella, queda envuelta en llamas espectrales que le causan un dolor abrasador, por lo que debe realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 2d10 de da\u00f1o radiante si falla la tirada o la mitad del da\u00f1o si la supera.<br><br>Un cambiaformas hace su tirada de salvaci\u00f3n con desventaja. Adem\u00e1s, si fracasa, vuelve inmediatamente a su forma original y no puede cambiar de nuevo hasta que salga de la luz del conjuro.<br><br>En los turnos posteriores al lanzamiento, puedes usar una acci\u00f3n para mover el conjuro hasta 60 pies en cualquier direcci\u00f3n.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, el da\u00f1o aumenta en 1d10 por cada nivel por encima de 2 del espacio.",
+      "Un rayo plateado de luz p\u00e1lida ilumina una zona limitada por un cilindro de 1,5 m de radio y 12 m de altura centrado en un punto dentro del alcance. Hasta el final del conjuro, una luz tenue llena el cilindro.<br><br>Cuando una criatura entra en el \u00e1rea del conjuro por primera vez en un turno, o cuando empieza su turno en ella, queda envuelta en llamas espectrales que le causan un dolor abrasador, por lo que debe realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 2d10 de da\u00f1o radiante si falla la tirada o la mitad del da\u00f1o si la supera.<br><br>Un cambiaformas hace su tirada de salvaci\u00f3n con desventaja. Adem\u00e1s, si fracasa, vuelve inmediatamente a su forma original y no puede cambiar de nuevo hasta que salga de la luz del conjuro.<br><br>En los turnos posteriores al lanzamiento, puedes usar una acci\u00f3n para mover el conjuro hasta 18 m en cualquier direcci\u00f3n.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, el da\u00f1o aumenta en 1d10 por cada nivel por encima de 2 del espacio."
+    ],
+    "materiales": "Varias semillas de cualquier planta con semillas en forma de media luna y un trozo de feldespato opalescente."
   }
 ]
