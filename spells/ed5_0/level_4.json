@@ -504,5 +504,28 @@
     "requiere_ataque": false,
     "descripcion": "Transformas hasta diez ciempi\u00e9s, tres ara\u00f1as, cinco avispas o un escorpi\u00f3n dentro del alcance en versiones gigantes de esas formas naturales hasta el final de la duraci\u00f3n del conjuro. Un ciempi\u00e9s se convierte en un ciempi\u00e9s gigante, una ara\u00f1a en una ara\u00f1a gigante, una avispa en una avispa gigante y un escorpi\u00f3n en un escorpi\u00f3n gigante.<br><br>Todas las criaturas obedecen tus \u00f3rdenes verbales y en combate act\u00faan en tu turno en cada asalto. El DM tiene los perfiles de estas criaturas y resuelve sus acciones y movimientos.<br><br>Las criaturas siguen siendo sus versiones gigantes hasta el final de la duraci\u00f3n del conjuro, hasta que lleguen a 0 puntos de vida o hasta que utilices una acci\u00f3n para terminar el efecto.<br><br>El DM podr\u00e1 permitirte elegir objetivos distintos. Si, por ejemplo, transformas a una abeja, su versi\u00f3n gigante puede tener el mismo perfil que una avispa gigante.",
     "materiales": null
+  },
+  {
+    "nombre": "Invisibilidad mejorada",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura a la que toques (que puedes ser t\u00fa mismo) se vuelve invisible hasta el final del conjuro. Cualquier acci\u00f3n que el objetivo vista o lleve consigo ser\u00e1 invisible mientras siga llev\u00e1ndola encima.",
+    "materiales": null
   }
 ]
