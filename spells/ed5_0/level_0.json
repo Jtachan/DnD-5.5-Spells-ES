@@ -407,5 +407,26 @@
       "Se\u00f1alas con el dedo a una criatura dentro del alcance y susurras un mensaje. El objetivo y s\u00f3lo \u00e9l escucha el mensaje y puede contestar en un susurro que s\u00f3lo t\u00fa puedes o\u00edr.<br><br>Este conjuro trasciende la mayor\u00eda de los objetos s\u00f3lidos si est\u00e1s familiarizado con el objetivo y sabes que se encuentra al otro lado. Mientras no te separes de una l\u00ednea recta y pueda viajar libremente torciendo esquinas o atravesando aberturas, este conjuro se bloquea por el silencio m\u00e1gico, 0,3 m de piedra, 2,5 cm de cualquier metal com\u00fan, una l\u00e1mina fina de plomo o 0,9 m de madera o tierra."
     ],
     "materiales": "Un alambre de cobre corto."
+  },
+  {
+    "nombre": "Piedad con los moribundos",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura viva con 0 puntos de golpe. El objetivo se estabiliza. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.",
+    "materiales": null
   }
 ]
