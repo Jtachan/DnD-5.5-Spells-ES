@@ -209,5 +209,36 @@
       "Este conjuro invierte la gravedad en un \u00e1rea cil\u00edndrica de 15 m de radio y 100 de altura, centrada en un punto que se encuentre dentro del alcance. Cuando lances este conjuro, todas las criaturas y objetos que no est\u00e9n anclados de alguna manera al suelo se caer\u00e1n hacia arriba hasta alcanzar la parte superior del \u00e1rea. Una criatura puede realizar una tirada de salvaci\u00f3n de Destreza para agarrarse a un objeto fijado al suelo que est\u00e9 a su alcance, lo que le permitir\u00e1 evitar la ca\u00edda si tiene \u00e9xito en dicha tirada.<br><br>Si un objeto s\u00f3lido (como un techo) se interpone en esta ca\u00edda, los objetos y criaturas en descenso lo golpean como lo har\u00edan en una ca\u00edda normal hacia abajo. Si un objeto o criatura llega a la parte superior del \u00e1rea sin chocarse con nada, permanecer\u00e1 all\u00ed, oscilando levemente, hasta el final de la duraci\u00f3n del conjuro.<br><br>Cuando llegue ese momento, las criaturas y objetos afectados caen hacia abajo de nuevo."
     ],
     "materiales": "Un im\u00e1n natural y limadura de hierro."
+  },
+  {
+    "nombre": "Jaula de fuerza",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "100 pies",
+      "30 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas una prisi\u00f3n invisible e inm\u00f3vil, en forma de cubo y compuesta de fuerza m\u00e1gica, alrededor de un \u00e1rea de tu elecci\u00f3n. Puede ser una jaula o una caja de paredes s\u00f3lidas, lo que prefieras.<br><br>Si eliges la forma de jaula, puede tener hasta 20 pies de lado y estar\u00e1 formada por barras de 1/2 pulgada de di\u00e1metro separadas 1/2 pulgada. La forma de caja puede tener hasta 10 pies de lado y crea una barrera s\u00f3lida que impide el paso de cualquier material y bloquea el lanzamiento de conjuros hacia dentro o fuera del \u00e1rea.<br><br>Cualquier criatura completamente dentro del \u00e1rea cuando lances el conjuro queda atrapada. La caja solo es parcialmente densa para efectos como niebla o gases. La teleportaci\u00f3n y el viaje interplanar no funcionan para abandonar la jaula a menos que la criatura supere una tirada de salvaci\u00f3n de Carisma. Si tiene \u00e9xito, la criatura puede usar la magia para salir. Si fracasa, la criatura no es capaz de salir y el conjuro la mantiene atrapada. La jaula tambi\u00e9n se extiende al Plano Et\u00e9reo, bloqueando los viajes et\u00e9reos.<br><br>Este conjuro no puede ser disipado mediante <i>disipar magia</i>.",
+      "Creas una prisi\u00f3n invisible e inm\u00f3vil, en forma de cubo y compuesta de fuerza m\u00e1gica, alrededor de un \u00e1rea de tu elecci\u00f3n. Puede ser una jaula o una caja de paredes s\u00f3lidas, lo que prefieras.<br><br>Si eliges la forma de jaula, puede tener hasta 6 m de lado y estar\u00e1 formada por barras de 1/5 cm de di\u00e1metro separadas 1/5 cm. La forma de caja puede tener hasta 3 m de lado y crea una barrera s\u00f3lida que impide el paso de cualquier material y bloquea el lanzamiento de conjuros hacia dentro o fuera del \u00e1rea.<br><br>Cualquier criatura completamente dentro del \u00e1rea cuando lances el conjuro queda atrapada. La caja solo es parcialmente densa para efectos como niebla o gases. La teleportaci\u00f3n y el viaje interplanar no funcionan para abandonar la jaula a menos que la criatura supere una tirada de salvaci\u00f3n de Carisma. Si tiene \u00e9xito, la criatura puede usar la magia para salir. Si fracasa, la criatura no es capaz de salir y el conjuro la mantiene atrapada. La jaula tambi\u00e9n se extiende al Plano Et\u00e9reo, bloqueando los viajes et\u00e9reos.<br><br>Este conjuro no puede ser disipado mediante <i>disipar magia</i>."
+    ],
+    "materiales": "Polvo de rub\u00ed con un valor de 1.500 po."
   }
 ]
