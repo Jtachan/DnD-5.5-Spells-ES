@@ -803,5 +803,33 @@
       "Te teletransportas de tu localizaci\u00f3n actual a cualquier otro punto dentro del alcance. Llegas de forma precisa al lugar elegido. Puede ser un lugar que veas, uno que puedas visualizar o uno que puedas describir mediante distancia y direcci\u00f3n, como \"60 m directamente hacia abajo\" o \"hacia arriba al noroeste en un \u00e1ngulo de 45 grados, 90 m\".<br><br>Eres capaz de llevar objetos contigo mientras su peso no supere tu capacidad de carga. Tambi\u00e9n puedes llevar a una criatura voluntaria a tu tama\u00f1o o menor que lleve una cantidad de equipo que pueda cargar normalmente. Esa criatura debe estar a 1,5 m de ti cuando lances el conjuro.<br><br>Si llegas a un lugar que ya estuviera ocupado por otra criatura, t\u00fa y cualquier criatura viajando contigo recib\u00eds 4d6 de da\u00f1o de fuerza y el conjuro no consigue teletransportaros."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Sanctasanct\u00f3rum privado de Mordenkainen",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Aseguras m\u00e1gicamente una zona dentro del alcance. Su volumen es el de un cubo de entre 5 y 100 pies de lado. La protecci\u00f3n permanece hasta el final de la duraci\u00f3n del conjuro o hasta que utilices una acci\u00f3n para finalizarlo.<br><br>Cuando lanzas este conjuro, decides qu\u00e9 tipo de cobertura, eligiendo cualquiera o todas de las siguientes propiedades:<ul><li>El sonido no puede atravesar la barrera situada en el per\u00edmetro de la zona.</li><li>La barrera forma una apariencia de niebla oscura, impidiendo ver a trav\u00e9s de ella (incluyendo visi\u00f3n en la oscuridad).</li><li>Los sensores creados por conjuros de adivinaci\u00f3n no pueden ser creados dentro de la zona protegida ni pasar a trav\u00e9s de la barrera del per\u00edmetro.</li><li>Las criaturas en la zona no pueden ser objetivo de conjuros de adivinaci\u00f3n.</li><li>Nadie puede entrar o salir de la zona mediante teletransportaci\u00f3n.</li><li>El viaje interplanar est\u00e1 bloqueado en la zona.</li></ul>Lanzar este conjuro en el mismo lugar todos los d\u00edas durante un a\u00f1o, hace que el efecto sea permanente.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el lado m\u00e1ximo del cubo aumenta en 100 pies por cada nivel por encima de 4 del espacio. Por tanto, utilizando un espacio de conjuro de nivel 5 puedes proteger una zona equivalente a un cubo de hasta 200 pies de lado.",
+      "Aseguras m\u00e1gicamente una zona dentro del alcance. Su volumen es el de un cubo de entre 5 y 30 m de lado. La protecci\u00f3n permanece hasta el final de la duraci\u00f3n del conjuro o hasta que utilices una acci\u00f3n para finalizarlo.<br><br>Cuando lanzas este conjuro, decides qu\u00e9 tipo de cobertura, eligiendo cualquiera o todas de las siguientes propiedades:<ul><li>El sonido no puede atravesar la barrera situada en el per\u00edmetro de la zona.</li><li>La barrera forma una apariencia de niebla oscura, impidiendo ver a trav\u00e9s de ella (incluyendo visi\u00f3n en la oscuridad).</li><li>Los sensores creados por conjuros de adivinaci\u00f3n no pueden ser creados dentro de la zona protegida ni pasar a trav\u00e9s de la barrera del per\u00edmetro.</li><li>Las criaturas en la zona no pueden ser objetivo de conjuros de adivinaci\u00f3n.</li><li>Nadie puede entrar o salir de la zona mediante teletransportaci\u00f3n.</li><li>El viaje interplanar est\u00e1 bloqueado en la zona.</li></ul>Lanzar este conjuro en el mismo lugar todos los d\u00edas durante un a\u00f1o, hace que el efecto sea permanente.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el lado m\u00e1ximo del cubo aumenta en 30 m por cada nivel por encima de 4 del espacio. Por tanto, utilizando un espacio de conjuro de nivel 5 puedes proteger una zona equivalente a un cubo de hasta 60 m de lado."
+    ],
+    "materiales": "Una fina l\u00e1mina de plomo, una pieza de cristal opaco, un fajo de algod\u00f3n y la crisolita en polvo."
   }
 ]
