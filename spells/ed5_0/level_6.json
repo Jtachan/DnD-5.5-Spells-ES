@@ -468,5 +468,30 @@
       "Tocas un objeto que pese un m\u00e1ximo de 5 kg o cuya dimensi\u00f3n m\u00e1s larga sea 1,8 m o menos. El conjuro deja una marca invisible en su superficie y graba, tambi\u00e9n de forma invisible, el nombre del objeto en el zafiro que usas como componente material. Cada vez que lanzas este conjuro debes utilizar un zafiro diferente.<br><br>En cualquier momento posterior, puedes usar tu acci\u00f3n para decir el nombre del objeto y aplastar el zafiro. El objeto aparece de forma instant\u00e1nea en tu mano independientemente de la distancia f\u00edsica o en qu\u00e9 plano est\u00e9, y el conjuro termina.<br><br>Si otra criatura tiene el objeto, aplastar el zafiro no traer\u00e1 el objeto hasta ti, pero en vez de eso aprender\u00e1s el nombre de la criatura que lo tiene y su localizaci\u00f3n aproximada en ese momento.<br><br><i>Disipar magia</i> o un efecto similar aplicado con \u00e9xito al zafiro tambi\u00e9n termina el conjuro."
     ],
     "materiales": "Un zafiro con un valor de 1.000 po."
+  },
+  {
+    "nombre": "Mal de ojo",
+    "clases": [
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Hasta el final de la duraci\u00f3n del conjuro tus ojos se convierten en un vac\u00edo oscuro imbuido de un poder terrible. Una criatura de tu elecci\u00f3n que puedas ver a 60 pies de ti debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda o verse afectada por uno de los siguientes efectos hasta que el conjuro termine. En cada uno de tus turnos, hasta que el conjuro termine, puedes usar tu acci\u00f3n para elegir como objetivo a otra criatura, pero no podr\u00e1s volver a dirigirlo contra una que haya superado una tirada de salvaci\u00f3n contra este lanzamiento de mal de ojo.<br><br><b>Sue\u00f1o.</b> El objetivo cae inconsciente. Se despierta si recibe alg\u00fan da\u00f1o o si otra criatura emplea su acci\u00f3n en despertarle.<br><br><b>P\u00e1nico.</b> El objetivo queda asustado por ti. En cada uno de sus turnos, la criatura asustada debe utilizar la acci\u00f3n Correr para alejarse de ti por la ruta m\u00e1s corta y segura, a menos que no haya d\u00f3nde huir. Si el objetivo se mueve a un punto a 60 o m\u00e1s pies de ti y donde no pueda verte, el efecto termina.<br><br><b>N\u00e1useas.</b> El objetivo tiene desventaja en las tiradas de ataque y pruebas de caracter\u00edstica. Al final de cada uno de sus turnos, puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito, el efecto del conjuro termina.",
+      "Hasta el final de la duraci\u00f3n del conjuro tus ojos se convierten en un vac\u00edo oscuro imbuido de un poder terrible. Una criatura de tu elecci\u00f3n que puedas ver a 18 m de ti debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda o verse afectada por uno de los siguientes efectos hasta que el conjuro termine. En cada uno de tus turnos, hasta que el conjuro termine, puedes usar tu acci\u00f3n para elegir como objetivo a otra criatura, pero no podr\u00e1s volver a dirigirlo contra una que haya superado una tirada de salvaci\u00f3n contra este lanzamiento de mal de ojo.<br><br><b>Sue\u00f1o.</b> El objetivo cae inconsciente. Se despierta si recibe alg\u00fan da\u00f1o o si otra criatura emplea su acci\u00f3n en despertarle.<br><br><b>P\u00e1nico.</b> El objetivo queda asustado por ti. En cada uno de sus turnos, la criatura asustada debe utilizar la acci\u00f3n Correr para alejarse de ti por la ruta m\u00e1s corta y segura, a menos que no haya d\u00f3nde huir. Si el objetivo se mueve a un punto a 60 o m\u00e1s pies de ti y donde no pueda verte, el efecto termina.<br><br><b>N\u00e1useas.</b> El objetivo tiene desventaja en las tiradas de ataque y pruebas de caracter\u00edstica. Al final de cada uno de sus turnos, puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito, el efecto del conjuro termina."
+    ],
+    "materiales": null
   }
 ]
