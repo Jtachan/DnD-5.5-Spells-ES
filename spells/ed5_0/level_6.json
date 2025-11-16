@@ -767,5 +767,34 @@
       "Tu cuerpo cae en estado catat\u00f3nico cuando tu alma sale de \u00e9l y entra en el contenedor que has usado como componente material del conjuro. Mientras tu alma habite en el contenedor, eres consciente de tus alrededores como si estuvieras en el espacio de \u00e9ste. No puedes mover ni utilizar reacciones. La \u00fanica acci\u00f3n que puedes hacer es proyectar tu alma hasta a 30 m del contenedor, y se usa para volver a tu cuerpo vivo (lo cual termina el conjuro) o para intentar poseer el cuerpo de un humanoide.<br><br>Puedes intentar poseer a cualquier humanoide a 30 m o menos de ti del que puedas ver (las criaturas protegidas por un conjuro de protecci\u00f3n contra el bien y el mal o c\u00edrculo m\u00e1gico no pueden ser pose\u00eddas). El objetivo debe hacer una tirada de salvaci\u00f3n de Carisma. Si fracasa, tu alma ocupa su cuerpo y su alma queda atrapada en el contenedor. Si tiene \u00e9xito, el objetivo resiste tus esfuerzos de poseerlo y no puedes volver a intentarlo hasta 24 horas despu\u00e9s.<br><br>Una vez has pose\u00eddo el cuerpo de una criatura, podr\u00e1s controlarlo. Tu perfil queda reemplazado por el de la criatura, con la excepci\u00f3n de tu alineamiento y tus puntuaciones de Inteligencia, Sabidur\u00eda y Carisma. Conservas los beneficios de sus rasgos de clase. Sin embargo, si el objetivo tiene niveles en alguna clase, no podr\u00e1s usar sus rasgos de clase.<br><br>Mientras tanto, el alma de la criatura queda atrapada utilizando los sentidos del contenedor para percibir su entorno, pero no podr\u00e1 moverse o realizar acciones.<br><br>Mientras est\u00e9s poseyendo un cuerpo, podr\u00e1s usar tu acci\u00f3n para retornar desde el cuerpo anfitri\u00f3n al contenedor; es decir, si este est\u00e1 a 30 m de ti, devolviendo de ese modo el alma de la criatura a su cuerpo. Si el cuerpo anfitri\u00f3n muere mientras lo ocupas, tu alma muere y el objetivo deber\u00e1 realizar una tirada de salvaci\u00f3n de Carisma contra tu propia CD de lanzamiento de conjuros. Si tienes \u00e9xito y el contenedor est\u00e1 a 30 m o menos, vuelves a \u00e9l. En cualquier otro caso, mueres.<br><br>Si el contenedor es destruido o el conjuro termina, tu alma regresar\u00e1 inmediatamente a tu cuerpo. Si tu cuerpo est\u00e1 a m\u00e1s de 30 m o est\u00e1 muerto cuando intentas entrar en \u00e9l, morir\u00e1s. Si el alma de otra criatura est\u00e1 en el contenedor cuando este es destruido, dicha alma volver\u00e1 a su cuerpo si este est\u00e1 vivo y a 30 m o menos. Si esto no es posible, la criatura morir\u00e1.<br><br>Cuando el conjuro termina, el contenedor es destruido."
     ],
     "materiales": "Una gema, cristal, relicario u otro contenedor ornamental que valga, al menos, 500 po."
+  },
+  {
+    "nombre": "Viajar con el viento",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Hasta el final de la duraci\u00f3n del conjuro, t\u00fa y hasta diez criaturas voluntarias que puedas ver dentro del alcance asum\u00eds una forma gaseosa, tomando la apariencia de jirones de nube. Mientras mantengan esta forma, cada criatura tendr\u00e1 una velocidad volando de 300 pies y resistencia al da\u00f1o de armas no m\u00e1gicas. Las \u00fanicas acciones que una criatura puede realizar en esta forma son Correr o volver a su forma habitual. Transformarse de vuelta lleva 1 minuto, y durante este tiempo la criatura estar\u00e1 incapacitada y no podr\u00e1 moverse. Hasta el final del conjuro, la criatura tambi\u00e9n podr\u00e1 volver convertirse en nube, acto que tambi\u00e9n precisa del proceso de transformaci\u00f3n de 1 minuto de duraci\u00f3n.<br><br>Si una criatura est\u00e1 volando y en forma gaseosa cuando el efecto termine, descender\u00e1 60 pies por asalto durante 1 minuto hasta poder aterrizar, ser\u00e1 la distancia restante.",
+      "Hasta el final de la duraci\u00f3n del conjuro, t\u00fa y hasta diez criaturas voluntarias que puedas ver dentro del alcance asum\u00eds una forma gaseosa, tomando la apariencia de jirones de nube. Mientras mantengan esta forma, cada criatura tendr\u00e1 una velocidad volando de 90 m y resistencia al da\u00f1o de armas no m\u00e1gicas. Las \u00fanicas acciones que una criatura puede realizar en esta forma son Correr o volver a su forma habitual. Transformarse de vuelta lleva 1 minuto, y durante este tiempo la criatura estar\u00e1 incapacitada y no podr\u00e1 moverse. Hasta el final del conjuro, la criatura tambi\u00e9n podr\u00e1 volver convertirse en nube, acto que tambi\u00e9n precisa del proceso de transformaci\u00f3n de 1 minuto de duraci\u00f3n.<br><br>Si una criatura est\u00e1 volando y en forma gaseosa cuando el efecto termine, descender\u00e1 18 m por asalto durante 1 minuto hasta poder aterrizar, ser\u00e1 la distancia restante."
+    ],
+    "materiales": "Fuego y agua bendita."
   }
 ]
