@@ -1295,5 +1295,31 @@
       "Cae aguanieve y lluvia helada hasta el final del conjuro, cubriendo un cilindro de 6 m de alto y 12 m de radio centrado en un punto de tu elecci\u00f3n dentro del alcance. El \u00e1rea pasar\u00e1 a ser muy oscura y los fuegos expuestos dentro de ella se extinguir\u00e1n.<br><br>El suelo se cubrir\u00e1 de hielo deslizante, convirtiendo la zona en terreno dif\u00edcil. Cuando una criatura entra en el \u00e1rea por primera vez en un turno, o cuando empieza su turno en ella, debe realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fracasa, caer\u00e1 derribada.<br><br>Si una criatura est\u00e1 concentr\u00e1ndose dentro del \u00e1rea de efecto, deber\u00e1 realizar una tirada de salvaci\u00f3n de Constituci\u00f3n CD igual a tu salvaci\u00f3n de conjuros o perder\u00e1 la concentraci\u00f3n."
     ],
     "materiales": "Unas gotas de agua y una pizca de polvo."
+  },
+  {
+    "nombre": "Volar",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Tocas a una criatura voluntaria. El objetivo gana una velocidad volando de 60 pies hasta el final de la duraci\u00f3n del conjuro. Cuando este acaba, el objetivo caer\u00e1 si todav\u00eda est\u00e1 en el aire y no puede parar la ca\u00edda.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
+      "Tocas a una criatura voluntaria. El objetivo gana una velocidad volando de 18 m hasta el final de la duraci\u00f3n del conjuro. Cuando este acaba, el objetivo caer\u00e1 si todav\u00eda est\u00e1 en el aire y no puede parar la ca\u00edda.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 3 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Una pluma del ala de cualquier p\u00e1jaro."
   }
 ]
