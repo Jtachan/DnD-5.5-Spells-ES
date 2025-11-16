@@ -1049,5 +1049,28 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura voluntaria. Hasta el final de la duraci\u00f3n del conjuro, la piel del objetivo se vuelve \u00e1spera, con apariencia de corteza, y su CA no podr\u00e1 ser menor de 16 independientemente de la armadura que lleve.",
     "materiales": "Un pu\u00f1ado de corteza de roble."
+  },
+  {
+    "nombre": "Plegaria de curaci\u00f3n",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta seis criaturas de tu elecci\u00f3n que puedas ver dentro del alcance recuperan cada una tantos puntos de golpe como 2d8 + tu modificador por aptitud m\u00e1gica. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, la curaci\u00f3n aumenta en 1d8 por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+    "materiales": null
   }
 ]
