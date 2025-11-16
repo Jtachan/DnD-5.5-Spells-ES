@@ -753,5 +753,30 @@
       "Elige a un humanoide que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 paralizado hasta el final de la duraci\u00f3n del conjuro. Al final de cada uno de sus turnos, un humanoide puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito, el conjuro termina para ese objetivo.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o superior, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio que hayas empleado. En el momento de elegirlos como objetivo, todos los humanoides deben estar a 9 m o menos de todos los dem\u00e1s."
     ],
     "materiales": "Un pedazo de hierro, peque\u00f1o y recto."
+  },
+  {
+    "nombre": "Invisibilidad",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura a la que toques se vuelve invisible hasta que el conjuro termine. Adem\u00e1s, cualquier cosa que vista o lleve consigo ser\u00e1 tambi\u00e9n invisible mientras siga llev\u00e1ndola encima. Para cada objetivo, el conjuro termina si ataca o lanza un conjuro.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o superior, puedes elegir como objetivo una criatura adicional por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+    "materiales": "Una pesta\u00f1a encerrada en goma ar\u00e1biga."
   }
 ]
