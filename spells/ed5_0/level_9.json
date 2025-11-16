@@ -300,5 +300,31 @@
       "T\u00fa y hasta ocho criaturas voluntarias dentro del alcance proyect\u00e1is vuestros cuerpos astrales en el Plano Astral (el conjuro falla si el espacio donde yac\u00e9is se encuentra en este plano). El cuerpo material del objetivo queda atr\u00e1s quedando inconsciente y en un estado de animaci\u00f3n suspendida; no necesita comida ni aire y no envejece.<br><br>Tu forma astral se asemeja a tu cuerpo material en casi todo, posee tu mismo perfil y tus mismas posesiones. La diferencia principal es un cord\u00f3n plateado que sale de entre los om\u00f3platos de la forma astral y flota detr\u00e1s de ella, desvaneci\u00e9ndose hasta hacerse invisible a 0,3 m de distancia. El cord\u00f3n es el ancla a tu cuerpo material. Mientras se mantenga intacto, puedes encontrar el camino a casa. Si el cord\u00f3n se corta (algo que solo puede ocurrir si un efecto espec\u00edfico as\u00ed lo indica) tu alma y tu cuerpo quedar\u00e1n separados, provocando tu muerte instant\u00e1nea.<br><br>Tu forma astral puede viajar libremente a trav\u00e9s del Plano Astral y pasar a trav\u00e9s de portales que lleven a otros planos. Si cambias de plano o vuelves al plano en el que te encontrabas cuando lanzaste el conjuro, tu cuerpo y tus posesiones te siguen a trav\u00e9s del cord\u00f3n plateado, permiti\u00e9ndote volver a habitar tu cuerpo al entrar al nuevo plano.<br><br>Tu forma astral es una encarnaci\u00f3n separada. Cualquier da\u00f1o o efectos que se apliquen a ella no tienen consecuencia alguna en tu cuerpo material, ni se mantienen cuando vuelves a este.<br><br>El conjuro termina para ti y tus compa\u00f1eros cuando utilizas una acci\u00f3n para finalizarlo. Cuando el conjuro termina, las criaturas afectadas vuelven a su cuerpo material y despiertan.<br><br>El conjuro tambi\u00e9n puede terminar antes de tiempo para ti o uno de tus compa\u00f1eros. Lanzar disipar magia en contra de un cuerpo astral o material termina el conjuro para esa criatura. Si el cuerpo material de una criatura a 0 puntos de golpe o su forma astral se reduce a 0, el conjuro termina para esa criatura. Si el conjuro termina y el cord\u00f3n plateado sigue intacto, este tira de la forma astral de vuelta al cuerpo material, concluyendo su estado de animaci\u00f3n suspendida.<br><br>Si vuelves a tu cuerpo permanentemente, tus compa\u00f1eros permanecen con sus formas astrales y deben encontrar su propio camino de vuelta a sus cuerpos, normalmente llegando a 0 puntos de golpe."
     ],
     "materiales": "Para cada criatura afectada por este conjuro: un jacinto con un valor igual o superior a 1.000 po y una barra de plata finamente labrada con un valor igual o superior a 100 po, ambas consumidas en el lanzamiento del conjuro."
+  },
+  {
+    "nombre": "Resurrecci\u00f3n verdadera",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Tocas a una criatura que lleve muerta menos de 200 a\u00f1os y que no haya fallecido de edad avanzada. Si su alma es libre y lo desea, la criatura vuelve a la vida con todos sus puntos de golpe.<br><br>Este conjuro tambi\u00e9n neutraliza cualquier veneno, cura cualquier enfermedad y levanta cualquier maldici\u00f3n que afligiera a la criatura en el momento de su muerte. El conjuro tambi\u00e9n restaura \u00f3rganos y miembros da\u00f1ados o perdidos. Si la criatura es un muerto viviente, la resucitar\u00e1 en su estado previo a la muerte en vida.<br><br>El conjuro puede incluso proporcionar un cuerpo nuevo si el original ya no existe, en cuyo caso deber\u00e1s pronunciar el nombre de la criatura. Esta aparecer\u00e1 en un espacio desocupado a 10 pies de ti.",
+      "Tocas a una criatura que lleve muerta menos de 200 a\u00f1os y que no haya fallecido de edad avanzada. Si su alma es libre y lo desea, la criatura vuelve a la vida con todos sus puntos de golpe.<br><br>Este conjuro tambi\u00e9n neutraliza cualquier veneno, cura cualquier enfermedad y levanta cualquier maldici\u00f3n que afligiera a la criatura en el momento de su muerte. El conjuro tambi\u00e9n restaura \u00f3rganos y miembros da\u00f1ados o perdidos. Si la criatura es un muerto viviente, la resucitar\u00e1 en su estado previo a la muerte en vida.<br><br>El conjuro puede incluso proporcionar un cuerpo nuevo si el original ya no existe, en cuyo caso deber\u00e1s pronunciar el nombre de la criatura. Esta aparecer\u00e1 en un espacio desocupado a 3 m de ti."
+    ],
+    "materiales": "Una rociada de agua bendita y diamantes con un valor de, al menos, 25.000 po, que son consumidos como parte del conjuro."
   }
 ]
