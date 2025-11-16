@@ -789,5 +789,35 @@
     "requiere_ataque": false,
     "descripcion": "Ganas la capacidad de comprender y comunicarte verbalmente con bestias hasta el final de la duraci\u00f3n del conjuro. El conocimiento y consciencia de muchas criaturas est\u00e1 limitado por su inteligencia, pero como m\u00ednimo podr\u00e1n proporcionarte informaci\u00f3n sobre lugares y monstruos de los alrededores, incluyendo lo que hayan percibido o hayan o\u00eddo en las \u00faltimas horas. Es posible que una bestia pueda proporcionarte un beneficio o hacerte un peque\u00f1o favor, seg\u00fan el criterio del DM.",
     "materiales": null
+  },
+  {
+    "nombre": "Hechizar persona",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Intentas hechizar a un humanoide que puedas ver dentro del alcance. El objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda, con ventaja si est\u00e1 luchando contra ti o tus compa\u00f1eros. Si falla la tirada de salvaci\u00f3n, queda hechizado por ti hasta que termine la duraci\u00f3n del conjuro, o t\u00fa mismo o uno de tus compa\u00f1eros le da\u00f1\u00e9is de alguna manera. La criatura hechizada te considera un conocido amistoso. Cuando el conjuro termine, sabr\u00e1 que la hechizaste.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio que hayas empleado. En el momento de elegir como objetivo, cada criatura debe estar a 30 pies o menos de todas las dem\u00e1s.",
+      "Intentas hechizar a un humanoide que puedas ver dentro del alcance. El objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda, con ventaja si est\u00e1 luchando contra ti o tus compa\u00f1eros. Si falla la tirada de salvaci\u00f3n, queda hechizado por ti hasta que termine la duraci\u00f3n del conjuro, o t\u00fa mismo o uno de tus compa\u00f1eros le da\u00f1\u00e9is de alguna manera. La criatura hechizada te considera un conocido amistoso. Cuando el conjuro termine, sabr\u00e1 que la hechizaste.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio que hayas empleado. En el momento de elegir como objetivo, cada criatura debe estar a 9 m o menos de todas las dem\u00e1s."
+    ],
+    "materiales": null
   }
 ]
