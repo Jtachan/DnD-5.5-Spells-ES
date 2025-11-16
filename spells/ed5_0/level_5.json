@@ -932,5 +932,34 @@
       "Golpeas el suelo, creando una descarga de energ\u00eda divina que forma ondas que se alejan de ti. Cada criatura que elijas en un radio de 9 m debe tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o recibir\u00e1 5d6 de da\u00f1o de trueno, 5d6 de da\u00f1o radiante o necr\u00f3tico (tu elecci\u00f3n) y quedar\u00e1 derribada. Una criatura que tenga \u00e9xito en la tirada de salvaci\u00f3n solo recibe la mitad del da\u00f1o y no queda derribada."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Pasamuros",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Se abre un pasadizo en un punto que puedas ver dentro del alcance, sobre una superficie de madera, yeso o piedra (como un muro, pared o suelo). Eliges las dimensiones de la apertura: hasta 5 pies de ancho, 8 pies de alto y 20 pies de profundidad. El pasadizo no crea inestabilidad en la estructura circundante.<br><br>Cuando desaparezca, cualquier criatura u objeto todav\u00eda dentro ser\u00e1 expulsado de manera inofensiva a un espacio libre cerca de la superficie sobre la que lanzaste el conjuro.",
+      "Se abre un pasadizo en un punto que puedas ver dentro del alcance, sobre una superficie de madera, yeso o piedra (como un muro, pared o suelo). Eliges las dimensiones de la apertura: hasta 1,5 m de ancho, 2,4 m de alto y 6 m de profundidad. El pasadizo no crea inestabilidad en la estructura circundante.<br><br>Cuando desaparezca, cualquier criatura u objeto todav\u00eda dentro ser\u00e1 expulsado de manera inofensiva a un espacio libre cerca de la superficie sobre la que lanzaste el conjuro."
+    ],
+    "materiales": "Un pellizco de semillas de s\u00e9samo."
   }
 ]
