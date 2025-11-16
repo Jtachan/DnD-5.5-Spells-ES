@@ -700,5 +700,27 @@
       "Evocas una hoja ardiente en tu mano libre. Esta es similar en tama\u00f1o y forma a una cimitarra y permanece hasta el final de la duraci\u00f3n del conjuro. Si sueltas la hoja, desaparecer\u00e1, pero puedes evocarla de nuevo como acci\u00f3n adicional.<br><br>Puedes usar una acci\u00f3n para hacer un ataque de conjuro cuerpo a cuerpo con la hoja ardiente. Si impactas, el objetivo recibe 3d6 de da\u00f1o de fuego. La cimitarra emite luz brillante en un radio de 3 m y luz tenue 3 m m\u00e1s all\u00e1.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada dos niveles por encima de 2 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Una hoja de zumaque."
+  },
+  {
+    "nombre": "Imagen m\u00faltiple",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tres duplicados ilusorios de ti mismo aparecen en tu espacio. Hasta el final del conjuro, se mueven contigo e imitan tus acciones, cambiando de posici\u00f3n y haciendo imposible saber qu\u00e9 imagen es real. Puedes utilizar tu acci\u00f3n para hacer desaparecer los duplicados.<br><br>Cada vez que una criatura te elija como objetivo de un ataque mientras el conjuro est\u00e9 activo, tira 1d20 para determinar si el ataque te tiene como objetivo a ti o a uno de tus duplicados.<br><br>Si tienes tres duplicados, sacando un 6 o m\u00e1s, el ataque va al duplicado. Con dos duplicados, un 8 o m\u00e1s. Con uno, un 11 o m\u00e1s.<br><br>La CA de los duplicados es 10 + tu modificador por Destreza. Si un ataque impacta a un duplicado, este queda destruido.<br><br>Una criatura no se ve afectada por este conjuro si no puede ver, si utiliza sentidos distintos a la vista, como visi\u00f3n ciega, o si es capaz de percibir las ilusiones como falsas, como con visi\u00f3n verdadera.",
+    "materiales": null
   }
 ]
