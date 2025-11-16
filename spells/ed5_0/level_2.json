@@ -1412,5 +1412,32 @@
     "requiere_ataque": false,
     "descripcion": "Hasta el final del conjuro, una criatura voluntaria a la que toques gana la capacidad de caminar por el techo y de moverse hacia arriba, abajo y de lado por superficies verticales a la misma de moverse no requiere que use las manos, que quedan libres. Adem\u00e1s, el objetivo obtiene una velocidad trepando igual a su velocidad caminando.",
     "materiales": "Una gota de bet\u00fan y una ara\u00f1a."
+  },
+  {
+    "nombre": "Truco de la cuerda",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Tocas un segmento de cuerda de hasta 60 pies de longitud. Esto hace que un extremo de la cuerda se alce hasta que toda la cuerda cuelgue de manera perpendicular al suelo. En el extremo superior de la cuerda se abre una entrada m\u00e1gica a un espacio extradimensional que durar\u00e1 hasta el final del conjuro.<br><br>Este espacio puede ser alcanzado subiendo por la cuerda hasta su final. En \u00e9l caben hasta ocho criaturas de tama\u00f1o Mediano o m\u00e1s peque\u00f1as. Se puede tirar de la cuerda para meterla en el espacio, lo que hace que desaparezca de la vista de aquellos en el exterior.<br><br>Los ataques o conjuros no pueden cruzar esta entrada al espacio extradimensional en ning\u00fan sentido, pero los que est\u00e1n dentro podr\u00e1n ver hacia fuera como si hubiera una ventana de 3 por 5 pies centrada en la cuerda.<br><br>Cualquier cosa dentro del espacio extradimensional cae al exterior cuando el conjuro termina.",
+      "Tocas un segmento de cuerda de hasta 18 m de longitud. Esto hace que un extremo de la cuerda se alce hasta que toda la cuerda cuelgue de manera perpendicular al suelo. En el extremo superior de la cuerda se abre una entrada m\u00e1gica a un espacio extradimensional que durar\u00e1 hasta el final del conjuro.<br><br>Este espacio puede ser alcanzado subiendo por la cuerda hasta su final. En \u00e9l caben hasta ocho criaturas de tama\u00f1o Mediano o m\u00e1s peque\u00f1as. Se puede tirar de la cuerda para meterla en el espacio, lo que hace que desaparezca de la vista de aquellos en el exterior.<br><br>Los ataques o conjuros no pueden cruzar esta entrada al espacio extradimensional en ning\u00fan sentido, pero los que est\u00e1n dentro podr\u00e1n ver hacia fuera como si hubiera una ventana de 3 por 1,5 m centrada en la cuerda.<br><br>Cualquier cosa dentro del espacio extradimensional cae al exterior cuando el conjuro termina."
+    ],
+    "materiales": "Extracto de ma\u00edz en polvo y un bucle retorcido de pergamino."
   }
 ]
