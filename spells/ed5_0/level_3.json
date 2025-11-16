@@ -781,5 +781,33 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura, que debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar maldita hasta el final de la duraci\u00f3n del conjuro. Cuando lanzas este conjuro, elige la naturaleza de la maldici\u00f3n de entre las siguientes opciones:<ul><li>Elige una puntuaci\u00f3n de caracter\u00edstica. Mientras est\u00e9 maldito, el objetivo tiene desventaja en las pruebas de caracter\u00edstica y tiradas de salvaci\u00f3n de dicha caracter\u00edstica.</li><li>Hasta el final de la duraci\u00f3n del conjuro, el objetivo sufre desventaja en sus tiradas de ataque contra ti.</li><li>Mientras siga maldito, el objetivo debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda al principio de cada turno. Si fracasa, gasta su acci\u00f3n de ese turno en no hacer nada.</li><li>Mientras el objetivo siga maldito, tus ataques y conjuros le hacen 1d8 puntos extra de da\u00f1o necr\u00f3tico adicional.</li></ul>El conjuro levantar maldici\u00f3n termina estos efectos. Bajo la discreci\u00f3n del DM, puedes elegir un efecto alternativo para la maldici\u00f3n, pero no deber\u00eda ser m\u00e1s poderoso que los descritos m\u00e1s arriba. El DM tiene la \u00faltima palabra sobre los efectos de una maldici\u00f3n.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 10 minutos. Si utilizas un espacio de conjuro de nivel 5 o m\u00e1s, la duraci\u00f3n es de 8 horas. Si usas un espacio de conjuro de nivel 7 u 8, la duraci\u00f3n es de 24 horas. Si empleas un espacio de conjuro de nivel 9, el conjuro dura hasta que sea disipado. Adem\u00e1s, al lanzar este conjuro con un espacio de nivel 5 o m\u00e1s, no es necesaria la concentraci\u00f3n para mantener la duraci\u00f3n especificada m\u00e1s arriba.",
     "materiales": null
+  },
+  {
+    "nombre": "Indetectable",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Explorador",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Escondes a un objetivo al que puedas tocar de la magia de adivinaci\u00f3n hasta el final de la duraci\u00f3n del conjuro. El objetivo puede ser una criatura voluntaria, un objeto o un lugar que no mida m\u00e1s de 10 pies en ninguna dimensi\u00f3n. No podr\u00e1 ser objetivo de ninguna magia de adivinaci\u00f3n o ser percibido mediante sensores m\u00e1gicos de escrutinio.",
+      "Escondes a un objetivo al que puedas tocar de la magia de adivinaci\u00f3n hasta el final de la duraci\u00f3n del conjuro. El objetivo puede ser una criatura voluntaria, un objeto o un lugar que no mida m\u00e1s de 3 m en ninguna dimensi\u00f3n. No podr\u00e1 ser objetivo de ninguna magia de adivinaci\u00f3n o ser percibido mediante sensores m\u00e1gicos de escrutinio."
+    ],
+    "materiales": "Una pizca de polvo de diamante con un valor de, al menos, 25 po, espolvoreado encima del objetivo y que es consumido como parte del conjuro."
   }
 ]
