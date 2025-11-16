@@ -746,5 +746,33 @@
     "requiere_ataque": false,
     "descripcion": "Este conjuro vuelve p\u00e9trea la carne de una criatura voluntaria a la que toques. Hasta el final del conjuro, el objetivo tiene resistencia al da\u00f1o contundente, cortante y perforante que no sea m\u00e1gico.",
     "materiales": "Polvo de diamante con un valor de, al menos, 100 po, que es consumido como parte del conjuro."
+  },
+  {
+    "nombre": "Polimorfar",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro transforma a una criatura que puedas ver dentro del alcance en una nueva forma. Una criatura no voluntaria puede hacer una tirada de salvaci\u00f3n de Sabidur\u00eda para evitar la transformaci\u00f3n. El conjuro no tendr\u00e1 efecto en un cambiaformas o en una criatura con 0 puntos de golpe.<br><br>La transformaci\u00f3n se mantiene hasta el final de la duraci\u00f3n del conjuro o hasta que el objetivo muera o sea reducido a 0 puntos de golpe. La nueva forma puede ser la de cualquier bestia cuyo valor de desaf\u00edo sea igual o menor que el del objetivo (o igual o menor que 1 si el objetivo no tiene un valor de desaf\u00edo). Reemplaza el perfil del objetivo por el perfil de la bestia elegida, incluyendo las puntuaciones de caracter\u00edsticas mentales. \u00danicamente mantendr\u00e1 su alineamiento y personalidad.<br><br>Tambi\u00e9n pasar\u00e1 a tener los puntos de golpe de su nueva forma. Cuando revierta a su forma normal volver\u00e1 a poseer los puntos de golpe que tuviera antes de la transformaci\u00f3n. Si la transformaci\u00f3n se rompe al quedar su nueva forma reducida a 0 puntos de golpe, cualquier da\u00f1o sobrante se aplica a la forma normal. Si este da\u00f1o sobrante no reduce la forma normal de la criatura a 0 puntos de vida, no cae inconsciente.<br><br>Las acciones de la criatura quedan limitadas por la naturaleza de su nueva forma, y tampoco puede hablar, lanzar conjuros o realizar cualquier acci\u00f3n que requiera del habla o uso de las manos.<br><br>El equipamiento del objetivo se funde con la nueva forma. El objetivo no puede activar, blandir o beneficiarse de su equipamiento de ninguna manera.",
+    "materiales": "Un capullo de oruga."
   }
 ]
