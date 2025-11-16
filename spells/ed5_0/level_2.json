@@ -830,5 +830,32 @@
     "requiere_ataque": false,
     "descripcion": "Una llama, equivalente en brillo a una antorcha, surge de un objeto que toques. Este efecto parece una llama normal, pero no genera calor ni quema ox\u00edgeno. Una <i>llama permanente</i> puede ser cubierta o escondida, pero no ahogada o extinguida.",
     "materiales": "Polvo de rub\u00ed con un valor de 50 po, que se consume como parte del conjuro."
+  },
+  {
+    "nombre": "Localizar animales o plantas",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Describe o nombra un tipo concreto de bestia o planta. Concentr\u00e1ndote en la voz de la naturaleza a tu alrededor, averiguas la direcci\u00f3n y distancia a la que se encuentra una criatura o planta del tipo escogido, hasta un m\u00e1ximo de 5 millas, suponiendo que haya alguna.",
+      "Describe o nombra un tipo concreto de bestia o planta. Concentr\u00e1ndote en la voz de la naturaleza a tu alrededor, averiguas la direcci\u00f3n y distancia a la que se encuentra una criatura o planta del tipo escogido, hasta un m\u00e1ximo de 7,5 km, suponiendo que haya alguna."
+    ],
+    "materiales": "Un poco de pelaje de un sabueso."
   }
 ]
