@@ -317,5 +317,32 @@
     "requiere_ataque": false,
     "descripcion": "Creas una copia ilusoria de ti mismo que permanece hasta el final de la duraci\u00f3n del conjuro. Puedes hacerla aparecer en cualquier localizaci\u00f3n dentro del alcance que hayas visto antes, independientemente de los obst\u00e1culos que pueda haber entre ella y tu posici\u00f3n actual. La ilusi\u00f3n se ve y suena como t\u00fa, pero es intangible. El conjuro acaba si esta recibe cualquier tipo de da\u00f1o.<br><br>Puedes utilizar tu acci\u00f3n para mover la ilusi\u00f3n hasta el doble de tu velocidad y hacer que hable, haga gestos o se comporte como quieras. Imitar\u00e1 tus maneras perfectamente.<br><br>Eres capaz de ver a trav\u00e9s de sus ojos y o\u00edr a trav\u00e9s de sus o\u00eddos como si estuvieras donde est\u00e1 ella. En cada uno de tus turnos, como acci\u00f3n adicional, puedes pasar de usar tus sentidos a los tuyos o viceversa. Mientras est\u00e1s usando sus sentidos, quedas ciego y ensordecido respecto a tus propios sentidos.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas la atraviesan. Si una criatura utiliza su acci\u00f3n para examinar la imagen, puede determinar que es una ilusi\u00f3n si tiene \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, podr\u00e1 ver a trav\u00e9s de ella y los sonidos que produce le sonar\u00e1n huecos.",
     "materiales": "Una peque\u00f1a reproducci\u00f3n de ti mismo hecha de materiales que valgan, al menos, 5 po."
+  },
+  {
+    "nombre": "Recluir",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Hasta el final de su duraci\u00f3n, este conjuro permite que un objeto o criatura voluntaria pueda ser escondido, a salvo de cualquier detecci\u00f3n. Cuando lanzas el conjuro y tocas al objetivo, este se vuelve invisible y no puede ser objetivo de conjuros de adivinaci\u00f3n ni percibido mediante sensores de escrutinamiento creados por conjuros de esta escuela.<br><br>Si el objetivo es una criatura, esta cae en un estado de magia suspendida. El tiempo deja de pasar para ella y no envejece.<br><br>Puedes escoger una condici\u00f3n para que el conjuro acabe. Esta puede ser la que t\u00fa quieras, pero debe tener lugar o ser visible a 1 milla del objetivo. Algunos ejemplos ser\u00edan \"despu\u00e9s de 1.000 a\u00f1os\" o \"cuando la tarasca despierte\". El conjuro tambi\u00e9n termina si el objetivo recibe cualquier tipo de da\u00f1o.",
+      "Hasta el final de su duraci\u00f3n, este conjuro permite que un objeto o criatura voluntaria pueda ser escondido, a salvo de cualquier detecci\u00f3n. Cuando lanzas el conjuro y tocas al objetivo, este se vuelve invisible y no puede ser objetivo de conjuros de adivinaci\u00f3n ni percibido mediante sensores de escrutinamiento creados por conjuros de esta escuela.<br><br>Si el objetivo es una criatura, esta cae en un estado de magia suspendida. El tiempo deja de pasar para ella y no envejece.<br><br>Puedes escoger una condici\u00f3n para que el conjuro acabe. Esta puede ser la que t\u00fa quieras, pero debe tener lugar o ser visible a 1,5 km del objetivo. Algunos ejemplos ser\u00edan \"despu\u00e9s de 1.000 a\u00f1os\" o \"cuando la tarasca despierte\". El conjuro tambi\u00e9n termina si el objetivo recibe cualquier tipo de da\u00f1o."
+    ],
+    "materiales": "Polvo de diamante, esmeralda, rub\u00ed y zafiro con un valor de, al menos, 5.000 po, que es consumido como parte del conjuro."
   }
 ]
