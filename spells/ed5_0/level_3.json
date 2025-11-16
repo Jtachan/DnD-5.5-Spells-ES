@@ -859,5 +859,36 @@
       "Aparece una nube tormentosa en forma de cilindro, de 3 m de altura y 60 de radio, centrada en un punto que puedas ver a 30 m directamente encima de ti. El conjuro falla si no puedes contemplar un punto en el aire donde pueda aparecer la nube (por ejemplo, si est\u00e1s en una habitaci\u00f3n donde no quepa).<br><br>Cuando lances el conjuro, elige un punto que puedas ver dentro del alcance. Un rel\u00e1mpago cae desde la nube a ese punto. Cada criatura a 1,5 m o menos debe hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1 3d10 de da\u00f1o por rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan. En cada uno de tus turnos hasta el final del conjuro puedes usar tu acci\u00f3n para llamar al rel\u00e1mpago desde la nube, repitiendo lo anterior.<br><br>Si controlas este conjuro est\u00e1s al aire libre y hay tormenta, el da\u00f1o del conjuro se incrementa en 1d10.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o del conjuro aumenta en 1d10 por cada nivel por encima de 3 que tenga el espacio que hayas empleado."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Luz del d\u00eda",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Palad\u00edn",
+      "Explorador",
+      "Hechicero"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una esfera brillante ilumina una zona de 60 pies de radio alrededor de un punto dentro del alcance. La esfera emite luz brillante y proporciona luz tenue a otros 60 pies de distancia.<br><br>Si el conjuro se dirige a un objeto que t\u00fa sujetas o no lleve vista nadie, la luz se extender\u00e1 desde el objeto y se desplazar\u00e1 con \u00e9l. Cubrir completamente la fuente de luz con un objeto opaco, como una cazuela o una cesta, la bloquea.<br><br>Si cualquier parte del \u00e1rea de este conjuro se superpone con el \u00e1rea de oscuridad creada por un conjuro de nivel 3 o menos, el conjuro que cre\u00f3 esa oscuridad es disipado.",
+      "Una esfera brillante ilumina una zona de 18 m de radio alrededor de un punto dentro del alcance. La esfera emite luz brillante y proporciona luz tenue a otros 18 m de distancia.<br><br>Si el conjuro se dirige a un objeto que t\u00fa sujetas o no lleve vista nadie, la luz se extender\u00e1 desde el objeto y se desplazar\u00e1 con \u00e9l. Cubrir completamente la fuente de luz con un objeto opaco, como una cazuela o una cesta, la bloquea.<br><br>Si cualquier parte del \u00e1rea de este conjuro se superpone con el \u00e1rea de oscuridad creada por un conjuro de nivel 3 o menos, el conjuro que cre\u00f3 esa oscuridad es disipado."
+    ],
+    "materiales": null
   }
 ]
