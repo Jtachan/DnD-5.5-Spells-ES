@@ -344,6 +344,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Rociada de color                        | 1         | Color spray                   |
 | Rociada prismática                      | 7         | Prismatic Spray               |
 | Rociada venenosa                        | 0 (Truco) | Poison Spray                  |
+| Romper la mente*                        | 8         | ❌                             |
 | Saber druídico                          | 0 (Truco) | Druidcraft                    |
 | Saeta guía                              | 1         | Guiding Bolt                  |
 | Salpicadura ácida                       | 0 (Truco) | Acid splash                   |
