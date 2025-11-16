@@ -459,5 +459,33 @@
       "Este conjuro es un truco m\u00e1gico menor con el que practican los lanzadores de conjuros inexpertos. Produces uno de los siguientes efectos m\u00e1gicos, dentro del alcance:<ul><li>Creas un efecto sensorial instant\u00e1neo e inofensivo, como una lluvia de chispas, una sutil r\u00e1faga de viento, leves notas musicales o un olor extra\u00f1o.</li><li>Apagas o enciendes de forma instant\u00e1nea una vela, antorcha o hoguera peque\u00f1a.</li><li>Limpias o ensucias de forma instant\u00e1nea un objeto de hasta 0,3 m c\u00fabico.</li><li>Enfr\u00edas, calientas o das sabor a un material inerte de hasta 0,3 m c\u00fabico durante 1 hora.</li><li>Haces aparecer una mancha de color, una peque\u00f1a marca o un s\u00edmbolo en un objeto o superficie durante 1 hora.</li><li>Creas un abalorio o un objeto ilusorio que cabe en tu mano y que dura hasta el final de tu pr\u00f3ximo turno.</li></ul>Si lanzas este conjuro varias veces, puedes mantener hasta tres de sus efectos no instant\u00e1neos activos a la vez. Para finalizar cualquiera de ellos deber\u00e1s emplear una acci\u00f3n."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Rayo de escarcha",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": [
+      "Lanzas un rayo helado de luz blanquiazul hacia una criatura de tu elecci\u00f3n que se encuentre dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si impactas, el objetivo sufre 1d8 de da\u00f1o de fr\u00edo y su velocidad queda reducida en 10 pies hasta el comienzo de tu pr\u00f3ximo turno.<br><br><b><i>A niveles superiores.</i></b> El da\u00f1o del conjuro aumenta en 1d8 cuando alcanzas nivel 5 (2d8), nivel 11 (3d8) y nivel 17 (4d8).",
+      "Lanzas un rayo helado de luz blanquiazul hacia una criatura de tu elecci\u00f3n que se encuentre dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si impactas, el objetivo sufre 1d8 de da\u00f1o de fr\u00edo y su velocidad queda reducida en 3 m hasta el comienzo de tu pr\u00f3ximo turno.<br><br><b><i>A niveles superiores.</i></b> El da\u00f1o del conjuro aumenta en 1d8 cuando alcanzas nivel 5 (2d8), nivel 11 (3d8) y nivel 17 (4d8)."
+    ],
+    "materiales": null
   }
 ]
