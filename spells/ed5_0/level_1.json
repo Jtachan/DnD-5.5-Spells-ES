@@ -1304,5 +1304,28 @@
     "requiere_ataque": false,
     "descripcion": "Apuntas con el dedo y la criatura que te da\u00f1\u00f3 se ve envuelta moment\u00e1neamente en una llamarada infernal. Debe hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1 2d10 de da\u00f1o de fuego si falla la tirada o la mitad del da\u00f1o si la supera.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
     "materiales": null
+  },
+  {
+    "nombre": "Retirada expeditiva",
+    "clases": [
+      "Hechicero",
+      "Mago",
+      "Brujo"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro te permite moverte a una velocidad incre\u00edble. Puedes realizar la acci\u00f3n de Correr cuando lanzas este conjuro y posteriormente como acci\u00f3n adicional en cada uno de tus turnos hasta el final del conjuro.",
+    "materiales": null
   }
 ]
