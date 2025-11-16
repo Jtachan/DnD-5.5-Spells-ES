@@ -819,5 +819,27 @@
       "Intentas hechizar a un humanoide que puedas ver dentro del alcance. El objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda, con ventaja si est\u00e1 luchando contra ti o tus compa\u00f1eros. Si falla la tirada de salvaci\u00f3n, queda hechizado por ti hasta que termine la duraci\u00f3n del conjuro, o t\u00fa mismo o uno de tus compa\u00f1eros le da\u00f1\u00e9is de alguna manera. La criatura hechizada te considera un conocido amistoso. Cuando el conjuro termine, sabr\u00e1 que la hechizaste.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio que hayas empleado. En el momento de elegir como objetivo, cada criatura debe estar a 9 m o menos de todas las dem\u00e1s."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Hero\u00edsmo",
+    "clases": [
+      "Bardo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Infundes valor en una criatura voluntaria a la que toques. Hasta el final de la duraci\u00f3n, no puede ser asustada y gana tantos puntos de golpe temporales como tu modificador por aptitud m\u00e1gica al principio de cada uno de sus turnos. Cuando el conjuro termina, pierde todos los puntos de golpe temporales restantes que provengan de este conjuro.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "materiales": null
   }
 ]
