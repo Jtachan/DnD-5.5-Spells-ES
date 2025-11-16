@@ -443,5 +443,30 @@
       "Creas dentro del alcance una ilusi\u00f3n de un objeto, una criatura o cualquier otro fen\u00f3meno visible, que se activar\u00e1 cuando se d\u00e9 una condici\u00f3n espec\u00edfica. Hasta ese momento la ilusi\u00f3n es imperceptible. Al lanzar el conjuro decides c\u00f3mo se comporta y qu\u00e9 sonidos crea la ilusi\u00f3n, que no podr\u00e1n ser mayores a un cubo de 9 m. El comportamiento indicado puede durar hasta 5 minutos.<br><br>Cuando la condici\u00f3n especificada ocurra, la ilusi\u00f3n aparecer\u00e1 de golpe y actuar\u00e1 seg\u00fan el comportamiento pedido. Una vez que la actuaci\u00f3n ha terminado, la ilusi\u00f3n desaparece y queda latente durante 10 minutos. Despu\u00e9s de ese tiempo, puede ser activada de nuevo.<br><br>Las circunstancias de activaci\u00f3n deben ser tan generales o tan detalladas como quieras, pero deben estar basadas en condiciones visuales o auditivas que ocurran a 9 m o menos del objeto.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas la atraviesan. Si una criatura utiliza su acci\u00f3n para examinar la imagen, puede determinar que es una ilusi\u00f3n si tiene \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, podr\u00e1 ver a trav\u00e9s de ella y sus otras cualidades sensoriales se vuelven tenues para esa criatura.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el conjuro se mantiene hasta ser disipado, sin requerir concentraci\u00f3n."
     ],
     "materiales": "Un poco de vell\u00f3n y polvo de jade con un valor de, al menos, 25 po."
+  },
+  {
+    "nombre": "Invocaci\u00f3n instant\u00e1nea de Drawmij",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Tocas un objeto que pese un m\u00e1ximo de 10 libras o cuya dimensi\u00f3n m\u00e1s larga sea 6 pies o menos. El conjuro deja una marca invisible en su superficie y graba, tambi\u00e9n de forma invisible, el nombre del objeto en el zafiro que usas como componente material. Cada vez que lanzas este conjuro debes utilizar un zafiro diferente.<br><br>En cualquier momento posterior, puedes usar tu acci\u00f3n para decir el nombre del objeto y aplastar el zafiro. El objeto aparece de forma instant\u00e1nea en tu mano independientemente de la distancia f\u00edsica o en qu\u00e9 plano est\u00e9, y el conjuro termina.<br><br>Si otra criatura tiene el objeto, aplastar el zafiro no traer\u00e1 el objeto hasta ti, pero en vez de eso aprender\u00e1s el nombre de la criatura que lo tiene y su localizaci\u00f3n aproximada en ese momento.<br><br><i>Disipar magia</i> o un efecto similar aplicado con \u00e9xito al zafiro tambi\u00e9n termina el conjuro.",
+      "Tocas un objeto que pese un m\u00e1ximo de 5 kg o cuya dimensi\u00f3n m\u00e1s larga sea 1,8 m o menos. El conjuro deja una marca invisible en su superficie y graba, tambi\u00e9n de forma invisible, el nombre del objeto en el zafiro que usas como componente material. Cada vez que lanzas este conjuro debes utilizar un zafiro diferente.<br><br>En cualquier momento posterior, puedes usar tu acci\u00f3n para decir el nombre del objeto y aplastar el zafiro. El objeto aparece de forma instant\u00e1nea en tu mano independientemente de la distancia f\u00edsica o en qu\u00e9 plano est\u00e9, y el conjuro termina.<br><br>Si otra criatura tiene el objeto, aplastar el zafiro no traer\u00e1 el objeto hasta ti, pero en vez de eso aprender\u00e1s el nombre de la criatura que lo tiene y su localizaci\u00f3n aproximada en ese momento.<br><br><i>Disipar magia</i> o un efecto similar aplicado con \u00e9xito al zafiro tambi\u00e9n termina el conjuro."
+    ],
+    "materiales": "Un zafiro con un valor de 1.000 po."
   }
 ]
