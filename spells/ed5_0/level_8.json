@@ -382,5 +382,28 @@
       "Creas una puerta de sombras en una superficie s\u00f3lida y plana que puedas ver dentro del alcance. Esta puerta es suficientemente grande para permitir el paso sin trabas de criaturas Medianas. Cuando est\u00e9s abierta, la puerta lleva a un semiplano que puede tener una habitaci\u00f3n vac\u00eda de 9 m de lado en cada dimensi\u00f3n, hecha de madera o de piedra. Cuando el conjuro termina, la puerta desaparece y cualquier criatura u objeto dentro del semiplano permanece encerrado en \u00e9l, al desaparecer la puerta no hay forma de escapar.<br><br>Cada vez que lanzas este conjuro eres capaz de crear un semiplano nuevo o hacer que la puerta te abra un semiplano con un plano que creaste en un lanzamiento anterior de este conjuro. Adem\u00e1s, si conoces la naturaleza y contenido de un semiplano creado mediante este conjuro por otra criatura, puedes hacer que la puerta de sombras conecte con ese semiplano."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Telepat\u00eda",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Ilimitado",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Creas un enlace telep\u00e1tico entre t\u00fa y una criatura voluntaria con la que est\u00e9s familiarizado. El objetivo puede estar en cualquier plano de existencia. El conjuro termina si dej\u00e1is de estar en el mismo plano.<br><br>Hasta el final de la duraci\u00f3n del conjuro, la criatura y t\u00fa pod\u00e9is compartir uno con el otro y de forma instant\u00e1nea palabras, im\u00e1genes, sonidos y otros mensajes sensoriales, y el objetivo te reconoce como la criatura con la que se est\u00e1 comunicando. El conjuro permite que criaturas con una puntuaci\u00f3n de Inteligencia de al menos 1 sean capaces de comprender el significado de tus palabras y mensajes.",
+    "materiales": "Un par de anillos de plata enlazados."
   }
 ]
