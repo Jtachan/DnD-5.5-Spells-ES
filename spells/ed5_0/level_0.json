@@ -540,5 +540,31 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura voluntaria. Una sola vez, antes de que termine el conjuro, el objetivo puede tirar 1d4 y a\u00f1adir el resultado a una tirada de salvaci\u00f3n de su elecci\u00f3n. Puede tirar del dado antes o despu\u00e9s de conocer el resultado de la tirada. Hacer esto da por finalizado el conjuro.",
     "materiales": "Una capa en miniatura."
+  },
+  {
+    "nombre": "Rociada venenosa",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Extiendes tu mano hacia una criatura que puedas ver dentro del alcance y la fumigas con una nube de gas venenoso que sale de la palma de tu mano. Deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1 1d12 de da\u00f1o de veneno.<br><br>El da\u00f1o del conjuro aumenta en 1d12 cuando alcanzas nivel 5 (2d12), nivel 11 (3d12) y nivel 17 (4d12).",
+    "materiales": null
   }
 ]
