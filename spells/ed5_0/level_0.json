@@ -163,5 +163,26 @@
     "requiere_ataque": false,
     "descripcion": "Extiendes tu mano y trazas un sello de guarda en el aire. Hasta el final de tu pr\u00f3ximo turno, tienes resistencia contra el da\u00f1o contundente, perforante y cortante que provenga de ataques con armas.",
     "materiales": null
+  },
+  {
+    "nombre": "Gu\u00eda",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria. Una sola vez, antes de que termine el conjuro, el objetivo puede tirar 1d4 y a\u00f1adir el resultado a una prueba de caracter\u00edstica de su elecci\u00f3n. Puede tirar el dado antes o despu\u00e9s de saber el resultado de la prueba. Hacer esto termina el conjuro.",
+    "materiales": null
   }
 ]
