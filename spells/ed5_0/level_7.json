@@ -268,5 +268,28 @@
       "Conjuras una morada de otro plano dentro del alcance hasta el final de la duraci\u00f3n del conjuro. Eliges donde est\u00e1 localizada una de las entradas. Brilla d\u00e9bilmente y tiene 1,5 m de ancho y 10 de alto. T\u00fa y cualquier otra criatura que designes al lanzar el conjuro pod\u00e9is entrar en la morada mientras el portal de entrada siga abierto. Puedes abrirlo o cerrarlo si est\u00e1s a 9 m de \u00e9l. Mientras permanezca cerrado, es invisible.<br><br>A trav\u00e9s del portal se llega a un fastuoso recibidor que da paso a numerosas habitaciones. La atm\u00f3sfera es limpia, despejada y c\u00e1lida.<br><br>Puedes crear cualquier configuraci\u00f3n de planta que quieras, pero el espacio no puede tener m\u00e1s de 50 cubos, cada uno de 3 m de lado. La mansi\u00f3n est\u00e1 decorada y equipada como desees. Hay suficiente comida para un banquete de nueve platos para 100 personas. El servicio est\u00e1 compuesto por 100 sirvientes cuasi transparentes que atienden todas las necesidades de la casa; su presencia es totalmente silenciosa. T\u00fa decides la apariencia y vestimenta de estos criados. Obedecen completamente tus \u00f3rdenes.<br><br>Pueden llevar a cabo cualquier tarea que pudiera realizar un sirviente humano normal, pero no pueden atacar o realizar acciones que da\u00f1en directamente a otra criatura. Por ejemplo, pueden traer y llevar cosas, limpiar, remendar, doblar la ropa, encender el fuego, servir comida o vino, calentar ba\u00f1os, arreglar una herida en lo que puedan y realizar otra clase de servicio no probara abandonarlos. Los muebles y adornos de la mansi\u00f3n son creaciones m\u00e1gicas que no pueden retirarse de la mansi\u00f3n ni que los sirvientes saquen comida u objetos de la morada.<br><br>Cuando el conjuro termina, todas las criaturas son expulsadas expeditivamente, llev\u00e1ndose aquello que llevasen con ellas. Todas las dem\u00e1s cosas creadas por el conjuro desaparecen. Si eres expulsado en una briasa cerca a la puerta, quedar\u00e1s expuesto a un espacio libre cercano a la morada."
     ],
     "materiales": "Un portal en miniatura tallado en marfil, un trozo peque\u00f1o de m\u00e1rmol pulido y una cucharita de plata, cada objeto con un valor de, al menos, 5 po."
+  },
+  {
+    "nombre": "Palabra divina",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Pronuncias una palabra divina, imbuida con el poder que form\u00f3 el mundo en los albores de la creaci\u00f3n. Elige a cualquier n\u00famero de criaturas que puedas ver dentro del alcance. Cada una de estas criaturas que puedan o\u00edrte debe hacer una tirada de salvaci\u00f3n de Carisma. Si fracasa, sufre un efecto en funci\u00f3n de sus puntos de golpe actuales:<ul><li>50 puntos de golpe o menos: ensordecida durante 1 minuto.</li><li>40 puntos de golpe o menos: ensordecida y cegada durante 10 minutos.</li><li>30 puntos de golpe o menos: ensordecida, cegada y aturdida durante 1 hora.</li><li>20 puntos de golpe o menos: muerte instant\u00e1nea.</li></ul>Independientemente de sus puntos de golpe actuales, un celestial, elemental, fe\u00e9rico o infernal que falle su tirada de salvaci\u00f3n es forzado a regresar a su plano natal (si no est\u00e1 ya all\u00ed) y no puede volver al plano en que te hallas durante 24 horas a menos que use el conjuro deseo.",
+    "materiales": null
   }
 ]
