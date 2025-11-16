@@ -1139,5 +1139,31 @@
       "Un rel\u00e1mpago que forma una l\u00ednea recta de 30 m de largo y 1,5 m de ancho surge de ti en una direcci\u00f3n de tu elecci\u00f3n. Todas las criaturas en la l\u00ednea deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 8d6 de da\u00f1o de rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>Los objetos inflamables que se encuentren en el \u00e1rea que no lleves o vistas se encienden.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 3 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Un poco de pelaje y una vara de \u00e1mbar, cristal o vidrio."
+  },
+  {
+    "nombre": "Respirar bajo el agua",
+    "clases": [
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro proporciona a un m\u00e1ximo de diez criaturas que puedas ver dentro del alcance la habilidad de respirar bajo el agua hasta el final del conjuro. Las criaturas afectadas tambi\u00e9n retienen su modo de respiraci\u00f3n normal.",
+    "materiales": "Un junco corto o una pajita."
   }
 ]
