@@ -413,5 +413,35 @@
       "Creas una guarda que protege hasta 225 m cuadrados de suelo (una zona cuadrada de 15 m de lado, cien cuadrados de 1,5 m de lado o 25 cuadrados de 3 m de lado). La zona protegida puede tener hasta 6 m de altura y la forma que desees. Puedes guardar varios pisos de una fortaleza dividiendo el \u00e1rea de la zona entre ellos, siempre y cuando puedas caminar a cada \u00e1rea contigua mientras est\u00e9s lanzando el conjuro.<br><br>Cuando lo lances, puedes especificar criaturas individuales que no se ver\u00e1n afectadas por alguno o ninguno de los efectos elegidos. Tambi\u00e9n puedes elegir una palabra clave que, dicha en voz alta, hace al que la dice inmune a estos efectos.<br><br><i>Guardas y guardias</i> crea los siguientes efectos dentro de la zona protegida:<br><br><b>Pasillos.</b> La niebla llena todos los pasillos protegidos, haci\u00e9ndolos muy oscuros. Adem\u00e1s, en cada intersecci\u00f3n o ramificaci\u00f3n que ofrezca una elecci\u00f3n entre caminos hay un 50 % de posibilidades de que una criatura que no seas t\u00fa crea que est\u00e1 yendo en direcci\u00f3n contraria a la que eligi\u00f3.<br><br><b>Puertas.</b> Todas las puertas en la zona protegida est\u00e1n marcadas m\u00e1gicamente, como si estuvieran bajo el efecto del conjuro <i>cerradura arcana</i>. Adem\u00e1s, puedes tapar hasta diez puertas con una ilusi\u00f3n (equivalente a la funci\u00f3n de imagen ilusoria del conjuro <i>ilusi\u00f3n menor</i>) para que parezcan una parte normal de las paredes.<br><br><b>Escaleras.</b> Todas las escaleras en la zona protegida se llenan de telas de ara\u00f1a, como en el conjuro <i>telara\u00f1a</i>. Mientras <i>guardas y guardias</i> siga activo, las telas volver\u00e1n a formarse 10 minutos si alguien las quema o arranca.<br><br><b>Otros efectos de conjuro.</b> Puedes elegir uno de los siguientes efectos m\u00e1gicos y aplicarlo en la zona protegida de la fortaleza:<ul><li>Sit\u00faa <i>luces danzantes</i> en cuatro corredores. Puedes designar un patr\u00f3n simple que las luces repetir\u00e1n mientras <i>guardas y guardias</i> siga activo.</li><li>Sit\u00faa <i>boca m\u00e1gica</i> en dos localizaciones.</li><li>Sit\u00faa <i>nube apestosa</i> en dos localizaciones. Los vapores surgen en los sitios elegidos; mientras <i>guardas y guardias</i> siga activo, volver\u00e1n en 10 minutos si son dispersados por el viento.</li><li>Sit\u00faa una <i>r\u00e1faga de viento</i> constante en una habitaci\u00f3n o pasillo.</li><li>Sit\u00faa una <i>sugesti\u00f3n</i> en una localizaci\u00f3n. Eliges una zona cuadrada de hasta 1,5 m de lado y cualquier criatura que entre o pase a trav\u00e9s del \u00e1rea recibe la sugesti\u00f3n mentalmente.</li></ul>Toda la zona protegida radia magia. Lanzar con \u00e9xito el conjuro <i>disipar magia</i> sobre un efecto concreto solo anula ese efecto.<br><br>Puedes crear una estructura con <i>guardas y guardias</i> permanentemente si lanzas este conjuro en ella todos los d\u00edas durante un a\u00f1o."
     ],
     "materiales": "Incienso, un poco de azufre y aceite, un cordel atado, un poco de sangre de mulo sombr\u00eda y una vara de plata peque\u00f1a que valga, al menos, 10 po."
+  },
+  {
+    "nombre": "Ilusi\u00f3n programada",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas dentro del alcance una ilusi\u00f3n de un objeto, una criatura o cualquier otro fen\u00f3meno visible, que se activar\u00e1 cuando se d\u00e9 una condici\u00f3n espec\u00edfica. Hasta ese momento la ilusi\u00f3n es imperceptible. Al lanzar el conjuro decides c\u00f3mo se comporta y qu\u00e9 sonidos crea la ilusi\u00f3n, que no podr\u00e1n ser mayores a un cubo de 30 pies. El comportamiento indicado puede durar hasta 5 minutos.<br><br>Cuando la condici\u00f3n especificada ocurra, la ilusi\u00f3n aparecer\u00e1 de golpe y actuar\u00e1 seg\u00fan el comportamiento pedido. Una vez que la actuaci\u00f3n ha terminado, la ilusi\u00f3n desaparece y queda latente durante 10 minutos. Despu\u00e9s de ese tiempo, puede ser activada de nuevo.<br><br>Las circunstancias de activaci\u00f3n deben ser tan generales o tan detalladas como quieras, pero deben estar basadas en condiciones visuales o auditivas que ocurran a 30 pies o menos del objeto.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas la atraviesan. Si una criatura utiliza su acci\u00f3n para examinar la imagen, puede determinar que es una ilusi\u00f3n si tiene \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, podr\u00e1 ver a trav\u00e9s de ella y sus otras cualidades sensoriales se vuelven tenues para esa criatura.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el conjuro se mantiene hasta ser disipado, sin requerir concentraci\u00f3n.",
+      "Creas dentro del alcance una ilusi\u00f3n de un objeto, una criatura o cualquier otro fen\u00f3meno visible, que se activar\u00e1 cuando se d\u00e9 una condici\u00f3n espec\u00edfica. Hasta ese momento la ilusi\u00f3n es imperceptible. Al lanzar el conjuro decides c\u00f3mo se comporta y qu\u00e9 sonidos crea la ilusi\u00f3n, que no podr\u00e1n ser mayores a un cubo de 9 m. El comportamiento indicado puede durar hasta 5 minutos.<br><br>Cuando la condici\u00f3n especificada ocurra, la ilusi\u00f3n aparecer\u00e1 de golpe y actuar\u00e1 seg\u00fan el comportamiento pedido. Una vez que la actuaci\u00f3n ha terminado, la ilusi\u00f3n desaparece y queda latente durante 10 minutos. Despu\u00e9s de ese tiempo, puede ser activada de nuevo.<br><br>Las circunstancias de activaci\u00f3n deben ser tan generales o tan detalladas como quieras, pero deben estar basadas en condiciones visuales o auditivas que ocurran a 9 m o menos del objeto.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas la atraviesan. Si una criatura utiliza su acci\u00f3n para examinar la imagen, puede determinar que es una ilusi\u00f3n si tiene \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, podr\u00e1 ver a trav\u00e9s de ella y sus otras cualidades sensoriales se vuelven tenues para esa criatura.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el conjuro se mantiene hasta ser disipado, sin requerir concentraci\u00f3n."
+    ],
+    "materiales": "Un poco de vell\u00f3n y polvo de jade con un valor de, al menos, 25 po."
   }
 ]
