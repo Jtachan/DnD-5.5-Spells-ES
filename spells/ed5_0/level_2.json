@@ -778,5 +778,35 @@
     "requiere_ataque": false,
     "descripcion": "Una criatura a la que toques se vuelve invisible hasta que el conjuro termine. Adem\u00e1s, cualquier cosa que vista o lleve consigo ser\u00e1 tambi\u00e9n invisible mientras siga llev\u00e1ndola encima. Para cada objetivo, el conjuro termina si ataca o lanza un conjuro.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o superior, puedes elegir como objetivo una criatura adicional por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
     "materiales": "Una pesta\u00f1a encerrada en goma ar\u00e1biga."
+  },
+  {
+    "nombre": "Levitar",
+    "clases": [
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una criatura u objeto de tu elecci\u00f3n que puedas ver dentro del alcance se eleva hasta 20 pies y se mantiene suspendido hasta el final de la duraci\u00f3n del conjuro. El conjuro puede hacer levitar a un objetivo de hasta 500 libras. Una criatura no voluntaria que tenga \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n no se ver\u00e1 afectada.<br><br>El objetivo solo puede moverse empuj\u00e1ndose o tirando de un objeto fijo o una superficie a su alcance. Si t\u00fa mismo eres el objetivo, puedes mover la altura del objetivo en hasta 20 pies en cada sentido. Si t\u00fa mismo eres el objetivo, te puedes mover hasta arriba o abajo, pero no lateralmente. En caso contrario, para mover al objetivo tienes que utilizar tu acci\u00f3n, manteni\u00e9ndote siempre dentro del alcance.<br><br>Cuando el conjuro acabe, el objetivo flotar\u00e1 suavemente hasta el suelo si todav\u00eda est\u00e1 en el aire.",
+      "Una criatura u objeto de tu elecci\u00f3n que puedas ver dentro del alcance se eleva hasta 6 m y se mantiene suspendido hasta el final de la duraci\u00f3n del conjuro. El conjuro puede hacer levitar a un objetivo de hasta 250 kg. Una criatura no voluntaria que tenga \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n no se ver\u00e1 afectada.<br><br>El objetivo solo puede moverse empuj\u00e1ndose o tirando de un objeto fijo o una superficie a su alcance. Si t\u00fa mismo eres el objetivo, puedes mover la altura del objetivo en hasta 6 m en cada sentido. Si t\u00fa mismo eres el objetivo, te puedes mover hasta arriba o abajo, pero no lateralmente. En caso contrario, para mover al objetivo tienes que utilizar tu acci\u00f3n, manteni\u00e9ndote siempre dentro del alcance.<br><br>Cuando el conjuro acabe, el objetivo flotar\u00e1 suavemente hasta el suelo si todav\u00eda est\u00e1 en el aire."
+    ],
+    "materiales": "Un peque\u00f1o lazo de cuero o una pieza de alambre bordado con la forma de una taza y una pata larga en un lado."
   }
 ]
