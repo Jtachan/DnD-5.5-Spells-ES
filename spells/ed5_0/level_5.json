@@ -1016,5 +1016,27 @@
       "Llenas de voraces langostas una zona esf\u00e9rica de 6 m de radio alrededor de un punto de tu elecci\u00f3n. La esfera se extiende m\u00e1s all\u00e1 de las esquinas y se mantiene hasta el final de la duraci\u00f3n del conjuro. La zona ocupada por ella se considerar\u00e1 ligeramente oscura, adem\u00e1s de terreno dif\u00edcil.<br><br>Cuando aparece el enjambre, todas las criaturas en el \u00e1rea deben hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1n 4d10 de da\u00f1o perforante si fallan la tirada o la mitad del da\u00f1o si la superan. Las criaturas tambi\u00e9n deber\u00e1n realizar esta tirada de salvaci\u00f3n cuando entren en la zona del conjuro por primera vez en un turno dado o cuando acaben su turno en ella.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el da\u00f1o aumenta en 1d10 por cada nivel por encima de 5 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Un poco de az\u00facar, algunos granos de ma\u00edz y una pizca de grasa."
+  },
+  {
+    "nombre": "Reencarnar",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a un humanoide muerto o parte de sus restos. Si esta criatura no ha estado muerta m\u00e1s de 10 d\u00edas, el conjuro crea un nuevo cuerpo adulto para ella y coacciona al alma a entrar en ese cuerpo. Si el alma del objetivo no es libre o no quiere entrar, el conjuro fallar\u00e1.<br><br>La magia fabrica un nuevo cuerpo para que sea habitado por la criatura, por lo que probablemente su raza cambie. El DM lanza 1d100 y consulta en la siguiente tabla para determinar qu\u00e9 forma adoptar\u00e1 la criatura al ser devuelta a la vida. Tambi\u00e9n puedes elegir una forma concreta en vez de tirar.<table><tr><th>d100</th><th>Raza</th></tr><tr><td>01\u201304</td><td>Drac\u00f3nido</td></tr><tr><td>05\u201313</td><td>Enano de las colinas</td></tr><tr><td>14\u201321</td><td>Enano de las monta\u00f1as</td></tr><tr><td>22\u201325</td><td>Elfo oscuro (drow)</td></tr><tr><td>26\u201334</td><td>Elfo, alto</td></tr><tr><td>35\u201342</td><td>Elfo de los bosques</td></tr><tr><td>43\u201346</td><td>Gnomo de los bosques</td></tr><tr><td>47\u201352</td><td>Gnomo de las rocas</td></tr><tr><td>53\u201356</td><td>Semielfo</td></tr><tr><td>57\u201360</td><td>Semiorco</td></tr><tr><td>61\u201368</td><td>Mediano piesligeros</td></tr><tr><td>69\u201376</td><td>Mediano fornido</td></tr><tr><td>77\u201396</td><td>Humano</td></tr><tr><td>97\u201300</td><td>Tiefling</td></tr></table>La criatura reencarnada recuerda su vida y experiencias anteriores. Mantiene las capacidades que tuviera en su forma original, con la salvedad de que cambia su raza anterior por la nueva, con sus correspondientes atributos raciales.",
+    "materiales": "Ung\u00fcentos y aceites raros con un valor de, al menos, 1.000 po, que son consumidos como parte del conjuro."
   }
 ]
