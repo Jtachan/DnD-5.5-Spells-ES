@@ -128,5 +128,28 @@
       "Un plano titilante y multicolor forma un muro opaco (de hasta 27 m de largo, 30 de alto y 2,5 cm de ancho) centrado en un punto que puedas ver dentro del alcance. Alternativamente, puedes dar al plano la forma de una esfera de hasta 9 m de di\u00e1metro, centrada en un punto de tu elecci\u00f3n dentro del alcance. El muro permanece en este lugar hasta el final de la duraci\u00f3n del conjuro. Si lo colocas de tal manera que atraviese el espacio ocupado por una criatura, el conjuro falla y pierdes tanto la acci\u00f3n como el espacio de conjuro.<br><br>El muro emite luz brillante hasta a 30 m y proporciona luz tenue a otros 30 m de distancia. T\u00fa y las criaturas que elijas en el momento de lanzar el conjuro podr\u00e9is pasar y permanecer cerca del muro sin ser da\u00f1ados. Si cualquier otra criatura que pueda ver el muro se acerca a menos de 6 m o comienza su turno a esa distancia, debe tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o quedar\u00e1 cegada durante 1 minuto.<br><br>El muro est\u00e1 formado por siete capas, cada una de un color distinto. Cuando una criatura intente meter la mano o atravesar el muro, lo har\u00e1 capa a capa, enfrent\u00e1ndose a cada una sucesivamente. Para cada una, deber\u00e1 realizar una tirada de salvaci\u00f3n de Destreza o quedar\u00e1 afectada por las propiedades de esa capa, tal y como se describe m\u00e1s abajo.<br><br>El muro puede ser destruido, capa por capa, en orden de rojo a violeta, de una manera espec\u00edfica para cada una. Cuando una capa ha sido eliminada, seguir\u00e1 estando situada hasta el final de la duraci\u00f3n del conjuro. Campo antimagia no tiene efecto en el muro y disipar magia solo puede afectar a la capa violeta.<ol><li><b>Rojo.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de fuego si falla la tirada o la mitad del da\u00f1o si la supera. Mientras esta capa siga en pie, los ataques a distancia no m\u00e1gicos no pueden atravesar el muro. La capa puede ser destruida si se le infligen 25 de da\u00f1o de fr\u00edo o m\u00e1s.</li><li><b>Naranja.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de \u00e1cido si falla la tirada o la mitad del da\u00f1o si la supera. Mientras esta capa siga en pie, los ataques a distancia m\u00e1gicos no pueden atravesar el muro. La capa puede ser destruida por un viento fuerte.</li><li><b>Amarillo.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de rel\u00e1mpago si falla la tirada o la mitad del da\u00f1o si la supera. La capa puede ser destruida si se le infligen 60 de da\u00f1o de fuerza o m\u00e1s.</li><li><b>Verde.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de veneno si falla la tirada o la mitad del da\u00f1o si la supera. La capa podr\u00e1 ser destruida mediante el conjuro pasamuros u otro conjuro de nivel igual o superior que pueda abrir un portal en una superficie s\u00f3lida.</li><li><b>Azul.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de fr\u00edo si falla la tirada o la mitad del da\u00f1o si la supera. La capa puede ser destruida si se le infligen 25 de da\u00f1o de fuego o m\u00e1s.</li><li><b>A\u00f1il.</b> Si falla la tirada, la criatura queda apresada. Al final de cada uno de sus turnos, debe realizar otra tirada de salvaci\u00f3n de Constituci\u00f3n. El efecto termina si la criatura tiene \u00e9xito tres veces en esta tirada. Si fracasa tres veces, queda convertida en piedra y por tanto queda en el estado \u201cpetrificado\u201d. Los \u00e9xitos y fallos no tienen por qu\u00e9 ser consecutivos. Lleva la cuenta de ambos hasta que tengas tres del mismo tipo.<br><br>Mientras la capa a\u00f1il siga en pie, no se podr\u00e1n lanzar conjuros a trav\u00e9s del muro. Para destruir esta capa es necesario iluminarla con luz brillante, como la del conjuro luz del d\u00eda u otro similar de nivel igual o superior.</li><li><b>Violeta.</b> Si falla la tirada, la criatura queda cegada. Al principio de su pr\u00f3ximo turno, debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito en la tirada, la ceguera termina. Si falla esta segunda tirada, es transportada a otro plano de existencia a elecci\u00f3n del DM, pero normalmente al Plano Astral o al Plano Et\u00e9reo. Si la criatura no tiene \u00e9xito en las dos tiradas, no podr\u00e1 salir de este plano por medios normales. Solo un conjuro deseo puede traer a la criatura de vuelta al plano material. Esta capa puede ser destruida mediante un conjuro de desintegrar de nivel 9 o superior o con un conjuro de nivel igual o superior que termine conjuros y efectos m\u00e1gicos.</li></ol>"
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Palabra de poder: matar",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Pronuncias una palabra de poder capaz de matar instant\u00e1neamente a una criatura que puedas ver dentro del alcance. Si la criatura elegida posee 100 puntos de golpe o menos, muere. Si no es as\u00ed, el conjuro no tiene efecto.",
+    "materiales": null
   }
 ]
