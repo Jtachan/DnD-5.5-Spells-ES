@@ -1401,5 +1401,30 @@
     "requiere_ataque": true,
     "descripcion": "Lanzas un rayo de luz hacia una criatura de tu elecci\u00f3n dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si impactas, la criatura recibe 4d6 de da\u00f1o radiante. Adem\u00e1s, la siguiente tirada de ataque contra el objetivo tiene ventaja si se realiza antes del final de tu siguiente turno, gracias a la tenue luz m\u00edstica que lo iluminar\u00e1 hasta ese momento.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
     "materiales": null
+  },
+  {
+    "nombre": "Salto",
+    "clases": [
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura. Su distancia de salto se triplica hasta el final del conjuro.",
+    "materiales": "Una pata trasera de saltamontes."
   }
 ]
