@@ -1099,5 +1099,30 @@
       "Das una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o verse obligada a obedecer la orden en su pr\u00f3ximo turno. Este conjuro no tiene efecto si el objetivo es un muerto viviente, si no entiende tu idioma o si la orden implicar\u00eda da\u00f1ar a la criatura de forma directa.<br><br>M\u00e1s abajo puedes encontrar ejemplos de \u00f3rdenes t\u00edpicas y sus efectos, aunque puedes dar otras distintas a las que se describen aqu\u00ed. En ese caso, el DM decide c\u00f3mo reaccionar\u00e1 el objetivo. Si la criatura no puede obedecer la orden, el conjuro termina.<br><br><b>Ac\u00e9rcate.</b> El objetivo se acerca a ti por el camino m\u00e1s corto y directo posible, acabando su turno si se mueve a 1,5 m o menos de ti.<br><br><b>Suelta.</b> El objetivo suelta lo que est\u00e9 sujetando y acaba su turno.<br><br><b>Huye.</b> El objetivo utiliza su turno en alejarse de ti de la manera m\u00e1s r\u00e1pida posible.<br><br><b>\u00c9chate.</b> El objetivo se tira al suelo boca abajo y acaba su turno.<br><br><b>Detente.</b> El objetivo no se mueve ni realiza ninguna acci\u00f3n. Si es posible, una criatura que est\u00e9 volando permanecer\u00e1 en el aire. Si para ello necesita moverse, volar o mantenerse en el aire, entonces caer\u00e1.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Palabra de curaci\u00f3n",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una criatura de tu elecci\u00f3n que puedas ver dentro del alcance recupera tantos puntos de golpe como 1d4 + tu modificador por aptitud m\u00e1gica. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, la curaci\u00f3n aumenta en 1d4 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "materiales": null
   }
 ]
