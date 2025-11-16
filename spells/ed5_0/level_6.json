@@ -796,5 +796,32 @@
       "Hasta el final de la duraci\u00f3n del conjuro, t\u00fa y hasta diez criaturas voluntarias que puedas ver dentro del alcance asum\u00eds una forma gaseosa, tomando la apariencia de jirones de nube. Mientras mantengan esta forma, cada criatura tendr\u00e1 una velocidad volando de 90 m y resistencia al da\u00f1o de armas no m\u00e1gicas. Las \u00fanicas acciones que una criatura puede realizar en esta forma son Correr o volver a su forma habitual. Transformarse de vuelta lleva 1 minuto, y durante este tiempo la criatura estar\u00e1 incapacitada y no podr\u00e1 moverse. Hasta el final del conjuro, la criatura tambi\u00e9n podr\u00e1 volver convertirse en nube, acto que tambi\u00e9n precisa del proceso de transformaci\u00f3n de 1 minuto de duraci\u00f3n.<br><br>Si una criatura est\u00e1 volando y en forma gaseosa cuando el efecto termine, descender\u00e1 18 m por asalto durante 1 minuto hasta poder aterrizar, ser\u00e1 la distancia restante."
     ],
     "materiales": "Fuego y agua bendita."
+  },
+  {
+    "nombre": "Viajar mediante plantas",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "El conjuro crea un enlace m\u00e1gico entre una planta inanimada Grande o mayor dentro del alcance y otra planta de cualquier distancia en el mismo plano de existencia. Debes haber visto o tocado la planta destino al menos una vez. Hasta el final de la duraci\u00f3n del conjuro, cualquier criatura puede entrar en la planta objetivo y salir de la planta destino empleando 5 pies de movimiento.",
+      "El conjuro crea un enlace m\u00e1gico entre una planta inanimada Grande o mayor dentro del alcance y otra planta de cualquier distancia en el mismo plano de existencia. Debes haber visto o tocado la planta destino al menos una vez. Hasta el final de la duraci\u00f3n del conjuro, cualquier criatura puede entrar en la planta objetivo y salir de la planta destino empleando 1,5 m de movimiento."
+    ],
+    "materiales": null
   }
 ]
