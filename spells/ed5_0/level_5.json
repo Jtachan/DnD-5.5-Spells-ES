@@ -879,5 +879,34 @@
       "Un muro no m\u00e1gico de piedra s\u00f3lida surge en un punto de tu elecci\u00f3n dentro del alcance. Este tiene 15 cm de grosor y est\u00e1 formado por diez paneles cuadrados de 10 por 3 m. Cada panel debe ser contiguo a otro. De forma alternativa, puedes crear paneles rectangulares de 3 m por 6 m, pero s\u00f3lo tendr\u00e1n 7,5 cm de grosor.<br><br>Si el muro atraviesa el espacio de una criatura cuando aparece, esta se ver\u00e1 empujada a uno u otro lado del muro (a tu elecci\u00f3n). Si una criatura fuera a quedar completamente rodeada por el muro (o por el muro y otra superficie s\u00f3lida), esta puede hacer una tirada de salvaci\u00f3n de Destreza. Si tiene \u00e9xito, puede usar su reacci\u00f3n para mover hasta su velocidad de manera que no quede encerrada por el muro.<br><br>El muro puede tener cualquier forma que desees, pero no puede ocupar el mismo espacio que una criatura u objeto. No es necesario que sea vertical o que descanse sobre unos cimientos s\u00f3lidos. Sin embargo, s\u00ed que es obligatorio que se funda con un cuerpo de piedra existente, y que este pueda sostener el muro. De esta manera, podr\u00e1s usar el conjuro para salvar un abismo o crear una rampa.<br><br>Si creas una arcada de m\u00e1s de 6 m de longitud, debes reducir a la mitad el tama\u00f1o de cada panel para crear estructuras de soporte. Adem\u00e1s, eras capaz, de manera indirecta, de que el muro fuera capaz de a\u00f1adir almenas, parapetos, etc.<br><br>El muro es un objeto hecho de piedra que puede ser da\u00f1ado y por tanto atravesado. Cada panel tiene CA 15 y 30 puntos de golpe por cada pulgada de grosor. Reducir a un panel a 0 puntos de golpe lo destruye y, podr\u00eda, de forma indirecta, hacer que otros paneles conectados se derrumben.<br><br>Si mantienes la concentraci\u00f3n en el conjuro durante toda su duraci\u00f3n, el muro se convierte en permanente y no puede ser destruido. En caso contrario, el muro desaparece cuando el conjuro termina."
     ],
     "materiales": "Un peque\u00f1o bloque de granito."
+  },
+  {
+    "nombre": "Nube aniquiladora",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas una nube venenosa de niebla amarillo-verdosa que cubre un \u00e1rea esf\u00e9rica de 20 pies de radio alrededor de un punto de tu elecci\u00f3n. La niebla se extiende m\u00e1s all\u00e1 de las esquinas. Se mantiene hasta el final de la duraci\u00f3n del conjuro o hasta que un viento fuerte la disperse, terminando el conjuro. El \u00e1rea se considera muy oscura.<br><br>Cuando una criatura entre en el \u00e1rea del conjuro por primera vez en un turno, o cuando empiece su turno en ella, debe realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 5d8 de da\u00f1o de veneno si falla la tirada o la mitad del da\u00f1o si la supera. La niebla afecta incluso a las criaturas que aguantan la respiraci\u00f3n o que no necesiten respirar.<br><br>La niebla se aleja 10 pies de ti al principio de cada uno de tus turnos, siguiendo la superficie del terreno. Al ser m\u00e1s densa que el aire, se desplazar\u00e1 hacia las cotas m\u00e1s bajas, derram\u00e1ndose por las aperturas que encuentre.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 5 que tenga el espacio que hayas empleado.",
+      "Creas una nube venenosa de niebla amarillo-verdosa que cubre un \u00e1rea esf\u00e9rica de 6 m de radio alrededor de un punto de tu elecci\u00f3n. La niebla se extiende m\u00e1s all\u00e1 de las esquinas. Se mantiene hasta el final de la duraci\u00f3n del conjuro o hasta que un viento fuerte la disperse, terminando el conjuro. El \u00e1rea se considera muy oscura.<br><br>Cuando una criatura entre en el \u00e1rea del conjuro por primera vez en un turno, o cuando empiece su turno en ella, debe realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 5d8 de da\u00f1o de veneno si falla la tirada o la mitad del da\u00f1o si la supera. La niebla afecta incluso a las criaturas que aguantan la respiraci\u00f3n o que no necesiten respirar.<br><br>La niebla se aleja 3 m de ti al principio de cada uno de tus turnos, siguiendo la superficie del terreno. Al ser m\u00e1s densa que el aire, se desplazar\u00e1 hacia las cotas m\u00e1s bajas, derram\u00e1ndose por las aperturas que encuentre.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 5 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": null
   }
 ]
