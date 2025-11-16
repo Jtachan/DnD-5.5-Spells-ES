@@ -1275,5 +1275,35 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una bestia voluntaria. Hasta el final de la duraci\u00f3n del conjuro puedes usar tu acci\u00f3n para ver a trav\u00e9s de los ojos de dicha criatura y o\u00edr lo que ella oye. Continuar\u00e1s as\u00ed hasta que utilices una acci\u00f3n para volver a tus sentidos normales.<br><br>Mientras est\u00e1s percibiendo el entorno a trav\u00e9s de los sentidos de la bestia, ganas los beneficios de cualquier sentido especial que esta tenga. Sin embargo, estar\u00e1s cegado y ensordecido en lo que a tus propios sentidos respecta.",
     "materiales": null
+  },
+  {
+    "nombre": "Silencio",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Explorador",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas una zona esf\u00e9rica de 20 pies de radio centrada en un punto de tu elecci\u00f3n, que permanece all\u00ed hasta el final de la duraci\u00f3n del conjuro. El sonido no puede atravesar dicha \u00e1rea ni originarse en su interior. Una criatura u objeto que est\u00e9 por completo dentro de la zona esf\u00e9rica es inmune al da\u00f1o de trueno, y si es una criatura, tambi\u00e9n estar\u00e1 ensordecida. Por ello, lanzar un conjuro que precise de un componente verbal es imposible dentro de esta \u00e1rea.",
+      "Creas una zona esf\u00e9rica de 6 m de radio centrada en un punto de tu elecci\u00f3n, que permanece all\u00ed hasta el final de la duraci\u00f3n del conjuro. El sonido no puede atravesar dicha \u00e1rea ni originarse en su interior. Una criatura u objeto que est\u00e9 por completo dentro de la zona esf\u00e9rica es inmune al da\u00f1o de trueno, y si es una criatura, tambi\u00e9n estar\u00e1 ensordecida. Por ello, lanzar un conjuro que precise de un componente verbal es imposible dentro de esta \u00e1rea."
+    ],
+    "materiales": null
   }
 ]
