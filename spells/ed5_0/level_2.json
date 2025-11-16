@@ -1489,5 +1489,34 @@
       "Este conjuro protege a una criatura voluntaria a la que toques y crea una conexi\u00f3n m\u00edstica entre vosotros hasta que el conjuro termine. Mientras el objetivo se encuentre a 18 m o menos de ti, obtiene un modificador de +1 a su CA y tiradas de salvaci\u00f3n, as\u00ed como resistencia a todo el da\u00f1o. Sin embargo, cada vez que reciba da\u00f1o, t\u00fa sufrir\u00e1s la misma cantidad de da\u00f1o.<br><br>El conjuro finaliza si llegas a tener 0 puntos de golpe o si el objetivo y t\u00fa os separ\u00e1is m\u00e1s de 18 m. Tambi\u00e9n termina si se lanza otra versi\u00f3n de cualquiera de las dos criaturas conectadas o si utilizas una acci\u00f3n para finalizarlo."
     ],
     "materiales": "Una pareja de anillos de platino con un valor de 50 po o m\u00e1s, que deb\u00e9is llevar puestos tanto el objetivo como el lanzador hasta el final de la duraci\u00f3n del conjuro."
+  },
+  {
+    "nombre": "Visi\u00f3n en la oscuridad",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Tocas a una criatura voluntaria, que gana la capacidad de ver en la oscuridad. Hasta el final de la duraci\u00f3n del conjuro, el objetivo tiene visi\u00f3n en la oscuridad con un alcance de 60 pies.",
+      "Tocas a una criatura voluntaria, que gana la capacidad de ver en la oscuridad. Hasta el final de la duraci\u00f3n del conjuro, el objetivo tiene visi\u00f3n en la oscuridad con un alcance de 18 m."
+    ],
+    "materiales": "Una pizca de zanahoria seca o un \u00e1gata."
   }
 ]
