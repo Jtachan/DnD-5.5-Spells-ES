@@ -346,5 +346,35 @@
       "Tocas un objeto cuyo tama\u00f1o sea menor o igual a 3 m en todas las dimensiones. Hasta que el conjuro termine, el objeto emitir\u00e1 luz brillante en un radio de 6 m y luz tenue 6 m m\u00e1s all\u00e1. La luz puede tener el color que desees. Tocar nuevamente el objeto con un material opaco bloquear\u00e1 la luz. El conjuro termina si lo lanzas de nuevo o si utilizas una acci\u00f3n para finalizarlo.<br><br>Si eliges como objeto un objeto portado por una criatura hostil, esta \u00faltima debe tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza para evitar el conjuro."
     ],
     "materiales": "Una luci\u00e9rnaga o musgo fosforescente."
+  },
+  {
+    "nombre": "Mano de mago",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Conjuras una mano espectral flotante en un punto de tu elecci\u00f3n dentro del alcance. La mano durar\u00e1 hasta el final de la duraci\u00f3n del conjuro o hasta que utilices una acci\u00f3n para finalizarlo. Adem\u00e1s, la mano desaparecer\u00e1 si en alg\u00fan momento est\u00e1 a m\u00e1s de 30 pies de ti o si lanzas este conjuro de nuevo.<br><br>Puedes emplear tu acci\u00f3n para controlar la mano, haciendo que manipule un objeto, abra una puerta o recipiente que no est\u00e9 cerrado con llave, guarde u obtenga un objeto en un recipiente abierto o vierta el contenido de un vial. Cada vez que controles la mano de esta forma puedes tambi\u00e9n moverla hasta 30 pies.<br><br>La mano no puede atacar, activar objetos m\u00e1gicos o llevar m\u00e1s de 10 libras de peso.",
+      "Conjuras una mano espectral flotante en un punto de tu elecci\u00f3n dentro del alcance. La mano durar\u00e1 hasta el final de la duraci\u00f3n del conjuro o hasta que utilices una acci\u00f3n para finalizarlo. Adem\u00e1s, la mano desaparecer\u00e1 si en alg\u00fan momento est\u00e1 a m\u00e1s de 9 m de ti o si lanzas este conjuro de nuevo.<br><br>Puedes emplear tu acci\u00f3n para controlar la mano, haciendo que manipule un objeto, abra una puerta o recipiente que no est\u00e9 cerrado con llave, guarde u obtenga un objeto en un recipiente abierto o vierta el contenido de un vial. Cada vez que controles la mano de esta forma puedes tambi\u00e9n moverla hasta 9 m.<br><br>La mano no puede atacar, activar objetos m\u00e1gicos o llevar m\u00e1s de 5 kg de peso."
+    ],
+    "materiales": null
   }
 ]
