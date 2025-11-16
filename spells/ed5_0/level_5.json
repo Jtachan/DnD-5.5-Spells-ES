@@ -1062,5 +1062,33 @@
     "requiere_ataque": false,
     "descripcion": "Imbuyes de energ\u00eda positiva a una criatura a la que toques, deshaciendo un efecto debilitador anterior. Puedes reducir el nivel de cansancio en uno o terminar uno de los siguientes efectos en el objetivo:<ul><li>Un efecto que le mantuviera hechizado o petrificado.</li><li>Una maldici\u00f3n, incluyendo la sintonizaci\u00f3n del objetivo a un objeto m\u00e1gico maldito.</li><li>Una reducci\u00f3n de una de sus puntuaciones de caracter\u00edstica.</li><li>Un efecto que reduzca sus puntos de golpe m\u00e1ximos.</li></ul>",
     "materiales": "Polvo de diamante con un valor de, al menos, 100 po, que es consumido como parte del conjuro."
+  },
+  {
+    "nombre": "Telequinesis",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Ganas la capacidad de mover o manipular criaturas u objetos con tu pensamiento. Impones tu voluntad en una criatura u objeto, causando uno de los efectos explicados m\u00e1s abajo. Esto ocurre en el momento de lanzar el conjuro y, hasta el final del mismo, en cada asalto si utilizas tu acci\u00f3n para ello. Puedes afectar al mismo objetivo hasta tres asaltos o elegir uno nuevo en cualquier momento. Si cambias de objetivo, el anterior ya no se ve afectado por el conjuro.<br><br><b>Criatura.</b> Puedes intentar mover a una criatura de tama\u00f1o Enorme o menor. Haz una prueba de caracter\u00edstica con tu aptitud m\u00e1gica enfrentada a una prueba de Fuerza de la criatura. Si ganas la tirada enfrentada, mueves al objetivo hasta 30 pies en cualquier direcci\u00f3n, incluyendo hacia arriba, pero dentro del alcance de este conjuro. Hasta el final del pr\u00f3ximo turno, la criatura queda apresada en tu agarre telequin\u00e9tico. Un objetivo elevado queda suspendido en el aire.<br><br>En acciones subsiguientes puedes usar tu acci\u00f3n para intentar mantener el agarre sobre la criatura, repitiendo la tirada enfrentada.<br><br><b>Objeto.</b> Puedes intentar mover un objeto que pese hasta 1000 libras. Si tienes vista o porte al objeto, lo mueves autom\u00e1ticamente hasta 30 pies en cualquier direcci\u00f3n, siempre dentro del alcance del conjuro.<br><br>En caso contrario, haz una prueba de caracter\u00edstica con tu aptitud m\u00e1gica enfrentada a una prueba de Fuerza de la criatura que est\u00e1 vista o porte el objeto. Si ganas la tirada enfrentada, la dejas caer o alejas a la criatura y lo mueves hasta 30 pies en cualquier direcci\u00f3n, dentro del alcance del conjuro.<br><br>Puedes manipular de forma delicada un objeto con tu agarre telequin\u00e9tico con la precisi\u00f3n necesaria para utilizar una herramienta, abrir una puerta o recipiente, retirar o verter su contenido en un recipiente abierto o verter el contenido de un vial.",
+      "Ganas la capacidad de mover o manipular criaturas u objetos con tu pensamiento. Impones tu voluntad en una criatura u objeto, causando uno de los efectos explicados m\u00e1s abajo. Esto ocurre en el momento de lanzar el conjuro y, hasta el final del mismo, en cada asalto si utilizas tu acci\u00f3n para ello. Puedes afectar al mismo objetivo hasta tres asaltos o elegir uno nuevo en cualquier momento. Si cambias de objetivo, el anterior ya no se ve afectado por el conjuro.<br><br><b>Criatura.</b> Puedes intentar mover a una criatura de tama\u00f1o Enorme o menor. Haz una prueba de caracter\u00edstica con tu aptitud m\u00e1gica enfrentada a una prueba de Fuerza de la criatura. Si ganas la tirada enfrentada, mueves al objetivo hasta 9 m en cualquier direcci\u00f3n, incluyendo hacia arriba, pero dentro del alcance de este conjuro. Hasta el final del pr\u00f3ximo turno, la criatura queda apresada en tu agarre telequin\u00e9tico. Un objetivo elevado queda suspendido en el aire.<br><br>En acciones subsiguientes puedes usar tu acci\u00f3n para intentar mantener el agarre sobre la criatura, repitiendo la tirada enfrentada.<br><br><b>Objeto.</b> Puedes intentar mover un objeto que pese hasta 500 kg. Si tienes vista o porte al objeto, lo mueves autom\u00e1ticamente hasta 9 m en cualquier direcci\u00f3n, siempre dentro del alcance del conjuro.<br><br>En caso contrario, haz una prueba de caracter\u00edstica con tu aptitud m\u00e1gica enfrentada a una prueba de Fuerza de la criatura que est\u00e1 vista o porte el objeto. Si ganas la tirada enfrentada, la dejas caer o alejas a la criatura y lo mueves hasta 9 m en cualquier direcci\u00f3n, dentro del alcance del conjuro.<br><br>Puedes manipular de forma delicada un objeto con tu agarre telequin\u00e9tico con la precisi\u00f3n necesaria para utilizar una herramienta, abrir una puerta o recipiente, retirar o verter su contenido en un recipiente abierto o verter el contenido de un vial."
+    ],
+    "materiales": null
   }
 ]
