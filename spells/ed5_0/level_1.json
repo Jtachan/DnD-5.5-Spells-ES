@@ -765,5 +765,29 @@
       "Una grasa resbaladiza cubre el suelo en un cuadrado de 3 m centrado en un punto dentro del alcance, convirti\u00e9ndolo en terreno dif\u00edcil hasta el final de la duraci\u00f3n del conjuro.<br><br>Cuando la grasa aparece, todas las criaturas de pie en la zona afectada deben tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o quedar\u00e1n derribadas. Una criatura que entre en la zona o acabe su turno en ella tambi\u00e9n debe tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o quedar\u00e1 derribada."
     ],
     "materiales": "Un poco de piel de cerdo o de mantequilla."
+  },
+  {
+    "nombre": "Hablar con los animales",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Ganas la capacidad de comprender y comunicarte verbalmente con bestias hasta el final de la duraci\u00f3n del conjuro. El conocimiento y consciencia de muchas criaturas est\u00e1 limitado por su inteligencia, pero como m\u00ednimo podr\u00e1n proporcionarte informaci\u00f3n sobre lugares y monstruos de los alrededores, incluyendo lo que hayan percibido o hayan o\u00eddo en las \u00faltimas horas. Es posible que una bestia pueda proporcionarte un beneficio o hacerte un peque\u00f1o favor, seg\u00fan el criterio del DM.",
+    "materiales": null
   }
 ]
