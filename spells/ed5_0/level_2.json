@@ -1305,5 +1305,31 @@
       "Creas una zona esf\u00e9rica de 6 m de radio centrada en un punto de tu elecci\u00f3n, que permanece all\u00ed hasta el final de la duraci\u00f3n del conjuro. El sonido no puede atravesar dicha \u00e1rea ni originarse en su interior. Una criatura u objeto que est\u00e9 por completo dentro de la zona esf\u00e9rica es inmune al da\u00f1o de trueno, y si es una criatura, tambi\u00e9n estar\u00e1 ensordecida. Por ello, lanzar un conjuro que precise de un componente verbal es imposible dentro de esta \u00e1rea."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Sordera/Ceguera",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Eres capaz de cegar o ensordecer a un enemigo. Una criatura a tu elecci\u00f3n que puedas ver dentro del alcance debe realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Si falla, queda cegada o ensordecida, a tu elecci\u00f3n, hasta el final de la duraci\u00f3n del conjuro. Al final de cada uno de sus turnos, el objetivo puede hacer otra tirada de salvaci\u00f3n de Constituci\u00f3n. Si tiene \u00e9xito, el efecto del conjuro termina para \u00e9l.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o mayor, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
+    "materiales": null
   }
 ]
