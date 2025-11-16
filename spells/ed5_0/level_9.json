@@ -354,5 +354,29 @@
       "Sirvi\u00e9ndote de los miedos m\u00e1s abyectos de un grupo de criaturas, creas en su mente seres ilusorios, que solo ellas pueden ver. Todas las criaturas en una esfera de 9 m centrada en un punto de tu elecci\u00f3n dentro del alcance deben hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Aquellas que fallen quedan asustadas hasta el final de la duraci\u00f3n del conjuro. La ilusi\u00f3n bebe de los terrores m\u00e1s profundos del objetivo, manifest\u00e1ndose como una amenaza implacable. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir 4d10 de da\u00f1o ps\u00edquico. Si tiene \u00e9xito, el conjuro acaba para esa criatura."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Tormenta de la venganza",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Vista",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Formas unas nubes de tormenta que se agitan en torno a un punto de tu elecci\u00f3n que puedas ver, cubriendo un \u00e1rea de 360 pies de radio. Sobre ella caen rel\u00e1mpagos, estallan truenos y rugen fuertes vientos. Todas las criaturas debajo de las nubes (a no m\u00e1s de 5.000 pies bajo ella) cuando estas aparecen deben hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fallan la tirada, sufrir\u00e1n 2d6 de da\u00f1o de trueno y quedar\u00e1n ensordecidas durante 5 minutos.<br><br>Cada asalto que mantengas la concentraci\u00f3n en este conjuro, la tormenta produce en tu turno efectos adicionales.<br><br><b>Asalto 2.</b> Una lluvia \u00e1cida cae de la nube. Todas las criaturas debajo de ella reciben 1d6 de da\u00f1o de \u00e1cido.<br><br><b>Asalto 3.</b> Llamas si rel\u00e1mpagos que surgen de la nube para electrocutar a seis criaturas u objetos de tu elecci\u00f3n que est\u00e9n debajo de ella. Cada objetivo no puede ser impactado por m\u00e1s de un rel\u00e1mpago. Las criaturas atacadas deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 10d6 de da\u00f1o de rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br><b>Asalto 4.</b> Enormes piedras de granizo se precipitan desde las nubes. Todas las criaturas debajo de ellas reciben 2d6 de da\u00f1o contundente.<br><br><b>Asaltos 5 a 10.</b> R\u00e1fagas de viento y una lluvia helada azotan a las criaturas. Bajo la nube la cubierta se considera muy oscura y terreno dif\u00edcil. Todas las criaturas debajo de ella reciben 1d6 de da\u00f1o de fr\u00edo. Si las criaturas intentan utilizar su acci\u00f3n de Correr cuando est\u00e1n bajo la nube deber\u00e1n antes tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza. Por \u00faltimo, las fuertes r\u00e1fagas de viento (de entre 20 y 50 millas por hora) dispersan autom\u00e1ticamente nieblas, brumas y fen\u00f3menos similares en la zona, ya sean m\u00e1gicos o mundanos.",
+      "Formas unas nubes de tormenta que se agitan en torno a un punto de tu elecci\u00f3n que puedas ver, cubriendo un \u00e1rea de 108 m de radio. Sobre ella caen rel\u00e1mpagos, estallan truenos y rugen fuertes vientos. Todas las criaturas debajo de las nubes (a no m\u00e1s de 5.0 m bajo ella) cuando estas aparecen deben hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fallan la tirada, sufrir\u00e1n 2d6 de da\u00f1o de trueno y quedar\u00e1n ensordecidas durante 5 minutos.<br><br>Cada asalto que mantengas la concentraci\u00f3n en este conjuro, la tormenta produce en tu turno efectos adicionales.<br><br><b>Asalto 2.</b> Una lluvia \u00e1cida cae de la nube. Todas las criaturas debajo de ella reciben 1d6 de da\u00f1o de \u00e1cido.<br><br><b>Asalto 3.</b> Llamas si rel\u00e1mpagos que surgen de la nube para electrocutar a seis criaturas u objetos de tu elecci\u00f3n que est\u00e9n debajo de ella. Cada objetivo no puede ser impactado por m\u00e1s de un rel\u00e1mpago. Las criaturas atacadas deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 10d6 de da\u00f1o de rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br><b>Asalto 4.</b> Enormes piedras de granizo se precipitan desde las nubes. Todas las criaturas debajo de ellas reciben 2d6 de da\u00f1o contundente.<br><br><b>Asaltos 5 a 10.</b> R\u00e1fagas de viento y una lluvia helada azotan a las criaturas. Bajo la nube la cubierta se considera muy oscura y terreno dif\u00edcil. Todas las criaturas debajo de ella reciben 1d6 de da\u00f1o de fr\u00edo. Si las criaturas intentan utilizar su acci\u00f3n de Correr cuando est\u00e1n bajo la nube deber\u00e1n antes tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza. Por \u00faltimo, las fuertes r\u00e1fagas de viento (de entre 20 y 75 km por hora) dispersan autom\u00e1ticamente nieblas, brumas y fen\u00f3menos similares en la zona, ya sean m\u00e1gicos o mundanos."
+    ],
+    "materiales": null
   }
 ]
