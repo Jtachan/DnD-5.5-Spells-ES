@@ -702,5 +702,33 @@
     "requiere_ataque": false,
     "descripcion": "Otorgas una sombra de vida e inteligencia a un cad\u00e1ver de tu elecci\u00f3n que se encuentre dentro del alcance, permiti\u00e9ndole contestar a tus preguntas. El cad\u00e1ver debe conservar su boca y no ser un muerto viviente. El conjuro fallar\u00e1 si ese cad\u00e1ver ha sido objetivo del mismo conjuro en los \u00faltimos 10 d\u00edas.<br><br>Puedes hacer hasta cinco preguntas antes del final del conjuro. El cad\u00e1ver solo poseer\u00e1 los mismos conocimientos que ten\u00eda, incluyendo idiomas. Las respuestas suelen ser breves, cr\u00edpticas o repetitivas, y el cad\u00e1ver no tiene obligaci\u00f3n de proporcionarte una respuesta veraz si es hostil hacia ti o te reconoce como enemigo. Este conjuro no devuelve el alma de una criatura a la vida, solo el esp\u00edritu que la anima. Por tanto, el cad\u00e1ver no puede adquirir nueva informaci\u00f3n, entender nada que haya ocurrido desde que muri\u00f3 o especular sobre eventos futuros.",
     "materiales": "Incienso para quemar."
+  },
+  {
+    "nombre": "Hambre de Hadar",
+    "clases": [
+      "Brujo"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Abres una puerta a la oscuridad entre las estrellas, una regi\u00f3n infestada de horrores ignotos. Aparece una esfera de 20 pies de radio de negrura e intenso fr\u00edo, centrada en un punto dentro del alcance y que permanece hasta el final de la duraci\u00f3n del conjuro. Del vac\u00edo surge una cacofon\u00eda de suaves susurros y sonidos de succi\u00f3n, audible a 30 pies de distancia. Ninguna luz, m\u00e1gica u ordinaria, puede iluminar la zona y las criaturas completamente dentro de ella quedan cegadas.<br><br>El vac\u00edo crea una distorsi\u00f3n en el entramado del espacio, por lo que el \u00e1rea es terreno dif\u00edcil. Una criatura que comience su turno en la zona recibe 2d6 de da\u00f1o de fr\u00edo. Una criatura que termine su turno en el \u00e1rea debe tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o recibir 2d6 de da\u00f1o de \u00e1cido por la fricci\u00f3n de los tent\u00e1culos lechosos y de otro mundo que surgen de la oscuridad.",
+      "Abres una puerta a la oscuridad entre las estrellas, una regi\u00f3n infestada de horrores ignotos. Aparece una esfera de 6 m de radio de negrura e intenso fr\u00edo, centrada en un punto dentro del alcance y que permanece hasta el final de la duraci\u00f3n del conjuro. Del vac\u00edo surge una cacofon\u00eda de suaves susurros y sonidos de succi\u00f3n, audible a 9 m de distancia. Ninguna luz, m\u00e1gica u ordinaria, puede iluminar la zona y las criaturas completamente dentro de ella quedan cegadas.<br><br>El vac\u00edo crea una distorsi\u00f3n en el entramado del espacio, por lo que el \u00e1rea es terreno dif\u00edcil. Una criatura que comience su turno en la zona recibe 2d6 de da\u00f1o de fr\u00edo. Una criatura que termine su turno en el \u00e1rea debe tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o recibir 2d6 de da\u00f1o de \u00e1cido por la fricci\u00f3n de los tent\u00e1culos lechosos y de otro mundo que surgen de la oscuridad."
+    ],
+    "materiales": "Un tent\u00e1culo de pulpo en salmuera."
   }
 ]
