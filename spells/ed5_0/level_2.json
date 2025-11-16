@@ -1229,5 +1229,30 @@
     "requiere_ataque": true,
     "descripcion": "Un rayo de energ\u00eda debilitante surge de tu dedo hacia una criatura que se encuentre dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Si impactas, hasta el final del conjuro el objetivo solo har\u00e1 la mitad del da\u00f1o en ataques con arma que utilicen Fuerza.<br><br>Al final de cada uno de sus turnos, puede realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Si tiene \u00e9xito, el efecto del conjuro termina.",
     "materiales": null
+  },
+  {
+    "nombre": "Restablecimiento menor",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Palad\u00edn",
+      "Explorador"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura y curas una enfermedad o un estado que le aflija. Dicho estado puede ser cegado, ensordecido, paralizado o envenenado.",
+    "materiales": null
   }
 ]
