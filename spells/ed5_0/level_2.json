@@ -1518,5 +1518,34 @@
       "Tocas a una criatura voluntaria, que gana la capacidad de ver en la oscuridad. Hasta el final de la duraci\u00f3n del conjuro, el objetivo tiene visi\u00f3n en la oscuridad con un alcance de 18 m."
     ],
     "materiales": "Una pizca de zanahoria seca o un \u00e1gata."
+  },
+  {
+    "nombre": "Zona de la verdad",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas una zona m\u00e1gica que protege contra el enga\u00f1o. Sus dimensiones son las de una esfera de 15 pies de radio alrededor de un punto de tu elecci\u00f3n dentro del alcance. Hasta el final del conjuro, cuando una criatura entre en la zona de la verdad por primera vez en un turno, o empiece su turno en ella, debe realizar una tirada de salvaci\u00f3n de Carisma. Si fracasa, no podr\u00e1 mentir mientras est\u00e9 en la zona m\u00e1gica. Sabr\u00e1s si una criatura ha tenido \u00e9xito o ha fracasado en su tirada de salvaci\u00f3n.<br><br>Cualquier criatura afectada es consciente del conjuro y, por tanto, puede evitar responder a preguntas a las que no normalmente responder\u00eda con una mentira. Adem\u00e1s, podr\u00e1 ser evasiva en sus respuestas mientras se mantenga dentro de los l\u00edmites de la verdad.",
+      "Creas una zona m\u00e1gica que protege contra el enga\u00f1o. Sus dimensiones son las de una esfera de 4,5 m de radio alrededor de un punto de tu elecci\u00f3n dentro del alcance. Hasta el final del conjuro, cuando una criatura entre en la zona de la verdad por primera vez en un turno, o empiece su turno en ella, debe realizar una tirada de salvaci\u00f3n de Carisma. Si fracasa, no podr\u00e1 mentir mientras est\u00e9 en la zona m\u00e1gica. Sabr\u00e1s si una criatura ha tenido \u00e9xito o ha fracasado en su tirada de salvaci\u00f3n.<br><br>Cualquier criatura afectada es consciente del conjuro y, por tanto, puede evitar responder a preguntas a las que no normalmente responder\u00eda con una mentira. Adem\u00e1s, podr\u00e1 ser evasiva en sus respuestas mientras se mantenga dentro de los l\u00edmites de la verdad."
+    ],
+    "materiales": null
   }
 ]
