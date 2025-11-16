@@ -566,5 +566,32 @@
     "requiere_ataque": false,
     "descripcion": "Extiendes tu mano hacia una criatura que puedas ver dentro del alcance y la fumigas con una nube de gas venenoso que sale de la palma de tu mano. Deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o sufrir\u00e1 1d12 de da\u00f1o de veneno.<br><br>El da\u00f1o del conjuro aumenta en 1d12 cuando alcanzas nivel 5 (2d12), nivel 11 (3d12) y nivel 17 (4d12).",
     "materiales": null
+  },
+  {
+    "nombre": "Saber dru\u00eddico",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Susurrando a los esp\u00edritus de la naturaleza, produces uno de los siguientes efectos m\u00e1gicos:<ul><li>Creas un efecto sensorial diminuto e inofensivo que predice c\u00f3mo ser\u00e1 el tiempo atmosf\u00e9rico en tu localizaci\u00f3n en las pr\u00f3ximas 24 horas. El efecto podr\u00e1 manifestarse como un orbe dorado para un d\u00eda despejado, una nube inclinada lloviendo, copos de nieve para nieve, etc. Este efecto dura 1 asalto.</li><li>Haces que una flor florezca inmediatamente, que una vaina de semillas se abra o que brote de una hoja un germen.</li><li>Creas un efecto sensorial diminuto e inofensivo, como el que produce una r\u00e1faga de viento, el sonido de un animal o un leve olor de una flor o moteado. El efecto debe estar en un cubo de 5 pies.</li><li>Apagas o enciendes de forma instant\u00e1nea una vela, antorcha u hoguera peque\u00f1a.</li></ul>",
+      "Susurrando a los esp\u00edritus de la naturaleza, produces uno de los siguientes efectos m\u00e1gicos:<ul><li>Creas un efecto sensorial diminuto e inofensivo que predice c\u00f3mo ser\u00e1 el tiempo atmosf\u00e9rico en tu localizaci\u00f3n en las pr\u00f3ximas 24 horas. El efecto podr\u00e1 manifestarse como un orbe dorado para un d\u00eda despejado, una nube inclinada lloviendo, copos de nieve para nieve, etc. Este efecto dura 1 asalto.</li><li>Haces que una flor florezca inmediatamente, que una vaina de semillas se abra o que brote de una hoja un germen.</li><li>Creas un efecto sensorial diminuto e inofensivo, como el que produce una r\u00e1faga de viento, el sonido de un animal o un leve olor de una flor o moteado. El efecto debe estar en un cubo de 1,5 m.</li><li>Apagas o enciendes de forma instant\u00e1nea una vela, antorcha u hoguera peque\u00f1a.</li></ul>"
+    ],
+    "materiales": null
   }
 ]
