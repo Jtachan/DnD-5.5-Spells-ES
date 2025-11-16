@@ -1043,5 +1043,34 @@
       "Una ola de fuerza atronadora surge de tu cuerpo. Todas las criaturas en un cubo de 4,5 m adyacente a ti deben hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Las criaturas que fallen la tirada sufrir\u00e1n 2d8 de da\u00f1o de trueno y ser\u00e1n empujadas 3 m, y las que la superen sufrir\u00e1n la mitad del da\u00f1o y no ser\u00e1n empujadas.<br><br>Adem\u00e1s, los objetos dentro del \u00e1rea de efecto que nadie lleve o vista son empujados autom\u00e1ticamente 3 m en direcci\u00f3n contraria a ti. El conjuro crea una explosi\u00f3n s\u00f3nica audible a 90 m de distancia.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Orbe crom\u00e1tico",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": [
+      "Lanzas una esfera de energ\u00eda de 4 pulgadas de di\u00e1metro a una criatura que puedas ver dentro del alcance. Elige entre \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago, veneno o trueno para el tipo de orbe creado y, despu\u00e9s, haz un ataque de conjuro a distancia contra el objetivo. Si el ataque impacta, la criatura recibe 3d8 de da\u00f1o del tipo elegido.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+      "Lanzas una esfera de energ\u00eda de 10 cm de di\u00e1metro a una criatura que puedas ver dentro del alcance. Elige entre \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago, veneno o trueno para el tipo de orbe creado y, despu\u00e9s, haz un ataque de conjuro a distancia contra el objetivo. Si el ataque impacta, la criatura recibe 3d8 de da\u00f1o del tipo elegido.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Un diamante que valga al menos 50 po."
   }
 ]
