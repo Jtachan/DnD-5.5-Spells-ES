@@ -857,5 +857,34 @@
       "Describe o nombra un tipo concreto de bestia o planta. Concentr\u00e1ndote en la voz de la naturaleza a tu alrededor, averiguas la direcci\u00f3n y distancia a la que se encuentra una criatura o planta del tipo escogido, hasta un m\u00e1ximo de 7,5 km, suponiendo que haya alguna."
     ],
     "materiales": "Un poco de pelaje de un sabueso."
+  },
+  {
+    "nombre": "Localizar objeto",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Palad\u00edn",
+      "Explorador"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Describe o nombra un objeto con el que est\u00e9s familiarizado. Puedes sentir la direcci\u00f3n hacia la localizaci\u00f3n del objeto, mientras est\u00e9 a 1.000 pies o menos de ti. Si el objeto se est\u00e1 moviendo, sabes en qu\u00e9 direcci\u00f3n.<br><br>El conjuro puede localizar un objeto concreto que conozcas, siempre que hayas visto un objeto de este tipo de cerca al menos una vez (a menos de 30 pies). Alternativamente, el conjuro puede localizar el objeto m\u00e1s cercano de un tipo particular, como una clase de prenda, joyer\u00eda, muebles, herramientas o armas.<br><br>No ser\u00e1s capaz de encontrarlo si cualquier grosor de plomo, incluso una l\u00e1mina fina, bloquea el camino directo entre t\u00fa y el objeto.",
+      "Describe o nombra un objeto con el que est\u00e9s familiarizado. Puedes sentir la direcci\u00f3n hacia la localizaci\u00f3n del objeto, mientras est\u00e9 a 1.0 m o menos de ti. Si el objeto se est\u00e1 moviendo, sabes en qu\u00e9 direcci\u00f3n.<br><br>El conjuro puede localizar un objeto concreto que conozcas, siempre que hayas visto un objeto de este tipo de cerca al menos una vez (a menos de 9 m). Alternativamente, el conjuro puede localizar el objeto m\u00e1s cercano de un tipo particular, como una clase de prenda, joyer\u00eda, muebles, herramientas o armas.<br><br>No ser\u00e1s capaz de encontrarlo si cualquier grosor de plomo, incluso una l\u00e1mina fina, bloquea el camino directo entre t\u00fa y el objeto."
+    ],
+    "materiales": "Una ramita bifurcada en forma de horquilla."
   }
 ]
