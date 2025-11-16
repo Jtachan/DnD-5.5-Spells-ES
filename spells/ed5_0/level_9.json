@@ -326,5 +326,33 @@
       "Tocas a una criatura que lleve muerta menos de 200 a\u00f1os y que no haya fallecido de edad avanzada. Si su alma es libre y lo desea, la criatura vuelve a la vida con todos sus puntos de golpe.<br><br>Este conjuro tambi\u00e9n neutraliza cualquier veneno, cura cualquier enfermedad y levanta cualquier maldici\u00f3n que afligiera a la criatura en el momento de su muerte. El conjuro tambi\u00e9n restaura \u00f3rganos y miembros da\u00f1ados o perdidos. Si la criatura es un muerto viviente, la resucitar\u00e1 en su estado previo a la muerte en vida.<br><br>El conjuro puede incluso proporcionar un cuerpo nuevo si el original ya no existe, en cuyo caso deber\u00e1s pronunciar el nombre de la criatura. Esta aparecer\u00e1 en un espacio desocupado a 3 m de ti."
     ],
     "materiales": "Una rociada de agua bendita y diamantes con un valor de, al menos, 25.000 po, que son consumidos como parte del conjuro."
+  },
+  {
+    "nombre": "Terror abyecto",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Sirvi\u00e9ndote de los miedos m\u00e1s abyectos de un grupo de criaturas, creas en su mente seres ilusorios, que solo ellas pueden ver. Todas las criaturas en una esfera de 30 pies centrada en un punto de tu elecci\u00f3n dentro del alcance deben hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Aquellas que fallen quedan asustadas hasta el final de la duraci\u00f3n del conjuro. La ilusi\u00f3n bebe de los terrores m\u00e1s profundos del objetivo, manifest\u00e1ndose como una amenaza implacable. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir 4d10 de da\u00f1o ps\u00edquico. Si tiene \u00e9xito, el conjuro acaba para esa criatura.",
+      "Sirvi\u00e9ndote de los miedos m\u00e1s abyectos de un grupo de criaturas, creas en su mente seres ilusorios, que solo ellas pueden ver. Todas las criaturas en una esfera de 9 m centrada en un punto de tu elecci\u00f3n dentro del alcance deben hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Aquellas que fallen quedan asustadas hasta el final de la duraci\u00f3n del conjuro. La ilusi\u00f3n bebe de los terrores m\u00e1s profundos del objetivo, manifest\u00e1ndose como una amenaza implacable. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir 4d10 de da\u00f1o ps\u00edquico. Si tiene \u00e9xito, el conjuro acaba para esa criatura."
+    ],
+    "materiales": null
   }
 ]
