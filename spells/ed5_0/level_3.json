@@ -832,5 +832,32 @@
     "requiere_ataque": false,
     "descripcion": "Tu toque levanta todas las maldiciones que afecten a una criatura u objeto. Si el objetivo es un objeto m\u00e1gico maldito, la maldici\u00f3n permanecer\u00e1, pero este conjuro rompe la sintonizaci\u00f3n del objeto con el due\u00f1o, permitiendo a este quit\u00e1rselo o deshacerse de \u00e9l.",
     "materiales": null
+  },
+  {
+    "nombre": "Llamar al rel\u00e1mpago",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Aparece una nube tormentosa en forma de cilindro, de 10 pies de altura y 60 de radio, centrada en un punto que puedas ver a 100 pies directamente encima de ti. El conjuro falla si no puedes contemplar un punto en el aire donde pueda aparecer la nube (por ejemplo, si est\u00e1s en una habitaci\u00f3n donde no quepa).<br><br>Cuando lances el conjuro, elige un punto que puedas ver dentro del alcance. Un rel\u00e1mpago cae desde la nube a ese punto. Cada criatura a 5 pies o menos debe hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1 3d10 de da\u00f1o por rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan. En cada uno de tus turnos hasta el final del conjuro puedes usar tu acci\u00f3n para llamar al rel\u00e1mpago desde la nube, repitiendo lo anterior.<br><br>Si controlas este conjuro est\u00e1s al aire libre y hay tormenta, el da\u00f1o del conjuro se incrementa en 1d10.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o del conjuro aumenta en 1d10 por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
+      "Aparece una nube tormentosa en forma de cilindro, de 3 m de altura y 60 de radio, centrada en un punto que puedas ver a 30 m directamente encima de ti. El conjuro falla si no puedes contemplar un punto en el aire donde pueda aparecer la nube (por ejemplo, si est\u00e1s en una habitaci\u00f3n donde no quepa).<br><br>Cuando lances el conjuro, elige un punto que puedas ver dentro del alcance. Un rel\u00e1mpago cae desde la nube a ese punto. Cada criatura a 1,5 m o menos debe hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1 3d10 de da\u00f1o por rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan. En cada uno de tus turnos hasta el final del conjuro puedes usar tu acci\u00f3n para llamar al rel\u00e1mpago desde la nube, repitiendo lo anterior.<br><br>Si controlas este conjuro est\u00e1s al aire libre y hay tormenta, el da\u00f1o del conjuro se incrementa en 1d10.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, el da\u00f1o del conjuro aumenta en 1d10 por cada nivel por encima de 3 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": null
   }
 ]
