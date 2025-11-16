@@ -405,5 +405,35 @@
     "requiere_ataque": false,
     "descripcion": "Creas un enlace telep\u00e1tico entre t\u00fa y una criatura voluntaria con la que est\u00e9s familiarizado. El objetivo puede estar en cualquier plano de existencia. El conjuro termina si dej\u00e1is de estar en el mismo plano.<br><br>Hasta el final de la duraci\u00f3n del conjuro, la criatura y t\u00fa pod\u00e9is compartir uno con el otro y de forma instant\u00e1nea palabras, im\u00e1genes, sonidos y otros mensajes sensoriales, y el objetivo te reconoce como la criatura con la que se est\u00e1 comunicando. El conjuro permite que criaturas con una puntuaci\u00f3n de Inteligencia de al menos 1 sean capaces de comprender el significado de tus palabras y mensajes.",
     "materiales": "Un par de anillos de plata enlazados."
+  },
+  {
+    "nombre": "Terremoto",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "500 pies",
+      "150 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas un fen\u00f3meno s\u00edsmico en un punto del suelo que puedas ver dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, un intenso temblor azota el \u00e1rea en un radio de 100 pies alrededor del punto, haciendo temblar a las criaturas y estructuras en la zona y en contacto con el suelo.<br><br>El terreno en el \u00e1rea pasa a considerarse dif\u00edcil. Todas las criaturas sobre \u00e9l que est\u00e9n concentr\u00e1ndose deber\u00e1n hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fallan, su concentraci\u00f3n se rompe.<br><br>En el momento de lanzar el conjuro y al final de cada turno en el que sigas concentr\u00e1ndote en \u00e9l, cada criatura sobre el suelo del \u00e1rea debe realizar una tirada de salvaci\u00f3n de Destreza. Si falla, es derribada.<br><br>Este conjuro puede tener efectos adicionales dependiendo del tipo de terreno en el \u00e1rea, a determinar por el DM.<br><br><b>Grietas.</b> Al comienzo de tu siguiente turno despu\u00e9s del lanzamiento del conjuro se abren varias grietas en el \u00e1rea. Un total de 1d6 fisuras aparecen en localizaciones elegidas por el DM. Cada una de ellas es de 10 pies \u00d7 10 pies de profundidad, 10 de ancho y se extiende de un borde del \u00e1rea al lado opuesto. Una criatura de pie en un punto donde se abra una fisura debe tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o caer\u00e1 dentro de ella. Si tiene \u00e9xito, se desplaza a un lado de la fisura mientras esta se abre.<br><br>Una vez la fisura se abra justo debajo de una estructura provoca que esta se derrumbe autom\u00e1ticamente (ver m\u00e1s abajo).<br><br><b>Estructuras.</b> El temblor hace 50 de da\u00f1o contundente a cualquier estructura en contacto con el suelo del \u00e1rea cuando lanzas el conjuro y al principio de cada uno de tus turnos hasta que este termine. Si los puntos de golpe de una estructura se reducen a 0, esta se derrumbar\u00e1 y puede da\u00f1ar a las criaturas cercanas. Las criaturas que est\u00e9n en una distancia menor o igual a la mitad de la altura de la estructura deben realizar una tirada de salvaci\u00f3n de Destreza. Si fallan, recibir\u00e1n 5d6 de da\u00f1o contundente, ser\u00e1n derribadas y estar\u00e1n enterradas entre los escombros. Es necesario superar una prueba de Fuerza (Atletismo) CD 20 para escapar. El DM puede ajustar la CD seg\u00fan la naturaleza de los escombros. Si la criatura supera la tirada de salvaci\u00f3n, solo recibe la mitad del da\u00f1o y no resulta derribada o enterrada.",
+      "Creas un fen\u00f3meno s\u00edsmico en un punto del suelo que puedas ver dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, un intenso temblor azota el \u00e1rea en un radio de 30 m alrededor del punto, haciendo temblar a las criaturas y estructuras en la zona y en contacto con el suelo.<br><br>El terreno en el \u00e1rea pasa a considerarse dif\u00edcil. Todas las criaturas sobre \u00e9l que est\u00e9n concentr\u00e1ndose deber\u00e1n hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fallan, su concentraci\u00f3n se rompe.<br><br>En el momento de lanzar el conjuro y al final de cada turno en el que sigas concentr\u00e1ndote en \u00e9l, cada criatura sobre el suelo del \u00e1rea debe realizar una tirada de salvaci\u00f3n de Destreza. Si falla, es derribada.<br><br>Este conjuro puede tener efectos adicionales dependiendo del tipo de terreno en el \u00e1rea, a determinar por el DM.<br><br><b>Grietas.</b> Al comienzo de tu siguiente turno despu\u00e9s del lanzamiento del conjuro se abren varias grietas en el \u00e1rea. Un total de 1d6 fisuras aparecen en localizaciones elegidas por el DM. Cada una de ellas es de 3 m \u00d7 3 m de profundidad, 10 de ancho y se extiende de un borde del \u00e1rea al lado opuesto. Una criatura de pie en un punto donde se abra una fisura debe tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o caer\u00e1 dentro de ella. Si tiene \u00e9xito, se desplaza a un lado de la fisura mientras esta se abre.<br><br>Una vez la fisura se abra justo debajo de una estructura provoca que esta se derrumbe autom\u00e1ticamente (ver m\u00e1s abajo).<br><br><b>Estructuras.</b> El temblor hace 50 de da\u00f1o contundente a cualquier estructura en contacto con el suelo del \u00e1rea cuando lanzas el conjuro y al principio de cada uno de tus turnos hasta que este termine. Si los puntos de golpe de una estructura se reducen a 0, esta se derrumbar\u00e1 y puede da\u00f1ar a las criaturas cercanas. Las criaturas que est\u00e9n en una distancia menor o igual a la mitad de la altura de la estructura deben realizar una tirada de salvaci\u00f3n de Destreza. Si fallan, recibir\u00e1n 5d6 de da\u00f1o contundente, ser\u00e1n derribadas y estar\u00e1n enterradas entre los escombros. Es necesario superar una prueba de Fuerza (Atletismo) CD 20 para escapar. El DM puede ajustar la CD seg\u00fan la naturaleza de los escombros. Si la criatura supera la tirada de salvaci\u00f3n, solo recibe la mitad del da\u00f1o y no resulta derribada o enterrada."
+    ],
+    "materiales": "Una pizca de tierra, un trozo de roca y un poco de arcilla."
   }
 ]
