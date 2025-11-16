@@ -291,5 +291,31 @@
     "requiere_ataque": false,
     "descripcion": "Pronuncias una palabra divina, imbuida con el poder que form\u00f3 el mundo en los albores de la creaci\u00f3n. Elige a cualquier n\u00famero de criaturas que puedas ver dentro del alcance. Cada una de estas criaturas que puedan o\u00edrte debe hacer una tirada de salvaci\u00f3n de Carisma. Si fracasa, sufre un efecto en funci\u00f3n de sus puntos de golpe actuales:<ul><li>50 puntos de golpe o menos: ensordecida durante 1 minuto.</li><li>40 puntos de golpe o menos: ensordecida y cegada durante 10 minutos.</li><li>30 puntos de golpe o menos: ensordecida, cegada y aturdida durante 1 hora.</li><li>20 puntos de golpe o menos: muerte instant\u00e1nea.</li></ul>Independientemente de sus puntos de golpe actuales, un celestial, elemental, fe\u00e9rico o infernal que falle su tirada de salvaci\u00f3n es forzado a regresar a su plano natal (si no est\u00e1 ya all\u00ed) y no puede volver al plano en que te hallas durante 24 horas a menos que use el conjuro deseo.",
     "materiales": null
+  },
+  {
+    "nombre": "Proyectar imagen",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "500 millas",
+      "800 km"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "1 d\u00eda",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": "Creas una copia ilusoria de ti mismo que permanece hasta el final de la duraci\u00f3n del conjuro. Puedes hacerla aparecer en cualquier localizaci\u00f3n dentro del alcance que hayas visto antes, independientemente de los obst\u00e1culos que pueda haber entre ella y tu posici\u00f3n actual. La ilusi\u00f3n se ve y suena como t\u00fa, pero es intangible. El conjuro acaba si esta recibe cualquier tipo de da\u00f1o.<br><br>Puedes utilizar tu acci\u00f3n para mover la ilusi\u00f3n hasta el doble de tu velocidad y hacer que hable, haga gestos o se comporte como quieras. Imitar\u00e1 tus maneras perfectamente.<br><br>Eres capaz de ver a trav\u00e9s de sus ojos y o\u00edr a trav\u00e9s de sus o\u00eddos como si estuvieras donde est\u00e1 ella. En cada uno de tus turnos, como acci\u00f3n adicional, puedes pasar de usar tus sentidos a los tuyos o viceversa. Mientras est\u00e1s usando sus sentidos, quedas ciego y ensordecido respecto a tus propios sentidos.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas la atraviesan. Si una criatura utiliza su acci\u00f3n para examinar la imagen, puede determinar que es una ilusi\u00f3n si tiene \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros. Si la criatura descubre que la imagen es una ilusi\u00f3n, podr\u00e1 ver a trav\u00e9s de ella y los sonidos que produce le sonar\u00e1n huecos.",
+    "materiales": "Una peque\u00f1a reproducci\u00f3n de ti mismo hecha de materiales que valgan, al menos, 5 po."
   }
 ]
