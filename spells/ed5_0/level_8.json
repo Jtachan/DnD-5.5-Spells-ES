@@ -278,5 +278,33 @@
     "requiere_ataque": false,
     "descripcion": "Hasta el final del conjuro, una criatura voluntaria que toques dentro del alcance es inmune al da\u00f1o ps\u00edquico, a cualquier efecto que pudiera percibir sus emociones o conocer sus pensamientos, a conjuros de adivinaci\u00f3n y al estado \"hechizado\". Frustras incluso el conjuro deseo u otros de poder similar que podr\u00edan ser usados para afectar la mente del objetivo o conseguir informaci\u00f3n sobre \u00e9l.",
     "materiales": null
+  },
+  {
+    "nombre": "Nube incendiaria",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "150 pies",
+      "45 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una nube de humo turbulento, vetado de ascuas candentes, aparece en una zona esf\u00e9rica de 20 pies de radio centrada en un punto que se encuentre dentro del alcance. La nube se extiende m\u00e1s all\u00e1 de las esquinas y la zona se considera muy oscura. Se mantiene hasta el final de la duraci\u00f3n del conjuro o hasta que un viento de velocidad moderada (al menos 10 millas por hora) la disperse.<br><br>Cuando la nube aparece, todas las criaturas en el \u00e1rea deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 10d8 de da\u00f1o de fuego si fallan la tirada o la mitad del da\u00f1o si la superan. Las criaturas tambi\u00e9n deber\u00e1n realizar esta tirada de salvaci\u00f3n cuando entren en la zona del conjuro por primera vez en un turno dado o cuando acaben su turno en ella.<br><br>Al principio de cada uno de tus turnos, la nube se mueve 10 pies alej\u00e1ndose de ti en la direcci\u00f3n que elijas.",
+      "Una nube de humo turbulento, vetado de ascuas candentes, aparece en una zona esf\u00e9rica de 6 m de radio centrada en un punto que se encuentre dentro del alcance. La nube se extiende m\u00e1s all\u00e1 de las esquinas y la zona se considera muy oscura. Se mantiene hasta el final de la duraci\u00f3n del conjuro o hasta que un viento de velocidad moderada (al menos 15 km por hora) la disperse.<br><br>Cuando la nube aparece, todas las criaturas en el \u00e1rea deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 10d8 de da\u00f1o de fuego si fallan la tirada o la mitad del da\u00f1o si la superan. Las criaturas tambi\u00e9n deber\u00e1n realizar esta tirada de salvaci\u00f3n cuando entren en la zona del conjuro por primera vez en un turno dado o cuando acaben su turno en ella.<br><br>Al principio de cada uno de tus turnos, la nube se mueve 3 m alej\u00e1ndose de ti en la direcci\u00f3n que elijas."
+    ],
+    "materiales": null
   }
 ]
