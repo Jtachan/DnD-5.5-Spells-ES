@@ -1151,5 +1151,30 @@
       "Una corriente de viento que forma una l\u00ednea recta de 18 m de largo y 3 m de ancho surge de ti en la direcci\u00f3n de tu elecci\u00f3n y permanece hasta el final de la duraci\u00f3n del conjuro. Cada criatura que comience su turno en la l\u00ednea o que entre en ella por primera vez en un turno debe realizar una tirada de salvaci\u00f3n de Fuerza o ser empujada 4,5 m alej\u00e1ndose de ti en la direcci\u00f3n de la corriente.<br><br>Cualquier criatura en la l\u00ednea de viento que quiera acercarse a ti debe emplear dos de movimiento por cada pie que quiera mover.<br><br>La r\u00e1faga dispersa gases o vapores y apaga velas, antorchas y otras llamas desprotegidas en la zona. Hace que las que est\u00e9n protegidas, como la de una l\u00e1mpara, se agiten violentamente, y tiene un 50 % de posibilidades de apagarlas tambi\u00e9n.<br><br>Hasta el final del conjuro, puedes usar una acci\u00f3n adicional en cada uno de tus turnos para cambiar la direcci\u00f3n en la que la corriente surge de ti."
     ],
     "materiales": "Una semilla de una legumbre."
+  },
+  {
+    "nombre": "Rayo abrasador",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": true,
+    "descripcion": "Creas tres rayos de fuego y los diriges contra uno o varios objetivos que se encuentren dentro del alcance. Haz un ataque de conjuro a distancia para cada rayo. Si impactas, el objetivo recibe 2d6 de da\u00f1o de fuego.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o m\u00e1s, creas un rayo adicional por cada nivel por encima de 2 del espacio.",
+    "materiales": null
   }
 ]
