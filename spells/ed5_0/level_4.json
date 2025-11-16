@@ -480,5 +480,29 @@
       "Convocas a un guardi\u00e1n espectral Grande, que aparece en un espacio libre de tu elecci\u00f3n que puedas ver dentro del alcance y levita en \u00e9l hasta el final de la duraci\u00f3n del conjuro. El guardi\u00e1n, que ocupa este espacio, se ve borroso excepto por una espada resplandeciente y un escudo adornado con el s\u00edmbolo de tu deidad.<br><br>Cualquier criatura hostil hacia ti que entre en un espacio a 3 m del guardi\u00e1n por primera vez en un turno debe realizar una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1 20 de da\u00f1o radiante si falla la tirada o la mitad del da\u00f1o si la supera. El guardi\u00e1n se desvanecer\u00e1 cuando haya infligido un total de 60 de da\u00f1o radiante."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Insecto gigante",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Transformas hasta diez ciempi\u00e9s, tres ara\u00f1as, cinco avispas o un escorpi\u00f3n dentro del alcance en versiones gigantes de esas formas naturales hasta el final de la duraci\u00f3n del conjuro. Un ciempi\u00e9s se convierte en un ciempi\u00e9s gigante, una ara\u00f1a en una ara\u00f1a gigante, una avispa en una avispa gigante y un escorpi\u00f3n en un escorpi\u00f3n gigante.<br><br>Todas las criaturas obedecen tus \u00f3rdenes verbales y en combate act\u00faan en tu turno en cada asalto. El DM tiene los perfiles de estas criaturas y resuelve sus acciones y movimientos.<br><br>Las criaturas siguen siendo sus versiones gigantes hasta el final de la duraci\u00f3n del conjuro, hasta que lleguen a 0 puntos de vida o hasta que utilices una acci\u00f3n para terminar el efecto.<br><br>El DM podr\u00e1 permitirte elegir objetivos distintos. Si, por ejemplo, transformas a una abeja, su versi\u00f3n gigante puede tener el mismo perfil que una avispa gigante.",
+    "materiales": null
   }
 ]
