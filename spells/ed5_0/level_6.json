@@ -605,5 +605,30 @@
       "T\u00fa y hasta cinco criaturas voluntarias a 1,5 m de ti os teletransport\u00e1is instant\u00e1neamente a un santuario designado previamente. Aparecer\u00e9is en el espacio libre m\u00e1s cercano al punto que elegiste al preparar tu santuario (ver m\u00e1s abajo). Si lanzas este conjuro sin haber dispuesto un santuario primero, este no tendr\u00e1 ning\u00fan efecto.<br><br>Primero debes designar un santuario lanzando este conjuro dentro de una localizaci\u00f3n, como un templo, dedicada o fuertemente vinculada a tu deidad. Si intentas lanzar el conjuro para este prop\u00f3sito en un \u00e1rea que no est\u00e9 consagrada a tu divinidad, este no tendr\u00e1 efecto."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Prohibici\u00f3n",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "10 minutos",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 d\u00eda",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas una guarda contra el desplazamiento m\u00e1gico que protege hasta 40.000 pies cuadrados de terreno y hasta una altura de 30 pies sobre el nivel del suelo. Hasta el final de la duraci\u00f3n del conjuro, ninguna criatura puede teletransportarse dentro del \u00e1rea o utilizar portales, como los creados por el conjuro portal, para entrar en el \u00e1rea. El suelo impermeabiliza el \u00e1rea contra el viaje interplanar y, por tanto, evita que las criaturas accedan al \u00e1rea mediante el Plano Astral, el Plano Et\u00e9reo, el Feywild, el Shadowfell o cualquier desplazamiento entre planos.<br><br>Adem\u00e1s, este conjuro da\u00f1a a las criaturas del tipo o tipos elegidos en el momento del lanzamiento. Escoge uno o m\u00e1s de los siguientes: celestial, elemental, fe\u00e9rico, infernal o muerto viviente. Las criaturas del tipo o tipos elegidos reciben 5d10 de da\u00f1o radiante o necr\u00f3tico (a tu elecci\u00f3n) si comienzan su turno en el \u00e1rea del conjuro o cuando entran por primera vez.<br><br>Cuando lanzas este conjuro puedes crear una palabra de paso. Cualquier criatura que diga esta palabra de paso seg\u00fan el acento de el/la lanzadora no recibe da\u00f1o del conjuro.<br><br>El \u00e1rea del conjuro no se puede superponer con el \u00e1rea de otro conjuro de prohibici\u00f3n. Si lanzas prohibici\u00f3n cada d\u00eda durante 30 d\u00edas en el mismo lugar, el conjuro permanecer\u00e1 hasta que sea disipada, pero los componentes materiales consumidos deber\u00e1n pagarse como parte del lanzamiento final.",
+      "Creas una guarda contra el desplazamiento m\u00e1gico que protege hasta 40.0 m cuadrados de terreno y hasta una altura de 9 m sobre el nivel del suelo. Hasta el final de la duraci\u00f3n del conjuro, ninguna criatura puede teletransportarse dentro del \u00e1rea o utilizar portales, como los creados por el conjuro portal, para entrar en el \u00e1rea. El suelo impermeabiliza el \u00e1rea contra el viaje interplanar y, por tanto, evita que las criaturas accedan al \u00e1rea mediante el Plano Astral, el Plano Et\u00e9reo, el Feywild, el Shadowfell o cualquier desplazamiento entre planos.<br><br>Adem\u00e1s, este conjuro da\u00f1a a las criaturas del tipo o tipos elegidos en el momento del lanzamiento. Escoge uno o m\u00e1s de los siguientes: celestial, elemental, fe\u00e9rico, infernal o muerto viviente. Las criaturas del tipo o tipos elegidos reciben 5d10 de da\u00f1o radiante o necr\u00f3tico (a tu elecci\u00f3n) si comienzan su turno en el \u00e1rea del conjuro o cuando entran por primera vez.<br><br>Cuando lanzas este conjuro puedes crear una palabra de paso. Cualquier criatura que diga esta palabra de paso seg\u00fan el acento de el/la lanzadora no recibe da\u00f1o del conjuro.<br><br>El \u00e1rea del conjuro no se puede superponer con el \u00e1rea de otro conjuro de prohibici\u00f3n. Si lanzas prohibici\u00f3n cada d\u00eda durante 30 d\u00edas en el mismo lugar, el conjuro permanecer\u00e1 hasta que sea disipada, pero los componentes materiales consumidos deber\u00e1n pagarse como parte del lanzamiento final."
+    ],
+    "materiales": "Una rociada de agua bendita, incienso de calidad excepcional y polvo de rub\u00ed con un valor de, al menos, 1000 po."
   }
 ]
