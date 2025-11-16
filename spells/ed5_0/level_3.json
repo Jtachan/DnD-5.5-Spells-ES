@@ -1188,5 +1188,32 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura que haya muerto en el \u00faltimo minuto y esta vuelve a la vida con 1 punto de golpe. Este conjuro no puede devolver a la vida a una criatura que haya muerto de edad avanzada ni puede recuperar miembros perdidos.",
     "materiales": "Diamantes con un valor de 300 po, que son consumidos como parte del conjuro."
+  },
+  {
+    "nombre": "Se\u00f1al de esperanza",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Este conjuro proporciona esperanza y vitalidad. Elige cualquier n\u00famero de criaturas dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, todos los objetivos tienen ventaja en sus tiradas de salvaci\u00f3n de Sabidur\u00eda y sus tiradas de salvaci\u00f3n contra muerte. Adem\u00e1s, al recibir cualquier tipo de curaci\u00f3n recuperan la cantidad m\u00e1xima posible de puntos de golpe.",
+    "materiales": null
   }
 ]
