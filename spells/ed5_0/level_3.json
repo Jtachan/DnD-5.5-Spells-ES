@@ -922,5 +922,35 @@
       "Un muro de fuerte viento surge desde el suelo en un punto de tu elecci\u00f3n dentro del alcance. Puedes crearlo con hasta 15 m de longitud, 15 de altura y 1 de grosor. El muro puede tener la forma que desees mientras constituya un camino continuo a lo largo del suelo. Permanecer\u00e1 hasta el final de la duraci\u00f3n del conjuro.<br><br>Cuando el muro aparece, todas las criaturas dentro de la zona limitada por el muro deben hacer una tirada de salvaci\u00f3n de Fuerza. Sufrir\u00e1n 3d8 de da\u00f1o contundente si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>El fuerte viento mantiene a raya nieblas, humos y otros gases. Las criaturas voladoras u objetos de tama\u00f1o Peque\u00f1o o menor no podr\u00e1n atravesar el muro. Los materiales libres y ligeros que sean acercados al muro volar\u00e1n hacia arriba. Las flechas, virotes y otros proyectiles normales dirigidos a trav\u00e9s del muro ser\u00e1n desviados hacia arriba y fallar\u00e1n autom\u00e1ticamente (las armas arrojadizas, como lanzas o armas de aseo, as\u00ed como virotes y proyectiles similares, no se ver\u00e1n afectadas). Las criaturas con forma gaseosa tampoco podr\u00e1n atravesar el muro."
     ],
     "materiales": "Un peque\u00f1o abanico y una pluma de origen ex\u00f3tico."
+  },
+  {
+    "nombre": "Nube apestosa",
+    "clases": [
+      "Bardo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas una nube de gas amarillo nauseabundo que cubre una zona esf\u00e9rica de 20 pies de radio alrededor de un punto de tu elecci\u00f3n. Se extiende m\u00e1s all\u00e1 de las esquinas y el \u00e1rea se considera muy oscura. Permanecer\u00e1 en el ambiente hasta el final de la duraci\u00f3n del conjuro.<br><br>Cada criatura que est\u00e9 completamente dentro de la nube al comienzo de su turno debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n con desventaja. Si fracasa, emplear\u00e1 su acci\u00f3n del turno en tambalearse y vomitar. Las criaturas que no se vean afectadas por los venenos o que sean inmunes a ese tipo de da\u00f1o autom\u00e1ticamente no est\u00e1n afectadas ni tienen tirada de salvaci\u00f3n.<br><br>Un viento moderado (no menor de 10 millas por hora) dispersa la nube tras 4 asaltos. Un viento fuerte (de al menos 20 millas por hora) dispersa la nube tras 1 asalto.",
+      "Creas una nube de gas amarillo nauseabundo que cubre una zona esf\u00e9rica de 6 m de radio alrededor de un punto de tu elecci\u00f3n. Se extiende m\u00e1s all\u00e1 de las esquinas y el \u00e1rea se considera muy oscura. Permanecer\u00e1 en el ambiente hasta el final de la duraci\u00f3n del conjuro.<br><br>Cada criatura que est\u00e9 completamente dentro de la nube al comienzo de su turno debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n con desventaja. Si fracasa, emplear\u00e1 su acci\u00f3n del turno en tambalearse y vomitar. Las criaturas que no se vean afectadas por los venenos o que sean inmunes a ese tipo de da\u00f1o autom\u00e1ticamente no est\u00e1n afectadas ni tienen tirada de salvaci\u00f3n.<br><br>Un viento moderado (no menor de 15 km por hora) dispersa la nube tras 4 asaltos. Un viento fuerte (de al menos 30 km por hora) dispersa la nube tras 1 asalto."
+    ],
+    "materiales": "Un huevo podrido o varias hojas de cola de mofeta oriental."
   }
 ]
