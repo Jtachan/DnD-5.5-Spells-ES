@@ -6,11 +6,13 @@ All unified spells have a new keyword 'nivel' showing the level of itself.
 import json
 import os
 
+from _utils import *
+
 
 def unify_spells():
     """Preparing the file 'spells.json' to be loaded by the HTML table."""
 
-    for edition in ("ed5_5", "ed5_0"):
+    for edition in FOLDER_EDITIONS:
         all_spells = []
         for idx in range(10):
             file_name = os.path.join(edition, f"level_{idx}.json")

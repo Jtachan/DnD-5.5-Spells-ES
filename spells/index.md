@@ -3,6 +3,8 @@
 Cada conjuro está organizado en su correspondiente archivo `level_N.json`, donde 'N' es el nivel del conjuro.
 En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha sido registrados seguidos de su nivel.
 
+> Los hechizos que tienen un asterisco (*) no se encuentran en la versión de 2024/2025.
+
 | **Conjuro**                             | **Nivel** | **SRD v5.2**                  |
 |-----------------------------------------|-----------|-------------------------------|
 | Abrir                                   | 2         | Knock                         |
@@ -62,6 +64,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Castigo desterrador                     | 5         | ❌                             |
 | Castigo divino                          | 1         | Divine Smite                  |
 | Castigo furioso                         | 1         | ❌                             |
+| Castigo marcador*                       | 2         | ❌                             |
 | Cautiverio                              | 9         | Imprisonment                  |
 | Cerradura arcana                        | 2         | Arcane Lock                   |
 | Círculo de muerte                       | 6         | Circle of Death               |
@@ -92,7 +95,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Contingencia                            | 6         | Contingency                   |
 | Contorno borroso                        | 2         | Blur                          |
 | Contrahechizo                           | 3         | Counterspell                  |
-| Controlar el agua                       | 4         | Control Water                 |
+| Controlar agua                          | 4         | Control Water                 |
 | Controlar el clima                      | 8         | Control Weather               |
 | Corcel fantasmal                        | 3         | Phantom Steed                 |
 | Cordón de flechas                       | 2         | ❌                             |
@@ -299,7 +302,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Polimorfar verdadero                    | 9         | True Polymorph                |
 | Portal                                  | 9         | Gate                          |
 | Potenciar característica                | 2         | Enhance Ability               |
-| Presciencia                             | 9         | Foresight                     |
+| Presciencia (Presagio)                  | 9         | Foresight                     |
 | Presencia regia de Yolande              | 5         | ❌                             |
 | Prestidigitación                        | 0 (Truco) | Prestidigitation              |
 | Prohibición                             | 6         | Forbiddance                   |
@@ -341,6 +344,7 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Rociada de color                        | 1         | Color spray                   |
 | Rociada prismática                      | 7         | Prismatic Spray               |
 | Rociada venenosa                        | 0 (Truco) | Poison Spray                  |
+| Romper la mente*                        | 8         | ❌                             |
 | Saber druídico                          | 0 (Truco) | Druidcraft                    |
 | Saeta guía                              | 1         | Guiding Bolt                  |
 | Salpicadura ácida                       | 0 (Truco) | Acid splash                   |
@@ -348,8 +352,8 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Sanctasanctórum privado de Mordenkainen | 4         | Private Sanctum               |
 | Santuario                               | 1         | Sanctuary                     |
 | Semiplano                               | 8         | Demiplane                     |
-| Señal de esperanza                      | 3         | Beacon of hope                |
 | Sentidos de la bestia                   | 2         | ❌                             |
+| Señal de esperanza                      | 3         | Beacon of hope                |
 | Shillelagh                              | 0 (Truco) | Shillelagh                    |
 | Silencio                                | 2         | Silence                       |
 | Símbolo                                 | 7         | Symbol                        |

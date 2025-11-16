@@ -1,1 +1,410 @@
-[]
+[
+  {
+    "nombre": "Cambiar de forma",
+    "clases": [
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Asumes la forma de una criatura diferente hasta el final del conjuro. La nueva forma puede ser la de cualquier criatura con un valor de desaf\u00edo igual o menor a tu nivel. La criatura no puede ser un aut\u00f3mata o muerto viviente, y debes haber visto a ese tipo de criatura al menos una vez. Te transformas en un ejemplar normal de esa criatura, sin niveles en ninguna clase y sin el atributo Lanzamiento de Conjuros.<br><br>Tu perfil queda reemplazado por el de la criatura, excepto tu alineamiento y tus puntuaciones de Inteligencia, Sabidur\u00eda y Carisma. Tambi\u00e9n retienes todas tus competencias en habilidades y tiradas de salvaci\u00f3n, adem\u00e1s de ganar las que tenga la criatura. Si las dos tienen las mismas competencias que t\u00fa y el bonificador de ataque o de prueba de caracter\u00edstica del objetivo, se utiliza el de la criatura. No puedes usar ninguna acci\u00f3n legendaria o acci\u00f3n en guardia de la criatura.<br><br>Pasar\u00e1s a tener los puntos y dados de golpe de la criatura nueva. Cuando reviertas a tu forma normal vuelves a tener los puntos de golpe que tuvieras antes de la transformaci\u00f3n. No obstante, si recibes da\u00f1o mientras est\u00e1s en la forma nueva y ese da\u00f1o reduce la forma a 0 puntos de golpe, el exceso de da\u00f1o se aplicar\u00e1 a la forma normal. Si esto reduce tu forma normal a 0 puntos de vida, no caer\u00e1s inconsciente.<br><br>Mantendr\u00e1s los beneficios de cualquier rasgo de tu clase, raza u otra fuente y podr\u00e1s usarlos, siempre que tu nueva forma sea f\u00edsicamente capaz de hacerlo. No podr\u00e1s utilizar ning\u00fan sentido especial que tengas (como visi\u00f3n en la oscuridad) a menos que tu nueva forma tambi\u00e9n lo posea. Solo podr\u00e1s hablar si la criatura puede hacerlo normalmente.<br><br>Cuando te transformas, eliges si tu equipo cae al suelo, se funde con la nueva forma o lo sigues llevando puesto. Si decides llevarlo se comportar\u00e1 de forma normal. El DM determinar\u00e1 si es factible que la nueva forma lleve cada uno de los objetos de tu equipo, bas\u00e1ndose en la forma y tama\u00f1o de la criatura. Tu equipo no cambia de forma o tama\u00f1o para adaptarse a esta nueva forma y cualquier equipo que no pueda llevar deber\u00e1 caer al suelo o fundirse con la forma nueva. Si eliges que se funda, no tendr\u00e1 ning\u00fan efecto mientras permanezca en ese estado.<br><br>Durante el curso de este conjuro, puedes usar tu acci\u00f3n para asumir una nueva forma, siguiendo las mismas restricciones y reglas que para la forma original, con una excepci\u00f3n: si tu nueva forma tiene m\u00e1s puntos de golpe que la presente no recibir\u00e1s m\u00e1s, su valor actual no aumentar\u00e1.",
+    "materiales": "Una diadema de jade con un valor de, al menos, 1.500 po, que debes poner en tu cabeza antes de lanzar el conjuro."
+  },
+  {
+    "nombre": "Cautiverio",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas un cautiverio m\u00e1gico para apresar a una criatura que puedas ver dentro del alcance. El objetivo debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 atado por el conjuro; si la supera, es inmune al mismo si vuelves a lanzarlo. Mientras la criatura est\u00e1 afectada por este conjuro, no envejece y adem\u00e1s no necesita comer, beber ni respirar. Los conjuros de adivinaci\u00f3n no podr\u00e1n localizarla o percibirla.<br><br>Cuando lanzas este conjuro, elige una de las siguientes formas de reclusi\u00f3n:<br><br><b>Enterrro.</b> El objetivo queda sepultado en lugar muy profundo bajo el suelo, dentro de una esfera de fuerza m\u00e1gica del tama\u00f1o justo para contenerlo. Nada puede atravesar la esfera, ni ninguna criatura podr\u00e1 entrar o salir de ella utilizando teletransportaci\u00f3n o viaje interplanar.<br><br>El componente especial para esta versi\u00f3n del conjuro es un peque\u00f1o orbe de mithral.<br><br><b>Encadenamiento.</b> Pesadas cadenas, firmemente ancladas al suelo, atan al objetivo, que est\u00e1 apresado hasta el final del conjuro, y no puede moverse o ser desplazado de ninguna manera hasta entonces.<br><br>El componente especial para esta versi\u00f3n del conjuro es una cadena hecha en un metal precioso.<br><br><b>Presidio cercado.</b> El conjuro transporta al objetivo a un peque\u00f1o semiplano, protegido contra la teletransportaci\u00f3n y el viaje interplanar. El semiplano puede ser un laberinto, un yermo, o cualquier estructura o zona confinada de tu elecci\u00f3n.<br><br>El componente especial de esta versi\u00f3n del conjuro es una representaci\u00f3n en miniatura de la prisi\u00f3n, hecha en jade.<br><br><b>Contenci\u00f3n m\u00ednima.</b> El objetivo queda reducido a una altura de 1 pulgada y aprisionado dentro de una gema u objeto similar. La luz puede pasar a trav\u00e9s de la gema con normalidad (permitiendo al objetivo ver el exterior y a otras criaturas ver dentro), pero nada m\u00e1s puede entrar o salir, ni siquiera mediante teletransportaci\u00f3n o viaje interplanar. La gema no puede ser cortada o rota mientras el conjuro siga en efecto.<br><br>El componente especial de esta versi\u00f3n del conjuro es una gema grande y transparente, como un corind\u00f3n, un diamante o un rub\u00ed.<br><br><b>Sue\u00f1o.</b> El objetivo cae dormido y no puede ser despertado. El componente especial para esta versi\u00f3n del conjuro es un conjunto de hierbas sopor\u00edferas poco frecuentes.<br><br><b>Terminar el conjuro.</b> Durante el lanzamiento de cualquiera de las versiones del conjuro, puedes especificar una condici\u00f3n que finalizar\u00e1 el conjuro y liberar\u00e1 al objetivo. La condici\u00f3n puede ser tan espec\u00edfica o complicada como quieras, aunque el DM debe estar de acuerdo con que sea razonable y pueda llegar a ocurrir. Puede depender del nombre de la criatura, su identidad o edad, pero por lo dem\u00e1s debe estar basada en acciones o cualidades visibles y no en momentos intangibles como su clase, nivel o puntos de golpe.<br><br>El conjuro disparar magia solo puede finalizar este conjuro si se lanza con uno de nivel 9, eligiendo como objetivo a la prisi\u00f3n o al componente especial utilizado en su creaci\u00f3n.<br><br>S\u00f3lo puedes tener un componente especial concreto para cada una de las versiones del conjuro disponibles al mismo tiempo. Si vuelves a lanzar el conjuro usando el mismo componente, el objetivo del primer lanzamiento queda en libertad inmediatamente.",
+      "Creas un cautiverio m\u00e1gico para apresar a una criatura que puedas ver dentro del alcance. El objetivo debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 atado por el conjuro; si la supera, es inmune al mismo si vuelves a lanzarlo. Mientras la criatura est\u00e1 afectada por este conjuro, no envejece y adem\u00e1s no necesita comer, beber ni respirar. Los conjuros de adivinaci\u00f3n no podr\u00e1n localizarla o percibirla.<br><br>Cuando lanzas este conjuro, elige una de las siguientes formas de reclusi\u00f3n:<br><br><b>Enterrro.</b> El objetivo queda sepultado en lugar muy profundo bajo el suelo, dentro de una esfera de fuerza m\u00e1gica del tama\u00f1o justo para contenerlo. Nada puede atravesar la esfera, ni ninguna criatura podr\u00e1 entrar o salir de ella utilizando teletransportaci\u00f3n o viaje interplanar.<br><br>El componente especial para esta versi\u00f3n del conjuro es un peque\u00f1o orbe de mithral.<br><br><b>Encadenamiento.</b> Pesadas cadenas, firmemente ancladas al suelo, atan al objetivo, que est\u00e1 apresado hasta el final del conjuro, y no puede moverse o ser desplazado de ninguna manera hasta entonces.<br><br>El componente especial para esta versi\u00f3n del conjuro es una cadena hecha en un metal precioso.<br><br><b>Presidio cercado.</b> El conjuro transporta al objetivo a un peque\u00f1o semiplano, protegido contra la teletransportaci\u00f3n y el viaje interplanar. El semiplano puede ser un laberinto, un yermo, o cualquier estructura o zona confinada de tu elecci\u00f3n.<br><br>El componente especial de esta versi\u00f3n del conjuro es una representaci\u00f3n en miniatura de la prisi\u00f3n, hecha en jade.<br><br><b>Contenci\u00f3n m\u00ednima.</b> El objetivo queda reducido a una altura de 2,5 cm y aprisionado dentro de una gema u objeto similar. La luz puede pasar a trav\u00e9s de la gema con normalidad (permitiendo al objetivo ver el exterior y a otras criaturas ver dentro), pero nada m\u00e1s puede entrar o salir, ni siquiera mediante teletransportaci\u00f3n o viaje interplanar. La gema no puede ser cortada o rota mientras el conjuro siga en efecto.<br><br>El componente especial de esta versi\u00f3n del conjuro es una gema grande y transparente, como un corind\u00f3n, un diamante o un rub\u00ed.<br><br><b>Sue\u00f1o.</b> El objetivo cae dormido y no puede ser despertado. El componente especial para esta versi\u00f3n del conjuro es un conjunto de hierbas sopor\u00edferas poco frecuentes.<br><br><b>Terminar el conjuro.</b> Durante el lanzamiento de cualquiera de las versiones del conjuro, puedes especificar una condici\u00f3n que finalizar\u00e1 el conjuro y liberar\u00e1 al objetivo. La condici\u00f3n puede ser tan espec\u00edfica o complicada como quieras, aunque el DM debe estar de acuerdo con que sea razonable y pueda llegar a ocurrir. Puede depender del nombre de la criatura, su identidad o edad, pero por lo dem\u00e1s debe estar basada en acciones o cualidades visibles y no en momentos intangibles como su clase, nivel o puntos de golpe.<br><br>El conjuro disparar magia solo puede finalizar este conjuro si se lanza con uno de nivel 9, eligiendo como objetivo a la prisi\u00f3n o al componente especial utilizado en su creaci\u00f3n.<br><br>S\u00f3lo puedes tener un componente especial concreto para cada una de las versiones del conjuro disponibles al mismo tiempo. Si vuelves a lanzar el conjuro usando el mismo componente, el objetivo del primer lanzamiento queda en libertad inmediatamente."
+    ],
+    "materiales": "Una representaci\u00f3n del objetivo, en forma de estatuilla tallada o dibujo en vitela, y un componente especial en funci\u00f3n de la versi\u00f3n escogida del conjuro, cuyo valor sea, al menos, 500 po por cada dado de golpe de dicho objetivo."
+  },
+  {
+    "nombre": "Curar en masa",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una riada de energ\u00eda curativa fluye a trav\u00e9s de ti hacia las criaturas heridas a tu alrededor. Elige a cualquier n\u00famero de criaturas voluntarias que puedas ver dentro del alcance. Recuperan 700 puntos de golpe en total, divididos como quieras. Cualquier criatura afectada por este conjuro tambi\u00e9n es curada de todas las enfermedades y de cualquier efecto que la mantuviera cegada o ensordecida. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.",
+    "materiales": null
+  },
+  {
+    "nombre": "Deseo",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Deseo es el conjuro m\u00e1s poderoso que puede lanzar un mortal. Te permite alterar los cimientos de la realidad de acuerdo a tus deseos.<br><br>El uso b\u00e1sico de este conjuro es duplicar cualquier otro conjuro de nivel 8 o menos. No necesitas cumplir ninguno de los requisitos de ese conjuro, ni siquiera relativos a costosos componentes materiales. El conjuro simplemente surte efecto.<br><br>De forma alternativa, puedes crear uno de los efectos siguientes a tu elecci\u00f3n:<ul><li>Creas un objeto no m\u00e1gico con un valor de hasta 25.000 po. El objeto no puede tener m\u00e1s de 300 pies en ninguna de sus dimensiones y aparecer\u00e1 en un espacio libre que puedas ver en el suelo.</li><li>Haces que hasta veinte criaturas que puedas ver recuperen todos sus puntos de golpe y, adem\u00e1s, terminas con todos los efectos que sufran tal y como lo har\u00eda el conjuro <i>restablecimiento mayor</i>.</li><li>Otorgas hasta a diez criaturas que puedas ver resistencia a un tipo de da\u00f1o de tu elecci\u00f3n.</li><li>Otorgas hasta a diez criaturas que puedes ver inmunidad a un conjuro o efecto m\u00e1gico concreto durante 8 horas. Por ejemplo, podr\u00edas hacer que t\u00fa y todos tus compa\u00f1eros se\u00e1is inmunes al ataque \u201cdrenar vida\u201d de un liche.</li><li>Deshaces un hecho reciente, forzando la repetici\u00f3n de una tirada realizada durante el \u00faltimo asalto (incluyendo tu \u00faltimo turno). La realidad quedar\u00e1 alterada para que el conjuro act\u00fae de nuevo en tu siguiente turno, como si hubieras predicho una tirada de salvaci\u00f3n o de ataque de antemano e incluso en el caso de que el objetivo fuera un compa\u00f1ero. Puedes elegir repetir la tirada con un valor nuevo o reproducir el resultado original o el resultado obtenido al repetir la tirada.</li></ul>Pero esto no es todo, pues es posible conseguir efectos fuera del alcance de los ejemplos anteriores. Exp\u00f3n tu deseo al DM de la manera m\u00e1s precisa posible, ya que tendr\u00e1 mucha libertad a la hora de decidir qu\u00e9 ocurre en estos casos. Cuanto m\u00e1s ambicioso sea el deseo, m\u00e1s probable ser\u00e1 que algo salga mal. El conjuro podr\u00eda limitarse a fallar, conseguir el efecto deseado solo a medias o incluso producir alguna consecuencia inesperada como resultado de tu descripci\u00f3n. Por ejemplo, desear que un villano muera podr\u00eda catapultarte en el tiempo a una \u00e9poca en la que el villano ya no est\u00e9 vivo, sac\u00e1ndote del juego. De forma similar, desear un objeto m\u00e1gico legendario o un artefacto podr\u00eda transportarte instant\u00e1neamente ante el actual poseedor del objeto.<br><br>El esfuerzo de lanzar este conjuro para producir cualquier efecto que no sea duplicar otro conjuro te debilita. Por ello, cada vez que lances otro conjuro despu\u00e9s de utilizar <i>deseo</i> de esta forma y antes de completar un descanso largo, recibir\u00e1s 1d10 de da\u00f1o necr\u00f3tico por cada nivel del conjuro lanzado. Este da\u00f1o no puede ser reducido ni prevenido de ninguna manera. Adem\u00e1s, tu Fuerza se reducir\u00e1 a 3, si no es ya 3 o menos, durante 2d4 d\u00edas. Por cada uno de esos d\u00edas que pases descansando y no haciendo nada m\u00e1s que actividades ligeras, tu tiempo de recuperaci\u00f3n disminuir\u00e1 en 2 d\u00edas. Por \u00faltimo, si lanzas <i>deseo</i> de esta forma hay un 33 % de posibilidades de que no puedas volver a lanzar este conjuro nunca jam\u00e1s.",
+      "Deseo es el conjuro m\u00e1s poderoso que puede lanzar un mortal. Te permite alterar los cimientos de la realidad de acuerdo a tus deseos.<br><br>El uso b\u00e1sico de este conjuro es duplicar cualquier otro conjuro de nivel 8 o menos. No necesitas cumplir ninguno de los requisitos de ese conjuro, ni siquiera relativos a costosos componentes materiales. El conjuro simplemente surte efecto.<br><br>De forma alternativa, puedes crear uno de los efectos siguientes a tu elecci\u00f3n:<ul><li>Creas un objeto no m\u00e1gico con un valor de hasta 25.000 po. El objeto no puede tener m\u00e1s de 90 m en ninguna de sus dimensiones y aparecer\u00e1 en un espacio libre que puedas ver en el suelo.</li><li>Haces que hasta veinte criaturas que puedas ver recuperen todos sus puntos de golpe y, adem\u00e1s, terminas con todos los efectos que sufran tal y como lo har\u00eda el conjuro <i>restablecimiento mayor</i>.</li><li>Otorgas hasta a diez criaturas que puedas ver resistencia a un tipo de da\u00f1o de tu elecci\u00f3n.</li><li>Otorgas hasta a diez criaturas que puedes ver inmunidad a un conjuro o efecto m\u00e1gico concreto durante 8 horas. Por ejemplo, podr\u00edas hacer que t\u00fa y todos tus compa\u00f1eros se\u00e1is inmunes al ataque \u201cdrenar vida\u201d de un liche.</li><li>Deshaces un hecho reciente, forzando la repetici\u00f3n de una tirada realizada durante el \u00faltimo asalto (incluyendo tu \u00faltimo turno). La realidad quedar\u00e1 alterada para que el conjuro act\u00fae de nuevo en tu siguiente turno, como si hubieras predicho una tirada de salvaci\u00f3n o de ataque de antemano e incluso en el caso de que el objetivo fuera un compa\u00f1ero. Puedes elegir repetir la tirada con un valor nuevo o reproducir el resultado original o el resultado obtenido al repetir la tirada.</li></ul>Pero esto no es todo, pues es posible conseguir efectos fuera del alcance de los ejemplos anteriores. Exp\u00f3n tu deseo al DM de la manera m\u00e1s precisa posible, ya que tendr\u00e1 mucha libertad a la hora de decidir qu\u00e9 ocurre en estos casos. Cuanto m\u00e1s ambicioso sea el deseo, m\u00e1s probable ser\u00e1 que algo salga mal. El conjuro podr\u00eda limitarse a fallar, conseguir el efecto deseado solo a medias o incluso producir alguna consecuencia inesperada como resultado de tu descripci\u00f3n. Por ejemplo, desear que un villano muera podr\u00eda catapultarte en el tiempo a una \u00e9poca en la que el villano ya no est\u00e9 vivo, sac\u00e1ndote del juego. De forma similar, desear un objeto m\u00e1gico legendario o un artefacto podr\u00eda transportarte instant\u00e1neamente ante el actual poseedor del objeto.<br><br>El esfuerzo de lanzar este conjuro para producir cualquier efecto que no sea duplicar otro conjuro te debilita. Por ello, cada vez que lances otro conjuro despu\u00e9s de utilizar <i>deseo</i> de esta forma y antes de completar un descanso largo, recibir\u00e1s 1d10 de da\u00f1o necr\u00f3tico por cada nivel del conjuro lanzado. Este da\u00f1o no puede ser reducido ni prevenido de ninguna manera. Adem\u00e1s, tu Fuerza se reducir\u00e1 a 3, si no es ya 3 o menos, durante 2d4 d\u00edas. Por cada uno de esos d\u00edas que pases descansando y no haciendo nada m\u00e1s que actividades ligeras, tu tiempo de recuperaci\u00f3n disminuir\u00e1 en 2 d\u00edas. Por \u00faltimo, si lanzas <i>deseo</i> de esta forma hay un 33 % de posibilidades de que no puedas volver a lanzar este conjuro nunca jam\u00e1s."
+    ],
+    "materiales": null
+  },
+  {
+    "nombre": "Muro prism\u00e1tico",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Un plano titilante y multicolor forma un muro opaco (de hasta 90 pies de largo, 30 de alto y 1 pulgada de ancho) centrado en un punto que puedas ver dentro del alcance. Alternativamente, puedes dar al plano la forma de una esfera de hasta 30 pies de di\u00e1metro, centrada en un punto de tu elecci\u00f3n dentro del alcance. El muro permanece en este lugar hasta el final de la duraci\u00f3n del conjuro. Si lo colocas de tal manera que atraviese el espacio ocupado por una criatura, el conjuro falla y pierdes tanto la acci\u00f3n como el espacio de conjuro.<br><br>El muro emite luz brillante hasta a 100 pies y proporciona luz tenue a otros 100 pies de distancia. T\u00fa y las criaturas que elijas en el momento de lanzar el conjuro podr\u00e9is pasar y permanecer cerca del muro sin ser da\u00f1ados. Si cualquier otra criatura que pueda ver el muro se acerca a menos de 20 pies o comienza su turno a esa distancia, debe tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o quedar\u00e1 cegada durante 1 minuto.<br><br>El muro est\u00e1 formado por siete capas, cada una de un color distinto. Cuando una criatura intente meter la mano o atravesar el muro, lo har\u00e1 capa a capa, enfrent\u00e1ndose a cada una sucesivamente. Para cada una, deber\u00e1 realizar una tirada de salvaci\u00f3n de Destreza o quedar\u00e1 afectada por las propiedades de esa capa, tal y como se describe m\u00e1s abajo.<br><br>El muro puede ser destruido, capa por capa, en orden de rojo a violeta, de una manera espec\u00edfica para cada una. Cuando una capa ha sido eliminada, seguir\u00e1 estando situada hasta el final de la duraci\u00f3n del conjuro. Campo antimagia no tiene efecto en el muro y disipar magia solo puede afectar a la capa violeta.<ol><li><b>Rojo.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de fuego si falla la tirada o la mitad del da\u00f1o si la supera. Mientras esta capa siga en pie, los ataques a distancia no m\u00e1gicos no pueden atravesar el muro. La capa puede ser destruida si se le infligen 25 de da\u00f1o de fr\u00edo o m\u00e1s.</li><li><b>Naranja.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de \u00e1cido si falla la tirada o la mitad del da\u00f1o si la supera. Mientras esta capa siga en pie, los ataques a distancia m\u00e1gicos no pueden atravesar el muro. La capa puede ser destruida por un viento fuerte.</li><li><b>Amarillo.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de rel\u00e1mpago si falla la tirada o la mitad del da\u00f1o si la supera. La capa puede ser destruida si se le infligen 60 de da\u00f1o de fuerza o m\u00e1s.</li><li><b>Verde.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de veneno si falla la tirada o la mitad del da\u00f1o si la supera. La capa podr\u00e1 ser destruida mediante el conjuro pasamuros u otro conjuro de nivel igual o superior que pueda abrir un portal en una superficie s\u00f3lida.</li><li><b>Azul.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de fr\u00edo si falla la tirada o la mitad del da\u00f1o si la supera. La capa puede ser destruida si se le infligen 25 de da\u00f1o de fuego o m\u00e1s.</li><li><b>A\u00f1il.</b> Si falla la tirada, la criatura queda apresada. Al final de cada uno de sus turnos, debe realizar otra tirada de salvaci\u00f3n de Constituci\u00f3n. El efecto termina si la criatura tiene \u00e9xito tres veces en esta tirada. Si fracasa tres veces, queda convertida en piedra y por tanto queda en el estado \u201cpetrificado\u201d. Los \u00e9xitos y fallos no tienen por qu\u00e9 ser consecutivos. Lleva la cuenta de ambos hasta que tengas tres del mismo tipo.<br><br>Mientras la capa a\u00f1il siga en pie, no se podr\u00e1n lanzar conjuros a trav\u00e9s del muro. Para destruir esta capa es necesario iluminarla con luz brillante, como la del conjuro luz del d\u00eda u otro similar de nivel igual o superior.</li><li><b>Violeta.</b> Si falla la tirada, la criatura queda cegada. Al principio de su pr\u00f3ximo turno, debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito en la tirada, la ceguera termina. Si falla esta segunda tirada, es transportada a otro plano de existencia a elecci\u00f3n del DM, pero normalmente al Plano Astral o al Plano Et\u00e9reo. Si la criatura no tiene \u00e9xito en las dos tiradas, no podr\u00e1 salir de este plano por medios normales. Solo un conjuro deseo puede traer a la criatura de vuelta al plano material. Esta capa puede ser destruida mediante un conjuro de desintegrar de nivel 9 o superior o con un conjuro de nivel igual o superior que termine conjuros y efectos m\u00e1gicos.</li></ol>",
+      "Un plano titilante y multicolor forma un muro opaco (de hasta 27 m de largo, 30 de alto y 2,5 cm de ancho) centrado en un punto que puedas ver dentro del alcance. Alternativamente, puedes dar al plano la forma de una esfera de hasta 9 m de di\u00e1metro, centrada en un punto de tu elecci\u00f3n dentro del alcance. El muro permanece en este lugar hasta el final de la duraci\u00f3n del conjuro. Si lo colocas de tal manera que atraviese el espacio ocupado por una criatura, el conjuro falla y pierdes tanto la acci\u00f3n como el espacio de conjuro.<br><br>El muro emite luz brillante hasta a 30 m y proporciona luz tenue a otros 30 m de distancia. T\u00fa y las criaturas que elijas en el momento de lanzar el conjuro podr\u00e9is pasar y permanecer cerca del muro sin ser da\u00f1ados. Si cualquier otra criatura que pueda ver el muro se acerca a menos de 6 m o comienza su turno a esa distancia, debe tener \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n o quedar\u00e1 cegada durante 1 minuto.<br><br>El muro est\u00e1 formado por siete capas, cada una de un color distinto. Cuando una criatura intente meter la mano o atravesar el muro, lo har\u00e1 capa a capa, enfrent\u00e1ndose a cada una sucesivamente. Para cada una, deber\u00e1 realizar una tirada de salvaci\u00f3n de Destreza o quedar\u00e1 afectada por las propiedades de esa capa, tal y como se describe m\u00e1s abajo.<br><br>El muro puede ser destruido, capa por capa, en orden de rojo a violeta, de una manera espec\u00edfica para cada una. Cuando una capa ha sido eliminada, seguir\u00e1 estando situada hasta el final de la duraci\u00f3n del conjuro. Campo antimagia no tiene efecto en el muro y disipar magia solo puede afectar a la capa violeta.<ol><li><b>Rojo.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de fuego si falla la tirada o la mitad del da\u00f1o si la supera. Mientras esta capa siga en pie, los ataques a distancia no m\u00e1gicos no pueden atravesar el muro. La capa puede ser destruida si se le infligen 25 de da\u00f1o de fr\u00edo o m\u00e1s.</li><li><b>Naranja.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de \u00e1cido si falla la tirada o la mitad del da\u00f1o si la supera. Mientras esta capa siga en pie, los ataques a distancia m\u00e1gicos no pueden atravesar el muro. La capa puede ser destruida por un viento fuerte.</li><li><b>Amarillo.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de rel\u00e1mpago si falla la tirada o la mitad del da\u00f1o si la supera. La capa puede ser destruida si se le infligen 60 de da\u00f1o de fuerza o m\u00e1s.</li><li><b>Verde.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de veneno si falla la tirada o la mitad del da\u00f1o si la supera. La capa podr\u00e1 ser destruida mediante el conjuro pasamuros u otro conjuro de nivel igual o superior que pueda abrir un portal en una superficie s\u00f3lida.</li><li><b>Azul.</b> La criatura sufrir\u00e1 10d6 de da\u00f1o de fr\u00edo si falla la tirada o la mitad del da\u00f1o si la supera. La capa puede ser destruida si se le infligen 25 de da\u00f1o de fuego o m\u00e1s.</li><li><b>A\u00f1il.</b> Si falla la tirada, la criatura queda apresada. Al final de cada uno de sus turnos, debe realizar otra tirada de salvaci\u00f3n de Constituci\u00f3n. El efecto termina si la criatura tiene \u00e9xito tres veces en esta tirada. Si fracasa tres veces, queda convertida en piedra y por tanto queda en el estado \u201cpetrificado\u201d. Los \u00e9xitos y fallos no tienen por qu\u00e9 ser consecutivos. Lleva la cuenta de ambos hasta que tengas tres del mismo tipo.<br><br>Mientras la capa a\u00f1il siga en pie, no se podr\u00e1n lanzar conjuros a trav\u00e9s del muro. Para destruir esta capa es necesario iluminarla con luz brillante, como la del conjuro luz del d\u00eda u otro similar de nivel igual o superior.</li><li><b>Violeta.</b> Si falla la tirada, la criatura queda cegada. Al principio de su pr\u00f3ximo turno, debe realizar una tirada de salvaci\u00f3n de Sabidur\u00eda. Si tiene \u00e9xito en la tirada, la ceguera termina. Si falla esta segunda tirada, es transportada a otro plano de existencia a elecci\u00f3n del DM, pero normalmente al Plano Astral o al Plano Et\u00e9reo. Si la criatura no tiene \u00e9xito en las dos tiradas, no podr\u00e1 salir de este plano por medios normales. Solo un conjuro deseo puede traer a la criatura de vuelta al plano material. Esta capa puede ser destruida mediante un conjuro de desintegrar de nivel 9 o superior o con un conjuro de nivel igual o superior que termine conjuros y efectos m\u00e1gicos.</li></ol>"
+    ],
+    "materiales": null
+  },
+  {
+    "nombre": "Palabra de poder: matar",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Pronuncias una palabra de poder capaz de matar instant\u00e1neamente a una criatura que puedas ver dentro del alcance. Si la criatura elegida posee 100 puntos de golpe o menos, muere. Si no es as\u00ed, el conjuro no tiene efecto.",
+    "materiales": null
+  },
+  {
+    "nombre": "Palabra de poder: sanar",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una ola de curaci\u00f3n inunda a la criatura que tocas. Recupera todos sus puntos de golpe. Si est\u00e1 hechizada, asustada, paralizada o aturdida, ese estado termina. Si est\u00e1 derribada, puede usar su reacci\u00f3n para levantarse. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.",
+    "materiales": null
+  },
+  {
+    "nombre": "Parar el tiempo",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Detienes brevemente el paso del tiempo para todo el mundo menos para ti. No pasa el tiempo para ninguna de las otras criaturas pero t\u00fa puedes llevar a cabo 1d4 + 1 turnos seguidos, en los cuales puedes usar acciones y moverte de forma normal.<br><br>El conjuro termina si una de las acciones que utilizas en este periodo o alguno de los efectos que creas durante este tiempo afectan a una criatura que no seas t\u00fa o a un objeto vestido o portado por alguien. Adem\u00e1s, el conjuro termina si te alejas m\u00e1s de 1000 pies del lugar donde lo lanzaste.",
+      "Detienes brevemente el paso del tiempo para todo el mundo menos para ti. No pasa el tiempo para ninguna de las otras criaturas pero t\u00fa puedes llevar a cabo 1d4 + 1 turnos seguidos, en los cuales puedes usar acciones y moverte de forma normal.<br><br>El conjuro termina si una de las acciones que utilizas en este periodo o alguno de los efectos que creas durante este tiempo afectan a una criatura que no seas t\u00fa o a un objeto vestido o portado por alguien. Adem\u00e1s, el conjuro termina si te alejas m\u00e1s de 300 m del lugar donde lo lanzaste."
+    ],
+    "materiales": null
+  },
+  {
+    "nombre": "Polimorfar verdadero",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": "CAR",
+    "requiere_ataque": false,
+    "descripcion": "Elige a una criatura u objeto no m\u00e1gico que puedas ver dentro del alcance. Puedes transformar a la criatura en una criatura diferente o en un objeto, o al objeto en una criatura (nadie puede estar vistiendo o portando este objeto). La transformaci\u00f3n se mantiene hasta el final de la duraci\u00f3n del conjuro o hasta que el objetivo muera o sea reducido a 0 puntos de golpe. Si te concentras en el conjuro durante su duraci\u00f3n completa, la transformaci\u00f3n permanece hasta que sea disipada.<br><br>El conjuro no tendr\u00e1 efecto en un cambiaformas o en una criatura con 0 puntos de golpe. Un objetivo no voluntario puede realizar una tirada de salvaci\u00f3n de Carisma, y si tiene \u00e9xito no se ver\u00e1 afectado por el conjuro.<br><br><b>Criatura en criatura.</b> Si conviertes una criatura en otro tipo de criatura, la nueva forma puede ser la de cualquier criatura cuyo valor de desaf\u00edo sea igual o menor que el del objetivo (o igual o menor que el nivel del objetivo, si este no tiene un valor de desaf\u00edo). Reemplaza el perfil del objetivo con el perfil de la forma elegida, incluyendo las puntuaciones de caracter\u00edstica mentales. Mantendr\u00e1 su alineamiento y personalidad. El objetivo pasar\u00e1 a tener los puntos de golpe de su nueva forma, y cuando revierta a su forma normal, volver\u00e1 a poseer los puntos de golpe que tuviera antes de la transformaci\u00f3n. Si la transformaci\u00f3n se rompe al quedar su nueva forma reducida a 0 puntos de golpe, cualquier da\u00f1o sobrante se aplica a la forma normal. Si ese da\u00f1o sobrante reduce la forma normal de la criatura a 0 puntos de vida, no cae inconsciente.<br><br>Las acciones de la criatura quedan limitadas por la naturaleza de su nueva forma, y tampoco puede hablar, lanzar conjuros o realizar cualquier acci\u00f3n que requiera del habla o uso de las manos si no es algo que su nueva forma sea capaz de hacer.<br><br>El equipamiento del objetivo se funde con la nueva forma. El objetivo no puede activar, blandir o beneficiarse de su equipamiento de ninguna manera.<br><br><b>Objeto en criatura.</b> Puedes convertir un objeto en cualquier tipo de criatura, siempre que el tama\u00f1o de esta no sea mayor que el tama\u00f1o del objeto y su valor de desaf\u00edo sea igual o inferior a 9. La criatura es amistosa hacia ti y tus compa\u00f1eros. Act\u00faa en cada uno de tus turnos. T\u00fa decides qu\u00e9 acci\u00f3n realiza y c\u00f3mo se mueve. El DM tiene los perfiles de estas criaturas y resuelve sus acciones y movimientos.<br><br>Si el conjuro se vuelve permanente, ya no controlas a la criatura. Puede seguir siendo amistosa hacia ti, dependiendo de c\u00f3mo la hayas tratado.<br><br><b>Criatura en objeto.</b> Si conviertes a una criatura en un objeto, se transforma, junto con cualquier cosa que vista y porte, en la forma elegida. El perfil de la criatura ser\u00e1 el del objeto y esta no tendr\u00e1 memoria del tiempo pasado en esa forma despu\u00e9s de que el conjuro termine y vuelva a su forma normal.",
+    "materiales": "Una gota de mercurio, una migaja de goma ar\u00e1biga y un hilillo de humo."
+  },
+  {
+    "nombre": "Portal",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Conjuras un portal que enlaza un espacio desocupado que puedas ver dentro del alcance, con una localizaci\u00f3n precisa en otro plano de existencia. El portal es una apertura circular de entre 5 y 20 pies, a tu elecci\u00f3n. Puedes orientar el portal en la direcci\u00f3n que desees y se mantendr\u00e1 hasta el final de la duraci\u00f3n del conjuro.<br><br>El portal tiene un anverso y un reverso en cada plano que conecta. Viajar solo es posible movi\u00e9ndose a trav\u00e9s del anverso. Cualquier cosa que lo haga es transportada instant\u00e1neamente al otro plano, apareciendo en el espacio desocupado m\u00e1s cercano al portal.<br><br>Deidades y otros gobernantes de los planos pueden evitar que se abran los portales creados por este conjuro, en su presencia o en cualquier parte de sus dominios.<br><br>Cuando lanzas este conjuro, puedes decir el nombre de una criatura espec\u00edfica (un pseud\u00f3nimo, t\u00edtulo o apodo no es suficiente). Si esa criatura est\u00e1 en un plano diferente al tuyo, el portal se abrir\u00e1 al lado de ella y la transportar\u00e1 a tu plano, dej\u00e1ndola en el espacio desocupado m\u00e1s cercano al portal. No tienes ning\u00fan poder especial sobre la criatura y es libre de actuar de modo que el DM considere apropiado. Puede irse, atacarte o ayudarte.",
+      "Conjuras un portal que enlaza un espacio desocupado que puedas ver dentro del alcance, con una localizaci\u00f3n precisa en otro plano de existencia. El portal es una apertura circular de entre 5 y 6 m, a tu elecci\u00f3n. Puedes orientar el portal en la direcci\u00f3n que desees y se mantendr\u00e1 hasta el final de la duraci\u00f3n del conjuro.<br><br>El portal tiene un anverso y un reverso en cada plano que conecta. Viajar solo es posible movi\u00e9ndose a trav\u00e9s del anverso. Cualquier cosa que lo haga es transportada instant\u00e1neamente al otro plano, apareciendo en el espacio desocupado m\u00e1s cercano al portal.<br><br>Deidades y otros gobernantes de los planos pueden evitar que se abran los portales creados por este conjuro, en su presencia o en cualquier parte de sus dominios.<br><br>Cuando lanzas este conjuro, puedes decir el nombre de una criatura espec\u00edfica (un pseud\u00f3nimo, t\u00edtulo o apodo no es suficiente). Si esa criatura est\u00e1 en un plano diferente al tuyo, el portal se abrir\u00e1 al lado de ella y la transportar\u00e1 a tu plano, dej\u00e1ndola en el espacio desocupado m\u00e1s cercano al portal. No tienes ning\u00fan poder especial sobre la criatura y es libre de actuar de modo que el DM considere apropiado. Puede irse, atacarte o ayudarte."
+    ],
+    "materiales": "Un diamante que valga, al menos, 5.000 po."
+  },
+  {
+    "nombre": "Presagio",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura voluntaria, a la que otorgas una habilidad limitada para ver el futuro inmediato. Hasta el final de la duraci\u00f3n del conjuro, el objetivo no puede ser sorprendido y tiene ventaja en tiradas de ataque, pruebas de caracter\u00edsticas y tiradas de salvaci\u00f3n. Adem\u00e1s, las otras criaturas tienen desventaja en tiradas de ataque contra el objetivo.<br><br>El conjuro termina inmediatamente si lo lanzas de nuevo antes de que termine.",
+    "materiales": "Una pluma de colibr\u00ed."
+  },
+  {
+    "nombre": "Proyecci\u00f3n astral",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": [
+      "10 pies",
+      "3 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Especial",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "T\u00fa y hasta ocho criaturas voluntarias dentro del alcance proyect\u00e1is vuestros cuerpos astrales en el Plano Astral (el conjuro falla si el espacio donde yac\u00e9is se encuentra en este plano). El cuerpo material del objetivo queda atr\u00e1s quedando inconsciente y en un estado de animaci\u00f3n suspendida; no necesita comida ni aire y no envejece.<br><br>Tu forma astral se asemeja a tu cuerpo material en casi todo, posee tu mismo perfil y tus mismas posesiones. La diferencia principal es un cord\u00f3n plateado que sale de entre los om\u00f3platos de la forma astral y flota detr\u00e1s de ella, desvaneci\u00e9ndose hasta hacerse invisible a 1 pie de distancia. El cord\u00f3n es el ancla a tu cuerpo material. Mientras se mantenga intacto, puedes encontrar el camino a casa. Si el cord\u00f3n se corta (algo que solo puede ocurrir si un efecto espec\u00edfico as\u00ed lo indica) tu alma y tu cuerpo quedar\u00e1n separados, provocando tu muerte instant\u00e1nea.<br><br>Tu forma astral puede viajar libremente a trav\u00e9s del Plano Astral y pasar a trav\u00e9s de portales que lleven a otros planos. Si cambias de plano o vuelves al plano en el que te encontrabas cuando lanzaste el conjuro, tu cuerpo y tus posesiones te siguen a trav\u00e9s del cord\u00f3n plateado, permiti\u00e9ndote volver a habitar tu cuerpo al entrar al nuevo plano.<br><br>Tu forma astral es una encarnaci\u00f3n separada. Cualquier da\u00f1o o efectos que se apliquen a ella no tienen consecuencia alguna en tu cuerpo material, ni se mantienen cuando vuelves a este.<br><br>El conjuro termina para ti y tus compa\u00f1eros cuando utilizas una acci\u00f3n para finalizarlo. Cuando el conjuro termina, las criaturas afectadas vuelven a su cuerpo material y despiertan.<br><br>El conjuro tambi\u00e9n puede terminar antes de tiempo para ti o uno de tus compa\u00f1eros. Lanzar disipar magia en contra de un cuerpo astral o material termina el conjuro para esa criatura. Si el cuerpo material de una criatura a 0 puntos de golpe o su forma astral se reduce a 0, el conjuro termina para esa criatura. Si el conjuro termina y el cord\u00f3n plateado sigue intacto, este tira de la forma astral de vuelta al cuerpo material, concluyendo su estado de animaci\u00f3n suspendida.<br><br>Si vuelves a tu cuerpo permanentemente, tus compa\u00f1eros permanecen con sus formas astrales y deben encontrar su propio camino de vuelta a sus cuerpos, normalmente llegando a 0 puntos de golpe.",
+      "T\u00fa y hasta ocho criaturas voluntarias dentro del alcance proyect\u00e1is vuestros cuerpos astrales en el Plano Astral (el conjuro falla si el espacio donde yac\u00e9is se encuentra en este plano). El cuerpo material del objetivo queda atr\u00e1s quedando inconsciente y en un estado de animaci\u00f3n suspendida; no necesita comida ni aire y no envejece.<br><br>Tu forma astral se asemeja a tu cuerpo material en casi todo, posee tu mismo perfil y tus mismas posesiones. La diferencia principal es un cord\u00f3n plateado que sale de entre los om\u00f3platos de la forma astral y flota detr\u00e1s de ella, desvaneci\u00e9ndose hasta hacerse invisible a 0,3 m de distancia. El cord\u00f3n es el ancla a tu cuerpo material. Mientras se mantenga intacto, puedes encontrar el camino a casa. Si el cord\u00f3n se corta (algo que solo puede ocurrir si un efecto espec\u00edfico as\u00ed lo indica) tu alma y tu cuerpo quedar\u00e1n separados, provocando tu muerte instant\u00e1nea.<br><br>Tu forma astral puede viajar libremente a trav\u00e9s del Plano Astral y pasar a trav\u00e9s de portales que lleven a otros planos. Si cambias de plano o vuelves al plano en el que te encontrabas cuando lanzaste el conjuro, tu cuerpo y tus posesiones te siguen a trav\u00e9s del cord\u00f3n plateado, permiti\u00e9ndote volver a habitar tu cuerpo al entrar al nuevo plano.<br><br>Tu forma astral es una encarnaci\u00f3n separada. Cualquier da\u00f1o o efectos que se apliquen a ella no tienen consecuencia alguna en tu cuerpo material, ni se mantienen cuando vuelves a este.<br><br>El conjuro termina para ti y tus compa\u00f1eros cuando utilizas una acci\u00f3n para finalizarlo. Cuando el conjuro termina, las criaturas afectadas vuelven a su cuerpo material y despiertan.<br><br>El conjuro tambi\u00e9n puede terminar antes de tiempo para ti o uno de tus compa\u00f1eros. Lanzar disipar magia en contra de un cuerpo astral o material termina el conjuro para esa criatura. Si el cuerpo material de una criatura a 0 puntos de golpe o su forma astral se reduce a 0, el conjuro termina para esa criatura. Si el conjuro termina y el cord\u00f3n plateado sigue intacto, este tira de la forma astral de vuelta al cuerpo material, concluyendo su estado de animaci\u00f3n suspendida.<br><br>Si vuelves a tu cuerpo permanentemente, tus compa\u00f1eros permanecen con sus formas astrales y deben encontrar su propio camino de vuelta a sus cuerpos, normalmente llegando a 0 puntos de golpe."
+    ],
+    "materiales": "Para cada criatura afectada por este conjuro: un jacinto con un valor igual o superior a 1.000 po y una barra de plata finamente labrada con un valor igual o superior a 100 po, ambas consumidas en el lanzamiento del conjuro."
+  },
+  {
+    "nombre": "Resurrecci\u00f3n verdadera",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Nigromancia",
+    "tiempo_de_lanzamiento": "1 hora",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Tocas a una criatura que lleve muerta menos de 200 a\u00f1os y que no haya fallecido de edad avanzada. Si su alma es libre y lo desea, la criatura vuelve a la vida con todos sus puntos de golpe.<br><br>Este conjuro tambi\u00e9n neutraliza cualquier veneno, cura cualquier enfermedad y levanta cualquier maldici\u00f3n que afligiera a la criatura en el momento de su muerte. El conjuro tambi\u00e9n restaura \u00f3rganos y miembros da\u00f1ados o perdidos. Si la criatura es un muerto viviente, la resucitar\u00e1 en su estado previo a la muerte en vida.<br><br>El conjuro puede incluso proporcionar un cuerpo nuevo si el original ya no existe, en cuyo caso deber\u00e1s pronunciar el nombre de la criatura. Esta aparecer\u00e1 en un espacio desocupado a 10 pies de ti.",
+      "Tocas a una criatura que lleve muerta menos de 200 a\u00f1os y que no haya fallecido de edad avanzada. Si su alma es libre y lo desea, la criatura vuelve a la vida con todos sus puntos de golpe.<br><br>Este conjuro tambi\u00e9n neutraliza cualquier veneno, cura cualquier enfermedad y levanta cualquier maldici\u00f3n que afligiera a la criatura en el momento de su muerte. El conjuro tambi\u00e9n restaura \u00f3rganos y miembros da\u00f1ados o perdidos. Si la criatura es un muerto viviente, la resucitar\u00e1 en su estado previo a la muerte en vida.<br><br>El conjuro puede incluso proporcionar un cuerpo nuevo si el original ya no existe, en cuyo caso deber\u00e1s pronunciar el nombre de la criatura. Esta aparecer\u00e1 en un espacio desocupado a 3 m de ti."
+    ],
+    "materiales": "Una rociada de agua bendita y diamantes con un valor de, al menos, 25.000 po, que son consumidos como parte del conjuro."
+  },
+  {
+    "nombre": "Terror abyecto",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Sirvi\u00e9ndote de los miedos m\u00e1s abyectos de un grupo de criaturas, creas en su mente seres ilusorios, que solo ellas pueden ver. Todas las criaturas en una esfera de 30 pies centrada en un punto de tu elecci\u00f3n dentro del alcance deben hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Aquellas que fallen quedan asustadas hasta el final de la duraci\u00f3n del conjuro. La ilusi\u00f3n bebe de los terrores m\u00e1s profundos del objetivo, manifest\u00e1ndose como una amenaza implacable. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir 4d10 de da\u00f1o ps\u00edquico. Si tiene \u00e9xito, el conjuro acaba para esa criatura.",
+      "Sirvi\u00e9ndote de los miedos m\u00e1s abyectos de un grupo de criaturas, creas en su mente seres ilusorios, que solo ellas pueden ver. Todas las criaturas en una esfera de 9 m centrada en un punto de tu elecci\u00f3n dentro del alcance deben hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Aquellas que fallen quedan asustadas hasta el final de la duraci\u00f3n del conjuro. La ilusi\u00f3n bebe de los terrores m\u00e1s profundos del objetivo, manifest\u00e1ndose como una amenaza implacable. Al final de cada uno de sus turnos, mientras no haya finalizado el conjuro, la criatura deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o sufrir 4d10 de da\u00f1o ps\u00edquico. Si tiene \u00e9xito, el conjuro acaba para esa criatura."
+    ],
+    "materiales": null
+  },
+  {
+    "nombre": "Tormenta de la venganza",
+    "clases": [
+      "Druida"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Vista",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Formas unas nubes de tormenta que se agitan en torno a un punto de tu elecci\u00f3n que puedas ver, cubriendo un \u00e1rea de 360 pies de radio. Sobre ella caen rel\u00e1mpagos, estallan truenos y rugen fuertes vientos. Todas las criaturas debajo de las nubes (a no m\u00e1s de 5.000 pies bajo ella) cuando estas aparecen deben hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fallan la tirada, sufrir\u00e1n 2d6 de da\u00f1o de trueno y quedar\u00e1n ensordecidas durante 5 minutos.<br><br>Cada asalto que mantengas la concentraci\u00f3n en este conjuro, la tormenta produce en tu turno efectos adicionales.<br><br><b>Asalto 2.</b> Una lluvia \u00e1cida cae de la nube. Todas las criaturas debajo de ella reciben 1d6 de da\u00f1o de \u00e1cido.<br><br><b>Asalto 3.</b> Llamas si rel\u00e1mpagos que surgen de la nube para electrocutar a seis criaturas u objetos de tu elecci\u00f3n que est\u00e9n debajo de ella. Cada objetivo no puede ser impactado por m\u00e1s de un rel\u00e1mpago. Las criaturas atacadas deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 10d6 de da\u00f1o de rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br><b>Asalto 4.</b> Enormes piedras de granizo se precipitan desde las nubes. Todas las criaturas debajo de ellas reciben 2d6 de da\u00f1o contundente.<br><br><b>Asaltos 5 a 10.</b> R\u00e1fagas de viento y una lluvia helada azotan a las criaturas. Bajo la nube la cubierta se considera muy oscura y terreno dif\u00edcil. Todas las criaturas debajo de ella reciben 1d6 de da\u00f1o de fr\u00edo. Si las criaturas intentan utilizar su acci\u00f3n de Correr cuando est\u00e1n bajo la nube deber\u00e1n antes tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza. Por \u00faltimo, las fuertes r\u00e1fagas de viento (de entre 20 y 50 millas por hora) dispersan autom\u00e1ticamente nieblas, brumas y fen\u00f3menos similares en la zona, ya sean m\u00e1gicos o mundanos.",
+      "Formas unas nubes de tormenta que se agitan en torno a un punto de tu elecci\u00f3n que puedas ver, cubriendo un \u00e1rea de 108 m de radio. Sobre ella caen rel\u00e1mpagos, estallan truenos y rugen fuertes vientos. Todas las criaturas debajo de las nubes (a no m\u00e1s de 5.0 m bajo ella) cuando estas aparecen deben hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fallan la tirada, sufrir\u00e1n 2d6 de da\u00f1o de trueno y quedar\u00e1n ensordecidas durante 5 minutos.<br><br>Cada asalto que mantengas la concentraci\u00f3n en este conjuro, la tormenta produce en tu turno efectos adicionales.<br><br><b>Asalto 2.</b> Una lluvia \u00e1cida cae de la nube. Todas las criaturas debajo de ella reciben 1d6 de da\u00f1o de \u00e1cido.<br><br><b>Asalto 3.</b> Llamas si rel\u00e1mpagos que surgen de la nube para electrocutar a seis criaturas u objetos de tu elecci\u00f3n que est\u00e9n debajo de ella. Cada objetivo no puede ser impactado por m\u00e1s de un rel\u00e1mpago. Las criaturas atacadas deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 10d6 de da\u00f1o de rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br><b>Asalto 4.</b> Enormes piedras de granizo se precipitan desde las nubes. Todas las criaturas debajo de ellas reciben 2d6 de da\u00f1o contundente.<br><br><b>Asaltos 5 a 10.</b> R\u00e1fagas de viento y una lluvia helada azotan a las criaturas. Bajo la nube la cubierta se considera muy oscura y terreno dif\u00edcil. Todas las criaturas debajo de ella reciben 1d6 de da\u00f1o de fr\u00edo. Si las criaturas intentan utilizar su acci\u00f3n de Correr cuando est\u00e1n bajo la nube deber\u00e1n antes tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza. Por \u00faltimo, las fuertes r\u00e1fagas de viento (de entre 20 y 75 km por hora) dispersan autom\u00e1ticamente nieblas, brumas y fen\u00f3menos similares en la zona, ya sean m\u00e1gicos o mundanos."
+    ],
+    "materiales": null
+  },
+  {
+    "nombre": "Tormenta de meteoritos",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "1 milla",
+      "1.6 km"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Abrasadores orbes de fuego caen en picado al suelo en cuatro puntos distintos que puedas ver dentro del alcance. Todas las criaturas en una esfera de 40 pies centrada en cada uno de esos puntos deben hacer una tirada de salvaci\u00f3n de Destreza. Las esferas se extienden m\u00e1s all\u00e1 de las esquinas. Sufrir\u00e1n 20d6 de da\u00f1o contundente y 20d6 de da\u00f1o de fuego si fallan la tirada o la mitad del da\u00f1o si la superan. Una criatura en el \u00e1rea de m\u00e1s de uno de los estallidos solo se ve afectada una vez.<br><br>El conjuro da\u00f1a los objetos que se encuentren en el \u00e1rea, haciendo arder los que sean inflamables y no lleven o vista alguien.",
+      "Abrasadores orbes de fuego caen en picado al suelo en cuatro puntos distintos que puedas ver dentro del alcance. Todas las criaturas en una esfera de 12 m centrada en cada uno de esos puntos deben hacer una tirada de salvaci\u00f3n de Destreza. Las esferas se extienden m\u00e1s all\u00e1 de las esquinas. Sufrir\u00e1n 20d6 de da\u00f1o contundente y 20d6 de da\u00f1o de fuego si fallan la tirada o la mitad del da\u00f1o si la superan. Una criatura en el \u00e1rea de m\u00e1s de uno de los estallidos solo se ve afectada una vez.<br><br>El conjuro da\u00f1a los objetos que se encuentren en el \u00e1rea, haciendo arder los que sean inflamables y no lleven o vista alguien."
+    ],
+    "materiales": null
+  }
+]
