@@ -1354,5 +1354,28 @@
     "requiere_ataque": false,
     "descripcion": "Si una criatura de tu elecci\u00f3n que puedas ver dentro del alcance se ve afectada por el conjuro, comenzar\u00e1 a percibir todo como hilarantemente divertido, cayendo en un ataque de risa incontrolable. El objetivo debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o caer\u00e1 derribado, quedando incapacitado y no pudiendo levantarse hasta el final de la duraci\u00f3n del conjuro. Las criaturas con puntuaciones de Inteligencia de 4 o menos no se ven afectadas por este conjuro.<br><br>Al final de cada uno de sus turnos, y cada vez que reciba da\u00f1o, el objetivo puede realizar otra tirada de salvaci\u00f3n de Sabidur\u00eda. Tiene ventaja en esta tirada si est\u00e1 causada por haber recibido da\u00f1o. Si la supera, el efecto del conjuro termina.",
     "materiales": "Tartas en miniatura y una pluma que agitas en el aire."
+  },
+  {
+    "nombre": "Rociada de color",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una rociada deslumbrante de luz destellante y coloreada surge de tu mano. Tira 6d10; podr\u00e1s afectar a criaturas cuyo total combinado de puntos de golpe sea menor o igual al resultado. Las criaturas en un cono de 15 que surge de ti son afectadas en orden ascendente de sus puntos de golpe actuales (ignorando criaturas inconscientes o que no puedan ver).<br><br>Empezando por la criatura que tenga el menor n\u00famero de puntos de golpe actuales, cada objetivo afectado por este conjuro quedar\u00e1 cegado hasta el final del conjuro. Resta todos los puntos de golpe de cada criatura del total antes de continuar con la siguiente. Una criatura solo se ver\u00e1 afectada si sus puntos de golpe actuales son menores o iguales al total restante.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, lanza 2d10 adicionales por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "materiales": "Una pizca de polvo o arena pintada de rojo, amarillo y azul."
   }
 ]
