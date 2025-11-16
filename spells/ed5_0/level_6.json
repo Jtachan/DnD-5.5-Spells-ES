@@ -659,5 +659,31 @@
       "Creas dos portales de teletransporte enlazados. Estos permanecen abiertos hasta el final de la duraci\u00f3n del conjuro. Elige dos puntos dentro del alcance que puedan verse entre s\u00ed. Uno a 3 m de ti y otro hasta a 150 m de ti. Un portal circular de 3 m de di\u00e1metro se abre en cada punto. Si el portal fuera a utilizar un espacio ya ocupado por una criatura, el lanzamiento falla y el conjuro se pierde.<br><br>Los portales son anillos bidimensionales, brillantes y cubiertos de niebla, que levitan a pocas pulgadas del suelo de forma perpendicular a los puntos elegidos. El anillo solo es visible desde uno de los lados, a tu elecci\u00f3n, que es el lado que funciona como portal.<br><br>Una criatura u objeto que entre por un portal sale por el otro como si estuvieran adyacentes entre s\u00ed. Pasar a trav\u00e9s del lado no visible no tiene efecto. La ilusi\u00f3n de cubre cada portal los opaca y bloquea la visi\u00f3n. En tu turno puedes rotar los anillos, utilizando una acci\u00f3n adicional, para que se encaren en una nueva direcci\u00f3n."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Rayo solar",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Un rayo de luz brillante surge de tu mano en una l\u00ednea de 5 pies de ancho y 60 pies de largo. Cada criatura que se encuentre en el haz debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fracasa, recibir\u00e1 6d8 de da\u00f1o radiante y quedar\u00e1 cegada hasta tu pr\u00f3ximo turno. Si la supera, recibir\u00e1 la mitad del da\u00f1o y no quedar\u00e1 cegada. Los muertos vivientes y los \u00ednferos tienen desventaja en esta tirada de salvaci\u00f3n.<br><br>En cada turno, antes de que termine el conjuro, puedes crear una nueva l\u00ednea de luz radiante utilizando una acci\u00f3n.<br><br>Hasta el final de la duraci\u00f3n del conjuro, una mota de luz pura brilla en tu mano. Emite luz tenue en un radio de 30 pies y luz tenue 30 pies m\u00e1s all\u00e1. Esta luz se considera luz del sol.",
+      "Un rayo de luz brillante surge de tu mano en una l\u00ednea de 1,5 m de ancho y 18 m de largo. Cada criatura que se encuentre en el haz debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fracasa, recibir\u00e1 6d8 de da\u00f1o radiante y quedar\u00e1 cegada hasta tu pr\u00f3ximo turno. Si la supera, recibir\u00e1 la mitad del da\u00f1o y no quedar\u00e1 cegada. Los muertos vivientes y los \u00ednferos tienen desventaja en esta tirada de salvaci\u00f3n.<br><br>En cada turno, antes de que termine el conjuro, puedes crear una nueva l\u00ednea de luz radiante utilizando una acci\u00f3n.<br><br>Hasta el final de la duraci\u00f3n del conjuro, una mota de luz pura brilla en tu mano. Emite luz tenue en un radio de 9 m y luz tenue 9 m m\u00e1s all\u00e1. Esta luz se considera luz del sol."
+    ],
+    "materiales": "Una lupa."
   }
 ]
