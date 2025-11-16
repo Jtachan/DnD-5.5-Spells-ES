@@ -714,5 +714,31 @@
       "Creas un rel\u00e1mpago que se dirige a un objetivo de tu elecci\u00f3n que puedas ver dentro del alcance. De este objetivo saltan otros tres rel\u00e1mpagos hasta otros tres objetivos, cada uno a 9 m o menos del objetivo original. Cualquiera de los objetivos tiene que ser una criatura u un objeto y solo puede recibir uno de los rel\u00e1mpagos.<br><br>Todos los objetivos deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 10d8 de da\u00f1o de rel\u00e1mpago si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, un rel\u00e1mpago adicional salta del objetivo original a otro objetivo por cada nivel por encima de 6 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Un poco de pelaje; una vara de \u00e1mbar, cristal o vidrio; tres alfileres de plata."
+  },
+  {
+    "nombre": "Sugesti\u00f3n en masa",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Sugieres un curso de acci\u00f3n (limitado a una o dos frases) a hasta doce criaturas a las que puedas ver dentro del alcance y que puedan o\u00edrte y comprenderte. Las criaturas que no puedan ser hechizadas no se ven afectadas. La sugerencia tiene que estar dictada de forma que parezca razonable. Pedirle a la criatura que se apu\u00f1ale, se empale en una lanza, se inmole o realice cualquier otra actividad claramente da\u00f1ina da por finalizado el conjuro.<br><br>Cada objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, llevar\u00e1 a cabo la acci\u00f3n que le sugieres hasta donde le permitan sus capacidades. Esta acci\u00f3n puede continuar hasta el final de la duraci\u00f3n del conjuro. Si la sugerencia puede ser realizada en menos tiempo, el conjuro termina cuando el objetivo completa la tarea encomendada.<br><br>Puedes especificar que ciertas condiciones activen una actividad especial, dentro de la duraci\u00f3n del conjuro. Por ejemplo, puedes sugerir a un grupo de soldados que den todo su dinero al primer mendigo que encuentren. Si la condici\u00f3n no se cumple antes de que termine el conjuro, entonces la actividad no se lleva a cabo.<br><br>Si t\u00fa o cualquiera de tus compa\u00f1eros da\u00f1\u00e1is a alguno de los objetivos, el conjuro termina para esa criatura.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7, la duraci\u00f3n pasa a ser de 10 d\u00edas. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 8, la duraci\u00f3n pasa a ser de 30 d\u00edas. Cuando lanzas este conjuro empleando un espacio de conjuro de nivel 9, la duraci\u00f3n pasa a ser de un a\u00f1o y un d\u00eda.",
+    "materiales": "La lengua de una serpiente y un trozo de panal o una gota de aceite dulce."
   }
 ]
