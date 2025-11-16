@@ -1387,5 +1387,30 @@
       "Conjuras una masa de telara\u00f1as densa y pegajosa en un punto de tu elecci\u00f3n dentro del alcance. Las telara\u00f1as ocupan un cubo de 6 m de lado desde su punto de origen hasta el final de la duraci\u00f3n del conjuro. La zona cubierta es considerada ligeramente oscura y terreno dif\u00edcil.<br><br>Si las telara\u00f1as no est\u00e1n ancladas entre dos objetos s\u00f3lidos (como muros o \u00e1rboles) o extendidas sobre un suelo, muro o techo, se colapsar\u00e1n sobre s\u00ed mismas y el conjuro terminar\u00e1 al final de tu pr\u00f3ximo turno. Las telara\u00f1as dispuestas sobre una superficie plana tienen una profundidad de 1,5 m.<br><br>Cualquier criatura que comience su turno en las telara\u00f1as o que entre en ellas durante el mismo, debe hacer una tirada de salvaci\u00f3n de Destreza. Si la falla, quedar\u00e1 apresada mientras siga en las telara\u00f1as o hasta que se libere. Una criatura apresada puede utilizar su acci\u00f3n para hacer una prueba de Fuerza contra tu CD de salvaci\u00f3n de conjuros. Si la supera, dejar\u00e1 de estar apresada.<br><br>Las telara\u00f1as son inflamables. Cualquier cubo de 1,5 m de lado expuesto al fuego se quema por completo en 1 asalto, causando 2d4 de da\u00f1o de fuego a la criatura o criatura que comience su turno en el incendio."
     ],
     "materiales": "Un poco de telara\u00f1a de ara\u00f1a."
+  },
+  {
+    "nombre": "Trepar cual ar\u00e1cnido",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta el final del conjuro, una criatura voluntaria a la que toques gana la capacidad de caminar por el techo y de moverse hacia arriba, abajo y de lado por superficies verticales a la misma de moverse no requiere que use las manos, que quedan libres. Adem\u00e1s, el objetivo obtiene una velocidad trepando igual a su velocidad caminando.",
+    "materiales": "Una gota de bet\u00fan y una ara\u00f1a."
   }
 ]
