@@ -630,5 +630,34 @@
       "Creas una guarda contra el desplazamiento m\u00e1gico que protege hasta 40.0 m cuadrados de terreno y hasta una altura de 9 m sobre el nivel del suelo. Hasta el final de la duraci\u00f3n del conjuro, ninguna criatura puede teletransportarse dentro del \u00e1rea o utilizar portales, como los creados por el conjuro portal, para entrar en el \u00e1rea. El suelo impermeabiliza el \u00e1rea contra el viaje interplanar y, por tanto, evita que las criaturas accedan al \u00e1rea mediante el Plano Astral, el Plano Et\u00e9reo, el Feywild, el Shadowfell o cualquier desplazamiento entre planos.<br><br>Adem\u00e1s, este conjuro da\u00f1a a las criaturas del tipo o tipos elegidos en el momento del lanzamiento. Escoge uno o m\u00e1s de los siguientes: celestial, elemental, fe\u00e9rico, infernal o muerto viviente. Las criaturas del tipo o tipos elegidos reciben 5d10 de da\u00f1o radiante o necr\u00f3tico (a tu elecci\u00f3n) si comienzan su turno en el \u00e1rea del conjuro o cuando entran por primera vez.<br><br>Cuando lanzas este conjuro puedes crear una palabra de paso. Cualquier criatura que diga esta palabra de paso seg\u00fan el acento de el/la lanzadora no recibe da\u00f1o del conjuro.<br><br>El \u00e1rea del conjuro no se puede superponer con el \u00e1rea de otro conjuro de prohibici\u00f3n. Si lanzas prohibici\u00f3n cada d\u00eda durante 30 d\u00edas en el mismo lugar, el conjuro permanecer\u00e1 hasta que sea disipada, pero los componentes materiales consumidos deber\u00e1n pagarse como parte del lanzamiento final."
     ],
     "materiales": "Una rociada de agua bendita, incienso de calidad excepcional y polvo de rub\u00ed con un valor de, al menos, 1000 po."
+  },
+  {
+    "nombre": "Puerta arcana",
+    "clases": [
+      "Hechicero",
+      "Brujo",
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "500 pies",
+      "150 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas dos portales de teletransporte enlazados. Estos permanecen abiertos hasta el final de la duraci\u00f3n del conjuro. Elige dos puntos dentro del alcance que puedan verse entre s\u00ed. Uno a 10 pies de ti y otro hasta a 500 pies de ti. Un portal circular de 10 pies de di\u00e1metro se abre en cada punto. Si el portal fuera a utilizar un espacio ya ocupado por una criatura, el lanzamiento falla y el conjuro se pierde.<br><br>Los portales son anillos bidimensionales, brillantes y cubiertos de niebla, que levitan a pocas pulgadas del suelo de forma perpendicular a los puntos elegidos. El anillo solo es visible desde uno de los lados, a tu elecci\u00f3n, que es el lado que funciona como portal.<br><br>Una criatura u objeto que entre por un portal sale por el otro como si estuvieran adyacentes entre s\u00ed. Pasar a trav\u00e9s del lado no visible no tiene efecto. La ilusi\u00f3n de cubre cada portal los opaca y bloquea la visi\u00f3n. En tu turno puedes rotar los anillos, utilizando una acci\u00f3n adicional, para que se encaren en una nueva direcci\u00f3n.",
+      "Creas dos portales de teletransporte enlazados. Estos permanecen abiertos hasta el final de la duraci\u00f3n del conjuro. Elige dos puntos dentro del alcance que puedan verse entre s\u00ed. Uno a 3 m de ti y otro hasta a 150 m de ti. Un portal circular de 3 m de di\u00e1metro se abre en cada punto. Si el portal fuera a utilizar un espacio ya ocupado por una criatura, el lanzamiento falla y el conjuro se pierde.<br><br>Los portales son anillos bidimensionales, brillantes y cubiertos de niebla, que levitan a pocas pulgadas del suelo de forma perpendicular a los puntos elegidos. El anillo solo es visible desde uno de los lados, a tu elecci\u00f3n, que es el lado que funciona como portal.<br><br>Una criatura u objeto que entre por un portal sale por el otro como si estuvieran adyacentes entre s\u00ed. Pasar a trav\u00e9s del lado no visible no tiene efecto. La ilusi\u00f3n de cubre cada portal los opaca y bloquea la visi\u00f3n. En tu turno puedes rotar los anillos, utilizando una acci\u00f3n adicional, para que se encaren en una nueva direcci\u00f3n."
+    ],
+    "materiales": null
   }
 ]
