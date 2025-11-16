@@ -940,5 +940,30 @@
     "requiere_ataque": false,
     "descripcion": "Impones una maldici\u00f3n a una criatura que puedas ver dentro del alcance. Hasta el final del conjuro, sufrir\u00e1 1d6 de da\u00f1o necr\u00f3tico adicional cada vez que sea impactada por uno de tus ataques. Adem\u00e1s, elige una caracter\u00edstica cuando lanzas el conjuro. El objetivo tiene desventaja en las pruebas de caracter\u00edstica y tiradas de salvaci\u00f3n hechas con la caracter\u00edstica elegida.<br><br>Si los puntos de golpe del objetivo se reducen a 0 antes del final de la duraci\u00f3n del conjuro, puedes utilizar una acci\u00f3n adicional en un turno posterior para transferir la maldici\u00f3n a una nueva criatura.<br><br>El conjuro levantar maldici\u00f3n termina este conjuro inmediatamente.<br><br><b><i>A niveles superiores.</i></b> Si utilizas un espacio de conjuro de nivel 3 o 4, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 8 horas. Si usas un espacio de conjuro de nivel 5 o m\u00e1s, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 24 horas.",
     "materiales": "El ojo petrificado de un trit\u00f3n."
+  },
+  {
+    "nombre": "Manos ardientes",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Juntas las manos con los pulgares toc\u00e1ndose y los dedos extendidos, creando una fina capa de llamas que se proyecta desde la punta de tus dedos. Todas las criaturas en un cono de 15 pies deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 3d6 de da\u00f1o de fuego si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>Los objetos inflamables que se encuentren en el \u00e1rea que no lleves o vistas arder\u00e1n instant\u00e1neamente.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+      "Juntas las manos con los pulgares toc\u00e1ndose y los dedos extendidos, creando una fina capa de llamas que se proyecta desde la punta de tus dedos. Todas las criaturas en un cono de 4,5 m deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 3d6 de da\u00f1o de fuego si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>Los objetos inflamables que se encuentren en el \u00e1rea que no lleves o vistas arder\u00e1n instant\u00e1neamente.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": null
   }
 ]
