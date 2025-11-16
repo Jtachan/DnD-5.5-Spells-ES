@@ -1038,5 +1038,29 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a un humanoide muerto o parte de sus restos. Si esta criatura no ha estado muerta m\u00e1s de 10 d\u00edas, el conjuro crea un nuevo cuerpo adulto para ella y coacciona al alma a entrar en ese cuerpo. Si el alma del objetivo no es libre o no quiere entrar, el conjuro fallar\u00e1.<br><br>La magia fabrica un nuevo cuerpo para que sea habitado por la criatura, por lo que probablemente su raza cambie. El DM lanza 1d100 y consulta en la siguiente tabla para determinar qu\u00e9 forma adoptar\u00e1 la criatura al ser devuelta a la vida. Tambi\u00e9n puedes elegir una forma concreta en vez de tirar.<table><tr><th>d100</th><th>Raza</th></tr><tr><td>01\u201304</td><td>Drac\u00f3nido</td></tr><tr><td>05\u201313</td><td>Enano de las colinas</td></tr><tr><td>14\u201321</td><td>Enano de las monta\u00f1as</td></tr><tr><td>22\u201325</td><td>Elfo oscuro (drow)</td></tr><tr><td>26\u201334</td><td>Elfo, alto</td></tr><tr><td>35\u201342</td><td>Elfo de los bosques</td></tr><tr><td>43\u201346</td><td>Gnomo de los bosques</td></tr><tr><td>47\u201352</td><td>Gnomo de las rocas</td></tr><tr><td>53\u201356</td><td>Semielfo</td></tr><tr><td>57\u201360</td><td>Semiorco</td></tr><tr><td>61\u201368</td><td>Mediano piesligeros</td></tr><tr><td>69\u201376</td><td>Mediano fornido</td></tr><tr><td>77\u201396</td><td>Humano</td></tr><tr><td>97\u201300</td><td>Tiefling</td></tr></table>La criatura reencarnada recuerda su vida y experiencias anteriores. Mantiene las capacidades que tuviera en su forma original, con la salvedad de que cambia su raza anterior por la nueva, con sus correspondientes atributos raciales.",
     "materiales": "Ung\u00fcentos y aceites raros con un valor de, al menos, 1.000 po, que son consumidos como parte del conjuro."
+  },
+  {
+    "nombre": "Restablecimiento mayor",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Imbuyes de energ\u00eda positiva a una criatura a la que toques, deshaciendo un efecto debilitador anterior. Puedes reducir el nivel de cansancio en uno o terminar uno de los siguientes efectos en el objetivo:<ul><li>Un efecto que le mantuviera hechizado o petrificado.</li><li>Una maldici\u00f3n, incluyendo la sintonizaci\u00f3n del objetivo a un objeto m\u00e1gico maldito.</li><li>Una reducci\u00f3n de una de sus puntuaciones de caracter\u00edstica.</li><li>Un efecto que reduzca sus puntos de golpe m\u00e1ximos.</li></ul>",
+    "materiales": "Polvo de diamante con un valor de, al menos, 100 po, que es consumido como parte del conjuro."
   }
 ]
