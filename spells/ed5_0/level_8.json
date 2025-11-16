@@ -256,5 +256,27 @@
     "requiere_ataque": false,
     "descripcion": "Hasta que el conjuro termine, cada vez que hagas una prueba de Carisma, puedes cambiar el resultado de la tirada por un 15. Adem\u00e1s, independientemente de si lo que dices es cierto, cualquier magia que determine si dices la verdad indica que est\u00e1s siendo sincero.",
     "materiales": null
+  },
+  {
+    "nombre": "Mente en blanco",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "24 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Hasta el final del conjuro, una criatura voluntaria que toques dentro del alcance es inmune al da\u00f1o ps\u00edquico, a cualquier efecto que pudiera percibir sus emociones o conocer sus pensamientos, a conjuros de adivinaci\u00f3n y al estado \"hechizado\". Frustras incluso el conjuro deseo u otros de poder similar que podr\u00edan ser usados para afectar la mente del objetivo o conseguir informaci\u00f3n sobre \u00e9l.",
+    "materiales": null
   }
 ]
