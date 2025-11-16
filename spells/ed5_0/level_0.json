@@ -184,5 +184,33 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura voluntaria. Una sola vez, antes de que termine el conjuro, el objetivo puede tirar 1d4 y a\u00f1adir el resultado a una prueba de caracter\u00edstica de su elecci\u00f3n. Puede tirar el dado antes o despu\u00e9s de saber el resultado de la prueba. Hacer esto termina el conjuro.",
     "materiales": null
+  },
+  {
+    "nombre": "Ilusi\u00f3n menor",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Ilusionismo",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas un sonido o una imagen de un objeto, situado dentro del alcance y que permanece hasta el final de la duraci\u00f3n del conjuro. La ilusi\u00f3n tambi\u00e9n termina si lanzas un conjuro nuevo o si utilizas una acci\u00f3n para finalizarla.<br><br>Si creas un sonido, puedes hacer que sea el de un susurro y el de un grito. Puede ser tu voz, la de otra criatura, el rugido de un le\u00f3n, el rechinar de tambores o cualquier sonido de tu elecci\u00f3n. Podr\u00e1 sonar en momentos concretos o continuamente hasta que termine el conjuro, a tu preferencia.<br><br>Si creas la imagen de un objeto (como una silla, pisapapeles o un bulto) no debe ser mayor que un cubo de 5 pies de lado. La imagen no puede generar sonido, luz, olor o cualquier otro efecto sensorial. La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas la atraviesan.<br><br>Si una criatura utiliza su acci\u00f3n para examinar la imagen o el sonido, puede determinar que es una ilusi\u00f3n si tiene \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros. Si averigua que es una ilusi\u00f3n, su aspecto se vuelve tenue para esa criatura.",
+      "Creas un sonido o una imagen de un objeto, situado dentro del alcance y que permanece hasta el final de la duraci\u00f3n del conjuro. La ilusi\u00f3n tambi\u00e9n termina si lanzas un conjuro nuevo o si utilizas una acci\u00f3n para finalizarla.<br><br>Si creas un sonido, puedes hacer que sea el de un susurro y el de un grito. Puede ser tu voz, la de otra criatura, el rugido de un le\u00f3n, el rechinar de tambores o cualquier sonido de tu elecci\u00f3n. Podr\u00e1 sonar en momentos concretos o continuamente hasta que termine el conjuro, a tu preferencia.<br><br>Si creas la imagen de un objeto (como una silla, pisapapeles o un bulto) no debe ser mayor que un cubo de 1,5 m de lado. La imagen no puede generar sonido, luz, olor o cualquier otro efecto sensorial. La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n, ya que las cosas la atraviesan.<br><br>Si una criatura utiliza su acci\u00f3n para examinar la imagen o el sonido, puede determinar que es una ilusi\u00f3n si tiene \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros. Si averigua que es una ilusi\u00f3n, su aspecto se vuelve tenue para esa criatura."
+    ],
+    "materiales": "Un poco de vell\u00f3n."
   }
 ]
