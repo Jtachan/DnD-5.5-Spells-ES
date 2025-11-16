@@ -823,5 +823,31 @@
       "El conjuro crea un enlace m\u00e1gico entre una planta inanimada Grande o mayor dentro del alcance y otra planta de cualquier distancia en el mismo plano de existencia. Debes haber visto o tocado la planta destino al menos una vez. Hasta el final de la duraci\u00f3n del conjuro, cualquier criatura puede entrar en la planta objetivo y salir de la planta destino empleando 1,5 m de movimiento."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Visi\u00f3n veraz",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Mago"
+    ],
+    "escuela": "Adivinaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Este conjuro proporciona a la criatura voluntaria que toques la habilidad de ver las cosas tal y como son realmente. Hasta el final de la duraci\u00f3n del conjuro, el objetivo disfrutar\u00e1 de visi\u00f3n verdadera, detectar\u00e1 las puertas ocultas mediante magia y podr\u00e1 ver el Plano Et\u00e9reo, todo ello hasta 120 pies de distancia.",
+      "Este conjuro proporciona a la criatura voluntaria que toques la habilidad de ver las cosas tal y como son realmente. Hasta el final de la duraci\u00f3n del conjuro, el objetivo disfrutar\u00e1 de visi\u00f3n verdadera, detectar\u00e1 las puertas ocultas mediante magia y podr\u00e1 ver el Plano Et\u00e9reo, todo ello hasta 36 m de distancia."
+    ],
+    "materiales": "Un ung\u00fcento para los ojos que cuesta 25 po, est\u00e1 hecho con hongos pulverizados, azafr\u00e1n y grasa, y es consumido por el conjuro."
   }
 ]
