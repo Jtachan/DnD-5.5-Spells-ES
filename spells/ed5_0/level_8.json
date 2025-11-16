@@ -306,5 +306,29 @@
       "Una nube de humo turbulento, vetado de ascuas candentes, aparece en una zona esf\u00e9rica de 6 m de radio centrada en un punto que se encuentre dentro del alcance. La nube se extiende m\u00e1s all\u00e1 de las esquinas y la zona se considera muy oscura. Se mantiene hasta el final de la duraci\u00f3n del conjuro o hasta que un viento de velocidad moderada (al menos 15 km por hora) la disperse.<br><br>Cuando la nube aparece, todas las criaturas en el \u00e1rea deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 10d8 de da\u00f1o de fuego si fallan la tirada o la mitad del da\u00f1o si la superan. Las criaturas tambi\u00e9n deber\u00e1n realizar esta tirada de salvaci\u00f3n cuando entren en la zona del conjuro por primera vez en un turno dado o cuando acaben su turno en ella.<br><br>Al principio de cada uno de tus turnos, la nube se mueve 3 m alej\u00e1ndose de ti en la direcci\u00f3n que elijas."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Palabra de poder: aturdir",
+    "clases": [
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": "Pronuncias una palabra de poder capaz de aturdir la mente de una criatura que puedas ver dentro del alcance, dej\u00e1ndola estupefacta. Si la criatura elegida posee 150 puntos de golpe o menos, queda aturdida. Si no es as\u00ed, el conjuro no tiene efecto.<br><br>Al final de cada uno de sus turnos, el objetivo puede realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Si tiene \u00e9xito, este efecto aturdidor termina.",
+    "materiales": null
   }
 ]
