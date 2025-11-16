@@ -432,5 +432,27 @@
       "Conviertes materia prima en productos de ese mismo material. Por ejemplo, puedes fabricar un puente de madera a partir de un grupo de \u00e1rboles, una cuerda usando unas plantas de c\u00e1\u00f1amo o ropas partiendo de lino o lana.<br><br>Elige una materia prima que puedas ver dentro del alcance. Puedes fabricar un objeto de tama\u00f1o Grande o menor (contenido en un cubo de 3 m de lado u ocho cubos de 1,5 m conectados), siempre que tengas suficiente material disponible. Sin embargo, si trabajas con metal, piedra u otra sustancia mineral el objeto fabricado no puede ser de un tama\u00f1o mayor a Mediano (limitado a un cubo de 1,5 m de lado). La calidad de los objetos creados mediante este conjuro es proporcional a la calidad de la materia prima.<br><br>No se pueden crear o transmutar criaturas u objetos m\u00e1gicos mediante este conjuro. Tampoco puedes usarlo para fabricar objetos que necesiten de gran habilidad, como joyas, armas o armadura, a menos que tengas competencia con el tipo de herramientas de artesano necesarias para elaborar esa clase de objetos."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Guarda contra la muerte",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Tocas a una criatura para proporcionarle cierta protecci\u00f3n contra la muerte.<br><br>La primera vez que fuera a llegar a 0 puntos de golpe como resultado de recibir da\u00f1o, en vez de eso se queda con 1 punto de golpe y el conjuro termina.<br><br>Si el conjuro todav\u00eda est\u00e1 activo cuando el objetivo fuera a ser objeto de un efecto que lo matara inmediatamente sin hacerle da\u00f1o, el efecto queda negado y este conjuro termina.",
+    "materiales": null
   }
 ]
