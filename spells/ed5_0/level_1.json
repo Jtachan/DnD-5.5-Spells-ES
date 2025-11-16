@@ -1287,7 +1287,7 @@
       "Brujo"
     ],
     "escuela": "Evocaci\u00f3n",
-    "tiempo_de_lanzamiento": "Reacci\u00f3n, que llevas a cabo cuando una criatura que puedas ver a 60 pies o menos te da\u00f1e",
+    "tiempo_de_lanzamiento": "Reacci\u00f3n",
     "ritual": false,
     "alcance": [
       "60 pies",
@@ -1302,7 +1302,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": "DES",
     "requiere_ataque": false,
-    "descripcion": "Apuntas con el dedo y la criatura que te da\u00f1\u00f3 se ve envuelta moment\u00e1neamente en una llamarada infernal. Debe hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1 2d10 de da\u00f1o de fuego si falla la tirada o la mitad del da\u00f1o si la supera.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
+    "descripcion": "Apuntas con el dedo a una la criatura que puedas ver dentro del alcance y que te acabe de da\u00f1ar. La criatura se ve envuelta moment\u00e1neamente en una llamarada infernal. Debe hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1 2d10 de da\u00f1o de fuego si falla la tirada o la mitad del da\u00f1o si la supera.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
     "materiales": null
   },
   {
