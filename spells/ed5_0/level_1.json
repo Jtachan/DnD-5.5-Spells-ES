@@ -1504,5 +1504,28 @@
     "requiere_ataque": false,
     "descripcion": "Susurras una melod\u00eda discordante que solo una criatura de tu elecci\u00f3n dentro del alcance puede o\u00edr, inund\u00e1ndola con un terrible dolor. El objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, sufre 3d6 de da\u00f1o ps\u00edquico y debe utilizar su reacci\u00f3n inmediatamente, si es posible, para moverse tan lejos de ti como le permita su velocidad. Eso s\u00ed, la criatura no entrar\u00e1 en un terreno peligroso, como un fuego o un pozo. En cambio, si supera la tirada, recibir\u00e1 la mitad del da\u00f1o y no necesitar\u00e1 alejarse. Una criatura ensordecida tiene \u00e9xito autom\u00e1ticamente en la prueba.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d6 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
     "materiales": null
+  },
+  {
+    "nombre": "Texto ilusorio",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Toque",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "10 d\u00edas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Escribes en un pergamino, papel u otro material apropiado para la escritura y lo imbuyes con una potente ilusi\u00f3n que se mantiene hasta el final de la duraci\u00f3n del conjuro.<br><br>Para ti y cualquier otra criatura que designes durante el lanzamiento, la escritura parece normal, de tu pu\u00f1o y letra y transmite el mensaje que ten\u00edas pensado cuando lo escribiste. Sin embargo, para todos los dem\u00e1s, el texto parece estar escrito en una escritura m\u00e1gica o desconocida que lo hace ininteligible. Alternativamente, puedes hacer que el escrito aparente tener un mensaje completamente distinto, escrito con otra caligraf\u00eda e idioma, aunque debes conocer este \u00faltimo.<br><br>Si se disipa el conjuro, tanto el escrito original como la ilusi\u00f3n desaparecen.<br><br>Una criatura con visi\u00f3n verdadera puede leer el mensaje oculto.",
+    "materiales": "Tinta con base de plomo con un valor de, al menos, 10 po, que es consumida como parte del conjuro."
   }
 ]
