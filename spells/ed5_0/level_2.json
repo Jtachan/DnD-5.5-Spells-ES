@@ -808,5 +808,27 @@
       "Una criatura u objeto de tu elecci\u00f3n que puedas ver dentro del alcance se eleva hasta 6 m y se mantiene suspendido hasta el final de la duraci\u00f3n del conjuro. El conjuro puede hacer levitar a un objetivo de hasta 250 kg. Una criatura no voluntaria que tenga \u00e9xito en una tirada de salvaci\u00f3n de Constituci\u00f3n no se ver\u00e1 afectada.<br><br>El objetivo solo puede moverse empuj\u00e1ndose o tirando de un objeto fijo o una superficie a su alcance. Si t\u00fa mismo eres el objetivo, puedes mover la altura del objetivo en hasta 6 m en cada sentido. Si t\u00fa mismo eres el objetivo, te puedes mover hasta arriba o abajo, pero no lateralmente. En caso contrario, para mover al objetivo tienes que utilizar tu acci\u00f3n, manteni\u00e9ndote siempre dentro del alcance.<br><br>Cuando el conjuro acabe, el objetivo flotar\u00e1 suavemente hasta el suelo si todav\u00eda est\u00e1 en el aire."
     ],
     "materiales": "Un peque\u00f1o lazo de cuero o una pieza de alambre bordado con la forma de una taza y una pata larga en un lado."
+  },
+  {
+    "nombre": "Llama permanente",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta que sea disipado",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una llama, equivalente en brillo a una antorcha, surge de un objeto que toques. Este efecto parece una llama normal, pero no genera calor ni quema ox\u00edgeno. Una <i>llama permanente</i> puede ser cubierta o escondida, pero no ahogada o extinguida.",
+    "materiales": "Polvo de rub\u00ed con un valor de 50 po, que se consume como parte del conjuro."
   }
 ]
