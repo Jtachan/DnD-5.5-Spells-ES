@@ -1331,5 +1331,32 @@
     "requiere_ataque": false,
     "descripcion": "Eres capaz de cegar o ensordecer a un enemigo. Una criatura a tu elecci\u00f3n que puedas ver dentro del alcance debe realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Si falla, queda cegada o ensordecida, a tu elecci\u00f3n, hasta el final de la duraci\u00f3n del conjuro. Al final de cada uno de sus turnos, el objetivo puede hacer otra tirada de salvaci\u00f3n de Constituci\u00f3n. Si tiene \u00e9xito, el efecto del conjuro termina para \u00e9l.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 3 o mayor, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 2 que tenga el espacio que hayas empleado.",
     "materiales": null
+  },
+  {
+    "nombre": "Sugesti\u00f3n",
+    "clases": [
+      "Bardo",
+      "Brujo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 8 horas",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Influencias m\u00e1gicamente a una criatura a la que puedas ver dentro del alcance y que pueda o\u00edrte y comprenderte. Sugieres al objetivo un curso de acci\u00f3n (limitado a una o dos frases), pero siempre expresado de tal forma que parezca razonable. Pedirle a la criatura que se apu\u00f1ale, se empale en una lanza, se inmole o realice cualquier otra actividad claramente da\u00f1ina termina el conjuro. Las criaturas que no puedan ser hechizadas no se ven afectadas por este conjuro.<br><br>El objetivo debe hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si falla, llevar\u00e1 a cabo la acci\u00f3n que le sugeriste hasta donde le permitan sus capacidades. Esta acci\u00f3n puede continuar hasta el final de la duraci\u00f3n del conjuro. Si la sugerencia puede ser llevada a cabo en menos tiempo, el conjuro terminar\u00e1 cuando el objetivo complete la tarea encomendada.<br><br>Puedes especificar que ciertas condiciones dispersen una actividad espec\u00edfica mientras el conjuro siga activo. Por ejemplo, puedes sugerir a un caballero que entregue su caballo al primer mendigo que vea. Si la condici\u00f3n no se cumple al primer mendigo que vea, entonces la actividad no se lleva a cabo.<br><br>Si t\u00fa o cualquiera de tus compa\u00f1eros da\u00f1a al objetivo, el conjuro termina.",
+    "materiales": "La lengua de una serpiente y un trozo de panal o una gota de aceite dulce."
   }
 ]
