@@ -1087,5 +1087,31 @@
       "Alteras el tiempo en torno a hasta seis criaturas de tu elecci\u00f3n situadas en un cubo de 12 m de lado dentro del alcance. Cada una de ellas debe superar una tirada de salvaci\u00f3n de Sabidur\u00eda o quedar\u00e1 afectada hasta el final de la duraci\u00f3n del conjuro.<br><br>La velocidad de una criatura afectada se reduce a la mitad, recibe un penalizador de \u22122 a la CA y a las tiradas de salvaci\u00f3n y no puede llevar a cabo reacciones. En su turno, podr\u00e1 usar una acci\u00f3n o una acci\u00f3n adicional, pero no ambas. Independientemente de sus habilidades u objetos m\u00e1gicos, no podr\u00e1 hacer m\u00e1s de un ataque cuerpo a cuerpo o a distancia durante su turno.<br><br>Si la criatura intenta lanzar un conjuro con un tiempo de lanzamiento de 1 acci\u00f3n, tira 1d20. Con un resultado de 11 o m\u00e1s, el conjuro no tiene efecto hasta el pr\u00f3ximo turno de la criatura, que debe utilizar la acci\u00f3n de ese turno para completar el conjuro. Si no puede, el conjuro se pierde.<br><br>Una criatura afectada por este conjuro realiza otra tirada de salvaci\u00f3n de Sabidur\u00eda al final de cada uno de sus turnos. Si tiene \u00e9xito, el efecto termina para ella inmediatamente."
     ],
     "materiales": "Una gota de melaza."
+  },
+  {
+    "nombre": "Recado",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Ilimitado",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Env\u00edas un mensaje corto de veinticinco palabras o menos a una criatura con la que est\u00e9s familiarizado. El objetivo escucha el mensaje en su mente, te reconoce como el emisor si te conoce y puede contestar de la misma manera inmediatamente. El conjuro permite que criaturas con una puntuaci\u00f3n de Inteligencia de al menos 1 sean capaces de comprender el significado de tu mensaje.<br><br>Puedes enviarlo a cualquier distancia, incluyendo otros planos de existencia, pero si el objetivo est\u00e1 en un plano distinto al tuyo hay un 5 % de posibilidades de que el mensaje no llegue a su destino.",
+    "materiales": "Un alambre de cobre corto."
   }
 ]
