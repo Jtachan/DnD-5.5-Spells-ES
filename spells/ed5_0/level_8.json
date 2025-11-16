@@ -356,5 +356,31 @@
     "requiere_ataque": false,
     "descripcion": "Atacas la mente de una criatura que puedas ver dentro del alcance, intentando destruir su intelecto y su personalidad. El objetivo recibe 4d6 de da\u00f1o ps\u00edquico y debe hacer una tirada de salvaci\u00f3n de Inteligencia.<br><br>Si fracasa, la Inteligencia y el Carisma de la criatura pasan a ser 1. Tras esto, el objetivo no puede lanzar conjuros, activar objetos m\u00e1gicos, comprender idiomas o comunicarse de forma inteligible. A pesar de ello, es capaz de identificar a sus amigos, seguirlos y defenderlos.<br><br>Cada 30 d\u00edas la criatura puede repetir la tirada de salvaci\u00f3n de este conjuro. Si tiene \u00e9xito, el efecto del conjuro termina.<br><br>Tambi\u00e9n se puede finalizar este conjuro usando restablecimiento mayor, curar o deseo.",
     "materiales": "Un pu\u00f1ado de arcilla, cristal, vidrio o esferas minerales."
+  },
+  {
+    "nombre": "Semiplano",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas una puerta de sombras en una superficie s\u00f3lida y plana que puedas ver dentro del alcance. Esta puerta es suficientemente grande para permitir el paso sin trabas de criaturas Medianas. Cuando est\u00e9s abierta, la puerta lleva a un semiplano que puede tener una habitaci\u00f3n vac\u00eda de 30 pies de lado en cada dimensi\u00f3n, hecha de madera o de piedra. Cuando el conjuro termina, la puerta desaparece y cualquier criatura u objeto dentro del semiplano permanece encerrado en \u00e9l, al desaparecer la puerta no hay forma de escapar.<br><br>Cada vez que lanzas este conjuro eres capaz de crear un semiplano nuevo o hacer que la puerta te abra un semiplano con un plano que creaste en un lanzamiento anterior de este conjuro. Adem\u00e1s, si conoces la naturaleza y contenido de un semiplano creado mediante este conjuro por otra criatura, puedes hacer que la puerta de sombras conecte con ese semiplano.",
+      "Creas una puerta de sombras en una superficie s\u00f3lida y plana que puedas ver dentro del alcance. Esta puerta es suficientemente grande para permitir el paso sin trabas de criaturas Medianas. Cuando est\u00e9s abierta, la puerta lleva a un semiplano que puede tener una habitaci\u00f3n vac\u00eda de 9 m de lado en cada dimensi\u00f3n, hecha de madera o de piedra. Cuando el conjuro termina, la puerta desaparece y cualquier criatura u objeto dentro del semiplano permanece encerrado en \u00e9l, al desaparecer la puerta no hay forma de escapar.<br><br>Cada vez que lanzas este conjuro eres capaz de crear un semiplano nuevo o hacer que la puerta te abra un semiplano con un plano que creaste en un lanzamiento anterior de este conjuro. Adem\u00e1s, si conoces la naturaleza y contenido de un semiplano creado mediante este conjuro por otra criatura, puedes hacer que la puerta de sombras conecte con ese semiplano."
+    ],
+    "materiales": null
   }
 ]
