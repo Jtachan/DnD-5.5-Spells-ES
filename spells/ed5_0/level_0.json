@@ -290,5 +290,35 @@
     "requiere_ataque": false,
     "descripcion": "Un fulgor de llamas desciende sobre una criatura que puedas ver dentro del alcance. El objetivo deber\u00e1 tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o sufrir\u00e1 1d8 de da\u00f1o radiante. Adem\u00e1s, el objetivo no podr\u00e1 beneficiarse de cobertura para esta tirada de salvaci\u00f3n.<br><br><b><i>A niveles superiores.</i></b> El da\u00f1o del conjuro aumenta en 1d8 cuando alcanzas nivel 5 (2d8), nivel 11 (3d8) y nivel 17 (4d8).",
     "materiales": null
+  },
+  {
+    "nombre": "Luces danzantes",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas hasta cuatro luces similares a la producida por una antorcha dentro del alcance. Puedes darles la apariencia de antorchas, linternas o unos fuegos fatuos, y levitan hasta el final de la duraci\u00f3n del conjuro. Tambi\u00e9n puedes combinar las cuatro luces para formar una luz de aspecto vagamente humanoide y de tama\u00f1o Mediano. En ambos casos, cada luz proyecta luz tenue en un radio de 10 pies.<br><br>Como acci\u00f3n adicional puedes mover las luces hasta 60 pies a una nueva localizaci\u00f3n dentro del alcance. Cada luz debe estar a 20 pies o menos de otra luz creada por este conjuro y se desvanecer\u00e1 si sale del alcance del mismo.",
+      "Creas hasta cuatro luces similares a la producida por una antorcha dentro del alcance. Puedes darles la apariencia de antorchas, linternas o unos fuegos fatuos, y levitan hasta el final de la duraci\u00f3n del conjuro. Tambi\u00e9n puedes combinar las cuatro luces para formar una luz de aspecto vagamente humanoide y de tama\u00f1o Mediano. En ambos casos, cada luz proyecta luz tenue en un radio de 3 m.<br><br>Como acci\u00f3n adicional puedes mover las luces hasta 18 m a una nueva localizaci\u00f3n dentro del alcance. Cada luz debe estar a 6 m o menos de otra luz creada por este conjuro y se desvanecer\u00e1 si sale del alcance del mismo."
+    ],
+    "materiales": "Una pizca de f\u00f3sforo, un pedazo de olmo mohoso o un gusano luminiscente."
   }
 ]
