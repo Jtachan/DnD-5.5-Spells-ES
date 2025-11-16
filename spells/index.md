@@ -352,8 +352,8 @@ En esta tabla aparecen todos los conjuros (organizados alfabéticamente) que ha 
 | Sanctasanctórum privado de Mordenkainen | 4         | Private Sanctum               |
 | Santuario                               | 1         | Sanctuary                     |
 | Semiplano                               | 8         | Demiplane                     |
-| Señal de esperanza                      | 3         | Beacon of hope                |
 | Sentidos de la bestia                   | 2         | ❌                             |
+| Señal de esperanza                      | 3         | Beacon of hope                |
 | Shillelagh                              | 0 (Truco) | Shillelagh                    |
 | Silencio                                | 2         | Silence                       |
 | Símbolo                                 | 7         | Symbol                        |
