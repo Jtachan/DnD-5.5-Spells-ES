@@ -890,5 +890,35 @@
       "Cambias la apariencia del terreno natural dentro de un cubo de 45 m de lado dentro del alcance, haciendo que se vea, suene y huela como otro tipo de terreno natural. Puedes hacer que un campo abierto o una carretera parezcan un pantano, una colina, una fisura o un tipo de terreno dif\u00edcil o infranqueable. Igualmente, una charca podr\u00eda parecer una pradera de hierba, un precipicio una suave ladera o un barranco lleno de rocas una carretera ancha y lisa. Las estructuras construidas, el equipo y las criaturas dentro de la zona no cambian de apariencia.<br><br>Las caracter\u00edsticas t\u00e1ctiles del terreno no cambian, as\u00ed que lo m\u00e1s probable es que cualquier criatura que entre en el \u00e1rea se d\u00e9 cuenta de la ilusi\u00f3n. Si la diferencia no es obvia tocando el terreno, una criatura que examine la ilusi\u00f3n con cuidado puede determinar que es irreal si tiene \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros. Si la supera, ver\u00e1 la ilusi\u00f3n como una imagen borrosa superpuesta sobre el terreno real."
     ],
     "materiales": "Una piedra, una ramita y un trocito de una planta."
+  },
+  {
+    "nombre": "Tormenta de hielo",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Hechicero"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "300 pies",
+      "90 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una granizada de hielo duro como una roca machaca el suelo en una zona limitada por un cilindro de 20 pies de radio y 40 pies de altura centrado en un punto que se encuentre dentro del alcance. Todas las criaturas en el \u00e1rea deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 2d8 de da\u00f1o contundente y 4d6 de da\u00f1o de fr\u00edo si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>El \u00e1rea queda totalmente cubierta de hielo y se convierte en terreno dif\u00edcil hasta el final de tu pr\u00f3ximo turno.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el da\u00f1o contundente aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio que hayas empleado.",
+      "Una granizada de hielo duro como una roca machaca el suelo en una zona limitada por un cilindro de 6 m de radio y 12 m de altura centrado en un punto que se encuentre dentro del alcance. Todas las criaturas en el \u00e1rea deben hacer una tirada de salvaci\u00f3n de Destreza. Sufrir\u00e1n 2d8 de da\u00f1o contundente y 4d6 de da\u00f1o de fr\u00edo si fallan la tirada o la mitad del da\u00f1o si la superan.<br><br>El \u00e1rea queda totalmente cubierta de hielo y se convierte en terreno dif\u00edcil hasta el final de tu pr\u00f3ximo turno.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 5 o m\u00e1s, el da\u00f1o contundente aumenta en 1d8 por cada nivel por encima de 4 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Unas gotas de agua y una pizca de polvo."
   }
 ]
