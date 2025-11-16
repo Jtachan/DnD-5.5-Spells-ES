@@ -730,5 +730,34 @@
       "Abres una puerta a la oscuridad entre las estrellas, una regi\u00f3n infestada de horrores ignotos. Aparece una esfera de 6 m de radio de negrura e intenso fr\u00edo, centrada en un punto dentro del alcance y que permanece hasta el final de la duraci\u00f3n del conjuro. Del vac\u00edo surge una cacofon\u00eda de suaves susurros y sonidos de succi\u00f3n, audible a 9 m de distancia. Ninguna luz, m\u00e1gica u ordinaria, puede iluminar la zona y las criaturas completamente dentro de ella quedan cegadas.<br><br>El vac\u00edo crea una distorsi\u00f3n en el entramado del espacio, por lo que el \u00e1rea es terreno dif\u00edcil. Una criatura que comience su turno en la zona recibe 2d6 de da\u00f1o de fr\u00edo. Una criatura que termine su turno en el \u00e1rea debe tener \u00e9xito en una tirada de salvaci\u00f3n de Destreza o recibir 2d6 de da\u00f1o de \u00e1cido por la fricci\u00f3n de los tent\u00e1culos lechosos y de otro mundo que surgen de la oscuridad."
     ],
     "materiales": "Un tent\u00e1culo de pulpo en salmuera."
+  },
+  {
+    "nombre": "Imagen mayor",
+    "clases": [
+      "Bardo",
+      "Hechicero",
+      "Mago"
+    ],
+    "escuela": "Ilusi\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Creas una imagen de un objeto, una criatura u otro tipo de fen\u00f3meno visible, cuyas dimensiones no excedan las de un cubo de 20 pies de lado. La imagen aparece en un sitio que puedas ver dentro del alcance y se mantiene hasta el final de la duraci\u00f3n del conjuro. Parece completamente real, incluyendo sonidos, olores y temperatura apropiados a lo que representa, pero no puede causar da\u00f1o real.<br><br>Mientras est\u00e9s dentro del alcance de la ilusi\u00f3n, puedes utilizar tu acci\u00f3n para moverla a otro sitio dentro de dicho alcance. Cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n. Si una criatura utiliza su acci\u00f3n para examinarla, puede determinar que es una ilusi\u00f3n con \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros.",
+      "Creas una imagen de un objeto, una criatura u otro tipo de fen\u00f3meno visible, cuyas dimensiones no excedan las de un cubo de 6 m de lado. La imagen aparece en un sitio que puedas ver dentro del alcance y se mantiene hasta el final de la duraci\u00f3n del conjuro. Parece completamente real, incluyendo sonidos, olores y temperatura apropiados a lo que representa, pero no puede causar da\u00f1o real.<br><br>Mientras est\u00e9s dentro del alcance de la ilusi\u00f3n, puedes utilizar tu acci\u00f3n para moverla a otro sitio dentro de dicho alcance. Cambiarla de sitio, puedes alterar su apariencia de forma que sus movimientos parezcan naturales.<br><br>La interacci\u00f3n f\u00edsica con la imagen revela que es una ilusi\u00f3n. Si una criatura utiliza su acci\u00f3n para examinarla, puede determinar que es una ilusi\u00f3n con \u00e9xito en una prueba de Inteligencia (Investigaci\u00f3n) cuya CD es tu salvaci\u00f3n de conjuros."
+    ],
+    "materiales": "Un poco de vell\u00f3n."
   }
 ]
