@@ -209,5 +209,29 @@
       "Llenas de deslumbrante luz del sol una zona esf\u00e9rica de 18 m de radio alrededor de un punto de tu elecci\u00f3n. Cada criatura en el \u00e1rea debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Si fracasa, recibir\u00e1 12d6 de da\u00f1o radiante y quedar\u00e1 cegada durante 1 minuto. Si la supera, recibir\u00e1 la mitad del da\u00f1o y no quedar\u00e1 cegada. Los muertos vivientes y los c\u00edclopes tienen desventaja en esta tirada de salvaci\u00f3n.<br><br>Una criatura cegada por este conjuro puede realizar otra tirada de salvaci\u00f3n de Constituci\u00f3n al final de cada uno de sus turnos. Si tiene \u00e9xito, dejar\u00e1 de estar cegada.<br><br>Este conjuro disipa cualquier oscuridad en el \u00e1rea que fuera producto de un conjuro."
     ],
     "materiales": "Fuego y un pedazo de heliolita."
+  },
+  {
+    "nombre": "Laberinto",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "INT",
+    "requiere_ataque": false,
+    "descripcion": "Exilias a una criatura que puedas ver dentro del alcance a un semiplano laber\u00edntico. Permanecer\u00e1 en su interior hasta el final de la duraci\u00f3n del conjuro o hasta que escape del laberinto.<br><br>Una criatura puede utilizar su acci\u00f3n para intentar escapar. Para ello, realizar\u00e1 una prueba de Inteligencia CD 20. Si tiene \u00e9xito, escapar\u00e1 y el conjuro termina (los minotauros y los demonios goristro tienen \u00e9xito autom\u00e1ticamente).<br><br>Cuando el conjuro termine, el objetivo reaparecer\u00e1 en el espacio que ocupaba antes o en el m\u00e1s cercano disponible si ese est\u00e1 ocupado.",
+    "materiales": null
   }
 ]
