@@ -1072,5 +1072,32 @@
       "Lanzas una esfera de energ\u00eda de 10 cm de di\u00e1metro a una criatura que puedas ver dentro del alcance. Elige entre \u00e1cido, fr\u00edo, fuego, rel\u00e1mpago, veneno o trueno para el tipo de orbe creado y, despu\u00e9s, haz un ataque de conjuro a distancia contra el objetivo. Si el ataque impacta, la criatura recibe 3d8 de da\u00f1o del tipo elegido.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d8 por cada nivel por encima de 1 que tenga el espacio que hayas empleado."
     ],
     "materiales": "Un diamante que valga al menos 50 po."
+  },
+  {
+    "nombre": "Orden imperiosa",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Palad\u00edn"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "1 asalto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Das una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o verse obligada a obedecer la orden en su pr\u00f3ximo turno. Este conjuro no tiene efecto si el objetivo es un muerto viviente, si no entiende tu idioma o si la orden implicar\u00eda da\u00f1ar a la criatura de forma directa.<br><br>M\u00e1s abajo puedes encontrar ejemplos de \u00f3rdenes t\u00edpicas y sus efectos, aunque puedes dar otras distintas a las que se describen aqu\u00ed. En ese caso, el DM decide c\u00f3mo reaccionar\u00e1 el objetivo. Si la criatura no puede obedecer la orden, el conjuro termina.<br><br><b>Ac\u00e9rcate.</b> El objetivo se acerca a ti por el camino m\u00e1s corto y directo posible, acabando su turno si se mueve a 5 pies o menos de ti.<br><br><b>Suelta.</b> El objetivo suelta lo que est\u00e9 sujetando y acaba su turno.<br><br><b>Huye.</b> El objetivo utiliza su turno en alejarse de ti de la manera m\u00e1s r\u00e1pida posible.<br><br><b>\u00c9chate.</b> El objetivo se tira al suelo boca abajo y acaba su turno.<br><br><b>Detente.</b> El objetivo no se mueve ni realiza ninguna acci\u00f3n. Si es posible, una criatura que est\u00e9 volando permanecer\u00e1 en el aire. Si para ello necesita moverse, volar o mantenerse en el aire, entonces caer\u00e1.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1.",
+      "Das una orden de una sola palabra a una criatura que puedas ver dentro del alcance. El objetivo debe tener \u00e9xito en una tirada de salvaci\u00f3n de Sabidur\u00eda o verse obligada a obedecer la orden en su pr\u00f3ximo turno. Este conjuro no tiene efecto si el objetivo es un muerto viviente, si no entiende tu idioma o si la orden implicar\u00eda da\u00f1ar a la criatura de forma directa.<br><br>M\u00e1s abajo puedes encontrar ejemplos de \u00f3rdenes t\u00edpicas y sus efectos, aunque puedes dar otras distintas a las que se describen aqu\u00ed. En ese caso, el DM decide c\u00f3mo reaccionar\u00e1 el objetivo. Si la criatura no puede obedecer la orden, el conjuro termina.<br><br><b>Ac\u00e9rcate.</b> El objetivo se acerca a ti por el camino m\u00e1s corto y directo posible, acabando su turno si se mueve a 1,5 m o menos de ti.<br><br><b>Suelta.</b> El objetivo suelta lo que est\u00e9 sujetando y acaba su turno.<br><br><b>Huye.</b> El objetivo utiliza su turno en alejarse de ti de la manera m\u00e1s r\u00e1pida posible.<br><br><b>\u00c9chate.</b> El objetivo se tira al suelo boca abajo y acaba su turno.<br><br><b>Detente.</b> El objetivo no se mueve ni realiza ninguna acci\u00f3n. Si es posible, una criatura que est\u00e9 volando permanecer\u00e1 en el aire. Si para ello necesita moverse, volar o mantenerse en el aire, entonces caer\u00e1.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1."
+    ],
+    "materiales": null
   }
 ]
