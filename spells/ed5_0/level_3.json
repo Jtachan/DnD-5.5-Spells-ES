@@ -1006,5 +1006,31 @@
       "Tejes en el aire un patr\u00f3n tortuoso de colores que llena un cubo de 9 m de lado dentro del alcance. El patr\u00f3n aparece un momento y despu\u00e9s desaparece. Todas las criaturas en el \u00e1rea que vean el patr\u00f3n deben hacer una tirada de salvaci\u00f3n de Sabidur\u00eda. Si fallan, quedar\u00e1n hechizadas hasta el final de la duraci\u00f3n del conjuro. Mientras una criatura siga hechizada, estar\u00e1 incapacitada y su velocidad ser\u00e1 0.<br><br>El conjuro termina para una criatura afectada si recibe cualquier tipo de da\u00f1o o si alguien utiliza una acci\u00f3n para sacarla de su estupor."
     ],
     "materiales": "Un palo de incienso encendido o un vial de cristal lleno de material fosforescente."
+  },
+  {
+    "nombre": "Peque\u00f1a choza de Leomund",
+    "clases": [
+      "Bardo",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "1 minuto",
+    "ritual": true,
+    "alcance": "Lanzador",
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "8 horas",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Una c\u00fapula inm\u00f3vil de fuerza surge en un radio de 10 pies alrededor de ti y permanece est\u00e1tica hasta el final de la duraci\u00f3n del conjuro. Este termina inmediatamente si sales de la zona.<br><br>Hasta nueve criaturas de tama\u00f1o Mediano o menor caben dentro de la c\u00fapula contigo. El conjuro falla si su zona incluye a una criatura de mayor tama\u00f1o o a m\u00e1s de nueve. Las criaturas y los objetos dentro de la c\u00fapula cuando lanzas el conjuro pueden atravesarla con libertad. Todas las dem\u00e1s criaturas y objetos no podr\u00e1n entrar.<br><br>Los conjuros y otros efectos m\u00e1gicos no pueden extender sus efectos dentro de la c\u00fapula o ser lanzados con su origen dentro. La atm\u00f3sfera dentro de este espacio es confortable y seca, independientemente del tiempo en el exterior.<br><br>Hasta que acabe el conjuro, puedes hacer que el interior est\u00e9 iluminado con luz tenue o a oscuras. La c\u00fapula es opaca desde fuera, del color que elijas, pero transparente desde dentro.",
+      "Una c\u00fapula inm\u00f3vil de fuerza surge en un radio de 3 m alrededor de ti y permanece est\u00e1tica hasta el final de la duraci\u00f3n del conjuro. Este termina inmediatamente si sales de la zona.<br><br>Hasta nueve criaturas de tama\u00f1o Mediano o menor caben dentro de la c\u00fapula contigo. El conjuro falla si su zona incluye a una criatura de mayor tama\u00f1o o a m\u00e1s de nueve. Las criaturas y los objetos dentro de la c\u00fapula cuando lanzas el conjuro pueden atravesarla con libertad. Todas las dem\u00e1s criaturas y objetos no podr\u00e1n entrar.<br><br>Los conjuros y otros efectos m\u00e1gicos no pueden extender sus efectos dentro de la c\u00fapula o ser lanzados con su origen dentro. La atm\u00f3sfera dentro de este espacio es confortable y seca, independientemente del tiempo en el exterior.<br><br>Hasta que acabe el conjuro, puedes hacer que el interior est\u00e9 iluminado con luz tenue o a oscuras. La c\u00fapula es opaca desde fuera, del color que elijas, pero transparente desde dentro."
+    ],
+    "materiales": "Una peque\u00f1a cuenta de cristal."
   }
 ]
