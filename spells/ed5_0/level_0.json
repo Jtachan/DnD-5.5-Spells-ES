@@ -643,5 +643,28 @@
     "requiere_ataque": false,
     "descripcion": "La madera de un bast\u00f3n o garrote que empu\u00f1as queda imbuida con el poder de la naturaleza. Hasta el final de la duraci\u00f3n del conjuro puedes usar tu aptitud m\u00e1gica en vez de tu Fuerza para las tiradas de ataque y da\u00f1o al utilizar esta arma, y su dado de da\u00f1o pasa a ser 1d8. Adem\u00e1s, el arma se convierte en m\u00e1gica si no lo era ya. El conjuro termina si lo lanzas de nuevo o si sueltas el arma.",
     "materiales": "Mu\u00e9rdago, una hoja de tr\u00e9bol y un garrote o bast\u00f3n."
+  },
+  {
+    "nombre": "Taumaturgia",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Transmutaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Manifiestas un peque\u00f1o milagro o se\u00f1al de poder sobrenatural dentro del alcance. Produces uno de los siguientes efectos m\u00e1gicos:<ul><li>Tu voz resuena hasta tres veces m\u00e1s fuerte de lo normal durante 1 minuto.</li><li>Haces que una llama titile, cambie la intensidad de su brillo o modifiques su color durante 1 minuto.</li><li>Haces que la tierra tiemble inofensivamente durante 1 minuto.</li><li>Creas un sonido instant\u00e1neo, que tiene como origen un punto de tu elecci\u00f3n dentro del alcance. Por ejemplo, el retumbe de un trueno, el graznido de un cuervo o unos susurros de un maligno.</li><li>Haces que una puerta o ventana que no est\u00e9 cerrada con llave se abra o cierre de golpe.</li><li>Cambias el aspecto de tus ojos durante 1 minuto.</li></ul>Si lanzas este conjuro varias veces, puedes mantener hasta tres de sus efectos no instant\u00e1neos activos a la vez. Para finalizar cualquiera de ellos deber\u00e1s emplear una acci\u00f3n.",
+    "materiales": null
   }
 ]
