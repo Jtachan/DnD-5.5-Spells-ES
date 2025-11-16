@@ -915,5 +915,30 @@
     "requiere_ataque": true,
     "descripcion": "Haz un ataque de conjuro cuerpo a cuerpo contra una criatura que se encuentre dentro del alcance. Si impacta, el objetivo recibe 3d10 de da\u00f1o necr\u00f3tico.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 2 o m\u00e1s, el da\u00f1o aumenta en 1d10 por cada nivel por encima de 1 que tenga el espacio que hayas empleado.",
     "materiales": null
+  },
+  {
+    "nombre": "Maleficio",
+    "clases": [
+      "Brujo"
+    ],
+    "escuela": "Encantamiento",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "90 pies",
+      "27 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 hora",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Impones una maldici\u00f3n a una criatura que puedas ver dentro del alcance. Hasta el final del conjuro, sufrir\u00e1 1d6 de da\u00f1o necr\u00f3tico adicional cada vez que sea impactada por uno de tus ataques. Adem\u00e1s, elige una caracter\u00edstica cuando lanzas el conjuro. El objetivo tiene desventaja en las pruebas de caracter\u00edstica y tiradas de salvaci\u00f3n hechas con la caracter\u00edstica elegida.<br><br>Si los puntos de golpe del objetivo se reducen a 0 antes del final de la duraci\u00f3n del conjuro, puedes utilizar una acci\u00f3n adicional en un turno posterior para transferir la maldici\u00f3n a una nueva criatura.<br><br>El conjuro levantar maldici\u00f3n termina este conjuro inmediatamente.<br><br><b><i>A niveles superiores.</i></b> Si utilizas un espacio de conjuro de nivel 3 o 4, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 8 horas. Si usas un espacio de conjuro de nivel 5 o m\u00e1s, la duraci\u00f3n pasa a ser: concentraci\u00f3n, hasta 24 horas.",
+    "materiales": "El ojo petrificado de un trit\u00f3n."
   }
 ]
