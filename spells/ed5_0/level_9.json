@@ -151,5 +151,26 @@
     "requiere_ataque": false,
     "descripcion": "Pronuncias una palabra de poder capaz de matar instant\u00e1neamente a una criatura que puedas ver dentro del alcance. Si la criatura elegida posee 100 puntos de golpe o menos, muere. Si no es as\u00ed, el conjuro no tiene efecto.",
     "materiales": null
+  },
+  {
+    "nombre": "Palabra de poder: sanar",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": "Toque",
+    "visible": true,
+    "componentes": [
+      "V",
+      "S"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Una ola de curaci\u00f3n inunda a la criatura que tocas. Recupera todos sus puntos de golpe. Si est\u00e1 hechizada, asustada, paralizada o aturdida, ese estado termina. Si est\u00e1 derribada, puede usar su reacci\u00f3n para levantarse. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.",
+    "materiales": null
   }
 ]
