@@ -220,5 +220,33 @@
     "requiere_ataque": false,
     "descripcion": "Elige a una criatura u objeto no m\u00e1gico que puedas ver dentro del alcance. Puedes transformar a la criatura en una criatura diferente o en un objeto, o al objeto en una criatura (nadie puede estar vistiendo o portando este objeto). La transformaci\u00f3n se mantiene hasta el final de la duraci\u00f3n del conjuro o hasta que el objetivo muera o sea reducido a 0 puntos de golpe. Si te concentras en el conjuro durante su duraci\u00f3n completa, la transformaci\u00f3n permanece hasta que sea disipada.<br><br>El conjuro no tendr\u00e1 efecto en un cambiaformas o en una criatura con 0 puntos de golpe. Un objetivo no voluntario puede realizar una tirada de salvaci\u00f3n de Carisma, y si tiene \u00e9xito no se ver\u00e1 afectado por el conjuro.<br><br><b>Criatura en criatura.</b> Si conviertes una criatura en otro tipo de criatura, la nueva forma puede ser la de cualquier criatura cuyo valor de desaf\u00edo sea igual o menor que el del objetivo (o igual o menor que el nivel del objetivo, si este no tiene un valor de desaf\u00edo). Reemplaza el perfil del objetivo con el perfil de la forma elegida, incluyendo las puntuaciones de caracter\u00edstica mentales. Mantendr\u00e1 su alineamiento y personalidad. El objetivo pasar\u00e1 a tener los puntos de golpe de su nueva forma, y cuando revierta a su forma normal, volver\u00e1 a poseer los puntos de golpe que tuviera antes de la transformaci\u00f3n. Si la transformaci\u00f3n se rompe al quedar su nueva forma reducida a 0 puntos de golpe, cualquier da\u00f1o sobrante se aplica a la forma normal. Si ese da\u00f1o sobrante reduce la forma normal de la criatura a 0 puntos de vida, no cae inconsciente.<br><br>Las acciones de la criatura quedan limitadas por la naturaleza de su nueva forma, y tampoco puede hablar, lanzar conjuros o realizar cualquier acci\u00f3n que requiera del habla o uso de las manos si no es algo que su nueva forma sea capaz de hacer.<br><br>El equipamiento del objetivo se funde con la nueva forma. El objetivo no puede activar, blandir o beneficiarse de su equipamiento de ninguna manera.<br><br><b>Objeto en criatura.</b> Puedes convertir un objeto en cualquier tipo de criatura, siempre que el tama\u00f1o de esta no sea mayor que el tama\u00f1o del objeto y su valor de desaf\u00edo sea igual o inferior a 9. La criatura es amistosa hacia ti y tus compa\u00f1eros. Act\u00faa en cada uno de tus turnos. T\u00fa decides qu\u00e9 acci\u00f3n realiza y c\u00f3mo se mueve. El DM tiene los perfiles de estas criaturas y resuelve sus acciones y movimientos.<br><br>Si el conjuro se vuelve permanente, ya no controlas a la criatura. Puede seguir siendo amistosa hacia ti, dependiendo de c\u00f3mo la hayas tratado.<br><br><b>Criatura en objeto.</b> Si conviertes a una criatura en un objeto, se transforma, junto con cualquier cosa que vista y porte, en la forma elegida. El perfil de la criatura ser\u00e1 el del objeto y esta no tendr\u00e1 memoria del tiempo pasado en esa forma despu\u00e9s de que el conjuro termine y vuelva a su forma normal.",
     "materiales": "Una gota de mercurio, una migaja de goma ar\u00e1biga y un hilillo de humo."
+  },
+  {
+    "nombre": "Portal",
+    "clases": [
+      "Mago"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 1 minuto",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "Conjuras un portal que enlaza un espacio desocupado que puedas ver dentro del alcance, con una localizaci\u00f3n precisa en otro plano de existencia. El portal es una apertura circular de entre 5 y 20 pies, a tu elecci\u00f3n. Puedes orientar el portal en la direcci\u00f3n que desees y se mantendr\u00e1 hasta el final de la duraci\u00f3n del conjuro.<br><br>El portal tiene un anverso y un reverso en cada plano que conecta. Viajar solo es posible movi\u00e9ndose a trav\u00e9s del anverso. Cualquier cosa que lo haga es transportada instant\u00e1neamente al otro plano, apareciendo en el espacio desocupado m\u00e1s cercano al portal.<br><br>Deidades y otros gobernantes de los planos pueden evitar que se abran los portales creados por este conjuro, en su presencia o en cualquier parte de sus dominios.<br><br>Cuando lanzas este conjuro, puedes decir el nombre de una criatura espec\u00edfica (un pseud\u00f3nimo, t\u00edtulo o apodo no es suficiente). Si esa criatura est\u00e1 en un plano diferente al tuyo, el portal se abrir\u00e1 al lado de ella y la transportar\u00e1 a tu plano, dej\u00e1ndola en el espacio desocupado m\u00e1s cercano al portal. No tienes ning\u00fan poder especial sobre la criatura y es libre de actuar de modo que el DM considere apropiado. Puede irse, atacarte o ayudarte.",
+      "Conjuras un portal que enlaza un espacio desocupado que puedas ver dentro del alcance, con una localizaci\u00f3n precisa en otro plano de existencia. El portal es una apertura circular de entre 5 y 6 m, a tu elecci\u00f3n. Puedes orientar el portal en la direcci\u00f3n que desees y se mantendr\u00e1 hasta el final de la duraci\u00f3n del conjuro.<br><br>El portal tiene un anverso y un reverso en cada plano que conecta. Viajar solo es posible movi\u00e9ndose a trav\u00e9s del anverso. Cualquier cosa que lo haga es transportada instant\u00e1neamente al otro plano, apareciendo en el espacio desocupado m\u00e1s cercano al portal.<br><br>Deidades y otros gobernantes de los planos pueden evitar que se abran los portales creados por este conjuro, en su presencia o en cualquier parte de sus dominios.<br><br>Cuando lanzas este conjuro, puedes decir el nombre de una criatura espec\u00edfica (un pseud\u00f3nimo, t\u00edtulo o apodo no es suficiente). Si esa criatura est\u00e1 en un plano diferente al tuyo, el portal se abrir\u00e1 al lado de ella y la transportar\u00e1 a tu plano, dej\u00e1ndola en el espacio desocupado m\u00e1s cercano al portal. No tienes ning\u00fan poder especial sobre la criatura y es libre de actuar de modo que el DM considere apropiado. Puede irse, atacarte o ayudarte."
+    ],
+    "materiales": "Un diamante que valga, al menos, 5.000 po."
   }
 ]
