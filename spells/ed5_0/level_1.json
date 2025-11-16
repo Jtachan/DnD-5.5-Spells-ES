@@ -1426,5 +1426,30 @@
     "requiere_ataque": false,
     "descripcion": "Tocas a una criatura. Su distancia de salto se triplica hasta el final del conjuro.",
     "materiales": "Una pata trasera de saltamontes."
+  },
+  {
+    "nombre": "Santuario",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Abjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "30 pies",
+      "9 m"
+    ],
+    "visible": false,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": false,
+    "duracion": "1 minuto",
+    "tirada_de_salvacion": "SAB",
+    "requiere_ataque": false,
+    "descripcion": "Proteges de los ataques a una criatura dentro del alcance. Hasta el final de la duraci\u00f3n del conjuro, cualquier criatura que elija como objetivo de un ataque o un conjuro hostil a la criatura protegida debe realizar antes una tirada de salvaci\u00f3n de Sabidur\u00eda. Si la falla, la criatura debe elegir un nuevo objetivo o perder el ataque o conjuro. Sin embargo, santuario no salvaguardar\u00e1 a la criatura protegida de efectos de \u00e1rea, como por ejemplo la explosi\u00f3n de una bola de fuego.<br><br>Por otro lado, si la criatura protegida realiza un ataque o lanza un conjuro que afecta a una criatura enemiga, santuario termina inmediatamente.",
+    "materiales": "Un espejo de plata peque\u00f1o."
   }
 ]
