@@ -849,5 +849,35 @@
       "Un muro de fuerza invisible aparece en un punto de tu elecci\u00f3n dentro del alcance. Este puede tener cualquier orientaci\u00f3n que elijas, ya sea una barrera horizontal o vertical o colocado en \u00e1ngulo. Puede flotar en el aire o reposar en una superficie s\u00f3lida. Puedes darle forma de c\u00fapula semiesf\u00e9rica o de esfera con un radio de hasta 3 m, o puedes crear una superficie plana compuesta por diez paneles de 10 por 3 m. Cada panel debe ser contiguo a otro. En cualquiera de las disposiciones, el muro tiene 1/4 de pulgada de ancho. Permanecer\u00e1 hasta el final de la duraci\u00f3n del conjuro. Si el muro atravesar\u00eda el espacio de una criatura al aparecer, esta ser\u00e1 empujada a uno u otro lado del muro (a tu elecci\u00f3n).<br><br>Nada puede atravesar f\u00edsicamente el muro. Es inmune a todo tipo de da\u00f1o y no puede ser disipado usando disipar magia. Sin embargo, el conjuro desintegrar destruye el muro instant\u00e1neamente. El muro tambi\u00e9n se extiende al Plano Et\u00e9reo, bloqueando los viajes et\u00e9reos."
     ],
     "materiales": "Una pizca de polvo resultante de machacar una gema transparente."
+  },
+  {
+    "nombre": "Muro de piedra",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Mago"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "120 pies",
+      "36 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "DES",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Un muro no m\u00e1gico de piedra s\u00f3lida surge en un punto de tu elecci\u00f3n dentro del alcance. Este tiene 6 pulgadas de grosor y est\u00e1 formado por diez paneles cuadrados de 10 por 10 pies. Cada panel debe ser contiguo a otro. De forma alternativa, puedes crear paneles rectangulares de 10 pies por 20 pies, pero s\u00f3lo tendr\u00e1n 3 pulgadas de grosor.<br><br>Si el muro atraviesa el espacio de una criatura cuando aparece, esta se ver\u00e1 empujada a uno u otro lado del muro (a tu elecci\u00f3n). Si una criatura fuera a quedar completamente rodeada por el muro (o por el muro y otra superficie s\u00f3lida), esta puede hacer una tirada de salvaci\u00f3n de Destreza. Si tiene \u00e9xito, puede usar su reacci\u00f3n para mover hasta su velocidad de manera que no quede encerrada por el muro.<br><br>El muro puede tener cualquier forma que desees, pero no puede ocupar el mismo espacio que una criatura u objeto. No es necesario que sea vertical o que descanse sobre unos cimientos s\u00f3lidos. Sin embargo, s\u00ed que es obligatorio que se funda con un cuerpo de piedra existente, y que este pueda sostener el muro. De esta manera, podr\u00e1s usar el conjuro para salvar un abismo o crear una rampa.<br><br>Si creas una arcada de m\u00e1s de 20 pies de longitud, debes reducir a la mitad el tama\u00f1o de cada panel para crear estructuras de soporte. Adem\u00e1s, eras capaz, de manera indirecta, de que el muro fuera capaz de a\u00f1adir almenas, parapetos, etc.<br><br>El muro es un objeto hecho de piedra que puede ser da\u00f1ado y por tanto atravesado. Cada panel tiene CA 15 y 30 puntos de golpe por cada pulgada de grosor. Reducir a un panel a 0 puntos de golpe lo destruye y, podr\u00eda, de forma indirecta, hacer que otros paneles conectados se derrumben.<br><br>Si mantienes la concentraci\u00f3n en el conjuro durante toda su duraci\u00f3n, el muro se convierte en permanente y no puede ser destruido. En caso contrario, el muro desaparece cuando el conjuro termina.",
+      "Un muro no m\u00e1gico de piedra s\u00f3lida surge en un punto de tu elecci\u00f3n dentro del alcance. Este tiene 15 cm de grosor y est\u00e1 formado por diez paneles cuadrados de 10 por 3 m. Cada panel debe ser contiguo a otro. De forma alternativa, puedes crear paneles rectangulares de 3 m por 6 m, pero s\u00f3lo tendr\u00e1n 7,5 cm de grosor.<br><br>Si el muro atraviesa el espacio de una criatura cuando aparece, esta se ver\u00e1 empujada a uno u otro lado del muro (a tu elecci\u00f3n). Si una criatura fuera a quedar completamente rodeada por el muro (o por el muro y otra superficie s\u00f3lida), esta puede hacer una tirada de salvaci\u00f3n de Destreza. Si tiene \u00e9xito, puede usar su reacci\u00f3n para mover hasta su velocidad de manera que no quede encerrada por el muro.<br><br>El muro puede tener cualquier forma que desees, pero no puede ocupar el mismo espacio que una criatura u objeto. No es necesario que sea vertical o que descanse sobre unos cimientos s\u00f3lidos. Sin embargo, s\u00ed que es obligatorio que se funda con un cuerpo de piedra existente, y que este pueda sostener el muro. De esta manera, podr\u00e1s usar el conjuro para salvar un abismo o crear una rampa.<br><br>Si creas una arcada de m\u00e1s de 6 m de longitud, debes reducir a la mitad el tama\u00f1o de cada panel para crear estructuras de soporte. Adem\u00e1s, eras capaz, de manera indirecta, de que el muro fuera capaz de a\u00f1adir almenas, parapetos, etc.<br><br>El muro es un objeto hecho de piedra que puede ser da\u00f1ado y por tanto atravesado. Cada panel tiene CA 15 y 30 puntos de golpe por cada pulgada de grosor. Reducir a un panel a 0 puntos de golpe lo destruye y, podr\u00eda, de forma indirecta, hacer que otros paneles conectados se derrumben.<br><br>Si mantienes la concentraci\u00f3n en el conjuro durante toda su duraci\u00f3n, el muro se convierte en permanente y no puede ser destruido. En caso contrario, el muro desaparece cuando el conjuro termina."
+    ],
+    "materiales": "Un peque\u00f1o bloque de granito."
   }
 ]
