@@ -579,5 +579,31 @@
       "Creas un muro de hielo en una superficie s\u00f3lida que puedas ver dentro del alcance. Puedes darle forma de c\u00fapula semiesf\u00e9rica o de esfera con un radio de hasta 3 m, o puedes crear una superficie plana compuesta por diez paneles de 10 por 3 m. Cada panel debe ser contiguo a otro. En cualquiera de las formas, el muro tiene 0,3 m de ancho y dura hasta el final del conjuro.<br><br>Si el muro atraviesa el espacio de una criatura al aparecer, esta ser\u00e1 empujada a un lado del muro y deber\u00e1 hacer una tirada de salvaci\u00f3n de Destreza. La criatura sufrir\u00e1 10d6 de da\u00f1o de fr\u00edo si falla la tirada o la mitad del da\u00f1o si la supera.<br><br>El muro es un objeto que puede ser da\u00f1ado y por tanto atravesado. Tiene CA 12 y 30 puntos de golpe por cada secci\u00f3n de 3 m, adem\u00e1s de ser vulnerable al da\u00f1o de fuego. Reducir una secci\u00f3n de 3 m del muro a 0 puntos de golpe la destruye y deja una capa de aire helado en el espacio que ocupaba el muro. Cuando una criatura atraviesa esta capa de aire por primera vez en un turno, debe realizar una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1 5d6 de da\u00f1o de fr\u00edo si falla la tirada o la mitad del da\u00f1o si la supera.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 7 o m\u00e1s, el da\u00f1o que inflige el muro al aparecer aumenta en 2d6, y el da\u00f1o por atravesar la capa de aire helado aumenta en 1d6 por cada nivel por encima de 6 del espacio."
     ],
     "materiales": "Un pedacito de cuarzo."
+  },
+  {
+    "nombre": "Palabra de regreso",
+    "clases": [
+      "Cl\u00e9rigo"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "5 pies",
+      "1.5 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": [
+      "T\u00fa y hasta cinco criaturas voluntarias a 5 pies de ti os teletransport\u00e1is instant\u00e1neamente a un santuario designado previamente. Aparecer\u00e9is en el espacio libre m\u00e1s cercano al punto que elegiste al preparar tu santuario (ver m\u00e1s abajo). Si lanzas este conjuro sin haber dispuesto un santuario primero, este no tendr\u00e1 ning\u00fan efecto.<br><br>Primero debes designar un santuario lanzando este conjuro dentro de una localizaci\u00f3n, como un templo, dedicada o fuertemente vinculada a tu deidad. Si intentas lanzar el conjuro para este prop\u00f3sito en un \u00e1rea que no est\u00e9 consagrada a tu divinidad, este no tendr\u00e1 efecto.",
+      "T\u00fa y hasta cinco criaturas voluntarias a 1,5 m de ti os teletransport\u00e1is instant\u00e1neamente a un santuario designado previamente. Aparecer\u00e9is en el espacio libre m\u00e1s cercano al punto que elegiste al preparar tu santuario (ver m\u00e1s abajo). Si lanzas este conjuro sin haber dispuesto un santuario primero, este no tendr\u00e1 ning\u00fan efecto.<br><br>Primero debes designar un santuario lanzando este conjuro dentro de una localizaci\u00f3n, como un templo, dedicada o fuertemente vinculada a tu deidad. Si intentas lanzar el conjuro para este prop\u00f3sito en un \u00e1rea que no est\u00e9 consagrada a tu divinidad, este no tendr\u00e1 efecto."
+    ],
+    "materiales": null
   }
 ]
