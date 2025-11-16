@@ -296,7 +296,7 @@
       "Mago"
     ],
     "escuela": "Abjuraci\u00f3n",
-    "tiempo_de_lanzamiento": "Reacci\u00f3n, que llevas a cabo cuando una criatura que puedas ver a 60 pies o menos lance un conjuro",
+    "tiempo_de_lanzamiento": "Reacci\u00f3n",
     "ritual": false,
     "alcance": [
       "60 pies",
@@ -310,7 +310,7 @@
     "duracion": "Instant\u00e1neo",
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
-    "descripcion": "Intentas interrumpir a una criatura mientras lanza un conjuro. Si este \u00faltimo es de nivel 3 o menor, lo logras autom\u00e1ticamente y el conjuro no tiene efecto alguno. Sin embargo, para cada conjuro de nivel 4 o m\u00e1s, realiza una prueba de caracter\u00edstica usando tu aptitud m\u00e1gica. La CD es 10 + el nivel del conjuro. Si tienes \u00e9xito, el conjuro de la criatura falla y no tiene efecto.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, cancelas autom\u00e1ticamente aquellos conjuros cuyo nivel sea menor o igual al nivel del espacio de conjuro utilizado.",
+    "descripcion": "Intentas interrumpir a una criatura, que puedas ver dentro del alcance, mientras lanza un conjuro. Si este \u00faltimo es de nivel 3 o menor, lo logras autom\u00e1ticamente y el conjuro no tiene efecto alguno. Sin embargo, para cada conjuro de nivel 4 o m\u00e1s, realiza una prueba de caracter\u00edstica usando tu aptitud m\u00e1gica. La CD es 10 + el nivel del conjuro. Si tienes \u00e9xito, el conjuro de la criatura falla y no tiene efecto.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, cancelas autom\u00e1ticamente aquellos conjuros cuyo nivel sea menor o igual al nivel del espacio de conjuro utilizado.",
     "materiales": null
   },
   {
