@@ -952,5 +952,30 @@
       "Creas una nube de gas amarillo nauseabundo que cubre una zona esf\u00e9rica de 6 m de radio alrededor de un punto de tu elecci\u00f3n. Se extiende m\u00e1s all\u00e1 de las esquinas y el \u00e1rea se considera muy oscura. Permanecer\u00e1 en el ambiente hasta el final de la duraci\u00f3n del conjuro.<br><br>Cada criatura que est\u00e9 completamente dentro de la nube al comienzo de su turno debe hacer una tirada de salvaci\u00f3n de Constituci\u00f3n con desventaja. Si fracasa, emplear\u00e1 su acci\u00f3n del turno en tambalearse y vomitar. Las criaturas que no se vean afectadas por los venenos o que sean inmunes a ese tipo de da\u00f1o autom\u00e1ticamente no est\u00e1n afectadas ni tienen tirada de salvaci\u00f3n.<br><br>Un viento moderado (no menor de 15 km por hora) dispersa la nube tras 4 asaltos. Un viento fuerte (de al menos 30 km por hora) dispersa la nube tras 1 asalto."
     ],
     "materiales": "Un huevo podrido o varias hojas de cola de mofeta oriental."
+  },
+  {
+    "nombre": "Palabra de curaci\u00f3n en masa",
+    "clases": [
+      "Bardo",
+      "Cl\u00e9rigo",
+      "Druida"
+    ],
+    "escuela": "Evocaci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n adicional",
+    "ritual": false,
+    "alcance": [
+      "60 pies",
+      "18 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V"
+    ],
+    "concentracion": false,
+    "duracion": "Instant\u00e1neo",
+    "tirada_de_salvacion": null,
+    "requiere_ataque": false,
+    "descripcion": "Formulando palabras de sanaci\u00f3n, haces que hasta seis criaturas de tu elecci\u00f3n que puedas ver dentro del alcance recuperen cada una tantos puntos de golpe como 1d4 + tu modificador por aptitud m\u00e1gica. Este conjuro no afecta a muertos vivientes o aut\u00f3matas.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 4 o m\u00e1s, la curaci\u00f3n aumenta en 1d4 por cada nivel por encima de 3 que tenga el espacio que hayas empleado.",
+    "materiales": null
   }
 ]
