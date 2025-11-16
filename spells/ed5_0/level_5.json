@@ -986,5 +986,35 @@
       "Ganas la capacidad de entrar en un \u00e1rbol y moverte desde su interior hasta el interior de otro \u00e1rbol del mismo tipo que se encuentre una distancia m\u00e1xima de 150 m. Ambos \u00e1rboles deben estar vivos y ser de, por lo menos, tu tama\u00f1o. Cuesta 1,5 m de movimiento entrar en un \u00e1rbol. Conoces inmediatamente la localizaci\u00f3n del resto de \u00e1rboles del mismo tipo en un radio de 150 m y, como parte del movimiento usado para entrar en el \u00e1rbol, puedes pasar a uno de esos otros \u00e1rboles o salir del que ocupas actualmente. En ambos casos, apareces en un lugar de tu elecci\u00f3n a 1,5 m del \u00e1rbol destino, utilizando otros 1,5 m de movimiento. Si no te queda movimiento, apareces a 1,5 m del \u00e1rbol en el que entraste.<br><br>Puedes usar esta habilidad de transporte una vez por asalto hasta el final de la duraci\u00f3n del conjuro. Debes acabar cada turno fuera de un \u00e1rbol."
     ],
     "materiales": null
+  },
+  {
+    "nombre": "Plaga de insectos",
+    "clases": [
+      "Cl\u00e9rigo",
+      "Druida",
+      "Explorador"
+    ],
+    "escuela": "Conjuraci\u00f3n",
+    "tiempo_de_lanzamiento": "Acci\u00f3n",
+    "ritual": false,
+    "alcance": [
+      "300 pies",
+      "90 m"
+    ],
+    "visible": true,
+    "componentes": [
+      "V",
+      "S",
+      "M"
+    ],
+    "concentracion": true,
+    "duracion": "Hasta 10 minutos",
+    "tirada_de_salvacion": "CON",
+    "requiere_ataque": false,
+    "descripcion": [
+      "Llenas de voraces langostas una zona esf\u00e9rica de 20 pies de radio alrededor de un punto de tu elecci\u00f3n. La esfera se extiende m\u00e1s all\u00e1 de las esquinas y se mantiene hasta el final de la duraci\u00f3n del conjuro. La zona ocupada por ella se considerar\u00e1 ligeramente oscura, adem\u00e1s de terreno dif\u00edcil.<br><br>Cuando aparece el enjambre, todas las criaturas en el \u00e1rea deben hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1n 4d10 de da\u00f1o perforante si fallan la tirada o la mitad del da\u00f1o si la superan. Las criaturas tambi\u00e9n deber\u00e1n realizar esta tirada de salvaci\u00f3n cuando entren en la zona del conjuro por primera vez en un turno dado o cuando acaben su turno en ella.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el da\u00f1o aumenta en 1d10 por cada nivel por encima de 5 que tenga el espacio que hayas empleado.",
+      "Llenas de voraces langostas una zona esf\u00e9rica de 6 m de radio alrededor de un punto de tu elecci\u00f3n. La esfera se extiende m\u00e1s all\u00e1 de las esquinas y se mantiene hasta el final de la duraci\u00f3n del conjuro. La zona ocupada por ella se considerar\u00e1 ligeramente oscura, adem\u00e1s de terreno dif\u00edcil.<br><br>Cuando aparece el enjambre, todas las criaturas en el \u00e1rea deben hacer una tirada de salvaci\u00f3n de Constituci\u00f3n. Sufrir\u00e1n 4d10 de da\u00f1o perforante si fallan la tirada o la mitad del da\u00f1o si la superan. Las criaturas tambi\u00e9n deber\u00e1n realizar esta tirada de salvaci\u00f3n cuando entren en la zona del conjuro por primera vez en un turno dado o cuando acaben su turno en ella.<br><br><b><i>A niveles superiores.</i></b> Cuando lanzas este conjuro utilizando un espacio de conjuro de nivel 6 o m\u00e1s, el da\u00f1o aumenta en 1d10 por cada nivel por encima de 5 que tenga el espacio que hayas empleado."
+    ],
+    "materiales": "Un poco de az\u00facar, algunos granos de ma\u00edz y una pizca de grasa."
   }
 ]
