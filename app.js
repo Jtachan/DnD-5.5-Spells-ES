@@ -155,7 +155,7 @@ async function loadData() {
         console.error('Error al cargar spells.json', error);
         tableBody.innerHTML = '<tr><td colspan="13">No se pudieron cargar los datos.</td></tr>';
   });
-
+    currentPage = 1;
   } catch (err) {
     console.error(err);
   }
