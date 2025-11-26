@@ -44,6 +44,7 @@ tr:hover {
     cursor: pointer;
 }
 .controls {
+    width: 100%;
     margin-bottom: 10px;
 }
 .controls label, .controls input, .controls select {
