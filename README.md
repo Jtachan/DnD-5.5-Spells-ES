@@ -38,9 +38,9 @@ Cada conjuro contiene las siguientes entradas:
 
 ### Ejemplos
 
-- **Abrir**: Conjuro de nivel 2 sin daño ni materiales.
+- **Abrir**: Conjuro de nivel 2 sin materiales y con unidades (imperiales/métricas) en la descripción.
 - **Agarre electrizante**: Conjuro de nivel 0 (Truco).
-- **Alarma**: Conjuro de nivel 1 que requiere componentes.
+- **Alarma**: Conjuro de nivel 1 que requiere componentes (también con unidades en la descripción).
 
 ```json
 [
