@@ -97,8 +97,8 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": [
-      "Un aura emana de tu presencia con un radio de 30 pies, siempre centrado en t\u00ed. Al principio de cada uno de tus turnos, puedes restar 2d6 puntos de golpe de una \u00fanica criatura que se encuentre en el interior de tu aura, siempre que el conjuro este activo.",
-      "Un aura emana de tu presencia con un radio de 9 m, siempre centrado en t\u00ed. Al principio de cada uno de tus turnos, puedes restar 2d6 puntos de golpe de una \u00fanica criatura que se encuentre en el interior de tu aura, siempre que el conjuro este activo."
+      "Un aura emana de tu presencia con un radio de 30 pies, siempre centrado en t\u00ed. Al principio de cada uno de tus turnos, puedes restaurar 2d6 puntos de golpe de una \u00fanica criatura que se encuentre en el interior de tu aura, siempre que el conjuro este activo.",
+      "Un aura emana de tu presencia con un radio de 9 m, siempre centrado en t\u00ed. Al principio de cada uno de tus turnos, puedes restaurar 2d6 puntos de golpe de una \u00fanica criatura que se encuentre en el interior de tu aura, siempre que el conjuro este activo."
     ],
     "materiales": null
   },
