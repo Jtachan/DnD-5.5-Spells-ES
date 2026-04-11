@@ -751,8 +751,8 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": [
-      "Un aura emana de tu presencia con un radio de 30 pies, siempre centrado en t\u00ed. Al principio de cada uno de tus turnos, puedes restar 2d6 puntos de golpe de una \u00fanica criatura que se encuentre en el interior de tu aura, siempre que el conjuro este activo.",
-      "Un aura emana de tu presencia con un radio de 9 m, siempre centrado en t\u00ed. Al principio de cada uno de tus turnos, puedes restar 2d6 puntos de golpe de una \u00fanica criatura que se encuentre en el interior de tu aura, siempre que el conjuro este activo."
+      "Un aura emana de tu presencia con un radio de 30 pies, siempre centrado en t\u00ed. Al principio de cada uno de tus turnos, puedes restaurar 2d6 puntos de golpe de una \u00fanica criatura que se encuentre en el interior de tu aura, siempre que el conjuro este activo.",
+      "Un aura emana de tu presencia con un radio de 9 m, siempre centrado en t\u00ed. Al principio de cada uno de tus turnos, puedes restaurar 2d6 puntos de golpe de una \u00fanica criatura que se encuentre en el interior de tu aura, siempre que el conjuro este activo."
     ],
     "materiales": null,
     "nivel": 3
@@ -3484,8 +3484,8 @@
     "tirada_de_salvacion": null,
     "requiere_ataque": false,
     "descripcion": [
-      "Todas las criaturas de tu elecci\u00f3n en una esfera de 5 pies de radio centrada en un punto del alcance se ver\u00e1n afectadas en funci\u00f3n del resultado de la tirada de dados de vida. Una criatura ser\u00e1 afectada si su salud es igual o menor que la cantidad restante de puntos del efecto. El conjuro termina sobre un objetivo si recibe da\u00f1o o si alguien, a 5 pies o menos de \u00e9l, lo emplea una acci\u00f3n para zarandearlo y poner fin al efecto del conjuro.<br><br>Las criaturas que no duermen, como los elfos, o que tengan inmunidad al estado de cansancio superan autom\u00e1ticamente las tiradas de salvaci\u00f3n contra este conjuro.",
-      "Todas las criaturas de tu elecci\u00f3n en una esfera de 1,5 m de radio centrada en un punto del alcance se ver\u00e1n afectadas en funci\u00f3n del resultado de la tirada de dados de vida. Una criatura ser\u00e1 afectada si su salud es igual o menor que la cantidad restante de puntos del efecto. El conjuro termina sobre un objetivo si recibe da\u00f1o o si alguien, a 1,5 m o menos de \u00e9l, lo emplea una acci\u00f3n para zarandearlo y poner fin al efecto del conjuro.<br><br>Las criaturas que no duermen, como los elfos, o que tengan inmunidad al estado de cansancio superan autom\u00e1ticamente las tiradas de salvaci\u00f3n contra este conjuro."
+      "Todas las criaturas de tu elecci\u00f3n en una esfera de 5 pies de radio centrada en un punto del alcance deben superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1n el estado de incapacitadas hasta el final del siguiente turno, momento en el que deber\u00e1n repetir la tirada de salvaci\u00f3n. Si un objetivo falla la segunda tirada tendr\u00e1 el estado de inconsciente hasta que termine el conjuro. El conjuro termina sobre un objetivo si recibe da\u00f1o o si alguien a 5 pies o menos de \u00e9l emplea una acci\u00f3n para zarandearlo y poner fin al efecto del conjuro.<br><br>Las criaturas que no duermen, como los elfos, o que tengan inmunidad al estado de incapacitado superan autom\u00e1ticamente las tiradas de salvaci\u00f3n contra este conjuro.",
+      "Todas las criaturas de tu elecci\u00f3n en una esfera de 1,5 m de radio centrada en un punto del alcance deben superar una tirada de salvaci\u00f3n de Sabidur\u00eda o tendr\u00e1n el estado de incapacitadas hasta el final del siguiente turno, momento en el que deber\u00e1n repetir la tirada de salvaci\u00f3n. Si un objetivo falla la segunda tirada tendr\u00e1 el estado de inconsciente hasta que termine el conjuro. El conjuro termina sobre un objetivo si recibe da\u00f1o o si alguien a 1,5 m o menos de \u00e9l emplea una acci\u00f3n para zarandearlo y poner fin al efecto del conjuro.<br><br>Las criaturas que no duermen, como los elfos, o que tengan inmunidad al estado de incapacitado superan autom\u00e1ticamente las tiradas de salvaci\u00f3n contra este conjuro."
     ],
     "materiales": "Una pizca de arena o p\u00e9talos de rosa.",
     "nivel": 1
