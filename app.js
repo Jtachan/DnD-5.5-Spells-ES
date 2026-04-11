@@ -183,7 +183,7 @@ fetch('./VERSION')
   .then(response => response.text())
   .then(ver_text =>{
     const version = ver_text.trim();
-    document.querySelector('#app-version')?.replaceChildren(document.createTextNode(version));
+    document.querySelector('#api-metadata')?.replaceChildren(document.createTextNode(version));
   } )
   .catch(() => {});
 
