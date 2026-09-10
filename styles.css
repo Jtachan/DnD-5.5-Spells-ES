@@ -1,15 +1,4 @@
-/* =========================================================================
-   Lista de Conjuros — DnD themed stylesheet
-   Repo: https://github.com/Jtachan/DnD-5.5-Spells-ES
-   Replaces the existing styles.css. Selectors match the real index.html.
-   ========================================================================= */
-
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
-
-/* ---------- Theme variables ---------- */
-/* Dark mode (torchlit dungeon) is the default. Light mode (sunlit parchment)
-   is applied when the #theme-toggle checkbox is checked. Requires :has()
-   support: Chrome/Edge 105+, Safari 15.4+, Firefox 121+. */
 
 :root {
   --radius: 6px;
@@ -131,7 +120,7 @@ body > div[style] {
 }
 
 .controls br {
-  display: none; /* the layout gap replaces the manual <br> */
+  display: none;
 }
 
 .edition-group {
@@ -409,7 +398,7 @@ body > div[style*="font-size"] ul {
 
 .modal.open,
 .modal[style*="block"] {
-  display: flex;
+  display: flex !important;
 }
 
 .modal-content {
@@ -420,9 +409,8 @@ body > div[style*="font-size"] ul {
   border-radius: 8px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
   padding: 28px 30px;
-  max-width: 640px;
   width: 90%;
-  max-height: 82vh;
+  max-height: 90%;
   overflow-y: auto;
   color: var(--ink);
 }
@@ -549,7 +537,7 @@ body > div[style*="font-size"] ul {
 }
 
 #theme-toggle:checked ~ .theme-switch-track .theme-switch-thumb::after {
-  content: "\1F319"; /* 🌙 */
+  content: "\1F319";
 }
 
 #theme-toggle:focus-visible ~ .theme-switch-track {
