@@ -5,9 +5,15 @@ Base de datos NoSQL de los conjuros de _Dungeons and Dragons_ (reglas básicas).
 Todos los hechizos contenidos en este proyecto pertenecen a _Wizards of the Coast_ bajo licencia **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 Aquellos conjuros que no se encuentran en el archivo [SRD v5.2](https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf) han sido adaptados.
 
-> Nota:
-> La extracción de los datos se ha hecho con IA, aunque se han revisado manualmente.
-> Puesto que hay errores que se me pueden escapar, por favor cread tickets si encontráis algún error.
+## AI Disclosure
+
+Se ha realizado el uso de la IA como soporte para:
+
+- La automatización en la extracción de datos de los conjuros para el formato JSON requerido.
+- Establecer el CSS de la página.
+
+Mientras gran parte del contenido ha sido revisado y corregido por mí (sin usar la IA), es posible que todavía queden errores.
+No dudes en crear tickets si encuentras algo extraño.
 
 ## Estructura
 
