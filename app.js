@@ -28,6 +28,7 @@ function getSelectedEdition() {
 }
 
 function getSpellDataPath() {
+  clearFilters();
   const ed = getSelectedEdition();
   return ed === '5.0' ? 'spells/ed5_0/all.json' : 'spells/ed5_5/all.json';
 }
@@ -123,6 +124,15 @@ function updateFilter() {
   renderTable();
 }
 
+function clearFilters() {
+  searchInput.value = '';
+  levelFilter.value = '';
+  classFilter.value = '';
+  schoolFilter.value = '';
+  currentPage = 1;
+  updateFilter();
+}
+
 searchInput.addEventListener('input', updateFilter);
 levelFilter.addEventListener('change', updateFilter);
 classFilter.addEventListener('change', updateFilter);
@@ -202,13 +212,7 @@ reportCloseBtn.addEventListener('click', () => {
 window.addEventListener('click', e => {
   if (e.target === reportModal) reportModal.style.display = 'none';
 });
-clearFiltersBtn.addEventListener('click', () => {
-  levelFilter.value = '';
-  classFilter.value = '';
-  schoolFilter.value = '';
-  currentPage = 1;
-  updateFilter();
-});
+clearFiltersBtn.addEventListener('click', () => clearFilters());
 
 // Access GitHub repository
 document.getElementById('ghBtn').addEventListener('click', () => {
