@@ -227,17 +227,14 @@ button:disabled {
 /* ---------- Table ---------- */
 
 table {
-  display: block;
-  overflow-x: auto;
-  width: fit-content;
+  overflow: scroll;
+  width: 100%;
   border-collapse: collapse;
   background: var(--parchment);
   border: 2px solid var(--wood);
   border-radius: var(--radius);
   box-shadow: var(--shadow-deep);
-  margin-bottom: 16px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px 0;
 }
 
 thead {
