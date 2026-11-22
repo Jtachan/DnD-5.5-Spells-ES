@@ -108,8 +108,7 @@
   {
     "nombre": "Conjurar feérico",
     "clases": [
-      "Druida",
-      "Mago"
+      "Druida"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -664,7 +663,8 @@
     "nombre": "Rayo solar",
     "clases": [
       "Clérigo",
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
