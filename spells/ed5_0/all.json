@@ -404,8 +404,7 @@
   {
     "nombre": "Arma elemental",
     "clases": [
-      "Druida",
-      "Explorador"
+      "Druida"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -1688,7 +1687,8 @@
     "nombre": "Conjurar descarga de proyectiles",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Explorador"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -1795,7 +1795,8 @@
     "nombre": "Conjurar lluvia de flechas",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Explorador"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -3141,8 +3142,7 @@
       "Druida",
       "Hechicero",
       "Mago",
-      "Paladín",
-      "Explorador"
+      "Paladín"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -3573,7 +3573,8 @@
   {
     "nombre": "Enredadera",
     "clases": [
-      "Druida"
+      "Druida",
+      "Explorador"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción adicional",
@@ -5684,8 +5685,7 @@
   {
     "nombre": "Látigo de espinas",
     "clases": [
-      "Druida",
-      "Explorador"
+      "Druida"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -7098,8 +7098,7 @@
     "nombre": "Plaga de insectos",
     "clases": [
       "Clérigo",
-      "Druida",
-      "Explorador"
+      "Druida"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
