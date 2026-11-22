@@ -208,4 +208,4 @@ if __name__ == "__main__":
             # Warning, this will update all spanish special characters to unicode.
             #  for example 'ó' -> '\u00f3'.
             with open(file_name, "w", encoding="utf-8") as fh:
-                json.dump(spells, fh, indent=2)
+                json.dump(spells, fh, indent=2, ensure_ascii=False)
