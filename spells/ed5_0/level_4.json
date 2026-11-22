@@ -407,7 +407,6 @@
   {
     "nombre": "Fabricar",
     "clases": [
-      "Bardo",
       "Mago"
     ],
     "escuela": "Transmutación",

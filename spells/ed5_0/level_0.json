@@ -146,7 +146,8 @@
     "clases": [
       "Hechicero",
       "Mago",
-      "Brujo"
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -329,7 +330,8 @@
     "clases": [
       "Clérigo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",

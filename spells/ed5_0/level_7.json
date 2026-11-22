@@ -165,7 +165,8 @@
       "Clérigo",
       "Hechicero",
       "Mago",
-      "Brujo"
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -249,7 +250,8 @@
   {
     "nombre": "Mansión magnífica de Mordenkainen",
     "clases": [
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -300,7 +302,8 @@
   {
     "nombre": "Proyectar imagen",
     "clases": [
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
@@ -325,7 +328,6 @@
   {
     "nombre": "Recluir",
     "clases": [
-      "Bardo",
       "Mago"
     ],
     "escuela": "Transmutación",
@@ -376,7 +378,8 @@
     "nombre": "Resurrección",
     "clases": [
       "Clérigo",
-      "Paladín"
+      "Paladín",
+      "Bardo"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "1 hora",
@@ -473,7 +476,8 @@
     "nombre": "Teletransporte",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",

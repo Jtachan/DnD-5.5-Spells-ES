@@ -309,7 +309,8 @@
     "clases": [
       "Hechicero",
       "Mago",
-      "Brujo"
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -334,7 +335,8 @@
     "clases": [
       "Mago",
       "Druida",
-      "Brujo"
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",

@@ -56,8 +56,7 @@
   },
   {
     "nombre": "Arma elemental",
-    "clases": [
-    ],
+    "clases": [],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
@@ -370,7 +369,8 @@
     "nombre": "Crecimiento vegetal",
     "clases": [
       "Druida",
-      "Explorador"
+      "Explorador",
+      "Bardo"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción / 8 horas",
@@ -625,7 +625,8 @@
     "nombre": "Glifo custodio",
     "clases": [
       "Clérigo",
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "1 hora",
@@ -761,7 +762,8 @@
     "nombre": "Imponer maldición",
     "clases": [
       "Clérigo",
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",
@@ -891,7 +893,6 @@
   {
     "nombre": "Muro de viento",
     "clases": [
-      "Bardo",
       "Druida",
       "Explorador"
     ],
@@ -951,7 +952,6 @@
   {
     "nombre": "Palabra de curación en masa",
     "clases": [
-      "Bardo",
       "Clérigo"
     ],
     "escuela": "Evocación",
@@ -1186,7 +1186,6 @@
   {
     "nombre": "Señal de esperanza",
     "clases": [
-      "Bardo",
       "Clérigo",
       "Paladín"
     ],

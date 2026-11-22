@@ -392,7 +392,8 @@
   {
     "nombre": "Guardas y guardias",
     "clases": [
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "10 minutos",
@@ -473,7 +474,8 @@
     "clases": [
       "Brujo",
       "Mago",
-      "Hechicero"
+      "Hechicero",
+      "Bardo"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",
@@ -829,7 +831,8 @@
       "Clérigo",
       "Mago",
       "Hechicero",
-      "Brujo"
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "Acción",

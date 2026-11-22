@@ -1128,7 +1128,8 @@
     "nombre": "Perdición",
     "clases": [
       "Clérigo",
-      "Paladín"
+      "Paladín",
+      "Bardo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",

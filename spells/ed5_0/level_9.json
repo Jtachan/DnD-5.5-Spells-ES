@@ -26,7 +26,6 @@
     "nombre": "Cautiverio",
     "clases": [
       "Bardo",
-      "Brujo",
       "Mago"
     ],
     "escuela": "Abjuración",
@@ -132,7 +131,8 @@
     "clases": [
       "Mago",
       "Hechicero",
-      "Brujo"
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -155,7 +155,7 @@
   {
     "nombre": "Palabra de poder: sanar",
     "clases": [
-
+      "Bardo"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -201,7 +201,8 @@
     "nombre": "Polimorfar verdadero",
     "clases": [
       "Mago",
-      "Brujo"
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",

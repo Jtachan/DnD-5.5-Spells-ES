@@ -111,7 +111,8 @@
     "clases": [
       "Clérigo",
       "Mago",
-      "Druida"
+      "Druida",
+      "Bardo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "1 hora",
@@ -765,7 +766,8 @@
     "clases": [
       "Brujo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",

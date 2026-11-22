@@ -379,7 +379,8 @@
     "clases": [
       "Hechicero",
       "Brujo",
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -922,7 +923,8 @@
     "clases": [
       "Hechicero",
       "Mago",
-      "Brujo"
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -1415,7 +1417,6 @@
   {
     "nombre": "Truco de la cuerda",
     "clases": [
-      "Bardo",
       "Mago"
     ],
     "escuela": "Transmutación",
