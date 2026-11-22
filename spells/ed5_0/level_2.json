@@ -540,7 +540,8 @@
   {
     "nombre": "Esfera de llamas",
     "clases": [
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -624,7 +625,8 @@
     "clases": [
       "Bardo",
       "Brujo",
-      "Hechicero"
+      "Hechicero",
+      "Mago"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -812,7 +814,8 @@
   {
     "nombre": "Llama permanente",
     "clases": [
-      "Clérigo"
+      "Clérigo",
+      "Mago"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -865,7 +868,8 @@
       "Clérigo",
       "Druida",
       "Paladín",
-      "Explorador"
+      "Explorador",
+      "Mago"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "Acción",
@@ -1079,7 +1083,6 @@
       "Bardo",
       "Clérigo",
       "Druida",
-      "Mago",
       "Hechicero"
     ],
     "escuela": "Transmutación",
@@ -1281,8 +1284,7 @@
     "clases": [
       "Bardo",
       "Clérigo",
-      "Explorador",
-      "Mago"
+      "Explorador"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
