@@ -301,7 +301,8 @@
   {
     "nombre": "Conjurar elemental",
     "clases": [
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -330,7 +331,6 @@
     "nombre": "Conjurar lluvia de flechas",
     "clases": [
       "Hechicero",
-      "Mago",
       "Explorador"
     ],
     "escuela": "Conjuración",
@@ -662,7 +662,8 @@
     "clases": [
       "Bardo",
       "Brujo",
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -716,7 +717,8 @@
       "Bardo",
       "Clérigo",
       "Druida",
-      "Paladín"
+      "Paladín",
+      "Mago"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "1 minuto",
