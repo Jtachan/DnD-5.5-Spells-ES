@@ -253,7 +253,8 @@
     "nombre": "Presagio",
     "clases": [
       "Bardo",
-      "Clérigo"
+      "Clérigo",
+      "Mago"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "1 minuto",
