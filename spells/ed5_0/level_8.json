@@ -129,7 +129,8 @@
     "nombre": "Controlar el clima",
     "clases": [
       "Clérigo",
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "10 minutos",
@@ -239,8 +240,7 @@
     "clases": [
       "Bardo",
       "Brujo",
-      "Hechicero",
-      "Mago"
+      "Hechicero"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
