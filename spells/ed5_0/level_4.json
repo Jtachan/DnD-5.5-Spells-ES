@@ -330,7 +330,8 @@
   {
     "nombre": "Enredadera",
     "clases": [
-      "Druida"
+      "Druida",
+      "Explorador"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción adicional",
