@@ -265,7 +265,6 @@
     "nombre": "Conjurar descarga de proyectiles",
     "clases": [
       "Hechicero",
-      "Mago",
       "Explorador"
     ],
     "escuela": "Conjuración",
@@ -531,7 +530,8 @@
     "clases": [
       "Bardo",
       "Clérigo",
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",
@@ -763,7 +763,8 @@
     "nombre": "Imponer maldición",
     "clases": [
       "Brujo",
-      "Clérigo"
+      "Clérigo",
+      "Mago"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",
@@ -814,7 +815,8 @@
     "clases": [
       "Brujo",
       "Clérigo",
-      "Paladín"
+      "Paladín",
+      "Mago"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -896,8 +898,7 @@
       "Bardo",
       "Druida",
       "Explorador",
-      "Hechicero",
-      "Mago"
+      "Hechicero"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -1143,7 +1144,8 @@
     "nombre": "Respirar bajo el agua",
     "clases": [
       "Druida",
-      "Explorador"
+      "Explorador",
+      "Mago"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
