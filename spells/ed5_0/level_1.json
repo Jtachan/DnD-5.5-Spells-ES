@@ -520,7 +520,6 @@
   {
     "nombre": "Encontrar familiar",
     "clases": [
-      "Brujo",
       "Mago"
     ],
     "escuela": "Conjuración",
@@ -1234,7 +1233,8 @@
     "nombre": "Rayo de hechicería",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -1455,7 +1455,8 @@
     "nombre": "Sirviente invisible",
     "clases": [
       "Bardo",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -1507,7 +1508,8 @@
     "nombre": "Texto ilusorio",
     "clases": [
       "Bardo",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "1 minuto",

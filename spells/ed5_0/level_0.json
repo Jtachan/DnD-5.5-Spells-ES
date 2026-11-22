@@ -145,7 +145,8 @@
     "nombre": "Guardia de cuchillas",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -190,7 +191,8 @@
     "clases": [
       "Bardo",
       "Mago",
-      "Hechicero"
+      "Hechicero",
+      "Brujo"
     ],
     "escuela": "Ilusionismo",
     "tiempo_de_lanzamiento": "Acción",
@@ -219,7 +221,8 @@
     "clases": [
       "Bardo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "Acción",
@@ -381,7 +384,6 @@
     "nombre": "Mensaje",
     "clases": [
       "Bardo",
-      "Brujo",
       "Hechicero",
       "Mago"
     ],
@@ -545,7 +547,8 @@
     "clases": [
       "Druida",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -670,7 +673,8 @@
     "nombre": "Toque helado",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",

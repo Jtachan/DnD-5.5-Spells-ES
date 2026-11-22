@@ -107,7 +107,8 @@
   {
     "nombre": "Conjurar feérico",
     "clases": [
-      "Druida"
+      "Druida",
+      "Brujo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -154,7 +155,8 @@
     "nombre": "Crear muerto viviente",
     "clases": [
       "Clérigo",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -719,7 +721,8 @@
     "clases": [
       "Bardo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -743,7 +746,6 @@
   {
     "nombre": "Urna mágica",
     "clases": [
-      "Brujo",
       "Mago"
     ],
     "escuela": "Nigromancia",
@@ -826,7 +828,8 @@
     "clases": [
       "Clérigo",
       "Mago",
-      "Hechicero"
+      "Hechicero",
+      "Brujo"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "Acción",

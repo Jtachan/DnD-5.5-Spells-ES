@@ -131,7 +131,8 @@
     "nombre": "Palabra de poder: matar",
     "clases": [
       "Mago",
-      "Hechicero"
+      "Hechicero",
+      "Brujo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -199,7 +200,8 @@
   {
     "nombre": "Polimorfar verdadero",
     "clases": [
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -256,7 +258,8 @@
     "clases": [
       "Bardo",
       "Mago",
-      "Druida"
+      "Druida",
+      "Brujo"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -279,7 +282,8 @@
     "nombre": "Proyección astral",
     "clases": [
       "Clérigo",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "1 hora",

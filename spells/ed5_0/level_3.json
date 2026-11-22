@@ -427,7 +427,8 @@
       "Druida",
       "Hechicero",
       "Mago",
-      "Paladín"
+      "Paladín",
+      "Brujo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -731,7 +732,8 @@
     "clases": [
       "Bardo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
@@ -758,7 +760,6 @@
   {
     "nombre": "Imponer maldición",
     "clases": [
-      "Brujo",
       "Clérigo",
       "Mago"
     ],
@@ -976,7 +977,8 @@
     "clases": [
       "Bardo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
@@ -1033,7 +1035,6 @@
       "Druida",
       "Explorador",
       "Hechicero",
-      "Brujo",
       "Mago"
     ],
     "escuela": "Abjuración",
@@ -1213,7 +1214,8 @@
     "clases": [
       "Bardo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
@@ -1291,7 +1293,8 @@
     "nombre": "Volar",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",

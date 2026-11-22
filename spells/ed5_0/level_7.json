@@ -164,7 +164,8 @@
     "clases": [
       "Clérigo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",

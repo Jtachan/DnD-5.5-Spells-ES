@@ -308,7 +308,8 @@
     "nombre": "Palabra de poder: aturdir",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -332,7 +333,8 @@
     "nombre": "Romper la mente",
     "clases": [
       "Mago",
-      "Druida"
+      "Druida",
+      "Brujo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -357,7 +359,8 @@
   {
     "nombre": "Semiplano",
     "clases": [
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",

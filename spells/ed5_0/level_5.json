@@ -109,7 +109,6 @@
   {
     "nombre": "Atadura planar",
     "clases": [
-      "Brujo",
       "Clérigo",
       "Mago",
       "Druida"
@@ -586,8 +585,7 @@
     "clases": [
       "Bardo",
       "Hechicero",
-      "Mago",
-      "Brujo"
+      "Mago"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
