@@ -1023,7 +1023,8 @@
     "clases": [
       "Bardo",
       "Druida",
-      "Hechicero"
+      "Hechicero",
+      "Mago"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -1234,7 +1235,8 @@
   {
     "nombre": "Rayo de hechicería",
     "clases": [
-      "Hechicero"
+      "Hechicero",
+      "Mago"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
