@@ -241,8 +241,7 @@
   {
     "nombre": "Látigo de espinas",
     "clases": [
-      "Druida",
-      "Explorador"
+      "Druida"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",

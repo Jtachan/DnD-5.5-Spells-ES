@@ -330,7 +330,8 @@
     "nombre": "Conjurar lluvia de flechas",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Explorador"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -991,8 +992,7 @@
     "nombre": "Plaga de insectos",
     "clases": [
       "Clérigo",
-      "Druida",
-      "Explorador"
+      "Druida"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
