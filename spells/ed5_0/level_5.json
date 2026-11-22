@@ -255,8 +255,7 @@
   {
     "nombre": "Comunión",
     "clases": [
-      "Clérigo",
-      "Paladín"
+      "Clérigo"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -410,8 +409,7 @@
   {
     "nombre": "Consagrar",
     "clases": [
-      "Clérigo",
-      "Paladín"
+      "Clérigo"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "24 horas",
@@ -458,8 +456,7 @@
     "nombre": "Contagio",
     "clases": [
       "Clérigo",
-      "Druida",
-      "Paladín"
+      "Druida"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",
@@ -712,7 +709,6 @@
       "Bardo",
       "Clérigo",
       "Druida",
-      "Paladín",
       "Mago"
     ],
     "escuela": "Encantamiento",

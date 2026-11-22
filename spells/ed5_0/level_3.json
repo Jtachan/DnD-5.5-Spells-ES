@@ -56,7 +56,7 @@
   },
   {
     "nombre": "Arma elemental",
-    "clases": [],
+    "clases": ["Paladín"],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
@@ -1186,8 +1186,7 @@
   {
     "nombre": "Señal de esperanza",
     "clases": [
-      "Clérigo",
-      "Paladín"
+      "Clérigo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",

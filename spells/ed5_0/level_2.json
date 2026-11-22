@@ -487,7 +487,6 @@
     "nombre": "Dulce descanso",
     "clases": [
       "Clérigo",
-      "Paladín",
       "Mago"
     ],
     "escuela": "Nigromancia",
@@ -1466,8 +1465,7 @@
   {
     "nombre": "Vínculo protector",
     "clases": [
-      "Clérigo",
-      "Paladín"
+      "Clérigo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
