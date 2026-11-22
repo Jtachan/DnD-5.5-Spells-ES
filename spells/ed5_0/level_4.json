@@ -196,7 +196,8 @@
   {
     "nombre": "Conjurar elementales menores",
     "clases": [
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -564,7 +565,8 @@
       "Clérigo",
       "Druida",
       "Paladín",
-      "Explorador"
+      "Explorador",
+      "Mago"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "Acción",
@@ -644,7 +646,8 @@
     "nombre": "Moldear la piedra",
     "clases": [
       "Clérigo",
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -897,7 +900,8 @@
     "clases": [
       "Clérigo",
       "Druida",
-      "Hechicero"
+      "Hechicero",
+      "Mago"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
