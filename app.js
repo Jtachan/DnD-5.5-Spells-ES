@@ -156,6 +156,8 @@ async function loadData() {
         const classesSet = new Set();
         const schoolsSet = new Set();
         spells.forEach(s => { s.clases.forEach(c => classesSet.add(c)); schoolsSet.add(s.escuela); });
+        classFilter.length = 1; // conserva solo "Todas" antes de repoblar
+        schoolFilter.length = 1;
         Array.from(classesSet).sort().forEach(c => { const opt = document.createElement('option'); opt.value = c; opt.textContent = c; classFilter.appendChild(opt); });
         Array.from(schoolsSet).sort().forEach(sch => { const opt = document.createElement('option'); opt.value = sch; opt.textContent = sch; schoolFilter.appendChild(opt); });
         filtered = spells;
