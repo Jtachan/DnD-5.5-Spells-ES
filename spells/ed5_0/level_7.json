@@ -56,7 +56,8 @@
     "nombre": "Dedo de la muerte",
     "clases": [
       "Brujo",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",
@@ -83,7 +84,8 @@
       "Clérigo",
       "Hechicero",
       "Brujo",
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -135,7 +137,8 @@
     "nombre": "Espejismo arcano",
     "clases": [
       "Bardo",
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "10 minutos",
@@ -161,7 +164,9 @@
     "clases": [
       "Clérigo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -185,7 +190,9 @@
   {
     "nombre": "Invertir la gravedad",
     "clases": [
-      "Mago"
+      "Mago",
+      "Hechicero",
+      "Druida"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -215,7 +222,6 @@
     "clases": [
       "Bardo",
       "Brujo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Evocación",
@@ -244,7 +250,8 @@
   {
     "nombre": "Mansión magnífica de Mordenkainen",
     "clases": [
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -295,8 +302,8 @@
   {
     "nombre": "Proyectar imagen",
     "clases": [
-      "Hechicero",
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
@@ -321,8 +328,6 @@
   {
     "nombre": "Recluir",
     "clases": [
-      "Bardo",
-      "Clérigo",
       "Mago"
     ],
     "escuela": "Transmutación",
@@ -373,7 +378,7 @@
     "nombre": "Resurrección",
     "clases": [
       "Clérigo",
-      "Paladín"
+      "Bardo"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "1 hora",
@@ -470,7 +475,8 @@
     "nombre": "Teletransporte",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -497,7 +503,8 @@
     "nombre": "Tormenta de fuego",
     "clases": [
       "Clérigo",
-      "Druida"
+      "Druida",
+      "Hechicero"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",

@@ -349,8 +349,6 @@
   {
     "nombre": "Cordón de flechas",
     "clases": [
-      "Clérigo",
-      "Druida",
       "Explorador"
     ],
     "escuela": "Transmutación",
@@ -381,7 +379,8 @@
     "clases": [
       "Hechicero",
       "Brujo",
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -405,7 +404,6 @@
   {
     "nombre": "Crecimiento espinoso",
     "clases": [
-      "Clérigo",
       "Druida",
       "Explorador"
     ],
@@ -436,7 +434,6 @@
     "nombre": "Detectar pensamientos",
     "clases": [
       "Bardo",
-      "Clérigo",
       "Hechicero",
       "Mago"
     ],
@@ -490,8 +487,6 @@
     "nombre": "Dulce descanso",
     "clases": [
       "Clérigo",
-      "Paladín",
-      "Brujo",
       "Mago"
     ],
     "escuela": "Nigromancia",
@@ -515,7 +510,6 @@
     "nombre": "Embelesar",
     "clases": [
       "Bardo",
-      "Hechicero",
       "Brujo"
     ],
     "escuela": "Encantamiento",
@@ -540,7 +534,8 @@
   {
     "nombre": "Esfera de llamas",
     "clases": [
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -568,7 +563,6 @@
   {
     "nombre": "Flecha ácida de Melf",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Evocación",
@@ -595,7 +589,8 @@
     "nombre": "Fuerza fantasmal",
     "clases": [
       "Bardo",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
@@ -624,7 +619,8 @@
     "clases": [
       "Bardo",
       "Brujo",
-      "Hechicero"
+      "Hechicero",
+      "Mago"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -705,7 +701,8 @@
     "nombre": "Imagen múltiple",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
@@ -729,7 +726,9 @@
       "Bardo",
       "Brujo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Druida",
+      "Clérigo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -782,7 +781,6 @@
   {
     "nombre": "Levitar",
     "clases": [
-      "Brujo",
       "Hechicero",
       "Mago"
     ],
@@ -812,7 +810,8 @@
   {
     "nombre": "Llama permanente",
     "clases": [
-      "Clérigo"
+      "Clérigo",
+      "Mago"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -865,7 +864,8 @@
       "Clérigo",
       "Druida",
       "Paladín",
-      "Explorador"
+      "Explorador",
+      "Mago"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "Acción",
@@ -921,7 +921,9 @@
     "nombre": "Nube de dagas",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -1079,7 +1081,6 @@
       "Bardo",
       "Clérigo",
       "Druida",
-      "Mago",
       "Hechicero"
     ],
     "escuela": "Transmutación",
@@ -1130,7 +1131,8 @@
     "nombre": "Ráfaga de viento",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -1281,8 +1283,7 @@
     "clases": [
       "Bardo",
       "Clérigo",
-      "Explorador",
-      "Mago"
+      "Explorador"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
@@ -1391,10 +1392,9 @@
   {
     "nombre": "Trepar cual arácnido",
     "clases": [
-      "Clérigo",
-      "Druida",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -1416,8 +1416,6 @@
   {
     "nombre": "Truco de la cuerda",
     "clases": [
-      "Bardo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutación",
@@ -1467,8 +1465,7 @@
   {
     "nombre": "Vínculo protector",
     "clases": [
-      "Clérigo",
-      "Paladín"
+      "Clérigo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",

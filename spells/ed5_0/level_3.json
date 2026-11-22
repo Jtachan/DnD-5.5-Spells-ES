@@ -57,7 +57,7 @@
   {
     "nombre": "Arma elemental",
     "clases": [
-      "Druida"
+      "Paladín"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -132,7 +132,8 @@
     "clases": [
       "Clérigo",
       "Druida",
-      "Explorador"
+      "Explorador",
+      "Hechicero"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -264,8 +265,6 @@
   {
     "nombre": "Conjurar descarga de proyectiles",
     "clases": [
-      "Hechicero",
-      "Mago",
       "Explorador"
     ],
     "escuela": "Conjuración",
@@ -316,7 +315,6 @@
   {
     "nombre": "Corcel fantasma",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Ilusión",
@@ -372,9 +370,9 @@
   {
     "nombre": "Crecimiento vegetal",
     "clases": [
-      "Clérigo",
       "Druida",
-      "Explorador"
+      "Explorador",
+      "Bardo"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción / 8 horas",
@@ -431,7 +429,8 @@
       "Druida",
       "Hechicero",
       "Mago",
-      "Paladín"
+      "Paladín",
+      "Brujo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -531,7 +530,8 @@
     "clases": [
       "Bardo",
       "Clérigo",
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",
@@ -553,7 +553,6 @@
   {
     "nombre": "Flecha de relámpago",
     "clases": [
-      "Druida",
       "Explorador"
     ],
     "escuela": "Transmutación",
@@ -628,7 +627,8 @@
     "nombre": "Glifo custodio",
     "clases": [
       "Clérigo",
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "1 hora",
@@ -735,7 +735,8 @@
     "clases": [
       "Bardo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
@@ -762,8 +763,9 @@
   {
     "nombre": "Imponer maldición",
     "clases": [
-      "Brujo",
-      "Clérigo"
+      "Clérigo",
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",
@@ -785,7 +787,6 @@
     "nombre": "Indetectable",
     "clases": [
       "Bardo",
-      "Clérigo",
       "Explorador",
       "Mago"
     ],
@@ -814,7 +815,8 @@
     "clases": [
       "Brujo",
       "Clérigo",
-      "Paladín"
+      "Paladín",
+      "Mago"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -893,11 +895,8 @@
   {
     "nombre": "Muro de viento",
     "clases": [
-      "Bardo",
       "Druida",
-      "Explorador",
-      "Hechicero",
-      "Mago"
+      "Explorador"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -926,8 +925,8 @@
     "nombre": "Nube apestosa",
     "clases": [
       "Bardo",
-      "Druida",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -955,9 +954,7 @@
   {
     "nombre": "Palabra de curación en masa",
     "clases": [
-      "Bardo",
-      "Clérigo",
-      "Druida"
+      "Clérigo"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción adicional",
@@ -982,7 +979,8 @@
     "clases": [
       "Bardo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
@@ -1039,7 +1037,6 @@
       "Druida",
       "Explorador",
       "Hechicero",
-      "Brujo",
       "Mago"
     ],
     "escuela": "Abjuración",
@@ -1092,8 +1089,6 @@
     "clases": [
       "Bardo",
       "Clérigo",
-      "Druida",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Evocación",
@@ -1143,7 +1138,9 @@
     "nombre": "Respirar bajo el agua",
     "clases": [
       "Druida",
-      "Explorador"
+      "Explorador",
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -1191,10 +1188,7 @@
   {
     "nombre": "Señal de esperanza",
     "clases": [
-      "Bardo",
-      "Clérigo",
-      "Druida",
-      "Paladín"
+      "Clérigo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -1220,7 +1214,8 @@
     "clases": [
       "Bardo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
@@ -1246,7 +1241,6 @@
     "nombre": "Toque vampírico",
     "clases": [
       "Brujo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Nigromancia",
@@ -1268,9 +1262,9 @@
   {
     "nombre": "Tormenta de aguanieve",
     "clases": [
-      "Clérigo",
       "Druida",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -1299,7 +1293,8 @@
     "nombre": "Volar",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",

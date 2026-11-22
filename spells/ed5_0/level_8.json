@@ -129,7 +129,8 @@
     "nombre": "Controlar el clima",
     "clases": [
       "Clérigo",
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "10 minutos",
@@ -155,7 +156,6 @@
     "nombre": "Dominar monstruo",
     "clases": [
       "Bardo",
-      "Druida",
       "Hechicero",
       "Mago",
       "Brujo"
@@ -182,7 +182,6 @@
   {
     "nombre": "Explosión solar",
     "clases": [
-      "Clérigo",
       "Druida",
       "Hechicero",
       "Mago"
@@ -238,9 +237,7 @@
     "nombre": "Labia",
     "clases": [
       "Bardo",
-      "Brujo",
-      "Hechicero",
-      "Mago"
+      "Brujo"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -311,7 +308,9 @@
     "nombre": "Palabra de poder: aturdir",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -334,8 +333,10 @@
   {
     "nombre": "Romper la mente",
     "clases": [
-      "Hechicero",
-      "Mago"
+      "Mago",
+      "Druida",
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -360,7 +361,8 @@
   {
     "nombre": "Semiplano",
     "clases": [
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -386,7 +388,6 @@
   {
     "nombre": "Telepatía",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Evocación",

@@ -53,7 +53,8 @@
   {
     "nombre": "Armadura de mago",
     "clases": [
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -519,7 +520,6 @@
   {
     "nombre": "Encontrar familiar",
     "clases": [
-      "Brujo",
       "Mago"
     ],
     "escuela": "Conjuración",
@@ -577,7 +577,6 @@
     "clases": [
       "Bardo",
       "Brujo",
-      "Clérigo",
       "Hechicero",
       "Mago"
     ],
@@ -720,7 +719,6 @@
   {
     "nombre": "Golpe apresador",
     "clases": [
-      "Druida",
       "Explorador"
     ],
     "escuela": "Conjuración",
@@ -770,7 +768,6 @@
     "nombre": "Hablar con los animales",
     "clases": [
       "Bardo",
-      "Clérigo",
       "Druida",
       "Explorador"
     ],
@@ -796,7 +793,8 @@
       "Bardo",
       "Brujo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -846,7 +844,6 @@
     "nombre": "Identificar",
     "clases": [
       "Bardo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Adivinación",
@@ -994,7 +991,8 @@
     "clases": [
       "Druida",
       "Explorador",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -1023,7 +1021,8 @@
     "clases": [
       "Bardo",
       "Druida",
-      "Hechicero"
+      "Hechicero",
+      "Mago"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -1129,7 +1128,7 @@
     "nombre": "Perdición",
     "clases": [
       "Clérigo",
-      "Paladín"
+      "Bardo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -1156,7 +1155,6 @@
     "clases": [
       "Clérigo",
       "Paladín",
-      "Hechicero",
       "Brujo",
       "Mago"
     ],
@@ -1234,7 +1232,9 @@
   {
     "nombre": "Rayo de hechicería",
     "clases": [
-      "Hechicero"
+      "Hechicero",
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -1331,7 +1331,6 @@
   {
     "nombre": "Risa horrible de Tasha",
     "clases": [
-      "Hechicero",
       "Bardo",
       "Mago"
     ],
@@ -1456,8 +1455,8 @@
     "nombre": "Sirviente invisible",
     "clases": [
       "Bardo",
-      "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -1509,7 +1508,8 @@
     "nombre": "Texto ilusorio",
     "clases": [
       "Bardo",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -1557,7 +1557,6 @@
       "Bardo",
       "Druida",
       "Explorador",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutación",
