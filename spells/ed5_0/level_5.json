@@ -992,8 +992,7 @@
     "nombre": "Plaga de insectos",
     "clases": [
       "Clérigo",
-      "Druida",
-      "Explorador"
+      "Druida"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
