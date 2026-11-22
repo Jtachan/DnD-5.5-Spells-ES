@@ -661,7 +661,6 @@
   {
     "nombre": "Rayo solar",
     "clases": [
-      "Clérigo",
       "Druida",
       "Mago",
       "Hechicero"
@@ -770,7 +769,6 @@
   {
     "nombre": "Viajar con el viento",
     "clases": [
-      "Clérigo",
       "Druida"
     ],
     "escuela": "Transmutación",

@@ -154,7 +154,7 @@
   {
     "nombre": "Palabra de poder: sanar",
     "clases": [
-      "Clérigo"
+
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -225,7 +225,8 @@
     "nombre": "Portal",
     "clases": [
       "Mago",
-      "Hechicero"
+      "Hechicero",
+      "Clérigo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -254,7 +255,6 @@
     "nombre": "Presagio",
     "clases": [
       "Bardo",
-      "Clérigo",
       "Mago",
       "Druida"
     ],

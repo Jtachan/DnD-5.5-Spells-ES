@@ -349,7 +349,6 @@
   {
     "nombre": "Cordón de flechas",
     "clases": [
-      "Clérigo",
       "Explorador"
     ],
     "escuela": "Transmutación",
@@ -404,7 +403,6 @@
   {
     "nombre": "Crecimiento espinoso",
     "clases": [
-      "Clérigo",
       "Druida",
       "Explorador"
     ],
@@ -435,7 +433,6 @@
     "nombre": "Detectar pensamientos",
     "clases": [
       "Bardo",
-      "Clérigo",
       "Hechicero",
       "Mago"
     ],
@@ -730,7 +727,8 @@
       "Brujo",
       "Hechicero",
       "Mago",
-      "Druida"
+      "Druida",
+      "Clérigo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -1393,7 +1391,6 @@
   {
     "nombre": "Trepar cual arácnido",
     "clases": [
-      "Clérigo",
       "Hechicero",
       "Mago"
     ],

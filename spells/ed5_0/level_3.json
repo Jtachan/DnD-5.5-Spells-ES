@@ -369,7 +369,6 @@
   {
     "nombre": "Crecimiento vegetal",
     "clases": [
-      "Clérigo",
       "Druida",
       "Explorador"
     ],
@@ -783,7 +782,6 @@
     "nombre": "Indetectable",
     "clases": [
       "Bardo",
-      "Clérigo",
       "Explorador",
       "Mago"
     ],
@@ -1262,7 +1260,6 @@
   {
     "nombre": "Tormenta de aguanieve",
     "clases": [
-      "Clérigo",
       "Druida",
       "Mago",
       "Hechicero"

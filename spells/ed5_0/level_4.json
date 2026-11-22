@@ -139,8 +139,7 @@
   {
     "nombre": "Compulsión",
     "clases": [
-      "Bardo",
-      "Clérigo"
+      "Bardo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -898,7 +897,6 @@
   {
     "nombre": "Tormenta de hielo",
     "clases": [
-      "Clérigo",
       "Druida",
       "Hechicero",
       "Mago"

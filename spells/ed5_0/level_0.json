@@ -144,7 +144,6 @@
   {
     "nombre": "Guardia de cuchillas",
     "clases": [
-      "Clérigo",
       "Hechicero",
       "Mago"
     ],
@@ -434,7 +433,6 @@
     "nombre": "Prestidigitación",
     "clases": [
       "Bardo",
-      "Clérigo",
       "Hechicero",
       "Mago",
       "Brujo"

@@ -578,7 +578,6 @@
     "clases": [
       "Bardo",
       "Brujo",
-      "Clérigo",
       "Hechicero",
       "Mago"
     ],
@@ -770,7 +769,6 @@
     "nombre": "Hablar con los animales",
     "clases": [
       "Bardo",
-      "Clérigo",
       "Druida",
       "Explorador"
     ],
