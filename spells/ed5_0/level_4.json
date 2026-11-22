@@ -139,9 +139,7 @@
   {
     "nombre": "Compulsión",
     "clases": [
-      "Bardo",
-      "Clérigo",
-      "Druida"
+      "Bardo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -196,7 +194,8 @@
   {
     "nombre": "Conjurar elementales menores",
     "clases": [
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -358,7 +357,6 @@
   {
     "nombre": "Escudo de fuego",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Evocación",
@@ -409,7 +407,6 @@
   {
     "nombre": "Fabricar",
     "clases": [
-      "Bardo",
       "Mago"
     ],
     "escuela": "Transmutación",
@@ -564,7 +561,8 @@
       "Clérigo",
       "Druida",
       "Paladín",
-      "Explorador"
+      "Explorador",
+      "Mago"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "Acción",
@@ -591,7 +589,8 @@
     "clases": [
       "Druida",
       "Brujo",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",
@@ -644,7 +643,8 @@
     "nombre": "Moldear la piedra",
     "clases": [
       "Clérigo",
-      "Druida"
+      "Druida",
+      "Mago"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -669,9 +669,9 @@
   {
     "nombre": "Muro de fuego",
     "clases": [
-      "Brujo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -729,7 +729,8 @@
     "clases": [
       "Druida",
       "Mago",
-      "Explorador"
+      "Explorador",
+      "Hechicero"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -836,7 +837,6 @@
   {
     "nombre": "Tentáculos negros de Evard",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Conjuración",
@@ -867,7 +867,8 @@
     "clases": [
       "Bardo",
       "Druida",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "10 minutos",
@@ -895,9 +896,9 @@
   {
     "nombre": "Tormenta de hielo",
     "clases": [
-      "Clérigo",
       "Druida",
-      "Hechicero"
+      "Hechicero",
+      "Mago"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",

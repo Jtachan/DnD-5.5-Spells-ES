@@ -27,7 +27,6 @@
     "nombre": "Baile irresistible de Otto",
     "clases": [
       "Bardo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Encantamiento",
@@ -109,7 +108,7 @@
     "nombre": "Conjurar feérico",
     "clases": [
       "Druida",
-      "Mago"
+      "Brujo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -156,7 +155,8 @@
     "nombre": "Crear muerto viviente",
     "clases": [
       "Clérigo",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -392,7 +392,8 @@
   {
     "nombre": "Guardas y guardias",
     "clases": [
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "10 minutos",
@@ -418,7 +419,6 @@
     "nombre": "Ilusión programada",
     "clases": [
       "Bardo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Ilusión",
@@ -473,7 +473,9 @@
     "nombre": "Mal de ojo",
     "clases": [
       "Brujo",
-      "Mago"
+      "Mago",
+      "Hechicero",
+      "Bardo"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",
@@ -498,7 +500,8 @@
     "nombre": "Mover la tierra",
     "clases": [
       "Druida",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -554,7 +557,6 @@
   {
     "nombre": "Muro de hielo",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Evocación",
@@ -663,8 +665,9 @@
   {
     "nombre": "Rayo solar",
     "clases": [
-      "Clérigo",
-      "Druida"
+      "Druida",
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -720,7 +723,8 @@
     "clases": [
       "Bardo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -744,8 +748,6 @@
   {
     "nombre": "Urna mágica",
     "clases": [
-      "Brujo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Nigromancia",
@@ -771,7 +773,6 @@
   {
     "nombre": "Viajar con el viento",
     "clases": [
-      "Clérigo",
       "Druida"
     ],
     "escuela": "Transmutación",
@@ -828,7 +829,10 @@
     "nombre": "Visión veraz",
     "clases": [
       "Clérigo",
-      "Mago"
+      "Mago",
+      "Hechicero",
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "Acción",

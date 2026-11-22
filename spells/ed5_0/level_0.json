@@ -144,9 +144,10 @@
   {
     "nombre": "Guardia de cuchillas",
     "clases": [
-      "Clérigo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -167,7 +168,8 @@
   {
     "nombre": "Guía",
     "clases": [
-      "Clérigo"
+      "Clérigo",
+      "Druida"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "Acción",
@@ -189,7 +191,9 @@
     "nombre": "Ilusión menor",
     "clases": [
       "Bardo",
-      "Mago"
+      "Mago",
+      "Hechicero",
+      "Brujo"
     ],
     "escuela": "Ilusionismo",
     "tiempo_de_lanzamiento": "Acción",
@@ -218,7 +222,8 @@
     "clases": [
       "Bardo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "Acción",
@@ -325,7 +330,8 @@
     "clases": [
       "Clérigo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Bardo"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -380,7 +386,6 @@
     "nombre": "Mensaje",
     "clases": [
       "Bardo",
-      "Brujo",
       "Hechicero",
       "Mago"
     ],
@@ -432,7 +437,6 @@
     "nombre": "Prestidigitación",
     "clases": [
       "Bardo",
-      "Clérigo",
       "Hechicero",
       "Mago",
       "Brujo"
@@ -545,7 +549,8 @@
     "clases": [
       "Druida",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -670,7 +675,8 @@
     "nombre": "Toque helado",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",

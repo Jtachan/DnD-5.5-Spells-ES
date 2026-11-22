@@ -3,7 +3,6 @@
     "nombre": "Cambiar de forma",
     "clases": [
       "Druida",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutación",
@@ -27,8 +26,6 @@
     "nombre": "Cautiverio",
     "clases": [
       "Bardo",
-      "Hechicero",
-      "Brujo",
       "Mago"
     ],
     "escuela": "Abjuración",
@@ -132,7 +129,10 @@
   {
     "nombre": "Palabra de poder: matar",
     "clases": [
-      "Mago"
+      "Mago",
+      "Hechicero",
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -155,7 +155,7 @@
   {
     "nombre": "Palabra de poder: sanar",
     "clases": [
-      "Clérigo"
+      "Bardo"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -176,7 +176,8 @@
   {
     "nombre": "Parar el tiempo",
     "clases": [
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -199,7 +200,9 @@
   {
     "nombre": "Polimorfar verdadero",
     "clases": [
-      "Mago"
+      "Mago",
+      "Brujo",
+      "Bardo"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -224,7 +227,9 @@
   {
     "nombre": "Portal",
     "clases": [
-      "Mago"
+      "Mago",
+      "Hechicero",
+      "Clérigo"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -253,7 +258,9 @@
     "nombre": "Presagio",
     "clases": [
       "Bardo",
-      "Clérigo"
+      "Mago",
+      "Druida",
+      "Brujo"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "1 minuto",
@@ -276,7 +283,8 @@
     "nombre": "Proyección astral",
     "clases": [
       "Clérigo",
-      "Mago"
+      "Mago",
+      "Brujo"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "1 hora",
@@ -330,7 +338,6 @@
   {
     "nombre": "Terror abyecto",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Ilusión",
