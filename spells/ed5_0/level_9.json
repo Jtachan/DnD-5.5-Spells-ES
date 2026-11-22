@@ -255,7 +255,8 @@
     "clases": [
       "Bardo",
       "Clérigo",
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "1 minuto",

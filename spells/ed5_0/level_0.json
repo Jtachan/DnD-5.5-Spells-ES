@@ -167,7 +167,8 @@
   {
     "nombre": "Guía",
     "clases": [
-      "Clérigo"
+      "Clérigo",
+      "Druida"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "Acción",

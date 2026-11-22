@@ -156,7 +156,6 @@
     "nombre": "Dominar monstruo",
     "clases": [
       "Bardo",
-      "Druida",
       "Hechicero",
       "Mago",
       "Brujo"
@@ -333,7 +332,8 @@
   {
     "nombre": "Romper la mente",
     "clases": [
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",

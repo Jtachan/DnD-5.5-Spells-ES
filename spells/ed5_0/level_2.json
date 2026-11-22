@@ -350,7 +350,6 @@
     "nombre": "Cordón de flechas",
     "clases": [
       "Clérigo",
-      "Druida",
       "Explorador"
     ],
     "escuela": "Transmutación",
@@ -730,7 +729,8 @@
       "Bardo",
       "Brujo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -1132,7 +1132,8 @@
     "nombre": "Ráfaga de viento",
     "clases": [
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -1393,7 +1394,6 @@
     "nombre": "Trepar cual arácnido",
     "clases": [
       "Clérigo",
-      "Druida",
       "Hechicero",
       "Mago"
     ],

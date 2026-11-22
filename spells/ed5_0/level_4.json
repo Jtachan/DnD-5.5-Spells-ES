@@ -140,8 +140,7 @@
     "nombre": "Compulsión",
     "clases": [
       "Bardo",
-      "Clérigo",
-      "Druida"
+      "Clérigo"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -674,7 +673,8 @@
     "clases": [
       "Brujo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",

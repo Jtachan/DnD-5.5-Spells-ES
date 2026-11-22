@@ -721,7 +721,6 @@
   {
     "nombre": "Golpe apresador",
     "clases": [
-      "Druida",
       "Explorador"
     ],
     "escuela": "Conjuración",
@@ -797,7 +796,8 @@
       "Bardo",
       "Brujo",
       "Hechicero",
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",

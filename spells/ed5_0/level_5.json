@@ -111,7 +111,8 @@
     "clases": [
       "Brujo",
       "Clérigo",
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "1 hora",
@@ -586,7 +587,6 @@
     "clases": [
       "Bardo",
       "Clérigo",
-      "Druida",
       "Hechicero",
       "Mago",
       "Brujo"
@@ -661,7 +661,6 @@
     "clases": [
       "Bardo",
       "Brujo",
-      "Druida",
       "Mago"
     ],
     "escuela": "Ilusión",
@@ -740,8 +739,7 @@
   {
     "nombre": "Golpe flamígero",
     "clases": [
-      "Clérigo",
-      "Druida"
+      "Clérigo"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -886,7 +884,6 @@
   {
     "nombre": "Nube aniquiladora",
     "clases": [
-      "Druida",
       "Hechicero",
       "Mago"
     ],

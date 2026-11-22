@@ -84,7 +84,8 @@
       "Clérigo",
       "Hechicero",
       "Brujo",
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -136,7 +137,8 @@
     "nombre": "Espejismo arcano",
     "clases": [
       "Bardo",
-      "Mago"
+      "Mago",
+      "Druida"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "10 minutos",
@@ -187,7 +189,8 @@
     "nombre": "Invertir la gravedad",
     "clases": [
       "Mago",
-      "Hechicero"
+      "Hechicero",
+      "Druida"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",

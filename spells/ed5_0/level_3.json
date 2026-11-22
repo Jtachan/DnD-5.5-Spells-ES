@@ -57,7 +57,6 @@
   {
     "nombre": "Arma elemental",
     "clases": [
-      "Druida"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -552,7 +551,6 @@
   {
     "nombre": "Flecha de relámpago",
     "clases": [
-      "Druida",
       "Explorador"
     ],
     "escuela": "Transmutación",
@@ -925,7 +923,6 @@
     "nombre": "Nube apestosa",
     "clases": [
       "Bardo",
-      "Druida",
       "Mago",
       "Hechicero"
     ],
@@ -956,8 +953,7 @@
     "nombre": "Palabra de curación en masa",
     "clases": [
       "Bardo",
-      "Clérigo",
-      "Druida"
+      "Clérigo"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción adicional",
@@ -1092,7 +1088,6 @@
     "clases": [
       "Bardo",
       "Clérigo",
-      "Druida",
       "Mago"
     ],
     "escuela": "Evocación",
@@ -1194,7 +1189,6 @@
     "clases": [
       "Bardo",
       "Clérigo",
-      "Druida",
       "Paladín"
     ],
     "escuela": "Abjuración",
