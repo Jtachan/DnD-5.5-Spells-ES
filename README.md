@@ -134,8 +134,3 @@ Cada conjuro contiene las siguientes entradas:
   }
 ]
 ```
-
-> Nota:
-> Este ejemplo ha sido preparado para una lectura fácil.
-> No obstante, el texto original dentro de cada archivo JSON contiene la secuencia codificada en utf-8 para todos los caracteres especiales.
-> Por ejemplo, el conjuro `"Adivinación"` está representado como `"Adivinaci\u00f3n"`
