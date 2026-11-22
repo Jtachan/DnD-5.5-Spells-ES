@@ -56,7 +56,9 @@
   },
   {
     "nombre": "Arma elemental",
-    "clases": ["Paladín"],
+    "clases": [
+      "Paladín"
+    ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
     "ritual": false,
