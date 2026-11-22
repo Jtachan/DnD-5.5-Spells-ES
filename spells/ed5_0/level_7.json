@@ -56,7 +56,8 @@
     "nombre": "Dedo de la muerte",
     "clases": [
       "Brujo",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",
@@ -185,7 +186,8 @@
   {
     "nombre": "Invertir la gravedad",
     "clases": [
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -215,7 +217,6 @@
     "clases": [
       "Bardo",
       "Brujo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Evocación",
@@ -295,7 +296,6 @@
   {
     "nombre": "Proyectar imagen",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Ilusión",
@@ -497,7 +497,8 @@
     "nombre": "Tormenta de fuego",
     "clases": [
       "Clérigo",
-      "Druida"
+      "Druida",
+      "Hechicero"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",

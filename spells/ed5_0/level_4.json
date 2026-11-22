@@ -359,7 +359,6 @@
   {
     "nombre": "Escudo de fuego",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Evocación",
@@ -593,7 +592,8 @@
     "clases": [
       "Druida",
       "Brujo",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",
@@ -732,7 +732,8 @@
     "clases": [
       "Druida",
       "Mago",
-      "Explorador"
+      "Explorador",
+      "Hechicero"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -839,7 +840,6 @@
   {
     "nombre": "Tentáculos negros de Evard",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Conjuración",

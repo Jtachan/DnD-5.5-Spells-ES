@@ -132,7 +132,8 @@
     "clases": [
       "Clérigo",
       "Druida",
-      "Explorador"
+      "Explorador",
+      "Hechicero"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -264,7 +265,6 @@
   {
     "nombre": "Conjurar descarga de proyectiles",
     "clases": [
-      "Hechicero",
       "Explorador"
     ],
     "escuela": "Conjuración",
@@ -315,7 +315,6 @@
   {
     "nombre": "Corcel fantasma",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Ilusión",
@@ -897,8 +896,7 @@
     "clases": [
       "Bardo",
       "Druida",
-      "Explorador",
-      "Hechicero"
+      "Explorador"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -928,7 +926,8 @@
     "clases": [
       "Bardo",
       "Druida",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -1094,7 +1093,6 @@
       "Bardo",
       "Clérigo",
       "Druida",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Evocación",
@@ -1145,7 +1143,8 @@
     "clases": [
       "Druida",
       "Explorador",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -1248,7 +1247,6 @@
     "nombre": "Toque vampírico",
     "clases": [
       "Brujo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Nigromancia",
@@ -1272,7 +1270,8 @@
     "clases": [
       "Clérigo",
       "Druida",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",

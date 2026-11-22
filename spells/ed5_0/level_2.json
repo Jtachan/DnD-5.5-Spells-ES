@@ -515,7 +515,6 @@
     "nombre": "Embelesar",
     "clases": [
       "Bardo",
-      "Hechicero",
       "Brujo"
     ],
     "escuela": "Encantamiento",
@@ -569,7 +568,6 @@
   {
     "nombre": "Flecha ácida de Melf",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Evocación",
@@ -596,7 +594,8 @@
     "nombre": "Fuerza fantasmal",
     "clases": [
       "Bardo",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
@@ -1419,7 +1418,6 @@
     "nombre": "Truco de la cuerda",
     "clases": [
       "Bardo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutación",

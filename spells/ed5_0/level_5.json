@@ -81,7 +81,8 @@
     "nombre": "Apariencia",
     "clases": [
       "Bardo",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Ilusión",
     "tiempo_de_lanzamiento": "Acción",
@@ -330,7 +331,6 @@
   {
     "nombre": "Conjurar lluvia de flechas",
     "clases": [
-      "Hechicero",
       "Explorador"
     ],
     "escuela": "Conjuración",
@@ -435,7 +435,6 @@
   {
     "nombre": "Contactar con otro plano",
     "clases": [
-      "Hechicero",
       "Mago",
       "Brujo",
       "Clérigo"
@@ -858,7 +857,8 @@
     "clases": [
       "Clérigo",
       "Druida",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -939,7 +939,6 @@
   {
     "nombre": "Pasamuros",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutación",
@@ -994,7 +993,8 @@
     "nombre": "Plaga de insectos",
     "clases": [
       "Clérigo",
-      "Druida"
+      "Druida",
+      "Hechicero"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",

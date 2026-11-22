@@ -27,7 +27,6 @@
     "nombre": "Baile irresistible de Otto",
     "clases": [
       "Bardo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Encantamiento",
@@ -417,7 +416,6 @@
     "nombre": "Ilusión programada",
     "clases": [
       "Bardo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Ilusión",
@@ -472,7 +470,8 @@
     "nombre": "Mal de ojo",
     "clases": [
       "Brujo",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Nigromancia",
     "tiempo_de_lanzamiento": "Acción",
@@ -497,7 +496,8 @@
     "nombre": "Mover la tierra",
     "clases": [
       "Druida",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -553,7 +553,6 @@
   {
     "nombre": "Muro de hielo",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Evocación",
@@ -664,7 +663,8 @@
     "clases": [
       "Clérigo",
       "Druida",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Evocación",
     "tiempo_de_lanzamiento": "Acción",
@@ -745,7 +745,6 @@
     "nombre": "Urna mágica",
     "clases": [
       "Brujo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Nigromancia",
@@ -828,7 +827,8 @@
     "nombre": "Visión veraz",
     "clases": [
       "Clérigo",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Adivinación",
     "tiempo_de_lanzamiento": "Acción",

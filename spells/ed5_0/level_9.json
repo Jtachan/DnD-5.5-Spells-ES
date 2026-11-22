@@ -3,7 +3,6 @@
     "nombre": "Cambiar de forma",
     "clases": [
       "Druida",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutación",
@@ -27,7 +26,6 @@
     "nombre": "Cautiverio",
     "clases": [
       "Bardo",
-      "Hechicero",
       "Brujo",
       "Mago"
     ],
@@ -132,7 +130,8 @@
   {
     "nombre": "Palabra de poder: matar",
     "clases": [
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Encantamiento",
     "tiempo_de_lanzamiento": "Acción",
@@ -176,7 +175,8 @@
   {
     "nombre": "Parar el tiempo",
     "clases": [
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Transmutación",
     "tiempo_de_lanzamiento": "Acción",
@@ -224,7 +224,8 @@
   {
     "nombre": "Portal",
     "clases": [
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -331,7 +332,6 @@
   {
     "nombre": "Terror abyecto",
     "clases": [
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Ilusión",

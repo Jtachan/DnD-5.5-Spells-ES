@@ -189,7 +189,8 @@
     "nombre": "Ilusión menor",
     "clases": [
       "Bardo",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Ilusionismo",
     "tiempo_de_lanzamiento": "Acción",

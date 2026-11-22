@@ -53,7 +53,8 @@
   {
     "nombre": "Armadura de mago",
     "clases": [
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Abjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -846,7 +847,6 @@
     "nombre": "Identificar",
     "clases": [
       "Bardo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Adivinación",
@@ -994,7 +994,8 @@
     "clases": [
       "Druida",
       "Explorador",
-      "Mago"
+      "Mago",
+      "Hechicero"
     ],
     "escuela": "Conjuración",
     "tiempo_de_lanzamiento": "Acción",
@@ -1157,7 +1158,6 @@
     "clases": [
       "Clérigo",
       "Paladín",
-      "Hechicero",
       "Brujo",
       "Mago"
     ],
@@ -1333,7 +1333,6 @@
   {
     "nombre": "Risa horrible de Tasha",
     "clases": [
-      "Hechicero",
       "Bardo",
       "Mago"
     ],
@@ -1458,7 +1457,6 @@
     "nombre": "Sirviente invisible",
     "clases": [
       "Bardo",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Conjuración",
@@ -1559,7 +1557,6 @@
       "Bardo",
       "Druida",
       "Explorador",
-      "Hechicero",
       "Mago"
     ],
     "escuela": "Transmutación",
